@@ -1,0 +1,122 @@
+{
+  "collections": [
+    {
+      "id": "rajasthan_fruits", "title": "Fruits",
+      "description": "Fruits with a verified Rajasthan growing relationship.",
+      "icon": "fruit", "parent_section_id": "food_drink",
+      "context_id": "rajasthan", "context_name": "Rajasthan",
+      "entity_type": "fruit", "sort_order": 1, "completion_verb": "explored",
+      "empty_message": "More Rajasthan fruit experiences are coming soon."
+    },
+    {
+      "id": "rajasthan_dishes", "title": "Dishes",
+      "description": "Regional dishes to experience across Rajasthan.",
+      "icon": "dish", "parent_section_id": "food_drink",
+      "context_id": "rajasthan", "context_name": "Rajasthan",
+      "entity_type": "experience", "sort_order": 2, "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_rajasthan_dal_baati_churma", "exp_rajasthan_laal_maas",
+        "exp_safed_maas", "exp_ker_sangri", "exp_gatte_ki_khichdi",
+        "exp_gatte_ki_sabzi", "exp_shahi_gatte", "exp_rajasthan_pyaaz_kachori",
+        "exp_mawa_kachori", "exp_rajasthan_mirchi_bada", "exp_rajasthan_ghevar",
+        "exp_malpua", "exp_panchmel_dal", "exp_machalee_jaisamandi"
+      ],
+      "empty_message": "More Rajasthan dish experiences are coming soon."
+    },
+    {
+      "id": "rajasthan_drinks", "title": "Drinks",
+      "description": "Curated drink experiences from Rajasthan.",
+      "icon": "drink", "parent_section_id": "food_drink",
+      "context_id": "rajasthan", "context_name": "Rajasthan",
+      "entity_type": "experience", "sort_order": 3, "completion_verb": "tried",
+      "member_entity_ids": [],
+      "empty_message": "More Rajasthan drink experiences are coming soon."
+    },
+    {
+      "id": "rajasthan_landmarks", "title": "Landmarks & Heritage",
+      "description": "Landmarks and heritage places across Rajasthan.",
+      "icon": "landmark", "parent_section_id": "things_to_do",
+      "context_id": "rajasthan", "context_name": "Rajasthan",
+      "entity_type": "experience", "sort_order": 1, "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_rajasthan_amer_fort", "exp_hawa_mahal", "exp_jantar_mantar_jaipur",
+        "exp_city_palace_jaipur", "exp_nahargarh_fort",
+        "exp_rajasthan_mehrangarh_fort", "exp_umaid_bhawan_palace",
+        "exp_jaisalmer_fort", "exp_chittorgarh_fort", "exp_kumbhalgarh_fort",
+        "exp_ranthambore_fort", "exp_gagron_fort", "exp_rajasthan_chand_baori",
+        "exp_dilwara_jain_temples", "exp_rajasthan_city_palace_udaipur"
+      ],
+      "empty_message": "More Rajasthan landmarks are coming soon."
+    },
+    {
+      "id": "rajasthan_nature_wildlife", "title": "Nature & Wildlife",
+      "description": "Natural and wildlife places across Rajasthan.",
+      "icon": "nature", "parent_section_id": "things_to_do",
+      "context_id": "rajasthan", "context_name": "Rajasthan",
+      "entity_type": "experience", "sort_order": 2, "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_ranthambore_national_park", "exp_sariska_tiger_reserve",
+        "exp_keoladeo_national_park", "exp_desert_national_park",
+        "exp_gajner_wildlife_sanctuary", "exp_kaila_devi_wildlife_sanctuary",
+        "exp_mukundra_hills_tiger_reserve", "exp_ramgarh_vishdhari_tiger_reserve",
+        "exp_band_baretha_wildlife_sanctuary"
+      ],
+      "empty_message": "More Rajasthan nature experiences are coming soon."
+    },
+    {
+      "id": "rajasthan_activities", "title": "Experiences & Activities",
+      "description": "Activities and participatory experiences across Rajasthan.",
+      "icon": "activity", "parent_section_id": "things_to_do",
+      "context_id": "rajasthan", "context_name": "Rajasthan",
+      "entity_type": "experience", "sort_order": 3, "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_ranthambore_safari", "exp_sariska_safari",
+        "exp_rajasthan_desert_safari_jaisalmer", "exp_mehrangarh_zip_line",
+        "exp_jaisalmer_parasailing", "exp_rajasthan_local_bazaar",
+        "exp_rajasthan_handicraft_market", "exp_sanganeri_block_printing_workshop",
+        "exp_rajasthan_heritage_haveli"
+      ],
+      "empty_message": "More Rajasthan activities are coming soon."
+    },
+    {
+      "id": "rajasthan_arts_crafts", "title": "Arts & Crafts",
+      "description": "Arts and crafts associated with Rajasthan.",
+      "icon": "craft", "parent_section_id": "culture",
+      "context_id": "rajasthan", "context_name": "Rajasthan",
+      "entity_type": "experience", "sort_order": 1, "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_blue_pottery", "exp_phad_painting", "exp_pichwai_painting",
+        "exp_rajasthani_miniature_painting", "exp_rajasthan_block_printing",
+        "exp_bandhani", "exp_kundan_jewellery", "exp_meenakari_jewellery",
+        "exp_thewa_work", "exp_rajasthani_mojari", "exp_rajasthani_handwoven_carpets"
+      ],
+      "empty_message": "More Rajasthan arts and crafts are coming soon."
+    },
+    {
+      "id": "rajasthan_festivals_fairs", "title": "Festivals & Fairs",
+      "description": "Festivals and fairs associated with Rajasthan.",
+      "icon": "festival", "parent_section_id": "culture",
+      "context_id": "rajasthan", "context_name": "Rajasthan",
+      "entity_type": "experience", "sort_order": 2, "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_pushkar_fair", "exp_teej_festival", "exp_gangaur_festival",
+        "exp_mewar_festival", "exp_bikaner_camel_festival", "exp_desert_festival",
+        "exp_nagaur_fair", "exp_beneshwar_fair", "exp_braj_holi_festival",
+        "exp_mount_abu_summer_festival", "exp_marwar_festival",
+        "exp_bundi_festival", "exp_kumbhalgarh_festival"
+      ],
+      "empty_message": "More Rajasthan festivals and fairs are coming soon."
+    },
+    {
+      "id": "rajasthan_music_dance", "title": "Music & Dance",
+      "description": "Music and dance traditions associated with Rajasthan.",
+      "icon": "music", "parent_section_id": "culture",
+      "context_id": "rajasthan", "context_name": "Rajasthan",
+      "entity_type": "experience", "sort_order": 3, "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_ghoomar", "exp_gair", "exp_rajasthan_folk_performance"
+      ],
+      "empty_message": "More Rajasthan music and dance experiences are coming soon."
+    }
+  ]
+}

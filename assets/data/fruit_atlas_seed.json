@@ -1,0 +1,1824 @@
+{
+  "dataset_version": "v0.3",
+  "description": "Fruit Atlas India research-stage seed dataset. Fruit-state links are limited to the verified mappings present in the source workbook.",
+  "state_count": 36,
+  "fruit_count": 100,
+  "variety_count": 49,
+  "verified_fruit_state_link_count": 72,
+  "states": [
+    {
+      "id": "AP",
+      "name": "Andhra Pradesh",
+      "type": "State",
+      "region": "South"
+    },
+    {
+      "id": "AR",
+      "name": "Arunachal Pradesh",
+      "type": "State",
+      "region": "Northeast"
+    },
+    {
+      "id": "AS",
+      "name": "Assam",
+      "type": "State",
+      "region": "Northeast"
+    },
+    {
+      "id": "BR",
+      "name": "Bihar",
+      "type": "State",
+      "region": "East"
+    },
+    {
+      "id": "CG",
+      "name": "Chhattisgarh",
+      "type": "State",
+      "region": "Central"
+    },
+    {
+      "id": "GA",
+      "name": "Goa",
+      "type": "State",
+      "region": "West"
+    },
+    {
+      "id": "GJ",
+      "name": "Gujarat",
+      "type": "State",
+      "region": "West"
+    },
+    {
+      "id": "HR",
+      "name": "Haryana",
+      "type": "State",
+      "region": "North"
+    },
+    {
+      "id": "HP",
+      "name": "Himachal Pradesh",
+      "type": "State",
+      "region": "North"
+    },
+    {
+      "id": "JH",
+      "name": "Jharkhand",
+      "type": "State",
+      "region": "East"
+    },
+    {
+      "id": "KA",
+      "name": "Karnataka",
+      "type": "State",
+      "region": "South"
+    },
+    {
+      "id": "KL",
+      "name": "Kerala",
+      "type": "State",
+      "region": "South"
+    },
+    {
+      "id": "MP",
+      "name": "Madhya Pradesh",
+      "type": "State",
+      "region": "Central"
+    },
+    {
+      "id": "MH",
+      "name": "Maharashtra",
+      "type": "State",
+      "region": "West"
+    },
+    {
+      "id": "MN",
+      "name": "Manipur",
+      "type": "State",
+      "region": "Northeast"
+    },
+    {
+      "id": "ML",
+      "name": "Meghalaya",
+      "type": "State",
+      "region": "Northeast"
+    },
+    {
+      "id": "MZ",
+      "name": "Mizoram",
+      "type": "State",
+      "region": "Northeast"
+    },
+    {
+      "id": "NL",
+      "name": "Nagaland",
+      "type": "State",
+      "region": "Northeast"
+    },
+    {
+      "id": "OD",
+      "name": "Odisha",
+      "type": "State",
+      "region": "East"
+    },
+    {
+      "id": "PB",
+      "name": "Punjab",
+      "type": "State",
+      "region": "North"
+    },
+    {
+      "id": "RJ",
+      "name": "Rajasthan",
+      "type": "State",
+      "region": "West"
+    },
+    {
+      "id": "SK",
+      "name": "Sikkim",
+      "type": "State",
+      "region": "Northeast"
+    },
+    {
+      "id": "TN",
+      "name": "Tamil Nadu",
+      "type": "State",
+      "region": "South"
+    },
+    {
+      "id": "TS",
+      "name": "Telangana",
+      "type": "State",
+      "region": "South"
+    },
+    {
+      "id": "TR",
+      "name": "Tripura",
+      "type": "State",
+      "region": "Northeast"
+    },
+    {
+      "id": "UK",
+      "name": "Uttarakhand",
+      "type": "State",
+      "region": "North"
+    },
+    {
+      "id": "UP",
+      "name": "Uttar Pradesh",
+      "type": "State",
+      "region": "North"
+    },
+    {
+      "id": "WB",
+      "name": "West Bengal",
+      "type": "State",
+      "region": "East"
+    },
+    {
+      "id": "AN",
+      "name": "Andaman and Nicobar Islands",
+      "type": "UT",
+      "region": "Islands"
+    },
+    {
+      "id": "CH",
+      "name": "Chandigarh",
+      "type": "UT",
+      "region": "North"
+    },
+    {
+      "id": "DN",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "type": "UT",
+      "region": "West"
+    },
+    {
+      "id": "DL",
+      "name": "Delhi",
+      "type": "UT",
+      "region": "North"
+    },
+    {
+      "id": "JK",
+      "name": "Jammu and Kashmir",
+      "type": "UT",
+      "region": "North"
+    },
+    {
+      "id": "LA",
+      "name": "Ladakh",
+      "type": "UT",
+      "region": "North"
+    },
+    {
+      "id": "LD",
+      "name": "Lakshadweep",
+      "type": "UT",
+      "region": "Islands"
+    },
+    {
+      "id": "PY",
+      "name": "Puducherry",
+      "type": "UT",
+      "region": "South"
+    }
+  ],
+  "fruits": [
+    {
+      "id": "FR001",
+      "name": "Mango",
+      "scientific_name": "Mangifera indica",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [
+        {
+          "state_id": "AP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "AS",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "BR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "CG",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "GJ",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "HR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "HP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "JK",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "JH",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "MZ",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "OD",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "PB",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "RJ",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "TN",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "TS",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "UP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        }
+      ],
+      "varieties": [
+        {
+          "id": "VAR001",
+          "name": "Dashehari",
+          "notes": "Uttar Pradesh associated"
+        },
+        {
+          "id": "VAR002",
+          "name": "Langra",
+          "notes": "North Indian cultivar"
+        },
+        {
+          "id": "VAR003",
+          "name": "Chausa",
+          "notes": "North Indian cultivar"
+        },
+        {
+          "id": "VAR004",
+          "name": "Alphonso",
+          "notes": "Western Indian cultivar"
+        },
+        {
+          "id": "VAR005",
+          "name": "Kesar",
+          "notes": "Gujarat-associated cultivar"
+        },
+        {
+          "id": "VAR006",
+          "name": "Banganapalli",
+          "notes": "Southern Indian cultivar"
+        },
+        {
+          "id": "VAR007",
+          "name": "Totapuri",
+          "notes": "Southern/processing cultivar"
+        },
+        {
+          "id": "VAR008",
+          "name": "Himsagar",
+          "notes": "Eastern Indian cultivar"
+        },
+        {
+          "id": "VAR009",
+          "name": "Rataul",
+          "notes": "Uttar Pradesh associated"
+        },
+        {
+          "id": "VAR010",
+          "name": "Amrapali",
+          "notes": "Indian hybrid"
+        },
+        {
+          "id": "VAR045",
+          "name": "CISH Ambika",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR046",
+          "name": "CISH Arunika",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR047",
+          "name": "Arka Suprabhath",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR048",
+          "name": "Arka Udaya",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR049",
+          "name": "Pusa Deepshikha",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR050",
+          "name": "Pusa Arunima",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR051",
+          "name": "Cardozo Mankurad",
+          "notes": "Goa-associated cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR002",
+      "name": "Banana",
+      "scientific_name": "Musa spp.",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [
+        {
+          "state_id": "AP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "AR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "AS",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "BR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "CG",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "GJ",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "HP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "JH",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "KL",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "MP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        }
+      ],
+      "varieties": [
+        {
+          "id": "VAR011",
+          "name": "Grand Naine",
+          "notes": "Commercial cultivar"
+        },
+        {
+          "id": "VAR012",
+          "name": "Robusta",
+          "notes": "Commercial cultivar"
+        },
+        {
+          "id": "VAR013",
+          "name": "Rasthali",
+          "notes": "Traditional Indian cultivar"
+        },
+        {
+          "id": "VAR014",
+          "name": "Poovan",
+          "notes": "Traditional Indian cultivar"
+        },
+        {
+          "id": "VAR015",
+          "name": "Nendran",
+          "notes": "Kerala-associated cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR003",
+      "name": "Guava",
+      "scientific_name": "Psidium guajava",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [
+        {
+          "state_id": "AP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "AR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "AS",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "BR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        }
+      ],
+      "varieties": [
+        {
+          "id": "VAR016",
+          "name": "Allahabad Safeda",
+          "notes": "North Indian cultivar"
+        },
+        {
+          "id": "VAR017",
+          "name": "Lalit",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR018",
+          "name": "Shweta",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR019",
+          "name": "Arka Kiran",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR041",
+          "name": "Megha Supreme",
+          "notes": "Northeast cultivar"
+        },
+        {
+          "id": "VAR042",
+          "name": "Megha Magenta",
+          "notes": "Northeast cultivar"
+        },
+        {
+          "id": "VAR043",
+          "name": "Megha Seedless",
+          "notes": "Northeast cultivar"
+        },
+        {
+          "id": "VAR044",
+          "name": "Megha Wonder",
+          "notes": "Northeast cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR004",
+      "name": "Papaya",
+      "scientific_name": "Carica papaya",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [
+        {
+          "state_id": "AP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "AR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "AS",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        }
+      ],
+      "varieties": []
+    },
+    {
+      "id": "FR005",
+      "name": "Grapes",
+      "scientific_name": "Vitis vinifera",
+      "crop_group": "Temperate/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [
+        {
+          "state_id": "AP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "HR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "HP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "JK",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "KL",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "MP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "MH",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "MN",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "MZ",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "NL",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "PB",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "RJ",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "TN",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "TS",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        }
+      ],
+      "varieties": [
+        {
+          "id": "VAR020",
+          "name": "Thompson Seedless",
+          "notes": "Major table-grape cultivar"
+        },
+        {
+          "id": "VAR021",
+          "name": "Sonaka",
+          "notes": "Indian seedless cultivar"
+        },
+        {
+          "id": "VAR022",
+          "name": "Sharad Seedless",
+          "notes": "Indian seedless cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR006",
+      "name": "Sapota (Chikoo)",
+      "scientific_name": "Manilkara zapota",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [
+        {
+          "state_id": "AP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "CG",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "GJ",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "HR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "HP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "KL",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "MP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "MH",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "MZ",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "OD",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        }
+      ],
+      "varieties": [
+        {
+          "id": "VAR023",
+          "name": "Kalipatti",
+          "notes": "Commercial cultivar"
+        },
+        {
+          "id": "VAR024",
+          "name": "Cricket Ball",
+          "notes": "Traditional cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR007",
+      "name": "Lime",
+      "scientific_name": "Citrus aurantiifolia",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [
+        {
+          "state_id": "AP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "AR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "AS",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "BR",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "CG",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "GJ",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "HP",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "JK",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "JH",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        },
+        {
+          "state_id": "KL",
+          "status": "Cultivated",
+          "evidence": "Verified from retrieved state-wise statistical source",
+          "data_year": "2021-22"
+        }
+      ],
+      "varieties": []
+    },
+    {
+      "id": "FR008",
+      "name": "Lemon",
+      "scientific_name": "Citrus limon",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR009",
+      "name": "Aonla (Indian Gooseberry)",
+      "scientific_name": "Phyllanthus emblica",
+      "crop_group": "Subtropical/Arid",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": [
+        {
+          "id": "VAR025",
+          "name": "NA-7",
+          "notes": "Improved cultivar"
+        },
+        {
+          "id": "VAR026",
+          "name": "Banarasi",
+          "notes": "Traditional cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR010",
+      "name": "Apple",
+      "scientific_name": "Malus domestica",
+      "crop_group": "Temperate",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": [
+        {
+          "id": "VAR027",
+          "name": "Royal Delicious",
+          "notes": "Commercial cultivar"
+        },
+        {
+          "id": "VAR028",
+          "name": "Red Delicious",
+          "notes": "Commercial cultivar"
+        },
+        {
+          "id": "VAR029",
+          "name": "Golden Delicious",
+          "notes": "Commercial cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR011",
+      "name": "Pomegranate",
+      "scientific_name": "Punica granatum",
+      "crop_group": "Arid/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": [
+        {
+          "id": "VAR030",
+          "name": "Bhagwa",
+          "notes": "Major commercial cultivar"
+        },
+        {
+          "id": "VAR031",
+          "name": "Ganesh",
+          "notes": "Commercial cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR012",
+      "name": "Pineapple",
+      "scientific_name": "Ananas comosus",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": [
+        {
+          "id": "VAR032",
+          "name": "Kew",
+          "notes": "Indian cultivar"
+        },
+        {
+          "id": "VAR033",
+          "name": "Queen",
+          "notes": "Indian cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR013",
+      "name": "Litchi",
+      "scientific_name": "Litchi chinensis",
+      "crop_group": "Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": [
+        {
+          "id": "VAR034",
+          "name": "Shahi",
+          "notes": "Bihar-associated cultivar"
+        },
+        {
+          "id": "VAR035",
+          "name": "China",
+          "notes": "Commercial cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR014",
+      "name": "Custard Apple",
+      "scientific_name": "Annona squamosa",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR015",
+      "name": "Watermelon",
+      "scientific_name": "Citrullus lanatus",
+      "crop_group": "Warm-season",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR016",
+      "name": "Muskmelon",
+      "scientific_name": "Cucumis melo",
+      "crop_group": "Warm-season",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR017",
+      "name": "Jackfruit",
+      "scientific_name": "Artocarpus heterophyllus",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR018",
+      "name": "Bael",
+      "scientific_name": "Aegle marmelos",
+      "crop_group": "Subtropical/Arid",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": [
+        {
+          "id": "VAR036",
+          "name": "Thar Prakriti",
+          "notes": "ICAR cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR019",
+      "name": "Ber (Indian Jujube)",
+      "scientific_name": "Ziziphus mauritiana",
+      "crop_group": "Arid/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR020",
+      "name": "Jamun",
+      "scientific_name": "Syzygium cumini",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR021",
+      "name": "Karonda",
+      "scientific_name": "Carissa carandas",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR022",
+      "name": "Phalsa",
+      "scientific_name": "Grewia asiatica",
+      "crop_group": "Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR023",
+      "name": "Tamarind",
+      "scientific_name": "Tamarindus indica",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR024",
+      "name": "Kokum",
+      "scientific_name": "Garcinia indica",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR025",
+      "name": "Avocado",
+      "scientific_name": "Persea americana",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": [
+        {
+          "id": "VAR037",
+          "name": "Arka Supreme",
+          "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR038",
+          "name": "Arka Coorg Ravi",
+          "notes": "ICAR cultivar"
+        }
+      ]
+    },
+    {
+      "id": "FR026",
+      "name": "Dragon Fruit",
+      "scientific_name": "Selenicereus spp.",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR027",
+      "name": "Strawberry",
+      "scientific_name": "Fragaria × ananassa",
+      "crop_group": "Temperate/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR028",
+      "name": "Peach",
+      "scientific_name": "Prunus persica",
+      "crop_group": "Temperate",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR029",
+      "name": "Plum",
+      "scientific_name": "Prunus domestica / Prunus salicina",
+      "crop_group": "Temperate",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR030",
+      "name": "Pear",
+      "scientific_name": "Pyrus spp.",
+      "crop_group": "Temperate/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR031",
+      "name": "Apricot",
+      "scientific_name": "Prunus armeniaca",
+      "crop_group": "Temperate",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR032",
+      "name": "Cherry",
+      "scientific_name": "Prunus avium / P. cerasus",
+      "crop_group": "Temperate",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR033",
+      "name": "Kiwi",
+      "scientific_name": "Actinidia deliciosa",
+      "crop_group": "Temperate/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR034",
+      "name": "Persimmon",
+      "scientific_name": "Diospyros kaki",
+      "crop_group": "Temperate/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR035",
+      "name": "Fig",
+      "scientific_name": "Ficus carica",
+      "crop_group": "Arid/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR036",
+      "name": "Mulberry",
+      "scientific_name": "Morus spp.",
+      "crop_group": "Temperate/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR037",
+      "name": "Loquat",
+      "scientific_name": "Eriobotrya japonica",
+      "crop_group": "Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR038",
+      "name": "Passion Fruit",
+      "scientific_name": "Passiflora edulis",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR039",
+      "name": "Rambutan",
+      "scientific_name": "Nephelium lappaceum",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR040",
+      "name": "Mangosteen",
+      "scientific_name": "Garcinia mangostana",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR041",
+      "name": "Durian",
+      "scientific_name": "Durio zibethinus",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR042",
+      "name": "Star Fruit (Carambola)",
+      "scientific_name": "Averrhoa carambola",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR043",
+      "name": "Wood Apple",
+      "scientific_name": "Limonia acidissima",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR044",
+      "name": "Coconut",
+      "scientific_name": "Cocos nucifera",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR045",
+      "name": "Cashew Apple",
+      "scientific_name": "Anacardium occidentale",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR046",
+      "name": "Cantaloupe",
+      "scientific_name": "Cucumis melo",
+      "crop_group": "Warm-season",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR047",
+      "name": "Orange",
+      "scientific_name": "Citrus sinensis",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR048",
+      "name": "Sweet Lime (Mosambi)",
+      "scientific_name": "Citrus limettioides",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR049",
+      "name": "Mandarin",
+      "scientific_name": "Citrus reticulata",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR050",
+      "name": "Grapefruit",
+      "scientific_name": "Citrus × paradisi",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR051",
+      "name": "Pomelo",
+      "scientific_name": "Citrus maxima",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR052",
+      "name": "Citron",
+      "scientific_name": "Citrus medica",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR053",
+      "name": "Cape Gooseberry",
+      "scientific_name": "Physalis peruviana",
+      "crop_group": "Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR054",
+      "name": "Water Apple",
+      "scientific_name": "Syzygium aqueum",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR055",
+      "name": "Rose Apple",
+      "scientific_name": "Syzygium jambos",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR056",
+      "name": "Malay Apple",
+      "scientific_name": "Syzygium malaccense",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR057",
+      "name": "Breadfruit",
+      "scientific_name": "Artocarpus altilis",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR058",
+      "name": "Soursop",
+      "scientific_name": "Annona muricata",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR059",
+      "name": "Cherimoya",
+      "scientific_name": "Annona cherimola",
+      "crop_group": "Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR060",
+      "name": "Atemoya",
+      "scientific_name": "Annona × atemoya",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR061",
+      "name": "Bilimbi",
+      "scientific_name": "Averrhoa bilimbi",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR062",
+      "name": "Indian Gooseberry",
+      "scientific_name": "Phyllanthus emblica",
+      "crop_group": "Subtropical/Arid",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR063",
+      "name": "Indian Persimmon",
+      "scientific_name": "Diospyros peregrina",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR064",
+      "name": "Tendu",
+      "scientific_name": "Diospyros melanoxylon",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR065",
+      "name": "Khirni",
+      "scientific_name": "Manilkara hexandra",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR066",
+      "name": "Mahua Fruit",
+      "scientific_name": "Madhuca longifolia",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR067",
+      "name": "Lasora (Gonda)",
+      "scientific_name": "Cordia dichotoma",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR068",
+      "name": "Jujube",
+      "scientific_name": "Ziziphus jujuba",
+      "crop_group": "Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR069",
+      "name": "Chironji Fruit",
+      "scientific_name": "Buchanania lanzan",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR070",
+      "name": "Burmese Grape",
+      "scientific_name": "Baccaurea ramiflora",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR071",
+      "name": "Governor's Plum",
+      "scientific_name": "Flacourtia indica",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR072",
+      "name": "Indian Plum",
+      "scientific_name": "Flacourtia jangomas",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR073",
+      "name": "Mimusops (Bullet Wood)",
+      "scientific_name": "Mimusops elengi",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR074",
+      "name": "Palmyra Fruit",
+      "scientific_name": "Borassus flabellifer",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR075",
+      "name": "Toddy Palm Fruit",
+      "scientific_name": "Borassus flabellifer",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR076",
+      "name": "Date",
+      "scientific_name": "Phoenix dactylifera",
+      "crop_group": "Arid",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR077",
+      "name": "Indian Date Palm",
+      "scientific_name": "Phoenix sylvestris",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR078",
+      "name": "Fig (Anjeer)",
+      "scientific_name": "Ficus carica",
+      "crop_group": "Arid/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR079",
+      "name": "Olive",
+      "scientific_name": "Olea europaea",
+      "crop_group": "Mediterranean/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR080",
+      "name": "Persian Lime",
+      "scientific_name": "Citrus × latifolia",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR081",
+      "name": "Kinnow",
+      "scientific_name": "Citrus nobilis × C. deliciosa",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR082",
+      "name": "Tangerine",
+      "scientific_name": "Citrus reticulata",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR083",
+      "name": "Kaffir Lime",
+      "scientific_name": "Citrus hystrix",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR084",
+      "name": "Blood Orange",
+      "scientific_name": "Citrus sinensis",
+      "crop_group": "Citrus",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR085",
+      "name": "Sweet Granadilla",
+      "scientific_name": "Passiflora ligularis",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR086",
+      "name": "Prickly Pear",
+      "scientific_name": "Opuntia ficus-indica",
+      "crop_group": "Arid",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR087",
+      "name": "Indian Fig Cactus Fruit",
+      "scientific_name": "Opuntia spp.",
+      "crop_group": "Arid",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR088",
+      "name": "Noni",
+      "scientific_name": "Morinda citrifolia",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR089",
+      "name": "Amla",
+      "scientific_name": "Phyllanthus emblica",
+      "crop_group": "Subtropical/Arid",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR090",
+      "name": "Chikoo",
+      "scientific_name": "Manilkara zapota",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR091",
+      "name": "Hog Plum (Ambada)",
+      "scientific_name": "Spondias pinnata",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR092",
+      "name": "Ambarella",
+      "scientific_name": "Spondias dulcis",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR093",
+      "name": "Mango Plum",
+      "scientific_name": "Bouea macrophylla",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR094",
+      "name": "Yellow Mangosteen",
+      "scientific_name": "Garcinia xanthochymus",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR095",
+      "name": "Kadam Fruit",
+      "scientific_name": "Neolamarckia cadamba",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR096",
+      "name": "Fig Mulberry",
+      "scientific_name": "Ficus racemosa",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR097",
+      "name": "Strawberry Guava",
+      "scientific_name": "Psidium cattleianum",
+      "crop_group": "Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR098",
+      "name": "White Sapote",
+      "scientific_name": "Casimiroa edulis",
+      "crop_group": "Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR099",
+      "name": "Black Sapote",
+      "scientific_name": "Diospyros digyna",
+      "crop_group": "Tropical/Subtropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    },
+    {
+      "id": "FR100",
+      "name": "Mamey Sapote",
+      "scientific_name": "Pouteria sapota",
+      "crop_group": "Tropical",
+      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "states": [],
+      "varieties": []
+    }
+  ]
+}

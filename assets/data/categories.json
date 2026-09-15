@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "id": "food_drink",
+      "name": "Food & Drink",
+      "description": "Discover, taste and explore food and drinks from around the world."
+    },
+    {
+      "id": "fitness_wellness",
+      "name": "Fitness & Wellness",
+      "description": "Build your collection of movements, exercises and wellness experiences."
+    },
+    {
+      "id": "travel_exploration",
+      "name": "Travel & Exploration",
+      "description": "Explore places, experiences and destinations."
+    },
+    {
+      "id": "culture_learning",
+      "name": "Culture & Learning",
+      "description": "Discover books, music, art, history and things worth learning."
+    },
+    {
+      "id": "faith_pilgrimage",
+      "name": "Faith & Pilgrimage",
+      "description": "Explore sacred places, spiritual traditions and meaningful journeys."
+    },
+    {
+      "id": "collecting",
+      "name": "Collecting",
+      "description": "Build collections around things you love."
+    },
+    {
+      "id": "life_experiences",
+      "name": "Life Experiences",
+      "description": "Try meaningful, memorable and unusual experiences."
+    }
+  ]
+}

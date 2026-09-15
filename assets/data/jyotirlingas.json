@@ -1,0 +1,100 @@
+{
+  "jyotirlingas": [
+    {
+      "id": "kedarnath",
+      "name": "Kedarnath",
+      "location": "Uttarakhand",
+      "backstory": "High in the Himalayas, Kedarnath is associated with Shiva as the lord of Kedar. Tradition connects the temple with the Pandavas after the Mahabharata.",
+      "map_x": 0.40,
+      "map_y": 0.22
+    },
+    {
+      "id": "nageshwar",
+      "name": "Nageshwar",
+      "location": "Gujarat",
+      "backstory": "Near Dwarka, Nageshwar is traditionally revered as Shiva in the form of the lord of serpents.",
+      "map_x": 0.13,
+      "map_y": 0.47
+    },
+    {
+      "id": "somnath",
+      "name": "Somnath",
+      "location": "Gujarat",
+      "backstory": "On Gujarat's western coast, Somnath is traditionally considered the first of the twelve Jyotirlingas and is linked with the moon god, Soma.",
+      "map_x": 0.17,
+      "map_y": 0.52
+    },
+    {
+      "id": "trimbakeshwar",
+      "name": "Trimbakeshwar",
+      "location": "Maharashtra",
+      "backstory": "Located near the source of the Godavari River, Trimbakeshwar is known for its distinctive three-faced linga tradition.",
+      "map_x": 0.25,
+      "map_y": 0.55
+    },
+    {
+      "id": "bhimashankar",
+      "name": "Bhimashankar",
+      "location": "Maharashtra",
+      "backstory": "Set in the Sahyadri hills, Bhimashankar is associated in tradition with Shiva's victory over the demon Bhima.",
+      "map_x": 0.25,
+      "map_y": 0.58
+    },
+    {
+      "id": "grishneshwar",
+      "name": "Grishneshwar",
+      "location": "Maharashtra",
+      "backstory": "Near the Ellora Caves, Grishneshwar is traditionally regarded as the twelfth Jyotirlinga and is also called Ghushmeshwar.",
+      "map_x": 0.30,
+      "map_y": 0.55
+    },
+    {
+      "id": "mahakaleshwar",
+      "name": "Mahakaleshwar",
+      "location": "Madhya Pradesh",
+      "backstory": "In Ujjain, Mahakaleshwar is revered as Shiva in his form as the lord of time. Its linga is traditionally described as self-manifested.",
+      "map_x": 0.32,
+      "map_y": 0.45
+    },
+    {
+      "id": "omkareshwar",
+      "name": "Omkareshwar",
+      "location": "Madhya Pradesh",
+      "backstory": "Omkareshwar stands on Mandhata island in the Narmada River, whose shape is traditionally associated with the sacred Om symbol.",
+      "map_x": 0.33,
+      "map_y": 0.48
+    },
+    {
+      "id": "kashi_vishwanath",
+      "name": "Kashi Vishwanath",
+      "location": "Uttar Pradesh",
+      "backstory": "At Varanasi on the Ganges, Kashi Vishwanath is devoted to Shiva as Vishwanath, the lord of the universe, and is among India's most revered temples.",
+      "map_x": 0.52,
+      "map_y": 0.39
+    },
+    {
+      "id": "vaidyanath",
+      "name": "Vaidyanath",
+      "location": "Jharkhand",
+      "backstory": "At Deoghar, Vaidyanath is traditionally worshipped as Shiva the divine healer. Its story is closely associated with Ravana's devotion.",
+      "map_x": 0.62,
+      "map_y": 0.42
+    },
+    {
+      "id": "mallikarjuna",
+      "name": "Mallikarjuna",
+      "location": "Andhra Pradesh",
+      "backstory": "On Srisailam's Nallamala hills, Mallikarjuna is a major Shaivite pilgrimage site and is revered together with the goddess Bhramaramba.",
+      "map_x": 0.40,
+      "map_y": 0.66
+    },
+    {
+      "id": "ramanathaswamy",
+      "name": "Ramanathaswamy",
+      "location": "Tamil Nadu",
+      "backstory": "At Rameswaram, Ramanathaswamy is linked by tradition with Rama's worship of Shiva before his journey to Lanka.",
+      "map_x": 0.41,
+      "map_y": 0.86
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "food_drink": ["food", "drink", "taste", "fruit"],
+  "faith_pilgrimage": ["temple", "pilgrimage", "spiritual", "faith", "religious"],
+  "fitness_wellness": ["fitness", "wellness", "exercise", "flexibility", "yoga"],
+  "visit_12_jyotirlingas": ["shiva", "shiv", "temple", "pilgrimage", "jyotirlinga"],
+  "learn_yoga_poses": ["yoga", "fitness", "wellness", "exercise", "flexibility"],
+  "taste_fruits_of_india": ["fruit", "food", "taste"]
+}
