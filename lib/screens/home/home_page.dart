@@ -9,28 +9,33 @@ import '../../services/fruit_search.dart';
 import '../../widgets/discovery_search_field.dart';
 import '../../widgets/challenge_card.dart';
 import '../../widgets/empty_state.dart';
-import '../../widgets/exploration_hero.dart';
 import '../saved/saved_page.dart';
 import '../my_life/my_life_page.dart';
 import '../../models/fruit.dart';
+import '../../models/daily_discovery.dart';
 import '../../navigation/challenge_navigation.dart';
 import '../../services/asset_data_service.dart';
 import '../../services/challenge_repository.dart';
 import '../../services/progress_service.dart';
+import '../../services/daily_discovery_service.dart';
 import '../challenge/fruit_challenge_page.dart';
 import '../discover/discover_page.dart';
 import '../fruit/fruit_details_page.dart';
+import '../fruit/variety_details_page.dart';
+import '../challenge/checklist_item_details_page.dart';
 import '../search/discovery_search_page.dart';
 import '../../services/global_search_service.dart';
 import '../../navigation/search_navigation.dart';
 import '../../widgets/search_result_tile.dart';
+import '../../widgets/daily_discovery_card.dart';
 
 // HOME PAGE
 // ================================================================
 
 class HomePage extends StatefulWidget {
   final bool isActive;
-  const HomePage({super.key, this.isActive = true});
+  final DailyDiscoveryService? dailyDiscoveryService;
+  const HomePage({super.key, this.isActive = true, this.dailyDiscoveryService});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -39,12 +44,17 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   static const assetDataService = AssetDataService();
   static const challengeRepository = ChallengeRepository();
+  DailyDiscoveryService get dailyDiscoveryService =>
+      widget.dailyDiscoveryService ?? const DailyDiscoveryService();
 
   List<Fruit> fruits = [];
   List<AtlasState> states = [];
   List<Challenge> challenges = [];
   Set<String> completedFruitIds = {};
   Map<String, ({int completed, int total})> challengeProgress = {};
+  DailyDiscovery? dailyDiscovery;
+  bool isDailyDiscoveryLoading = true;
+  bool isDailyDiscoverySaved = false;
 
   bool isShowingFruitExplorer = false;
 
@@ -83,12 +93,16 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     loadFruitAtlasData();
     loadGlobalSearch();
+    loadDailyDiscovery();
   }
 
   @override
   void didUpdateWidget(covariant HomePage oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (widget.isActive && !oldWidget.isActive) loadFruitAtlasData();
+    if (widget.isActive && !oldWidget.isActive) {
+      loadFruitAtlasData();
+      loadDailyDiscovery();
+    }
   }
 
   @override
@@ -154,6 +168,74 @@ class _HomePageState extends State<HomePage> {
         errorMessage = e.toString();
       });
     }
+  }
+
+  Future<void> loadDailyDiscovery() async {
+    if (mounted) setState(() => isDailyDiscoveryLoading = true);
+    try {
+      final discovery = await dailyDiscoveryService.getToday();
+      final saved = discovery == null
+          ? false
+          : await ProgressService.isEntitySaved(discovery.reference);
+      if (!mounted) return;
+      setState(() {
+        dailyDiscovery = discovery;
+        isDailyDiscoverySaved = saved;
+        isDailyDiscoveryLoading = false;
+      });
+    } catch (_) {
+      if (!mounted) return;
+      setState(() {
+        dailyDiscovery = null;
+        isDailyDiscoverySaved = false;
+        isDailyDiscoveryLoading = false;
+      });
+    }
+  }
+
+  Future<void> showAnotherDiscovery() async {
+    setState(() => isDailyDiscoveryLoading = true);
+    final discovery = await dailyDiscoveryService.another();
+    final saved = discovery == null
+        ? false
+        : await ProgressService.isEntitySaved(discovery.reference);
+    if (!mounted) return;
+    setState(() {
+      dailyDiscovery = discovery;
+      isDailyDiscoverySaved = saved;
+      isDailyDiscoveryLoading = false;
+    });
+  }
+
+  Future<void> toggleDailyDiscoverySaved() async {
+    final discovery = dailyDiscovery;
+    if (discovery == null) return;
+    final saved = await ProgressService.toggleSavedEntity(discovery.reference);
+    if (mounted) setState(() => isDailyDiscoverySaved = saved);
+  }
+
+  Future<void> openDailyDiscovery() async {
+    final discovery = dailyDiscovery;
+    if (discovery == null) return;
+    final page = switch (discovery.type) {
+      DailyDiscoveryType.fruit => FruitDetailsPage(
+        fruit: discovery.fruit!,
+        states: states,
+      ),
+      DailyDiscoveryType.variety => VarietyDetailsPage(
+        variety: discovery.variety!,
+        fruit: discovery.fruit!,
+        states: states,
+      ),
+      DailyDiscoveryType.yogaPose => ChecklistItemDetailsPage(
+        challenge: discovery.yogaChallenge!,
+        item: discovery.yogaPose!,
+      ),
+    };
+    await Navigator.push(context, MaterialPageRoute(builder: (_) => page));
+    if (!mounted) return;
+    await loadFruitAtlasData();
+    await loadDailyDiscovery();
   }
 
   // ------------------------------------------------
@@ -510,12 +592,21 @@ class _HomePageState extends State<HomePage> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
-              const SizedBox(height: 8),
-              const ExplorationHero(
-                title: 'Make room for discovery',
-                immersive: true,
-                subtitle: 'Small experiences. A richer you.',
+              const SizedBox(height: 4),
+              const Text(
+                'What will you discover today?',
+                style: TextStyle(fontSize: 21, fontWeight: FontWeight.w700),
               ),
+              const SizedBox(height: 12),
+              DailyDiscoveryCard(
+                discovery: dailyDiscovery,
+                isLoading: isDailyDiscoveryLoading,
+                isSaved: isDailyDiscoverySaved,
+                onDiscover: openDailyDiscovery,
+                onSave: toggleDailyDiscoverySaved,
+                onAnother: showAnotherDiscovery,
+              ),
+              const SizedBox(height: 16),
               DiscoverySearchField(
                 controller: discoveryController,
                 onChanged: (value) => setState(() => discoveryQuery = value),

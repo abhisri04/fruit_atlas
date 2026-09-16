@@ -5,6 +5,7 @@ class ProgressService {
   static const String _completedVarietyIdsKey = 'completed_variety_ids';
   static const String _completedJyotirlingaIdsKey = 'completed_jyotirlinga_ids';
   static const String _savedChallengeIdsKey = 'saved_challenge_ids';
+  static const String _savedEntityReferencesKey = 'saved_entity_references';
   static const String _completedYogaPoseIdsKey = 'completed_yoga_pose_ids';
   static const String _completedExperienceIdsKey = 'completed_experience_ids';
   static const String _completedDistrictIdsKey = 'completed_district_ids';
@@ -23,6 +24,21 @@ class ProgressService {
 
   static Future<Set<String>> getSavedChallengeIds() {
     return _getCompletedIds(_savedChallengeIdsKey);
+  }
+
+  static Future<Set<String>> getSavedEntityReferences() {
+    return _getCompletedIds(_savedEntityReferencesKey);
+  }
+
+  static Future<bool> isEntitySaved(String reference) async {
+    return (await getSavedEntityReferences()).contains(reference);
+  }
+
+  static Future<bool> toggleSavedEntity(String reference) async {
+    final saved = await getSavedEntityReferences();
+    if (!saved.remove(reference)) saved.add(reference);
+    await _setCompletedIds(_savedEntityReferencesKey, saved);
+    return saved.contains(reference);
   }
 
   static Future<Set<String>> getCompletedYogaPoseIds() {

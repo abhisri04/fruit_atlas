@@ -1,18 +1,26 @@
 import 'package:flutter/material.dart';
 
 import '../../models/challenge.dart';
+import '../../models/daily_discovery.dart';
+import '../../models/fruit.dart';
 import '../../navigation/challenge_navigation.dart';
 import '../../services/challenge_repository.dart';
 import '../../services/progress_service.dart';
+import '../../services/daily_discovery_service.dart';
+import '../../services/asset_data_service.dart';
 import '../../widgets/challenge_card.dart';
 import '../../widgets/empty_state.dart';
 import '../discover/discover_page.dart';
+import '../fruit/fruit_details_page.dart';
+import '../fruit/variety_details_page.dart';
+import '../challenge/checklist_item_details_page.dart';
 
 // SAVED PAGE
 // =================================================================
 
 class SavedPage extends StatefulWidget {
-  const SavedPage({super.key});
+  final DailyDiscoveryService? dailyDiscoveryService;
+  const SavedPage({super.key, this.dailyDiscoveryService});
 
   @override
   State<SavedPage> createState() => _SavedPageState();
@@ -20,7 +28,11 @@ class SavedPage extends StatefulWidget {
 
 class _SavedPageState extends State<SavedPage> {
   static const repository = ChallengeRepository();
+  static const dataService = AssetDataService();
+  DailyDiscoveryService get dailyService =>
+      widget.dailyDiscoveryService ?? const DailyDiscoveryService();
   List<Challenge> savedChallenges = [];
+  List<DailyDiscovery> savedEntities = [];
   bool isLoading = true;
   String? errorMessage;
 
@@ -34,11 +46,16 @@ class _SavedPageState extends State<SavedPage> {
     try {
       final challenges = await repository.loadChallenges();
       final savedIds = await ProgressService.getSavedChallengeIds();
+      final savedReferences = await ProgressService.getSavedEntityReferences();
+      final canonicalPool = await dailyService.buildCanonicalPool();
       if (!mounted) return;
       setState(() {
         savedChallenges = challenges
             .where((challenge) => savedIds.contains(challenge.id))
             .toList();
+        savedEntities = canonicalPool
+            .where((entity) => savedReferences.contains(entity.reference))
+            .toList(growable: false);
         isLoading = false;
         errorMessage = null;
       });
@@ -53,6 +70,30 @@ class _SavedPageState extends State<SavedPage> {
 
   Future<void> openSavedChallenge(Challenge challenge) async {
     await openChallenge(context, challenge);
+    await loadSavedChallenges();
+  }
+
+  Future<void> openSavedEntity(DailyDiscovery discovery) async {
+    final states = discovery.type == DailyDiscoveryType.yogaPose
+        ? const <AtlasState>[]
+        : (await dataService.loadFruitData()).states;
+    if (!mounted) return;
+    final page = switch (discovery.type) {
+      DailyDiscoveryType.fruit => FruitDetailsPage(
+        fruit: discovery.fruit!,
+        states: states,
+      ),
+      DailyDiscoveryType.variety => VarietyDetailsPage(
+        variety: discovery.variety!,
+        fruit: discovery.fruit!,
+        states: states,
+      ),
+      DailyDiscoveryType.yogaPose => ChecklistItemDetailsPage(
+        challenge: discovery.yogaChallenge!,
+        item: discovery.yogaPose!,
+      ),
+    };
+    await Navigator.push(context, MaterialPageRoute(builder: (_) => page));
     await loadSavedChallenges();
   }
 
@@ -73,7 +114,7 @@ class _SavedPageState extends State<SavedPage> {
               title: 'Unable to load',
               message: 'Could not load saved challenges.\n\n$errorMessage',
             )
-          : savedChallenges.isEmpty
+          : savedChallenges.isEmpty && savedEntities.isEmpty
           ? EmptyState(
               icon: Icons.bookmark_border,
               title: 'Keep your next adventure close',
@@ -87,18 +128,57 @@ class _SavedPageState extends State<SavedPage> {
                 await loadSavedChallenges();
               },
             )
-          : ListView.builder(
+          : ListView(
               padding: const EdgeInsets.all(16),
-              itemCount: savedChallenges.length,
-              itemBuilder: (context, index) {
-                final challenge = savedChallenges[index];
-                return ChallengeCard(
-                  challenge: challenge,
-                  isActive: challenge.status == 'active',
-                  onSavedChanged: (_) => loadSavedChallenges(),
-                  onTap: () => openSavedChallenge(challenge),
-                );
-              },
+              children: [
+                if (savedEntities.isNotEmpty) ...[
+                  Text(
+                    'Saved discoveries',
+                    style: Theme.of(context).textTheme.titleLarge,
+                  ),
+                  const SizedBox(height: 10),
+                  for (final discovery in savedEntities)
+                    Card(
+                      child: ListTile(
+                        leading: Icon(switch (discovery.type) {
+                          DailyDiscoveryType.fruit => Icons.eco_outlined,
+                          DailyDiscoveryType.variety =>
+                            Icons.local_florist_outlined,
+                          DailyDiscoveryType.yogaPose =>
+                            Icons.self_improvement_outlined,
+                        }),
+                        title: Text(discovery.title),
+                        subtitle: Text(discovery.subtitle),
+                        trailing: IconButton(
+                          tooltip: 'Remove from Saved',
+                          icon: const Icon(Icons.bookmark),
+                          onPressed: () async {
+                            await ProgressService.toggleSavedEntity(
+                              discovery.reference,
+                            );
+                            await loadSavedChallenges();
+                          },
+                        ),
+                        onTap: () => openSavedEntity(discovery),
+                      ),
+                    ),
+                  const SizedBox(height: 18),
+                ],
+                if (savedChallenges.isNotEmpty) ...[
+                  Text(
+                    'Saved challenges',
+                    style: Theme.of(context).textTheme.titleLarge,
+                  ),
+                  const SizedBox(height: 10),
+                  for (final challenge in savedChallenges)
+                    ChallengeCard(
+                      challenge: challenge,
+                      isActive: challenge.status == 'active',
+                      onSavedChanged: (_) => loadSavedChallenges(),
+                      onTap: () => openSavedChallenge(challenge),
+                    ),
+                ],
+              ],
             ),
     );
   }
