@@ -55,6 +55,19 @@ void main() {
       pool.map((item) => item.reference),
       isNot(contains('yogaPose:mountain_pose')),
     );
+    final yogaRecommendations = pool.where(
+      (item) => item.type == DailyDiscoveryType.yogaPose,
+    );
+    expect(yogaRecommendations, isNotEmpty);
+    expect(
+      yogaRecommendations.every(
+        (item) => const {
+          'Beginner',
+          'Intermediate',
+        }.contains(item.yogaPose?.difficulty),
+      ),
+      isTrue,
+    );
 
     SharedPreferences.setMockInitialValues({});
     final first = await service.getToday();

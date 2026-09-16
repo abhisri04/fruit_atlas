@@ -139,7 +139,7 @@ class Achievement {
     Achievement(
       id: 'yoga_complete',
       title: '30 Pose Explorer',
-      description: 'Learn all 30 yoga poses.',
+      description: 'Learn 30 yoga poses.',
       threshold: 30,
       challengeId: 'learn_yoga_poses',
       iconIdentifier: 'trophy',

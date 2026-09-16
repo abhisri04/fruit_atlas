@@ -79,6 +79,8 @@ class DailyDiscoveryService {
 
     if (yogaChallenge != null) {
       for (final pose in yogaItems) {
+        final difficulty = pose.difficulty?.toLowerCase();
+        if (difficulty != 'beginner' && difficulty != 'intermediate') continue;
         if (excludeCompleted && completedYoga.contains(pose.id)) continue;
         recommendations.add(
           DailyDiscovery(

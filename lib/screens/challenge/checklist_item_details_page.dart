@@ -24,15 +24,18 @@ import '../../widgets/district_tile.dart';
 import '../../widgets/exploration_section_card.dart';
 import '../../widgets/experience_tile.dart';
 import '../../widgets/experience_collection_tile.dart';
+import '../../widgets/yoga_pose_tile.dart';
 
 class ChecklistItemDetailsPage extends StatefulWidget {
   final Challenge challenge;
   final Item item;
+  final List<Item>? itemCatalogue;
 
   const ChecklistItemDetailsPage({
     super.key,
     required this.challenge,
     required this.item,
+    this.itemCatalogue,
   });
 
   @override
@@ -48,6 +51,13 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
   bool isCompleted = false;
   bool isLoading = true;
   bool isExperiencesLoading = true;
+  bool isYogaSaved = false;
+  bool isYogaPagerLoading = false;
+  List<Item> yogaCatalogue = const [];
+  Set<String> completedYogaPoseIds = {};
+  Set<String> savedYogaPoseReferences = {};
+  PageController? yogaPageController;
+  int yogaPageIndex = 0;
   List<Experience> experiences = [];
   List<District> districts = [];
   List<Fruit> fruits = [];
@@ -60,8 +70,72 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
   @override
   void initState() {
     super.initState();
-    loadCompletion();
-    loadExploration();
+    if (widget.challenge.itemType == 'yoga_pose') {
+      isExperiencesLoading = false;
+      isYogaPagerLoading = true;
+      _loadYogaPager();
+    } else {
+      loadCompletion();
+      loadExploration();
+    }
+  }
+
+  @override
+  void dispose() {
+    yogaPageController?.dispose();
+    super.dispose();
+  }
+
+  Item get _currentYogaPose =>
+      yogaCatalogue.isEmpty ? widget.item : yogaCatalogue[yogaPageIndex];
+
+  Future<void> _loadYogaPager() async {
+    final source =
+        widget.itemCatalogue ??
+        await dataService.loadChallengeItems(widget.challenge);
+    const difficultyOrder = ['Beginner', 'Intermediate', 'Difficult', 'Expert'];
+    final ordered = <Item>[
+      for (final difficulty in difficultyOrder)
+        ...source.where((pose) => pose.difficulty == difficulty),
+      ...source.where((pose) => !difficultyOrder.contains(pose.difficulty)),
+    ];
+    final initialIndex = ordered.indexWhere(
+      (pose) => pose.id == widget.item.id,
+    );
+    final completed = await ProgressService.getChallengeItemIds(
+      widget.challenge.progressKey,
+    );
+    final saved = await ProgressService.getSavedEntityReferences();
+    if (!mounted) return;
+    final resolvedIndex = initialIndex < 0 ? 0 : initialIndex;
+    setState(() {
+      yogaCatalogue = ordered.isEmpty ? [widget.item] : ordered;
+      yogaPageIndex = resolvedIndex;
+      completedYogaPoseIds = completed;
+      savedYogaPoseReferences = saved;
+      isCompleted = completed.contains(_currentYogaPose.id);
+      isYogaSaved = saved.contains('yogaPose:${_currentYogaPose.id}');
+      yogaPageController = PageController(initialPage: resolvedIndex);
+      isLoading = false;
+      isYogaPagerLoading = false;
+    });
+  }
+
+  Future<void> toggleYogaSaved() async {
+    final pose = _currentYogaPose;
+    final saved = await ProgressService.toggleSavedEntity(
+      'yogaPose:${pose.id}',
+    );
+    if (!mounted) return;
+    setState(() {
+      final reference = 'yogaPose:${pose.id}';
+      saved
+          ? savedYogaPoseReferences.add(reference)
+          : savedYogaPoseReferences.remove(reference);
+      isYogaSaved = savedYogaPoseReferences.contains(
+        'yogaPose:${_currentYogaPose.id}',
+      );
+    });
   }
 
   Future<void> loadExploration() async {
@@ -135,12 +209,24 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
   }
 
   Future<void> toggleCompletion() async {
+    final item = widget.challenge.itemType == 'yoga_pose'
+        ? _currentYogaPose
+        : widget.item;
     final completed = await ProgressService.toggleChallengeItem(
       widget.challenge.progressKey,
-      widget.item.id,
+      item.id,
     );
     if (!mounted) return;
-    setState(() => isCompleted = completed);
+    setState(() {
+      if (widget.challenge.itemType == 'yoga_pose') {
+        completed
+            ? completedYogaPoseIds.add(item.id)
+            : completedYogaPoseIds.remove(item.id);
+        isCompleted = completedYogaPoseIds.contains(_currentYogaPose.id);
+      } else {
+        isCompleted = completed;
+      }
+    });
     if (completed) showCompletionFeedback(context, before: 0, after: 1);
   }
 
@@ -502,8 +588,281 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
   String expandName(String template) =>
       template.replaceAll('{name}', widget.item.name);
 
+  void _handleYogaPageChanged(int index) {
+    final previousDifficulty = _currentYogaPose.difficulty;
+    final nextPose = yogaCatalogue[index];
+    setState(() {
+      yogaPageIndex = index;
+      isCompleted = completedYogaPoseIds.contains(nextPose.id);
+      isYogaSaved = savedYogaPoseReferences.contains('yogaPose:${nextPose.id}');
+    });
+    final nextDifficulty = nextPose.difficulty;
+    if (nextDifficulty == null || nextDifficulty == previousDifficulty) return;
+    final messenger = ScaffoldMessenger.of(context);
+    messenger.hideCurrentSnackBar();
+    messenger.showSnackBar(
+      SnackBar(
+        content: Text("You're now exploring $nextDifficulty poses"),
+        duration: const Duration(milliseconds: 1800),
+        behavior: SnackBarBehavior.floating,
+        backgroundColor: AppColors.primary,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+      ),
+    );
+  }
+
+  Widget _buildYogaDetails(BuildContext context) {
+    final heroHeight = ((MediaQuery.sizeOf(context).width - 40) * 1.15).clamp(
+      300.0,
+      420.0,
+    );
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Yoga Pose'),
+        actions: [
+          IconButton(
+            tooltip: isYogaSaved ? 'Remove pose from Saved' : 'Save pose',
+            onPressed: toggleYogaSaved,
+            icon: Icon(isYogaSaved ? Icons.bookmark : Icons.bookmark_border),
+          ),
+        ],
+      ),
+      body: SafeArea(
+        top: false,
+        child: Column(
+          children: [
+            Expanded(
+              child: isYogaPagerLoading
+                  ? const Center(child: CircularProgressIndicator())
+                  : PageView.builder(
+                      controller: yogaPageController,
+                      itemCount: yogaCatalogue.length,
+                      onPageChanged: _handleYogaPageChanged,
+                      itemBuilder: (context, index) {
+                        final item = yogaCatalogue[index];
+                        return SingleChildScrollView(
+                          key: PageStorageKey('yoga-pose-${item.id}'),
+                          padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(22),
+                                child: YogaPoseImage(
+                                  imagePath: item.imageUrl,
+                                  width: double.infinity,
+                                  height: heroHeight,
+                                  iconSize: 96,
+                                  fit: BoxFit.contain,
+                                  backgroundColor: AppColors.accentSurface,
+                                ),
+                              ),
+                              const SizedBox(height: 22),
+                              Row(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Expanded(
+                                    child: Text(
+                                      item.name,
+                                      style: Theme.of(context)
+                                          .textTheme
+                                          .headlineSmall
+                                          ?.copyWith(
+                                            fontWeight: FontWeight.w800,
+                                          ),
+                                    ),
+                                  ),
+                                  if (item.difficulty case final difficulty?)
+                                    MetadataChip(label: difficulty),
+                                ],
+                              ),
+                              if (item.sanskritName
+                                  case final sanskritName?) ...[
+                                const SizedBox(height: 4),
+                                Text(
+                                  sanskritName,
+                                  style: const TextStyle(
+                                    color: AppColors.muted,
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                              ],
+                              if (item.category case final category?) ...[
+                                const SizedBox(height: 12),
+                                Row(
+                                  children: [
+                                    const Icon(
+                                      Icons.self_improvement,
+                                      size: 19,
+                                      color: AppColors.primary,
+                                    ),
+                                    const SizedBox(width: 7),
+                                    Text(
+                                      category,
+                                      style: const TextStyle(
+                                        color: AppColors.muted,
+                                        fontWeight: FontWeight.w600,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                              if (item.tags
+                                  .where((tag) => tag != item.primaryFamily)
+                                  .isNotEmpty) ...[
+                                const SizedBox(height: 12),
+                                Wrap(
+                                  spacing: 8,
+                                  runSpacing: 8,
+                                  children: item.tags
+                                      .where((tag) => tag != item.primaryFamily)
+                                      .map(
+                                        (tag) => MetadataChip(
+                                          label: tag
+                                              .split('_')
+                                              .map(
+                                                (part) => part.isEmpty
+                                                    ? part
+                                                    : '${part[0].toUpperCase()}${part.substring(1)}',
+                                              )
+                                              .join(' '),
+                                        ),
+                                      )
+                                      .toList(growable: false),
+                                ),
+                              ],
+                              if (item.description case final description?) ...[
+                                const SizedBox(height: 22),
+                                Text(
+                                  'About this pose',
+                                  style: Theme.of(context).textTheme.titleLarge,
+                                ),
+                                const SizedBox(height: 10),
+                                Container(
+                                  width: double.infinity,
+                                  padding: const EdgeInsets.all(18),
+                                  decoration: BoxDecoration(
+                                    color: AppColors.accentSurface,
+                                    borderRadius: BorderRadius.circular(18),
+                                  ),
+                                  child: Text(
+                                    description,
+                                    style: const TextStyle(
+                                      fontSize: 16,
+                                      height: 1.5,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                              if (item.howToSteps.isNotEmpty) ...[
+                                const SizedBox(height: 24),
+                                Text(
+                                  'How to do it',
+                                  style: Theme.of(context).textTheme.titleLarge,
+                                ),
+                                const SizedBox(height: 10),
+                                for (final (index, step)
+                                    in item.howToSteps.indexed)
+                                  Padding(
+                                    padding: const EdgeInsets.only(bottom: 12),
+                                    child: Row(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        CircleAvatar(
+                                          radius: 13,
+                                          backgroundColor: AppColors.primary,
+                                          foregroundColor: Colors.white,
+                                          child: Text(
+                                            '${index + 1}',
+                                            style: const TextStyle(
+                                              fontSize: 12,
+                                            ),
+                                          ),
+                                        ),
+                                        const SizedBox(width: 12),
+                                        Expanded(
+                                          child: Text(
+                                            step,
+                                            style: const TextStyle(height: 1.4),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                              ],
+                              if (item.practiceSafety case final safety?) ...[
+                                const SizedBox(height: 16),
+                                Text(
+                                  'Practice safely',
+                                  style: Theme.of(context).textTheme.titleLarge,
+                                ),
+                                const SizedBox(height: 10),
+                                Container(
+                                  width: double.infinity,
+                                  padding: const EdgeInsets.all(16),
+                                  decoration: BoxDecoration(
+                                    color: AppColors.caution,
+                                    borderRadius: BorderRadius.circular(16),
+                                  ),
+                                  child: Row(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      const Icon(
+                                        Icons.health_and_safety_outlined,
+                                        color: AppColors.orange,
+                                      ),
+                                      const SizedBox(width: 10),
+                                      Expanded(
+                                        child: Text(
+                                          safety,
+                                          style: const TextStyle(height: 1.4),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                              if (item.metadata.isNotEmpty) ...[
+                                const SizedBox(height: 18),
+                                ...item.metadata.entries.map(
+                                  (entry) => ListTile(
+                                    contentPadding: EdgeInsets.zero,
+                                    title: Text(entry.key),
+                                    subtitle: Text(entry.value),
+                                  ),
+                                ),
+                              ],
+                            ],
+                          ),
+                        );
+                      },
+                    ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 10, 20, 16),
+              child: SizedBox(
+                width: double.infinity,
+                child: FilledButton.icon(
+                  onPressed: isLoading ? null : toggleCompletion,
+                  icon: Icon(isCompleted ? Icons.check_circle : Icons.check),
+                  label: Text(isCompleted ? 'Completed' : 'Mark as Completed'),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    if (widget.challenge.itemType == 'yoga_pose') {
+      return _buildYogaDetails(context);
+    }
     return Scaffold(
       appBar: AppBar(title: const Text('Details')),
       body: CustomScrollView(

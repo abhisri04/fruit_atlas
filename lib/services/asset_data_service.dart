@@ -105,7 +105,10 @@ class AssetDataService {
   }
 
   Future<Map<String, dynamic>> _loadJson(String assetPath) async {
-    final jsonString = await rootBundle.loadString(assetPath);
+    final bytes = await rootBundle.load(assetPath);
+    final jsonString = utf8.decode(
+      bytes.buffer.asUint8List(bytes.offsetInBytes, bytes.lengthInBytes),
+    );
     return jsonDecode(jsonString) as Map<String, dynamic>;
   }
 }

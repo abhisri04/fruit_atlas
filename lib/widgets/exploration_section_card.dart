@@ -10,6 +10,7 @@ class ExplorationSectionCard extends StatefulWidget {
   final int completedCount;
   final int totalCount;
   final bool initiallyExpanded;
+  final bool showProgress;
   final int itemCount;
   final IndexedWidgetBuilder itemBuilder;
 
@@ -21,6 +22,7 @@ class ExplorationSectionCard extends StatefulWidget {
     required this.completedCount,
     required this.totalCount,
     this.initiallyExpanded = false,
+    this.showProgress = true,
     required this.itemCount,
     required this.itemBuilder,
   });
@@ -69,6 +71,7 @@ class _ExplorationSectionCardState extends State<ExplorationSectionCard> {
                   subtitle: widget.subtitle,
                   completedCount: widget.completedCount,
                   totalCount: widget.totalCount,
+                  showProgress: widget.showProgress,
                   isExpanded: isExpanded,
                   onTap: toggle,
                 ),
@@ -96,6 +99,7 @@ class _SectionHeader extends StatelessWidget {
   final int completedCount;
   final int totalCount;
   final bool isExpanded;
+  final bool showProgress;
   final VoidCallback onTap;
 
   const _SectionHeader({
@@ -105,6 +109,7 @@ class _SectionHeader extends StatelessWidget {
     required this.completedCount,
     required this.totalCount,
     required this.isExpanded,
+    required this.showProgress,
     required this.onTap,
   });
 
@@ -146,18 +151,20 @@ class _SectionHeader extends StatelessWidget {
                   ],
                 ),
               ),
-              Text(
-                '$completedCount / $totalCount',
-                style: const TextStyle(
-                  color: AppColors.muted,
-                  fontWeight: FontWeight.w600,
+              if (showProgress) ...[
+                Text(
+                  '$completedCount / $totalCount',
+                  style: const TextStyle(
+                    color: AppColors.muted,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
-              ),
-              const SizedBox(width: 8),
-              CircularProgressWidget(
-                progress: progress,
-                variant: ProgressSize.compact,
-              ),
+                const SizedBox(width: 8),
+                CircularProgressWidget(
+                  progress: progress,
+                  variant: ProgressSize.compact,
+                ),
+              ],
               Icon(isExpanded ? Icons.expand_less : Icons.expand_more),
             ],
           ),

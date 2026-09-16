@@ -1,34 +1,3686 @@
 {
+  "catalogueVersion": 1,
+  "difficultyClassification": "Fruit Atlas editorial classification",
+  "sources": {
+    "AYUSH_CYP": "https://yoga.ayush.gov.in/uploads/assets/cyp/CYP_Book_English_2026.pdf",
+    "YCB_YWI": "https://yogacertificationboard.nic.in/wp-content/uploads/2019/11/Syllabus-YWI-Version0.2.pdf",
+    "YCB_YM": "https://yogacertificationboard.nic.in/wp-content/uploads/2020/08/Syllabus-YM.pdf"
+  },
   "items": [
-    {"id":"mountain_pose","challenge_id":"learn_yoga_poses","name":"Mountain Pose","description":"A standing pose with the feet grounded, the spine comfortably upright, and the arms resting alongside the body.","category":"Standing","difficulty":"Beginner"},
-    {"id":"raised_arms_pose","challenge_id":"learn_yoga_poses","name":"Raised Arms Pose","description":"A standing shape that lengthens upward while keeping the feet steady and the shoulders relaxed.","category":"Standing","difficulty":"Beginner"},
-    {"id":"standing_forward_fold","challenge_id":"learn_yoga_poses","name":"Standing Forward Fold","description":"A forward-folding shape from standing, practised with softly bent knees when that feels more comfortable.","category":"Standing","difficulty":"Beginner"},
-    {"id":"halfway_lift","challenge_id":"learn_yoga_poses","name":"Halfway Lift","description":"A partial lift from a forward fold that encourages a long, neutral back and a steady gaze toward the floor.","category":"Standing","difficulty":"Beginner"},
-    {"id":"chair_pose","challenge_id":"learn_yoga_poses","name":"Chair Pose","description":"A standing pose with bent knees and the hips moving back as though approaching a chair.","category":"Standing","difficulty":"Beginner"},
-    {"id":"warrior_one","challenge_id":"learn_yoga_poses","name":"Warrior I","description":"A split-stance standing pose with the front knee bent and the torso facing generally forward.","category":"Standing","difficulty":"Beginner"},
-    {"id":"warrior_two","challenge_id":"learn_yoga_poses","name":"Warrior II","description":"A wide standing pose with one knee bent and the arms reaching in opposite directions.","category":"Standing","difficulty":"Beginner"},
-    {"id":"reverse_warrior","challenge_id":"learn_yoga_poses","name":"Reverse Warrior","description":"A side-reaching variation from Warrior II with the front knee remaining comfortably bent.","category":"Standing","difficulty":"Beginner"},
-    {"id":"extended_side_angle","challenge_id":"learn_yoga_poses","name":"Extended Side Angle","description":"A wide stance with one knee bent and the torso lengthening diagonally over the front leg.","category":"Standing","difficulty":"Beginner"},
-    {"id":"triangle_pose","challenge_id":"learn_yoga_poses","name":"Triangle Pose","description":"A wide-legged standing pose with straight legs and the torso extending to one side.","category":"Standing","difficulty":"Beginner"},
-    {"id":"wide_legged_forward_fold","challenge_id":"learn_yoga_poses","name":"Wide-Legged Forward Fold","description":"A forward fold from a wide stance, keeping the movement comfortable and unforced.","category":"Standing","difficulty":"Beginner"},
-    {"id":"tree_pose","challenge_id":"learn_yoga_poses","name":"Tree Pose","description":"A one-leg balance with the other foot resting below or above the standing knee, never directly on it.","category":"Balance","difficulty":"Beginner"},
-    {"id":"eagle_pose","challenge_id":"learn_yoga_poses","name":"Eagle Pose","description":"A standing balance that layers crossed arms and legs; a simplified toe-down variation may be used.","category":"Balance","difficulty":"Intermediate"},
-    {"id":"dancer_pose","challenge_id":"learn_yoga_poses","name":"Dancer Pose","description":"A standing balance holding one lifted foot behind the body while maintaining a steady, comfortable shape.","category":"Balance","difficulty":"Intermediate"},
-    {"id":"downward_facing_dog","challenge_id":"learn_yoga_poses","name":"Downward-Facing Dog","description":"An inverted V-shaped pose supported by the hands and feet, with the knees bent as needed.","category":"Strength","difficulty":"Beginner"},
-    {"id":"plank_pose","challenge_id":"learn_yoga_poses","name":"Plank Pose","description":"A straight, supported shape from shoulders to heels, with knees lowered as an accessible option.","category":"Strength","difficulty":"Beginner"},
-    {"id":"knees_chest_chin","challenge_id":"learn_yoga_poses","name":"Knees-Chest-Chin Pose","description":"A supported floor transition with knees down and the upper body lowered with control.","category":"Strength","difficulty":"Beginner"},
-    {"id":"cobra_pose","challenge_id":"learn_yoga_poses","name":"Cobra Pose","description":"A gentle prone backbend with the hands supporting lightly and the chest lifting only to a comfortable height.","category":"Backbend","difficulty":"Beginner"},
-    {"id":"sphinx_pose","challenge_id":"learn_yoga_poses","name":"Sphinx Pose","description":"A mild prone backbend supported on the forearms with the shoulders kept away from the ears.","category":"Backbend","difficulty":"Beginner"},
-    {"id":"bridge_pose","challenge_id":"learn_yoga_poses","name":"Bridge Pose","description":"A reclined pose with bent knees and the hips lifting to a comfortable height.","category":"Backbend","difficulty":"Beginner"},
-    {"id":"staff_pose","challenge_id":"learn_yoga_poses","name":"Staff Pose","description":"A seated upright position with the legs extended and the hands resting beside the hips.","category":"Seated","difficulty":"Beginner"},
-    {"id":"easy_pose","challenge_id":"learn_yoga_poses","name":"Easy Pose","description":"A comfortable cross-legged seat that may be supported with a folded blanket or cushion.","category":"Seated","difficulty":"Beginner"},
-    {"id":"bound_angle_pose","challenge_id":"learn_yoga_poses","name":"Bound Angle Pose","description":"A seated shape with the soles of the feet together and the knees opening only as far as comfortable.","category":"Seated","difficulty":"Beginner"},
-    {"id":"seated_forward_fold","challenge_id":"learn_yoga_poses","name":"Seated Forward Fold","description":"A seated fold over extended legs, approached with bent knees and without forcing the reach.","category":"Seated","difficulty":"Beginner"},
-    {"id":"head_to_knee_pose","challenge_id":"learn_yoga_poses","name":"Head-to-Knee Pose","description":"A seated forward fold over one extended leg with the other knee comfortably bent.","category":"Seated","difficulty":"Beginner"},
-    {"id":"seated_spinal_twist","challenge_id":"learn_yoga_poses","name":"Seated Spinal Twist","description":"A gentle seated rotation performed with an upright spine and without pulling into the twist.","category":"Seated","difficulty":"Beginner"},
-    {"id":"cat_pose","challenge_id":"learn_yoga_poses","name":"Cat Pose","description":"A hands-and-knees shape that rounds the back gently while keeping the movement smooth.","category":"Mobility","difficulty":"Beginner"},
-    {"id":"cow_pose","challenge_id":"learn_yoga_poses","name":"Cow Pose","description":"A hands-and-knees shape that gently opens the chest while maintaining a comfortable neck position.","category":"Mobility","difficulty":"Beginner"},
-    {"id":"childs_pose","challenge_id":"learn_yoga_poses","name":"Child's Pose","description":"A resting kneeling shape with the torso supported toward the thighs and arms placed comfortably.","category":"Restorative","difficulty":"Beginner"},
-    {"id":"corpse_pose","challenge_id":"learn_yoga_poses","name":"Corpse Pose","description":"A quiet resting pose lying on the back with the body supported and relaxed.","category":"Restorative","difficulty":"Beginner"}
+    {
+      "id": "mountain_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Mountain Pose",
+      "sanskritName": "Tadasana",
+      "aliases": [
+        "Palm Tree Pose",
+        "Samasthiti"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "standing",
+      "tags": [
+        "standing",
+        "alignment"
+      ],
+      "about": "A standing pose with the feet grounded, the spine comfortably upright, and the arms resting alongside the body.",
+      "howToSteps": [
+        "Begin from a stable standing position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/mountain_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "raised_arms_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Raised Arms Pose",
+      "sanskritName": "Hastottanasana",
+      "aliases": [
+        "Upward Salute",
+        "Urdhva Hastasana"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "standing",
+      "tags": [
+        "standing",
+        "stretch"
+      ],
+      "about": "A standing shape that lengthens upward while keeping the feet steady and the shoulders relaxed.",
+      "howToSteps": [
+        "Begin from a stable standing position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/raised_arms_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "standing_forward_fold",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Standing Forward Fold",
+      "sanskritName": "Uttanasana",
+      "aliases": [
+        "Intense Stretch Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "standing",
+        "forward_bend"
+      ],
+      "about": "A forward-folding shape from standing, practised with softly bent knees when that feels more comfortable.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/standing_forward_fold.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "halfway_lift",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Halfway Lift",
+      "sanskritName": "Ardha Uttanasana",
+      "aliases": [
+        "Half Standing Forward Bend"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "standing",
+        "forward_bend"
+      ],
+      "about": "A partial lift from a forward fold that encourages a long, neutral back and a steady gaze toward the floor.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/halfway_lift.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "chair_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Chair Pose",
+      "sanskritName": "Utkatasana",
+      "aliases": [
+        "Fierce Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "standing",
+      "tags": [
+        "standing",
+        "squat"
+      ],
+      "about": "A standing pose with bent knees and the hips moving back as though approaching a chair.",
+      "howToSteps": [
+        "Begin from a stable standing position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/chair_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "warrior_one",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Warrior I",
+      "sanskritName": "Virabhadrasana I",
+      "aliases": [
+        "Warrior One"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "standing",
+      "tags": [
+        "standing",
+        "lunge"
+      ],
+      "about": "A split-stance standing pose with the front knee bent and the torso facing generally forward.",
+      "howToSteps": [
+        "Begin from a stable standing position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/warrior_one.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "warrior_two",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Warrior II",
+      "sanskritName": "Virabhadrasana II",
+      "aliases": [
+        "Warrior Two"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "standing",
+      "tags": [
+        "standing",
+        "lunge"
+      ],
+      "about": "A wide standing pose with one knee bent and the arms reaching in opposite directions.",
+      "howToSteps": [
+        "Begin from a stable standing position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/warrior_two.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "reverse_warrior",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Reverse Warrior",
+      "sanskritName": "Viparita Virabhadrasana",
+      "aliases": [
+        "Peaceful Warrior"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "standing",
+      "tags": [
+        "standing",
+        "side_bend"
+      ],
+      "about": "A side-reaching variation from Warrior II with the front knee remaining comfortably bent.",
+      "howToSteps": [
+        "Begin from a stable standing position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/reverse_warrior.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "extended_side_angle",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Extended Side Angle",
+      "sanskritName": "Utthita Parsvakonasana",
+      "aliases": [
+        "Side Angle Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "standing",
+      "tags": [
+        "standing",
+        "lunge"
+      ],
+      "about": "A wide stance with one knee bent and the torso lengthening diagonally over the front leg.",
+      "howToSteps": [
+        "Begin from a stable standing position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/extended_side_angle.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "triangle_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Triangle Pose",
+      "sanskritName": "Trikonasana",
+      "aliases": [
+        "Utthita Trikonasana"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "standing",
+      "tags": [
+        "standing",
+        "side_bend"
+      ],
+      "about": "A wide-legged standing pose with straight legs and the torso extending to one side.",
+      "howToSteps": [
+        "Begin from a stable standing position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/triangle_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "wide_legged_forward_fold",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Wide-Legged Forward Fold",
+      "sanskritName": "Prasarita Padottanasana",
+      "aliases": [
+        "Wide Stance Forward Bend"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "standing",
+        "forward_bend"
+      ],
+      "about": "A forward fold from a wide stance, keeping the movement comfortable and unforced.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/wide_legged_forward_fold.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "tree_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Tree Pose",
+      "sanskritName": "Vrikshasana",
+      "aliases": [
+        "Vrksasana"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance"
+      ],
+      "about": "A one-leg balance with the other foot resting below or above the standing knee, never directly on it.",
+      "howToSteps": [
+        "Begin from a stable balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/tree_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "eagle_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Eagle Pose",
+      "sanskritName": "Garudasana",
+      "aliases": [
+        "Garuda Pose"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance"
+      ],
+      "about": "A standing balance that layers crossed arms and legs; a simplified toe-down variation may be used.",
+      "howToSteps": [
+        "Begin from a stable balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/eagle_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "dancer_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Dancer Pose",
+      "sanskritName": "Natarajasana",
+      "aliases": [
+        "Lord of the Dance Pose"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance",
+        "backbend"
+      ],
+      "about": "A standing balance holding one lifted foot behind the body while maintaining a steady, comfortable shape.",
+      "howToSteps": [
+        "Begin from a stable balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/dancer_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "downward_facing_dog",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Downward-Facing Dog",
+      "sanskritName": "Adho Mukha Svanasana",
+      "aliases": [
+        "Downward Dog",
+        "Adho Mukha Shvanasana"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "inversion",
+      "tags": [
+        "inversion",
+        "strength"
+      ],
+      "about": "An inverted V-shaped pose supported by the hands and feet, with the knees bent as needed.",
+      "howToSteps": [
+        "Begin from a stable inversion position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/downward_facing_dog.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "plank_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Plank Pose",
+      "sanskritName": "Phalakasana",
+      "aliases": [
+        "High Plank"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "core",
+      "tags": [
+        "core",
+        "strength"
+      ],
+      "about": "A straight, supported shape from shoulders to heels, with knees lowered as an accessible option.",
+      "howToSteps": [
+        "Begin from a stable core position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/plank_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "knees_chest_chin",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Knees-Chest-Chin Pose",
+      "sanskritName": "Ashtanga Namaskara",
+      "aliases": [
+        "Eight-Limbed Salute"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "prone",
+      "tags": [
+        "prone",
+        "strength"
+      ],
+      "about": "A supported floor transition with knees down and the upper body lowered with control.",
+      "howToSteps": [
+        "Begin from a stable prone position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/knees_chest_chin.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "cobra_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Cobra Pose",
+      "sanskritName": "Bhujangasana",
+      "aliases": [
+        "Serpent Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "backbend",
+      "tags": [
+        "prone",
+        "backbend"
+      ],
+      "about": "A gentle prone backbend with the hands supporting lightly and the chest lifting only to a comfortable height.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/cobra_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "sphinx_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Sphinx Pose",
+      "sanskritName": "Salamba Bhujangasana",
+      "aliases": [
+        "Supported Cobra Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "backbend",
+      "tags": [
+        "prone",
+        "backbend"
+      ],
+      "about": "A mild prone backbend supported on the forearms with the shoulders kept away from the ears.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/sphinx_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "bridge_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Bridge Pose",
+      "sanskritName": "Setu Bandhasana",
+      "aliases": [
+        "Setu Bandha Sarvangasana"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "backbend",
+      "tags": [
+        "supine",
+        "backbend"
+      ],
+      "about": "A reclined pose with bent knees and the hips lifting to a comfortable height.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/bridge_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "staff_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Staff Pose",
+      "sanskritName": "Dandasana",
+      "aliases": [
+        "Seated Staff Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "alignment"
+      ],
+      "about": "A seated upright position with the legs extended and the hands resting beside the hips.",
+      "howToSteps": [
+        "Begin from a stable seated position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/staff_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "easy_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Easy Pose",
+      "sanskritName": "Sukhasana",
+      "aliases": [
+        "Comfortable Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "restorative"
+      ],
+      "about": "A comfortable cross-legged seat that may be supported with a folded blanket or cushion.",
+      "howToSteps": [
+        "Begin from a stable seated position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/easy_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "bound_angle_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Bound Angle Pose",
+      "sanskritName": "Baddha Konasana",
+      "aliases": [
+        "Butterfly Pose",
+        "Cobbler Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "hip_opening"
+      ],
+      "about": "A seated shape with the soles of the feet together and the knees opening only as far as comfortable.",
+      "howToSteps": [
+        "Begin from a stable seated position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/bound_angle_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "seated_forward_fold",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Seated Forward Fold",
+      "sanskritName": "Paschimottanasana",
+      "aliases": [
+        "Intense West Stretch"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "seated",
+        "forward_bend"
+      ],
+      "about": "A seated fold over extended legs, approached with bent knees and without forcing the reach.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/seated_forward_fold.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "head_to_knee_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Head-to-Knee Pose",
+      "sanskritName": "Janu Sirsasana",
+      "aliases": [
+        "Head to Knee Forward Bend"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "seated",
+        "forward_bend"
+      ],
+      "about": "A seated forward fold over one extended leg with the other knee comfortably bent.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/head_to_knee_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "seated_spinal_twist",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Seated Spinal Twist",
+      "sanskritName": "Vakrasana",
+      "aliases": [
+        "Simple Seated Twist"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "twist",
+      "tags": [
+        "seated",
+        "twist"
+      ],
+      "about": "A gentle seated rotation performed with an upright spine and without pulling into the twist.",
+      "howToSteps": [
+        "Begin from a stable twist position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/seated_spinal_twist.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "cat_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Cat Pose",
+      "sanskritName": "Marjaryasana",
+      "aliases": [
+        "Marjariasana"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "mobility"
+      ],
+      "about": "A hands-and-knees shape that rounds the back gently while keeping the movement smooth.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/cat_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "cow_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Cow Pose",
+      "sanskritName": "Bitilasana",
+      "aliases": [
+        "Bitila Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "mobility"
+      ],
+      "about": "A hands-and-knees shape that gently opens the chest while maintaining a comfortable neck position.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/cow_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "childs_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Child's Pose",
+      "sanskritName": "Balasana",
+      "aliases": [
+        "Child Pose",
+        "Shashankasana"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "restorative",
+      "tags": [
+        "kneeling",
+        "restorative"
+      ],
+      "about": "A resting kneeling shape with the torso supported toward the thighs and arms placed comfortably.",
+      "howToSteps": [
+        "Begin from a stable restorative position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/childs_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "corpse_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Corpse Pose",
+      "sanskritName": "Shavasana",
+      "aliases": [
+        "Savasana"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "restorative",
+      "tags": [
+        "supine",
+        "restorative"
+      ],
+      "about": "A quiet resting pose lying on the back with the body supported and relaxed.",
+      "howToSteps": [
+        "Begin from a stable restorative position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/corpse_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "thunderbolt_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Thunderbolt Pose",
+      "sanskritName": "Vajrasana",
+      "aliases": [
+        "Diamond Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "seated"
+      ],
+      "about": "Thunderbolt Pose is a kneeling asana traditionally known as Vajrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/thunderbolt_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "hero_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Hero Pose",
+      "sanskritName": "Virasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "seated"
+      ],
+      "about": "Hero Pose is a kneeling asana traditionally known as Virasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/hero_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "half_lotus_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Half Lotus Pose",
+      "sanskritName": "Ardha Padmasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "hip_opening"
+      ],
+      "about": "Half Lotus Pose is a seated asana traditionally known as Ardha Padmasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable seated position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/half_lotus_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "deer_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Deer Pose",
+      "sanskritName": "Mrigasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "twist"
+      ],
+      "about": "Deer Pose is a seated asana traditionally known as Mrigasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable seated position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/deer_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "crocodile_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Crocodile Pose",
+      "sanskritName": "Makarasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "restorative",
+      "tags": [
+        "prone",
+        "restorative"
+      ],
+      "about": "Crocodile Pose is a restorative asana traditionally known as Makarasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable restorative position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/crocodile_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "wind_relieving_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Wind-Relieving Pose",
+      "sanskritName": "Pavanamuktasana",
+      "aliases": [
+        "Wind Release Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "supine",
+      "tags": [
+        "supine",
+        "fold"
+      ],
+      "about": "Wind-Relieving Pose is a supine asana traditionally known as Pavanamuktasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable supine position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/wind_relieving_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "raised_leg_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Raised Leg Pose",
+      "sanskritName": "Uttanapadasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "core",
+      "tags": [
+        "supine",
+        "core"
+      ],
+      "about": "Raised Leg Pose is a core asana traditionally known as Uttanapadasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable core position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/raised_leg_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "half_plough_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Half Plough Pose",
+      "sanskritName": "Ardha Halasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "supine",
+      "tags": [
+        "supine",
+        "core"
+      ],
+      "about": "Half Plough Pose is a supine asana traditionally known as Ardha Halasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable supine position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/half_plough_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "half_camel_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Half Camel Pose",
+      "sanskritName": "Ardha Ustrasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "backbend",
+      "tags": [
+        "kneeling",
+        "backbend"
+      ],
+      "about": "Half Camel Pose is a backbend asana traditionally known as Ardha Ustrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/half_camel_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "standing_half_backbend",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Standing Half Backbend",
+      "sanskritName": "Ardha Chakrasana",
+      "aliases": [
+        "Half Wheel Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "backbend",
+      "tags": [
+        "standing",
+        "backbend"
+      ],
+      "about": "Standing Half Backbend is a backbend asana traditionally known as Ardha Chakrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/standing_half_backbend.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "waist_rotation_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Standing Waist Twist",
+      "sanskritName": "Kati Chakrasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "twist",
+      "tags": [
+        "standing",
+        "twist"
+      ],
+      "about": "Standing Waist Twist is a twist asana traditionally known as Kati Chakrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable twist position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/waist_rotation_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "side_bend_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Standing Side Bend",
+      "sanskritName": "Ardha Kati Chakrasana",
+      "aliases": [
+        "Half Waist Wheel Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "standing",
+      "tags": [
+        "standing",
+        "side_bend"
+      ],
+      "about": "Standing Side Bend is a standing asana traditionally known as Ardha Kati Chakrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable standing position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/side_bend_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "gate_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Gate Pose",
+      "sanskritName": "Parighasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "side_bend"
+      ],
+      "about": "Gate Pose is a kneeling asana traditionally known as Parighasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/gate_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "low_lunge_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Low Lunge",
+      "sanskritName": "Anjaneyasana",
+      "aliases": [
+        "Crescent Lunge"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "lunge"
+      ],
+      "about": "Low Lunge is a kneeling asana traditionally known as Anjaneyasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/low_lunge_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "locust_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Locust Pose",
+      "sanskritName": "Shalabhasana",
+      "aliases": [
+        "Salabhasana"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "backbend",
+      "tags": [
+        "prone",
+        "backbend"
+      ],
+      "about": "Locust Pose is a backbend asana traditionally known as Shalabhasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/locust_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "reclined_bound_angle_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Reclined Bound Angle",
+      "sanskritName": "Supta Baddha Konasana",
+      "aliases": [
+        "Reclined Butterfly"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "restorative",
+      "tags": [
+        "supine",
+        "restorative"
+      ],
+      "about": "Reclined Bound Angle is a restorative asana traditionally known as Supta Baddha Konasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable restorative position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/reclined_bound_angle_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "happy_baby_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Happy Baby Pose",
+      "sanskritName": "Ananda Balasana",
+      "aliases": [],
+      "difficulty": "beginner",
+      "primaryFamily": "supine",
+      "tags": [
+        "supine",
+        "hip_opening"
+      ],
+      "about": "Happy Baby Pose is a supine asana traditionally known as Ananda Balasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable supine position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/happy_baby_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "supine_spinal_twist",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Supine Spinal Twist",
+      "sanskritName": "Supta Matsyendrasana",
+      "aliases": [
+        "Reclined Twist"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "twist",
+      "tags": [
+        "supine",
+        "twist"
+      ],
+      "about": "Supine Spinal Twist is a twist asana traditionally known as Supta Matsyendrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable twist position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/supine_spinal_twist.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "puppy_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Extended Puppy Pose",
+      "sanskritName": "Uttana Shishosana",
+      "aliases": [
+        "Melting Heart Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "forward_bend"
+      ],
+      "about": "Extended Puppy Pose is a kneeling asana traditionally known as Uttana Shishosana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/puppy_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "tabletop_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Tabletop Pose",
+      "sanskritName": "Bharmanasana",
+      "aliases": [
+        "All Fours Pose"
+      ],
+      "difficulty": "beginner",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "alignment"
+      ],
+      "about": "Tabletop Pose is a kneeling asana traditionally known as Bharmanasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/tabletop_pose.webp",
+      "sourceRefs": [
+        "AYUSH_CYP",
+        "YCB_YWI"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "lotus_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Lotus Pose",
+      "sanskritName": "Padmasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "hip_opening"
+      ],
+      "about": "Lotus Pose is a seated asana traditionally known as Padmasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable seated position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/lotus_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "half_moon_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Half Moon Pose",
+      "sanskritName": "Ardha Chandrasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance"
+      ],
+      "about": "Half Moon Pose is a balance asana traditionally known as Ardha Chandrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/half_moon_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "revolved_triangle_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Revolved Triangle Pose",
+      "sanskritName": "Parivrtta Trikonasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "twist",
+      "tags": [
+        "standing",
+        "twist"
+      ],
+      "about": "Revolved Triangle Pose is a twist asana traditionally known as Parivrtta Trikonasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable twist position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/revolved_triangle_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "pyramid_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Pyramid Pose",
+      "sanskritName": "Parsvottanasana",
+      "aliases": [
+        "Intense Side Stretch"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "standing",
+        "forward_bend"
+      ],
+      "about": "Pyramid Pose is a forward bend asana traditionally known as Parsvottanasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/pyramid_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "warrior_three_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Warrior III",
+      "sanskritName": "Virabhadrasana III",
+      "aliases": [
+        "Warrior Three"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance"
+      ],
+      "about": "Warrior III is a balance asana traditionally known as Virabhadrasana III. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/warrior_three_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "side_plank_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Side Plank Pose",
+      "sanskritName": "Vasisthasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "core"
+      ],
+      "about": "Side Plank Pose is a arm balance asana traditionally known as Vasisthasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable arm balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/side_plank_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "boat_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Boat Pose",
+      "sanskritName": "Navasana",
+      "aliases": [
+        "Paripurna Navasana"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "core",
+      "tags": [
+        "seated",
+        "core"
+      ],
+      "about": "Boat Pose is a core asana traditionally known as Navasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable core position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/boat_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "camel_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Camel Pose",
+      "sanskritName": "Ustrasana",
+      "aliases": [
+        "Ushtrasana"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "backbend",
+      "tags": [
+        "kneeling",
+        "backbend"
+      ],
+      "about": "Camel Pose is a backbend asana traditionally known as Ustrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/camel_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "bow_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Bow Pose",
+      "sanskritName": "Dhanurasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "backbend",
+      "tags": [
+        "prone",
+        "backbend"
+      ],
+      "about": "Bow Pose is a backbend asana traditionally known as Dhanurasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/bow_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "upward_facing_dog",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Upward-Facing Dog",
+      "sanskritName": "Urdhva Mukha Svanasana",
+      "aliases": [
+        "Upward Dog"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "backbend",
+      "tags": [
+        "prone",
+        "backbend"
+      ],
+      "about": "Upward-Facing Dog is a backbend asana traditionally known as Urdhva Mukha Svanasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/upward_facing_dog.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "plough_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Plough Pose",
+      "sanskritName": "Halasana",
+      "aliases": [
+        "Plow Pose"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "inversion",
+      "tags": [
+        "supine",
+        "inversion"
+      ],
+      "about": "Plough Pose is a inversion asana traditionally known as Halasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable inversion position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/plough_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "shoulderstand_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Shoulderstand",
+      "sanskritName": "Sarvangasana",
+      "aliases": [
+        "Salamba Sarvangasana"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "inversion",
+      "tags": [
+        "supine",
+        "inversion"
+      ],
+      "about": "Shoulderstand is a inversion asana traditionally known as Sarvangasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable inversion position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/shoulderstand_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "fish_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Fish Pose",
+      "sanskritName": "Matsyasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "backbend",
+      "tags": [
+        "supine",
+        "backbend"
+      ],
+      "about": "Fish Pose is a backbend asana traditionally known as Matsyasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/fish_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "garland_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Garland Pose",
+      "sanskritName": "Malasana",
+      "aliases": [
+        "Yogi Squat"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "squat",
+      "tags": [
+        "squat",
+        "hip_opening"
+      ],
+      "about": "Garland Pose is a squat asana traditionally known as Malasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable squat position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/garland_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "cow_face_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Cow Face Pose",
+      "sanskritName": "Gomukhasana",
+      "aliases": [
+        "Gaumukhasana"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "shoulder_opening"
+      ],
+      "about": "Cow Face Pose is a seated asana traditionally known as Gomukhasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable seated position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/cow_face_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "half_lord_of_fishes",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Half Lord of the Fishes",
+      "sanskritName": "Ardha Matsyendrasana",
+      "aliases": [
+        "Half Spinal Twist"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "twist",
+      "tags": [
+        "seated",
+        "twist"
+      ],
+      "about": "Half Lord of the Fishes is a twist asana traditionally known as Ardha Matsyendrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable twist position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/half_lord_of_fishes.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "marichi_pose_a",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Marichi's Pose A",
+      "sanskritName": "Marichyasana A",
+      "aliases": [
+        "Marichi A"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "seated",
+        "forward_bend"
+      ],
+      "about": "Marichi's Pose A is a forward bend asana traditionally known as Marichyasana A. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/marichi_pose_a.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "heron_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Heron Pose",
+      "sanskritName": "Krounchasana",
+      "aliases": [
+        "Kraunchasana"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "balance"
+      ],
+      "about": "Heron Pose is a seated asana traditionally known as Krounchasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable seated position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/heron_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "wide_angle_seated_forward_bend",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Wide-Angle Seated Forward Bend",
+      "sanskritName": "Upavistha Konasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "seated",
+        "forward_bend"
+      ],
+      "about": "Wide-Angle Seated Forward Bend is a forward bend asana traditionally known as Upavistha Konasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/wide_angle_seated_forward_bend.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "upward_plank_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Upward Plank Pose",
+      "sanskritName": "Purvottanasana",
+      "aliases": [
+        "Reverse Plank"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "core",
+      "tags": [
+        "core",
+        "backbend"
+      ],
+      "about": "Upward Plank Pose is a core asana traditionally known as Purvottanasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable core position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/upward_plank_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "sugarcane_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Sugarcane Pose",
+      "sanskritName": "Ardha Chandra Chapasana",
+      "aliases": [
+        "Candy Cane Pose"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance",
+        "backbend"
+      ],
+      "about": "Sugarcane Pose is a balance asana traditionally known as Ardha Chandra Chapasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/sugarcane_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "standing_hand_to_big_toe",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Standing Hand-to-Big-Toe Pose",
+      "sanskritName": "Utthita Hasta Padangusthasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance"
+      ],
+      "about": "Standing Hand-to-Big-Toe Pose is a balance asana traditionally known as Utthita Hasta Padangusthasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/standing_hand_to_big_toe.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "revolved_side_angle_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Revolved Side Angle",
+      "sanskritName": "Parivrtta Parsvakonasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "twist",
+      "tags": [
+        "standing",
+        "twist"
+      ],
+      "about": "Revolved Side Angle is a twist asana traditionally known as Parivrtta Parsvakonasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable twist position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/revolved_side_angle_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "humble_warrior_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Humble Warrior",
+      "sanskritName": "Baddha Virabhadrasana",
+      "aliases": [
+        "Bound Warrior"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "standing",
+        "forward_bend"
+      ],
+      "about": "Humble Warrior is a forward bend asana traditionally known as Baddha Virabhadrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/humble_warrior_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "lizard_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Lizard Pose",
+      "sanskritName": "Utthan Pristhasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "lunge",
+        "hip_opening",
+        "kneeling"
+      ],
+      "about": "Lizard Pose is a kneeling asana traditionally known as Utthan Pristhasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/lizard_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "pigeon_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Pigeon Pose",
+      "sanskritName": "Kapotasana Prep",
+      "aliases": [
+        "Sleeping Swan"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "hip_opening"
+      ],
+      "about": "Pigeon Pose is a seated asana traditionally known as Kapotasana Prep. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable seated position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/pigeon_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "reclining_hero_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Reclining Hero Pose",
+      "sanskritName": "Supta Virasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "backbend",
+      "tags": [
+        "supine",
+        "backbend"
+      ],
+      "about": "Reclining Hero Pose is a backbend asana traditionally known as Supta Virasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/reclining_hero_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "dolphin_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Dolphin Pose",
+      "sanskritName": "Ardha Pincha Mayurasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "inversion",
+      "tags": [
+        "inversion",
+        "strength"
+      ],
+      "about": "Dolphin Pose is a inversion asana traditionally known as Ardha Pincha Mayurasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable inversion position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/dolphin_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "forearm_plank_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Forearm Plank",
+      "sanskritName": "Makara Adho Mukha Svanasana",
+      "aliases": [
+        "Dolphin Plank"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "core",
+      "tags": [
+        "core",
+        "strength"
+      ],
+      "about": "Forearm Plank is a core asana traditionally known as Makara Adho Mukha Svanasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable core position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/forearm_plank_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "four_limbed_staff_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Four-Limbed Staff Pose",
+      "sanskritName": "Chaturanga Dandasana",
+      "aliases": [
+        "Low Plank"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "strength"
+      ],
+      "about": "Four-Limbed Staff Pose is a arm balance asana traditionally known as Chaturanga Dandasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable arm balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/four_limbed_staff_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "rabbit_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Rabbit Pose",
+      "sanskritName": "Sasangasana",
+      "aliases": [
+        "Shashankasana Variation"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "kneeling",
+        "forward_bend"
+      ],
+      "about": "Rabbit Pose is a forward bend asana traditionally known as Sasangasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable forward bend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/rabbit_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "lion_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Lion Pose",
+      "sanskritName": "Simhasana",
+      "aliases": [
+        "Lion Seat"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "seated"
+      ],
+      "about": "Lion Pose is a kneeling asana traditionally known as Simhasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/lion_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "frog_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Frog Pose",
+      "sanskritName": "Mandukasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "kneeling",
+      "tags": [
+        "kneeling",
+        "hip_opening"
+      ],
+      "about": "Frog Pose is a kneeling asana traditionally known as Mandukasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable kneeling position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/frog_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "scale_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Scale Pose",
+      "sanskritName": "Tolasana",
+      "aliases": [
+        "Lifted Lotus"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "core"
+      ],
+      "about": "Scale Pose is a arm balance asana traditionally known as Tolasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable arm balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/scale_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "half_boat_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Half Boat Pose",
+      "sanskritName": "Ardha Navasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "core",
+      "tags": [
+        "supine",
+        "core"
+      ],
+      "about": "Half Boat Pose is a core asana traditionally known as Ardha Navasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable core position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/half_boat_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "reverse_tabletop_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Reverse Tabletop",
+      "sanskritName": "Ardha Purvottanasana",
+      "aliases": [
+        "Crab Pose"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "core",
+      "tags": [
+        "core",
+        "backbend"
+      ],
+      "about": "Reverse Tabletop is a core asana traditionally known as Ardha Purvottanasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable core position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/reverse_tabletop_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "standing_backbend_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Standing Backbend",
+      "sanskritName": "Anuvittasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "backbend",
+      "tags": [
+        "standing",
+        "backbend"
+      ],
+      "about": "Standing Backbend is a backbend asana traditionally known as Anuvittasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable backbend position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/standing_backbend_pose.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "revolved_head_to_knee",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Revolved Head-to-Knee Pose",
+      "sanskritName": "Parivrtta Janu Sirsasana",
+      "aliases": [],
+      "difficulty": "intermediate",
+      "primaryFamily": "twist",
+      "tags": [
+        "seated",
+        "twist",
+        "side_bend"
+      ],
+      "about": "Revolved Head-to-Knee Pose is a twist asana traditionally known as Parivrtta Janu Sirsasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable twist position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/revolved_head_to_knee.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "side_reclining_leg_lift",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Side-Reclining Leg Lift",
+      "sanskritName": "Anantasana",
+      "aliases": [
+        "Vishnu's Couch Pose"
+      ],
+      "difficulty": "intermediate",
+      "primaryFamily": "balance",
+      "tags": [
+        "supine",
+        "balance"
+      ],
+      "about": "Side-Reclining Leg Lift is a balance asana traditionally known as Anantasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Begin from a stable balance position and settle your breathing.",
+        "Move gradually toward the shape without forcing your range of motion.",
+        "Keep the breath smooth and maintain a controlled, comfortable position.",
+        "Exit slowly and pause before changing position."
+      ],
+      "practiceSafety": "Work within a comfortable range, avoid forcing the shape, and stop if you feel pain, dizziness or loss of control.",
+      "imageAsset": "assets/images/yoga/side_reclining_leg_lift.webp",
+      "sourceRefs": [
+        "YCB_YWI",
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "crow_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Crow Pose",
+      "sanskritName": "Bakasana",
+      "aliases": [
+        "Crane Pose",
+        "Kakasana"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "balance"
+      ],
+      "about": "Crow Pose is a arm balance asana traditionally known as Bakasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/crow_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "headstand_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Headstand",
+      "sanskritName": "Sirsasana",
+      "aliases": [
+        "Salamba Sirsasana"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "inversion",
+      "tags": [
+        "inversion",
+        "balance"
+      ],
+      "about": "Headstand is a inversion asana traditionally known as Sirsasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/headstand_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "forearm_stand_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Forearm Stand",
+      "sanskritName": "Pincha Mayurasana",
+      "aliases": [
+        "Feathered Peacock Pose"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "inversion",
+      "tags": [
+        "inversion",
+        "balance"
+      ],
+      "about": "Forearm Stand is a inversion asana traditionally known as Pincha Mayurasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/forearm_stand_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "handstand_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Handstand",
+      "sanskritName": "Adho Mukha Vrksasana",
+      "aliases": [
+        "Downward-Facing Tree"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "inversion",
+      "tags": [
+        "inversion",
+        "arm_balance"
+      ],
+      "about": "Handstand is a inversion asana traditionally known as Adho Mukha Vrksasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/handstand_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "wheel_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Wheel Pose",
+      "sanskritName": "Urdhva Dhanurasana",
+      "aliases": [
+        "Upward Bow Pose",
+        "Chakrasana"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "backbend",
+      "tags": [
+        "backbend",
+        "arm_balance"
+      ],
+      "about": "Wheel Pose is a backbend asana traditionally known as Urdhva Dhanurasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/wheel_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "splits_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Front Splits",
+      "sanskritName": "Hanumanasana",
+      "aliases": [
+        "Monkey Pose"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "hip_opening"
+      ],
+      "about": "Front Splits is a seated asana traditionally known as Hanumanasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/splits_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "side_splits_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Side Splits",
+      "sanskritName": "Samakonasana",
+      "aliases": [
+        "Middle Splits"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "hip_opening"
+      ],
+      "about": "Side Splits is a seated asana traditionally known as Samakonasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/side_splits_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "tortoise_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Tortoise Pose",
+      "sanskritName": "Kurmasana",
+      "aliases": [
+        "Turtle Pose"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "forward_bend",
+      "tags": [
+        "seated",
+        "forward_bend"
+      ],
+      "about": "Tortoise Pose is a forward bend asana traditionally known as Kurmasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/tortoise_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "firefly_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Firefly Pose",
+      "sanskritName": "Tittibhasana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "balance"
+      ],
+      "about": "Firefly Pose is a arm balance asana traditionally known as Tittibhasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/firefly_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "eight_angle_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Eight-Angle Pose",
+      "sanskritName": "Astavakrasana",
+      "aliases": [
+        "Ashtavakrasana"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "twist"
+      ],
+      "about": "Eight-Angle Pose is a arm balance asana traditionally known as Astavakrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/eight_angle_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "side_crow_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Side Crow Pose",
+      "sanskritName": "Parsva Bakasana",
+      "aliases": [
+        "Revolved Crow"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "twist"
+      ],
+      "about": "Side Crow Pose is a arm balance asana traditionally known as Parsva Bakasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/side_crow_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "flying_pigeon_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Flying Pigeon Pose",
+      "sanskritName": "Eka Pada Galavasana",
+      "aliases": [
+        "Flying Crow"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "hip_opening"
+      ],
+      "about": "Flying Pigeon Pose is a arm balance asana traditionally known as Eka Pada Galavasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/flying_pigeon_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "peacock_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Peacock Pose",
+      "sanskritName": "Mayurasana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "core"
+      ],
+      "about": "Peacock Pose is a arm balance asana traditionally known as Mayurasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/peacock_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "king_pigeon_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "King Pigeon Pose",
+      "sanskritName": "Rajakapotasana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "backbend",
+      "tags": [
+        "kneeling",
+        "backbend"
+      ],
+      "about": "King Pigeon Pose is a backbend asana traditionally known as Rajakapotasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/king_pigeon_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "compass_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Compass Pose",
+      "sanskritName": "Parivrtta Surya Yantrasana",
+      "aliases": [
+        "Sundial Pose"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "twist"
+      ],
+      "about": "Compass Pose is a seated asana traditionally known as Parivrtta Surya Yantrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/compass_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "bird_of_paradise_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Bird of Paradise Pose",
+      "sanskritName": "Svarga Dvijasana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance",
+        "bind"
+      ],
+      "about": "Bird of Paradise Pose is a balance asana traditionally known as Svarga Dvijasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/bird_of_paradise_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "standing_splits_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Standing Splits",
+      "sanskritName": "Urdhva Prasarita Eka Padasana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance"
+      ],
+      "about": "Standing Splits is a balance asana traditionally known as Urdhva Prasarita Eka Padasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/standing_splits_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "grasshopper_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Grasshopper Pose",
+      "sanskritName": "Parsva Bhuja Dandasana",
+      "aliases": [
+        "Dragonfly Variation"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "twist"
+      ],
+      "about": "Grasshopper Pose is a arm balance asana traditionally known as Parsva Bhuja Dandasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/grasshopper_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "fallen_angel_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Fallen Angel Pose",
+      "sanskritName": "Devaduuta Panna Asana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "twist"
+      ],
+      "about": "Fallen Angel Pose is a arm balance asana traditionally known as Devaduuta Panna Asana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/fallen_angel_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "one_leg_arm_balance_one",
+      "challenge_id": "learn_yoga_poses",
+      "name": "One-Legged Arm Balance I",
+      "sanskritName": "Eka Pada Koundinyasana I",
+      "aliases": [
+        "Sage Koundinya I"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "twist"
+      ],
+      "about": "One-Legged Arm Balance I is a arm balance asana traditionally known as Eka Pada Koundinyasana I. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/one_leg_arm_balance_one.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "one_leg_arm_balance_two",
+      "challenge_id": "learn_yoga_poses",
+      "name": "One-Legged Arm Balance II",
+      "sanskritName": "Eka Pada Koundinyasana II",
+      "aliases": [
+        "Sage Koundinya II"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "balance"
+      ],
+      "about": "One-Legged Arm Balance II is a arm balance asana traditionally known as Eka Pada Koundinyasana II. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/one_leg_arm_balance_two.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "elephant_trunk_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Elephant Trunk Pose",
+      "sanskritName": "Eka Hasta Bhujasana",
+      "aliases": [
+        "One-Leg-Over-Arm Pose"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "hip_opening"
+      ],
+      "about": "Elephant Trunk Pose is a arm balance asana traditionally known as Eka Hasta Bhujasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/elephant_trunk_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "shoulder_pressing_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Shoulder-Pressing Pose",
+      "sanskritName": "Bhujapidasana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "balance"
+      ],
+      "about": "Shoulder-Pressing Pose is a arm balance asana traditionally known as Bhujapidasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/shoulder_pressing_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "noose_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Noose Pose",
+      "sanskritName": "Pasasana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "twist",
+      "tags": [
+        "squat",
+        "twist"
+      ],
+      "about": "Noose Pose is a twist asana traditionally known as Pasasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/noose_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "visvamitras_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Visvamitra's Pose",
+      "sanskritName": "Visvamitrasana",
+      "aliases": [
+        "Vishvamitrasana"
+      ],
+      "difficulty": "difficult",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "balance"
+      ],
+      "about": "Visvamitra's Pose is a arm balance asana traditionally known as Visvamitrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/visvamitras_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "bound_half_moon_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Bound Half Moon",
+      "sanskritName": "Baddha Ardha Chandrasana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance",
+        "bind"
+      ],
+      "about": "Bound Half Moon is a balance asana traditionally known as Baddha Ardha Chandrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/bound_half_moon_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "revolved_half_moon_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Revolved Half Moon",
+      "sanskritName": "Parivrtta Ardha Chandrasana",
+      "aliases": [],
+      "difficulty": "difficult",
+      "primaryFamily": "balance",
+      "tags": [
+        "standing",
+        "balance",
+        "twist"
+      ],
+      "about": "Revolved Half Moon is a balance asana traditionally known as Parivrtta Ardha Chandrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "This pose requires substantial mobility, strength, balance or inversion skill. Learn it progressively with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/revolved_half_moon_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "scorpion_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Scorpion Pose",
+      "sanskritName": "Vrschikasana",
+      "aliases": [
+        "Vrischikasana"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "inversion",
+      "tags": [
+        "inversion",
+        "backbend"
+      ],
+      "about": "Scorpion Pose is a inversion asana traditionally known as Vrschikasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/scorpion_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "one_arm_handstand",
+      "challenge_id": "learn_yoga_poses",
+      "name": "One-Arm Handstand",
+      "sanskritName": "Eka Hasta Adho Mukha Vrksasana",
+      "aliases": [],
+      "difficulty": "expert",
+      "primaryFamily": "inversion",
+      "tags": [
+        "inversion",
+        "arm_balance"
+      ],
+      "about": "One-Arm Handstand is a inversion asana traditionally known as Eka Hasta Adho Mukha Vrksasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/one_arm_handstand.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "one_arm_crow_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "One-Arm Crow Pose",
+      "sanskritName": "Eka Hasta Bakasana",
+      "aliases": [],
+      "difficulty": "expert",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "balance"
+      ],
+      "about": "One-Arm Crow Pose is a arm balance asana traditionally known as Eka Hasta Bakasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/one_arm_crow_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "lotus_handstand",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Lotus Handstand",
+      "sanskritName": "Padma Adho Mukha Vrksasana",
+      "aliases": [],
+      "difficulty": "expert",
+      "primaryFamily": "inversion",
+      "tags": [
+        "inversion",
+        "arm_balance",
+        "lotus"
+      ],
+      "about": "Lotus Handstand is a inversion asana traditionally known as Padma Adho Mukha Vrksasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/lotus_handstand.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "lotus_headstand",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Lotus Headstand",
+      "sanskritName": "Urdhva Padmasana in Sirsasana",
+      "aliases": [
+        "Headstand Lotus"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "inversion",
+      "tags": [
+        "inversion",
+        "lotus"
+      ],
+      "about": "Lotus Headstand is a inversion asana traditionally known as Urdhva Padmasana in Sirsasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/lotus_headstand.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "forearm_wheel_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Forearm Wheel Pose",
+      "sanskritName": "Dwi Pada Viparita Dandasana",
+      "aliases": [
+        "Two-Legged Inverted Staff"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "backbend",
+      "tags": [
+        "backbend",
+        "inversion"
+      ],
+      "about": "Forearm Wheel Pose is a backbend asana traditionally known as Dwi Pada Viparita Dandasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/forearm_wheel_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "chin_stand_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Chin Stand",
+      "sanskritName": "Ganda Bherundasana",
+      "aliases": [
+        "Formidable Face Pose"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "backbend"
+      ],
+      "about": "Chin Stand is a arm balance asana traditionally known as Ganda Bherundasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/chin_stand_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "yogic_sleep_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Yogic Sleep Pose",
+      "sanskritName": "Yoga Nidrasana",
+      "aliases": [],
+      "difficulty": "expert",
+      "primaryFamily": "supine",
+      "tags": [
+        "supine",
+        "forward_bend"
+      ],
+      "about": "Yogic Sleep Pose is a supine asana traditionally known as Yoga Nidrasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/yogic_sleep_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "leg_behind_head_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Leg-Behind-Head Pose",
+      "sanskritName": "Eka Pada Sirsasana",
+      "aliases": [
+        "One Foot Behind Head"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "hip_opening"
+      ],
+      "about": "Leg-Behind-Head Pose is a seated asana traditionally known as Eka Pada Sirsasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/leg_behind_head_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "both_legs_behind_head",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Both-Legs-Behind-Head Pose",
+      "sanskritName": "Dwi Pada Sirsasana",
+      "aliases": [
+        "Two Feet Behind Head"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "seated",
+      "tags": [
+        "seated",
+        "hip_opening"
+      ],
+      "about": "Both-Legs-Behind-Head Pose is a seated asana traditionally known as Dwi Pada Sirsasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/both_legs_behind_head.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "full_locust_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Full Locust Pose",
+      "sanskritName": "Purna Shalabhasana",
+      "aliases": [
+        "Full Locust"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "backbend",
+      "tags": [
+        "prone",
+        "backbend"
+      ],
+      "about": "Full Locust Pose is a backbend asana traditionally known as Purna Shalabhasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/full_locust_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "one_leg_king_pigeon",
+      "challenge_id": "learn_yoga_poses",
+      "name": "One-Legged King Pigeon",
+      "sanskritName": "Eka Pada Rajakapotasana",
+      "aliases": [],
+      "difficulty": "expert",
+      "primaryFamily": "backbend",
+      "tags": [
+        "kneeling",
+        "backbend"
+      ],
+      "about": "One-Legged King Pigeon is a backbend asana traditionally known as Eka Pada Rajakapotasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/one_leg_king_pigeon.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "embryo_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Embryo in the Womb Pose",
+      "sanskritName": "Garbha Pindasana",
+      "aliases": [
+        "Embryo Pose"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "seated",
+        "lotus",
+        "balance",
+        "arm_balance"
+      ],
+      "about": "Embryo in the Womb Pose is a arm balance asana traditionally known as Garbha Pindasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/embryo_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "rooster_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Rooster Pose",
+      "sanskritName": "Kukkutasana",
+      "aliases": [
+        "Cockerel Pose"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "lotus"
+      ],
+      "about": "Rooster Pose is a arm balance asana traditionally known as Kukkutasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/rooster_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "destroyer_universe_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Destroyer of the Universe Pose",
+      "sanskritName": "Kala Bhairavasana",
+      "aliases": [],
+      "difficulty": "expert",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "balance"
+      ],
+      "about": "Destroyer of the Universe Pose is a arm balance asana traditionally known as Kala Bhairavasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/destroyer_universe_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    },
+    {
+      "id": "dragonfly_pose",
+      "challenge_id": "learn_yoga_poses",
+      "name": "Dragonfly Pose",
+      "sanskritName": "Maksikanagasana",
+      "aliases": [
+        "Hummingbird Pose"
+      ],
+      "difficulty": "expert",
+      "primaryFamily": "arm_balance",
+      "tags": [
+        "arm_balance",
+        "twist"
+      ],
+      "about": "Dragonfly Pose is a arm balance asana traditionally known as Maksikanagasana. Practise the shape with steady breathing and controlled movement.",
+      "howToSteps": [
+        "Build the prerequisite mobility, strength and balance through a qualified teacher’s progression.",
+        "Practise only the supported variation your teacher has assessed as appropriate for you.",
+        "Keep the breath steady and exit with assistance before control is lost."
+      ],
+      "practiceSafety": "Expert-level pose. Do not attempt this pose from written instructions alone. Learn through supervised progression with a qualified yoga teacher.",
+      "imageAsset": "assets/images/yoga/dragonfly_pose.webp",
+      "sourceRefs": [
+        "YCB_YM"
+      ],
+      "researchStatus": "verified"
+    }
   ]
 }

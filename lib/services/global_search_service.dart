@@ -237,6 +237,10 @@ class GlobalSearchService {
       if (title == q) return 0;
       if (r.relationTerms.any((term) => term.toLowerCase() == q)) return 1;
       if (r.parentTerms.any((term) => term.toLowerCase() == q)) return 2;
+      if (q.length == 2 &&
+          r.keywords.any((keyword) => keyword.toLowerCase() == q)) {
+        return 2;
+      }
       if (title.startsWith(q)) return 3;
       if (r.keywords.any((keyword) => keyword.toLowerCase() == q)) return 4;
       if (q.length == 2) return 8;

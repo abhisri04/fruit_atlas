@@ -56,9 +56,11 @@ void main() {
     }
 
     await show(GenericChecklistChallengePage(challenge: yoga));
-    await tester.scrollUntilVisible(find.text('Mountain Pose'), 200);
+    await tester.tap(find.text('Mountain Pose'));
     await tester.pumpAndSettle();
-    await tester.tap(find.byType(Checkbox).first);
+    await tester.tap(find.widgetWithText(FilledButton, 'Mark as Completed'));
+    await tester.pumpAndSettle();
+    await tester.pageBack();
     await tester.pumpAndSettle();
     final prefs = await SharedPreferences.getInstance();
     expect(prefs.getStringList('completed_yoga_pose_ids'), ['mountain_pose']);
@@ -66,12 +68,14 @@ void main() {
     await tester.pumpAndSettle();
     expect(prefs.getStringList('saved_challenge_ids'), [yoga.id]);
     await show(const SavedPage());
-    expect(find.text('1 of 30 explored'), findsOneWidget);
+    expect(find.text('1 of 132 explored'), findsOneWidget);
     await tester.tap(find.text(yoga.name));
     await tester.pumpAndSettle();
-    await tester.scrollUntilVisible(find.text('Mountain Pose'), 200);
+    await tester.tap(find.text('Mountain Pose'));
     await tester.pumpAndSettle();
-    expect(tester.widget<Checkbox>(find.byType(Checkbox).first).value, isTrue);
+    expect(find.widgetWithText(FilledButton, 'Completed'), findsOneWidget);
+    await tester.pageBack();
+    await tester.pumpAndSettle();
     await tester.pageBack();
     await tester.pumpAndSettle();
     await tester.tap(find.byTooltip('Remove from Saved'));
@@ -105,8 +109,8 @@ void main() {
     expect(find.text('2'), findsOneWidget);
     await tester.scrollUntilVisible(find.text('1 of 12 visited'), 200);
     expect(find.text('1 of 12 visited'), findsOneWidget);
-    await tester.scrollUntilVisible(find.text('1 of 30 poses learned'), 200);
-    expect(find.text('1 of 30 poses learned'), findsOneWidget);
+    await tester.scrollUntilVisible(find.text('1 of 132 poses learned'), 200);
+    expect(find.text('1 of 132 poses learned'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 }

@@ -68,9 +68,11 @@ void main() {
         ],
         'Shiva': ['Visit All 12 Jyotirlingas', 'Somnath'],
         'Jyotirlinga': ['Visit All 12 Jyotirlingas', 'Somnath'],
-        'Fitness': ['Fitness & Wellness', 'Learn 30 Yoga Poses'],
-        'Yoga': ['Learn 30 Yoga Poses', 'Tree Pose'],
-        'Wellness': ['Fitness & Wellness', 'Learn 30 Yoga Poses'],
+        'Fitness': ['Fitness & Wellness', 'Learn 132 Yoga Poses'],
+        'Yoga': ['Learn 132 Yoga Poses'],
+        'Wellness': ['Fitness & Wellness', 'Learn 132 Yoga Poses'],
+        'Vrikshasana': ['Tree Pose'],
+        'Vrksasana': ['Tree Pose'],
         'Dashehari': ['Dashehari', 'Mango'],
         'Mangifera indica': ['Mango'],
         'Pushkar Fair': ['Pushkar Fair'],
@@ -127,7 +129,7 @@ void main() {
         'Alphonso': VarietyDetailsPage,
         'Somnath': JyotirlingaDetailsPage,
         'Tree Pose': ChecklistItemDetailsPage,
-        'Learn 30 Yoga Poses': GenericChecklistChallengePage,
+        'Learn 132 Yoga Poses': GenericChecklistChallengePage,
         'Food & Drink': CategoryDetailsPage,
         'Bikaner': DistrictDetailsPage,
         'Mehrangarh Fort': ExperienceDetailsPage,
@@ -143,6 +145,20 @@ void main() {
         await tester.pageBack();
         await tester.pumpAndSettle();
       }
+      final treeByEnglish = service
+          .search('Tree')
+          .where((result) => result.title == 'Tree Pose');
+      final treeBySanskrit = service
+          .search('Vrikshasana')
+          .where((result) => result.title == 'Tree Pose');
+      final treeByAlias = service
+          .search('Vrksasana')
+          .where((result) => result.title == 'Tree Pose');
+      expect(treeByEnglish, hasLength(1));
+      expect(treeBySanskrit, hasLength(1));
+      expect(treeByAlias, hasLength(1));
+      expect(treeByEnglish.single.id, treeBySanskrit.single.id);
+      expect(treeByEnglish.single.id, treeByAlias.single.id);
       await tester.tap(find.byTooltip('Clear search'));
       await tester.pumpAndSettle();
       expect(find.text('Explore categories and challenges'), findsOneWidget);
