@@ -1,0 +1,7 @@
+{
+  "state_id": "chhattisgarh",
+  "state_name": "Chhattisgarh",
+  "district_asset": "assets/data/chhattisgarh_districts.json",
+  "experience_asset": "assets/data/chhattisgarh_experiences.json",
+  "collections_asset": "assets/data/chhattisgarh_collections.json"
+}

@@ -1,0 +1,7 @@
+{
+  "state_id": "tamil_nadu",
+  "state_name": "Tamil Nadu",
+  "district_asset": "assets/data/tamil_nadu_districts.json",
+  "experience_asset": "assets/data/tamil_nadu_experiences.json",
+  "collections_asset": "assets/data/tamil_nadu_collections.json"
+}

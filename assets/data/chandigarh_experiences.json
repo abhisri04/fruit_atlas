@@ -1,0 +1,927 @@
+{
+  "experiences": [
+    {
+      "id": "exp_chandigarh_capitol_complex",
+      "title": "Capitol Complex",
+      "description": "The Capitol Complex is Le Corbusier's monumental civic ensemble and part of a UNESCO World Heritage property.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "UNESCO",
+        "Le Corbusier"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_open_hand_monument",
+      "title": "Open Hand Monument",
+      "description": "The Open Hand is Chandigarh's best-known civic symbol and a major element of the Capitol Complex.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Le Corbusier"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_le_corbusier_centre",
+      "title": "Le Corbusier Centre",
+      "description": "The Le Corbusier Centre occupies the architect's former Chandigarh office and interprets the city's planning history.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "architecture museum"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_chandigarh_architecture_museum",
+      "title": "Chandigarh Architecture Museum",
+      "description": "The Chandigarh Architecture Museum documents the conception, planning and development of the city.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "City Museum"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_government_museum_and_art_gallery",
+      "title": "Government Museum and Art Gallery",
+      "description": "The Government Museum and Art Gallery houses Gandharan sculpture, miniature paintings and modern Indian art.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "museum"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_rock_garden",
+      "title": "Rock Garden",
+      "description": "Nek Chand's Rock Garden is a large environmental art landscape built from reused industrial and household materials.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Nek Chand"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_manimajra_fort",
+      "title": "Manimajra Fort",
+      "description": "Manimajra Fort is a historic fortified structure in the older settlement of Manimajra.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Manimajra"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_pierre_jeanneret_museum",
+      "title": "Pierre Jeanneret Museum",
+      "description": "The Pierre Jeanneret Museum preserves the former residence of architect Pierre Jeanneret and interprets Chandigarh's design history.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "House No. 57"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_tower_of_shadows",
+      "title": "Tower of Shadows",
+      "description": "The Tower of Shadows at the Capitol Complex demonstrates Le Corbusier's response to sun and climate.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Capitol"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_high_court_and_secretariat_architecture",
+      "title": "High Court and Secretariat Architecture",
+      "description": "The High Court and Secretariat are major modernist components of Chandigarh's Capitol Complex.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "modernism"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_sukhna_lake",
+      "title": "Sukhna Lake",
+      "description": "Sukhna is Chandigarh's landmark man-made lake at the foot of the Shivaliks.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "lake"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_zakir_hussain_rose_garden",
+      "title": "Zakir Hussain Rose Garden",
+      "description": "The Rose Garden is a large landscaped garden known for extensive rose collections.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Rose Garden"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_chandigarh_bird_park",
+      "title": "Chandigarh Bird Park",
+      "description": "Chandigarh Bird Park is a walk-through bird attraction near Sukhna Lake.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Bird Park"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_garden_of_silence",
+      "title": "Garden of Silence",
+      "description": "Garden of Silence is a landscaped meditation garden near Sukhna Lake.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "meditation garden"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_japanese_garden",
+      "title": "Japanese Garden",
+      "description": "The Japanese Garden is a themed public garden in Chandigarh.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "garden"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_terraced_garden",
+      "title": "Terraced Garden",
+      "description": "Terraced Garden is a landscaped park known for seasonal flowers and public events.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "garden"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_leisure_valley",
+      "title": "Leisure Valley",
+      "description": "Leisure Valley is Chandigarh's chain of linked green spaces running through multiple sectors.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "greenway"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_walk_the_capitol_complex",
+      "title": "Walk the Capitol Complex",
+      "description": "Take an authorised guided or self-guided visit through Chandigarh's UNESCO-listed Capitol Complex.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "architecture walk",
+        "UNESCO"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_cycle_chandigarh_s_sector_grid",
+      "title": "Cycle Chandigarh's Sector Grid",
+      "description": "Explore Chandigarh by bicycle using its planned sector roads and cycling infrastructure.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "cycling"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_boat_on_sukhna_lake",
+      "title": "Boat on Sukhna Lake",
+      "description": "Take a permitted leisure boat ride on Sukhna Lake.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "boating"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_walk_the_rock_garden",
+      "title": "Walk the Rock Garden",
+      "description": "Explore the pathways, sculptures and reused-material environments of Nek Chand's Rock Garden.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Nek Chand"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_follow_an_architecture_trail",
+      "title": "Follow an Architecture Trail",
+      "description": "Explore Capitol Complex, Le Corbusier Centre, museums and residential modernism as a city architecture circuit.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "modernism",
+        "heritage walk"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_visit_chandigarh_s_museums",
+      "title": "Visit Chandigarh's Museums",
+      "description": "Explore the Government Museum and Art Gallery, Architecture Museum and design-history collections.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "museum hopping"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_walk_or_jog_the_sukhna_promenade",
+      "title": "Walk or Jog the Sukhna Promenade",
+      "description": "Use the long pedestrian edge of Sukhna Lake for a morning or evening walk.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "promenade"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_explore_manimajra_market",
+      "title": "Explore Manimajra Market",
+      "description": "Experience the older bazaar fabric, food stalls and everyday market culture of Manimajra.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "bazaar"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_shop_at_shastri_market",
+      "title": "Shop at Shastri Market",
+      "description": "Browse textiles, traditional wear and local market goods at Shastri Market.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "shopping"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_attend_a_performance_at_tagore_theatre",
+      "title": "Attend a Performance at Tagore Theatre",
+      "description": "Watch a public theatre, music or dance programme at Chandigarh's principal cultural venue when scheduled.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chandigarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "performing arts"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_chole_bhature",
+      "title": "Chole Bhature",
+      "description": "Chole bhature is a popular north Indian meal found widely across Chandigarh's restaurants and markets.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "chana"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_amritsari_kulcha_chandigarh_style",
+      "title": "Amritsari Kulcha Chandigarh Style",
+      "description": "Stuffed tandoor-baked kulcha with chole is a popular Punjabi food experience in Chandigarh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "kulcha"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_paneer_tikka",
+      "title": "Paneer Tikka",
+      "description": "Tandoor-grilled paneer is a staple of Chandigarh's Punjabi restaurant culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "tandoori"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_butter_chicken",
+      "title": "Butter Chicken",
+      "description": "Butter chicken is a classic Punjabi restaurant dish widely associated with Chandigarh's food scene.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "murgh makhani"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_rajma_chawal",
+      "title": "Rajma Chawal",
+      "description": "Rajma with rice is a popular everyday north Indian meal in Chandigarh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "kidney beans"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_gol_gappe",
+      "title": "Gol Gappe",
+      "description": "Gol gappe are a ubiquitous street-food snack across Chandigarh's markets.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "pani puri"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_tikki_chaat",
+      "title": "Tikki Chaat",
+      "description": "Potato tikki with chutneys, yoghurt and spices is a common Chandigarh street-food experience.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "chaat"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_stuffed_paratha",
+      "title": "Stuffed Paratha",
+      "description": "Stuffed parathas with curd, butter or pickle are a popular breakfast food in Chandigarh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "parantha"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_punjabi_lassi",
+      "title": "Punjabi Lassi",
+      "description": "Thick sweet or salted lassi reflects Chandigarh's strong Punjabi food culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "lassi"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_masala_chai",
+      "title": "Masala Chai",
+      "description": "Hot spiced tea is an everyday drink across Chandigarh's markets and cafés.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "tea"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_shikanji",
+      "title": "Shikanji",
+      "description": "Shikanji is a spiced lemon drink popular during Chandigarh's hot months.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chandigarh",
+      "category_id": "food_drink",
+      "keywords": [
+        "nimbu pani"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_open_hand_art_studios",
+      "title": "Open Hand Art Studios",
+      "description": "Chandigarh Lalit Kala Akademi's Open Hand Art Studios support contemporary visual-art practice and public workshops.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "visual art"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_phulkari_in_chandigarh_markets",
+      "title": "Phulkari in Chandigarh Markets",
+      "description": "Phulkari embroidery is prominent in Chandigarh's traditional clothing and craft markets.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "embroidery"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_punjabi_jutti_craft",
+      "title": "Punjabi Jutti Craft",
+      "description": "Traditional embroidered juttis are widely represented in Chandigarh's Punjabi craft markets.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "footwear"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_modernist_furniture_and_design_heritage",
+      "title": "Modernist Furniture and Design Heritage",
+      "description": "Chandigarh's design heritage includes distinctive furniture and interior objects created for the city's modernist buildings.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "modernism",
+        "furniture"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_nek_chand_recycled_material_art",
+      "title": "Nek Chand Recycled-Material Art",
+      "description": "The Rock Garden embodies a unique tradition of assemblage art made from discarded industrial and household materials.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Rock Garden",
+        "assemblage"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_chandigarh_carnival",
+      "title": "Chandigarh Carnival",
+      "description": "Chandigarh Carnival is a city cultural event featuring performances, displays and public festivities.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "carnival"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_chandigarh_national_craft_mela",
+      "title": "Chandigarh National Craft Mela",
+      "description": "The National Craft Mela brings artisans, crafts, music and food traditions to Chandigarh.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "craft fair"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_chandigarh_arts_and_heritage_festival",
+      "title": "Chandigarh Arts and Heritage Festival",
+      "description": "The Arts and Heritage Festival showcases performing arts, architecture and cultural programming across the city.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "heritage festival"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_teej_festival_chandigarh",
+      "title": "Teej Festival Chandigarh",
+      "description": "Teej is celebrated through cultural programmes, music, dance and traditional dress.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Teej"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_chrysanthemum_show",
+      "title": "Chrysanthemum Show",
+      "description": "The Chrysanthemum Show is a seasonal flower event held in Chandigarh's gardens.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "flower show"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_rose_festival",
+      "title": "Rose Festival",
+      "description": "The annual Rose Festival celebrates the city's gardens with flowers, performances and public events.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Rose Garden"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_theatre_festival_chandigarh",
+      "title": "Theatre Festival Chandigarh",
+      "description": "Chandigarh hosts recurring theatre festivals and public stage performances through its cultural institutions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "theatre"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_punjabi_bhangra",
+      "title": "Punjabi Bhangra",
+      "description": "Bhangra is widely performed in Chandigarh at festivals, colleges and public cultural events.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_punjabi_giddha",
+      "title": "Punjabi Giddha",
+      "description": "Giddha is a women's Punjabi folk-dance tradition regularly presented at Chandigarh cultural events.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_classical_music_at_tagore_theatre",
+      "title": "Classical Music at Tagore Theatre",
+      "description": "Tagore Theatre and Chandigarh's cultural academies regularly host Indian classical music performances.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "classical music"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    },
+    {
+      "id": "exp_chandigarh_punjabi_folk_music",
+      "title": "Punjabi Folk Music",
+      "description": "Punjabi folk music forms an important part of Chandigarh's cultural festivals and public celebrations.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chandigarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk music"
+      ],
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "status": "active",
+      "city": "Chandigarh",
+      "city_id": "chandigarh"
+    }
+  ]
+}

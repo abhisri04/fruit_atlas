@@ -1,0 +1,171 @@
+{
+  "collections": [
+    {
+      "id": "manipur_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Manipur.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "manipur",
+      "context_name": "Manipur",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_manipur_kangla_fort",
+        "exp_manipur_shree_shree_govindajee_temple",
+        "exp_manipur_manipur_state_museum",
+        "exp_manipur_mutua_museum",
+        "exp_manipur_khongjom_war_memorial",
+        "exp_manipur_ina_museum_moirang",
+        "exp_manipur_india_peace_memorial"
+      ],
+      "empty_message": "More Manipur landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "manipur_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Manipur.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "manipur",
+      "context_name": "Manipur",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_manipur_loktak_lake",
+        "exp_manipur_keibul_lamjao_national_park",
+        "exp_manipur_shirui_hills",
+        "exp_manipur_tharon_cave",
+        "exp_manipur_zeilad_lake",
+        "exp_manipur_khoupum_valley"
+      ],
+      "empty_message": "More Manipur nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "manipur_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Manipur.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "manipur",
+      "context_name": "Manipur",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_manipur_browse_ima_keithel",
+        "exp_manipur_watch_sagol_kangjei"
+      ],
+      "empty_message": "More Manipur experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "manipur_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Manipur in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "manipur",
+      "context_name": "Manipur",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Manipur fruits experiences are coming soon."
+    },
+    {
+      "id": "manipur_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Manipur.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "manipur",
+      "context_name": "Manipur",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_manipur_eromba",
+        "exp_manipur_singju",
+        "exp_manipur_nga_thongba",
+        "exp_manipur_ooti",
+        "exp_manipur_paknam"
+      ],
+      "empty_message": "More Manipur dishes experiences are coming soon."
+    },
+    {
+      "id": "manipur_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Manipur.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "manipur",
+      "context_name": "Manipur",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_manipur_nillai_tea"
+      ],
+      "empty_message": "More Manipur drinks experiences are coming soon."
+    },
+    {
+      "id": "manipur_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Manipur.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "manipur",
+      "context_name": "Manipur",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_manipur_longpi_pottery",
+        "exp_manipur_kauna_reed_craft",
+        "exp_manipur_moirang_phee_weaving",
+        "exp_manipur_shaphee_lanphee"
+      ],
+      "empty_message": "More Manipur arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "manipur_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Manipur.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "manipur",
+      "context_name": "Manipur",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_manipur_yaoshang",
+        "exp_manipur_lai_haraoba",
+        "exp_manipur_ningol_chakouba",
+        "exp_manipur_manipur_sangai_festival"
+      ],
+      "empty_message": "More Manipur festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "manipur_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Manipur.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "manipur",
+      "context_name": "Manipur",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_manipur_manipuri_ras_leela",
+        "exp_manipur_pung_cholom",
+        "exp_manipur_nupa_pala",
+        "exp_manipur_thabal_chongba"
+      ],
+      "empty_message": "More Manipur music & dance experiences are coming soon."
+    }
+  ]
+}

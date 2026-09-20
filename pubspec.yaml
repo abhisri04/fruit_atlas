@@ -63,10 +63,117 @@ flutter:
     - assets/data/rajasthan_experiences.json
     - assets/data/district_sources.json
     - assets/data/rajasthan_districts.json
+    - assets/data/uttar_pradesh_districts.json
+    - assets/data/uttar_pradesh_experiences.json
+    - assets/data/uttar_pradesh_collections.json
+    - assets/data/delhi_districts.json
+    - assets/data/delhi_experiences.json
+    - assets/data/delhi_collections.json
+    - assets/data/haryana_districts.json
+    - assets/data/haryana_experiences.json
+    - assets/data/haryana_collections.json
+    - assets/data/punjab_districts.json
+    - assets/data/punjab_experiences.json
+    - assets/data/punjab_collections.json
+    - assets/data/uttarakhand_districts.json
+    - assets/data/uttarakhand_experiences.json
+    - assets/data/uttarakhand_collections.json
+    - assets/data/himachal_pradesh_districts.json
+    - assets/data/himachal_pradesh_experiences.json
+    - assets/data/himachal_pradesh_collections.json
+    - assets/data/jammu_kashmir_districts.json
+    - assets/data/jammu_kashmir_experiences.json
+    - assets/data/jammu_kashmir_collections.json
+    - assets/data/ladakh_districts.json
+    - assets/data/ladakh_experiences.json
+    - assets/data/ladakh_collections.json
+    - assets/data/chandigarh_districts.json
+    - assets/data/chandigarh_experiences.json
+    - assets/data/chandigarh_collections.json
+    - assets/data/madhya_pradesh_districts.json
+    - assets/data/madhya_pradesh_experiences.json
+    - assets/data/madhya_pradesh_collections.json
+    - assets/data/gujarat_districts.json
+    - assets/data/gujarat_experiences.json
+    - assets/data/gujarat_collections.json
+    - assets/data/maharashtra_districts.json
+    - assets/data/maharashtra_experiences.json
+    - assets/data/maharashtra_collections.json
+    - assets/data/goa_districts.json
+    - assets/data/goa_experiences.json
+    - assets/data/goa_collections.json
+    - assets/data/chhattisgarh_districts.json
+    - assets/data/chhattisgarh_experiences.json
+    - assets/data/chhattisgarh_collections.json
+    - assets/data/bihar_districts.json
+    - assets/data/bihar_experiences.json
+    - assets/data/bihar_collections.json
+    - assets/data/jharkhand_districts.json
+    - assets/data/jharkhand_experiences.json
+    - assets/data/jharkhand_collections.json
+    - assets/data/west_bengal_districts.json
+    - assets/data/west_bengal_experiences.json
+    - assets/data/west_bengal_collections.json
+    - assets/data/odisha_districts.json
+    - assets/data/odisha_experiences.json
+    - assets/data/odisha_collections.json
+    - assets/data/sikkim_districts.json
+    - assets/data/sikkim_experiences.json
+    - assets/data/sikkim_collections.json
+    - assets/data/assam_districts.json
+    - assets/data/assam_experiences.json
+    - assets/data/assam_collections.json
+    - assets/data/arunachal_pradesh_districts.json
+    - assets/data/arunachal_pradesh_experiences.json
+    - assets/data/arunachal_pradesh_collections.json
+    - assets/data/meghalaya_districts.json
+    - assets/data/meghalaya_experiences.json
+    - assets/data/meghalaya_collections.json
+    - assets/data/nagaland_districts.json
+    - assets/data/nagaland_experiences.json
+    - assets/data/nagaland_collections.json
+    - assets/data/manipur_districts.json
+    - assets/data/manipur_experiences.json
+    - assets/data/manipur_collections.json
+    - assets/data/mizoram_districts.json
+    - assets/data/mizoram_experiences.json
+    - assets/data/mizoram_collections.json
+    - assets/data/tripura_districts.json
+    - assets/data/tripura_experiences.json
+    - assets/data/tripura_collections.json
+    - assets/data/andhra_pradesh_districts.json
+    - assets/data/andhra_pradesh_experiences.json
+    - assets/data/andhra_pradesh_collections.json
+    - assets/data/telangana_districts.json
+    - assets/data/telangana_experiences.json
+    - assets/data/telangana_collections.json
+    - assets/data/karnataka_districts.json
+    - assets/data/karnataka_experiences.json
+    - assets/data/karnataka_collections.json
+    - assets/data/kerala_districts.json
+    - assets/data/kerala_experiences.json
+    - assets/data/kerala_collections.json
+    - assets/data/tamil_nadu_districts.json
+    - assets/data/tamil_nadu_experiences.json
+    - assets/data/tamil_nadu_collections.json
+    - assets/data/puducherry_districts.json
+    - assets/data/puducherry_experiences.json
+    - assets/data/puducherry_collections.json
+    - assets/data/andaman_nicobar_districts.json
+    - assets/data/andaman_nicobar_experiences.json
+    - assets/data/andaman_nicobar_collections.json
+    - assets/data/lakshadweep_districts.json
+    - assets/data/lakshadweep_experiences.json
+    - assets/data/lakshadweep_collections.json
+    - assets/data/dadra_nagar_haveli_daman_diu_districts.json
+    - assets/data/dadra_nagar_haveli_daman_diu_experiences.json
+    - assets/data/dadra_nagar_haveli_daman_diu_collections.json
     - assets/data/experience_collections.json
     - assets/data/search_keywords.json
+    - assets/data/state_exploration/
     - assets/images/india_map_borders.png
     - assets/images/yoga/
+    - assets/images/fruits/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

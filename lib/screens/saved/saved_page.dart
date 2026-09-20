@@ -13,6 +13,7 @@ import '../../widgets/empty_state.dart';
 import '../discover/discover_page.dart';
 import '../fruit/fruit_details_page.dart';
 import '../fruit/variety_details_page.dart';
+import '../../widgets/fruit_image.dart';
 import '../challenge/checklist_item_details_page.dart';
 
 // SAVED PAGE
@@ -140,13 +141,13 @@ class _SavedPageState extends State<SavedPage> {
                   for (final discovery in savedEntities)
                     Card(
                       child: ListTile(
-                        leading: Icon(switch (discovery.type) {
-                          DailyDiscoveryType.fruit => Icons.eco_outlined,
-                          DailyDiscoveryType.variety =>
-                            Icons.local_florist_outlined,
-                          DailyDiscoveryType.yogaPose =>
-                            Icons.self_improvement_outlined,
-                        }),
+                        leading: discovery.fruit == null
+                            ? const Icon(Icons.self_improvement_outlined)
+                            : FruitImage(
+                                fruit: discovery.fruit!,
+                                width: 42,
+                                height: 42,
+                              ),
                         title: Text(discovery.title),
                         subtitle: Text(discovery.subtitle),
                         trailing: IconButton(

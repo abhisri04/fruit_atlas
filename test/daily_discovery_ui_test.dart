@@ -11,6 +11,7 @@ import 'package:fruit_atlas/screens/home/home_page.dart';
 import 'package:fruit_atlas/screens/saved/saved_page.dart';
 import 'package:fruit_atlas/services/daily_discovery_service.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
+import 'package:fruit_atlas/widgets/fruit_image.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class _FakeDailyDiscoveryService extends DailyDiscoveryService {
@@ -100,6 +101,13 @@ void main() {
       expect(find.text('Fruit variety · Mango'), findsOneWidget);
       expect(find.text('Explore this variety →'), findsOneWidget);
       expect(find.text('Save for later'), findsOneWidget);
+      expect(
+        tester
+            .widget<FruitImage>(find.byType(FruitImage))
+            .fruit
+            .canonicalImageAsset,
+        'assets/images/fruits/FR001.webp',
+      );
       expect(tester.getBottomRight(find.text('Explore')).dy, lessThan(844));
 
       await tester.tap(find.widgetWithText(TextButton, 'Save for later'));
@@ -127,6 +135,13 @@ void main() {
       await tester.pumpAndSettle();
       expect(find.text('Saved discoveries'), findsOneWidget);
       expect(find.text('Dashehari'), findsOneWidget);
+      expect(
+        tester
+            .widget<FruitImage>(find.byType(FruitImage))
+            .fruit
+            .canonicalImageAsset,
+        'assets/images/fruits/FR001.webp',
+      );
       await tester.tap(find.text('Dashehari'));
       await tester.pumpAndSettle();
       expect(find.byType(VarietyDetailsPage), findsOneWidget);

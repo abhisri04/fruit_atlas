@@ -1,0 +1,7 @@
+{
+  "state_id": "jammu_kashmir",
+  "state_name": "Jammu and Kashmir",
+  "district_asset": "assets/data/jammu_kashmir_districts.json",
+  "experience_asset": "assets/data/jammu_kashmir_experiences.json",
+  "collections_asset": "assets/data/jammu_kashmir_collections.json"
+}

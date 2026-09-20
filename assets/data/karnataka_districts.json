@@ -1,0 +1,310 @@
+{
+  "districts": [
+    {
+      "id": "district_karnataka_bagalkote",
+      "name": "Bagalkote",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Bagalkote is a district of Karnataka.",
+      "keywords": [
+        "Bagalkot"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_ballari",
+      "name": "Ballari",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Ballari is a district of Karnataka.",
+      "keywords": [
+        "Bellary"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_belagavi",
+      "name": "Belagavi",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Belagavi is a district of Karnataka.",
+      "keywords": [
+        "Belgaum"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_bengaluru_rural",
+      "name": "Bengaluru Rural",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Bengaluru Rural is a district of Karnataka.",
+      "keywords": [
+        "Bangalore Rural",
+        "Bengaluru North"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_bengaluru_south",
+      "name": "Bengaluru South",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Bengaluru South is a district of Karnataka.",
+      "keywords": [
+        "Ramanagara"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_bengaluru_urban",
+      "name": "Bengaluru Urban",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Bengaluru Urban is a district of Karnataka.",
+      "keywords": [
+        "Bangalore Urban"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_bidar",
+      "name": "Bidar",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Bidar is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_chamarajanagar",
+      "name": "Chamarajanagar",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Chamarajanagar is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_chikkaballapura",
+      "name": "Chikkaballapura",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Chikkaballapura is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_chikkamagaluru",
+      "name": "Chikkamagaluru",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Chikkamagaluru is a district of Karnataka.",
+      "keywords": [
+        "Chikmagalur"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_chitradurga",
+      "name": "Chitradurga",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Chitradurga is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_dakshina_kannada",
+      "name": "Dakshina Kannada",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Dakshina Kannada is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_davanagere",
+      "name": "Davanagere",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Davanagere is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_dharwad",
+      "name": "Dharwad",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Dharwad is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_gadag",
+      "name": "Gadag",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Gadag is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_hassan",
+      "name": "Hassan",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Hassan is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_haveri",
+      "name": "Haveri",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Haveri is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_kalaburagi",
+      "name": "Kalaburagi",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Kalaburagi is a district of Karnataka.",
+      "keywords": [
+        "Gulbarga"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_kodagu",
+      "name": "Kodagu",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Kodagu is a district of Karnataka.",
+      "keywords": [
+        "Coorg"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_kolar",
+      "name": "Kolar",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Kolar is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_koppal",
+      "name": "Koppal",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Koppal is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_mandya",
+      "name": "Mandya",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Mandya is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_mysuru",
+      "name": "Mysuru",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Mysuru is a district of Karnataka.",
+      "keywords": [
+        "Mysore"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_raichur",
+      "name": "Raichur",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Raichur is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_shivamogga",
+      "name": "Shivamogga",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Shivamogga is a district of Karnataka.",
+      "keywords": [
+        "Shimoga"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_tumakuru",
+      "name": "Tumakuru",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Tumakuru is a district of Karnataka.",
+      "keywords": [
+        "Tumkur"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_udupi",
+      "name": "Udupi",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Udupi is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_uttara_kannada",
+      "name": "Uttara Kannada",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Uttara Kannada is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_vijayanagara",
+      "name": "Vijayanagara",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Vijayanagara is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_vijayapura",
+      "name": "Vijayapura",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Vijayapura is a district of Karnataka.",
+      "keywords": [
+        "Bijapur"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_karnataka_yadgir",
+      "name": "Yadgir",
+      "state_id": "karnataka",
+      "state_name": "Karnataka",
+      "description": "Yadgir is a district of Karnataka.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "collections": [
+    {
+      "id": "nagaland_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Nagaland.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "nagaland",
+      "context_name": "Nagaland",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_nagaland_kohima_war_cemetery",
+        "exp_nagaland_kachari_ruins",
+        "exp_nagaland_kisama_heritage_village"
+      ],
+      "empty_message": "More Nagaland landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "nagaland_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Nagaland.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "nagaland",
+      "context_name": "Nagaland",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_nagaland_dzuko_valley",
+        "exp_nagaland_japfu_peak",
+        "exp_nagaland_doyang_reservoir",
+        "exp_nagaland_mount_tiyi"
+      ],
+      "empty_message": "More Nagaland nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "nagaland_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Nagaland.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "nagaland",
+      "context_name": "Nagaland",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_nagaland_walk_through_khonoma",
+        "exp_nagaland_explore_longwa_village"
+      ],
+      "empty_message": "More Nagaland experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "nagaland_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Nagaland in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "nagaland",
+      "context_name": "Nagaland",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Nagaland fruits experiences are coming soon."
+    },
+    {
+      "id": "nagaland_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Nagaland.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "nagaland",
+      "context_name": "Nagaland",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_nagaland_smoked_pork_with_axone",
+        "exp_nagaland_amrusu",
+        "exp_nagaland_hinkejvu",
+        "exp_nagaland_akini_chokibo",
+        "exp_nagaland_galho",
+        "exp_nagaland_bamboo_steamed_fish"
+      ],
+      "empty_message": "More Nagaland dishes experiences are coming soon."
+    },
+    {
+      "id": "nagaland_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Nagaland.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "nagaland",
+      "context_name": "Nagaland",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_nagaland_mon_tea"
+      ],
+      "empty_message": "More Nagaland drinks experiences are coming soon."
+    },
+    {
+      "id": "nagaland_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Nagaland.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "nagaland",
+      "context_name": "Nagaland",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_nagaland_chakhesang_shawl_weaving",
+        "exp_nagaland_naga_beadwork",
+        "exp_nagaland_naga_blacksmithing"
+      ],
+      "empty_message": "More Nagaland arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "nagaland_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Nagaland.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "nagaland",
+      "context_name": "Nagaland",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_nagaland_hornbill_festival",
+        "exp_nagaland_sekrenyi",
+        "exp_nagaland_moatsu",
+        "exp_nagaland_tuluni",
+        "exp_nagaland_tokhu_emong",
+        "exp_nagaland_aoleang"
+      ],
+      "empty_message": "More Nagaland festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "nagaland_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Nagaland.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "nagaland",
+      "context_name": "Nagaland",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_nagaland_naga_log_drum_performance",
+        "exp_nagaland_thekra_hie_singing"
+      ],
+      "empty_message": "More Nagaland music & dance experiences are coming soon."
+    }
+  ]
+}

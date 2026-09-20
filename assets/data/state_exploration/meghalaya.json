@@ -1,0 +1,7 @@
+{
+  "state_id": "meghalaya",
+  "state_name": "Meghalaya",
+  "district_asset": "assets/data/meghalaya_districts.json",
+  "experience_asset": "assets/data/meghalaya_experiences.json",
+  "collections_asset": "assets/data/meghalaya_collections.json"
+}

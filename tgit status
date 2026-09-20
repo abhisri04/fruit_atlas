@@ -1,0 +1,35 @@
+warning: in the working copy of 'assets/data/challenges.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/data/fruit_atlas_seed.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'lib/screens/experience/experience_collection_page.dart', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'lib/services/progress_service.dart', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'lib/widgets/daily_discovery_card.dart', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pubspec.yaml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test/daily_discovery_card_test.dart', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test/daily_discovery_ui_test.dart', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test/india_states_challenge_test.dart', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'test/state_exploration_test.dart', LF will be replaced by CRLF the next time Git touches it
+ assets/data/challenges.json                        |    2 [32m+[m[31m-[m
+ assets/data/district_sources.json                  |   37 [32m+[m[31m-[m
+ assets/data/experience_sources.json                |   37 [32m+[m[31m-[m
+ assets/data/fruit_atlas_seed.json                  | 2957 [32m++++++++++++++++[m[31m----[m
+ lib/models/achievement.dart                        |    4 [32m+[m[31m-[m
+ lib/models/fruit.dart                              |   36 [32m+[m[31m-[m
+ .../challenge/checklist_item_details_page.dart     |  190 [32m+[m[31m-[m
+ lib/screens/challenge/fruit_challenge_page.dart    |   11 [32m+[m[31m-[m
+ .../experience/experience_collection_page.dart     |    6 [32m+[m[31m-[m
+ lib/screens/fruit/fruit_details_page.dart          |   17 [32m+[m
+ lib/screens/saved/saved_page.dart                  |   15 [32m+[m[31m-[m
+ lib/services/asset_data_service.dart               |   18 [32m+[m[31m-[m
+ lib/services/fruit_search.dart                     |    3 [32m+[m
+ lib/services/global_search_service.dart            |    4 [32m+[m[31m-[m
+ lib/services/progress_service.dart                 |   30 [32m+[m[31m-[m
+ lib/widgets/daily_discovery_card.dart              |   18 [32m+[m[31m-[m
+ lib/widgets/search_result_tile.dart                |   27 [32m+[m[31m-[m
+ pubspec.yaml                                       |  107 [32m+[m
+ test/daily_discovery_card_test.dart                |    5 [32m+[m
+ test/daily_discovery_ui_test.dart                  |   15 [32m+[m
+ test/fruit_flow_test.dart                          |   15 [32m+[m[31m-[m
+ test/global_search_test.dart                       |   18 [32m+[m[31m-[m
+ test/india_states_challenge_test.dart              |    2 [32m+[m[31m-[m
+ test/state_exploration_test.dart                   |    4 [32m+[m[31m-[m
+ 24 files changed, 2941 insertions(+), 637 deletions(-)

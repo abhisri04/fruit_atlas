@@ -1,0 +1,169 @@
+{
+  "collections": [
+    {
+      "id": "meghalaya_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Meghalaya.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "meghalaya",
+      "context_name": "Meghalaya",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_meghalaya_nartiang_monoliths",
+        "exp_meghalaya_don_bosco_indigenous_museum",
+        "exp_meghalaya_captain_williamson_sangma_state_museum",
+        "exp_meghalaya_rhino_heritage_museum"
+      ],
+      "empty_message": "More Meghalaya landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "meghalaya_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Meghalaya.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "meghalaya",
+      "context_name": "Meghalaya",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_meghalaya_nokrek_national_park",
+        "exp_meghalaya_balpakram_national_park",
+        "exp_meghalaya_nohkalikai_falls",
+        "exp_meghalaya_nohsngithiang_falls",
+        "exp_meghalaya_mawphlang_sacred_grove",
+        "exp_meghalaya_krang_shuri_falls",
+        "exp_meghalaya_umiam_lake"
+      ],
+      "empty_message": "More Meghalaya nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "meghalaya_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Meghalaya.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "meghalaya",
+      "context_name": "Meghalaya",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_meghalaya_walk_the_david_scott_trail",
+        "exp_meghalaya_explore_meghalaya_s_caves"
+      ],
+      "empty_message": "More Meghalaya experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "meghalaya_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Meghalaya in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "meghalaya",
+      "context_name": "Meghalaya",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Meghalaya fruits experiences are coming soon."
+    },
+    {
+      "id": "meghalaya_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Meghalaya.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "meghalaya",
+      "context_name": "Meghalaya",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_meghalaya_jadoh",
+        "exp_meghalaya_dohkhleh",
+        "exp_meghalaya_tungrymbai",
+        "exp_meghalaya_pukhlein",
+        "exp_meghalaya_pumaloi",
+        "exp_meghalaya_pudoh",
+        "exp_meghalaya_nakham_bitchi",
+        "exp_meghalaya_do_o_kappa"
+      ],
+      "empty_message": "More Meghalaya dishes experiences are coming soon."
+    },
+    {
+      "id": "meghalaya_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Meghalaya.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "meghalaya",
+      "context_name": "Meghalaya",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_meghalaya_meghalaya_red_tea"
+      ],
+      "empty_message": "More Meghalaya drinks experiences are coming soon."
+    },
+    {
+      "id": "meghalaya_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Meghalaya.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "meghalaya",
+      "context_name": "Meghalaya",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_meghalaya_ryndia_weaving",
+        "exp_meghalaya_larnai_pottery",
+        "exp_meghalaya_dakmanda_weaving"
+      ],
+      "empty_message": "More Meghalaya arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "meghalaya_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Meghalaya.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "meghalaya",
+      "context_name": "Meghalaya",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_meghalaya_wangala",
+        "exp_meghalaya_nongkrem_dance_festival",
+        "exp_meghalaya_shad_suk_mynsiem",
+        "exp_meghalaya_behdienkhlam"
+      ],
+      "empty_message": "More Meghalaya festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "meghalaya_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Meghalaya.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "meghalaya",
+      "context_name": "Meghalaya",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_meghalaya_duitara_music",
+        "exp_meghalaya_tangmuri_music"
+      ],
+      "empty_message": "More Meghalaya music & dance experiences are coming soon."
+    }
+  ]
+}

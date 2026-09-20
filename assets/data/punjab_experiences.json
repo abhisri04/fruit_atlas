@@ -1,0 +1,1329 @@
+{
+  "experiences": [
+    {
+      "id": "exp_punjab_golden_temple",
+      "title": "Golden Temple",
+      "description": "Sri Harmandir Sahib, commonly known as the Golden Temple, is Sikhism's most prominent shrine in Amritsar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Harmandir Sahib",
+        "Darbar Sahib"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_jallianwala_bagh",
+      "title": "Jallianwala Bagh",
+      "description": "Jallianwala Bagh is a national memorial in Amritsar commemorating the 1919 massacre.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "1919"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_gobindgarh_fort",
+      "title": "Gobindgarh Fort",
+      "description": "Gobindgarh Fort is a historic fort in Amritsar associated with the Sikh Empire and later colonial use.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "fort"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_partition_museum",
+      "title": "Partition Museum",
+      "description": "The Partition Museum in Amritsar documents the human history of the 1947 Partition.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Partition"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_durgiana_temple",
+      "title": "Durgiana Temple",
+      "description": "Durgiana Temple is a major Hindu temple complex in Amritsar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Lakshmi Narayan Temple"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_wagah_attari_border",
+      "title": "Wagah-Attari Border",
+      "description": "The Attari-Wagah border is known for the ceremonial evening retreat by Indian and Pakistani border forces.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Attari Border",
+        "Wagah"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_virasat_e_khalsa",
+      "title": "Virasat-e-Khalsa",
+      "description": "Virasat-e-Khalsa at Anandpur Sahib is a major museum interpreting Sikh history and Punjab's cultural heritage.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "anandpur_sahib",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Khalsa Heritage Memorial"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Anandpur Sahib",
+      "city_id": "anandpur_sahib"
+    },
+    {
+      "id": "exp_punjab_takht_sri_kesgarh_sahib",
+      "title": "Takht Sri Kesgarh Sahib",
+      "description": "Takht Sri Kesgarh Sahib is one of Sikhism's five Takhts and a central pilgrimage site at Anandpur Sahib.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "anandpur_sahib",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Kesgarh Sahib"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Anandpur Sahib",
+      "city_id": "anandpur_sahib"
+    },
+    {
+      "id": "exp_punjab_qila_mubarak_patiala",
+      "title": "Qila Mubarak, Patiala",
+      "description": "Qila Mubarak is the historic fortified core of Patiala's royal city.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "patiala",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Patiala Fort"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Patiala",
+      "city_id": "patiala"
+    },
+    {
+      "id": "exp_punjab_sheesh_mahal_patiala",
+      "title": "Sheesh Mahal, Patiala",
+      "description": "Sheesh Mahal is a richly decorated palace complex in Patiala associated with the city's royal heritage.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "patiala",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Palace of Mirrors"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Patiala",
+      "city_id": "patiala"
+    },
+    {
+      "id": "exp_punjab_moti_bagh_palace",
+      "title": "Moti Bagh Palace",
+      "description": "Moti Bagh Palace is a major royal landmark of Patiala.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "patiala",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "New Moti Bagh"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Patiala",
+      "city_id": "patiala"
+    },
+    {
+      "id": "exp_punjab_jagatjit_palace",
+      "title": "Jagatjit Palace",
+      "description": "Jagatjit Palace in Kapurthala reflects the European-influenced architecture of the former princely state.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kapurthala",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Jagjit Palace"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Kapurthala",
+      "city_id": "kapurthala"
+    },
+    {
+      "id": "exp_punjab_moorish_mosque",
+      "title": "Moorish Mosque",
+      "description": "The Moorish Mosque in Kapurthala is a distinctive 20th-century mosque inspired by North African architecture.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kapurthala",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Kapurthala Mosque"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Kapurthala",
+      "city_id": "kapurthala"
+    },
+    {
+      "id": "exp_punjab_qila_mubarak_bathinda",
+      "title": "Qila Mubarak, Bathinda",
+      "description": "Qila Mubarak in Bathinda is an ancient fort associated with multiple phases of Punjab's history.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "bathinda",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Bathinda Fort"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Bathinda",
+      "city_id": "bathinda"
+    },
+    {
+      "id": "exp_punjab_fatehgarh_sahib_gurdwara_complex",
+      "title": "Fatehgarh Sahib Gurdwara Complex",
+      "description": "Fatehgarh Sahib is a major Sikh pilgrimage site associated with the martyrdom of the younger Sahibzadas.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "fatehgarh_sahib",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sirhind"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Fatehgarh Sahib",
+      "city_id": "fatehgarh_sahib"
+    },
+    {
+      "id": "exp_punjab_rauza_sharif",
+      "title": "Rauza Sharif",
+      "description": "Rauza Sharif at Sirhind is a major Sufi shrine associated with Sheikh Ahmad Sirhindi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "fatehgarh_sahib",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sirhind"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Fatehgarh Sahib",
+      "city_id": "fatehgarh_sahib"
+    },
+    {
+      "id": "exp_punjab_aam_khas_bagh",
+      "title": "Aam Khas Bagh",
+      "description": "Aam Khas Bagh at Sirhind is a historic Mughal-era garden and serai complex.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "fatehgarh_sahib",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mughal garden"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Fatehgarh Sahib",
+      "city_id": "fatehgarh_sahib"
+    },
+    {
+      "id": "exp_punjab_sultanpur_lodhi",
+      "title": "Sultanpur Lodhi",
+      "description": "Sultanpur Lodhi is a major Sikh pilgrimage town associated with Guru Nanak.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kapurthala",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Guru Nanak"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Kapurthala",
+      "city_id": "kapurthala"
+    },
+    {
+      "id": "exp_punjab_khatkar_kalan_memorial",
+      "title": "Khatkar Kalan Memorial",
+      "description": "Khatkar Kalan is associated with Shaheed Bhagat Singh and includes memorial institutions devoted to his life and legacy.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "shahid_bhagat_singh_nagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Bhagat Singh"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Shahid Bhagat Singh Nagar",
+      "city_id": "shahid_bhagat_singh_nagar"
+    },
+    {
+      "id": "exp_punjab_pul_kanjari",
+      "title": "Pul Kanjari",
+      "description": "Pul Kanjari is a historic site near Amritsar associated with Maharaja Ranjit Singh's era.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_harike_wetland",
+      "title": "Harike Wetland",
+      "description": "Harike is a major wetland at the confluence of the Beas and Sutlej rivers and a Ramsar site.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "tarn_taran",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Harike Pattan",
+        "Ramsar"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Tarn Taran",
+      "city_id": "tarn_taran"
+    },
+    {
+      "id": "exp_punjab_kanjli_wetland",
+      "title": "Kanjli Wetland",
+      "description": "Kanjli Wetland near Kapurthala is a Ramsar wetland on the Kali Bein.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kapurthala",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ramsar"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Kapurthala",
+      "city_id": "kapurthala"
+    },
+    {
+      "id": "exp_punjab_ropar_wetland",
+      "title": "Ropar Wetland",
+      "description": "Ropar Wetland is a Ramsar site on the Sutlej near Rupnagar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "rupnagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Rupnagar Wetland",
+        "Ramsar"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Rupnagar",
+      "city_id": "rupnagar"
+    },
+    {
+      "id": "exp_punjab_nangal_wildlife_and_wetland_landscape",
+      "title": "Nangal Wildlife and Wetland Landscape",
+      "description": "The Nangal reservoir and associated wetland landscape support waterbirds and riverine ecology near the Shivaliks.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "rupnagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Nangal Wetland"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Rupnagar",
+      "city_id": "rupnagar"
+    },
+    {
+      "id": "exp_punjab_keshopur_miani_community_reserve",
+      "title": "Keshopur-Miani Community Reserve",
+      "description": "Keshopur-Miani is a community-managed wetland complex in Gurdaspur district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "gurdaspur",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Keshopur Wetland"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Gurdaspur",
+      "city_id": "gurdaspur"
+    },
+    {
+      "id": "exp_punjab_beas_conservation_reserve",
+      "title": "Beas Conservation Reserve",
+      "description": "Beas Conservation Reserve protects a long stretch of the Beas river and its aquatic and riparian biodiversity.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "punjab",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Beas River"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_ranjit_sagar_lake",
+      "title": "Ranjit Sagar Lake",
+      "description": "Ranjit Sagar Lake near Pathankot is a large reservoir landscape at the foothills of the Shivaliks.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "pathankot",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Thein Dam"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Pathankot",
+      "city_id": "pathankot"
+    },
+    {
+      "id": "exp_punjab_attend_the_attari_wagah_retreat_ceremony",
+      "title": "Attend the Attari-Wagah Retreat Ceremony",
+      "description": "Watch the ceremonial evening flag-lowering and parade at the Attari-Wagah border.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Beating Retreat",
+        "border ceremony"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_walk_the_amritsar_heritage_street",
+      "title": "Walk the Amritsar Heritage Street",
+      "description": "Explore the pedestrian heritage corridor leading toward the Golden Temple and historic core of Amritsar.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage walk"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_experience_langar_at_the_golden_temple",
+      "title": "Experience Langar at the Golden Temple",
+      "description": "Participate respectfully in the community meal tradition at Sri Harmandir Sahib.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "amritsar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "langar",
+        "seva"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_explore_a_punjabi_farm_stay",
+      "title": "Explore a Punjabi Farm Stay",
+      "description": "Experience rural Punjab through farm stays, agricultural landscapes and village hospitality.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "punjab",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "farm tourism",
+        "village tourism"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_visit_virasat_e_khalsa",
+      "title": "Visit Virasat-e-Khalsa",
+      "description": "Explore the museum galleries and architecture of Virasat-e-Khalsa at Anandpur Sahib.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "anandpur_sahib",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "museum"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Anandpur Sahib",
+      "city_id": "anandpur_sahib"
+    },
+    {
+      "id": "exp_punjab_walk_the_patiala_royal_heritage_circuit",
+      "title": "Walk the Patiala Royal Heritage Circuit",
+      "description": "Explore Qila Mubarak, Sheesh Mahal and other sites linked to Patiala's former princely state.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "patiala",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage walk"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Patiala",
+      "city_id": "patiala"
+    },
+    {
+      "id": "exp_punjab_birdwatch_at_harike_wetland",
+      "title": "Birdwatch at Harike Wetland",
+      "description": "Spend time birdwatching in the Harike wetland landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "tarn_taran",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "birding",
+        "wetland"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Tarn Taran",
+      "city_id": "tarn_taran"
+    },
+    {
+      "id": "exp_punjab_explore_the_kali_bein_at_sultanpur_lodhi",
+      "title": "Explore the Kali Bein at Sultanpur Lodhi",
+      "description": "Walk along the restored Kali Bein riverfront around the historic town of Sultanpur Lodhi.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kapurthala",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Kali Bein"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Kapurthala",
+      "city_id": "kapurthala"
+    },
+    {
+      "id": "exp_punjab_explore_punjab_s_rural_sports_at_kila_raipur",
+      "title": "Explore Punjab's Rural Sports at Kila Raipur",
+      "description": "Experience the rural sports tradition associated with Kila Raipur near Ludhiana when events are scheduled.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "ludhiana",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Rural Olympics",
+        "Kila Raipur"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Ludhiana",
+      "city_id": "ludhiana"
+    },
+    {
+      "id": "exp_punjab_visit_the_hussainiwala_memorial",
+      "title": "Visit the Hussainiwala Memorial",
+      "description": "Explore the national martyrs' memorial landscape near Ferozepur associated with Bhagat Singh, Rajguru and Sukhdev.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "ferozepur",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "martyrs memorial"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Ferozepur",
+      "city_id": "ferozepur"
+    },
+    {
+      "id": "exp_punjab_amritsari_kulcha",
+      "title": "Amritsari Kulcha",
+      "description": "Amritsari kulcha is a stuffed, tandoor-baked flatbread strongly associated with Amritsar.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "amritsar",
+      "category_id": "food_drink",
+      "keywords": [
+        "kulcha"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_amritsari_fish",
+      "title": "Amritsari Fish",
+      "description": "Amritsari fish is a spiced batter-fried fish preparation associated with Amritsar's food culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "amritsar",
+      "category_id": "food_drink",
+      "keywords": [
+        "fried fish"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_sarson_da_saag_with_makki_di_roti",
+      "title": "Sarson da Saag with Makki di Roti",
+      "description": "Mustard-greens curry with maize flatbread is one of Punjab's best-known seasonal food combinations.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "saag",
+        "makki roti"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_dal_makhani",
+      "title": "Dal Makhani",
+      "description": "Dal makhani is a slow-cooked black-lentil preparation strongly associated with Punjabi restaurant cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "black dal"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_tandoori_chicken",
+      "title": "Tandoori Chicken",
+      "description": "Tandoori chicken is a yoghurt-marinated chicken cooked in a clay tandoor and is closely associated with Punjabi cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "tandoor"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_chole_kulche",
+      "title": "Chole Kulche",
+      "description": "Chole kulche pairs spiced chickpeas with soft flatbread and is a common Punjabi street-food meal.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "chana"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_paneer_tikka",
+      "title": "Paneer Tikka",
+      "description": "Paneer tikka is a tandoor-grilled paneer preparation widely associated with Punjabi cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "tandoori paneer"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_kadhi_pakora",
+      "title": "Kadhi Pakora",
+      "description": "Punjabi kadhi pakora combines a yoghurt-gram-flour curry with fried pakoras.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "kadhi"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_pinni",
+      "title": "Pinni",
+      "description": "Pinni is a dense Punjabi sweet made with flour or lentil flour, ghee, sugar or jaggery and nuts.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "sweet"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_gur_rewari",
+      "title": "Gur Rewari",
+      "description": "Rewari is a sesame-and-jaggery confection eaten widely in Punjab, especially in winter and around Lohri.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "rewri",
+        "sesame"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_gajak",
+      "title": "Gajak",
+      "description": "Gajak is a crisp sesame-and-jaggery winter sweet popular across Punjab.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "winter sweet"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_panjeri",
+      "title": "Panjeri",
+      "description": "Panjeri is a rich roasted-flour preparation with ghee, nuts and spices, often prepared in Punjabi homes.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "panjeeri"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_punjabi_sweet_lassi",
+      "title": "Punjabi Sweet Lassi",
+      "description": "Sweet lassi is a thick yoghurt drink strongly associated with Punjab's dairy-rich food culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "lassi"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_salted_lassi",
+      "title": "Salted Lassi",
+      "description": "Salted lassi is a savoury yoghurt drink commonly served with Punjabi meals.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "chaas",
+        "buttermilk"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_kesar_badam_milk",
+      "title": "Kesar Badam Milk",
+      "description": "Kesar badam milk is a rich saffron-and-almond milk drink found in Punjabi sweet shops and eateries.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "punjab",
+      "category_id": "food_drink",
+      "keywords": [
+        "almond milk"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_phulkari_embroidery",
+      "title": "Phulkari Embroidery",
+      "description": "Phulkari is Punjab's celebrated floral embroidery tradition worked in colourful silk thread.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "embroidery"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_punjabi_jutti",
+      "title": "Punjabi Jutti",
+      "description": "Punjabi jutti is traditional embroidered footwear produced by artisan communities across the state.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "mojari",
+        "footwear"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_durrie_weaving",
+      "title": "Durrie Weaving",
+      "description": "Flat-woven durries are part of Punjab's household weaving and textile traditions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "weaving"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_wood_inlay_craft_of_hoshiarpur",
+      "title": "Wood Inlay Craft of Hoshiarpur",
+      "description": "Hoshiarpur is known for decorative wood inlay and carved wooden craft.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "hoshiarpur",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wood inlay"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Hoshiarpur",
+      "city_id": "hoshiarpur"
+    },
+    {
+      "id": "exp_punjab_thathera_metal_craft",
+      "title": "Thathera Metal Craft",
+      "description": "Thathera craft uses hand-beaten brass and copper vessels and is historically associated with Jandiala Guru.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "amritsar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "metal craft",
+        "Jandiala Guru"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Amritsar",
+      "city_id": "amritsar"
+    },
+    {
+      "id": "exp_punjab_punjabi_paranda",
+      "title": "Punjabi Paranda",
+      "description": "Paranda is a colourful braided hair ornament strongly associated with traditional Punjabi dress.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "hair ornament"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_punjabi_handloom_khes",
+      "title": "Punjabi Handloom Khes",
+      "description": "Khes are traditional woven cotton bedcovers and wraps associated with Punjab's handloom culture.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "handloom"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_nala_and_naale_craft",
+      "title": "Nala and Naale Craft",
+      "description": "Decorative braided cords used with Punjabi garments form part of traditional textile accessories.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "textile craft"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_vaisakhi_in_punjab",
+      "title": "Vaisakhi in Punjab",
+      "description": "Vaisakhi is a major harvest and religious festival celebrated across Punjab.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Baisakhi"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_hola_mohalla",
+      "title": "Hola Mohalla",
+      "description": "Hola Mohalla is a major Sikh festival centred on Anandpur Sahib, known for martial displays, processions and gatherings.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "anandpur_sahib",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Holla Mohalla"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Anandpur Sahib",
+      "city_id": "anandpur_sahib"
+    },
+    {
+      "id": "exp_punjab_lohri",
+      "title": "Lohri",
+      "description": "Lohri is a winter bonfire festival widely celebrated across Punjab.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "bonfire festival"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_maghi_mela_sri_muktsar_sahib",
+      "title": "Maghi Mela, Sri Muktsar Sahib",
+      "description": "Maghi Mela at Sri Muktsar Sahib commemorates the Forty Liberated Ones and draws large pilgrim gatherings.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "sri_muktsar_sahib",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Muktsar Mela"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Sri Muktsar Sahib",
+      "city_id": "sri_muktsar_sahib"
+    },
+    {
+      "id": "exp_punjab_shaheedi_jor_mela",
+      "title": "Shaheedi Jor Mela",
+      "description": "Shaheedi Jor Mela at Fatehgarh Sahib commemorates the martyrdom of the younger Sahibzadas.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "fatehgarh_sahib",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Jor Mela"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Fatehgarh Sahib",
+      "city_id": "fatehgarh_sahib"
+    },
+    {
+      "id": "exp_punjab_kila_raipur_rural_sports_festival",
+      "title": "Kila Raipur Rural Sports Festival",
+      "description": "Kila Raipur is associated with a long-running rural sports gathering near Ludhiana.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ludhiana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Rural Olympics"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Ludhiana",
+      "city_id": "ludhiana"
+    },
+    {
+      "id": "exp_punjab_baba_sodal_mela",
+      "title": "Baba Sodal Mela",
+      "description": "Baba Sodal Mela is an annual religious fair in Jalandhar.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "jalandhar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Sodal Mela"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Jalandhar",
+      "city_id": "jalandhar"
+    },
+    {
+      "id": "exp_punjab_harballabh_sangeet_sammelan",
+      "title": "Harballabh Sangeet Sammelan",
+      "description": "Harballabh Sangeet Sammelan in Jalandhar is one of India's long-running classical music festivals.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "jalandhar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "classical music festival"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Jalandhar",
+      "city_id": "jalandhar"
+    },
+    {
+      "id": "exp_punjab_bhangra",
+      "title": "Bhangra",
+      "description": "Bhangra is Punjab's globally recognised energetic folk-dance tradition with roots in agrarian celebration.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_giddha",
+      "title": "Giddha",
+      "description": "Giddha is a women's folk-dance tradition of Punjab performed with rhythmic clapping and boliyan.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance",
+        "boliyan"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_jhumar",
+      "title": "Jhumar",
+      "description": "Jhumar is a Punjabi folk dance known for its flowing rhythm and circular movement.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_sammi",
+      "title": "Sammi",
+      "description": "Sammi is a Punjabi women's folk-dance tradition associated with the Sandal Bar cultural region.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_luddi",
+      "title": "Luddi",
+      "description": "Luddi is a Punjabi folk dance performed with distinctive body and head movements.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_malwai_giddha",
+      "title": "Malwai Giddha",
+      "description": "Malwai Giddha is a male folk-performance tradition associated with the Malwa region of Punjab.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Malwa",
+        "folk dance"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_dhadi_singing",
+      "title": "Dhadi Singing",
+      "description": "Dhadi is a ballad-singing tradition using voice and instruments to narrate heroic and historical themes.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "ballad singing"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_tumbi_folk_music",
+      "title": "Tumbi Folk Music",
+      "description": "Tumbi is a single-string instrument central to many forms of Punjabi folk and popular music.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "tumbi"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    },
+    {
+      "id": "exp_punjab_algoza_folk_music",
+      "title": "Algoza Folk Music",
+      "description": "Algoza is a paired woodwind instrument used in Punjabi folk music.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "punjab",
+      "category_id": "culture_learning",
+      "keywords": [
+        "algoza"
+      ],
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "status": "active",
+      "city": "Punjab",
+      "city_id": "punjab"
+    }
+  ]
+}

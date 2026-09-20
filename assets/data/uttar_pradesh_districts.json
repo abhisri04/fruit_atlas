@@ -1,0 +1,690 @@
+{
+  "districts": [
+    {
+      "id": "district_uttar_pradesh_agra",
+      "name": "Agra",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Agra is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_aligarh",
+      "name": "Aligarh",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Aligarh is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_ambedkar_nagar",
+      "name": "Ambedkar Nagar",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Ambedkar Nagar is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_amethi",
+      "name": "Amethi",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Amethi is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_amroha",
+      "name": "Amroha",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Amroha is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_auraiya",
+      "name": "Auraiya",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Auraiya is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_ayodhya",
+      "name": "Ayodhya",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Ayodhya is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_azamgarh",
+      "name": "Azamgarh",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Azamgarh is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_baghpat",
+      "name": "Baghpat",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Baghpat is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_bahraich",
+      "name": "Bahraich",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Bahraich is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_ballia",
+      "name": "Ballia",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Ballia is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_balrampur",
+      "name": "Balrampur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Balrampur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_banda",
+      "name": "Banda",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Banda is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_barabanki",
+      "name": "Barabanki",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Barabanki is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_bareilly",
+      "name": "Bareilly",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Bareilly is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_basti",
+      "name": "Basti",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Basti is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_bhadohi",
+      "name": "Bhadohi",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Bhadohi is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_bijnor",
+      "name": "Bijnor",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Bijnor is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_budaun",
+      "name": "Budaun",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Budaun is a district of Uttar Pradesh.",
+      "keywords": [
+        "Badaun"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_bulandshahr",
+      "name": "Bulandshahr",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Bulandshahr is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_chandauli",
+      "name": "Chandauli",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Chandauli is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_chitrakoot",
+      "name": "Chitrakoot",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Chitrakoot is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_deoria",
+      "name": "Deoria",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Deoria is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_etah",
+      "name": "Etah",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Etah is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_etawah",
+      "name": "Etawah",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Etawah is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_farrukhabad",
+      "name": "Farrukhabad",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Farrukhabad is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_fatehpur",
+      "name": "Fatehpur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Fatehpur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_firozabad",
+      "name": "Firozabad",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Firozabad is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_gautam_buddha_nagar",
+      "name": "Gautam Buddha Nagar",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Gautam Buddha Nagar is a district of Uttar Pradesh.",
+      "keywords": [
+        "Gautam Budh Nagar",
+        "Noida"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_ghaziabad",
+      "name": "Ghaziabad",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Ghaziabad is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_ghazipur",
+      "name": "Ghazipur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Ghazipur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_gonda",
+      "name": "Gonda",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Gonda is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_gorakhpur",
+      "name": "Gorakhpur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Gorakhpur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_hamirpur",
+      "name": "Hamirpur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Hamirpur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_hapur",
+      "name": "Hapur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Hapur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_hardoi",
+      "name": "Hardoi",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Hardoi is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_hathras",
+      "name": "Hathras",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Hathras is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_jalaun",
+      "name": "Jalaun",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Jalaun is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_jaunpur",
+      "name": "Jaunpur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Jaunpur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_jhansi",
+      "name": "Jhansi",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Jhansi is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_kannauj",
+      "name": "Kannauj",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Kannauj is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_kanpur_dehat",
+      "name": "Kanpur Dehat",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Kanpur Dehat is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_kanpur_nagar",
+      "name": "Kanpur Nagar",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Kanpur Nagar is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_kasganj",
+      "name": "Kasganj",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Kasganj is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_kaushambi",
+      "name": "Kaushambi",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Kaushambi is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_kushinagar",
+      "name": "Kushinagar",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Kushinagar is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_lakhimpur_kheri",
+      "name": "Lakhimpur Kheri",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Lakhimpur Kheri is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_lalitpur",
+      "name": "Lalitpur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Lalitpur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_lucknow",
+      "name": "Lucknow",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Lucknow is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_maharajganj",
+      "name": "Maharajganj",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Maharajganj is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_mahoba",
+      "name": "Mahoba",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Mahoba is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_mainpuri",
+      "name": "Mainpuri",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Mainpuri is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_mathura",
+      "name": "Mathura",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Mathura is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_mau",
+      "name": "Mau",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Mau is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_meerut",
+      "name": "Meerut",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Meerut is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_mirzapur",
+      "name": "Mirzapur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Mirzapur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_moradabad",
+      "name": "Moradabad",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Moradabad is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_muzaffarnagar",
+      "name": "Muzaffarnagar",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Muzaffarnagar is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_pilibhit",
+      "name": "Pilibhit",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Pilibhit is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_pratapgarh",
+      "name": "Pratapgarh",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Pratapgarh is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_prayagraj",
+      "name": "Prayagraj",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Prayagraj is a district of Uttar Pradesh.",
+      "keywords": [
+        "Allahabad"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_raebareli",
+      "name": "Raebareli",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Raebareli is a district of Uttar Pradesh.",
+      "keywords": [
+        "Rae Bareli"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_rampur",
+      "name": "Rampur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Rampur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_saharanpur",
+      "name": "Saharanpur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Saharanpur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_sambhal",
+      "name": "Sambhal",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Sambhal is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_sant_kabir_nagar",
+      "name": "Sant Kabir Nagar",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Sant Kabir Nagar is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_shahjahanpur",
+      "name": "Shahjahanpur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Shahjahanpur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_shamli",
+      "name": "Shamli",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Shamli is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_shravasti",
+      "name": "Shravasti",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Shravasti is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_siddharthnagar",
+      "name": "Siddharthnagar",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Siddharthnagar is a district of Uttar Pradesh.",
+      "keywords": [
+        "Siddharth Nagar"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_sitapur",
+      "name": "Sitapur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Sitapur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_sonbhadra",
+      "name": "Sonbhadra",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Sonbhadra is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_sultanpur",
+      "name": "Sultanpur",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Sultanpur is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_unnao",
+      "name": "Unnao",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Unnao is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttar_pradesh_varanasi",
+      "name": "Varanasi",
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "description": "Varanasi is a district of Uttar Pradesh.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "state_id": "dadra_nagar_haveli_daman_diu",
+  "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+  "district_asset": "assets/data/dadra_nagar_haveli_daman_diu_districts.json",
+  "experience_asset": "assets/data/dadra_nagar_haveli_daman_diu_experiences.json",
+  "collections_asset": "assets/data/dadra_nagar_haveli_daman_diu_collections.json"
+}

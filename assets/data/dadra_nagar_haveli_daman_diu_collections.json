@@ -1,0 +1,152 @@
+{
+  "collections": [
+    {
+      "id": "dadra_nagar_haveli_daman_diu_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Dadra and Nagar Haveli and Daman and Diu.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "dadra_nagar_haveli_daman_diu",
+      "context_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_dadra_nagar_haveli_daman_diu_silvassa_tribal_cultural_museum",
+        "exp_dadra_nagar_haveli_daman_diu_church_of_our_lady_of_piety_silvassa",
+        "exp_dadra_nagar_haveli_daman_diu_nani_daman_fort",
+        "exp_dadra_nagar_haveli_daman_diu_moti_daman_fort",
+        "exp_dadra_nagar_haveli_daman_diu_diu_fort",
+        "exp_dadra_nagar_haveli_daman_diu_st_paul_s_church_diu"
+      ],
+      "empty_message": "More Dadra and Nagar Haveli and Daman and Diu landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "dadra_nagar_haveli_daman_diu_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Dadra and Nagar Haveli and Daman and Diu.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "dadra_nagar_haveli_daman_diu",
+      "context_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_dadra_nagar_haveli_daman_diu_vanganga_lake_garden",
+        "exp_dadra_nagar_haveli_daman_diu_nagoa_beach"
+      ],
+      "empty_message": "More Dadra and Nagar Haveli and Daman and Diu nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "dadra_nagar_haveli_daman_diu_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Dadra and Nagar Haveli and Daman and Diu.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "dadra_nagar_haveli_daman_diu",
+      "context_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_dadra_nagar_haveli_daman_diu_boat_on_dudhni_lake"
+      ],
+      "empty_message": "More Dadra and Nagar Haveli and Daman and Diu experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "dadra_nagar_haveli_daman_diu_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Dadra and Nagar Haveli and Daman and Diu in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "dadra_nagar_haveli_daman_diu",
+      "context_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Dadra and Nagar Haveli and Daman and Diu fruits experiences are coming soon."
+    },
+    {
+      "id": "dadra_nagar_haveli_daman_diu_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Dadra and Nagar Haveli and Daman and Diu.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "dadra_nagar_haveli_daman_diu",
+      "context_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_dadra_nagar_haveli_daman_diu_daman_jetty_roll"
+      ],
+      "empty_message": "More Dadra and Nagar Haveli and Daman and Diu dishes experiences are coming soon."
+    },
+    {
+      "id": "dadra_nagar_haveli_daman_diu_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Dadra and Nagar Haveli and Daman and Diu.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "dadra_nagar_haveli_daman_diu",
+      "context_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [],
+      "empty_message": "No distinct, verified local drinks are listed yet."
+    },
+    {
+      "id": "dadra_nagar_haveli_daman_diu_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Dadra and Nagar Haveli and Daman and Diu.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "dadra_nagar_haveli_daman_diu",
+      "context_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_dadra_nagar_haveli_daman_diu_daman_mat_weaving"
+      ],
+      "empty_message": "More Dadra and Nagar Haveli and Daman and Diu arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "dadra_nagar_haveli_daman_diu_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Dadra and Nagar Haveli and Daman and Diu.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "dadra_nagar_haveli_daman_diu",
+      "context_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_dadra_nagar_haveli_daman_diu_festa_de_diu"
+      ],
+      "empty_message": "More Dadra and Nagar Haveli and Daman and Diu festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "dadra_nagar_haveli_daman_diu_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Dadra and Nagar Haveli and Daman and Diu.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "dadra_nagar_haveli_daman_diu",
+      "context_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_dadra_nagar_haveli_daman_diu_tarpa_dance",
+        "exp_dadra_nagar_haveli_daman_diu_bhawada_dance",
+        "exp_dadra_nagar_haveli_daman_diu_tur_and_thali_dance"
+      ],
+      "empty_message": "More Dadra and Nagar Haveli and Daman and Diu music & dance experiences are coming soon."
+    }
+  ]
+}

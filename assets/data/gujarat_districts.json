@@ -1,0 +1,301 @@
+{
+  "districts": [
+    {
+      "id": "district_gujarat_ahmedabad",
+      "name": "Ahmedabad",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Ahmedabad is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_amreli",
+      "name": "Amreli",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Amreli is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_anand",
+      "name": "Anand",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Anand is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_aravalli",
+      "name": "Aravalli",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Aravalli is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_banaskantha",
+      "name": "Banaskantha",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Banaskantha is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_bharuch",
+      "name": "Bharuch",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Bharuch is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_bhavnagar",
+      "name": "Bhavnagar",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Bhavnagar is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_botad",
+      "name": "Botad",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Botad is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_chhota_udaipur",
+      "name": "Chhota Udaipur",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Chhota Udaipur is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_dahod",
+      "name": "Dahod",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Dahod is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_dang",
+      "name": "Dang",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Dang is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_devbhumi_dwarka",
+      "name": "Devbhumi Dwarka",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Devbhumi Dwarka is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_gandhinagar",
+      "name": "Gandhinagar",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Gandhinagar is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_gir_somnath",
+      "name": "Gir Somnath",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Gir Somnath is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_jamnagar",
+      "name": "Jamnagar",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Jamnagar is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_junagadh",
+      "name": "Junagadh",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Junagadh is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_kheda",
+      "name": "Kheda",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Kheda is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_kutch",
+      "name": "Kutch",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Kutch is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_mahisagar",
+      "name": "Mahisagar",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Mahisagar is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_mehsana",
+      "name": "Mehsana",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Mehsana is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_morbi",
+      "name": "Morbi",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Morbi is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_narmada",
+      "name": "Narmada",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Narmada is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_navsari",
+      "name": "Navsari",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Navsari is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_panchmahal",
+      "name": "Panchmahal",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Panchmahal is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_patan",
+      "name": "Patan",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Patan is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_porbandar",
+      "name": "Porbandar",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Porbandar is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_rajkot",
+      "name": "Rajkot",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Rajkot is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_sabarkantha",
+      "name": "Sabarkantha",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Sabarkantha is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_surat",
+      "name": "Surat",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Surat is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_surendranagar",
+      "name": "Surendranagar",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Surendranagar is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_tapi",
+      "name": "Tapi",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Tapi is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_vadodara",
+      "name": "Vadodara",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Vadodara is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_gujarat_valsad",
+      "name": "Valsad",
+      "state_id": "gujarat",
+      "state_name": "Gujarat",
+      "description": "Valsad is a district of Gujarat.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

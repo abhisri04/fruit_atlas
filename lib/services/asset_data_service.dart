@@ -95,13 +95,29 @@ class AssetDataService {
   }
 
   Future<List<ExperienceCollection>> loadExperienceCollections() async {
-    final data = await _loadJson('assets/data/experience_collections.json');
+    return loadExperienceCollectionsFromAsset(
+      'assets/data/experience_collections.json',
+    );
+  }
+
+  Future<List<ExperienceCollection>> loadExperienceCollectionsFromAsset(
+    String assetPath,
+  ) async {
+    final data = await _loadJson(assetPath);
     return (data['collections'] as List<dynamic>? ?? [])
         .map(
           (collection) =>
               ExperienceCollection.fromJson(collection as Map<String, dynamic>),
         )
         .toList();
+  }
+
+  Future<Map<String, dynamic>> loadStateExplorationIndex() {
+    return _loadJson('assets/data/state_exploration/index.json');
+  }
+
+  Future<Map<String, dynamic>> loadStateExplorationConfig(String assetPath) {
+    return _loadJson(assetPath);
   }
 
   Future<Map<String, dynamic>> _loadJson(String assetPath) async {

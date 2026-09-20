@@ -1,0 +1,13 @@
+{
+  "districts": [
+    {
+      "id": "district_lakshadweep_lakshadweep",
+      "name": "Lakshadweep",
+      "state_id": "lakshadweep",
+      "state_name": "Lakshadweep",
+      "description": "The entire Union Territory of Lakshadweep forms one administrative district.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

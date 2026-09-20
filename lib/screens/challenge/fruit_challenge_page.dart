@@ -17,6 +17,7 @@ import '../../services/asset_data_service.dart';
 import '../../services/progress_service.dart';
 import '../../widgets/achievement_card.dart';
 import '../../widgets/saved_challenge_button.dart';
+import '../../widgets/fruit_image.dart';
 import '../fruit/fruit_details_page.dart';
 
 // FRUIT CHALLENGE PAGE
@@ -110,7 +111,7 @@ class _FruitChallengePageState extends State<FruitChallengePage> {
   }
 
   Achievement? get currentAchievement {
-    return Achievement.latestFor(widget.challenge.id, completedFruitIds.length);
+    return Achievement.latestFor(widget.challenge.id, completedCount);
   }
 
   List<Widget> get appBarActions => [
@@ -252,9 +253,11 @@ class _FruitChallengePageState extends State<FruitChallengePage> {
                     color: AppColors.accentSurface,
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  child: Icon(
-                    isCompleted ? Icons.check_rounded : Icons.eco_outlined,
-                    color: AppColors.primary,
+                  child: FruitImage(
+                    fruit: fruit,
+                    width: 45,
+                    height: 45,
+                    iconSize: 24,
                   ),
                 ),
 

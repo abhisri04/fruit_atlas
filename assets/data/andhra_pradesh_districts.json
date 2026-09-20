@@ -1,0 +1,266 @@
+{
+  "districts": [
+    {
+      "id": "district_andhra_pradesh_alluri_sitharama_raju",
+      "name": "Alluri Sitharama Raju",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Alluri Sitharama Raju is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_anakapalli",
+      "name": "Anakapalli",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Anakapalli is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_ananthapuramu",
+      "name": "Ananthapuramu",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Ananthapuramu is a district of Andhra Pradesh.",
+      "keywords": [
+        "Anantapur"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_annamayya",
+      "name": "Annamayya",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Annamayya is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_bapatla",
+      "name": "Bapatla",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Bapatla is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_chittoor",
+      "name": "Chittoor",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Chittoor is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_dr_b_r_ambedkar_konaseema",
+      "name": "Dr. B.R. Ambedkar Konaseema",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Dr. B.R. Ambedkar Konaseema is a district of Andhra Pradesh.",
+      "keywords": [
+        "Konaseema"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_east_godavari",
+      "name": "East Godavari",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "East Godavari is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_eluru",
+      "name": "Eluru",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Eluru is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_guntur",
+      "name": "Guntur",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Guntur is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_kakinada",
+      "name": "Kakinada",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Kakinada is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_krishna",
+      "name": "Krishna",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Krishna is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_kurnool",
+      "name": "Kurnool",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Kurnool is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_markapuram",
+      "name": "Markapuram",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Markapuram is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_nandyal",
+      "name": "Nandyal",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Nandyal is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_ntr",
+      "name": "NTR",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "NTR is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_palnadu",
+      "name": "Palnadu",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Palnadu is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_parvathipuram_manyam",
+      "name": "Parvathipuram Manyam",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Parvathipuram Manyam is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_polavaram",
+      "name": "Polavaram",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Polavaram is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_prakasam",
+      "name": "Prakasam",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Prakasam is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_sri_potti_sriramulu_nellore",
+      "name": "Sri Potti Sriramulu Nellore",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Sri Potti Sriramulu Nellore is a district of Andhra Pradesh.",
+      "keywords": [
+        "SPSR Nellore",
+        "Nellore"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_sri_sathya_sai",
+      "name": "Sri Sathya Sai",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Sri Sathya Sai is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_srikakulam",
+      "name": "Srikakulam",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Srikakulam is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_tirupati",
+      "name": "Tirupati",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Tirupati is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_visakhapatnam",
+      "name": "Visakhapatnam",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Visakhapatnam is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_vizianagaram",
+      "name": "Vizianagaram",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "Vizianagaram is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_west_godavari",
+      "name": "West Godavari",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "West Godavari is a district of Andhra Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andhra_pradesh_ysr_kadapa",
+      "name": "YSR Kadapa",
+      "state_id": "andhra_pradesh",
+      "state_name": "Andhra Pradesh",
+      "description": "YSR Kadapa is a district of Andhra Pradesh.",
+      "keywords": [
+        "Kadapa",
+        "YSR"
+      ],
+      "status": "active"
+    }
+  ]
+}

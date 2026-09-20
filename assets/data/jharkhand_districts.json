@@ -1,0 +1,220 @@
+{
+  "districts": [
+    {
+      "id": "district_jharkhand_bokaro",
+      "name": "Bokaro",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Bokaro is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_chatra",
+      "name": "Chatra",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Chatra is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_deoghar",
+      "name": "Deoghar",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Deoghar is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_dhanbad",
+      "name": "Dhanbad",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Dhanbad is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_dumka",
+      "name": "Dumka",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Dumka is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_east_singhbhum",
+      "name": "East Singhbhum",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "East Singhbhum is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_garhwa",
+      "name": "Garhwa",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Garhwa is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_giridih",
+      "name": "Giridih",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Giridih is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_godda",
+      "name": "Godda",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Godda is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_gumla",
+      "name": "Gumla",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Gumla is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_hazaribagh",
+      "name": "Hazaribagh",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Hazaribagh is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_jamtara",
+      "name": "Jamtara",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Jamtara is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_khunti",
+      "name": "Khunti",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Khunti is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_koderma",
+      "name": "Koderma",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Koderma is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_latehar",
+      "name": "Latehar",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Latehar is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_lohardaga",
+      "name": "Lohardaga",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Lohardaga is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_pakur",
+      "name": "Pakur",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Pakur is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_palamu",
+      "name": "Palamu",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Palamu is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_ramgarh",
+      "name": "Ramgarh",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Ramgarh is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_ranchi",
+      "name": "Ranchi",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Ranchi is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_sahibganj",
+      "name": "Sahibganj",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Sahibganj is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_seraikela_kharsawan",
+      "name": "Seraikela Kharsawan",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Seraikela Kharsawan is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_simdega",
+      "name": "Simdega",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "Simdega is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jharkhand_west_singhbhum",
+      "name": "West Singhbhum",
+      "state_id": "jharkhand",
+      "state_name": "Jharkhand",
+      "description": "West Singhbhum is a district of Jharkhand.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "state_id": "tripura",
+  "state_name": "Tripura",
+  "district_asset": "assets/data/tripura_districts.json",
+  "experience_asset": "assets/data/tripura_experiences.json",
+  "collections_asset": "assets/data/tripura_collections.json"
+}

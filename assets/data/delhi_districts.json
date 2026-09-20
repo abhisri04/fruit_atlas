@@ -1,0 +1,123 @@
+{
+  "districts": [
+    {
+      "id": "district_delhi_south_east",
+      "name": "South East",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "South East is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_old_delhi",
+      "name": "Old Delhi",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "Old Delhi is a district/revenue district of Delhi.",
+      "keywords": [
+        "Shahjahanabad"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_north",
+      "name": "North",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "North is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_new_delhi",
+      "name": "New Delhi",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "New Delhi is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_central",
+      "name": "Central",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "Central is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_central_north",
+      "name": "Central North",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "Central North is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_south_west",
+      "name": "South West",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "South West is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_outer_north",
+      "name": "Outer North",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "Outer North is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_north_west",
+      "name": "North West",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "North West is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_north_east",
+      "name": "North East",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "North East is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_east",
+      "name": "East",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "East is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_south",
+      "name": "South",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "South is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_delhi_west",
+      "name": "West",
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "description": "West is a district/revenue district of Delhi.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

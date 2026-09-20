@@ -10,6 +10,7 @@ import '../../widgets/empty_state.dart';
 import '../../widgets/experience_collection_tile.dart';
 import '../../widgets/experience_tile.dart';
 import '../../widgets/filter_chip_group.dart';
+import '../../widgets/fruit_image.dart';
 import '../fruit/fruit_details_page.dart';
 import 'experience_details_page.dart';
 
@@ -214,10 +215,7 @@ class _ExperienceCollectionPageState extends State<ExperienceCollectionPage> {
       color: completed ? AppColors.completedSurface : AppColors.surface,
       margin: const EdgeInsets.only(bottom: 8),
       child: ListTile(
-        leading: Icon(
-          Icons.eco_outlined,
-          color: completed ? AppColors.primary : null,
-        ),
+        leading: FruitImage(fruit: fruit, width: 42, height: 42, iconSize: 22),
         title: Text(
           fruit.name,
           style: TextStyle(

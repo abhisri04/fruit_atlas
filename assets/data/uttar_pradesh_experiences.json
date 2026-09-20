@@ -1,0 +1,2080 @@
+{
+  "experiences": [
+    {
+      "id": "exp_uttar_pradesh_taj_mahal",
+      "title": "Taj Mahal",
+      "description": "The Taj Mahal is a white-marble Mughal mausoleum on the Yamuna riverbank in Agra and a UNESCO World Heritage Site.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "agra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Taj",
+        "UNESCO",
+        "mausoleum"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Agra",
+      "city_id": "agra"
+    },
+    {
+      "id": "exp_uttar_pradesh_agra_fort",
+      "title": "Agra Fort",
+      "description": "Agra Fort is a historic Mughal fort complex in Agra and a UNESCO World Heritage Site.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "agra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Red Fort of Agra",
+        "UNESCO"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Agra",
+      "city_id": "agra"
+    },
+    {
+      "id": "exp_uttar_pradesh_fatehpur_sikri",
+      "title": "Fatehpur Sikri",
+      "description": "Fatehpur Sikri is a historic Mughal city near Agra and a UNESCO World Heritage Site.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "agra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "UNESCO",
+        "Mughal"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Agra",
+      "city_id": "agra"
+    },
+    {
+      "id": "exp_uttar_pradesh_akbar_s_tomb_sikandra",
+      "title": "Akbar's Tomb, Sikandra",
+      "description": "Akbar's Tomb is the mausoleum of Mughal emperor Akbar at Sikandra in Agra.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "agra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sikandra",
+        "Akbar Tomb"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Agra",
+      "city_id": "agra"
+    },
+    {
+      "id": "exp_uttar_pradesh_bara_imambara",
+      "title": "Bara Imambara",
+      "description": "Bara Imambara is an 18th-century monumental complex in Lucknow associated with Nawab Asaf-ud-Daula.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lucknow",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Bada Imambara",
+        "Bhool Bhulaiya"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_chota_imambara",
+      "title": "Chota Imambara",
+      "description": "Chota Imambara is a 19th-century imambara complex in Lucknow known for its ornate interiors and domes.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lucknow",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Hussainabad Imambara"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_rumi_darwaza",
+      "title": "Rumi Darwaza",
+      "description": "Rumi Darwaza is an imposing historic gateway in Lucknow built during the reign of Nawab Asaf-ud-Daula.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lucknow",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Turkish Gate"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_lucknow_residency",
+      "title": "Lucknow Residency",
+      "description": "The Residency is a historic complex in Lucknow closely associated with the events of 1857.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lucknow",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "British Residency",
+        "1857"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_kashi_vishwanath_temple",
+      "title": "Kashi Vishwanath Temple",
+      "description": "Kashi Vishwanath Temple is a major Shiva temple in Varanasi and one of the city's best-known pilgrimage landmarks.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "varanasi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Vishwanath Temple",
+        "Kashi"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_dashashwamedh_ghat",
+      "title": "Dashashwamedh Ghat",
+      "description": "Dashashwamedh Ghat is a major riverfront ghat on the Ganga in Varanasi and the setting of the city's prominent evening aarti.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "varanasi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ganga Ghat",
+        "Dashashwamedha"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_dhamek_stupa_sarnath",
+      "title": "Dhamek Stupa, Sarnath",
+      "description": "Dhamek Stupa is one of the principal Buddhist monuments at Sarnath near Varanasi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "varanasi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sarnath",
+        "Dhamekh Stupa"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_sarnath_museum",
+      "title": "Sarnath Museum",
+      "description": "Sarnath Museum preserves important archaeological material from the Buddhist site of Sarnath.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "varanasi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Archaeological Museum Sarnath"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_ramnagar_fort",
+      "title": "Ramnagar Fort",
+      "description": "Ramnagar Fort is an 18th-century sandstone fort on the eastern bank of the Ganga opposite Varanasi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "varanasi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ramnagar"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_ram_janmabhoomi_temple",
+      "title": "Ram Janmabhoomi Temple",
+      "description": "The Ram Janmabhoomi Temple is a major pilgrimage temple in Ayodhya dedicated to Lord Rama.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "ayodhya",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ram Mandir",
+        "Ram Temple"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Ayodhya",
+      "city_id": "ayodhya"
+    },
+    {
+      "id": "exp_uttar_pradesh_hanuman_garhi_ayodhya",
+      "title": "Hanuman Garhi, Ayodhya",
+      "description": "Hanuman Garhi is a prominent Hanuman temple in Ayodhya reached by a long flight of steps.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "ayodhya",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Hanumangarhi"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Ayodhya",
+      "city_id": "ayodhya"
+    },
+    {
+      "id": "exp_uttar_pradesh_kanak_bhawan",
+      "title": "Kanak Bhawan",
+      "description": "Kanak Bhawan is an ornate Ayodhya temple dedicated to Rama and Sita.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "ayodhya",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sone-ka-Ghar"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Ayodhya",
+      "city_id": "ayodhya"
+    },
+    {
+      "id": "exp_uttar_pradesh_ram_ki_paidi",
+      "title": "Ram Ki Paidi",
+      "description": "Ram Ki Paidi is a prominent series of ghats on the Sarayu riverfront in Ayodhya.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "ayodhya",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sarayu Ghat"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Ayodhya",
+      "city_id": "ayodhya"
+    },
+    {
+      "id": "exp_uttar_pradesh_shri_krishna_janmabhoomi",
+      "title": "Shri Krishna Janmabhoomi",
+      "description": "Shri Krishna Janmabhoomi is a major pilgrimage complex in Mathura associated with the birthplace tradition of Lord Krishna.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "mathura",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Krishna Janmasthan",
+        "Janmabhoomi"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mathura",
+      "city_id": "mathura"
+    },
+    {
+      "id": "exp_uttar_pradesh_banke_bihari_temple",
+      "title": "Banke Bihari Temple",
+      "description": "Banke Bihari Temple is a major Krishna temple in Vrindavan, Mathura district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "vrindavan",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Bankey Bihari"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Vrindavan",
+      "city_id": "vrindavan"
+    },
+    {
+      "id": "exp_uttar_pradesh_govardhan_hill",
+      "title": "Govardhan Hill",
+      "description": "Govardhan Hill is a sacred Braj pilgrimage landscape near Mathura associated with Krishna traditions.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "govardhan",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Giriraj Govardhan"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Govardhan",
+      "city_id": "govardhan"
+    },
+    {
+      "id": "exp_uttar_pradesh_triveni_sangam",
+      "title": "Triveni Sangam",
+      "description": "Triveni Sangam is the sacred confluence at Prayagraj associated with the Ganga, Yamuna and the traditionally revered Saraswati.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "prayagraj",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sangam",
+        "Prayag"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Prayagraj",
+      "city_id": "prayagraj"
+    },
+    {
+      "id": "exp_uttar_pradesh_allahabad_fort",
+      "title": "Allahabad Fort",
+      "description": "Allahabad Fort is a historic fort at Prayagraj built during the reign of Mughal emperor Akbar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "prayagraj",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Prayagraj Fort"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Prayagraj",
+      "city_id": "prayagraj"
+    },
+    {
+      "id": "exp_uttar_pradesh_anand_bhavan",
+      "title": "Anand Bhavan",
+      "description": "Anand Bhavan is a historic house museum in Prayagraj associated with the Nehru family and India's freedom movement.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "prayagraj",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Anand Bhawan"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Prayagraj",
+      "city_id": "prayagraj"
+    },
+    {
+      "id": "exp_uttar_pradesh_jhansi_fort",
+      "title": "Jhansi Fort",
+      "description": "Jhansi Fort is a major Bundelkhand fortress in Jhansi closely associated with Rani Lakshmibai and the events of 1857.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jhansi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Jhansi Qila"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Jhansi",
+      "city_id": "jhansi"
+    },
+    {
+      "id": "exp_uttar_pradesh_rani_mahal_jhansi",
+      "title": "Rani Mahal, Jhansi",
+      "description": "Rani Mahal is a historic palace in Jhansi associated with Rani Lakshmibai and now used as a museum.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jhansi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Rani Jhansi Mahal"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Jhansi",
+      "city_id": "jhansi"
+    },
+    {
+      "id": "exp_uttar_pradesh_ram_ghat_chitrakoot",
+      "title": "Ram Ghat, Chitrakoot",
+      "description": "Ram Ghat is a sacred riverfront at Chitrakoot associated with the Ramayana pilgrimage landscape.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chitrakoot",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ramghat"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Chitrakoot",
+      "city_id": "chitrakoot"
+    },
+    {
+      "id": "exp_uttar_pradesh_kamadgiri",
+      "title": "Kamadgiri",
+      "description": "Kamadgiri is the sacred hill at the heart of Chitrakoot's pilgrimage circuit.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chitrakoot",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Kamadgiri Parikrama"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Chitrakoot",
+      "city_id": "chitrakoot"
+    },
+    {
+      "id": "exp_uttar_pradesh_mahaparinirvana_temple",
+      "title": "Mahaparinirvana Temple",
+      "description": "Mahaparinirvana Temple is a major Buddhist pilgrimage site in Kushinagar associated with the Buddha's final passing.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kushinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Parinirvana Temple"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Kushinagar",
+      "city_id": "kushinagar"
+    },
+    {
+      "id": "exp_uttar_pradesh_ramabhar_stupa",
+      "title": "Ramabhar Stupa",
+      "description": "Ramabhar Stupa in Kushinagar marks the traditional cremation site associated with the Buddha's Mahaparinirvana.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kushinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mukta Bandhan",
+        "Cremation Stupa"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Kushinagar",
+      "city_id": "kushinagar"
+    },
+    {
+      "id": "exp_uttar_pradesh_jetavana_shravasti",
+      "title": "Jetavana, Shravasti",
+      "description": "Jetavana is the celebrated monastic site at ancient Shravasti associated with many of the Buddha's teachings.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "shravasti",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Jetavana Monastery",
+        "Saheth"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Shravasti",
+      "city_id": "shravasti"
+    },
+    {
+      "id": "exp_uttar_pradesh_dudhwa_national_park",
+      "title": "Dudhwa National Park",
+      "description": "Dudhwa National Park protects Terai forests, grasslands and wetlands in Lakhimpur Kheri and forms part of Dudhwa Tiger Reserve.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lakhimpur_kheri",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Dudhwa Tiger Reserve",
+        "Terai"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lakhimpur Kheri",
+      "city_id": "lakhimpur_kheri"
+    },
+    {
+      "id": "exp_uttar_pradesh_katarniaghat_wildlife_sanctuary",
+      "title": "Katarniaghat Wildlife Sanctuary",
+      "description": "Katarniaghat Wildlife Sanctuary in Bahraich is a core part of the Dudhwa Tiger Reserve landscape with forests, grasslands and wetlands.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "bahraich",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Katerniaghat",
+        "Dudhwa Tiger Reserve"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Bahraich",
+      "city_id": "bahraich"
+    },
+    {
+      "id": "exp_uttar_pradesh_pilibhit_tiger_reserve",
+      "title": "Pilibhit Tiger Reserve",
+      "description": "Pilibhit Tiger Reserve protects a Terai forest landscape along the Sharda river and reservoir in Pilibhit district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "pilibhit",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Chuka",
+        "Tiger Reserve"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Pilibhit",
+      "city_id": "pilibhit"
+    },
+    {
+      "id": "exp_uttar_pradesh_kishanpur_wildlife_sanctuary",
+      "title": "Kishanpur Wildlife Sanctuary",
+      "description": "Kishanpur Wildlife Sanctuary is a protected Terai forest and grassland area within Dudhwa Tiger Reserve in Lakhimpur Kheri.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lakhimpur_kheri",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Kishanpur Sanctuary"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lakhimpur Kheri",
+      "city_id": "lakhimpur_kheri"
+    },
+    {
+      "id": "exp_uttar_pradesh_sohagi_barwa_wildlife_sanctuary",
+      "title": "Sohagi Barwa Wildlife Sanctuary",
+      "description": "Sohagi Barwa Wildlife Sanctuary in Maharajganj protects Sal forest, wetlands, grasslands and associated wildlife.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "maharajganj",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sohagibarwa"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Maharajganj",
+      "city_id": "maharajganj"
+    },
+    {
+      "id": "exp_uttar_pradesh_suhelwa_wildlife_sanctuary",
+      "title": "Suhelwa Wildlife Sanctuary",
+      "description": "Suhelwa Wildlife Sanctuary spans the Shravasti, Balrampur and Gonda belt along the Indo-Nepal border.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "shravasti",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Suheldev Wildlife Sanctuary",
+        "Suhelwa"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Shravasti",
+      "city_id": "shravasti"
+    },
+    {
+      "id": "exp_uttar_pradesh_kaimoor_wildlife_sanctuary",
+      "title": "Kaimoor Wildlife Sanctuary",
+      "description": "Kaimoor Wildlife Sanctuary spans Vindhyan landscapes in the Mirzapur-Sonbhadra region and includes forest, waterfalls and archaeological features.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "sonbhadra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Kaimur Wildlife Sanctuary"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Sonbhadra",
+      "city_id": "sonbhadra"
+    },
+    {
+      "id": "exp_uttar_pradesh_national_chambal_sanctuary",
+      "title": "National Chambal Sanctuary",
+      "description": "National Chambal Sanctuary protects a long stretch of the Chambal river ecosystem across Uttar Pradesh, Madhya Pradesh and Rajasthan.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "etawah",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Chambal Gharial Sanctuary",
+        "Gharial"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Etawah",
+      "city_id": "etawah"
+    },
+    {
+      "id": "exp_uttar_pradesh_nawabganj_bird_sanctuary",
+      "title": "Nawabganj Bird Sanctuary",
+      "description": "Nawabganj Bird Sanctuary in Unnao is a wetland known for resident and migratory birds, nature trails and a cycle trail.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "unnao",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Shaheed Chandra Shekhar Azad Bird Sanctuary"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Unnao",
+      "city_id": "unnao"
+    },
+    {
+      "id": "exp_uttar_pradesh_samaspur_bird_sanctuary",
+      "title": "Samaspur Bird Sanctuary",
+      "description": "Samaspur Bird Sanctuary in Raebareli is a wetland complex that supports resident and migratory waterbirds.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "raebareli",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Samaspur Wetland"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Raebareli",
+      "city_id": "raebareli"
+    },
+    {
+      "id": "exp_uttar_pradesh_saman_bird_sanctuary",
+      "title": "Saman Bird Sanctuary",
+      "description": "Saman Bird Sanctuary in Mainpuri is a wetland protected for cranes and other resident and migratory birds.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "mainpuri",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Saman Wildlife Sanctuary"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mainpuri",
+      "city_id": "mainpuri"
+    },
+    {
+      "id": "exp_uttar_pradesh_okhla_bird_sanctuary",
+      "title": "Okhla Bird Sanctuary",
+      "description": "Okhla Bird Sanctuary is an urban wetland and bird habitat on the Yamuna at Noida in Gautam Buddha Nagar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "noida",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Okhla Wetland"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Noida",
+      "city_id": "noida"
+    },
+    {
+      "id": "exp_uttar_pradesh_surajpur_wetland",
+      "title": "Surajpur Wetland",
+      "description": "Surajpur Wetland in Greater Noida is an urban wetland restoration and bird habitat in the Yamuna basin.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "greater_noida",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Surajpur Bird Sanctuary"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Greater Noida",
+      "city_id": "greater_noida"
+    },
+    {
+      "id": "exp_uttar_pradesh_attend_the_ganga_aarti_at_dashashwamedh_ghat",
+      "title": "Attend the Ganga Aarti at Dashashwamedh Ghat",
+      "description": "Experience the evening Ganga Aarti at Dashashwamedh Ghat in Varanasi.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "varanasi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ganga Aarti",
+        "evening aarti"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_take_a_ganga_boat_ride_in_varanasi",
+      "title": "Take a Ganga Boat Ride in Varanasi",
+      "description": "Explore the Varanasi riverfront from the Ganga by boat, taking in the historic ghats from the water.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "varanasi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "boat ride",
+        "ghats"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_walk_the_govardhan_parikrama",
+      "title": "Walk the Govardhan Parikrama",
+      "description": "Follow the traditional pilgrimage circuit around Govardhan Hill in the Braj region.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "govardhan",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "parikrama",
+        "Braj"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Govardhan",
+      "city_id": "govardhan"
+    },
+    {
+      "id": "exp_uttar_pradesh_take_a_boat_ride_at_ram_ghat_chitrakoot",
+      "title": "Take a Boat Ride at Ram Ghat, Chitrakoot",
+      "description": "Take a boat ride along Ram Ghat and the Mandakini riverfront at Chitrakoot.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chitrakoot",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ramghat",
+        "Mandakini"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Chitrakoot",
+      "city_id": "chitrakoot"
+    },
+    {
+      "id": "exp_uttar_pradesh_dudhwa_wildlife_safari",
+      "title": "Dudhwa Wildlife Safari",
+      "description": "Explore designated tourism zones of the Dudhwa landscape on a wildlife safari.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "lakhimpur_kheri",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "safari",
+        "Dudhwa"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lakhimpur Kheri",
+      "city_id": "lakhimpur_kheri"
+    },
+    {
+      "id": "exp_uttar_pradesh_dudhwa_nature_trail",
+      "title": "Dudhwa Nature Trail",
+      "description": "Experience a guided or designated nature trail in the Dudhwa ecotourism landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "lakhimpur_kheri",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "nature trail",
+        "Dudhwa"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lakhimpur Kheri",
+      "city_id": "lakhimpur_kheri"
+    },
+    {
+      "id": "exp_uttar_pradesh_katarniaghat_wildlife_safari",
+      "title": "Katarniaghat Wildlife Safari",
+      "description": "Explore Katarniaghat Wildlife Sanctuary through its permitted wildlife tourism routes.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "bahraich",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "safari",
+        "Katarniaghat"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Bahraich",
+      "city_id": "bahraich"
+    },
+    {
+      "id": "exp_uttar_pradesh_katarniaghat_boating",
+      "title": "Katarniaghat Boating",
+      "description": "Experience permitted boating in the Katarniaghat ecotourism landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "bahraich",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "boating",
+        "Katarniaghat"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Bahraich",
+      "city_id": "bahraich"
+    },
+    {
+      "id": "exp_uttar_pradesh_pilibhit_wildlife_safari",
+      "title": "Pilibhit Wildlife Safari",
+      "description": "Explore the Pilibhit Tiger Reserve tourism landscape on a wildlife safari.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "pilibhit",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "safari",
+        "Pilibhit Tiger Reserve"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Pilibhit",
+      "city_id": "pilibhit"
+    },
+    {
+      "id": "exp_uttar_pradesh_birdwatch_at_pilibhit_tiger_reserve",
+      "title": "Birdwatch at Pilibhit Tiger Reserve",
+      "description": "Spend time birdwatching in the Pilibhit Tiger Reserve and Sharda reservoir landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "pilibhit",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "bird watching",
+        "birding"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Pilibhit",
+      "city_id": "pilibhit"
+    },
+    {
+      "id": "exp_uttar_pradesh_boat_in_the_national_chambal_sanctuary",
+      "title": "Boat in the National Chambal Sanctuary",
+      "description": "Take a permitted boat ride on the Chambal to experience its riverine wildlife and ravine landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "etawah",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Chambal",
+        "boating",
+        "gharials"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Etawah",
+      "city_id": "etawah"
+    },
+    {
+      "id": "exp_uttar_pradesh_cycle_and_birdwatch_at_nawabganj_bird_sanctuary",
+      "title": "Cycle and Birdwatch at Nawabganj Bird Sanctuary",
+      "description": "Use the sanctuary's cycle trail and birdwatching areas to explore its wetland habitat.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "unnao",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "cycling",
+        "bird watching",
+        "nature trail"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Unnao",
+      "city_id": "unnao"
+    },
+    {
+      "id": "exp_uttar_pradesh_awadhi_dum_biryani",
+      "title": "Awadhi Dum Biryani",
+      "description": "Awadhi dum biryani is a slow-cooked rice and meat preparation associated strongly with Lucknow's culinary tradition.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "lucknow",
+      "category_id": "food_drink",
+      "keywords": [
+        "Lucknow biryani",
+        "dum pukht"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_galouti_kebab",
+      "title": "Galouti Kebab",
+      "description": "Galouti kebab is a soft minced-meat kebab closely associated with Lucknow's Awadhi food tradition.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "lucknow",
+      "category_id": "food_drink",
+      "keywords": [
+        "Galawati kebab"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_nihari_kulcha",
+      "title": "Nihari Kulcha",
+      "description": "Nihari served with kulcha is a classic slow-cooked meat-and-bread pairing associated with Lucknow's old-city food culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "lucknow",
+      "category_id": "food_drink",
+      "keywords": [
+        "Nalli Nihari",
+        "kulcha"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_shami_kebab",
+      "title": "Shami Kebab",
+      "description": "Shami kebab is a spiced minced-meat and lentil patty associated with the Nawabi culinary tradition of Lucknow.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "lucknow",
+      "category_id": "food_drink",
+      "keywords": [
+        "shammi kebab"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_sheermal",
+      "title": "Sheermal",
+      "description": "Sheermal is a mildly sweet, enriched flatbread associated with Awadhi and Mughlai food traditions in Lucknow.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "lucknow",
+      "category_id": "food_drink",
+      "keywords": [
+        "sheermaal"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_agra_petha",
+      "title": "Agra Petha",
+      "description": "Petha is a translucent sweet made from ash gourd and is strongly associated with Agra.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "agra",
+      "category_id": "food_drink",
+      "keywords": [
+        "petha"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Agra",
+      "city_id": "agra"
+    },
+    {
+      "id": "exp_uttar_pradesh_dal_moth",
+      "title": "Dal Moth",
+      "description": "Dal moth is a crisp savoury snack of fried lentils, sev and spices associated with Agra.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "agra",
+      "category_id": "food_drink",
+      "keywords": [
+        "dalmod"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Agra",
+      "city_id": "agra"
+    },
+    {
+      "id": "exp_uttar_pradesh_bedhai",
+      "title": "Bedhai",
+      "description": "Bedhai is a fried bread commonly served with a spiced potato preparation in the Mathura-Agra region.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "mathura",
+      "category_id": "food_drink",
+      "keywords": [
+        "bedai",
+        "bedmi"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mathura",
+      "city_id": "mathura"
+    },
+    {
+      "id": "exp_uttar_pradesh_mathura_peda",
+      "title": "Mathura Peda",
+      "description": "Mathura peda is a condensed-milk sweet closely associated with Mathura and the Braj region.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "mathura",
+      "category_id": "food_drink",
+      "keywords": [
+        "peda",
+        "Braj"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mathura",
+      "city_id": "mathura"
+    },
+    {
+      "id": "exp_uttar_pradesh_makhan_mishri",
+      "title": "Makhan Mishri",
+      "description": "Makhan mishri combines fresh butter and sugar crystals and is associated with Krishna traditions in Mathura-Vrindavan.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "mathura",
+      "category_id": "food_drink",
+      "keywords": [
+        "makkhan mishri"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mathura",
+      "city_id": "mathura"
+    },
+    {
+      "id": "exp_uttar_pradesh_banarasi_kachori_sabzi",
+      "title": "Banarasi Kachori Sabzi",
+      "description": "Kachori with a spiced vegetable preparation is a classic breakfast experience in Varanasi.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "varanasi",
+      "category_id": "food_drink",
+      "keywords": [
+        "kachori sabzi",
+        "Banaras breakfast"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_tamatar_chaat",
+      "title": "Tamatar Chaat",
+      "description": "Tamatar chaat is a hot, tangy tomato-based chaat associated with the street-food culture of Varanasi.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "varanasi",
+      "category_id": "food_drink",
+      "keywords": [
+        "tomato chaat",
+        "Banarasi chaat"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_baati_chokha",
+      "title": "Baati Chokha",
+      "description": "Baati chokha combines baked stuffed wheat portions with a smoky vegetable mash and is popular in eastern Uttar Pradesh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "varanasi",
+      "category_id": "food_drink",
+      "keywords": [
+        "bati chokha"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_choora_matar",
+      "title": "Choora Matar",
+      "description": "Choora matar is a savoury winter preparation of flattened rice and green peas associated with Banaras.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "varanasi",
+      "category_id": "food_drink",
+      "keywords": [
+        "chura matar",
+        "poha matar"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_malaiyyo",
+      "title": "Malaiyyo",
+      "description": "Malaiyyo is a light seasonal milk foam sweet associated with winter mornings in Varanasi.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "varanasi",
+      "category_id": "food_drink",
+      "keywords": [
+        "malaiyo",
+        "nimish"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_banarasi_paan",
+      "title": "Banarasi Paan",
+      "description": "Banarasi paan is a betel-leaf preparation with aromatic fillings strongly associated with Varanasi.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "varanasi",
+      "category_id": "food_drink",
+      "keywords": [
+        "paan",
+        "Banaras"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_jalebi",
+      "title": "Jalebi",
+      "description": "Jalebi is a crisp spiral sweet soaked in sugar syrup and is widely enjoyed across Uttar Pradesh, often as part of breakfast or evening snacks.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttar_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "sweet"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active"
+    },
+    {
+      "id": "exp_uttar_pradesh_chaat",
+      "title": "Chaat",
+      "description": "Chaat describes a family of savoury, tangy snacks with deep roots in Uttar Pradesh's urban food culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttar_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "street food"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active"
+    },
+    {
+      "id": "exp_uttar_pradesh_lassi",
+      "title": "Lassi",
+      "description": "Lassi is a yoghurt-based drink widely enjoyed across Uttar Pradesh, including the Braj and Varanasi regions.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttar_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "yoghurt drink",
+        "lassi"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active"
+    },
+    {
+      "id": "exp_uttar_pradesh_chaas",
+      "title": "Chaas",
+      "description": "Chaas is a lightly seasoned buttermilk drink consumed across northern India, including Uttar Pradesh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttar_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "buttermilk"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active"
+    },
+    {
+      "id": "exp_uttar_pradesh_banarasi_chai",
+      "title": "Banarasi Chai",
+      "description": "Banarasi chai is part of Varanasi's everyday street-food culture and is commonly enjoyed in small cups.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "varanasi",
+      "category_id": "food_drink",
+      "keywords": [
+        "tea",
+        "chai"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_thandai",
+      "title": "Thandai",
+      "description": "Thandai is a chilled milk-based drink flavoured with nuts and spices and is associated with festive and summer drinking traditions in Uttar Pradesh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "lucknow",
+      "category_id": "food_drink",
+      "keywords": [
+        "badam milk",
+        "spiced milk"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_lucknow_chikankari",
+      "title": "Lucknow Chikankari",
+      "description": "Chikankari is the fine embroidery tradition strongly associated with Lucknow.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "lucknow",
+      "category_id": "culture_learning",
+      "keywords": [
+        "chikan embroidery"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_banarasi_silk_and_brocade",
+      "title": "Banarasi Silk and Brocade",
+      "description": "Banarasi silk weaving and brocade use intricate motifs and zari and are strongly associated with Varanasi.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "varanasi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Banarasi sari",
+        "brocade",
+        "silk"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_agra_marble_inlay",
+      "title": "Agra Marble Inlay",
+      "description": "Agra marble inlay uses coloured stones set into marble and draws on the city's long stonecraft tradition.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "agra",
+      "category_id": "culture_learning",
+      "keywords": [
+        "pietra dura",
+        "stonecraft"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Agra",
+      "city_id": "agra"
+    },
+    {
+      "id": "exp_uttar_pradesh_bhadohi_carpet_weaving",
+      "title": "Bhadohi Carpet Weaving",
+      "description": "Bhadohi is a major centre for hand-knotted and woven carpets and durries.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "bhadohi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "carpets",
+        "durries"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Bhadohi",
+      "city_id": "bhadohi"
+    },
+    {
+      "id": "exp_uttar_pradesh_moradabad_brassware",
+      "title": "Moradabad Brassware",
+      "description": "Moradabad is widely known for engraved and decorated brass and metal craft.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "moradabad",
+      "category_id": "culture_learning",
+      "keywords": [
+        "brass craft",
+        "metalware"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Moradabad",
+      "city_id": "moradabad"
+    },
+    {
+      "id": "exp_uttar_pradesh_firozabad_glassware_and_bangles",
+      "title": "Firozabad Glassware and Bangles",
+      "description": "Firozabad is a major centre for glassware and colourful glass bangles.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "firozabad",
+      "category_id": "culture_learning",
+      "keywords": [
+        "glass bangles",
+        "glass craft"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Firozabad",
+      "city_id": "firozabad"
+    },
+    {
+      "id": "exp_uttar_pradesh_khurja_pottery",
+      "title": "Khurja Pottery",
+      "description": "Khurja in Bulandshahr district is known for distinctive glazed pottery and ceramic craft.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "khurja",
+      "category_id": "culture_learning",
+      "keywords": [
+        "ceramics",
+        "pottery"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Khurja",
+      "city_id": "khurja"
+    },
+    {
+      "id": "exp_uttar_pradesh_saharanpur_wood_carving",
+      "title": "Saharanpur Wood Carving",
+      "description": "Saharanpur is known for intricate wood carving and carved wooden products.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "saharanpur",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wood craft"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Saharanpur",
+      "city_id": "saharanpur"
+    },
+    {
+      "id": "exp_uttar_pradesh_azamgarh_black_pottery",
+      "title": "Azamgarh Black Pottery",
+      "description": "Azamgarh's black pottery tradition is known for dark-finished ceramic forms with decorative work.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "azamgarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "black pottery"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Azamgarh",
+      "city_id": "azamgarh"
+    },
+    {
+      "id": "exp_uttar_pradesh_gorakhpur_terracotta",
+      "title": "Gorakhpur Terracotta",
+      "description": "Gorakhpur is known for its terracotta craft tradition and distinctive clay forms.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "gorakhpur",
+      "category_id": "culture_learning",
+      "keywords": [
+        "terracotta"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Gorakhpur",
+      "city_id": "gorakhpur"
+    },
+    {
+      "id": "exp_uttar_pradesh_kannauj_itra",
+      "title": "Kannauj Itra",
+      "description": "Kannauj is famous for traditional attar and natural perfume distillation.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kannauj",
+      "category_id": "culture_learning",
+      "keywords": [
+        "attar",
+        "perfume",
+        "itra"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Kannauj",
+      "city_id": "kannauj"
+    },
+    {
+      "id": "exp_uttar_pradesh_mainpuri_tarkashi",
+      "title": "Mainpuri Tarkashi",
+      "description": "Mainpuri tarkashi is a decorative craft using fine metal-wire inlay in wooden surfaces.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "mainpuri",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Tarkashi art",
+        "wire inlay"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mainpuri",
+      "city_id": "mainpuri"
+    },
+    {
+      "id": "exp_uttar_pradesh_banda_shazar_stone_craft",
+      "title": "Banda Shazar Stone Craft",
+      "description": "Banda is associated with Shazar stone craft, in which patterned stone is cut and polished into decorative objects.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "banda",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Shazar stone"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Banda",
+      "city_id": "banda"
+    },
+    {
+      "id": "exp_uttar_pradesh_pilibhit_flute_craft",
+      "title": "Pilibhit Flute Craft",
+      "description": "Pilibhit is known for bamboo flute making and related wooden craft products.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "pilibhit",
+      "category_id": "culture_learning",
+      "keywords": [
+        "bansuri",
+        "flute"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Pilibhit",
+      "city_id": "pilibhit"
+    },
+    {
+      "id": "exp_uttar_pradesh_bareilly_zari_zardozi",
+      "title": "Bareilly Zari Zardozi",
+      "description": "Bareilly is an important centre for zari and zardozi embroidery.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "bareilly",
+      "category_id": "culture_learning",
+      "keywords": [
+        "zardozi",
+        "zari"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Bareilly",
+      "city_id": "bareilly"
+    },
+    {
+      "id": "exp_uttar_pradesh_banaras_gulabi_meenakari",
+      "title": "Banaras Gulabi Meenakari",
+      "description": "Gulabi meenakari is a distinctive enamel craft associated with Varanasi.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "varanasi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "pink enamel",
+        "meenakari"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_kumbh_mela_prayagraj",
+      "title": "Kumbh Mela, Prayagraj",
+      "description": "Kumbh Mela is a major periodic pilgrimage gathering held at Prayagraj's Sangam.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "prayagraj",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Kumbh",
+        "Maha Kumbh"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Prayagraj",
+      "city_id": "prayagraj"
+    },
+    {
+      "id": "exp_uttar_pradesh_magh_mela_prayagraj",
+      "title": "Magh Mela, Prayagraj",
+      "description": "Magh Mela is the annual pilgrimage fair held around the Sangam in Prayagraj.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "prayagraj",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Magh Fair"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Prayagraj",
+      "city_id": "prayagraj"
+    },
+    {
+      "id": "exp_uttar_pradesh_taj_mahotsav",
+      "title": "Taj Mahotsav",
+      "description": "Taj Mahotsav is a cultural festival in Agra featuring arts, crafts, performance and food.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "agra",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Taj Festival"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Agra",
+      "city_id": "agra"
+    },
+    {
+      "id": "exp_uttar_pradesh_lathmar_holi",
+      "title": "Lathmar Holi",
+      "description": "Lathmar Holi is a distinctive Braj celebration associated especially with Barsana and Nandgaon.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "barsana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Latthamar Holi",
+        "Braj Holi"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Barsana",
+      "city_id": "barsana"
+    },
+    {
+      "id": "exp_uttar_pradesh_krishna_janmashtami_in_braj",
+      "title": "Krishna Janmashtami in Braj",
+      "description": "Janmashtami is celebrated with major devotional events across Mathura, Vrindavan and the wider Braj region.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "mathura",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Krishnotsav",
+        "Janmashtami"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mathura",
+      "city_id": "mathura"
+    },
+    {
+      "id": "exp_uttar_pradesh_nauchandi_mela",
+      "title": "Nauchandi Mela",
+      "description": "Nauchandi Mela is a long-running fair held in Meerut.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "meerut",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Nauchandi Fair"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Meerut",
+      "city_id": "meerut"
+    },
+    {
+      "id": "exp_uttar_pradesh_dev_deepawali_varanasi",
+      "title": "Dev Deepawali, Varanasi",
+      "description": "Dev Deepawali illuminates Varanasi's ghats with large numbers of lamps around Kartik Purnima.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "varanasi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Dev Diwali"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_ramnagar_ramlila",
+      "title": "Ramnagar Ramlila",
+      "description": "Ramnagar Ramlila is a major traditional performance-festival associated with Ramnagar near Varanasi.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "varanasi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Ram Leela",
+        "Ramlila"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_ram_navami_ayodhya",
+      "title": "Ram Navami, Ayodhya",
+      "description": "Ram Navami is celebrated prominently in Ayodhya with pilgrimage and temple observances.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ayodhya",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Ramnavami"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Ayodhya",
+      "city_id": "ayodhya"
+    },
+    {
+      "id": "exp_uttar_pradesh_shravan_jhula_mela",
+      "title": "Shravan Jhula Mela",
+      "description": "Shravan Jhula Mela is a traditional seasonal fair associated with Ayodhya.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ayodhya",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Jhula Mela"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Ayodhya",
+      "city_id": "ayodhya"
+    },
+    {
+      "id": "exp_uttar_pradesh_deva_mela",
+      "title": "Deva Mela",
+      "description": "Deva Mela is held at Deva Sharif in Barabanki district.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "barabanki",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Deva Sharif Mela"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Barabanki",
+      "city_id": "barabanki"
+    },
+    {
+      "id": "exp_uttar_pradesh_khichdi_mela_gorakhpur",
+      "title": "Khichdi Mela, Gorakhpur",
+      "description": "The Makar Sankranti Khichdi Mela is held at Gorakhnath in Gorakhpur.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "gorakhpur",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Makar Sankranti",
+        "Gorakhnath"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Gorakhpur",
+      "city_id": "gorakhpur"
+    },
+    {
+      "id": "exp_uttar_pradesh_dadri_mela_ballia",
+      "title": "Dadri Mela, Ballia",
+      "description": "Dadri Mela is a major traditional fair held in Ballia.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ballia",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Dadari Mela"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Ballia",
+      "city_id": "ballia"
+    },
+    {
+      "id": "exp_uttar_pradesh_buddha_mahotsav_kushinagar",
+      "title": "Buddha Mahotsav, Kushinagar",
+      "description": "Buddha Mahotsav is a tourism and cultural event associated with the Buddhist pilgrimage centre of Kushinagar.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kushinagar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Buddha Festival"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Kushinagar",
+      "city_id": "kushinagar"
+    },
+    {
+      "id": "exp_uttar_pradesh_ganga_mahotsav",
+      "title": "Ganga Mahotsav",
+      "description": "Ganga Mahotsav is a cultural festival celebrated on the riverfront in Varanasi.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "varanasi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Ganga Festival"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Varanasi",
+      "city_id": "varanasi"
+    },
+    {
+      "id": "exp_uttar_pradesh_lucknow_mahotsav",
+      "title": "Lucknow Mahotsav",
+      "description": "Lucknow Mahotsav celebrates the city's arts, cuisine, music and cultural traditions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "lucknow",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Lucknow Festival"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_kathak",
+      "title": "Kathak",
+      "description": "Kathak is a major North Indian classical dance form with deep historical roots in Uttar Pradesh and a celebrated Lucknow tradition.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "lucknow",
+      "category_id": "culture_learning",
+      "keywords": [
+        "classical dance",
+        "Lucknow gharana"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lucknow",
+      "city_id": "lucknow"
+    },
+    {
+      "id": "exp_uttar_pradesh_raslila",
+      "title": "Raslila",
+      "description": "Raslila is a devotional dance-drama tradition narrating episodes from Krishna's life, especially associated with the Braj region.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "mathura",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Rasa dance",
+        "Krishna"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mathura",
+      "city_id": "mathura"
+    },
+    {
+      "id": "exp_uttar_pradesh_ramlila",
+      "title": "Ramlila",
+      "description": "Ramlila is a performance tradition that dramatises episodes from the Ramayana and is presented in many parts of Uttar Pradesh.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttar_pradesh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Ram Leela",
+        "theatre"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active"
+    },
+    {
+      "id": "exp_uttar_pradesh_nautanki",
+      "title": "Nautanki",
+      "description": "Nautanki is a North Indian folk-theatre form with strong historical associations across Uttar Pradesh.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttar_pradesh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk theatre"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active"
+    },
+    {
+      "id": "exp_uttar_pradesh_khayal_folk_theatre",
+      "title": "Khayal Folk Theatre",
+      "description": "Khayal is among the traditional narrative performance forms listed in Uttar Pradesh's folk performance heritage.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttar_pradesh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Khayal"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active"
+    },
+    {
+      "id": "exp_uttar_pradesh_rasiya_folk_music",
+      "title": "Rasiya Folk Music",
+      "description": "Rasiya is a folk singing tradition celebrating the Radha-Krishna tradition and is closely associated with Braj.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "mathura",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Rasiya",
+        "Braj music"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mathura",
+      "city_id": "mathura"
+    },
+    {
+      "id": "exp_uttar_pradesh_thumri",
+      "title": "Thumri",
+      "description": "Thumri is a semi-classical vocal form that flourished in the cultural environment of Awadh and Banaras.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttar_pradesh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "semi-classical music"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active"
+    },
+    {
+      "id": "exp_uttar_pradesh_charkula_dance",
+      "title": "Charkula Dance",
+      "description": "Charkula is one of the folk-dance traditions associated with Uttar Pradesh and the Braj cultural region.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "mathura",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Mathura",
+      "city_id": "mathura"
+    },
+    {
+      "id": "exp_uttar_pradesh_tharu_dance",
+      "title": "Tharu Dance",
+      "description": "Tharu dance represents cultural traditions of Tharu communities in the Terai belt of Uttar Pradesh.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "lakhimpur_kheri",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Tharu culture"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Lakhimpur Kheri",
+      "city_id": "lakhimpur_kheri"
+    },
+    {
+      "id": "exp_uttar_pradesh_rai_dance",
+      "title": "Rai Dance",
+      "description": "Rai is among the folk-dance traditions associated with the Bundelkhand region of Uttar Pradesh.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "jhansi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Raai",
+        "Bundelkhand"
+      ],
+      "state_id": "uttar_pradesh",
+      "state_name": "Uttar Pradesh",
+      "status": "active",
+      "city": "Jhansi",
+      "city_id": "jhansi"
+    }
+  ]
+}

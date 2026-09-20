@@ -7,7 +7,7 @@
       "description": "Discover and taste fruits grown across India.",
       "item_type": "fruit",
       "geography": "India",
-      "total_items": 100,
+      "total_items": 110,
       "has_sub_items": true,
       "sub_item_type": "variety",
       "presentation_type": "checklist_with_subitems",

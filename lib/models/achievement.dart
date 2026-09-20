@@ -61,8 +61,8 @@ class Achievement {
     Achievement(
       id: 'fruit_complete',
       title: 'India Fruit Explorer',
-      description: 'Explore all 100 fruits.',
-      threshold: 100,
+      description: 'Explore all 110 fruits.',
+      threshold: 110,
       challengeId: 'taste_fruits_of_india',
       iconIdentifier: 'trophy',
     ),

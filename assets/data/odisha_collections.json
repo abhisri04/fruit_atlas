@@ -1,0 +1,186 @@
+{
+  "collections": [
+    {
+      "id": "odisha_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage experiences associated with Odisha.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "odisha",
+      "context_name": "Odisha",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_odisha_konark_sun_temple",
+        "exp_odisha_jagannath_temple_puri",
+        "exp_odisha_lingaraj_temple",
+        "exp_odisha_mukteswar_temple",
+        "exp_odisha_udayagiri_and_khandagiri_caves",
+        "exp_odisha_dhauli",
+        "exp_odisha_barabati_fort",
+        "exp_odisha_ratnagiri_buddhist_ruins",
+        "exp_odisha_lalitgiri_buddhist_ruins",
+        "exp_odisha_raghurajpur_heritage_village"
+      ],
+      "empty_message": "More Odisha landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "odisha_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife experiences associated with Odisha.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "odisha",
+      "context_name": "Odisha",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_odisha_chilika_lake",
+        "exp_odisha_bhitarkanika_national_park",
+        "exp_odisha_similipal_national_park",
+        "exp_odisha_satkosia_gorge",
+        "exp_odisha_mangalajodi_wetlands",
+        "exp_odisha_gopalpur_beach",
+        "exp_odisha_chandrabhaga_beach"
+      ],
+      "empty_message": "More Odisha nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "odisha_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities experiences associated with Odisha.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "odisha",
+      "context_name": "Odisha",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_odisha_birdwatch_at_mangalajodi",
+        "exp_odisha_discover_raghurajpur_painting",
+        "exp_odisha_walk_old_bhubaneswar",
+        "exp_odisha_explore_pipili_applique_workshops",
+        "exp_odisha_take_a_chilika_boat_excursion"
+      ],
+      "empty_message": "More Odisha experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "odisha_fruits",
+      "title": "Fruits",
+      "description": "Fruits experiences associated with Odisha.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "odisha",
+      "context_name": "Odisha",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Odisha fruits experiences are coming soon."
+    },
+    {
+      "id": "odisha_dishes",
+      "title": "Dishes",
+      "description": "Dishes experiences associated with Odisha.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "odisha",
+      "context_name": "Odisha",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_odisha_dalma",
+        "exp_odisha_pakhala",
+        "exp_odisha_chhena_poda",
+        "exp_odisha_chakuli_pitha",
+        "exp_odisha_poda_pitha",
+        "exp_odisha_enduri_pitha",
+        "exp_odisha_manda_pitha",
+        "exp_odisha_dahibara_aloodum",
+        "exp_odisha_jagannath_mahaprasad",
+        "exp_odisha_odisha_rasagola"
+      ],
+      "empty_message": "More Odisha dishes experiences are coming soon."
+    },
+    {
+      "id": "odisha_drinks",
+      "title": "Drinks",
+      "description": "Drinks experiences associated with Odisha.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "odisha",
+      "context_name": "Odisha",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_odisha_bela_pana",
+        "exp_odisha_mandia_pej"
+      ],
+      "empty_message": "More Odisha drinks experiences are coming soon."
+    },
+    {
+      "id": "odisha_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts experiences associated with Odisha.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "odisha",
+      "context_name": "Odisha",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_odisha_pattachitra",
+        "exp_odisha_pipili_applique",
+        "exp_odisha_cuttack_silver_filigree",
+        "exp_odisha_sambalpuri_ikat",
+        "exp_odisha_palm_leaf_engraving"
+      ],
+      "empty_message": "More Odisha arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "odisha_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs experiences associated with Odisha.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "odisha",
+      "context_name": "Odisha",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_odisha_puri_rath_yatra",
+        "exp_odisha_raja_parba",
+        "exp_odisha_nuakhai",
+        "exp_odisha_bali_yatra",
+        "exp_odisha_konark_dance_festival"
+      ],
+      "empty_message": "More Odisha festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "odisha_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance experiences associated with Odisha.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "odisha",
+      "context_name": "Odisha",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_odisha_odissi",
+        "exp_odisha_gotipua",
+        "exp_odisha_mayurbhanj_chhau",
+        "exp_odisha_dalkhai"
+      ],
+      "empty_message": "More Odisha music & dance experiences are coming soon."
+    }
+  ]
+}

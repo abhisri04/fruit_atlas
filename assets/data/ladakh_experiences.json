@@ -1,0 +1,1271 @@
+{
+  "experiences": [
+    {
+      "id": "exp_ladakh_leh_palace",
+      "title": "Leh Palace",
+      "description": "Leh Palace is a multi-storey royal palace overlooking Leh old town.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Namgyal palace"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_shey_palace_and_monastery",
+      "title": "Shey Palace and Monastery",
+      "description": "Shey was a former royal capital and preserves a palace-monastery complex in the Indus valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Shey Gompa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_thiksey_monastery",
+      "title": "Thiksey Monastery",
+      "description": "Thiksey is a large Gelug monastery complex overlooking the Indus valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Thikse Gompa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_hemis_monastery",
+      "title": "Hemis Monastery",
+      "description": "Hemis is one of Ladakh's best-known monasteries and the setting of the Hemis Tsechu festival.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Hemis Gompa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_alchi_monastery",
+      "title": "Alchi Monastery",
+      "description": "Alchi Choskhor is a historic Buddhist temple complex renowned for early wall paintings and woodwork.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "sham",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Alchi Choskhor"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Sham",
+      "city_id": "sham"
+    },
+    {
+      "id": "exp_ladakh_lamayuru_monastery",
+      "title": "Lamayuru Monastery",
+      "description": "Lamayuru is a historic monastery and village on the Leh-Kargil route.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "sham",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Yuru Gompa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Sham",
+      "city_id": "sham"
+    },
+    {
+      "id": "exp_ladakh_likir_monastery",
+      "title": "Likir Monastery",
+      "description": "Likir is a prominent Buddhist monastery in the Sham region.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "sham",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Likir Gompa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Sham",
+      "city_id": "sham"
+    },
+    {
+      "id": "exp_ladakh_basgo_fort_and_monastery",
+      "title": "Basgo Fort and Monastery",
+      "description": "Basgo preserves fortifications, temples and royal-era ruins above the Indus valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "sham",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Basgo Gompa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Sham",
+      "city_id": "sham"
+    },
+    {
+      "id": "exp_ladakh_diskit_monastery",
+      "title": "Diskit Monastery",
+      "description": "Diskit is the principal monastery of the Nubra valley and overlooks the Shyok valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "nubra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Diskit Gompa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Nubra",
+      "city_id": "nubra"
+    },
+    {
+      "id": "exp_ladakh_samstanling_monastery",
+      "title": "Samstanling Monastery",
+      "description": "Samstanling is a major monastery near Sumur in Nubra.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "nubra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sumur monastery"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Nubra",
+      "city_id": "nubra"
+    },
+    {
+      "id": "exp_ladakh_kargil_war_memorial",
+      "title": "Kargil War Memorial",
+      "description": "The Kargil War Memorial at Drass commemorates Indian soldiers of the 1999 Kargil conflict.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "drass",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Dras War Memorial"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Drass",
+      "city_id": "drass"
+    },
+    {
+      "id": "exp_ladakh_mulbekh_chamba",
+      "title": "Mulbekh Chamba",
+      "description": "Mulbekh is known for a large rock-carved Maitreya image and nearby monasteries on the Kargil-Leh route.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kargil",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Maitreya"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Kargil",
+      "city_id": "kargil"
+    },
+    {
+      "id": "exp_ladakh_sani_monastery",
+      "title": "Sani Monastery",
+      "description": "Sani Monastery is one of the oldest monastic sites in the Zanskar region.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "zanskar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sani Gompa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Zanskar",
+      "city_id": "zanskar"
+    },
+    {
+      "id": "exp_ladakh_karsha_monastery",
+      "title": "Karsha Monastery",
+      "description": "Karsha is the largest monastery in Zanskar, overlooking the valley near Padum.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "zanskar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Karsha Gompa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Zanskar",
+      "city_id": "zanskar"
+    },
+    {
+      "id": "exp_ladakh_phugtal_monastery",
+      "title": "Phugtal Monastery",
+      "description": "Phugtal is a remote cave monastery built into a cliff above the Tsarap valley in Zanskar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "zanskar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Phuktal"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Zanskar",
+      "city_id": "zanskar"
+    },
+    {
+      "id": "exp_ladakh_leh_old_town",
+      "title": "Leh Old Town",
+      "description": "Leh Old Town preserves historic lanes, houses, religious buildings and the urban fabric below Leh Palace.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_pangong_tso",
+      "title": "Pangong Tso",
+      "description": "Pangong Tso is a high-altitude trans-Himalayan lake extending across the India-China border region.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "changthang",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Pangong Lake"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Changthang",
+      "city_id": "changthang"
+    },
+    {
+      "id": "exp_ladakh_tso_moriri",
+      "title": "Tso Moriri",
+      "description": "Tso Moriri is a high-altitude Ramsar lake in the Changthang plateau.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "changthang",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ramsar"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Changthang",
+      "city_id": "changthang"
+    },
+    {
+      "id": "exp_ladakh_tso_kar",
+      "title": "Tso Kar",
+      "description": "Tso Kar is a high-altitude saline lake and wetland complex in Changthang.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "changthang",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "wetland"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Changthang",
+      "city_id": "changthang"
+    },
+    {
+      "id": "exp_ladakh_nubra_valley",
+      "title": "Nubra Valley",
+      "description": "Nubra is a high-altitude valley system around the Shyok and Nubra rivers, known for dunes, villages and mountain scenery.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "nubra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Shyok Valley"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Nubra",
+      "city_id": "nubra"
+    },
+    {
+      "id": "exp_ladakh_hunder_sand_dunes",
+      "title": "Hunder Sand Dunes",
+      "description": "Hunder has a distinctive cold-desert dune landscape in the Nubra valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "nubra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "sand dunes"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Nubra",
+      "city_id": "nubra"
+    },
+    {
+      "id": "exp_ladakh_zanskar_valley",
+      "title": "Zanskar Valley",
+      "description": "Zanskar is a remote high Himalayan valley system of villages, monasteries and dramatic river gorges.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "zanskar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Padum"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Zanskar",
+      "city_id": "zanskar"
+    },
+    {
+      "id": "exp_ladakh_suru_valley",
+      "title": "Suru Valley",
+      "description": "Suru is a green mountain valley south of Kargil beneath the Nun-Kun massif.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kargil",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Nun Kun"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Kargil",
+      "city_id": "kargil"
+    },
+    {
+      "id": "exp_ladakh_drass_valley",
+      "title": "Drass Valley",
+      "description": "Drass is a high-altitude valley on the Srinagar-Leh route with mountain meadows and a cold continental climate.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "drass",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Dras"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Drass",
+      "city_id": "drass"
+    },
+    {
+      "id": "exp_ladakh_hemis_national_park",
+      "title": "Hemis National Park",
+      "description": "Hemis National Park protects high-altitude mountain habitats and is globally associated with snow-leopard conservation.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "snow leopard"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_changthang_wildlife_sanctuary",
+      "title": "Changthang Wildlife Sanctuary",
+      "description": "Changthang Wildlife Sanctuary protects high-altitude steppe, wetlands and wildlife in eastern Ladakh.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "changthang",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "kiang",
+        "black-necked crane"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Changthang",
+      "city_id": "changthang"
+    },
+    {
+      "id": "exp_ladakh_magnetic_hill_landscape",
+      "title": "Magnetic Hill Landscape",
+      "description": "Magnetic Hill is a well-known roadside optical-illusion attraction on the Leh-Kargil route.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "gravity hill"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_drive_the_khardung_la_route",
+      "title": "Drive the Khardung La Route",
+      "description": "Travel the high mountain road from Leh toward Nubra via Khardung La when open and permitted.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "mountain pass",
+        "road trip"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_ride_across_ladakh_by_motorcycle",
+      "title": "Ride Across Ladakh by Motorcycle",
+      "description": "Experience Ladakh's high-altitude roads responsibly with appropriate acclimatisation, permits and safety planning.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "ladakh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "motorcycle",
+        "road trip"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_camp_or_stay_by_pangong_tso",
+      "title": "Camp or Stay by Pangong Tso",
+      "description": "Stay in permitted accommodation near Pangong Tso while following local environmental regulations.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "changthang",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "camping"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Changthang",
+      "city_id": "changthang"
+    },
+    {
+      "id": "exp_ladakh_visit_a_ladakhi_homestay",
+      "title": "Visit a Ladakhi Homestay",
+      "description": "Stay with a local household to experience Ladakhi food, architecture and village life.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "ladakh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "homestay"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_stargaze_in_hanle",
+      "title": "Stargaze in Hanle",
+      "description": "Experience Ladakh's dark skies and astronomy landscape around Hanle, subject to local access requirements.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "changthang",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "astro tourism",
+        "dark sky"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Changthang",
+      "city_id": "changthang"
+    },
+    {
+      "id": "exp_ladakh_trek_in_markha_valley",
+      "title": "Trek in Markha Valley",
+      "description": "Trek the Markha Valley route through villages and high passes in the Hemis landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "trekking"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_trek_the_chadar_route",
+      "title": "Trek the Chadar Route",
+      "description": "Undertake the winter Chadar trek on the frozen Zanskar river only when officially permitted and conditions are safe.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "zanskar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "winter trek"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Zanskar",
+      "city_id": "zanskar"
+    },
+    {
+      "id": "exp_ladakh_cycle_or_drive_the_sham_valley",
+      "title": "Cycle or Drive the Sham Valley",
+      "description": "Explore villages, monasteries and Indus-valley scenery of Sham by road or bicycle.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "sham",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "cycling",
+        "road trip"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Sham",
+      "city_id": "sham"
+    },
+    {
+      "id": "exp_ladakh_experience_double_humped_camel_riding_in_hunder",
+      "title": "Experience Double-Humped Camel Riding in Hunder",
+      "description": "Take a regulated Bactrian-camel ride in the Hunder dune landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "nubra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Bactrian camel"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Nubra",
+      "city_id": "nubra"
+    },
+    {
+      "id": "exp_ladakh_raft_the_zanskar_or_indus",
+      "title": "Raft the Zanskar or Indus",
+      "description": "Experience regulated river rafting on suitable stretches of the Zanskar or Indus during the operating season.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "rafting"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_attend_a_monastery_festival",
+      "title": "Attend a Monastery Festival",
+      "description": "Attend a public monastic festival to experience Cham dances, ritual music and monastery traditions respectfully.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "ladakh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Cham",
+        "monastery festival"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_watch_traditional_ladakhi_polo",
+      "title": "Watch Traditional Ladakhi Polo",
+      "description": "Watch a traditional polo match during a public cultural event or festival.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "leh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "polo"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_thukpa",
+      "title": "Thukpa",
+      "description": "Thukpa is a hearty noodle soup eaten widely across Ladakh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "noodle soup"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_momos",
+      "title": "Momos",
+      "description": "Momos are steamed or fried dumplings with vegetable or meat fillings and are widely eaten in Ladakh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "dumplings"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_skyu",
+      "title": "Skyu",
+      "description": "Skyu is a traditional Ladakhi pasta-like stew with hand-shaped wheat dough and vegetables or meat.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "stew"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_chutagi",
+      "title": "Chutagi",
+      "description": "Chutagi is a Ladakhi soup-stew made with bow-tie shaped pieces of wheat dough.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "pasta stew"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_khambir",
+      "title": "Khambir",
+      "description": "Khambir is a thick traditional Ladakhi whole-wheat bread.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "bread"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_paba",
+      "title": "Paba",
+      "description": "Paba is a traditional Ladakhi staple made from roasted barley or mixed grain flour.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "barley"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_mokmok",
+      "title": "Mokmok",
+      "description": "Mokmok is another local name used for dumpling preparations in Ladakhi cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "dumplings"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_apricot_jam",
+      "title": "Apricot Jam",
+      "description": "Apricot preserves are a distinctive product of Ladakh's apricot-growing valleys.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kargil",
+      "category_id": "food_drink",
+      "keywords": [
+        "apricot"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Kargil",
+      "city_id": "kargil"
+    },
+    {
+      "id": "exp_ladakh_walnut_and_apricot_dry_fruit_mix",
+      "title": "Walnut and Apricot Dry-Fruit Mix",
+      "description": "Dried apricots, kernels and nuts are common high-altitude food products across Ladakh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "dry fruit"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_gur_gur_cha",
+      "title": "Gur Gur Cha",
+      "description": "Gur gur cha is Ladakh's traditional salted butter tea.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "butter tea",
+        "salt tea"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_apricot_juice",
+      "title": "Apricot Juice",
+      "description": "Apricot juice and squash are made from fruit grown in Ladakh's warmer valleys.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "apricot"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_sea_buckthorn_juice",
+      "title": "Sea Buckthorn Juice",
+      "description": "Sea-buckthorn berries are processed into juices and other products in Ladakh.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "ladakh",
+      "category_id": "food_drink",
+      "keywords": [
+        "seabuckthorn"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_ladakhi_pashmina_weaving",
+      "title": "Ladakhi Pashmina Weaving",
+      "description": "Fine pashmina fibre from Changthang is spun and woven into high-value textiles.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "changthang",
+      "category_id": "culture_learning",
+      "keywords": [
+        "pashmina"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Changthang",
+      "city_id": "changthang"
+    },
+    {
+      "id": "exp_ladakh_thangka_painting",
+      "title": "Thangka Painting",
+      "description": "Thangka painting depicts Buddhist deities and religious scenes on cloth.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Buddhist art"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_ladakhi_wood_carving",
+      "title": "Ladakhi Wood Carving",
+      "description": "Traditional houses and monasteries use carved wooden frames, pillars and decorative elements.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wood craft"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_metal_sculpture_and_ritual_ware",
+      "title": "Metal Sculpture and Ritual Ware",
+      "description": "Ladakh has traditions of metal casting and worked ritual objects used in monasteries and homes.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "metal craft"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_woollen_textile_weaving",
+      "title": "Woollen Textile Weaving",
+      "description": "Local wool is woven into blankets, clothing and household textiles suited to high-altitude life.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wool",
+        "handloom"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_traditional_ladakhi_carpentry",
+      "title": "Traditional Ladakhi Carpentry",
+      "description": "Carpentry shapes the beams, windows, furniture and interior structures of traditional Ladakhi architecture.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "carpentry"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_clay_sculpture_and_monastery_art",
+      "title": "Clay Sculpture and Monastery Art",
+      "description": "Historic monasteries preserve important traditions of clay sculpture, murals and painted religious art.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "monastery art"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_apricot_wood_craft",
+      "title": "Apricot-Wood Craft",
+      "description": "Apricot wood is used locally for small household and decorative objects in fruit-growing valleys.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kargil",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wood craft"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Kargil",
+      "city_id": "kargil"
+    },
+    {
+      "id": "exp_ladakh_hemis_tsechu",
+      "title": "Hemis Tsechu",
+      "description": "Hemis Tsechu is a major monastic festival at Hemis Monastery featuring sacred masked Cham dances.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "leh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Hemis Festival",
+        "Cham"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_ladakh_festival",
+      "title": "Ladakh Festival",
+      "description": "The Ladakh Festival in Leh brings together processions, music, dance, archery and polo.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "leh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "cultural festival"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_zanskar_festival",
+      "title": "Zanskar Festival",
+      "description": "Zanskar Festival showcases regional dance, music, cuisine, crafts and monastic traditions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "zanskar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "cultural festival"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Zanskar",
+      "city_id": "zanskar"
+    },
+    {
+      "id": "exp_ladakh_apricot_blossom_festival",
+      "title": "Apricot Blossom Festival",
+      "description": "The Apricot Blossom Festival celebrates spring flowering, village culture and apricot-growing communities.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Chuli Mentok Stanmo"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_changthang_nomadic_festival",
+      "title": "Changthang Nomadic Festival",
+      "description": "Changthang Nomadic Festival showcases Changpa pastoral life, livestock heritage and pashmina traditions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "changthang",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Changpa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Changthang",
+      "city_id": "changthang"
+    },
+    {
+      "id": "exp_ladakh_suru_summer_festival",
+      "title": "Suru Summer Festival",
+      "description": "Suru Summer Festival highlights Kargil-region culture, sports, crafts and cuisine.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kargil",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Suru Valley"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Kargil",
+      "city_id": "kargil"
+    },
+    {
+      "id": "exp_ladakh_losar",
+      "title": "Losar",
+      "description": "Losar is the Tibetan Buddhist New Year celebrated across Ladakhi communities.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "New Year"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_monastic_festivals_of_ladakh",
+      "title": "Monastic Festivals of Ladakh",
+      "description": "Annual monastery festivals across Ladakh feature Cham dance, ritual music and community gatherings.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Cham"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_ladakh_astro_week",
+      "title": "Ladakh Astro Week",
+      "description": "Ladakh Astro Week celebrates astronomy, stargazing and the region's high-altitude dark skies.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "astro tourism"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_cham_dance",
+      "title": "Cham Dance",
+      "description": "Cham is a sacred masked monastic dance performed during Buddhist festivals.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "masked dance"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_jabro_dance",
+      "title": "Jabro Dance",
+      "description": "Jabro is a folk dance tradition associated with Changthang's nomadic communities.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "changthang",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Changpa"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Changthang",
+      "city_id": "changthang"
+    },
+    {
+      "id": "exp_ladakh_shondol_dance",
+      "title": "Shondol Dance",
+      "description": "Shondol is a ceremonial Ladakhi dance historically associated with royal patronage.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "leh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "court dance"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_ladakhi_folk_songs",
+      "title": "Ladakhi Folk Songs",
+      "description": "Ladakhi folk songs accompany festivals, work, seasonal gatherings and social ceremonies.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ladakh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk music"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Ladakh",
+      "city_id": "ladakh"
+    },
+    {
+      "id": "exp_ladakh_traditional_ladakhi_polo_music",
+      "title": "Traditional Ladakhi Polo Music",
+      "description": "Public polo matches are often accompanied by traditional drums and wind instruments.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "leh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "polo"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Leh",
+      "city_id": "leh"
+    },
+    {
+      "id": "exp_ladakh_zanskar_folk_dance",
+      "title": "Zanskar Folk Dance",
+      "description": "Zanskar has distinctive communal dance and song traditions showcased during regional festivals.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "zanskar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "status": "active",
+      "city": "Zanskar",
+      "city_id": "zanskar"
+    }
+  ]
+}

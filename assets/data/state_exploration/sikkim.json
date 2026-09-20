@@ -1,0 +1,7 @@
+{
+  "state_id": "sikkim",
+  "state_name": "Sikkim",
+  "district_asset": "assets/data/sikkim_districts.json",
+  "experience_asset": "assets/data/sikkim_experiences.json",
+  "collections_asset": "assets/data/sikkim_collections.json"
+}

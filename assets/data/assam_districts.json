@@ -1,0 +1,321 @@
+{
+  "districts": [
+    {
+      "id": "district_assam_bajali",
+      "name": "Bajali",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Bajali is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_baksa",
+      "name": "Baksa",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Baksa is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_barpeta",
+      "name": "Barpeta",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Barpeta is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_biswanath",
+      "name": "Biswanath",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Biswanath is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_bongaigaon",
+      "name": "Bongaigaon",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Bongaigaon is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_cachar",
+      "name": "Cachar",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Cachar is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_charaideo",
+      "name": "Charaideo",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Charaideo is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_chirang",
+      "name": "Chirang",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Chirang is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_darrang",
+      "name": "Darrang",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Darrang is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_dhemaji",
+      "name": "Dhemaji",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Dhemaji is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_dhubri",
+      "name": "Dhubri",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Dhubri is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_dibrugarh",
+      "name": "Dibrugarh",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Dibrugarh is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_dima_hasao",
+      "name": "Dima Hasao",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Dima Hasao is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_goalpara",
+      "name": "Goalpara",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Goalpara is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_golaghat",
+      "name": "Golaghat",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Golaghat is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_hailakandi",
+      "name": "Hailakandi",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Hailakandi is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_hojai",
+      "name": "Hojai",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Hojai is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_jorhat",
+      "name": "Jorhat",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Jorhat is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_kamrup",
+      "name": "Kamrup",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Kamrup is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_kamrup_metropolitan",
+      "name": "Kamrup Metropolitan",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Kamrup Metropolitan is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_karbi_anglong",
+      "name": "Karbi Anglong",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Karbi Anglong is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_sribhumi",
+      "name": "Sribhumi",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Sribhumi is a district of Assam.",
+      "keywords": [
+        "Karimganj"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_kokrajhar",
+      "name": "Kokrajhar",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Kokrajhar is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_lakhimpur",
+      "name": "Lakhimpur",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Lakhimpur is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_majuli",
+      "name": "Majuli",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Majuli is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_morigaon",
+      "name": "Morigaon",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Morigaon is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_nagaon",
+      "name": "Nagaon",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Nagaon is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_nalbari",
+      "name": "Nalbari",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Nalbari is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_sivasagar",
+      "name": "Sivasagar",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Sivasagar is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_sonitpur",
+      "name": "Sonitpur",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Sonitpur is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_south_salmara_mankachar",
+      "name": "South Salmara-Mankachar",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "South Salmara-Mankachar is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_tamulpur",
+      "name": "Tamulpur",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Tamulpur is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_tinsukia",
+      "name": "Tinsukia",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Tinsukia is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_udalguri",
+      "name": "Udalguri",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "Udalguri is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_assam_west_karbi_anglong",
+      "name": "West Karbi Anglong",
+      "state_id": "assam",
+      "state_name": "Assam",
+      "description": "West Karbi Anglong is a district of Assam.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

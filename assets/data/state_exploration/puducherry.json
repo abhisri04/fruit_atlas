@@ -1,0 +1,7 @@
+{
+  "state_id": "puducherry",
+  "state_name": "Puducherry",
+  "district_asset": "assets/data/puducherry_districts.json",
+  "experience_asset": "assets/data/puducherry_experiences.json",
+  "collections_asset": "assets/data/puducherry_collections.json"
+}

@@ -1,0 +1,1405 @@
+{
+  "experiences": [
+    {
+      "id": "exp_uttarakhand_badrinath_temple",
+      "title": "Badrinath Temple",
+      "description": "Badrinath is a major Himalayan pilgrimage temple dedicated to Vishnu and one of Uttarakhand's Char Dham shrines.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "badrinath",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Char Dham",
+        "Badri Vishal"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Badrinath",
+      "city_id": "badrinath"
+    },
+    {
+      "id": "exp_uttarakhand_kedarnath_temple",
+      "title": "Kedarnath Temple",
+      "description": "Kedarnath is a major Shiva pilgrimage temple in the Garhwal Himalaya and one of Uttarakhand's Char Dham shrines.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kedarnath",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Char Dham",
+        "Jyotirlinga"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kedarnath",
+      "city_id": "kedarnath"
+    },
+    {
+      "id": "exp_uttarakhand_gangotri_temple",
+      "title": "Gangotri Temple",
+      "description": "Gangotri Temple is a major pilgrimage shrine near the source region of the Bhagirathi and part of the Char Dham circuit.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "gangotri",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Char Dham",
+        "Bhagirathi"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Gangotri",
+      "city_id": "gangotri"
+    },
+    {
+      "id": "exp_uttarakhand_yamunotri_temple",
+      "title": "Yamunotri Temple",
+      "description": "Yamunotri Temple is the westernmost Char Dham shrine and is associated with the source region of the Yamuna.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "yamunotri",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Char Dham",
+        "Yamuna"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Yamunotri",
+      "city_id": "yamunotri"
+    },
+    {
+      "id": "exp_uttarakhand_har_ki_pauri",
+      "title": "Har Ki Pauri",
+      "description": "Har Ki Pauri is Haridwar's best-known sacred Ganga ghat and a major pilgrimage landmark.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "haridwar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ganga",
+        "ghat"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Haridwar",
+      "city_id": "haridwar"
+    },
+    {
+      "id": "exp_uttarakhand_laxman_jhula_and_tapovan_heritage_area",
+      "title": "Laxman Jhula and Tapovan Heritage Area",
+      "description": "The Rishikesh riverfront and Tapovan area are central to the city's yoga, ashram and pilgrimage landscape.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "rishikesh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Lakshman Jhula",
+        "Ganga"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Rishikesh",
+      "city_id": "rishikesh"
+    },
+    {
+      "id": "exp_uttarakhand_jageshwar_temple_complex",
+      "title": "Jageshwar Temple Complex",
+      "description": "Jageshwar is a major group of historic stone temples set in deodar forest in Almora district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jageshwar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Jageshwar Dham",
+        "temples"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Jageshwar",
+      "city_id": "jageshwar"
+    },
+    {
+      "id": "exp_uttarakhand_baijnath_temple_complex",
+      "title": "Baijnath Temple Complex",
+      "description": "Baijnath is a historic group of stone temples beside the Gomti river in Bageshwar district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "baijnath",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Katyuri"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Baijnath",
+      "city_id": "baijnath"
+    },
+    {
+      "id": "exp_uttarakhand_katarmal_sun_temple",
+      "title": "Katarmal Sun Temple",
+      "description": "Katarmal Sun Temple near Almora is an important historic temple dedicated to Surya.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "almora",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sun Temple"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Almora",
+      "city_id": "almora"
+    },
+    {
+      "id": "exp_uttarakhand_patal_bhuvaneshwar",
+      "title": "Patal Bhuvaneshwar",
+      "description": "Patal Bhuvaneshwar is a limestone cave shrine and pilgrimage site in Pithoragarh district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "pithoragarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "cave temple"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Pithoragarh",
+      "city_id": "pithoragarh"
+    },
+    {
+      "id": "exp_uttarakhand_hemkund_sahib",
+      "title": "Hemkund Sahib",
+      "description": "Hemkund Sahib is a high-altitude Sikh pilgrimage site in Chamoli district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chamoli",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Gurudwara",
+        "Hemkunt"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Chamoli",
+      "city_id": "chamoli"
+    },
+    {
+      "id": "exp_uttarakhand_neelkanth_mahadev_temple",
+      "title": "Neelkanth Mahadev Temple",
+      "description": "Neelkanth Mahadev is a prominent Shiva pilgrimage temple in the hills near Rishikesh.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "pauri_garhwal",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Shiva"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Pauri Garhwal",
+      "city_id": "pauri_garhwal"
+    },
+    {
+      "id": "exp_uttarakhand_kainchi_dham",
+      "title": "Kainchi Dham",
+      "description": "Kainchi Dham is a well-known ashram and Hanuman temple in Nainital district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "nainital",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Neem Karoli Baba"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Nainital",
+      "city_id": "nainital"
+    },
+    {
+      "id": "exp_uttarakhand_george_everest_estate",
+      "title": "George Everest Estate",
+      "description": "George Everest Estate near Mussoorie preserves the former home and observatory associated with surveyor George Everest.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "mussoorie",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Park Estate"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Mussoorie",
+      "city_id": "mussoorie"
+    },
+    {
+      "id": "exp_uttarakhand_forest_research_institute",
+      "title": "Forest Research Institute",
+      "description": "The Forest Research Institute in Dehradun is a landmark colonial-era institutional campus and forestry museum.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "dehradun",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "FRI"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Dehradun",
+      "city_id": "dehradun"
+    },
+    {
+      "id": "exp_uttarakhand_clock_tower_dehradun",
+      "title": "Clock Tower Dehradun",
+      "description": "Ghanta Ghar is a prominent historic landmark in central Dehradun.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "dehradun",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ghanta Ghar"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Dehradun",
+      "city_id": "dehradun"
+    },
+    {
+      "id": "exp_uttarakhand_narendra_nagar_palace_heritage",
+      "title": "Narendra Nagar Palace Heritage",
+      "description": "Narendra Nagar preserves royal-era architecture and views over the Ganga valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "tehri_garhwal",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Tehri Garhwal"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Tehri Garhwal",
+      "city_id": "tehri_garhwal"
+    },
+    {
+      "id": "exp_uttarakhand_pithoragarh_fort",
+      "title": "Pithoragarh Fort",
+      "description": "Pithoragarh Fort is a hill fort overlooking the Pithoragarh valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "pithoragarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "fort"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Pithoragarh",
+      "city_id": "pithoragarh"
+    },
+    {
+      "id": "exp_uttarakhand_valley_of_flowers_national_park",
+      "title": "Valley of Flowers National Park",
+      "description": "Valley of Flowers is a UNESCO World Heritage Site known for alpine meadows and Himalayan flora.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chamoli",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "UNESCO",
+        "alpine meadow"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Chamoli",
+      "city_id": "chamoli"
+    },
+    {
+      "id": "exp_uttarakhand_nanda_devi_national_park",
+      "title": "Nanda Devi National Park",
+      "description": "Nanda Devi National Park protects high Himalayan ecosystems around the Nanda Devi massif and forms part of a UNESCO World Heritage property.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chamoli",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "UNESCO",
+        "Nanda Devi"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Chamoli",
+      "city_id": "chamoli"
+    },
+    {
+      "id": "exp_uttarakhand_jim_corbett_national_park",
+      "title": "Jim Corbett National Park",
+      "description": "Jim Corbett National Park is India's oldest national park and a major tiger and elephant landscape in Uttarakhand.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "nainital",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Corbett",
+        "tiger reserve"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Nainital",
+      "city_id": "nainital"
+    },
+    {
+      "id": "exp_uttarakhand_rajaji_national_park",
+      "title": "Rajaji National Park",
+      "description": "Rajaji National Park protects Shivalik and Terai habitats around Haridwar, Dehradun and Pauri Garhwal.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "haridwar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Rajaji Tiger Reserve",
+        "elephants"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Haridwar",
+      "city_id": "haridwar"
+    },
+    {
+      "id": "exp_uttarakhand_binsar_wildlife_sanctuary",
+      "title": "Binsar Wildlife Sanctuary",
+      "description": "Binsar Wildlife Sanctuary protects oak and rhododendron forest above Almora with broad Himalayan views.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "almora",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Binsar"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Almora",
+      "city_id": "almora"
+    },
+    {
+      "id": "exp_uttarakhand_askot_wildlife_sanctuary",
+      "title": "Askot Wildlife Sanctuary",
+      "description": "Askot Wildlife Sanctuary protects Himalayan habitats in Pithoragarh district near the Kali valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "pithoragarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Askot"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Pithoragarh",
+      "city_id": "pithoragarh"
+    },
+    {
+      "id": "exp_uttarakhand_govind_pashu_vihar_national_park_and_sanctuary",
+      "title": "Govind Pashu Vihar National Park and Sanctuary",
+      "description": "Govind Pashu Vihar protects alpine, forest and river landscapes in Uttarkashi district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "uttarkashi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Har Ki Dun"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarkashi",
+      "city_id": "uttarkashi"
+    },
+    {
+      "id": "exp_uttarakhand_nainital_lake",
+      "title": "Nainital Lake",
+      "description": "Naini Lake is the central natural landmark of Nainital town.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "nainital",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Naini Lake"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Nainital",
+      "city_id": "nainital"
+    },
+    {
+      "id": "exp_uttarakhand_tehri_lake",
+      "title": "Tehri Lake",
+      "description": "Tehri Lake is the reservoir created on the Bhagirathi and a major water-sports and leisure destination.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "tehri_garhwal",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Tehri Dam"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Tehri Garhwal",
+      "city_id": "tehri_garhwal"
+    },
+    {
+      "id": "exp_uttarakhand_deoria_tal",
+      "title": "Deoria Tal",
+      "description": "Deoria Tal is a high-altitude lake and meadow destination in Rudraprayag district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "rudraprayag",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Devariyatal"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Rudraprayag",
+      "city_id": "rudraprayag"
+    },
+    {
+      "id": "exp_uttarakhand_chopta_tungnath_landscape",
+      "title": "Chopta Tungnath Landscape",
+      "description": "Chopta is a high-altitude meadow and forest landscape on the approach to Tungnath and Chandrashila.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "rudraprayag",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Chandrashila",
+        "Tungnath"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Rudraprayag",
+      "city_id": "rudraprayag"
+    },
+    {
+      "id": "exp_uttarakhand_munsiyari_himalayan_landscape",
+      "title": "Munsiyari Himalayan Landscape",
+      "description": "Munsiyari is a high Himalayan valley destination with views toward the Panchachuli peaks.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "pithoragarh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Panchachuli"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Pithoragarh",
+      "city_id": "pithoragarh"
+    },
+    {
+      "id": "exp_uttarakhand_raft_the_ganga_at_rishikesh",
+      "title": "Raft the Ganga at Rishikesh",
+      "description": "Experience regulated white-water rafting on the Ganga in the Rishikesh-Shivpuri corridor.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "rishikesh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "rafting",
+        "Shivpuri"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Rishikesh",
+      "city_id": "rishikesh"
+    },
+    {
+      "id": "exp_uttarakhand_practice_yoga_in_rishikesh",
+      "title": "Practice Yoga in Rishikesh",
+      "description": "Take part in yoga or meditation sessions in Rishikesh, widely promoted as a global yoga and wellness destination.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "rishikesh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "yoga",
+        "wellness"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Rishikesh",
+      "city_id": "rishikesh"
+    },
+    {
+      "id": "exp_uttarakhand_ski_at_auli",
+      "title": "Ski at Auli",
+      "description": "Experience skiing on Auli's snow slopes during suitable winter conditions.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "auli",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "skiing"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Auli",
+      "city_id": "auli"
+    },
+    {
+      "id": "exp_uttarakhand_trek_to_valley_of_flowers",
+      "title": "Trek to Valley of Flowers",
+      "description": "Follow the mountain trail from Govindghat/Ghangaria into the Valley of Flowers during its open season.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chamoli",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "trekking"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Chamoli",
+      "city_id": "chamoli"
+    },
+    {
+      "id": "exp_uttarakhand_trek_to_kedarnath",
+      "title": "Trek to Kedarnath",
+      "description": "Complete the mountain pilgrimage trek to Kedarnath from the roadhead corridor.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kedarnath",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "pilgrimage trek"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kedarnath",
+      "city_id": "kedarnath"
+    },
+    {
+      "id": "exp_uttarakhand_trek_to_tungnath_and_chandrashila",
+      "title": "Trek to Tungnath and Chandrashila",
+      "description": "Hike from Chopta toward Tungnath and Chandrashila for temple, meadow and Himalayan views.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "rudraprayag",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "trekking"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Rudraprayag",
+      "city_id": "rudraprayag"
+    },
+    {
+      "id": "exp_uttarakhand_boat_on_naini_lake",
+      "title": "Boat on Naini Lake",
+      "description": "Take a permitted leisure boat ride on Naini Lake in Nainital.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "nainital",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "boating"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Nainital",
+      "city_id": "nainital"
+    },
+    {
+      "id": "exp_uttarakhand_experience_tehri_lake_water_sports",
+      "title": "Experience Tehri Lake Water Sports",
+      "description": "Try permitted water-sports activities on Tehri Lake.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "tehri_garhwal",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "water sports",
+        "boating"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Tehri Garhwal",
+      "city_id": "tehri_garhwal"
+    },
+    {
+      "id": "exp_uttarakhand_corbett_wildlife_safari",
+      "title": "Corbett Wildlife Safari",
+      "description": "Explore permitted tourism zones of Corbett Tiger Reserve on a registered wildlife safari.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "nainital",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "safari"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Nainital",
+      "city_id": "nainital"
+    },
+    {
+      "id": "exp_uttarakhand_walk_mussoorie_s_heritage_core",
+      "title": "Walk Mussoorie's Heritage Core",
+      "description": "Explore Mussoorie's historic Mall, Landour and colonial-era streets on foot.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "mussoorie",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage walk",
+        "Landour"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Mussoorie",
+      "city_id": "mussoorie"
+    },
+    {
+      "id": "exp_uttarakhand_trek_the_har_ki_dun_valley",
+      "title": "Trek the Har Ki Dun Valley",
+      "description": "Trek through the Govind Pashu Vihar landscape toward Har Ki Dun.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "uttarkashi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "trekking"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarkashi",
+      "city_id": "uttarkashi"
+    },
+    {
+      "id": "exp_uttarakhand_visit_an_uttarakhand_homestay",
+      "title": "Visit an Uttarakhand Homestay",
+      "description": "Stay in a registered village homestay to experience local food, architecture and mountain life.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "uttarakhand",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "homestay",
+        "rural tourism"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_stargaze_in_the_himalayan_hills",
+      "title": "Stargaze in the Himalayan Hills",
+      "description": "Experience dark-sky stargazing from suitable mountain destinations promoted for astro-tourism.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "uttarakhand",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "astro tourism"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_kafuli",
+      "title": "Kafuli",
+      "description": "Kafuli is a thick leafy-greens preparation associated with Garhwali cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "Garhwali"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_phaanu",
+      "title": "Phaanu",
+      "description": "Phaanu is a slow-cooked mixed-lentil preparation associated with Garhwali cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "Garhwali",
+        "lentils"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_chainsoo",
+      "title": "Chainsoo",
+      "description": "Chainsoo is a roasted black-gram preparation from Garhwal.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "urad dal"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_aloo_ke_gutke",
+      "title": "Aloo ke Gutke",
+      "description": "Aloo ke gutke are spiced potatoes strongly associated with Kumaoni food.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kumaon",
+      "category_id": "food_drink",
+      "keywords": [
+        "Kumaoni"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_bhatt_ki_churkani",
+      "title": "Bhatt ki Churkani",
+      "description": "Bhatt ki churkani is a black-soybean curry associated with Kumaon.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kumaon",
+      "category_id": "food_drink",
+      "keywords": [
+        "black soybean"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_jhangora_ki_kheer",
+      "title": "Jhangora ki Kheer",
+      "description": "Jhangora ki kheer is a sweet pudding made from barnyard millet.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "barnyard millet"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_mandua_ki_roti",
+      "title": "Mandua ki Roti",
+      "description": "Mandua roti is a finger-millet flatbread common in Uttarakhand's hill cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "ragi",
+        "finger millet"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_gahat_ki_dal",
+      "title": "Gahat ki Dal",
+      "description": "Gahat or kulath is horse gram cooked as a hearty hill lentil preparation.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "horse gram"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_kandalee_ka_saag",
+      "title": "Kandalee ka Saag",
+      "description": "Kandalee saag is a traditional preparation using stinging nettle greens.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "nettle"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_bal_mithai",
+      "title": "Bal Mithai",
+      "description": "Bal mithai is a fudge-like milk sweet coated with sugar pearls and associated especially with Almora.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "almora",
+      "category_id": "food_drink",
+      "keywords": [
+        "sweet"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Almora",
+      "city_id": "almora"
+    },
+    {
+      "id": "exp_uttarakhand_singori",
+      "title": "Singori",
+      "description": "Singori is a Kumaoni milk sweet traditionally wrapped in a leaf cone.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kumaon",
+      "category_id": "food_drink",
+      "keywords": [
+        "singauri",
+        "sweet"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_arsa",
+      "title": "Arsa",
+      "description": "Arsa is a traditional deep-fried rice-and-jaggery sweet prepared on festive and ceremonial occasions.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "garhwal",
+      "category_id": "food_drink",
+      "keywords": [
+        "sweet"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Garhwal",
+      "city_id": "garhwal"
+    },
+    {
+      "id": "exp_uttarakhand_dubuk",
+      "title": "Dubuk",
+      "description": "Dubuk is a slow-cooked pulse dish associated with Kumaoni cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kumaon",
+      "category_id": "food_drink",
+      "keywords": [
+        "lentils"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_buransh_sharbat",
+      "title": "Buransh Sharbat",
+      "description": "Buransh sharbat is a rhododendron-flower drink popular in the Himalayan hills of Uttarakhand.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "rhododendron"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_lemon_shikanji_of_the_hills",
+      "title": "Lemon Shikanji of the Hills",
+      "description": "Fresh lemon drinks are common refreshers in Uttarakhand's hill towns and pilgrimage routes.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "nimbu pani"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_masala_chai_in_the_hills",
+      "title": "Masala Chai in the Hills",
+      "description": "Hot spiced tea is an everyday drink across Uttarakhand's mountain towns and travel routes.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "uttarakhand",
+      "category_id": "food_drink",
+      "keywords": [
+        "tea",
+        "chai"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_aipan_art",
+      "title": "Aipan Art",
+      "description": "Aipan is a ritual floor-and-wall art tradition especially associated with Kumaon.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kumaon",
+      "category_id": "culture_learning",
+      "keywords": [
+        "ritual art"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_ringaal_bamboo_craft",
+      "title": "Ringaal Bamboo Craft",
+      "description": "Ringaal bamboo is woven into baskets, containers and household objects in the Uttarakhand Himalaya.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttarakhand",
+      "category_id": "culture_learning",
+      "keywords": [
+        "bamboo craft"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_pahari_wool_weaving",
+      "title": "Pahari Wool Weaving",
+      "description": "Wool weaving produces shawls, blankets and garments suited to Himalayan life.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttarakhand",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wool",
+        "handloom"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_wood_carving_of_uttarakhand",
+      "title": "Wood Carving of Uttarakhand",
+      "description": "Traditional wooden homes and temples display carved doors, windows and architectural details.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttarakhand",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wood craft"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_copperware_craft",
+      "title": "Copperware Craft",
+      "description": "Copper utensils and ritual objects remain part of Uttarakhand's traditional craft economy.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "almora",
+      "category_id": "culture_learning",
+      "keywords": [
+        "copper craft"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Almora",
+      "city_id": "almora"
+    },
+    {
+      "id": "exp_uttarakhand_likhai_woodcarving",
+      "title": "Likhai Woodcarving",
+      "description": "Likhai refers to elaborate wood carving seen in older Kumaoni architecture.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kumaon",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wood carving"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_kumaoni_pichora",
+      "title": "Kumaoni Pichora",
+      "description": "Pichora is a ceremonial textile worn by Kumaoni women at weddings and religious occasions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kumaon",
+      "category_id": "culture_learning",
+      "keywords": [
+        "textile"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_kumbh_mela_haridwar",
+      "title": "Kumbh Mela, Haridwar",
+      "description": "Haridwar is one of the four principal hosts of the Kumbh Mela pilgrimage gathering.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haridwar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Kumbh"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Haridwar",
+      "city_id": "haridwar"
+    },
+    {
+      "id": "exp_uttarakhand_nanda_devi_raj_jat",
+      "title": "Nanda Devi Raj Jat",
+      "description": "Nanda Devi Raj Jat is a major periodic pilgrimage and cultural journey through the Garhwal Himalaya.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chamoli",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Raj Jat"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Chamoli",
+      "city_id": "chamoli"
+    },
+    {
+      "id": "exp_uttarakhand_uttarayani_mela",
+      "title": "Uttarayani Mela",
+      "description": "Uttarayani Mela is a major winter fair associated especially with Bageshwar.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "bageshwar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Makar Sankranti"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Bageshwar",
+      "city_id": "bageshwar"
+    },
+    {
+      "id": "exp_uttarakhand_harela",
+      "title": "Harela",
+      "description": "Harela is a major Kumaoni seasonal festival celebrating greenery and the agricultural cycle.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kumaon",
+      "category_id": "culture_learning",
+      "keywords": [
+        "harvest"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_phool_dei",
+      "title": "Phool Dei",
+      "description": "Phool Dei is a springtime children's festival celebrated in Uttarakhand's hill communities.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttarakhand",
+      "category_id": "culture_learning",
+      "keywords": [
+        "spring festival"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_ganga_dussehra",
+      "title": "Ganga Dussehra",
+      "description": "Ganga Dussehra is observed prominently at sacred river towns including Haridwar and Rishikesh.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haridwar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Ganga"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Haridwar",
+      "city_id": "haridwar"
+    },
+    {
+      "id": "exp_uttarakhand_butter_festival_dayara_bugyal",
+      "title": "Butter Festival Dayara Bugyal",
+      "description": "The Butter Festival is a seasonal pastoral celebration associated with Dayara Bugyal.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttarkashi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Anduri Utsav"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarkashi",
+      "city_id": "uttarkashi"
+    },
+    {
+      "id": "exp_uttarakhand_kandali_festival",
+      "title": "Kandali Festival",
+      "description": "Kandali is a distinctive periodic festival of the Rung community in the Pithoragarh region.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "pithoragarh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Rung"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Pithoragarh",
+      "city_id": "pithoragarh"
+    },
+    {
+      "id": "exp_uttarakhand_ramman_festival",
+      "title": "Ramman Festival",
+      "description": "Ramman is a ritual theatre and festival tradition of Saloor-Dungra in Chamoli district and is inscribed by UNESCO as intangible cultural heritage.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chamoli",
+      "category_id": "culture_learning",
+      "keywords": [
+        "UNESCO",
+        "ritual theatre"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Chamoli",
+      "city_id": "chamoli"
+    },
+    {
+      "id": "exp_uttarakhand_chholiya_dance",
+      "title": "Chholiya Dance",
+      "description": "Chholiya is a sword dance tradition of Kumaon often performed at weddings and processions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kumaon",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_jhora_dance",
+      "title": "Jhora Dance",
+      "description": "Jhora is a communal circle-dance tradition of Kumaon.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kumaon",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Kumaon",
+      "city_id": "kumaon"
+    },
+    {
+      "id": "exp_uttarakhand_langvir_nritya",
+      "title": "Langvir Nritya",
+      "description": "Langvir Nritya is an acrobatic folk performance tradition of Garhwal.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "garhwal",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Garhwal",
+      "city_id": "garhwal"
+    },
+    {
+      "id": "exp_uttarakhand_pandav_nritya",
+      "title": "Pandav Nritya",
+      "description": "Pandav Nritya is a ritual dance-drama tradition based on Mahabharata narratives in Garhwal.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "garhwal",
+      "category_id": "culture_learning",
+      "keywords": [
+        "ritual theatre"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Garhwal",
+      "city_id": "garhwal"
+    },
+    {
+      "id": "exp_uttarakhand_jagar_singing",
+      "title": "Jagar Singing",
+      "description": "Jagar is a ritual singing tradition invoking local deities and ancestral spirits.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttarakhand",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk music"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    },
+    {
+      "id": "exp_uttarakhand_mangal_geet",
+      "title": "Mangal Geet",
+      "description": "Mangal geet are ceremonial songs performed during weddings and auspicious occasions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "uttarakhand",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk songs"
+      ],
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "status": "active",
+      "city": "Uttarakhand",
+      "city_id": "uttarakhand"
+    }
+  ]
+}

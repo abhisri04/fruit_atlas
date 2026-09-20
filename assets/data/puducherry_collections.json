@@ -1,0 +1,153 @@
+{
+  "collections": [
+    {
+      "id": "puducherry_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Puducherry.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "puducherry",
+      "context_name": "Puducherry",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_puducherry_sri_aurobindo_ashram",
+        "exp_puducherry_manakula_vinayagar_temple",
+        "exp_puducherry_arikamedu_archaeological_site",
+        "exp_puducherry_puducherry_museum",
+        "exp_puducherry_thirunallar_dharbaranyeswarar_temple"
+      ],
+      "empty_message": "More Puducherry landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "puducherry_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Puducherry.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "puducherry",
+      "context_name": "Puducherry",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_puducherry_ousteri_lake",
+        "exp_puducherry_paradise_beach",
+        "exp_puducherry_puducherry_botanical_garden"
+      ],
+      "empty_message": "More Puducherry nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "puducherry_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Puducherry.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "puducherry",
+      "context_name": "Puducherry",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_puducherry_boat_on_the_chunnambar_backwaters",
+        "exp_puducherry_walk_puducherry_s_french_quarter"
+      ],
+      "empty_message": "More Puducherry experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "puducherry_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Puducherry in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "puducherry",
+      "context_name": "Puducherry",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Puducherry fruits experiences are coming soon."
+    },
+    {
+      "id": "puducherry_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Puducherry.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "puducherry",
+      "context_name": "Puducherry",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_puducherry_kadugu_yerra"
+      ],
+      "empty_message": "More Puducherry dishes experiences are coming soon."
+    },
+    {
+      "id": "puducherry_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Puducherry.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "puducherry",
+      "context_name": "Puducherry",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [],
+      "empty_message": "No distinct, verified local drinks are listed yet."
+    },
+    {
+      "id": "puducherry_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Puducherry.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "puducherry",
+      "context_name": "Puducherry",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_puducherry_villianur_terracotta",
+        "exp_puducherry_puducherry_bommai"
+      ],
+      "empty_message": "More Puducherry arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "puducherry_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Puducherry.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "puducherry",
+      "context_name": "Puducherry",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_puducherry_karaikal_mangani_festival",
+        "exp_puducherry_puducherry_masquerade_festival"
+      ],
+      "empty_message": "More Puducherry festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "puducherry_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Puducherry.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "puducherry",
+      "context_name": "Puducherry",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_puducherry_garadi"
+      ],
+      "empty_message": "More Puducherry music & dance experiences are coming soon."
+    }
+  ]
+}

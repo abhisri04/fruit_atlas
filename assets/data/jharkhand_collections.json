@@ -1,0 +1,181 @@
+{
+  "collections": [
+    {
+      "id": "jharkhand_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage experiences associated with Jharkhand.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "jharkhand",
+      "context_name": "Jharkhand",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_jharkhand_baba_baidyanath_dham",
+        "exp_jharkhand_naulakha_mandir",
+        "exp_jharkhand_maluti_temples",
+        "exp_jharkhand_palamu_forts",
+        "exp_jharkhand_rajrappa_temple",
+        "exp_jharkhand_jagannath_temple_ranchi",
+        "exp_jharkhand_itkhori_bhadrakali_temple",
+        "exp_jharkhand_rajmahal_baradari"
+      ],
+      "empty_message": "More Jharkhand landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "jharkhand_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife experiences associated with Jharkhand.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "jharkhand",
+      "context_name": "Jharkhand",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_jharkhand_hundru_falls",
+        "exp_jharkhand_jonha_falls",
+        "exp_jharkhand_dassam_falls",
+        "exp_jharkhand_betla_national_park",
+        "exp_jharkhand_dalma_wildlife_sanctuary",
+        "exp_jharkhand_dimna_lake",
+        "exp_jharkhand_netarhat",
+        "exp_jharkhand_massanjore_dam"
+      ],
+      "empty_message": "More Jharkhand nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "jharkhand_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities experiences associated with Jharkhand.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "jharkhand",
+      "context_name": "Jharkhand",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_jharkhand_watch_sunrise_at_netarhat",
+        "exp_jharkhand_explore_maluti_s_temple_lanes",
+        "exp_jharkhand_discover_sohrai_and_khovar_art",
+        "exp_jharkhand_explore_ranchi_s_waterfalls"
+      ],
+      "empty_message": "More Jharkhand experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "jharkhand_fruits",
+      "title": "Fruits",
+      "description": "Fruits experiences associated with Jharkhand.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "jharkhand",
+      "context_name": "Jharkhand",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Jharkhand fruits experiences are coming soon."
+    },
+    {
+      "id": "jharkhand_dishes",
+      "title": "Dishes",
+      "description": "Dishes experiences associated with Jharkhand.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "jharkhand",
+      "context_name": "Jharkhand",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_jharkhand_dhuska",
+        "exp_jharkhand_chilka_roti",
+        "exp_jharkhand_rugra_curry",
+        "exp_jharkhand_dal_pitha",
+        "exp_jharkhand_arsa",
+        "exp_jharkhand_litti_chokha",
+        "exp_jharkhand_sattu_paratha",
+        "exp_jharkhand_kudrum_chutney"
+      ],
+      "empty_message": "More Jharkhand dishes experiences are coming soon."
+    },
+    {
+      "id": "jharkhand_drinks",
+      "title": "Drinks",
+      "description": "Drinks experiences associated with Jharkhand.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "jharkhand",
+      "context_name": "Jharkhand",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_jharkhand_handia",
+        "exp_jharkhand_sattu_drink"
+      ],
+      "empty_message": "More Jharkhand drinks experiences are coming soon."
+    },
+    {
+      "id": "jharkhand_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts experiences associated with Jharkhand.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "jharkhand",
+      "context_name": "Jharkhand",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_jharkhand_sohrai_painting",
+        "exp_jharkhand_khovar_painting",
+        "exp_jharkhand_dokra_metal_craft",
+        "exp_jharkhand_bamboo_craft",
+        "exp_jharkhand_tasar_silk_weaving"
+      ],
+      "empty_message": "More Jharkhand arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "jharkhand_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs experiences associated with Jharkhand.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "jharkhand",
+      "context_name": "Jharkhand",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_jharkhand_sarhul",
+        "exp_jharkhand_karam_festival",
+        "exp_jharkhand_sohrai_festival",
+        "exp_jharkhand_tusu_parab"
+      ],
+      "empty_message": "More Jharkhand festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "jharkhand_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance experiences associated with Jharkhand.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "jharkhand",
+      "context_name": "Jharkhand",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_jharkhand_seraikela_chhau",
+        "exp_jharkhand_jhumair",
+        "exp_jharkhand_paika_dance",
+        "exp_jharkhand_santhali_dance"
+      ],
+      "empty_message": "More Jharkhand music & dance experiences are coming soon."
+    }
+  ]
+}

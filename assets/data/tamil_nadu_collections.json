@@ -1,0 +1,164 @@
+{
+  "collections": [
+    {
+      "id": "tamil_nadu_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Tamil Nadu.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "tamil_nadu",
+      "context_name": "Tamil Nadu",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_tamil_nadu_shore_temple_at_mamallapuram",
+        "exp_tamil_nadu_brihadeeswara_temple_at_thanjavur",
+        "exp_tamil_nadu_gangaikonda_cholapuram_temple",
+        "exp_tamil_nadu_airavatesvara_temple_at_darasuram",
+        "exp_tamil_nadu_vivekananda_rock_memorial",
+        "exp_tamil_nadu_padmanabhapuram_palace"
+      ],
+      "empty_message": "More Tamil Nadu landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "tamil_nadu_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Tamil Nadu.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "tamil_nadu",
+      "context_name": "Tamil Nadu",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_tamil_nadu_mudumalai_tiger_reserve",
+        "exp_tamil_nadu_guindy_national_park",
+        "exp_tamil_nadu_vedanthangal_bird_sanctuary",
+        "exp_tamil_nadu_pichavaram_mangroves"
+      ],
+      "empty_message": "More Tamil Nadu nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "tamil_nadu_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Tamil Nadu.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "tamil_nadu",
+      "context_name": "Tamil Nadu",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_tamil_nadu_ride_the_nilgiri_mountain_railway"
+      ],
+      "empty_message": "More Tamil Nadu experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "tamil_nadu_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Tamil Nadu in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "tamil_nadu",
+      "context_name": "Tamil Nadu",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Tamil Nadu fruits experiences are coming soon."
+    },
+    {
+      "id": "tamil_nadu_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Tamil Nadu.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "tamil_nadu",
+      "context_name": "Tamil Nadu",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_tamil_nadu_ven_pongal",
+        "exp_tamil_nadu_sakkarai_pongal",
+        "exp_tamil_nadu_sundal",
+        "exp_tamil_nadu_thayir_sadam",
+        "exp_tamil_nadu_kanchipuram_idli"
+      ],
+      "empty_message": "More Tamil Nadu dishes experiences are coming soon."
+    },
+    {
+      "id": "tamil_nadu_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Tamil Nadu.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "tamil_nadu",
+      "context_name": "Tamil Nadu",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_tamil_nadu_madurai_jigarthanda"
+      ],
+      "empty_message": "More Tamil Nadu drinks experiences are coming soon."
+    },
+    {
+      "id": "tamil_nadu_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Tamil Nadu.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "tamil_nadu",
+      "context_name": "Tamil Nadu",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_tamil_nadu_kanchipuram_silk",
+        "exp_tamil_nadu_nagercoil_temple_jewellery",
+        "exp_tamil_nadu_thanjavur_dolls",
+        "exp_tamil_nadu_thanjavur_painting"
+      ],
+      "empty_message": "More Tamil Nadu arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "tamil_nadu_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Tamil Nadu.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "tamil_nadu",
+      "context_name": "Tamil Nadu",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_tamil_nadu_pongal_festival",
+        "exp_tamil_nadu_chennai_margazhi_music_season",
+        "exp_tamil_nadu_mamallapuram_indian_dance_festival"
+      ],
+      "empty_message": "More Tamil Nadu festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "tamil_nadu_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Tamil Nadu.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "tamil_nadu",
+      "context_name": "Tamil Nadu",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_tamil_nadu_bharatanatyam",
+        "exp_tamil_nadu_chennai_margazhi_music_season"
+      ],
+      "empty_message": "More Tamil Nadu music & dance experiences are coming soon."
+    }
+  ]
+}

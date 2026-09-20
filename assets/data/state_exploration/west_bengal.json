@@ -1,0 +1,7 @@
+{
+  "state_id": "west_bengal",
+  "state_name": "West Bengal",
+  "district_asset": "assets/data/west_bengal_districts.json",
+  "experience_asset": "assets/data/west_bengal_experiences.json",
+  "collections_asset": "assets/data/west_bengal_collections.json"
+}

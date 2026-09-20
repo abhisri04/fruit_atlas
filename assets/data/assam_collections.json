@@ -1,0 +1,171 @@
+{
+  "collections": [
+    {
+      "id": "assam_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Assam.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "assam",
+      "context_name": "Assam",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_assam_kamakhya_temple",
+        "exp_assam_umananda_temple",
+        "exp_assam_rang_ghar",
+        "exp_assam_talatal_ghar",
+        "exp_assam_charaideo_moidams",
+        "exp_assam_assam_state_museum",
+        "exp_assam_auniati_satra"
+      ],
+      "empty_message": "More Assam landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "assam_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Assam.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "assam",
+      "context_name": "Assam",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_assam_kaziranga_national_park",
+        "exp_assam_manas_national_park",
+        "exp_assam_nameri_national_park",
+        "exp_assam_pobitora_wildlife_sanctuary",
+        "exp_assam_hoollongapar_gibbon_sanctuary"
+      ],
+      "empty_message": "More Assam nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "assam_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Assam.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "assam",
+      "context_name": "Assam",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_assam_cruise_the_brahmaputra",
+        "exp_assam_explore_an_assam_tea_estate"
+      ],
+      "empty_message": "More Assam experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "assam_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Assam in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "assam",
+      "context_name": "Assam",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Assam fruits experiences are coming soon."
+    },
+    {
+      "id": "assam_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Assam.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "assam",
+      "context_name": "Assam",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_assam_khar",
+        "exp_assam_masor_tenga",
+        "exp_assam_aloo_pitika",
+        "exp_assam_assamese_jolpaan",
+        "exp_assam_til_pitha",
+        "exp_assam_ghila_pitha",
+        "exp_assam_tilor_laru"
+      ],
+      "empty_message": "More Assam dishes experiences are coming soon."
+    },
+    {
+      "id": "assam_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Assam.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "assam",
+      "context_name": "Assam",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_assam_assam_tea"
+      ],
+      "empty_message": "More Assam drinks experiences are coming soon."
+    },
+    {
+      "id": "assam_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Assam.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "assam",
+      "context_name": "Assam",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_assam_majuli_mask_making",
+        "exp_assam_sualkuchi_silk_weaving",
+        "exp_assam_assam_jaapi_craft",
+        "exp_assam_sarthebari_metal_craft"
+      ],
+      "empty_message": "More Assam arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "assam_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Assam.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "assam",
+      "context_name": "Assam",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_assam_rongali_bihu",
+        "exp_assam_bhogali_bihu",
+        "exp_assam_kati_bihu"
+      ],
+      "empty_message": "More Assam festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "assam_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Assam.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "assam",
+      "context_name": "Assam",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_assam_bihu_dance",
+        "exp_assam_sattriya",
+        "exp_assam_borgeet",
+        "exp_assam_bhaona"
+      ],
+      "empty_message": "More Assam music & dance experiences are coming soon."
+    }
+  ]
+}

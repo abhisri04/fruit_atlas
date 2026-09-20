@@ -9,6 +9,7 @@ import 'package:fruit_atlas/models/challenge.dart';
 import 'package:fruit_atlas/screens/challenge/fruit_challenge_page.dart';
 import 'package:fruit_atlas/screens/fruit/fruit_details_page.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
+import 'package:fruit_atlas/widgets/fruit_image.dart';
 
 void main() {
   testWidgets(
@@ -43,7 +44,7 @@ void main() {
         name: 'Taste All Fruits of India',
         description: 'Discover fruits across India.',
         itemType: 'fruit',
-        totalItems: 100,
+        totalItems: 110,
         hasSubItems: true,
         status: 'active',
         presentationType: 'checklist_with_subitems',
@@ -60,6 +61,13 @@ void main() {
       await tester.pumpAndSettle();
       expect(find.text('Mango'), findsOneWidget);
       expect(find.byType(Checkbox), findsOneWidget);
+      final listImage = tester.widget<FruitImage>(
+        find.byType(FruitImage).first,
+      );
+      expect(
+        listImage.fruit.canonicalImageAsset,
+        'assets/images/fruits/FR001.webp',
+      );
       await tester.ensureVisible(find.byType(Checkbox));
       await tester.tap(find.byType(Checkbox));
       await tester.pumpAndSettle();
@@ -69,6 +77,11 @@ void main() {
       await tester.tap(find.text('Mango'));
       await tester.pumpAndSettle();
       expect(find.byType(FruitDetailsPage), findsOneWidget);
+      final detailImage = tester.widget<FruitImage>(find.byType(FruitImage));
+      expect(
+        detailImage.fruit.canonicalImageAsset,
+        listImage.fruit.canonicalImageAsset,
+      );
       await tester.pageBack();
       await tester.pumpAndSettle();
       expect(tester.widget<Checkbox>(find.byType(Checkbox)).value, isTrue);

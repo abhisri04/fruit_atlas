@@ -1,0 +1,499 @@
+{
+  "districts": [
+    {
+      "id": "district_madhya_pradesh_agar_malwa",
+      "name": "Agar Malwa",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Agar Malwa is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_alirajpur",
+      "name": "Alirajpur",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Alirajpur is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_anuppur",
+      "name": "Anuppur",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Anuppur is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_ashoknagar",
+      "name": "Ashoknagar",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Ashoknagar is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_balaghat",
+      "name": "Balaghat",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Balaghat is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_barwani",
+      "name": "Barwani",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Barwani is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_betul",
+      "name": "Betul",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Betul is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_bhind",
+      "name": "Bhind",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Bhind is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_bhopal",
+      "name": "Bhopal",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Bhopal is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_burhanpur",
+      "name": "Burhanpur",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Burhanpur is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_chhatarpur",
+      "name": "Chhatarpur",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Chhatarpur is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_chhindwara",
+      "name": "Chhindwara",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Chhindwara is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_damoh",
+      "name": "Damoh",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Damoh is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_datia",
+      "name": "Datia",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Datia is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_dewas",
+      "name": "Dewas",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Dewas is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_dhar",
+      "name": "Dhar",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Dhar is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_dindori",
+      "name": "Dindori",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Dindori is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_guna",
+      "name": "Guna",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Guna is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_gwalior",
+      "name": "Gwalior",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Gwalior is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_harda",
+      "name": "Harda",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Harda is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_indore",
+      "name": "Indore",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Indore is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_jabalpur",
+      "name": "Jabalpur",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Jabalpur is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_jhabua",
+      "name": "Jhabua",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Jhabua is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_katni",
+      "name": "Katni",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Katni is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_khandwa",
+      "name": "Khandwa",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Khandwa is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_khargone",
+      "name": "Khargone",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Khargone is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_maihar",
+      "name": "Maihar",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Maihar is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_mandla",
+      "name": "Mandla",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Mandla is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_mandsaur",
+      "name": "Mandsaur",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Mandsaur is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_mauganj",
+      "name": "Mauganj",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Mauganj is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_morena",
+      "name": "Morena",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Morena is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_narmadapuram",
+      "name": "Narmadapuram",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Narmadapuram is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_narsinghpur",
+      "name": "Narsinghpur",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Narsinghpur is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_neemuch",
+      "name": "Neemuch",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Neemuch is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_niwari",
+      "name": "Niwari",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Niwari is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_pandhurna",
+      "name": "Pandhurna",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Pandhurna is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_panna",
+      "name": "Panna",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Panna is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_raisen",
+      "name": "Raisen",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Raisen is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_rajgarh",
+      "name": "Rajgarh",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Rajgarh is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_ratlam",
+      "name": "Ratlam",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Ratlam is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_rewa",
+      "name": "Rewa",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Rewa is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_sagar",
+      "name": "Sagar",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Sagar is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_satna",
+      "name": "Satna",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Satna is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_sehore",
+      "name": "Sehore",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Sehore is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_seoni",
+      "name": "Seoni",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Seoni is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_shahdol",
+      "name": "Shahdol",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Shahdol is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_shajapur",
+      "name": "Shajapur",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Shajapur is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_sheopur",
+      "name": "Sheopur",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Sheopur is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_shivpuri",
+      "name": "Shivpuri",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Shivpuri is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_sidhi",
+      "name": "Sidhi",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Sidhi is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_singrauli",
+      "name": "Singrauli",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Singrauli is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_tikamgarh",
+      "name": "Tikamgarh",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Tikamgarh is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_ujjain",
+      "name": "Ujjain",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Ujjain is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_umaria",
+      "name": "Umaria",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Umaria is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_madhya_pradesh_vidisha",
+      "name": "Vidisha",
+      "state_id": "madhya_pradesh",
+      "state_name": "Madhya Pradesh",
+      "description": "Vidisha is a district of Madhya Pradesh.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

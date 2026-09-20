@@ -100,7 +100,7 @@ class GlobalSearchService {
             'Fruit',
             fruit,
             secondary: '${fruit.scientificName} ${fruit.cropGroup ?? ''}',
-            keywords: fruit.varieties.map((v) => v.name).toList(),
+            keywords: [...fruit.aliases, ...fruit.varieties.map((v) => v.name)],
           );
           for (final variety in fruit.varieties) {
             addItem(
@@ -111,7 +111,7 @@ class GlobalSearchService {
               sub: true,
               parent: fruit,
               parentId: id,
-              parentTerms: [fruit.name, fruit.scientificName],
+              parentTerms: [fruit.name, fruit.scientificName, ...fruit.aliases],
               secondary: variety.notes ?? '',
             );
           }

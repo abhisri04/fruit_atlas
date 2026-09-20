@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../models/daily_discovery.dart';
 import '../theme/app_colors.dart';
+import 'fruit_image.dart';
 
 class DailyDiscoveryCard extends StatelessWidget {
   final DailyDiscovery? discovery;
@@ -117,11 +118,18 @@ class DailyDiscoveryCard extends StatelessWidget {
                     children: [
                       Row(
                         children: [
-                          CircleAvatar(
-                            backgroundColor: AppColors.completedSurface,
-                            foregroundColor: AppColors.primary,
-                            child: Icon(icon),
-                          ),
+                          if (discovery!.fruit != null)
+                            FruitImage(
+                              fruit: discovery!.fruit!,
+                              width: 42,
+                              height: 42,
+                            )
+                          else
+                            CircleAvatar(
+                              backgroundColor: AppColors.completedSurface,
+                              foregroundColor: AppColors.primary,
+                              child: Icon(icon),
+                            ),
                           const SizedBox(width: 12),
                           Expanded(
                             child: Column(

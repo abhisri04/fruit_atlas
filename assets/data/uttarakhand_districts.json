@@ -1,0 +1,121 @@
+{
+  "districts": [
+    {
+      "id": "district_uttarakhand_almora",
+      "name": "Almora",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Almora is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_bageshwar",
+      "name": "Bageshwar",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Bageshwar is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_chamoli",
+      "name": "Chamoli",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Chamoli is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_champawat",
+      "name": "Champawat",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Champawat is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_dehradun",
+      "name": "Dehradun",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Dehradun is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_haridwar",
+      "name": "Haridwar",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Haridwar is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_nainital",
+      "name": "Nainital",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Nainital is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_pauri_garhwal",
+      "name": "Pauri Garhwal",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Pauri Garhwal is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_pithoragarh",
+      "name": "Pithoragarh",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Pithoragarh is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_rudraprayag",
+      "name": "Rudraprayag",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Rudraprayag is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_tehri_garhwal",
+      "name": "Tehri Garhwal",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Tehri Garhwal is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_udham_singh_nagar",
+      "name": "Udham Singh Nagar",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Udham Singh Nagar is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_uttarakhand_uttarkashi",
+      "name": "Uttarkashi",
+      "state_id": "uttarakhand",
+      "state_name": "Uttarakhand",
+      "description": "Uttarkashi is a district of Uttarakhand.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

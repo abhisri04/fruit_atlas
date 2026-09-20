@@ -1,0 +1,170 @@
+{
+  "collections": [
+    {
+      "id": "arunachal_pradesh_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Arunachal Pradesh.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "arunachal_pradesh",
+      "context_name": "Arunachal Pradesh",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_arunachal_pradesh_tawang_monastery",
+        "exp_arunachal_pradesh_malinithan",
+        "exp_arunachal_pradesh_bhismaknagar_fort",
+        "exp_arunachal_pradesh_parshuram_kund",
+        "exp_arunachal_pradesh_jawaharlal_nehru_museum"
+      ],
+      "empty_message": "More Arunachal Pradesh landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "arunachal_pradesh_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Arunachal Pradesh.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "arunachal_pradesh",
+      "context_name": "Arunachal Pradesh",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_arunachal_pradesh_namdapha_national_park",
+        "exp_arunachal_pradesh_mouling_national_park",
+        "exp_arunachal_pradesh_dibang_wildlife_sanctuary",
+        "exp_arunachal_pradesh_sela_pass",
+        "exp_arunachal_pradesh_nuranang_falls",
+        "exp_arunachal_pradesh_itanagar_wildlife_sanctuary"
+      ],
+      "empty_message": "More Arunachal Pradesh nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "arunachal_pradesh_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Arunachal Pradesh.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "arunachal_pradesh",
+      "context_name": "Arunachal Pradesh",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_arunachal_pradesh_raft_the_siang",
+        "exp_arunachal_pradesh_trek_in_the_bomdila_hills"
+      ],
+      "empty_message": "More Arunachal Pradesh experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "arunachal_pradesh_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Arunachal Pradesh in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "arunachal_pradesh",
+      "context_name": "Arunachal Pradesh",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Arunachal Pradesh fruits experiences are coming soon."
+    },
+    {
+      "id": "arunachal_pradesh_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Arunachal Pradesh.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "arunachal_pradesh",
+      "context_name": "Arunachal Pradesh",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_arunachal_pradesh_lukter",
+        "exp_arunachal_pradesh_pehak",
+        "exp_arunachal_pradesh_papuk",
+        "exp_arunachal_pradesh_meuouk_taam",
+        "exp_arunachal_pradesh_khaow_nam_paak",
+        "exp_arunachal_pradesh_kaaji"
+      ],
+      "empty_message": "More Arunachal Pradesh dishes experiences are coming soon."
+    },
+    {
+      "id": "arunachal_pradesh_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Arunachal Pradesh.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "arunachal_pradesh",
+      "context_name": "Arunachal Pradesh",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_arunachal_pradesh_wakro_green_tea"
+      ],
+      "empty_message": "More Arunachal Pradesh drinks experiences are coming soon."
+    },
+    {
+      "id": "arunachal_pradesh_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Arunachal Pradesh.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "arunachal_pradesh",
+      "context_name": "Arunachal Pradesh",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_arunachal_pradesh_monpa_handmade_paper",
+        "exp_arunachal_pradesh_monpa_mask_making",
+        "exp_arunachal_pradesh_arunachal_basketry"
+      ],
+      "empty_message": "More Arunachal Pradesh arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "arunachal_pradesh_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Arunachal Pradesh.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "arunachal_pradesh",
+      "context_name": "Arunachal Pradesh",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_arunachal_pradesh_mopin",
+        "exp_arunachal_pradesh_dree",
+        "exp_arunachal_pradesh_solung",
+        "exp_arunachal_pradesh_chalo_loku",
+        "exp_arunachal_pradesh_ziro_festival_of_music"
+      ],
+      "empty_message": "More Arunachal Pradesh festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "arunachal_pradesh_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Arunachal Pradesh.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "arunachal_pradesh",
+      "context_name": "Arunachal Pradesh",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_arunachal_pradesh_aji_lamu",
+        "exp_arunachal_pradesh_popir",
+        "exp_arunachal_pradesh_ponung",
+        "exp_arunachal_pradesh_rekham_pada"
+      ],
+      "empty_message": "More Arunachal Pradesh music & dance experiences are coming soon."
+    }
+  ]
+}

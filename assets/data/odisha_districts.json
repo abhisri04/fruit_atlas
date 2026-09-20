@@ -1,0 +1,274 @@
+{
+  "districts": [
+    {
+      "id": "district_odisha_angul",
+      "name": "Angul",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Angul is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_balangir",
+      "name": "Balangir",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Balangir is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_balasore",
+      "name": "Balasore",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Balasore is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_bargarh",
+      "name": "Bargarh",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Bargarh is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_bhadrak",
+      "name": "Bhadrak",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Bhadrak is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_boudh",
+      "name": "Boudh",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Boudh is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_cuttack",
+      "name": "Cuttack",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Cuttack is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_deogarh",
+      "name": "Deogarh",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Deogarh is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_dhenkanal",
+      "name": "Dhenkanal",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Dhenkanal is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_gajapati",
+      "name": "Gajapati",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Gajapati is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_ganjam",
+      "name": "Ganjam",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Ganjam is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_jagatsinghpur",
+      "name": "Jagatsinghpur",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Jagatsinghpur is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_jajpur",
+      "name": "Jajpur",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Jajpur is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_jharsuguda",
+      "name": "Jharsuguda",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Jharsuguda is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_kalahandi",
+      "name": "Kalahandi",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Kalahandi is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_kandhamal",
+      "name": "Kandhamal",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Kandhamal is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_kendrapara",
+      "name": "Kendrapara",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Kendrapara is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_keonjhar",
+      "name": "Keonjhar",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Keonjhar is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_khordha",
+      "name": "Khordha",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Khordha is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_koraput",
+      "name": "Koraput",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Koraput is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_malkangiri",
+      "name": "Malkangiri",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Malkangiri is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_mayurbhanj",
+      "name": "Mayurbhanj",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Mayurbhanj is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_nabarangpur",
+      "name": "Nabarangpur",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Nabarangpur is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_nayagarh",
+      "name": "Nayagarh",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Nayagarh is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_nuapada",
+      "name": "Nuapada",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Nuapada is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_puri",
+      "name": "Puri",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Puri is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_rayagada",
+      "name": "Rayagada",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Rayagada is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_sambalpur",
+      "name": "Sambalpur",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Sambalpur is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_subarnapur",
+      "name": "Subarnapur",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Subarnapur is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_odisha_sundargarh",
+      "name": "Sundargarh",
+      "state_id": "odisha",
+      "state_name": "Odisha",
+      "description": "Sundargarh is a district of Odisha.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

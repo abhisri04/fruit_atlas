@@ -1,0 +1,60 @@
+{
+  "districts": [
+    {
+      "id": "district_sikkim_gangtok",
+      "name": "Gangtok",
+      "state_id": "sikkim",
+      "state_name": "Sikkim",
+      "description": "Gangtok is a district of Sikkim.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_sikkim_gyalshing",
+      "name": "Gyalshing",
+      "state_id": "sikkim",
+      "state_name": "Sikkim",
+      "description": "Gyalshing is a district of Sikkim.",
+      "keywords": [
+        "Geyzing"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_sikkim_mangan",
+      "name": "Mangan",
+      "state_id": "sikkim",
+      "state_name": "Sikkim",
+      "description": "Mangan is a district of Sikkim.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_sikkim_namchi",
+      "name": "Namchi",
+      "state_id": "sikkim",
+      "state_name": "Sikkim",
+      "description": "Namchi is a district of Sikkim.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_sikkim_pakyong",
+      "name": "Pakyong",
+      "state_id": "sikkim",
+      "state_name": "Sikkim",
+      "description": "Pakyong is a district of Sikkim.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_sikkim_soreng",
+      "name": "Soreng",
+      "state_id": "sikkim",
+      "state_name": "Sikkim",
+      "description": "Soreng is a district of Sikkim.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "collections": [
+    {
+      "id": "lakshadweep_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Lakshadweep.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "lakshadweep",
+      "context_name": "Lakshadweep",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_lakshadweep_minicoy_lighthouse",
+        "exp_lakshadweep_lakshadweep_heritage_museum"
+      ],
+      "empty_message": "More Lakshadweep landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "lakshadweep_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Lakshadweep.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "lakshadweep",
+      "context_name": "Lakshadweep",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_lakshadweep_bangaram_lagoon",
+        "exp_lakshadweep_kalpeni_atoll"
+      ],
+      "empty_message": "More Lakshadweep nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "lakshadweep_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Lakshadweep.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "lakshadweep",
+      "context_name": "Lakshadweep",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_lakshadweep_scuba_dive_off_kadmat",
+        "exp_lakshadweep_lakshadweep_samudram_cruise"
+      ],
+      "empty_message": "More Lakshadweep experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "lakshadweep_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Lakshadweep in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "lakshadweep",
+      "context_name": "Lakshadweep",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Lakshadweep fruits experiences are coming soon."
+    },
+    {
+      "id": "lakshadweep_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Lakshadweep.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "lakshadweep",
+      "context_name": "Lakshadweep",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_lakshadweep_masmin"
+      ],
+      "empty_message": "More Lakshadweep dishes experiences are coming soon."
+    },
+    {
+      "id": "lakshadweep_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Lakshadweep.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "lakshadweep",
+      "context_name": "Lakshadweep",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [],
+      "empty_message": "No distinct, verified local drinks are listed yet."
+    },
+    {
+      "id": "lakshadweep_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Lakshadweep.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "lakshadweep",
+      "context_name": "Lakshadweep",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_lakshadweep_minicoy_jahadhoni_boat_craft",
+        "exp_lakshadweep_minicoy_wooden_swing_cots"
+      ],
+      "empty_message": "More Lakshadweep arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "lakshadweep_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Lakshadweep.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "lakshadweep",
+      "context_name": "Lakshadweep",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_lakshadweep_national_minicoy_fest"
+      ],
+      "empty_message": "More Lakshadweep festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "lakshadweep_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Lakshadweep.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "lakshadweep",
+      "context_name": "Lakshadweep",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_lakshadweep_lava_dance",
+        "exp_lakshadweep_kolkali",
+        "exp_lakshadweep_parichakali"
+      ],
+      "empty_message": "More Lakshadweep music & dance experiences are coming soon."
+    }
+  ]
+}

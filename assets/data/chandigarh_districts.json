@@ -1,0 +1,13 @@
+{
+  "districts": [
+    {
+      "id": "district_chandigarh_chandigarh",
+      "name": "Chandigarh",
+      "state_id": "chandigarh",
+      "state_name": "Chandigarh",
+      "description": "Chandigarh is the sole district of the Union Territory of Chandigarh.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

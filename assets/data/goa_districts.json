@@ -1,0 +1,31 @@
+{
+  "districts": [
+    {
+      "id": "district_goa_north_goa",
+      "name": "North Goa",
+      "state_id": "goa",
+      "state_name": "Goa",
+      "description": "North Goa is a district of Goa.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_goa_south_goa",
+      "name": "South Goa",
+      "state_id": "goa",
+      "state_name": "Goa",
+      "description": "South Goa is a district of Goa.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_goa_kushavati",
+      "name": "Kushavati",
+      "state_id": "goa",
+      "state_name": "Goa",
+      "description": "Kushavati is a district of Goa.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

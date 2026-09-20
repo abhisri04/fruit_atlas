@@ -1,0 +1,7 @@
+{
+  "state_id": "punjab",
+  "state_name": "Punjab",
+  "district_asset": "assets/data/punjab_districts.json",
+  "experience_asset": "assets/data/punjab_experiences.json",
+  "collections_asset": "assets/data/punjab_collections.json"
+}

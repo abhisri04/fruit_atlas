@@ -4,6 +4,7 @@ import 'package:fruit_atlas/models/daily_discovery.dart';
 import 'package:fruit_atlas/models/fruit.dart';
 import 'package:fruit_atlas/models/item.dart';
 import 'package:fruit_atlas/widgets/daily_discovery_card.dart';
+import 'package:fruit_atlas/widgets/fruit_image.dart';
 
 void main() {
   testWidgets(
@@ -41,6 +42,10 @@ void main() {
       expect(find.text('Explore this fruit →'), findsOneWidget);
       expect(find.text('Save for later'), findsOneWidget);
       expect(find.text('Another'), findsOneWidget);
+      expect(
+        tester.widget<FruitImage>(find.byType(FruitImage)).fruit.id,
+        'FR001',
+      );
     },
   );
 

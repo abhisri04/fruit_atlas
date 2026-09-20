@@ -1,0 +1,1579 @@
+{
+  "experiences": [
+    {
+      "id": "exp_jammu_kashmir_shalimar_bagh",
+      "title": "Shalimar Bagh",
+      "description": "Shalimar Bagh is a celebrated Mughal garden laid out beside Dal Lake in Srinagar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mughal Garden"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_nishat_bagh",
+      "title": "Nishat Bagh",
+      "description": "Nishat Bagh is a terraced Mughal garden on the eastern shore of Dal Lake.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mughal Garden"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_chashma_shahi",
+      "title": "Chashma Shahi",
+      "description": "Chashma Shahi is a Mughal-era garden built around a natural spring above Dal Lake.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mughal Garden"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_pari_mahal",
+      "title": "Pari Mahal",
+      "description": "Pari Mahal is a historic terraced garden and architectural complex overlooking Srinagar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Dara Shikoh"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_hari_parbat_fort",
+      "title": "Hari Parbat Fort",
+      "description": "Hari Parbat Fort crowns a prominent hill overlooking Srinagar's old city.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Koh-e-Maran"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_hazratbal_shrine",
+      "title": "Hazratbal Shrine",
+      "description": "Hazratbal is a major Muslim shrine on the northern shore of Dal Lake.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Dargah Sharif"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_shankaracharya_temple",
+      "title": "Shankaracharya Temple",
+      "description": "Shankaracharya Temple is a hilltop Shiva temple overlooking Srinagar and Dal Lake.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Takht-e-Suleiman"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_jamia_masjid_srinagar",
+      "title": "Jamia Masjid Srinagar",
+      "description": "Jamia Masjid is a major historic mosque in Srinagar's old city.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Nowhatta"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_khanqah_e_moula",
+      "title": "Khanqah-e-Moula",
+      "description": "Khanqah-e-Moula is a historic wooden Sufi shrine on the Jhelum in Srinagar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Shah Hamadan"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_martand_sun_temple",
+      "title": "Martand Sun Temple",
+      "description": "Martand is the monumental ruin of an early medieval Sun temple complex in Anantnag district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "anantnag",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mattan"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Anantnag",
+      "city_id": "anantnag"
+    },
+    {
+      "id": "exp_jammu_kashmir_avantipur_temple_ruins",
+      "title": "Avantipur Temple Ruins",
+      "description": "The Avantipur ruins preserve major early medieval temple complexes in Pulwama district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "pulwama",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Awantipora"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Pulwama",
+      "city_id": "pulwama"
+    },
+    {
+      "id": "exp_jammu_kashmir_mata_vaishno_devi_shrine",
+      "title": "Mata Vaishno Devi Shrine",
+      "description": "Mata Vaishno Devi is a major Hindu pilgrimage shrine in the Trikuta hills above Katra.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "reasi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Vaishno Devi",
+        "Katra"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Reasi",
+      "city_id": "reasi"
+    },
+    {
+      "id": "exp_jammu_kashmir_mubarak_mandi_palace",
+      "title": "Mubarak Mandi Palace",
+      "description": "Mubarak Mandi is the historic Dogra palace complex in Jammu city.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jammu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Dogra Palace"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_amar_mahal_palace",
+      "title": "Amar Mahal Palace",
+      "description": "Amar Mahal is a former Dogra royal palace in Jammu now used as a museum and cultural centre.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jammu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "museum"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_bahu_fort",
+      "title": "Bahu Fort",
+      "description": "Bahu Fort overlooks the Tawi river and is one of Jammu city's principal historic landmarks.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jammu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Bagh-e-Bahu"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_raghunath_temple_jammu",
+      "title": "Raghunath Temple Jammu",
+      "description": "Raghunath Temple is a major 19th-century temple complex in the heart of Jammu city.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jammu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Raghunath Mandir"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_akhnoor_fort",
+      "title": "Akhnoor Fort",
+      "description": "Akhnoor Fort stands above the Chenab and forms part of the heritage landscape northwest of Jammu.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jammu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Chenab"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_krimchi_temples",
+      "title": "Krimchi Temples",
+      "description": "Krimchi preserves a group of early medieval stone temples in Udhampur district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "udhampur",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Pandava temples"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Udhampur",
+      "city_id": "udhampur"
+    },
+    {
+      "id": "exp_jammu_kashmir_babor_temples",
+      "title": "Babor Temples",
+      "description": "Babor is a complex of historic stone temples in Udhampur district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "udhampur",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Babor"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Udhampur",
+      "city_id": "udhampur"
+    },
+    {
+      "id": "exp_jammu_kashmir_chingus_fort_and_sarai",
+      "title": "Chingus Fort and Sarai",
+      "description": "Chingus Sarai is a Mughal-era caravanserai on the historic route through Rajouri.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "rajouri",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mughal road"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Rajouri",
+      "city_id": "rajouri"
+    },
+    {
+      "id": "exp_jammu_kashmir_bhaderwah_heritage_town",
+      "title": "Bhaderwah Heritage Town",
+      "description": "Bhaderwah combines historic temples, old settlement patterns and mountain culture in Doda district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "doda",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Chhota Kashmir"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Doda",
+      "city_id": "doda"
+    },
+    {
+      "id": "exp_jammu_kashmir_dal_lake",
+      "title": "Dal Lake",
+      "description": "Dal Lake is Srinagar's iconic urban lake, known for houseboats, shikaras and floating gardens.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "shikara",
+        "houseboat"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_wular_lake",
+      "title": "Wular Lake",
+      "description": "Wular is a major freshwater lake and Ramsar wetland in Bandipora district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "bandipora",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ramsar",
+        "wetland"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Bandipora",
+      "city_id": "bandipora"
+    },
+    {
+      "id": "exp_jammu_kashmir_gulmarg",
+      "title": "Gulmarg",
+      "description": "Gulmarg is a high meadow and winter-sports destination in Baramulla district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "baramulla",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "skiing",
+        "meadow"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Baramulla",
+      "city_id": "baramulla"
+    },
+    {
+      "id": "exp_jammu_kashmir_pahalgam",
+      "title": "Pahalgam",
+      "description": "Pahalgam is a mountain resort in the Lidder valley of Anantnag district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "anantnag",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Lidder Valley"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Anantnag",
+      "city_id": "anantnag"
+    },
+    {
+      "id": "exp_jammu_kashmir_sonamarg",
+      "title": "Sonamarg",
+      "description": "Sonamarg is an alpine meadow destination in Ganderbal district with access to glaciers and high mountain routes.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "ganderbal",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Thajiwas",
+        "Sindh"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Ganderbal",
+      "city_id": "ganderbal"
+    },
+    {
+      "id": "exp_jammu_kashmir_aharbal_waterfall",
+      "title": "Aharbal Waterfall",
+      "description": "Aharbal is a major waterfall and mountain landscape in Kulgam district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kulgam",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "waterfall"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kulgam",
+      "city_id": "kulgam"
+    },
+    {
+      "id": "exp_jammu_kashmir_dachigam_national_park",
+      "title": "Dachigam National Park",
+      "description": "Dachigam National Park protects mountain habitats near Srinagar and is especially associated with the hangul deer.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "hangul"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_hokersar_wetland",
+      "title": "Hokersar Wetland",
+      "description": "Hokersar is an important wetland and migratory bird habitat near Srinagar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "birding",
+        "wetland"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_mansar_lake",
+      "title": "Mansar Lake",
+      "description": "Mansar is a lake, pilgrimage and wildlife landscape in the Jammu region.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "samba",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "lake"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Samba",
+      "city_id": "samba"
+    },
+    {
+      "id": "exp_jammu_kashmir_surinsar_lake",
+      "title": "Surinsar Lake",
+      "description": "Surinsar is a scenic lake east of Jammu and forms part of the Surinsar-Mansar wetland landscape.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jammu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "lake"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_patnitop",
+      "title": "Patnitop",
+      "description": "Patnitop is a forested hill resort on the Jammu-Srinagar corridor in Udhampur district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "udhampur",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "hill station"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Udhampur",
+      "city_id": "udhampur"
+    },
+    {
+      "id": "exp_jammu_kashmir_sanasar",
+      "title": "Sanasar",
+      "description": "Sanasar is a meadow-and-forest destination near Patnitop known for outdoor recreation.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "ramban",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "meadow"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Ramban",
+      "city_id": "ramban"
+    },
+    {
+      "id": "exp_jammu_kashmir_bhaderwah_valley",
+      "title": "Bhaderwah Valley",
+      "description": "Bhaderwah is a mountain valley in Doda district known for forests, meadows and alpine routes.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "doda",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "valley"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Doda",
+      "city_id": "doda"
+    },
+    {
+      "id": "exp_jammu_kashmir_bangus_valley",
+      "title": "Bangus Valley",
+      "description": "Bangus is a high meadow landscape in Kupwara district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kupwara",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "meadow"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kupwara",
+      "city_id": "kupwara"
+    },
+    {
+      "id": "exp_jammu_kashmir_lolab_valley",
+      "title": "Lolab Valley",
+      "description": "Lolab is a forested valley in Kupwara district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kupwara",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "valley"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kupwara",
+      "city_id": "kupwara"
+    },
+    {
+      "id": "exp_jammu_kashmir_ride_a_shikara_on_dal_lake",
+      "title": "Ride a Shikara on Dal Lake",
+      "description": "Take a traditional shikara ride across Dal Lake's channels, gardens and houseboat areas.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "shikara"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_stay_on_a_kashmir_houseboat",
+      "title": "Stay on a Kashmir Houseboat",
+      "description": "Experience an overnight stay on a registered houseboat on Dal or Nigeen Lake.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "houseboat"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_ride_the_gulmarg_gondola",
+      "title": "Ride the Gulmarg Gondola",
+      "description": "Take the Gulmarg Gondola toward Kongdori and Apharwat subject to operations and weather.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "baramulla",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "cable car"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Baramulla",
+      "city_id": "baramulla"
+    },
+    {
+      "id": "exp_jammu_kashmir_ski_in_gulmarg",
+      "title": "Ski in Gulmarg",
+      "description": "Experience skiing or snowboarding in Gulmarg during suitable winter conditions.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "baramulla",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "skiing"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Baramulla",
+      "city_id": "baramulla"
+    },
+    {
+      "id": "exp_jammu_kashmir_walk_srinagar_s_mughal_gardens",
+      "title": "Walk Srinagar's Mughal Gardens",
+      "description": "Explore the historic garden circuit around Shalimar, Nishat and Chashma Shahi.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "garden walk"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_trek_from_sonamarg_toward_alpine_lakes",
+      "title": "Trek from Sonamarg toward Alpine Lakes",
+      "description": "Use recognised trekking routes from the Sonamarg region toward glacier-fed alpine lakes with appropriate guidance.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "ganderbal",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "trekking"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Ganderbal",
+      "city_id": "ganderbal"
+    },
+    {
+      "id": "exp_jammu_kashmir_visit_the_saffron_fields_of_pampore",
+      "title": "Visit the Saffron Fields of Pampore",
+      "description": "Explore the saffron-growing landscape around Pampore during the appropriate season.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "pulwama",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "saffron",
+        "Pampore"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Pulwama",
+      "city_id": "pulwama"
+    },
+    {
+      "id": "exp_jammu_kashmir_complete_the_vaishno_devi_yatra",
+      "title": "Complete the Vaishno Devi Yatra",
+      "description": "Undertake the pilgrimage route from Katra to the Mata Vaishno Devi shrine.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "reasi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "pilgrimage"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Reasi",
+      "city_id": "reasi"
+    },
+    {
+      "id": "exp_jammu_kashmir_ride_the_patnitop_gondola",
+      "title": "Ride the Patnitop Gondola",
+      "description": "Experience the ropeway linking the Patnitop-Skyview corridor when operating.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "udhampur",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "ropeway"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Udhampur",
+      "city_id": "udhampur"
+    },
+    {
+      "id": "exp_jammu_kashmir_paraglide_at_sanasar",
+      "title": "Paraglide at Sanasar",
+      "description": "Experience tandem paragliding at Sanasar with registered operators and suitable conditions.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "ramban",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "paragliding"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Ramban",
+      "city_id": "ramban"
+    },
+    {
+      "id": "exp_jammu_kashmir_explore_jammu_s_dogra_heritage",
+      "title": "Explore Jammu's Dogra Heritage",
+      "description": "Walk through Jammu's palace, fort, museum and temple heritage sites.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "jammu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage walk"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_trek_in_bhaderwah",
+      "title": "Trek in Bhaderwah",
+      "description": "Explore marked mountain trails, meadows and camping routes in the Bhaderwah region.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "doda",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "trekking"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Doda",
+      "city_id": "doda"
+    },
+    {
+      "id": "exp_jammu_kashmir_birdwatch_at_hokersar",
+      "title": "Birdwatch at Hokersar",
+      "description": "Spend time birdwatching at the Hokersar wetland during appropriate seasons.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "srinagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "birding"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_rogan_josh",
+      "title": "Rogan Josh",
+      "description": "Rogan josh is a richly spiced mutton curry and a signature dish of Kashmiri cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "Wazwan"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_yakhni",
+      "title": "Yakhni",
+      "description": "Yakhni is a yoghurt-based meat curry flavoured with fennel and other aromatic spices.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "yoghurt curry"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_gushtaba",
+      "title": "Gushtaba",
+      "description": "Gushtaba consists of finely pounded meatballs in a yoghurt gravy and is traditionally served toward the end of a wazwan.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "Wazwan"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_rista",
+      "title": "Rista",
+      "description": "Rista is a preparation of meatballs in a vivid red gravy and is a classic wazwan dish.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "Wazwan"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_tabak_maaz",
+      "title": "Tabak Maaz",
+      "description": "Tabak maaz is a Kashmiri preparation of ribs cooked and fried as part of a traditional wazwan.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "Wazwan"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_dum_aloo_kashmiri",
+      "title": "Dum Aloo Kashmiri",
+      "description": "Kashmiri dum aloo uses small potatoes cooked slowly with spices in a rich gravy.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "vegetarian"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_haak_saag",
+      "title": "Haak Saag",
+      "description": "Haak is a simple preparation of leafy greens central to Kashmiri home cooking.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "greens"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_nadru_yakhni",
+      "title": "Nadru Yakhni",
+      "description": "Nadru yakhni combines lotus stem with a yoghurt-based gravy.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "lotus stem"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_kaladi_kulcha",
+      "title": "Kaladi Kulcha",
+      "description": "Kaladi is a traditional ripened cheese of the Jammu region, often pan-fried and served in bread or kulcha.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "jammu",
+      "category_id": "food_drink",
+      "keywords": [
+        "Kalari",
+        "cheese"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_rajma_chawal_jammu_style",
+      "title": "Rajma Chawal Jammu Style",
+      "description": "Rajma with rice is a staple comfort-food combination in the Jammu hills and adjoining regions.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "jammu",
+      "category_id": "food_drink",
+      "keywords": [
+        "kidney beans"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_ambal",
+      "title": "Ambal",
+      "description": "Ambal is a sweet-and-sour pumpkin preparation associated with Dogra cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "jammu",
+      "category_id": "food_drink",
+      "keywords": [
+        "Dogra food"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_khatta_meat",
+      "title": "Khatta Meat",
+      "description": "Khatta meat is a tangy mutton preparation associated with Dogra cuisine.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "jammu",
+      "category_id": "food_drink",
+      "keywords": [
+        "Dogra food"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_auriya",
+      "title": "Auriya",
+      "description": "Auriya is a traditional Dogra preparation using mustard and fermented or tangy flavours.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "jammu",
+      "category_id": "food_drink",
+      "keywords": [
+        "Dogra cuisine"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_modur_pulao",
+      "title": "Modur Pulao",
+      "description": "Modur pulao is a sweet aromatic rice preparation with saffron, nuts and spices.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "sweet rice"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_kahwa",
+      "title": "Kahwa",
+      "description": "Kahwa is a fragrant green-tea infusion commonly prepared with saffron, spices and nuts in Kashmir.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "tea"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_noon_chai",
+      "title": "Noon Chai",
+      "description": "Noon chai is a salty pink tea traditionally consumed in Kashmir.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "pink tea",
+        "salt tea"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_kashmiri_saffron_milk",
+      "title": "Kashmiri Saffron Milk",
+      "description": "Warm milk flavoured with Kashmiri saffron is a popular winter and festive drink.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kashmir",
+      "category_id": "food_drink",
+      "keywords": [
+        "saffron"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_kashmiri_pashmina",
+      "title": "Kashmiri Pashmina",
+      "description": "Kashmiri pashmina is a fine hand-spun and woven textile tradition associated with Kashmir's shawl industry.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "srinagar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "shawl"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_kani_shawl_weaving",
+      "title": "Kani Shawl Weaving",
+      "description": "Kani shawls are woven with small wooden bobbins to build intricate patterned designs.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kashmir",
+      "category_id": "culture_learning",
+      "keywords": [
+        "handloom"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_kashmiri_carpet_weaving",
+      "title": "Kashmiri Carpet Weaving",
+      "description": "Hand-knotted carpet weaving is one of Kashmir's major craft traditions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "srinagar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "carpet"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_papier_mache",
+      "title": "Papier-Mache",
+      "description": "Kashmiri papier-mache uses moulded paper pulp and detailed painted decoration.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "srinagar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "paper craft"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_walnut_wood_carving",
+      "title": "Walnut Wood Carving",
+      "description": "Kashmir is known for carving furniture and decorative objects from walnut wood.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "srinagar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wood carving"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_sozni_embroidery",
+      "title": "Sozni Embroidery",
+      "description": "Sozni is fine needle embroidery traditionally used on pashmina and wool textiles.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kashmir",
+      "category_id": "culture_learning",
+      "keywords": [
+        "embroidery"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_crewel_embroidery",
+      "title": "Crewel Embroidery",
+      "description": "Crewel uses wool embroidery on furnishing fabrics and is a prominent Kashmiri textile craft.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kashmir",
+      "category_id": "culture_learning",
+      "keywords": [
+        "embroidery"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_willow_wicker_craft",
+      "title": "Willow Wicker Craft",
+      "description": "Willow wicker is woven into baskets and household objects in parts of Kashmir.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kashmir",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wicker"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_basholi_painting",
+      "title": "Basholi Painting",
+      "description": "Basholi painting is an early Pahari miniature tradition associated with the Basholi area of Kathua district.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kathua",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Pahari painting"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kathua",
+      "city_id": "kathua"
+    },
+    {
+      "id": "exp_jammu_kashmir_basholi_pashmina",
+      "title": "Basholi Pashmina",
+      "description": "Basholi is also associated with distinctive wool and pashmina craft traditions in the Jammu region.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kathua",
+      "category_id": "culture_learning",
+      "keywords": [
+        "pashmina"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kathua",
+      "city_id": "kathua"
+    },
+    {
+      "id": "exp_jammu_kashmir_tulip_festival_srinagar",
+      "title": "Tulip Festival Srinagar",
+      "description": "The spring tulip season and associated festival celebrate the large tulip garden overlooking Dal Lake.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "srinagar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Tulip Garden"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_shikara_festival",
+      "title": "Shikara Festival",
+      "description": "Shikara-focused events on Dal Lake celebrate Kashmir's lake culture and traditional boats.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "srinagar",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Dal Lake"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Srinagar",
+      "city_id": "srinagar"
+    },
+    {
+      "id": "exp_jammu_kashmir_kheer_bhawani_mela",
+      "title": "Kheer Bhawani Mela",
+      "description": "Kheer Bhawani Mela is a major annual pilgrimage gathering at Tulmulla in Ganderbal district.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "ganderbal",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Tulmulla"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Ganderbal",
+      "city_id": "ganderbal"
+    },
+    {
+      "id": "exp_jammu_kashmir_jhiri_mela",
+      "title": "Jhiri Mela",
+      "description": "Jhiri Mela is a major rural fair near Jammu associated with the memory of Baba Jitto.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "jammu",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Baba Jitto"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_bahu_mela",
+      "title": "Bahu Mela",
+      "description": "Bahu Mela is held at the Bahu Fort temple complex in Jammu.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "jammu",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Bahu Fort"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_lohri_in_jammu",
+      "title": "Lohri in Jammu",
+      "description": "Lohri is widely celebrated in the Jammu region with bonfires and community gatherings.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "jammu",
+      "category_id": "culture_learning",
+      "keywords": [
+        "winter festival"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_navratra_festival_katra",
+      "title": "Navratra Festival Katra",
+      "description": "Katra hosts a major Navratra festival linked to the Vaishno Devi pilgrimage season.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "reasi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Katra",
+        "Navratri"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Reasi",
+      "city_id": "reasi"
+    },
+    {
+      "id": "exp_jammu_kashmir_saffron_festival_pampore",
+      "title": "Saffron Festival Pampore",
+      "description": "Saffron-themed cultural events celebrate the Pampore saffron harvest and local heritage.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "pulwama",
+      "category_id": "culture_learning",
+      "keywords": [
+        "saffron"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Pulwama",
+      "city_id": "pulwama"
+    },
+    {
+      "id": "exp_jammu_kashmir_rouf_dance",
+      "title": "Rouf Dance",
+      "description": "Rouf is a women's folk-dance tradition of Kashmir performed in groups with rhythmic stepping.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kashmir",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Rauf",
+        "folk dance"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_dumhal_dance",
+      "title": "Dumhal Dance",
+      "description": "Dumhal is a ceremonial dance associated with the Wattal community of Kashmir.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kashmir",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_chakri_folk_music",
+      "title": "Chakri Folk Music",
+      "description": "Chakri is a Kashmiri folk-music form traditionally performed with local instruments and narrative songs.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kashmir",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk music"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_sufiana_kalam",
+      "title": "Sufiana Kalam",
+      "description": "Sufiana Kalam is Kashmir's classical Sufi musical tradition.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kashmir",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Sufi music"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_bhand_pather",
+      "title": "Bhand Pather",
+      "description": "Bhand Pather is a traditional Kashmiri folk-theatre form combining satire, music and dance.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kashmir",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk theatre"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Kashmir",
+      "city_id": "kashmir"
+    },
+    {
+      "id": "exp_jammu_kashmir_kud_dance",
+      "title": "Kud Dance",
+      "description": "Kud is a Dogra folk dance of the Jammu hills, often associated with community celebrations.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "jammu",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Dogra dance"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_geetru",
+      "title": "Geetru",
+      "description": "Geetru is a Dogra song-and-dance tradition performed during social occasions in the Jammu region.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "jammu",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Dogra folk"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    },
+    {
+      "id": "exp_jammu_kashmir_bhakh_folk_singing",
+      "title": "Bhakh Folk Singing",
+      "description": "Bhakh is a traditional Dogri folk singing style of the Jammu region.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "jammu",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Dogri music"
+      ],
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "status": "active",
+      "city": "Jammu",
+      "city_id": "jammu"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "districts": [
+    {
+      "id": "district_andaman_nicobar_nicobar",
+      "name": "Nicobar",
+      "state_id": "andaman_nicobar",
+      "state_name": "Andaman and Nicobar Islands",
+      "description": "Nicobar is a district of Andaman and Nicobar Islands.",
+      "keywords": [
+        "Nicobars"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_andaman_nicobar_north_and_middle_andaman",
+      "name": "North and Middle Andaman",
+      "state_id": "andaman_nicobar",
+      "state_name": "Andaman and Nicobar Islands",
+      "description": "North and Middle Andaman is a district of Andaman and Nicobar Islands.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_andaman_nicobar_south_andaman",
+      "name": "South Andaman",
+      "state_id": "andaman_nicobar",
+      "state_name": "Andaman and Nicobar Islands",
+      "description": "South Andaman is a district of Andaman and Nicobar Islands.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

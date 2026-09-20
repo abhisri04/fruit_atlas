@@ -1,0 +1,33 @@
+{
+  "districts": [
+    {
+      "id": "district_dadra_nagar_haveli_daman_diu_dadra_nagar_haveli",
+      "name": "Dadra & Nagar Haveli",
+      "state_id": "dadra_nagar_haveli_daman_diu",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "description": "Dadra & Nagar Haveli is a district of Dadra and Nagar Haveli and Daman and Diu.",
+      "keywords": [
+        "Dadra and Nagar Haveli"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_dadra_nagar_haveli_daman_diu_daman",
+      "name": "Daman",
+      "state_id": "dadra_nagar_haveli_daman_diu",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "description": "Daman is a district of Dadra and Nagar Haveli and Daman and Diu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_dadra_nagar_haveli_daman_diu_diu",
+      "name": "Diu",
+      "state_id": "dadra_nagar_haveli_daman_diu",
+      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+      "description": "Diu is a district of Dadra and Nagar Haveli and Daman and Diu.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

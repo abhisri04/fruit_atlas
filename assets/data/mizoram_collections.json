@@ -1,0 +1,164 @@
+{
+  "collections": [
+    {
+      "id": "mizoram_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Mizoram.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "mizoram",
+      "context_name": "Mizoram",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_mizoram_vangchhia_monoliths",
+        "exp_mizoram_lamsial_puk",
+        "exp_mizoram_falkawn_zokhua",
+        "exp_mizoram_mizoram_state_museum"
+      ],
+      "empty_message": "More Mizoram landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "mizoram_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Mizoram.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "mizoram",
+      "context_name": "Mizoram",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_mizoram_vantawng_falls",
+        "exp_mizoram_tuirihiau_falls",
+        "exp_mizoram_tam_dil",
+        "exp_mizoram_palak_lake",
+        "exp_mizoram_murlen_national_park",
+        "exp_mizoram_phawngpui_national_park"
+      ],
+      "empty_message": "More Mizoram nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "mizoram_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Mizoram.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "mizoram",
+      "context_name": "Mizoram",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_mizoram_hike_reiek_hills",
+        "exp_mizoram_play_golf_at_thenzawl"
+      ],
+      "empty_message": "More Mizoram experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "mizoram_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Mizoram in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "mizoram",
+      "context_name": "Mizoram",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Mizoram fruits experiences are coming soon."
+    },
+    {
+      "id": "mizoram_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Mizoram.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "mizoram",
+      "context_name": "Mizoram",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_mizoram_bai",
+        "exp_mizoram_arsa_buhchiar",
+        "exp_mizoram_vawksa_rep",
+        "exp_mizoram_hmarcha_rawt"
+      ],
+      "empty_message": "More Mizoram dishes experiences are coming soon."
+    },
+    {
+      "id": "mizoram_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Mizoram.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "mizoram",
+      "context_name": "Mizoram",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_mizoram_mizoram_coffee"
+      ],
+      "empty_message": "More Mizoram drinks experiences are coming soon."
+    },
+    {
+      "id": "mizoram_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Mizoram.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "mizoram",
+      "context_name": "Mizoram",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_mizoram_mizo_puanchei",
+        "exp_mizoram_tawlhlohpuan",
+        "exp_mizoram_pawndum"
+      ],
+      "empty_message": "More Mizoram arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "mizoram_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Mizoram.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "mizoram",
+      "context_name": "Mizoram",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_mizoram_chapchar_kut",
+        "exp_mizoram_thalfavang_kut",
+        "exp_mizoram_mizoram_anthurium_festival"
+      ],
+      "empty_message": "More Mizoram festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "mizoram_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Mizoram.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "mizoram",
+      "context_name": "Mizoram",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_mizoram_cheraw",
+        "exp_mizoram_khuallam",
+        "exp_mizoram_chheihlam"
+      ],
+      "empty_message": "More Mizoram music & dance experiences are coming soon."
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "districts": [
+    {
+      "id": "district_telangana_adilabad",
+      "name": "Adilabad",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Adilabad is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_bhadradri_kothagudem",
+      "name": "Bhadradri Kothagudem",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Bhadradri Kothagudem is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_hanumakonda",
+      "name": "Hanumakonda",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Hanumakonda is a district of Telangana.",
+      "keywords": [
+        "Warangal Urban"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_hyderabad",
+      "name": "Hyderabad",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Hyderabad is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_jagtial",
+      "name": "Jagtial",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Jagtial is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_jangaon",
+      "name": "Jangaon",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Jangaon is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_jayashankar_bhupalpally",
+      "name": "Jayashankar Bhupalpally",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Jayashankar Bhupalpally is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_jogulamba_gadwal",
+      "name": "Jogulamba Gadwal",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Jogulamba Gadwal is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_kamareddy",
+      "name": "Kamareddy",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Kamareddy is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_karimnagar",
+      "name": "Karimnagar",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Karimnagar is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_khammam",
+      "name": "Khammam",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Khammam is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_kumuram_bheem",
+      "name": "Kumuram Bheem",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Kumuram Bheem is a district of Telangana.",
+      "keywords": [
+        "Kumuram Bheem Asifabad",
+        "Komaram Bheem",
+        "Asifabad"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_mahabubabad",
+      "name": "Mahabubabad",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Mahabubabad is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_mahabubnagar",
+      "name": "Mahabubnagar",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Mahabubnagar is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_mancherial",
+      "name": "Mancherial",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Mancherial is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_medak",
+      "name": "Medak",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Medak is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_medchal_malkajgiri",
+      "name": "Medchal-Malkajgiri",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Medchal-Malkajgiri is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_mulugu",
+      "name": "Mulugu",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Mulugu is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_nagarkurnool",
+      "name": "Nagarkurnool",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Nagarkurnool is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_nalgonda",
+      "name": "Nalgonda",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Nalgonda is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_narayanpet",
+      "name": "Narayanpet",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Narayanpet is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_nirmal",
+      "name": "Nirmal",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Nirmal is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_nizamabad",
+      "name": "Nizamabad",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Nizamabad is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_peddapalli",
+      "name": "Peddapalli",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Peddapalli is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_rajanna_sircilla",
+      "name": "Rajanna Sircilla",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Rajanna Sircilla is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_rangareddy",
+      "name": "Rangareddy",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Rangareddy is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_sangareddy",
+      "name": "Sangareddy",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Sangareddy is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_siddipet",
+      "name": "Siddipet",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Siddipet is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_suryapet",
+      "name": "Suryapet",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Suryapet is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_vikarabad",
+      "name": "Vikarabad",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Vikarabad is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_wanaparthy",
+      "name": "Wanaparthy",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Wanaparthy is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_warangal",
+      "name": "Warangal",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Warangal is a district of Telangana.",
+      "keywords": [
+        "Warangal Rural"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_telangana_yadadri_bhuvanagiri",
+      "name": "Yadadri Bhuvanagiri",
+      "state_id": "telangana",
+      "state_name": "Telangana",
+      "description": "Yadadri Bhuvanagiri is a district of Telangana.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

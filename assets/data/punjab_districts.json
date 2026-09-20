@@ -1,0 +1,211 @@
+{
+  "districts": [
+    {
+      "id": "district_punjab_amritsar",
+      "name": "Amritsar",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Amritsar is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_barnala",
+      "name": "Barnala",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Barnala is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_bathinda",
+      "name": "Bathinda",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Bathinda is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_faridkot",
+      "name": "Faridkot",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Faridkot is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_fatehgarh_sahib",
+      "name": "Fatehgarh Sahib",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Fatehgarh Sahib is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_fazilka",
+      "name": "Fazilka",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Fazilka is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_ferozepur",
+      "name": "Ferozepur",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Ferozepur is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_gurdaspur",
+      "name": "Gurdaspur",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Gurdaspur is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_hoshiarpur",
+      "name": "Hoshiarpur",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Hoshiarpur is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_jalandhar",
+      "name": "Jalandhar",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Jalandhar is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_kapurthala",
+      "name": "Kapurthala",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Kapurthala is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_ludhiana",
+      "name": "Ludhiana",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Ludhiana is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_malerkotla",
+      "name": "Malerkotla",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Malerkotla is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_mansa",
+      "name": "Mansa",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Mansa is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_moga",
+      "name": "Moga",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Moga is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_pathankot",
+      "name": "Pathankot",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Pathankot is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_patiala",
+      "name": "Patiala",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Patiala is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_rupnagar",
+      "name": "Rupnagar",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Rupnagar is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_sahibzada_ajit_singh_nagar",
+      "name": "Sahibzada Ajit Singh Nagar",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Sahibzada Ajit Singh Nagar is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_sangrur",
+      "name": "Sangrur",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Sangrur is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_shahid_bhagat_singh_nagar",
+      "name": "Shahid Bhagat Singh Nagar",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Shahid Bhagat Singh Nagar is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_sri_muktsar_sahib",
+      "name": "Sri Muktsar Sahib",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Sri Muktsar Sahib is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_punjab_tarn_taran",
+      "name": "Tarn Taran",
+      "state_id": "punjab",
+      "state_name": "Punjab",
+      "description": "Tarn Taran is a district/revenue district of Punjab.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

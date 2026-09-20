@@ -14,6 +14,9 @@ List<Fruit> filterFruits(
     }
     return normalized.isEmpty ||
         fruit.name.toLowerCase().contains(normalized) ||
+        fruit.aliases.any(
+          (alias) => alias.toLowerCase().contains(normalized),
+        ) ||
         fruit.scientificName.toLowerCase().contains(normalized) ||
         fruit.varieties.any(
           (variety) => variety.name.toLowerCase().contains(normalized),

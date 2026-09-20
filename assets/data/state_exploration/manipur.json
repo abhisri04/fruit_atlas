@@ -1,0 +1,7 @@
+{
+  "state_id": "manipur",
+  "state_name": "Manipur",
+  "district_asset": "assets/data/manipur_districts.json",
+  "experience_asset": "assets/data/manipur_experiences.json",
+  "collections_asset": "assets/data/manipur_collections.json"
+}

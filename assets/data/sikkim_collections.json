@@ -1,0 +1,179 @@
+{
+  "collections": [
+    {
+      "id": "sikkim_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage experiences associated with Sikkim.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "sikkim",
+      "context_name": "Sikkim",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_sikkim_rumtek_monastery",
+        "exp_sikkim_pemayangtse_monastery",
+        "exp_sikkim_rabdentse_ruins",
+        "exp_sikkim_dubdi_monastery",
+        "exp_sikkim_tashiding_monastery",
+        "exp_sikkim_namgyal_institute_of_tibetology",
+        "exp_sikkim_enchey_monastery",
+        "exp_sikkim_buddha_park_ravangla"
+      ],
+      "empty_message": "More Sikkim landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "sikkim_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife experiences associated with Sikkim.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "sikkim",
+      "context_name": "Sikkim",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_sikkim_khangchendzonga_national_park",
+        "exp_sikkim_tsomgo_lake",
+        "exp_sikkim_yumthang_valley",
+        "exp_sikkim_khecheopalri_lake",
+        "exp_sikkim_fambong_lho_wildlife_sanctuary",
+        "exp_sikkim_barsey_rhododendron_sanctuary"
+      ],
+      "empty_message": "More Sikkim nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "sikkim_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities experiences associated with Sikkim.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "sikkim",
+      "context_name": "Sikkim",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_sikkim_walk_mg_marg",
+        "exp_sikkim_explore_temi_tea_garden",
+        "exp_sikkim_walk_from_yuksom_to_dubdi",
+        "exp_sikkim_discover_gangtok_s_handicrafts"
+      ],
+      "empty_message": "More Sikkim experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "sikkim_fruits",
+      "title": "Fruits",
+      "description": "Fruits experiences associated with Sikkim.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "sikkim",
+      "context_name": "Sikkim",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Sikkim fruits experiences are coming soon."
+    },
+    {
+      "id": "sikkim_dishes",
+      "title": "Dishes",
+      "description": "Dishes experiences associated with Sikkim.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "sikkim",
+      "context_name": "Sikkim",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_sikkim_momos",
+        "exp_sikkim_thukpa",
+        "exp_sikkim_phagshapa",
+        "exp_sikkim_sha_phaley",
+        "exp_sikkim_sel_roti",
+        "exp_sikkim_kinema",
+        "exp_sikkim_chhurpi",
+        "exp_sikkim_sisnu_soup"
+      ],
+      "empty_message": "More Sikkim dishes experiences are coming soon."
+    },
+    {
+      "id": "sikkim_drinks",
+      "title": "Drinks",
+      "description": "Drinks experiences associated with Sikkim.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "sikkim",
+      "context_name": "Sikkim",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_sikkim_temi_tea",
+        "exp_sikkim_tongba"
+      ],
+      "empty_message": "More Sikkim drinks experiences are coming soon."
+    },
+    {
+      "id": "sikkim_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts experiences associated with Sikkim.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "sikkim",
+      "context_name": "Sikkim",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_sikkim_thangka_painting",
+        "exp_sikkim_carpet_weaving",
+        "exp_sikkim_lepcha_weaving",
+        "exp_sikkim_wood_carving"
+      ],
+      "empty_message": "More Sikkim arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "sikkim_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs experiences associated with Sikkim.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "sikkim",
+      "context_name": "Sikkim",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_sikkim_losar",
+        "exp_sikkim_saga_dawa",
+        "exp_sikkim_pang_lhabsol",
+        "exp_sikkim_losoong_and_namsoong",
+        "exp_sikkim_tendong_lho_rum_faat"
+      ],
+      "empty_message": "More Sikkim festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "sikkim_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance experiences associated with Sikkim.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "sikkim",
+      "context_name": "Sikkim",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_sikkim_singhi_chham",
+        "exp_sikkim_maruni",
+        "exp_sikkim_tamang_selo",
+        "exp_sikkim_yak_chham"
+      ],
+      "empty_message": "More Sikkim music & dance experiences are coming soon."
+    }
+  ]
+}

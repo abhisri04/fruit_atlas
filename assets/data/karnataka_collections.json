@@ -1,0 +1,171 @@
+{
+  "collections": [
+    {
+      "id": "karnataka_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Karnataka.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "karnataka",
+      "context_name": "Karnataka",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_karnataka_hampi_monuments",
+        "exp_karnataka_pattadakal_temple_complex",
+        "exp_karnataka_badami_cave_temples",
+        "exp_karnataka_belur_chennakeshava_temple",
+        "exp_karnataka_halebidu_hoysaleswara_temple",
+        "exp_karnataka_mysuru_palace",
+        "exp_karnataka_gol_gumbaz"
+      ],
+      "empty_message": "More Karnataka landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "karnataka_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Karnataka.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "karnataka",
+      "context_name": "Karnataka",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_karnataka_bandipur_national_park",
+        "exp_karnataka_nagarahole_national_park",
+        "exp_karnataka_jog_falls",
+        "exp_karnataka_ranganathittu_bird_sanctuary",
+        "exp_karnataka_kudremukh_national_park"
+      ],
+      "empty_message": "More Karnataka nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "karnataka_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Karnataka.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "karnataka",
+      "context_name": "Karnataka",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_karnataka_raft_the_kali_river_at_dandeli",
+        "exp_karnataka_walk_a_kodagu_coffee_estate"
+      ],
+      "empty_message": "More Karnataka experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "karnataka_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Karnataka in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "karnataka",
+      "context_name": "Karnataka",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Karnataka fruits experiences are coming soon."
+    },
+    {
+      "id": "karnataka_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Karnataka.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "karnataka",
+      "context_name": "Karnataka",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_karnataka_bisi_bele_bath",
+        "exp_karnataka_neer_dosa",
+        "exp_karnataka_kori_gassi",
+        "exp_karnataka_goli_baje",
+        "exp_karnataka_mysore_pak",
+        "exp_karnataka_dharwad_pedha",
+        "exp_karnataka_ragi_mudde",
+        "exp_karnataka_maddur_vada"
+      ],
+      "empty_message": "More Karnataka dishes experiences are coming soon."
+    },
+    {
+      "id": "karnataka_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Karnataka.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "karnataka",
+      "context_name": "Karnataka",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_karnataka_kodagu_coffee"
+      ],
+      "empty_message": "More Karnataka drinks experiences are coming soon."
+    },
+    {
+      "id": "karnataka_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Karnataka.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "karnataka",
+      "context_name": "Karnataka",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_karnataka_channapatna_toys",
+        "exp_karnataka_mysore_silk",
+        "exp_karnataka_ilkal_sarees",
+        "exp_karnataka_bidriware"
+      ],
+      "empty_message": "More Karnataka arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "karnataka_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Karnataka.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "karnataka",
+      "context_name": "Karnataka",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_karnataka_mysuru_dasara",
+        "exp_karnataka_hampi_utsav",
+        "exp_karnataka_bengaluru_karaga"
+      ],
+      "empty_message": "More Karnataka festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "karnataka_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Karnataka.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "karnataka",
+      "context_name": "Karnataka",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_karnataka_yakshagana",
+        "exp_karnataka_dollu_kunitha",
+        "exp_karnataka_veeragase"
+      ],
+      "empty_message": "More Karnataka music & dance experiences are coming soon."
+    }
+  ]
+}

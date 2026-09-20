@@ -1,0 +1,301 @@
+{
+  "districts": [
+    {
+      "id": "district_chhattisgarh_balod",
+      "name": "Balod",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Balod is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_baloda_bazar_bhatapara",
+      "name": "Baloda Bazar-Bhatapara",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Baloda Bazar-Bhatapara is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_balrampur_ramanujganj",
+      "name": "Balrampur-Ramanujganj",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Balrampur-Ramanujganj is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_bastar",
+      "name": "Bastar",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Bastar is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_bemetara",
+      "name": "Bemetara",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Bemetara is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_bijapur",
+      "name": "Bijapur",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Bijapur is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_bilaspur",
+      "name": "Bilaspur",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Bilaspur is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_dantewada",
+      "name": "Dantewada",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Dantewada is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_dhamtari",
+      "name": "Dhamtari",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Dhamtari is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_durg",
+      "name": "Durg",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Durg is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_gariaband",
+      "name": "Gariaband",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Gariaband is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_gaurela_pendra_marwahi",
+      "name": "Gaurela-Pendra-Marwahi",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Gaurela-Pendra-Marwahi is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_janjgir_champa",
+      "name": "Janjgir-Champa",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Janjgir-Champa is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_jashpur",
+      "name": "Jashpur",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Jashpur is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_kabirdham",
+      "name": "Kabirdham",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Kabirdham is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_kanker",
+      "name": "Kanker",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Kanker is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_khairagarh_chhuikhadan_gandai",
+      "name": "Khairagarh-Chhuikhadan-Gandai",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Khairagarh-Chhuikhadan-Gandai is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_kondagaon",
+      "name": "Kondagaon",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Kondagaon is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_korba",
+      "name": "Korba",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Korba is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_korea",
+      "name": "Korea",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Korea is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_mahasamund",
+      "name": "Mahasamund",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Mahasamund is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_manendragarh_chirmiri_bharatpur",
+      "name": "Manendragarh-Chirmiri-Bharatpur",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Manendragarh-Chirmiri-Bharatpur is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_mohla_manpur_ambagarh_chowki",
+      "name": "Mohla-Manpur-Ambagarh Chowki",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Mohla-Manpur-Ambagarh Chowki is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_mungeli",
+      "name": "Mungeli",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Mungeli is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_narayanpur",
+      "name": "Narayanpur",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Narayanpur is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_raigarh",
+      "name": "Raigarh",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Raigarh is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_raipur",
+      "name": "Raipur",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Raipur is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_rajnandgaon",
+      "name": "Rajnandgaon",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Rajnandgaon is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_sakti",
+      "name": "Sakti",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Sakti is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_sarangarh_bilaigarh",
+      "name": "Sarangarh-Bilaigarh",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Sarangarh-Bilaigarh is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_sukma",
+      "name": "Sukma",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Sukma is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_surajpur",
+      "name": "Surajpur",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Surajpur is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_chhattisgarh_surguja",
+      "name": "Surguja",
+      "state_id": "chhattisgarh",
+      "state_name": "Chhattisgarh",
+      "description": "Surguja is a district of Chhattisgarh.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

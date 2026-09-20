@@ -1,0 +1,186 @@
+{
+  "districts": [
+    {
+      "id": "district_jammu_kashmir_anantnag",
+      "name": "Anantnag",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Anantnag is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_bandipora",
+      "name": "Bandipora",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Bandipora is a district of Jammu & Kashmir.",
+      "keywords": [
+        "Bandipore"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_baramulla",
+      "name": "Baramulla",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Baramulla is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_budgam",
+      "name": "Budgam",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Budgam is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_ganderbal",
+      "name": "Ganderbal",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Ganderbal is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_kulgam",
+      "name": "Kulgam",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Kulgam is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_kupwara",
+      "name": "Kupwara",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Kupwara is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_pulwama",
+      "name": "Pulwama",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Pulwama is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_shopian",
+      "name": "Shopian",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Shopian is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_srinagar",
+      "name": "Srinagar",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Srinagar is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_doda",
+      "name": "Doda",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Doda is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_jammu",
+      "name": "Jammu",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Jammu is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_kathua",
+      "name": "Kathua",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Kathua is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_kishtwar",
+      "name": "Kishtwar",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Kishtwar is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_poonch",
+      "name": "Poonch",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Poonch is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_rajouri",
+      "name": "Rajouri",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Rajouri is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_ramban",
+      "name": "Ramban",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Ramban is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_reasi",
+      "name": "Reasi",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Reasi is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_samba",
+      "name": "Samba",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Samba is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_jammu_kashmir_udhampur",
+      "name": "Udhampur",
+      "state_id": "jammu_kashmir",
+      "state_name": "Jammu & Kashmir",
+      "description": "Udhampur is a district of Jammu & Kashmir.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

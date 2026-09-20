@@ -1,0 +1,1392 @@
+{
+  "experiences": [
+    {
+      "id": "exp_himachal_pradesh_kangra_fort",
+      "title": "Kangra Fort",
+      "description": "Kangra Fort is one of the oldest and largest forts in the western Himalaya and is associated with the Katoch dynasty.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kangra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Nagarkot Fort"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_tabo_monastery",
+      "title": "Tabo Monastery",
+      "description": "Tabo Monastery in Spiti is a major historic Buddhist monastic complex renowned for murals, sculpture and manuscripts.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Tabo Chos-Khor"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_key_monastery",
+      "title": "Key Monastery",
+      "description": "Key Monastery is a major Tibetan Buddhist monastery overlooking the Spiti valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ki Monastery",
+        "Kye Monastery"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_dhankar_monastery",
+      "title": "Dhankar Monastery",
+      "description": "Dhankar Monastery occupies a dramatic cliff-top setting above the confluence of the Spiti and Pin rivers.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Dankhar"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_rewalsar_monasteries_and_lake_heritage",
+      "title": "Rewalsar Monasteries and Lake Heritage",
+      "description": "Rewalsar is a multi-faith pilgrimage landscape with Buddhist monasteries, Hindu temples and a Sikh gurdwara around the lake.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "mandi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Tso Pema"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Mandi",
+      "city_id": "mandi"
+    },
+    {
+      "id": "exp_himachal_pradesh_hidimba_devi_temple",
+      "title": "Hidimba Devi Temple",
+      "description": "Hidimba Devi Temple in Manali is a distinctive wooden temple set in deodar forest.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "manali",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Hadimba Temple"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Manali",
+      "city_id": "manali"
+    },
+    {
+      "id": "exp_himachal_pradesh_manu_temple",
+      "title": "Manu Temple",
+      "description": "Manu Temple in Old Manali is associated with the sage Manu.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "manali",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Old Manali"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Manali",
+      "city_id": "manali"
+    },
+    {
+      "id": "exp_himachal_pradesh_bijli_mahadev_temple",
+      "title": "Bijli Mahadev Temple",
+      "description": "Bijli Mahadev is a hilltop Shiva temple overlooking the Kullu valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kullu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Shiva temple"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_baijnath_temple",
+      "title": "Baijnath Temple",
+      "description": "Baijnath is a historic stone Shiva temple in Kangra district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kangra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Vaidyanath"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_masroor_rock_cut_temples",
+      "title": "Masroor Rock Cut Temples",
+      "description": "Masroor is a group of monolithic rock-cut temples in Kangra district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kangra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Masrur temples"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_jwala_ji_temple",
+      "title": "Jwala Ji Temple",
+      "description": "Jwala Ji is a major Shakti pilgrimage temple in Kangra district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kangra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Jwalamukhi"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_chintpurni_temple",
+      "title": "Chintpurni Temple",
+      "description": "Chintpurni is a major Shakti pilgrimage site in Una district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "una",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Chhinnamastika"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Una",
+      "city_id": "una"
+    },
+    {
+      "id": "exp_himachal_pradesh_naina_devi_temple",
+      "title": "Naina Devi Temple",
+      "description": "Shri Naina Devi is a major hilltop pilgrimage shrine in Bilaspur district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "bilaspur",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Naina Devi"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Bilaspur",
+      "city_id": "bilaspur"
+    },
+    {
+      "id": "exp_himachal_pradesh_bhimakali_temple_sarahan",
+      "title": "Bhimakali Temple Sarahan",
+      "description": "Bhimakali Temple at Sarahan is a major timber-and-stone temple complex in the former Bushahr region.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "shimla",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sarahan"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Shimla",
+      "city_id": "shimla"
+    },
+    {
+      "id": "exp_himachal_pradesh_viceregal_lodge",
+      "title": "Viceregal Lodge",
+      "description": "The Viceregal Lodge on Shimla's Observatory Hill is a major colonial-era heritage building and now houses the Indian Institute of Advanced Study.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "shimla",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Rashtrapati Niwas",
+        "IIAS"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Shimla",
+      "city_id": "shimla"
+    },
+    {
+      "id": "exp_himachal_pradesh_christ_church_shimla",
+      "title": "Christ Church Shimla",
+      "description": "Christ Church is a landmark neo-Gothic church on Shimla's Ridge.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "shimla",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "The Ridge"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Shimla",
+      "city_id": "shimla"
+    },
+    {
+      "id": "exp_himachal_pradesh_naggar_castle",
+      "title": "Naggar Castle",
+      "description": "Naggar Castle is a historic timber-and-stone residence overlooking the Kullu valley.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kullu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Naggar"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_pragpur_heritage_village",
+      "title": "Pragpur Heritage Village",
+      "description": "Pragpur is a notified heritage village known for traditional houses, courtyards and cobbled lanes.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kangra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage village"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_sujanpur_tira_fort_and_palace",
+      "title": "Sujanpur Tira Fort and Palace",
+      "description": "Sujanpur Tira preserves palace, temple and fort remains associated with the Katoch rulers.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "hamirpur",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sujanpur"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Hamirpur",
+      "city_id": "hamirpur"
+    },
+    {
+      "id": "exp_himachal_pradesh_great_himalayan_national_park",
+      "title": "Great Himalayan National Park",
+      "description": "Great Himalayan National Park is a UNESCO World Heritage Site protecting western Himalayan forests and alpine ecosystems in Kullu.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kullu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "UNESCO",
+        "GHNP"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_pin_valley_national_park",
+      "title": "Pin Valley National Park",
+      "description": "Pin Valley National Park protects cold-desert Himalayan ecosystems in Spiti.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Spiti"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_khirganga_national_park",
+      "title": "Khirganga National Park",
+      "description": "Khirganga National Park protects high Himalayan forest and alpine habitats in the Parvati valley region.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kullu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Parvati Valley"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_pong_dam_lake_wildlife_sanctuary",
+      "title": "Pong Dam Lake Wildlife Sanctuary",
+      "description": "Pong Dam reservoir is a major wetland and bird habitat in Kangra district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kangra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Maharana Pratap Sagar",
+        "birding"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_renuka_lake",
+      "title": "Renuka Lake",
+      "description": "Renuka Lake in Sirmaur is a natural lake and pilgrimage landscape surrounded by forested hills.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "sirmaur",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Renuka Ji"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Sirmaur",
+      "city_id": "sirmaur"
+    },
+    {
+      "id": "exp_himachal_pradesh_chandra_taal",
+      "title": "Chandra Taal",
+      "description": "Chandra Taal is a high-altitude lake in the cold-desert landscape of Lahaul and Spiti.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Moon Lake"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_prashar_lake",
+      "title": "Prashar Lake",
+      "description": "Prashar Lake is a high-altitude lake and temple landscape in Mandi district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "mandi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Parashar"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Mandi",
+      "city_id": "mandi"
+    },
+    {
+      "id": "exp_himachal_pradesh_kareri_lake",
+      "title": "Kareri Lake",
+      "description": "Kareri is a shallow high-altitude freshwater lake reached by trekking from the Dharamshala region.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kangra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "trekking"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_khajjiar_meadow",
+      "title": "Khajjiar Meadow",
+      "description": "Khajjiar is a meadow-and-forest landscape near Dalhousie in Chamba district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "chamba",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mini Switzerland"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Chamba",
+      "city_id": "chamba"
+    },
+    {
+      "id": "exp_himachal_pradesh_tirthan_valley",
+      "title": "Tirthan Valley",
+      "description": "Tirthan Valley is a river-and-forest landscape on the edge of the Great Himalayan National Park.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kullu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "GHNP"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_barot_valley",
+      "title": "Barot Valley",
+      "description": "Barot is a mountain valley along the Uhl river in Mandi district known for forests and trout waters.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "mandi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Uhl River"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Mandi",
+      "city_id": "mandi"
+    },
+    {
+      "id": "exp_himachal_pradesh_ride_the_kalka_shimla_toy_train",
+      "title": "Ride the Kalka-Shimla Toy Train",
+      "description": "Travel the UNESCO-listed Kalka-Shimla mountain railway through tunnels, bridges and hill stations.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "shimla",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Kalka Shimla Railway",
+        "UNESCO"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Shimla",
+      "city_id": "shimla"
+    },
+    {
+      "id": "exp_himachal_pradesh_walk_shimla_s_ridge_and_mall_road",
+      "title": "Walk Shimla's Ridge and Mall Road",
+      "description": "Explore Shimla's historic pedestrian core including the Ridge, Mall Road and colonial landmarks.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "shimla",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage walk"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Shimla",
+      "city_id": "shimla"
+    },
+    {
+      "id": "exp_himachal_pradesh_paraglide_at_bir_billing",
+      "title": "Paraglide at Bir Billing",
+      "description": "Experience tandem paragliding at Bir Billing with registered operators and suitable conditions.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kangra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "paragliding"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_trek_in_great_himalayan_national_park",
+      "title": "Trek in Great Himalayan National Park",
+      "description": "Undertake a permitted trek in or around the Great Himalayan National Park landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kullu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "trekking",
+        "GHNP"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_trek_to_triund",
+      "title": "Trek to Triund",
+      "description": "Hike from the Dharamshala-McLeod Ganj area to Triund ridge.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kangra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "trekking",
+        "Dharamshala"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_drive_the_spiti_valley_circuit",
+      "title": "Drive the Spiti Valley Circuit",
+      "description": "Travel the high-altitude road circuit through Spiti's villages, monasteries and cold-desert landscapes when roads are open.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "road trip",
+        "Spiti"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_visit_a_himachali_dham_feast",
+      "title": "Visit a Himachali Dham Feast",
+      "description": "Experience a traditional ceremonial dham meal prepared by specialist cooks.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "dham",
+        "food experience"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_ski_at_solang_or_narkanda",
+      "title": "Ski at Solang or Narkanda",
+      "description": "Experience winter skiing at established snow destinations such as Solang or Narkanda when conditions permit.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "skiing"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_river_raft_on_the_beas",
+      "title": "River Raft on the Beas",
+      "description": "Take a regulated rafting trip on suitable stretches of the Beas river around Kullu.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kullu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "rafting"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_explore_kullu_valley_villages",
+      "title": "Explore Kullu Valley Villages",
+      "description": "Visit traditional villages, temples and orchards in the Kullu valley.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kullu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "village tourism"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_camp_in_the_tirthan_valley",
+      "title": "Camp in the Tirthan Valley",
+      "description": "Stay at a registered campsite or homestay in the Tirthan valley landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kullu",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "camping"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_walk_dalhousie_s_colonial_core",
+      "title": "Walk Dalhousie's Colonial Core",
+      "description": "Explore Dalhousie's churches, old roads and hill-station architecture on foot.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "chamba",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage walk"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Chamba",
+      "city_id": "chamba"
+    },
+    {
+      "id": "exp_himachal_pradesh_himachali_dham",
+      "title": "Himachali Dham",
+      "description": "Dham is a ceremonial multi-course meal prepared for community feasts, with regional variations across Himachal.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "community feast"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_madra",
+      "title": "Madra",
+      "description": "Madra is a yoghurt-based legume curry central to several Himachali dham traditions.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "dham"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_siddu",
+      "title": "Siddu",
+      "description": "Siddu is a steamed fermented wheat bread commonly filled with walnut or poppy-seed paste and served with ghee.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "steamed bread"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_sepu_vadi",
+      "title": "Sepu Vadi",
+      "description": "Sepu vadi is a Mandi speciality of lentil dumplings served in a rich gravy.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "mandi",
+      "category_id": "food_drink",
+      "keywords": [
+        "Mandi"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Mandi",
+      "city_id": "mandi"
+    },
+    {
+      "id": "exp_himachal_pradesh_chha_gosht",
+      "title": "Chha Gosht",
+      "description": "Chha gosht is a mutton preparation cooked with yoghurt and gram-flour based gravy.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "mutton"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_kullu_trout",
+      "title": "Kullu Trout",
+      "description": "Fresh trout is prepared in several styles in Kullu and other river valleys.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "kullu",
+      "category_id": "food_drink",
+      "keywords": [
+        "trout"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_babru",
+      "title": "Babru",
+      "description": "Babru is a fried stuffed bread associated with Shimla and surrounding areas.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "shimla",
+      "category_id": "food_drink",
+      "keywords": [
+        "fried bread"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Shimla",
+      "city_id": "shimla"
+    },
+    {
+      "id": "exp_himachal_pradesh_patande",
+      "title": "Patande",
+      "description": "Patande are thin pancakes associated especially with Sirmaur.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "sirmaur",
+      "category_id": "food_drink",
+      "keywords": [
+        "pancake"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Sirmaur",
+      "city_id": "sirmaur"
+    },
+    {
+      "id": "exp_himachal_pradesh_tudkiya_bhath",
+      "title": "Tudkiya Bhath",
+      "description": "Tudkiya bhath is a spiced rice preparation associated with Chamba and Kangra regions.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "chamba",
+      "category_id": "food_drink",
+      "keywords": [
+        "rice dish"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Chamba",
+      "city_id": "chamba"
+    },
+    {
+      "id": "exp_himachal_pradesh_mittha",
+      "title": "Mittha",
+      "description": "Mittha is a sweetened rice dish with dry fruits often served at the end of a dham.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "sweet rice"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_khatta",
+      "title": "Khatta",
+      "description": "Khatta is a sweet-and-sour preparation found in regional Himachali feast traditions.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "dham"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_aktori",
+      "title": "Aktori",
+      "description": "Aktori is a buckwheat-based festive pancake associated with Lahaul-Spiti and Kullu highlands.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "food_drink",
+      "keywords": [
+        "buckwheat"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_momos",
+      "title": "Momos",
+      "description": "Momos are widely eaten in Himachal's highland and Tibetan-influenced towns such as Dharamshala, Manali and Spiti.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "dumplings"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_butter_tea",
+      "title": "Butter Tea",
+      "description": "Salty butter tea is consumed in Tibetan-influenced high-altitude regions such as Kinnaur and Spiti.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "food_drink",
+      "keywords": [
+        "salt tea",
+        "thang"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_apple_juice",
+      "title": "Apple Juice",
+      "description": "Apple juice reflects Himachal's major apple-growing economy and orchard culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "apple"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_rhododendron_squash",
+      "title": "Rhododendron Squash",
+      "description": "Rhododendron-flower drinks are prepared in parts of the western Himalaya, including Himachal.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "food_drink",
+      "keywords": [
+        "buransh"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_kangra_miniature_painting",
+      "title": "Kangra Miniature Painting",
+      "description": "Kangra painting is a major Pahari miniature tradition known for lyrical themes and fine brushwork.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kangra",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Pahari painting"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_chamba_rumal",
+      "title": "Chamba Rumal",
+      "description": "Chamba Rumal is an embroidered textile tradition using fine double-sided stitch work.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chamba",
+      "category_id": "culture_learning",
+      "keywords": [
+        "embroidery"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Chamba",
+      "city_id": "chamba"
+    },
+    {
+      "id": "exp_himachal_pradesh_kullu_shawl_weaving",
+      "title": "Kullu Shawl Weaving",
+      "description": "Kullu shawls are handwoven wool textiles recognised for colourful geometric borders.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kullu",
+      "category_id": "culture_learning",
+      "keywords": [
+        "handloom",
+        "wool"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_kinnauri_shawl_weaving",
+      "title": "Kinnauri Shawl Weaving",
+      "description": "Kinnauri shawls use complex geometric borders and wool weaving traditions of Kinnaur.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kinnaur",
+      "category_id": "culture_learning",
+      "keywords": [
+        "handloom"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kinnaur",
+      "city_id": "kinnaur"
+    },
+    {
+      "id": "exp_himachal_pradesh_himachali_cap_craft",
+      "title": "Himachali Cap Craft",
+      "description": "Distinctive regional caps are an important element of Himachali dress and textile identity.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "topi"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_wood_carving_of_himachal",
+      "title": "Wood Carving of Himachal",
+      "description": "Temple and house architecture across Himachal features elaborate wood carving.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "wood craft"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_metal_craft_of_chamba",
+      "title": "Metal Craft of Chamba",
+      "description": "Chamba has traditions of metalwork used for ritual and decorative objects.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chamba",
+      "category_id": "culture_learning",
+      "keywords": [
+        "metal craft"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Chamba",
+      "city_id": "chamba"
+    },
+    {
+      "id": "exp_himachal_pradesh_thangka_painting_in_dharamshala",
+      "title": "Thangka Painting in Dharamshala",
+      "description": "Tibetan Buddhist thangka painting is practised and taught in the Dharamshala-McLeod Ganj area.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kangra",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Tibetan art"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kangra",
+      "city_id": "kangra"
+    },
+    {
+      "id": "exp_himachal_pradesh_kullu_dussehra",
+      "title": "Kullu Dussehra",
+      "description": "Kullu Dussehra is a major week-long festival centred on the gathering of valley deities in Kullu.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kullu",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Dussehra"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kullu",
+      "city_id": "kullu"
+    },
+    {
+      "id": "exp_himachal_pradesh_minjar_fair",
+      "title": "Minjar Fair",
+      "description": "Minjar is Chamba's major seasonal fair and cultural festival.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chamba",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Minjar Mela"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Chamba",
+      "city_id": "chamba"
+    },
+    {
+      "id": "exp_himachal_pradesh_mandi_shivratri",
+      "title": "Mandi Shivratri",
+      "description": "Mandi Shivratri is a major festival in which regional deities gather in Mandi town.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "mandi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Shivratri"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Mandi",
+      "city_id": "mandi"
+    },
+    {
+      "id": "exp_himachal_pradesh_renuka_ji_fair",
+      "title": "Renuka Ji Fair",
+      "description": "Renuka Ji Fair is a major religious and cultural fair held at Renuka Lake in Sirmaur.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "sirmaur",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Renuka Fair"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Sirmaur",
+      "city_id": "sirmaur"
+    },
+    {
+      "id": "exp_himachal_pradesh_lavi_fair_rampur",
+      "title": "Lavi Fair Rampur",
+      "description": "Lavi is a historic trade fair held annually at Rampur Bushahr.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "shimla",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Rampur Lavi"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Shimla",
+      "city_id": "shimla"
+    },
+    {
+      "id": "exp_himachal_pradesh_phulaich_festival",
+      "title": "Phulaich Festival",
+      "description": "Phulaich is a flower festival associated with Kinnaur's village deity traditions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kinnaur",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Fulaich"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kinnaur",
+      "city_id": "kinnaur"
+    },
+    {
+      "id": "exp_himachal_pradesh_losar_in_spiti",
+      "title": "Losar in Spiti",
+      "description": "Losar marks the Tibetan New Year and is celebrated in Buddhist communities of Spiti and other highlands.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Tibetan New Year"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_halda_festival",
+      "title": "Halda Festival",
+      "description": "Halda is a winter festival of Lahaul with torchlight rituals and community celebration.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "culture_learning",
+      "keywords": [
+        "winter festival"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_nalwari_fair",
+      "title": "Nalwari Fair",
+      "description": "Nalwari is a traditional cattle and cultural fair associated with Bilaspur.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "bilaspur",
+      "category_id": "culture_learning",
+      "keywords": [
+        "cattle fair"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Bilaspur",
+      "city_id": "bilaspur"
+    },
+    {
+      "id": "exp_himachal_pradesh_nati_dance",
+      "title": "Nati Dance",
+      "description": "Nati is Himachal's best-known group folk-dance tradition with many regional variants.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "himachal_pradesh",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Himachal Pradesh",
+      "city_id": "himachal_pradesh"
+    },
+    {
+      "id": "exp_himachal_pradesh_kinnauri_nati",
+      "title": "Kinnauri Nati",
+      "description": "Kinnauri Nati is a slow, graceful community dance tradition of Kinnaur.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kinnaur",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Kinnaur",
+      "city_id": "kinnaur"
+    },
+    {
+      "id": "exp_himachal_pradesh_chamba_folk_songs",
+      "title": "Chamba Folk Songs",
+      "description": "Chamba has a rich repertoire of regional folk songs tied to festivals, love, pastoral life and deities.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "chamba",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk music"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Chamba",
+      "city_id": "chamba"
+    },
+    {
+      "id": "exp_himachal_pradesh_lahauli_folk_dance",
+      "title": "Lahauli Folk Dance",
+      "description": "Lahaul's community dances reflect high-altitude agrarian and Buddhist cultural traditions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_spiti_cham_dance",
+      "title": "Spiti Cham Dance",
+      "description": "Cham is a sacred masked monastic dance performed during Buddhist festivals in Spiti.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "lahaul_and_spiti",
+      "category_id": "culture_learning",
+      "keywords": [
+        "masked dance"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Lahaul and Spiti",
+      "city_id": "lahaul_and_spiti"
+    },
+    {
+      "id": "exp_himachal_pradesh_karyala_folk_theatre",
+      "title": "Karyala Folk Theatre",
+      "description": "Karyala is a traditional folk-theatre form associated with parts of Himachal.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "shimla",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk theatre"
+      ],
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "status": "active",
+      "city": "Shimla",
+      "city_id": "shimla"
+    }
+  ]
+}

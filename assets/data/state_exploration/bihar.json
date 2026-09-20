@@ -1,0 +1,7 @@
+{
+  "state_id": "bihar",
+  "state_name": "Bihar",
+  "district_asset": "assets/data/bihar_districts.json",
+  "experience_asset": "assets/data/bihar_experiences.json",
+  "collections_asset": "assets/data/bihar_collections.json"
+}

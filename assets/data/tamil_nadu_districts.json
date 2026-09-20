@@ -1,0 +1,360 @@
+{
+  "districts": [
+    {
+      "id": "district_tamil_nadu_ariyalur",
+      "name": "Ariyalur",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Ariyalur is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_chengalpattu",
+      "name": "Chengalpattu",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Chengalpattu is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_chennai",
+      "name": "Chennai",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Chennai is a district of Tamil Nadu.",
+      "keywords": [
+        "Madras"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_coimbatore",
+      "name": "Coimbatore",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Coimbatore is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_cuddalore",
+      "name": "Cuddalore",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Cuddalore is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_dharmapuri",
+      "name": "Dharmapuri",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Dharmapuri is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_dindigul",
+      "name": "Dindigul",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Dindigul is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_erode",
+      "name": "Erode",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Erode is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_kallakurichi",
+      "name": "Kallakurichi",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Kallakurichi is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_kancheepuram",
+      "name": "Kancheepuram",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Kancheepuram is a district of Tamil Nadu.",
+      "keywords": [
+        "Kanchipuram"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_kanniyakumari",
+      "name": "Kanniyakumari",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Kanniyakumari is a district of Tamil Nadu.",
+      "keywords": [
+        "Kanyakumari"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_karur",
+      "name": "Karur",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Karur is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_krishnagiri",
+      "name": "Krishnagiri",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Krishnagiri is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_madurai",
+      "name": "Madurai",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Madurai is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_mayiladuthurai",
+      "name": "Mayiladuthurai",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Mayiladuthurai is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_nagapattinam",
+      "name": "Nagapattinam",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Nagapattinam is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_namakkal",
+      "name": "Namakkal",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Namakkal is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_perambalur",
+      "name": "Perambalur",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Perambalur is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_pudukkottai",
+      "name": "Pudukkottai",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Pudukkottai is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_ramanathapuram",
+      "name": "Ramanathapuram",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Ramanathapuram is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_ranipet",
+      "name": "Ranipet",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Ranipet is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_salem",
+      "name": "Salem",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Salem is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_sivaganga",
+      "name": "Sivaganga",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Sivaganga is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_tenkasi",
+      "name": "Tenkasi",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Tenkasi is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_thanjavur",
+      "name": "Thanjavur",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Thanjavur is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_the_nilgiris",
+      "name": "The Nilgiris",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "The Nilgiris is a district of Tamil Nadu.",
+      "keywords": [
+        "Nilgiris"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_theni",
+      "name": "Theni",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Theni is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_thoothukudi",
+      "name": "Thoothukudi",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Thoothukudi is a district of Tamil Nadu.",
+      "keywords": [
+        "Tuticorin"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_tiruchirappalli",
+      "name": "Tiruchirappalli",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Tiruchirappalli is a district of Tamil Nadu.",
+      "keywords": [
+        "Trichy"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_tirunelveli",
+      "name": "Tirunelveli",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Tirunelveli is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_tirupathur",
+      "name": "Tirupathur",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Tirupathur is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_tiruppur",
+      "name": "Tiruppur",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Tiruppur is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_tiruvallur",
+      "name": "Tiruvallur",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Tiruvallur is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_tiruvannamalai",
+      "name": "Tiruvannamalai",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Tiruvannamalai is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_tiruvarur",
+      "name": "Tiruvarur",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Tiruvarur is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_vellore",
+      "name": "Vellore",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Vellore is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_viluppuram",
+      "name": "Viluppuram",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Viluppuram is a district of Tamil Nadu.",
+      "keywords": [
+        "Villupuram"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_tamil_nadu_virudhunagar",
+      "name": "Virudhunagar",
+      "state_id": "tamil_nadu",
+      "state_name": "Tamil Nadu",
+      "description": "Virudhunagar is a district of Tamil Nadu.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

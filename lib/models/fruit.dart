@@ -23,8 +23,13 @@ class Fruit {
   final String id;
   final String name;
   final String scientificName;
+  final List<String> aliases;
+  final String shortDescription;
   final String? cropGroup;
-  final String? imageStatus;
+  final List<String> tags;
+  final String imageAsset;
+  final List<String> sourceRefs;
+  final String researchStatus;
   final List<FruitStateRecord> states;
   final List<FruitVariety> varieties;
 
@@ -32,11 +37,19 @@ class Fruit {
     required this.id,
     required this.name,
     required this.scientificName,
+    this.aliases = const [],
+    this.shortDescription = '',
     this.cropGroup,
-    this.imageStatus,
+    this.tags = const [],
+    this.imageAsset = '',
+    this.sourceRefs = const [],
+    this.researchStatus = 'legacy_review_needed',
     required this.states,
     required this.varieties,
   });
+
+  String get canonicalImageAsset =>
+      imageAsset.isNotEmpty ? imageAsset : 'assets/images/fruits/$id.webp';
 
   factory Fruit.fromJson(Map<String, dynamic> json) {
     final rawStates = json['states'] as List<dynamic>? ?? [];
@@ -45,9 +58,22 @@ class Fruit {
     return Fruit(
       id: json['id']?.toString() ?? '',
       name: json['name']?.toString() ?? 'Unknown Fruit',
-      scientificName: json['scientific_name']?.toString() ?? '',
-      cropGroup: json['crop_group']?.toString(),
-      imageStatus: json['image_status']?.toString(),
+      scientificName:
+          (json['scientificName'] ?? json['scientific_name'])?.toString() ?? '',
+      aliases: (json['aliases'] as List<dynamic>? ?? const [])
+          .map((value) => value.toString())
+          .toList(),
+      shortDescription: json['shortDescription']?.toString() ?? '',
+      cropGroup: (json['cropGroup'] ?? json['crop_group'])?.toString(),
+      tags: (json['tags'] as List<dynamic>? ?? const [])
+          .map((value) => value.toString())
+          .toList(),
+      imageAsset: json['imageAsset']?.toString() ?? '',
+      sourceRefs: (json['sourceRefs'] as List<dynamic>? ?? const [])
+          .map((value) => value.toString())
+          .toList(),
+      researchStatus:
+          json['researchStatus']?.toString() ?? 'legacy_review_needed',
       states: rawStates
           .map(
             (state) => FruitStateRecord.fromJson(state as Map<String, dynamic>),

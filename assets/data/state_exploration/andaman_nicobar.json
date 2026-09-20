@@ -1,0 +1,7 @@
+{
+  "state_id": "andaman_nicobar",
+  "state_name": "Andaman and Nicobar Islands",
+  "district_asset": "assets/data/andaman_nicobar_districts.json",
+  "experience_asset": "assets/data/andaman_nicobar_experiences.json",
+  "collections_asset": "assets/data/andaman_nicobar_collections.json"
+}

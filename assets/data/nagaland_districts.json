@@ -1,0 +1,163 @@
+{
+  "districts": [
+    {
+      "id": "district_nagaland_chumoukedima",
+      "name": "Chümoukedima",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Chümoukedima is a district of Nagaland.",
+      "keywords": [
+        "Chumoukedima"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_dimapur",
+      "name": "Dimapur",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Dimapur is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_kiphire",
+      "name": "Kiphire",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Kiphire is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_kohima",
+      "name": "Kohima",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Kohima is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_longleng",
+      "name": "Longleng",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Longleng is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_meluri",
+      "name": "Meluri",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Meluri is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_mokokchung",
+      "name": "Mokokchung",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Mokokchung is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_mon",
+      "name": "Mon",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Mon is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_niuland",
+      "name": "Niuland",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Niuland is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_noklak",
+      "name": "Noklak",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Noklak is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_peren",
+      "name": "Peren",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Peren is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_phek",
+      "name": "Phek",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Phek is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_shamator",
+      "name": "Shamator",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Shamator is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_tuensang",
+      "name": "Tuensang",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Tuensang is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_tseminyu",
+      "name": "Tseminyü",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Tseminyü is a district of Nagaland.",
+      "keywords": [
+        "Tseminyu"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_wokha",
+      "name": "Wokha",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Wokha is a district of Nagaland.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_nagaland_zunheboto",
+      "name": "Zünheboto",
+      "state_id": "nagaland",
+      "state_name": "Nagaland",
+      "description": "Zünheboto is a district of Nagaland.",
+      "keywords": [
+        "Zunheboto"
+      ],
+      "status": "active"
+    }
+  ]
+}

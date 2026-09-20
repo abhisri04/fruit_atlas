@@ -1,0 +1,192 @@
+{
+  "collections": [
+    {
+      "id": "chandigarh_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Major landmarks, sacred sites, monuments and heritage places across Chandigarh.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "chandigarh",
+      "context_name": "Chandigarh",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_chandigarh_capitol_complex",
+        "exp_chandigarh_open_hand_monument",
+        "exp_chandigarh_le_corbusier_centre",
+        "exp_chandigarh_chandigarh_architecture_museum",
+        "exp_chandigarh_government_museum_and_art_gallery",
+        "exp_chandigarh_rock_garden",
+        "exp_chandigarh_manimajra_fort",
+        "exp_chandigarh_pierre_jeanneret_museum",
+        "exp_chandigarh_tower_of_shadows",
+        "exp_chandigarh_high_court_and_secretariat_architecture"
+      ],
+      "empty_message": "More Chandigarh landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "chandigarh_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Natural landscapes, parks, wetlands and wildlife areas across Chandigarh.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "chandigarh",
+      "context_name": "Chandigarh",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_chandigarh_sukhna_lake",
+        "exp_chandigarh_zakir_hussain_rose_garden",
+        "exp_chandigarh_chandigarh_bird_park",
+        "exp_chandigarh_garden_of_silence",
+        "exp_chandigarh_japanese_garden",
+        "exp_chandigarh_terraced_garden",
+        "exp_chandigarh_leisure_valley"
+      ],
+      "empty_message": "More Chandigarh nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "chandigarh_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Participatory travel, cultural and outdoor experiences across Chandigarh.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "chandigarh",
+      "context_name": "Chandigarh",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_chandigarh_walk_the_capitol_complex",
+        "exp_chandigarh_cycle_chandigarh_s_sector_grid",
+        "exp_chandigarh_boat_on_sukhna_lake",
+        "exp_chandigarh_walk_the_rock_garden",
+        "exp_chandigarh_follow_an_architecture_trail",
+        "exp_chandigarh_visit_chandigarh_s_museums",
+        "exp_chandigarh_walk_or_jog_the_sukhna_promenade",
+        "exp_chandigarh_explore_manimajra_market",
+        "exp_chandigarh_shop_at_shastri_market",
+        "exp_chandigarh_attend_a_performance_at_tagore_theatre"
+      ],
+      "empty_message": "More Chandigarh experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "chandigarh_fruits",
+      "title": "Fruits",
+      "description": "Fruits with a verified Chandigarh growing relationship in the canonical Fruit Atlas dataset.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "chandigarh",
+      "context_name": "Chandigarh",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Chandigarh fruits experiences are coming soon."
+    },
+    {
+      "id": "chandigarh_dishes",
+      "title": "Dishes",
+      "description": "Regional dishes, sweets and food experiences associated with Chandigarh.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "chandigarh",
+      "context_name": "Chandigarh",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_chandigarh_chole_bhature",
+        "exp_chandigarh_amritsari_kulcha_chandigarh_style",
+        "exp_chandigarh_paneer_tikka",
+        "exp_chandigarh_butter_chicken",
+        "exp_chandigarh_rajma_chawal",
+        "exp_chandigarh_gol_gappe",
+        "exp_chandigarh_tikki_chaat",
+        "exp_chandigarh_stuffed_paratha"
+      ],
+      "empty_message": "More Chandigarh dishes experiences are coming soon."
+    },
+    {
+      "id": "chandigarh_drinks",
+      "title": "Drinks",
+      "description": "Non-alcoholic drink experiences associated with Chandigarh.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "chandigarh",
+      "context_name": "Chandigarh",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_chandigarh_punjabi_lassi",
+        "exp_chandigarh_masala_chai",
+        "exp_chandigarh_shikanji"
+      ],
+      "empty_message": "More Chandigarh drinks experiences are coming soon."
+    },
+    {
+      "id": "chandigarh_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts, crafts and material-culture traditions associated with Chandigarh.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "chandigarh",
+      "context_name": "Chandigarh",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_chandigarh_open_hand_art_studios",
+        "exp_chandigarh_phulkari_in_chandigarh_markets",
+        "exp_chandigarh_punjabi_jutti_craft",
+        "exp_chandigarh_modernist_furniture_and_design_heritage",
+        "exp_chandigarh_nek_chand_recycled_material_art"
+      ],
+      "empty_message": "More Chandigarh arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "chandigarh_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals, fairs and public cultural events associated with Chandigarh.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "chandigarh",
+      "context_name": "Chandigarh",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_chandigarh_chandigarh_carnival",
+        "exp_chandigarh_chandigarh_national_craft_mela",
+        "exp_chandigarh_chandigarh_arts_and_heritage_festival",
+        "exp_chandigarh_teej_festival_chandigarh",
+        "exp_chandigarh_chrysanthemum_show",
+        "exp_chandigarh_rose_festival",
+        "exp_chandigarh_theatre_festival_chandigarh"
+      ],
+      "empty_message": "More Chandigarh festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "chandigarh_music_dance",
+      "title": "Music & Dance",
+      "description": "Music, dance and performance traditions associated with Chandigarh.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "chandigarh",
+      "context_name": "Chandigarh",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_chandigarh_punjabi_bhangra",
+        "exp_chandigarh_punjabi_giddha",
+        "exp_chandigarh_classical_music_at_tagore_theatre",
+        "exp_chandigarh_punjabi_folk_music"
+      ],
+      "empty_message": "More Chandigarh music & dance experiences are coming soon."
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "districts": [
+    {
+      "id": "district_bihar_araria",
+      "name": "Araria",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Araria is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_arwal",
+      "name": "Arwal",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Arwal is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_aurangabad",
+      "name": "Aurangabad",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Aurangabad is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_banka",
+      "name": "Banka",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Banka is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_begusarai",
+      "name": "Begusarai",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Begusarai is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_bhagalpur",
+      "name": "Bhagalpur",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Bhagalpur is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_bhojpur",
+      "name": "Bhojpur",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Bhojpur is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_buxar",
+      "name": "Buxar",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Buxar is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_darbhanga",
+      "name": "Darbhanga",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Darbhanga is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_east_champaran",
+      "name": "East Champaran",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "East Champaran is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_gaya_ji",
+      "name": "Gaya Ji",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Gaya Ji is a district of Bihar.",
+      "keywords": [
+        "Gaya"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_gopalganj",
+      "name": "Gopalganj",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Gopalganj is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_jamui",
+      "name": "Jamui",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Jamui is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_jehanabad",
+      "name": "Jehanabad",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Jehanabad is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_kaimur",
+      "name": "Kaimur",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Kaimur is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_katihar",
+      "name": "Katihar",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Katihar is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_khagaria",
+      "name": "Khagaria",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Khagaria is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_kishanganj",
+      "name": "Kishanganj",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Kishanganj is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_lakhisarai",
+      "name": "Lakhisarai",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Lakhisarai is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_madhepura",
+      "name": "Madhepura",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Madhepura is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_madhubani",
+      "name": "Madhubani",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Madhubani is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_munger",
+      "name": "Munger",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Munger is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_muzaffarpur",
+      "name": "Muzaffarpur",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Muzaffarpur is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_nalanda",
+      "name": "Nalanda",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Nalanda is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_nawada",
+      "name": "Nawada",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Nawada is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_patna",
+      "name": "Patna",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Patna is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_purnia",
+      "name": "Purnia",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Purnia is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_rohtas",
+      "name": "Rohtas",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Rohtas is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_saharsa",
+      "name": "Saharsa",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Saharsa is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_samastipur",
+      "name": "Samastipur",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Samastipur is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_saran",
+      "name": "Saran",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Saran is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_sheikhpura",
+      "name": "Sheikhpura",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Sheikhpura is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_sheohar",
+      "name": "Sheohar",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Sheohar is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_sitamarhi",
+      "name": "Sitamarhi",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Sitamarhi is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_siwan",
+      "name": "Siwan",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Siwan is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_supaul",
+      "name": "Supaul",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Supaul is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_vaishali",
+      "name": "Vaishali",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "Vaishali is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_bihar_west_champaran",
+      "name": "West Champaran",
+      "state_id": "bihar",
+      "state_name": "Bihar",
+      "description": "West Champaran is a district of Bihar.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

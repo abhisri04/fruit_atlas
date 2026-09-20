@@ -1,0 +1,170 @@
+{
+  "collections": [
+    {
+      "id": "kerala_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Kerala.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "kerala",
+      "context_name": "Kerala",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_kerala_mattancherry_palace",
+        "exp_kerala_paradesi_synagogue",
+        "exp_kerala_bekal_fort",
+        "exp_kerala_palakkad_fort",
+        "exp_kerala_thalassery_fort",
+        "exp_kerala_shakthan_thampuran_palace"
+      ],
+      "empty_message": "More Kerala landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "kerala_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Kerala.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "kerala",
+      "context_name": "Kerala",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_kerala_eravikulam_national_park",
+        "exp_kerala_periyar_national_park",
+        "exp_kerala_silent_valley_national_park",
+        "exp_kerala_athirappilly_falls",
+        "exp_kerala_vazhachal_falls"
+      ],
+      "empty_message": "More Kerala nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "kerala_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Kerala.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "kerala",
+      "context_name": "Kerala",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_kerala_cruise_the_alappuzha_backwaters",
+        "exp_kerala_watch_a_kalaripayattu_demonstration"
+      ],
+      "empty_message": "More Kerala experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "kerala_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Kerala in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "kerala",
+      "context_name": "Kerala",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Kerala fruits experiences are coming soon."
+    },
+    {
+      "id": "kerala_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Kerala.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "kerala",
+      "context_name": "Kerala",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_kerala_puttu_and_kadala_curry",
+        "exp_kerala_appam_and_stew",
+        "exp_kerala_karimeen_pollichathu",
+        "exp_kerala_ada_pradhaman",
+        "exp_kerala_kappa_and_fish_curry",
+        "exp_kerala_pazham_pori",
+        "exp_kerala_kerala_sadya"
+      ],
+      "empty_message": "More Kerala dishes experiences are coming soon."
+    },
+    {
+      "id": "kerala_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Kerala.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "kerala",
+      "context_name": "Kerala",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_kerala_sulaimani_tea"
+      ],
+      "empty_message": "More Kerala drinks experiences are coming soon."
+    },
+    {
+      "id": "kerala_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Kerala.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "kerala",
+      "context_name": "Kerala",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_kerala_aranmula_kannadi",
+        "exp_kerala_balaramapuram_handloom",
+        "exp_kerala_nettur_petti",
+        "exp_kerala_kerala_mural_painting"
+      ],
+      "empty_message": "More Kerala arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "kerala_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Kerala.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "kerala",
+      "context_name": "Kerala",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_kerala_onam",
+        "exp_kerala_thrissur_pooram",
+        "exp_kerala_nishagandhi_dance_and_music_festival"
+      ],
+      "empty_message": "More Kerala festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "kerala_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Kerala.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "kerala",
+      "context_name": "Kerala",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_kerala_kathakali",
+        "exp_kerala_mohiniyattam",
+        "exp_kerala_theyyam",
+        "exp_kerala_thiruvathirakali"
+      ],
+      "empty_message": "More Kerala music & dance experiences are coming soon."
+    }
+  ]
+}

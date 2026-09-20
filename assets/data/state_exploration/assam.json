@@ -1,0 +1,7 @@
+{
+  "state_id": "assam",
+  "state_name": "Assam",
+  "district_asset": "assets/data/assam_districts.json",
+  "experience_asset": "assets/data/assam_experiences.json",
+  "collections_asset": "assets/data/assam_collections.json"
+}

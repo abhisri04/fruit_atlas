@@ -1,0 +1,168 @@
+{
+  "collections": [
+    {
+      "id": "telangana_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Telangana.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "telangana",
+      "context_name": "Telangana",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_telangana_charminar",
+        "exp_telangana_golconda_fort",
+        "exp_telangana_qutb_shahi_tombs",
+        "exp_telangana_warangal_fort",
+        "exp_telangana_ramappa_temple",
+        "exp_telangana_chowmahalla_palace"
+      ],
+      "empty_message": "More Telangana landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "telangana_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Telangana.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "telangana",
+      "context_name": "Telangana",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_telangana_kawal_tiger_reserve",
+        "exp_telangana_amrabad_tiger_reserve",
+        "exp_telangana_kasu_brahmananda_reddy_national_park",
+        "exp_telangana_mrugavani_national_park",
+        "exp_telangana_kuntala_falls"
+      ],
+      "empty_message": "More Telangana nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "telangana_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Telangana.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "telangana",
+      "context_name": "Telangana",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_telangana_boat_on_hussain_sagar",
+        "exp_telangana_browse_laad_bazaar"
+      ],
+      "empty_message": "More Telangana experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "telangana_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Telangana in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "telangana",
+      "context_name": "Telangana",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Telangana fruits experiences are coming soon."
+    },
+    {
+      "id": "telangana_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Telangana.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "telangana",
+      "context_name": "Telangana",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_telangana_hyderabadi_biryani",
+        "exp_telangana_hyderabadi_haleem",
+        "exp_telangana_sarva_pindi",
+        "exp_telangana_osmania_biscuits",
+        "exp_telangana_sakinalu",
+        "exp_telangana_qubani_ka_meetha"
+      ],
+      "empty_message": "More Telangana dishes experiences are coming soon."
+    },
+    {
+      "id": "telangana_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Telangana.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "telangana",
+      "context_name": "Telangana",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_telangana_hyderabadi_irani_chai"
+      ],
+      "empty_message": "More Telangana drinks experiences are coming soon."
+    },
+    {
+      "id": "telangana_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Telangana.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "telangana",
+      "context_name": "Telangana",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_telangana_pochampally_ikat",
+        "exp_telangana_gadwal_sarees",
+        "exp_telangana_nirmal_paintings",
+        "exp_telangana_cheriyal_scroll_painting"
+      ],
+      "empty_message": "More Telangana arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "telangana_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Telangana.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "telangana",
+      "context_name": "Telangana",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_telangana_bathukamma",
+        "exp_telangana_bonalu",
+        "exp_telangana_sammakka_saralamma_jatara"
+      ],
+      "empty_message": "More Telangana festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "telangana_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Telangana.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "telangana",
+      "context_name": "Telangana",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_telangana_perini_shivatandavam",
+        "exp_telangana_oggu_katha",
+        "exp_telangana_gussadi_dance"
+      ],
+      "empty_message": "More Telangana music & dance experiences are coming soon."
+    }
+  ]
+}

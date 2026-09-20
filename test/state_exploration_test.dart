@@ -86,7 +86,7 @@ void main() {
         )
         .map((fruit) => fruit['name'])
         .toSet();
-    expect(associated, {'Mango', 'Grapes'});
+    expect(associated, {'Mango', 'Grapes', 'Pomegranate', 'Olive'});
   });
 
   testWidgets('visited state and completed experiences remain independent', (
@@ -131,7 +131,7 @@ void main() {
 
     expect(find.text('Mark as Visited'), findsOneWidget);
     expect(find.text('EXPLORE RAJASTHAN'), findsOneWidget);
-    expect(find.text('1 of 117'), findsOneWidget);
+    expect(find.text('1 of 119'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('Places'),
       180,

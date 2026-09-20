@@ -1,0 +1,328 @@
+{
+  "districts": [
+    {
+      "id": "district_maharashtra_mumbai_city",
+      "name": "Mumbai City",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Mumbai City is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_mumbai_suburban",
+      "name": "Mumbai Suburban",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Mumbai Suburban is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_thane",
+      "name": "Thane",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Thane is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_palghar",
+      "name": "Palghar",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Palghar is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_raigad",
+      "name": "Raigad",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Raigad is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_ratnagiri",
+      "name": "Ratnagiri",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Ratnagiri is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_sindhudurg",
+      "name": "Sindhudurg",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Sindhudurg is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_pune",
+      "name": "Pune",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Pune is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_satara",
+      "name": "Satara",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Satara is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_sangli",
+      "name": "Sangli",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Sangli is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_kolhapur",
+      "name": "Kolhapur",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Kolhapur is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_solapur",
+      "name": "Solapur",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Solapur is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_nashik",
+      "name": "Nashik",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Nashik is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_dhule",
+      "name": "Dhule",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Dhule is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_nandurbar",
+      "name": "Nandurbar",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Nandurbar is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_jalgaon",
+      "name": "Jalgaon",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Jalgaon is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_ahilyanagar",
+      "name": "Ahilyanagar",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Ahilyanagar is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_chhatrapati_sambhajinagar",
+      "name": "Chhatrapati Sambhajinagar",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Chhatrapati Sambhajinagar is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_jalna",
+      "name": "Jalna",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Jalna is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_beed",
+      "name": "Beed",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Beed is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_dharashiv",
+      "name": "Dharashiv",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Dharashiv is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_latur",
+      "name": "Latur",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Latur is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_nanded",
+      "name": "Nanded",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Nanded is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_parbhani",
+      "name": "Parbhani",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Parbhani is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_hingoli",
+      "name": "Hingoli",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Hingoli is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_amravati",
+      "name": "Amravati",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Amravati is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_akola",
+      "name": "Akola",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Akola is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_washim",
+      "name": "Washim",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Washim is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_buldhana",
+      "name": "Buldhana",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Buldhana is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_yavatmal",
+      "name": "Yavatmal",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Yavatmal is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_wardha",
+      "name": "Wardha",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Wardha is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_nagpur",
+      "name": "Nagpur",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Nagpur is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_bhandara",
+      "name": "Bhandara",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Bhandara is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_gondia",
+      "name": "Gondia",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Gondia is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_chandrapur",
+      "name": "Chandrapur",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Chandrapur is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_maharashtra_gadchiroli",
+      "name": "Gadchiroli",
+      "state_id": "maharashtra",
+      "state_name": "Maharashtra",
+      "description": "Gadchiroli is a district of Maharashtra.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

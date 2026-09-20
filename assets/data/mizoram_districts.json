@@ -1,0 +1,105 @@
+{
+  "districts": [
+    {
+      "id": "district_mizoram_aizawl",
+      "name": "Aizawl",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Aizawl is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_champhai",
+      "name": "Champhai",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Champhai is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_hnahthial",
+      "name": "Hnahthial",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Hnahthial is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_khawzawl",
+      "name": "Khawzawl",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Khawzawl is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_kolasib",
+      "name": "Kolasib",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Kolasib is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_lawngtlai",
+      "name": "Lawngtlai",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Lawngtlai is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_lunglei",
+      "name": "Lunglei",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Lunglei is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_mamit",
+      "name": "Mamit",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Mamit is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_saitual",
+      "name": "Saitual",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Saitual is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_serchhip",
+      "name": "Serchhip",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Serchhip is a district of Mizoram.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_mizoram_siaha",
+      "name": "Siaha",
+      "state_id": "mizoram",
+      "state_name": "Mizoram",
+      "description": "Siaha is a district of Mizoram.",
+      "keywords": [
+        "Saiha"
+      ],
+      "status": "active"
+    }
+  ]
+}

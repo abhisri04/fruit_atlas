@@ -1,0 +1,154 @@
+{
+  "collections": [
+    {
+      "id": "andaman_nicobar_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Andaman and Nicobar Islands.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "andaman_nicobar",
+      "context_name": "Andaman and Nicobar Islands",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_andaman_nicobar_cellular_jail_national_memorial",
+        "exp_andaman_nicobar_chatham_saw_mill",
+        "exp_andaman_nicobar_samudrika_naval_marine_museum",
+        "exp_andaman_nicobar_zonal_anthropological_museum"
+      ],
+      "empty_message": "More Andaman and Nicobar Islands landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "andaman_nicobar_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Andaman and Nicobar Islands.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "andaman_nicobar",
+      "context_name": "Andaman and Nicobar Islands",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_andaman_nicobar_mahatma_gandhi_marine_national_park",
+        "exp_andaman_nicobar_chidiya_tapu",
+        "exp_andaman_nicobar_wandoor_beach",
+        "exp_andaman_nicobar_radhanagar_beach"
+      ],
+      "empty_message": "More Andaman and Nicobar Islands nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "andaman_nicobar_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Andaman and Nicobar Islands.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "andaman_nicobar",
+      "context_name": "Andaman and Nicobar Islands",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_andaman_nicobar_scuba_dive_off_swaraj_dweep",
+        "exp_andaman_nicobar_cellular_jail_sound_and_light_show"
+      ],
+      "empty_message": "More Andaman and Nicobar Islands experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "andaman_nicobar_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Andaman and Nicobar Islands in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "andaman_nicobar",
+      "context_name": "Andaman and Nicobar Islands",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Andaman and Nicobar Islands fruits experiences are coming soon."
+    },
+    {
+      "id": "andaman_nicobar_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Andaman and Nicobar Islands.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "andaman_nicobar",
+      "context_name": "Andaman and Nicobar Islands",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_andaman_nicobar_andaman_prawn_curry"
+      ],
+      "empty_message": "More Andaman and Nicobar Islands dishes experiences are coming soon."
+    },
+    {
+      "id": "andaman_nicobar_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Andaman and Nicobar Islands.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "andaman_nicobar",
+      "context_name": "Andaman and Nicobar Islands",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [],
+      "empty_message": "No distinct, verified local drinks are listed yet."
+    },
+    {
+      "id": "andaman_nicobar_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Andaman and Nicobar Islands.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "andaman_nicobar",
+      "context_name": "Andaman and Nicobar Islands",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_andaman_nicobar_nicobari_hodi_craft",
+        "exp_andaman_nicobar_nicobari_mat_weaving",
+        "exp_andaman_nicobar_andaman_padauk_wood_craft"
+      ],
+      "empty_message": "More Andaman and Nicobar Islands arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "andaman_nicobar_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Andaman and Nicobar Islands.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "andaman_nicobar",
+      "context_name": "Andaman and Nicobar Islands",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_andaman_nicobar_island_tourism_festival",
+        "exp_andaman_nicobar_andaman_island_food_festival"
+      ],
+      "empty_message": "More Andaman and Nicobar Islands festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "andaman_nicobar_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Andaman and Nicobar Islands.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "andaman_nicobar",
+      "context_name": "Andaman and Nicobar Islands",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_andaman_nicobar_nicobari_dance"
+      ],
+      "empty_message": "More Andaman and Nicobar Islands music & dance experiences are coming soon."
+    }
+  ]
+}

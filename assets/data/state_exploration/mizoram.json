@@ -1,0 +1,7 @@
+{
+  "state_id": "mizoram",
+  "state_name": "Mizoram",
+  "district_asset": "assets/data/mizoram_districts.json",
+  "experience_asset": "assets/data/mizoram_experiences.json",
+  "collections_asset": "assets/data/mizoram_collections.json"
+}

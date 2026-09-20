@@ -1,0 +1,7 @@
+{
+  "state_id": "kerala",
+  "state_name": "Kerala",
+  "district_asset": "assets/data/kerala_districts.json",
+  "experience_asset": "assets/data/kerala_experiences.json",
+  "collections_asset": "assets/data/kerala_collections.json"
+}

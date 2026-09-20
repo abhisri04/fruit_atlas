@@ -1,0 +1,7 @@
+{
+  "state_id": "andhra_pradesh",
+  "state_name": "Andhra Pradesh",
+  "district_asset": "assets/data/andhra_pradesh_districts.json",
+  "experience_asset": "assets/data/andhra_pradesh_experiences.json",
+  "collections_asset": "assets/data/andhra_pradesh_collections.json"
+}

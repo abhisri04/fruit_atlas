@@ -1,0 +1,7 @@
+{
+  "state_id": "himachal_pradesh",
+  "state_name": "Himachal Pradesh",
+  "district_asset": "assets/data/himachal_pradesh_districts.json",
+  "experience_asset": "assets/data/himachal_pradesh_experiences.json",
+  "collections_asset": "assets/data/himachal_pradesh_collections.json"
+}

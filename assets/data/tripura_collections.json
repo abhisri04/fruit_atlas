@@ -1,0 +1,165 @@
+{
+  "collections": [
+    {
+      "id": "tripura_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Tripura.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "tripura",
+      "context_name": "Tripura",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_tripura_neermahal",
+        "exp_tripura_ujjayanta_palace",
+        "exp_tripura_unakoti_rock_carvings",
+        "exp_tripura_pilak_archaeological_site",
+        "exp_tripura_tripura_sundari_temple",
+        "exp_tripura_bhuvaneswari_temple"
+      ],
+      "empty_message": "More Tripura landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "tripura_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Tripura.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "tripura",
+      "context_name": "Tripura",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_tripura_jampui_hills",
+        "exp_tripura_sepahijala_wildlife_sanctuary",
+        "exp_tripura_gumti_wildlife_sanctuary",
+        "exp_tripura_dumboor_lake"
+      ],
+      "empty_message": "More Tripura nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "tripura_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Tripura.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "tripura",
+      "context_name": "Tripura",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_tripura_walk_durgabari_tea_estate",
+        "exp_tripura_boat_to_chabimura_rock_carvings"
+      ],
+      "empty_message": "More Tripura experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "tripura_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Tripura in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "tripura",
+      "context_name": "Tripura",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Tripura fruits experiences are coming soon."
+    },
+    {
+      "id": "tripura_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Tripura.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "tripura",
+      "context_name": "Tripura",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_tripura_muya_awandru",
+        "exp_tripura_kosoi_bwtwi",
+        "exp_tripura_muya_bai_wahan",
+        "exp_tripura_gudok",
+        "exp_tripura_mosdeng_serma"
+      ],
+      "empty_message": "More Tripura dishes experiences are coming soon."
+    },
+    {
+      "id": "tripura_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Tripura.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "tripura",
+      "context_name": "Tripura",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_tripura_tripura_tea"
+      ],
+      "empty_message": "More Tripura drinks experiences are coming soon."
+    },
+    {
+      "id": "tripura_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Tripura.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "tripura",
+      "context_name": "Tripura",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_tripura_risa_weaving",
+        "exp_tripura_rignai_weaving"
+      ],
+      "empty_message": "More Tripura arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "tripura_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Tripura.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "tripura",
+      "context_name": "Tripura",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_tripura_kharchi_puja",
+        "exp_tripura_garia_puja",
+        "exp_tripura_ker_puja",
+        "exp_tripura_unakoti_ashokastami_fair"
+      ],
+      "empty_message": "More Tripura festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "tripura_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Tripura.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "tripura",
+      "context_name": "Tripura",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_tripura_hojagiri",
+        "exp_tripura_garia_dance",
+        "exp_tripura_lebang_boomani"
+      ],
+      "empty_message": "More Tripura music & dance experiences are coming soon."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "districts": [
+    {
+      "id": "district_west_bengal_alipurduar",
+      "name": "Alipurduar",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Alipurduar is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_bankura",
+      "name": "Bankura",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Bankura is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_birbhum",
+      "name": "Birbhum",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Birbhum is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_cooch_behar",
+      "name": "Cooch Behar",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Cooch Behar is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_dakshin_dinajpur",
+      "name": "Dakshin Dinajpur",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Dakshin Dinajpur is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_darjeeling",
+      "name": "Darjeeling",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Darjeeling is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_hooghly",
+      "name": "Hooghly",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Hooghly is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_howrah",
+      "name": "Howrah",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Howrah is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_jalpaiguri",
+      "name": "Jalpaiguri",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Jalpaiguri is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_jhargram",
+      "name": "Jhargram",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Jhargram is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_kalimpong",
+      "name": "Kalimpong",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Kalimpong is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_kolkata",
+      "name": "Kolkata",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Kolkata is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_malda",
+      "name": "Malda",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Malda is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_murshidabad",
+      "name": "Murshidabad",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Murshidabad is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_nadia",
+      "name": "Nadia",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Nadia is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_north_24_parganas",
+      "name": "North 24 Parganas",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "North 24 Parganas is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_paschim_bardhaman",
+      "name": "Paschim Bardhaman",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Paschim Bardhaman is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_paschim_medinipur",
+      "name": "Paschim Medinipur",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Paschim Medinipur is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_purba_bardhaman",
+      "name": "Purba Bardhaman",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Purba Bardhaman is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_purba_medinipur",
+      "name": "Purba Medinipur",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Purba Medinipur is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_purulia",
+      "name": "Purulia",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Purulia is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_south_24_parganas",
+      "name": "South 24 Parganas",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "South 24 Parganas is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_west_bengal_uttar_dinajpur",
+      "name": "Uttar Dinajpur",
+      "state_id": "west_bengal",
+      "state_name": "West Bengal",
+      "description": "Uttar Dinajpur is a district of West Bengal.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

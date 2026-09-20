@@ -19,12 +19,14 @@ import '../../services/district_repository.dart';
 import '../../services/experience_repository.dart';
 import '../../services/experience_collection_repository.dart';
 import '../../services/progress_service.dart';
+import '../../services/state_exploration_repository.dart';
 import '../../widgets/circular_progress_widget.dart';
 import '../../widgets/district_tile.dart';
 import '../../widgets/exploration_section_card.dart';
 import '../../widgets/experience_tile.dart';
 import '../../widgets/experience_collection_tile.dart';
 import '../../widgets/yoga_pose_tile.dart';
+import '../../widgets/fruit_image.dart';
 
 class ChecklistItemDetailsPage extends StatefulWidget {
   final Challenge challenge;
@@ -47,6 +49,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
   static const experienceRepository = ExperienceRepository();
   static const districtRepository = DistrictRepository();
   static const collectionRepository = ExperienceCollectionRepository();
+  static const stateExplorationRepository = StateExplorationRepository();
   static const dataService = AssetDataService();
   bool isCompleted = false;
   bool isLoading = true;
@@ -139,6 +142,9 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
   }
 
   Future<void> loadExploration() async {
+    if (widget.challenge.itemType == 'state_or_union_territory') {
+      return _loadStateExploration();
+    }
     try {
       final experiencesFuture = experienceRepository.getForLocation(
         widget.item.id,
@@ -182,6 +188,60 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
             .toList(growable: false);
         completedExperienceIds = completedExperiences.intersection(
           loaded.map((experience) => experience.id).toSet(),
+        );
+        completedDistrictIds = completedDistricts.intersection(
+          loadedDistricts.map((district) => district.id).toSet(),
+        );
+        completedFruitIds = completedFruits.intersection(
+          loadedFruits.map((fruit) => fruit.id).toSet(),
+        );
+        isExperiencesLoading = false;
+      });
+    } catch (_) {
+      if (!mounted) return;
+      setState(() => isExperiencesLoading = false);
+    }
+  }
+
+  Future<void> _loadStateExploration() async {
+    try {
+      final stateDataFuture = stateExplorationRepository.load(widget.item.id);
+      final fruitDataFuture = dataService.loadFruitData();
+      final completedExperiencesFuture =
+          ProgressService.getCompletedExperienceIds();
+      final completedDistrictsFuture =
+          ProgressService.getCompletedDistrictIds();
+      final completedFruitsFuture = ProgressService.getCompletedFruitIds();
+
+      final stateData = await stateDataFuture;
+      final fruitData = await fruitDataFuture;
+      final matchingStates = fruitData.states.where(
+        (state) => state.name.toLowerCase() == widget.item.name.toLowerCase(),
+      );
+      final atlasStateId = matchingStates.firstOrNull?.id;
+      final loadedFruits = atlasStateId == null
+          ? const <Fruit>[]
+          : fruitData.fruits
+                .where(
+                  (fruit) => fruit.states.any(
+                    (record) => record.stateId == atlasStateId,
+                  ),
+                )
+                .toList(growable: false);
+      final loadedExperiences = stateData?.experiences ?? const <Experience>[];
+      final loadedDistricts = stateData?.districts ?? const <District>[];
+      final completedExperiences = await completedExperiencesFuture;
+      final completedDistricts = await completedDistrictsFuture;
+      final completedFruits = await completedFruitsFuture;
+      if (!mounted) return;
+      setState(() {
+        experiences = loadedExperiences;
+        districts = loadedDistricts;
+        fruits = loadedFruits;
+        atlasStates = fruitData.states;
+        collections = stateData?.collections ?? const <ExperienceCollection>[];
+        completedExperienceIds = completedExperiences.intersection(
+          loadedExperiences.map((experience) => experience.id).toSet(),
         );
         completedDistrictIds = completedDistricts.intersection(
           loadedDistricts.map((district) => district.id).toSet(),
@@ -328,10 +388,18 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
   };
 
   List<Widget> buildExperienceExplorerSlivers(BuildContext context) {
+    final collectionExperienceIds = collections
+        .where((collection) => collection.entityType == 'experience')
+        .expand((collection) => collection.memberEntityIds)
+        .toSet();
     final visibleExperiences = districts.isEmpty
         ? experiences
         : experiences
-              .where((experience) => experience.section != 'Places')
+              .where(
+                (experience) =>
+                    experience.section != 'Places' ||
+                    collectionExperienceIds.contains(experience.id),
+              )
               .toList();
     final totalCount =
         districts.length + visibleExperiences.length + fruits.length;
@@ -346,7 +414,8 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
     final progress = totalCount == 0 ? 0.0 : completedCount / totalCount;
     final sections = <String>[
       if (districts.isNotEmpty ||
-          visibleExperiences.any((item) => item.section == 'Places'))
+          visibleExperiences.any((item) => item.section == 'Places') ||
+          _collectionsForSection('Places').isNotEmpty)
         'Places',
       for (final section in ['Food & Drink', 'Things to Do', 'Culture'])
         if (visibleExperiences.any((item) => item.section == section) ||
@@ -370,33 +439,63 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                 ),
               ),
               const SizedBox(height: 12),
-              Row(
-                children: [
-                  CircularProgressWidget(
-                    progress: progress,
-                    variant: ProgressSize.medium,
-                  ),
-                  const SizedBox(width: 18),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          '$completedCount of $totalCount',
-                          style: const TextStyle(
-                            fontSize: 22,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                        const Text(
-                          'explorations',
-                          style: TextStyle(color: AppColors.muted),
-                        ),
-                      ],
+              if (totalCount == 0)
+                const Row(
+                  children: [
+                    Icon(
+                      Icons.explore_outlined,
+                      size: 38,
+                      color: AppColors.primary,
                     ),
-                  ),
-                ],
-              ),
+                    SizedBox(width: 18),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Coming soon',
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                          Text(
+                            'Exploration collections are being prepared.',
+                            style: TextStyle(color: AppColors.muted),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                )
+              else
+                Row(
+                  children: [
+                    CircularProgressWidget(
+                      progress: progress,
+                      variant: ProgressSize.medium,
+                    ),
+                    const SizedBox(width: 18),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            '$completedCount of $totalCount',
+                            style: const TextStyle(
+                              fontSize: 22,
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                          const Text(
+                            'explorations',
+                            style: TextStyle(color: AppColors.muted),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
             ],
           ),
         ),
@@ -414,7 +513,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
     final sectionExperiences = visibleExperiences
         .where((item) => item.section == section)
         .toList(growable: false);
-    final isPlaces = section == 'Places' && districts.isNotEmpty;
+    final hasDistricts = section == 'Places' && districts.isNotEmpty;
     final sectionCollections = _collectionsForSection(section);
     final usesCollections = sectionCollections.isNotEmpty;
     final collectionMemberKeys = <String>{};
@@ -438,35 +537,32 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
         }
       }
     }
-    final total = isPlaces
-        ? districts.length
-        : usesCollections
-        ? collectionMemberKeys.length
+    final total = hasDistricts || usesCollections
+        ? (hasDistricts ? districts.length : 0) + collectionMemberKeys.length
         : sectionExperiences.length;
-    final completed = isPlaces
-        ? completedDistrictIds.length
-        : usesCollections
-        ? completedCollectionKeys.length
+    final completed = hasDistricts || usesCollections
+        ? (hasDistricts ? completedDistrictIds.length : 0) +
+              completedCollectionKeys.length
         : sectionExperiences
               .where((item) => completedExperienceIds.contains(item.id))
               .length;
+    final districtItemCount = hasDistricts ? districts.length : 0;
     return ExplorationSectionCard(
       key: ValueKey('exploration-section-$section'),
       icon: sectionIcon(section),
       title: section,
-      subtitle: isPlaces
+      subtitle: hasDistricts
           ? 'Explore ${widget.item.name} district by district'
           : null,
       completedCount: completed,
       totalCount: total,
+      showProgress: total > 0,
       initiallyExpanded: section == sections.first && districts.length <= 10,
-      itemCount: isPlaces
-          ? districts.length
-          : usesCollections
-          ? sectionCollections.length
+      itemCount: hasDistricts || usesCollections
+          ? districtItemCount + sectionCollections.length
           : sectionExperiences.length,
       itemBuilder: (context, index) {
-        if (isPlaces) {
+        if (index < districtItemCount) {
           final district = districts[index];
           return DistrictTile(
             district: district,
@@ -477,7 +573,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
           );
         }
         if (usesCollections) {
-          final collection = sectionCollections[index];
+          final collection = sectionCollections[index - districtItemCount];
           final collectionFruits = collection.entityType == 'fruit'
               ? fruits
               : const <Fruit>[];
@@ -564,10 +660,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
       color: completed ? AppColors.completedSurface : AppColors.surface,
       margin: const EdgeInsets.only(bottom: 8),
       child: ListTile(
-        leading: Icon(
-          Icons.eco_outlined,
-          color: completed ? AppColors.primary : null,
-        ),
+        leading: FruitImage(fruit: fruit, width: 42, height: 42, iconSize: 22),
         title: Text(
           fruit.name,
           style: TextStyle(
@@ -958,7 +1051,8 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
             )
           else if (experiences.isNotEmpty ||
               districts.isNotEmpty ||
-              fruits.isNotEmpty)
+              fruits.isNotEmpty ||
+              collections.isNotEmpty)
             SliverPadding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               sliver: SliverMainAxisGroup(

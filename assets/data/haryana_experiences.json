@@ -1,0 +1,1169 @@
+{
+  "experiences": [
+    {
+      "id": "exp_haryana_brahma_sarovar",
+      "title": "Brahma Sarovar",
+      "description": "Brahma Sarovar is a major sacred water tank and pilgrimage landmark in Kurukshetra.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kurukshetra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "sarovar"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_jyotisar",
+      "title": "Jyotisar",
+      "description": "Jyotisar is a major pilgrimage site in Kurukshetra associated with the Bhagavad Gita tradition.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kurukshetra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Gita"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_sheikh_chilli_s_tomb",
+      "title": "Sheikh Chilli's Tomb",
+      "description": "Sheikh Chilli's Tomb is a 17th-century tomb and madrasa complex in Thanesar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kurukshetra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sheikh Chaheli"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_raja_harsha_ka_tila",
+      "title": "Raja Harsha ka Tila",
+      "description": "Raja Harsha ka Tila is an archaeological mound in Thanesar with evidence spanning many centuries.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kurukshetra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Harsh ka Tila"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_sannihit_sarovar",
+      "title": "Sannihit Sarovar",
+      "description": "Sannihit Sarovar is an important sacred tank in Kurukshetra's pilgrimage landscape.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kurukshetra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "sarovar"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_shri_krishna_museum",
+      "title": "Shri Krishna Museum",
+      "description": "Shri Krishna Museum in Kurukshetra presents artistic and cultural interpretations of Krishna traditions.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kurukshetra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "museum"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_kurukshetra_panorama_and_science_centre",
+      "title": "Kurukshetra Panorama and Science Centre",
+      "description": "This centre combines a large Mahabharata panorama with interactive science and heritage exhibits.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "kurukshetra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "science centre"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_panipat_museum",
+      "title": "Panipat Museum",
+      "description": "Panipat Museum interprets the major battles and wider history associated with Panipat.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "panipat",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "museum"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panipat",
+      "city_id": "panipat"
+    },
+    {
+      "id": "exp_haryana_ibrahim_lodhi_s_tomb",
+      "title": "Ibrahim Lodhi's Tomb",
+      "description": "Ibrahim Lodhi's Tomb in Panipat marks the resting place of the last Sultan of Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "panipat",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ibrahim Lodi"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panipat",
+      "city_id": "panipat"
+    },
+    {
+      "id": "exp_haryana_bu_ali_shah_qalandar_tomb",
+      "title": "Bu-Ali-Shah Qalandar Tomb",
+      "description": "The tomb of Bu Ali Shah Qalandar is a major Sufi shrine in Panipat.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "panipat",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Qalandar Dargah"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panipat",
+      "city_id": "panipat"
+    },
+    {
+      "id": "exp_haryana_kala_amb_memorial",
+      "title": "Kala Amb Memorial",
+      "description": "Kala Amb is a memorial landscape associated with the Third Battle of Panipat.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "panipat",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Third Battle of Panipat"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panipat",
+      "city_id": "panipat"
+    },
+    {
+      "id": "exp_haryana_yadavindra_gardens_pinjore",
+      "title": "Yadavindra Gardens, Pinjore",
+      "description": "Yadavindra Gardens at Pinjore are 17th-century terraced gardens in the lower Shivalik foothills.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "panchkula",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Pinjore Gardens"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panchkula",
+      "city_id": "panchkula"
+    },
+    {
+      "id": "exp_haryana_raja_nahar_singh_palace",
+      "title": "Raja Nahar Singh Palace",
+      "description": "Raja Nahar Singh Palace is a restored heritage palace at Ballabgarh in Faridabad district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "faridabad",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ballabgarh Palace"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Faridabad",
+      "city_id": "faridabad"
+    },
+    {
+      "id": "exp_haryana_surajkund",
+      "title": "Surajkund",
+      "description": "Surajkund is a historic reservoir and major cultural venue in Faridabad.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "faridabad",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Surajkund"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Faridabad",
+      "city_id": "faridabad"
+    },
+    {
+      "id": "exp_haryana_rakhigarhi_archaeological_site",
+      "title": "Rakhigarhi Archaeological Site",
+      "description": "Rakhigarhi is a major archaeological site associated with the Harappan civilisation in Hisar district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "hisar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Rakhi Garhi",
+        "Harappan"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Hisar",
+      "city_id": "hisar"
+    },
+    {
+      "id": "exp_haryana_firoz_shah_palace_complex_hisar",
+      "title": "Firoz Shah Palace Complex, Hisar",
+      "description": "The Firoz Shah Palace Complex preserves medieval monuments associated with Firoz Shah Tughlaq's city of Hisar.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "hisar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Firoz Shah Palace"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Hisar",
+      "city_id": "hisar"
+    },
+    {
+      "id": "exp_haryana_sultanpur_national_park",
+      "title": "Sultanpur National Park",
+      "description": "Sultanpur is a protected wetland and bird habitat near Gurugram.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "gurugram",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sultanpur Bird Sanctuary"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Gurugram",
+      "city_id": "gurugram"
+    },
+    {
+      "id": "exp_haryana_mata_mansa_devi_temple",
+      "title": "Mata Mansa Devi Temple",
+      "description": "Mata Mansa Devi is a major Shakti pilgrimage complex in Panchkula.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "panchkula",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mansa Devi"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panchkula",
+      "city_id": "panchkula"
+    },
+    {
+      "id": "exp_haryana_kalesar_national_park",
+      "title": "Kalesar National Park",
+      "description": "Kalesar National Park protects Shivalik forest along the Yamuna in Yamunanagar district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "yamunanagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Kalesar"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Yamunanagar",
+      "city_id": "yamunanagar"
+    },
+    {
+      "id": "exp_haryana_morni_hills",
+      "title": "Morni Hills",
+      "description": "Morni Hills is Haryana's hill landscape in Panchkula district and a major eco-tourism destination.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "panchkula",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Morni"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panchkula",
+      "city_id": "panchkula"
+    },
+    {
+      "id": "exp_haryana_tikkar_taal",
+      "title": "Tikkar Taal",
+      "description": "Tikkar Taal is a lake and recreation area in the Morni Hills landscape.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "panchkula",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Morni"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panchkula",
+      "city_id": "panchkula"
+    },
+    {
+      "id": "exp_haryana_sultanpur_national_park_bird_habitat",
+      "title": "Sultanpur National Park Bird Habitat",
+      "description": "Sultanpur National Park is known for resident and migratory birdlife near Gurugram.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "gurugram",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "birding"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Gurugram",
+      "city_id": "gurugram"
+    },
+    {
+      "id": "exp_haryana_bhindawas_wildlife_sanctuary",
+      "title": "Bhindawas Wildlife Sanctuary",
+      "description": "Bhindawas is a large wetland bird sanctuary in Jhajjar district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jhajjar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "wetland"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Jhajjar",
+      "city_id": "jhajjar"
+    },
+    {
+      "id": "exp_haryana_khaparwas_wildlife_sanctuary",
+      "title": "Khaparwas Wildlife Sanctuary",
+      "description": "Khaparwas Wildlife Sanctuary is a wetland bird habitat in Jhajjar district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "jhajjar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "wetland"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Jhajjar",
+      "city_id": "jhajjar"
+    },
+    {
+      "id": "exp_haryana_chuharpur_herbal_park",
+      "title": "Chuharpur Herbal Park",
+      "description": "Chuharpur Herbal Park in Yamunanagar supports nature walks, medicinal-plant interpretation and recreation.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "yamunanagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Herbal Park"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Yamunanagar",
+      "city_id": "yamunanagar"
+    },
+    {
+      "id": "exp_haryana_ban_santor_forest",
+      "title": "Ban Santor Forest",
+      "description": "Ban Santor is a forested eco-tourism landscape in Yamunanagar district.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "yamunanagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "eco tourism"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Yamunanagar",
+      "city_id": "yamunanagar"
+    },
+    {
+      "id": "exp_haryana_walk_the_kurukshetra_pilgrimage_circuit",
+      "title": "Walk the Kurukshetra Pilgrimage Circuit",
+      "description": "Explore Brahma Sarovar, Sannihit Sarovar, Jyotisar and associated heritage sites in Kurukshetra.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kurukshetra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "pilgrimage",
+        "heritage walk"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_explore_the_mahabharat_anubhav_kendra",
+      "title": "Explore the Mahabharat Anubhav Kendra",
+      "description": "Visit Haryana Tourism's immersive Mahabharata interpretation attraction.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "kurukshetra",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Mahabharata"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_attend_the_surajkund_international_crafts_mela",
+      "title": "Attend the Surajkund International Crafts Mela",
+      "description": "Experience the large annual crafts and cultural fair at Surajkund.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "faridabad",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Surajkund Mela"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Faridabad",
+      "city_id": "faridabad"
+    },
+    {
+      "id": "exp_haryana_visit_pinjore_gardens_by_evening",
+      "title": "Visit Pinjore Gardens by Evening",
+      "description": "Explore the terraces, water channels and heritage setting of Yadavindra Gardens.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "panchkula",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Pinjore Gardens"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panchkula",
+      "city_id": "panchkula"
+    },
+    {
+      "id": "exp_haryana_hike_in_morni_hills",
+      "title": "Hike in Morni Hills",
+      "description": "Explore designated trails and hill scenery in the Morni area.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "panchkula",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "hiking",
+        "trekking"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panchkula",
+      "city_id": "panchkula"
+    },
+    {
+      "id": "exp_haryana_nature_walk_at_kalesar",
+      "title": "Nature Walk at Kalesar",
+      "description": "Experience forest scenery and nature interpretation in the Kalesar eco-tourism landscape.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "yamunanagar",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "nature walk"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Yamunanagar",
+      "city_id": "yamunanagar"
+    },
+    {
+      "id": "exp_haryana_birdwatch_at_sultanpur",
+      "title": "Birdwatch at Sultanpur",
+      "description": "Spend time birdwatching at Sultanpur National Park near Gurugram.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "gurugram",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "birding"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Gurugram",
+      "city_id": "gurugram"
+    },
+    {
+      "id": "exp_haryana_boating_at_tikkar_taal",
+      "title": "Boating at Tikkar Taal",
+      "description": "Enjoy permitted boating and lakeside recreation at Tikkar Taal in Morni Hills.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "panchkula",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "boating"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panchkula",
+      "city_id": "panchkula"
+    },
+    {
+      "id": "exp_haryana_farm_tourism_experience_in_haryana",
+      "title": "Farm Tourism Experience in Haryana",
+      "description": "Experience a working-farm setting through Haryana's recognised farm-tourism model.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "haryana",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "farm stay",
+        "rural tourism"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_explore_panipat_battle_heritage",
+      "title": "Explore Panipat Battle Heritage",
+      "description": "Visit Panipat Museum, memorials and battlefield-linked sites connected with the city's three major battles.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "panipat",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "history trail"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panipat",
+      "city_id": "panipat"
+    },
+    {
+      "id": "exp_haryana_bajra_khichdi",
+      "title": "Bajra Khichdi",
+      "description": "Bajra khichdi is a rustic millet-and-lentil preparation associated with Haryana's agrarian food traditions.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "pearl millet"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_bajra_roti",
+      "title": "Bajra Roti",
+      "description": "Bajra roti is a pearl-millet flatbread commonly eaten in Haryana, especially in cooler months.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "millet roti"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_haryanvi_kadhi",
+      "title": "Haryanvi Kadhi",
+      "description": "Haryanvi kadhi is a yoghurt-and-gram-flour curry commonly eaten with rice or roti.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "kadhi"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_bathua_raita",
+      "title": "Bathua Raita",
+      "description": "Bathua raita combines yoghurt with bathua greens and is a seasonal north Indian accompaniment common in Haryana.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "chenopodium"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_kachri_ki_chutney",
+      "title": "Kachri ki Chutney",
+      "description": "Kachri chutney uses the desert melon kachri and spices and is associated with north-western Indian food traditions including Haryana.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "kachri"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_mixed_dal_haryanvi_style",
+      "title": "Mixed Dal Haryanvi Style",
+      "description": "Simple mixed-lentil preparations are a staple of everyday Haryanvi home cooking.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "dal"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_methi_gajar",
+      "title": "Methi Gajar",
+      "description": "Methi gajar combines fenugreek leaves and carrots in a seasonal vegetable preparation.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "winter food"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_singri_ki_sabzi",
+      "title": "Singri ki Sabzi",
+      "description": "Singri is used in dry vegetable preparations in parts of Haryana's drier western belt.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "sangri"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_gajar_ka_halwa",
+      "title": "Gajar ka Halwa",
+      "description": "Carrot halwa is a popular winter dessert across Haryana and northern India.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "gajrela"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_meethe_chawal",
+      "title": "Meethe Chawal",
+      "description": "Meethe chawal is a sweetened rice preparation served on festive occasions in Haryana.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "sweet rice"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_haryanvi_lassi",
+      "title": "Haryanvi Lassi",
+      "description": "Lassi is a yoghurt-based drink deeply associated with Haryana's dairy-rich food culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "lassi"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_chaas",
+      "title": "Chaas",
+      "description": "Chaas is a lightly seasoned buttermilk drink commonly consumed in Haryana.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "buttermilk"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_sweet_milk_with_gur",
+      "title": "Sweet Milk with Gur",
+      "description": "Fresh milk sweetened with jaggery reflects the dairy and agrarian food culture of Haryana.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "haryana",
+      "category_id": "food_drink",
+      "keywords": [
+        "milk",
+        "jaggery"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_panipat_handloom",
+      "title": "Panipat Handloom",
+      "description": "Panipat is nationally known for handloom and home-furnishing production, including rugs, blankets and textiles.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "panipat",
+      "category_id": "culture_learning",
+      "keywords": [
+        "handloom",
+        "weaving"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panipat",
+      "city_id": "panipat"
+    },
+    {
+      "id": "exp_haryana_haryanvi_phulkari_embroidery",
+      "title": "Haryanvi Phulkari Embroidery",
+      "description": "Phulkari-style embroidery is practised in parts of Haryana as part of the wider north-western embroidery tradition.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "embroidery"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_haryana_clay_pottery",
+      "title": "Haryana Clay Pottery",
+      "description": "Traditional earthenware pottery remains part of Haryana's village material culture.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "pottery"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_haryana_woven_durries",
+      "title": "Haryana Woven Durries",
+      "description": "Woven durries and household textiles are part of Haryana's craft and handloom traditions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "durries",
+        "weaving"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_haryanvi_jutti_craft",
+      "title": "Haryanvi Jutti Craft",
+      "description": "Traditional embroidered footwear is part of Haryana's wider north-western dress and craft culture.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "jutti",
+        "footwear"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_surajkund_craft_traditions",
+      "title": "Surajkund Craft Traditions",
+      "description": "Experience the wide range of Indian craft traditions showcased annually at the Surajkund International Crafts Mela.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "faridabad",
+      "category_id": "culture_learning",
+      "keywords": [
+        "craft mela"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Faridabad",
+      "city_id": "faridabad"
+    },
+    {
+      "id": "exp_haryana_surajkund_international_crafts_mela",
+      "title": "Surajkund International Crafts Mela",
+      "description": "The Surajkund International Crafts Mela is Haryana's flagship annual crafts and cultural fair.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "faridabad",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Surajkund Mela"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Faridabad",
+      "city_id": "faridabad"
+    },
+    {
+      "id": "exp_haryana_international_gita_mahotsav",
+      "title": "International Gita Mahotsav",
+      "description": "International Gita Mahotsav is a major cultural and spiritual festival centred on Kurukshetra.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "kurukshetra",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Gita Jayanti"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Kurukshetra",
+      "city_id": "kurukshetra"
+    },
+    {
+      "id": "exp_haryana_mango_mela_pinjore",
+      "title": "Mango Mela, Pinjore",
+      "description": "The Mango Mela at Pinjore celebrates mango varieties with exhibitions, competitions, performances and food.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "panchkula",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Mango Festival"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panchkula",
+      "city_id": "panchkula"
+    },
+    {
+      "id": "exp_haryana_baisakhi_festival_pinjore",
+      "title": "Baisakhi Festival, Pinjore",
+      "description": "Haryana Tourism organises Baisakhi celebrations at Pinjore and other tourism complexes.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "panchkula",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Baisakhi"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Panchkula",
+      "city_id": "panchkula"
+    },
+    {
+      "id": "exp_haryana_teej_festival_haryana",
+      "title": "Teej Festival Haryana",
+      "description": "Teej is celebrated in Haryana with swings, songs, dress and festive gatherings.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Hariyali Teej"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_surajkund_diwali_mela",
+      "title": "Surajkund Diwali Mela",
+      "description": "A Diwali fair is organised at Surajkund as part of Haryana Tourism's event calendar.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "faridabad",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Diwali Utsav"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Faridabad",
+      "city_id": "faridabad"
+    },
+    {
+      "id": "exp_haryana_haryanvi_culture_festival",
+      "title": "Haryanvi Culture Festival",
+      "description": "Haryana Tourism's culture festival showcases regional performance and food traditions.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "karnal",
+      "category_id": "culture_learning",
+      "keywords": [
+        "culture festival"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Karnal",
+      "city_id": "karnal"
+    },
+    {
+      "id": "exp_haryana_dhamal_dance",
+      "title": "Dhamal Dance",
+      "description": "Dhamal is a vigorous Haryanvi folk dance traditionally performed by men.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_khoria_dance",
+      "title": "Khoria Dance",
+      "description": "Khoria is a women's folk dance tradition associated with wedding celebrations in Haryana.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_loor_dance",
+      "title": "Loor Dance",
+      "description": "Loor is a women's folk dance associated with the spring season and Holi period in Haryana.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_phag_dance",
+      "title": "Phag Dance",
+      "description": "Phag is a seasonal Haryanvi dance tradition associated with the Phalgun/Holi period.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "folk dance"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_ragini_singing",
+      "title": "Ragini Singing",
+      "description": "Ragini is a prominent Haryanvi folk singing and performance tradition.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Haryanvi folk music"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    },
+    {
+      "id": "exp_haryana_saang_folk_theatre",
+      "title": "Saang Folk Theatre",
+      "description": "Saang is a traditional Haryanvi folk-theatre form combining music, dialogue and performance.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "haryana",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Swaang",
+        "folk theatre"
+      ],
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "status": "active",
+      "city": "Haryana",
+      "city_id": "haryana"
+    }
+  ]
+}

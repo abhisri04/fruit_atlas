@@ -1,0 +1,186 @@
+{
+  "collections": [
+    {
+      "id": "west_bengal_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage experiences associated with West Bengal.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "west_bengal",
+      "context_name": "West Bengal",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_west_bengal_victoria_memorial",
+        "exp_west_bengal_indian_museum",
+        "exp_west_bengal_dakshineswar_kali_temple",
+        "exp_west_bengal_belur_math",
+        "exp_west_bengal_bishnupur_terracotta_temples",
+        "exp_west_bengal_hazarduari_palace",
+        "exp_west_bengal_cooch_behar_palace",
+        "exp_west_bengal_santiniketan",
+        "exp_west_bengal_gaur_ruins",
+        "exp_west_bengal_jorasanko_thakur_bari"
+      ],
+      "empty_message": "More West Bengal landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "west_bengal_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife experiences associated with West Bengal.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "west_bengal",
+      "context_name": "West Bengal",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_west_bengal_sundarbans_national_park",
+        "exp_west_bengal_jaldapara_national_park",
+        "exp_west_bengal_gorumara_national_park",
+        "exp_west_bengal_singalila_national_park",
+        "exp_west_bengal_buxa_tiger_reserve",
+        "exp_west_bengal_digha_beach"
+      ],
+      "empty_message": "More West Bengal nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "west_bengal_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities experiences associated with West Bengal.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "west_bengal",
+      "context_name": "West Bengal",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_west_bengal_ride_the_darjeeling_himalayan_railway",
+        "exp_west_bengal_explore_kumartuli_workshops",
+        "exp_west_bengal_browse_college_street_bookshops",
+        "exp_west_bengal_walk_a_darjeeling_tea_garden",
+        "exp_west_bengal_explore_the_hooghly_riverfront"
+      ],
+      "empty_message": "More West Bengal experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "west_bengal_fruits",
+      "title": "Fruits",
+      "description": "Fruits experiences associated with West Bengal.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "west_bengal",
+      "context_name": "West Bengal",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More West Bengal fruits experiences are coming soon."
+    },
+    {
+      "id": "west_bengal_dishes",
+      "title": "Dishes",
+      "description": "Dishes experiences associated with West Bengal.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "west_bengal",
+      "context_name": "West Bengal",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_west_bengal_macher_jhol",
+        "exp_west_bengal_shorshe_ilish",
+        "exp_west_bengal_kosha_mangsho",
+        "exp_west_bengal_shukto",
+        "exp_west_bengal_luchi_and_cholar_dal",
+        "exp_west_bengal_phuchka",
+        "exp_west_bengal_kolkata_kathi_roll",
+        "exp_west_bengal_rosogolla",
+        "exp_west_bengal_sandesh",
+        "exp_west_bengal_mishti_doi"
+      ],
+      "empty_message": "More West Bengal dishes experiences are coming soon."
+    },
+    {
+      "id": "west_bengal_drinks",
+      "title": "Drinks",
+      "description": "Drinks experiences associated with West Bengal.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "west_bengal",
+      "context_name": "West Bengal",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_west_bengal_darjeeling_tea",
+        "exp_west_bengal_bharer_cha"
+      ],
+      "empty_message": "More West Bengal drinks experiences are coming soon."
+    },
+    {
+      "id": "west_bengal_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts experiences associated with West Bengal.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "west_bengal",
+      "context_name": "West Bengal",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_west_bengal_bankura_terracotta",
+        "exp_west_bengal_baluchari_weaving",
+        "exp_west_bengal_kantha_embroidery",
+        "exp_west_bengal_purulia_chhau_masks",
+        "exp_west_bengal_bengal_patachitra",
+        "exp_west_bengal_sholapith_craft"
+      ],
+      "empty_message": "More West Bengal arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "west_bengal_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs experiences associated with West Bengal.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "west_bengal",
+      "context_name": "West Bengal",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_west_bengal_durga_puja",
+        "exp_west_bengal_kali_puja",
+        "exp_west_bengal_gangasagar_mela",
+        "exp_west_bengal_poush_mela",
+        "exp_west_bengal_poila_boishakh"
+      ],
+      "empty_message": "More West Bengal festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "west_bengal_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance experiences associated with West Bengal.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "west_bengal",
+      "context_name": "West Bengal",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_west_bengal_baul_music",
+        "exp_west_bengal_rabindra_sangeet",
+        "exp_west_bengal_purulia_chhau",
+        "exp_west_bengal_jatra"
+      ],
+      "empty_message": "More West Bengal music & dance experiences are coming soon."
+    }
+  ]
+}

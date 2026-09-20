@@ -1,0 +1,169 @@
+{
+  "collections": [
+    {
+      "id": "andhra_pradesh_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage associated with Andhra Pradesh.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "andhra_pradesh",
+      "context_name": "Andhra Pradesh",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_andhra_pradesh_undavalli_caves",
+        "exp_andhra_pradesh_amaravati_mahachaitya",
+        "exp_andhra_pradesh_lepakshi_veerabhadra_temple",
+        "exp_andhra_pradesh_tirumala_venkateswara_temple",
+        "exp_andhra_pradesh_kondapalli_fort",
+        "exp_andhra_pradesh_chandragiri_fort"
+      ],
+      "empty_message": "More Andhra Pradesh landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "andhra_pradesh_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife associated with Andhra Pradesh.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "andhra_pradesh",
+      "context_name": "Andhra Pradesh",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_andhra_pradesh_borra_caves",
+        "exp_andhra_pradesh_talakona_falls",
+        "exp_andhra_pradesh_kolleru_lake",
+        "exp_andhra_pradesh_uppalapadu_bird_sanctuary",
+        "exp_andhra_pradesh_rollapadu_wildlife_sanctuary"
+      ],
+      "empty_message": "More Andhra Pradesh nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "andhra_pradesh_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities associated with Andhra Pradesh.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "andhra_pradesh",
+      "context_name": "Andhra Pradesh",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_andhra_pradesh_walk_araku_coffee_plantations",
+        "exp_andhra_pradesh_windsurf_at_rushikonda"
+      ],
+      "empty_message": "More Andhra Pradesh experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "andhra_pradesh_fruits",
+      "title": "Fruits",
+      "description": "Fruits linked to Andhra Pradesh in the Fruit Atlas.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "andhra_pradesh",
+      "context_name": "Andhra Pradesh",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Andhra Pradesh fruits experiences are coming soon."
+    },
+    {
+      "id": "andhra_pradesh_dishes",
+      "title": "Dishes",
+      "description": "Dishes associated with Andhra Pradesh.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "andhra_pradesh",
+      "context_name": "Andhra Pradesh",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_andhra_pradesh_pesarattu",
+        "exp_andhra_pradesh_chepala_pulusu",
+        "exp_andhra_pradesh_andhra_kodi_kura",
+        "exp_andhra_pradesh_gongura_pachadi",
+        "exp_andhra_pradesh_tirupati_laddu",
+        "exp_andhra_pradesh_pootharekulu"
+      ],
+      "empty_message": "More Andhra Pradesh dishes experiences are coming soon."
+    },
+    {
+      "id": "andhra_pradesh_drinks",
+      "title": "Drinks",
+      "description": "Drinks associated with Andhra Pradesh.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "andhra_pradesh",
+      "context_name": "Andhra Pradesh",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_andhra_pradesh_araku_coffee"
+      ],
+      "empty_message": "More Andhra Pradesh drinks experiences are coming soon."
+    },
+    {
+      "id": "andhra_pradesh_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts associated with Andhra Pradesh.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "andhra_pradesh",
+      "context_name": "Andhra Pradesh",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_andhra_pradesh_srikalahasti_kalamkari",
+        "exp_andhra_pradesh_machilipatnam_kalamkari",
+        "exp_andhra_pradesh_kondapalli_toys",
+        "exp_andhra_pradesh_etikoppaka_lacquer_toys",
+        "exp_andhra_pradesh_tholu_bommalata"
+      ],
+      "empty_message": "More Andhra Pradesh arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "andhra_pradesh_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs associated with Andhra Pradesh.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "andhra_pradesh",
+      "context_name": "Andhra Pradesh",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_andhra_pradesh_tirumala_brahmotsavam",
+        "exp_andhra_pradesh_kanipakam_vinayaka_brahmotsavam",
+        "exp_andhra_pradesh_dwaraka_tirumala_brahmotsavam"
+      ],
+      "empty_message": "More Andhra Pradesh festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "andhra_pradesh_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance associated with Andhra Pradesh.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "andhra_pradesh",
+      "context_name": "Andhra Pradesh",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_andhra_pradesh_kuchipudi",
+        "exp_andhra_pradesh_vilasini_natyam",
+        "exp_andhra_pradesh_tholu_bommalata"
+      ],
+      "empty_message": "More Andhra Pradesh music & dance experiences are coming soon."
+    }
+  ]
+}

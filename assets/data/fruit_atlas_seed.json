@@ -1,10 +1,10 @@
 {
-  "dataset_version": "v0.3",
-  "description": "Fruit Atlas India research-stage seed dataset. Fruit-state links are limited to the verified mappings present in the source workbook.",
+  "dataset_version": "v1.0",
+  "description": "Canonical Fruits of India catalogue. Sources and research status are per fruit. Fruit-state relationships are limited to documented links; image paths are reserved for original locally supplied WebP assets.",
   "state_count": 36,
-  "fruit_count": 100,
-  "variety_count": 49,
-  "verified_fruit_state_link_count": 72,
+  "fruit_count": 115,
+  "variety_count": 54,
+  "verified_fruit_state_link_count": 160,
   "states": [
     {
       "id": "AP",
@@ -227,9 +227,10 @@
     {
       "id": "FR001",
       "name": "Mango",
-      "scientific_name": "Mangifera indica",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Mangifera indica",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Mangifera indica, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [
         {
           "state_id": "AP",
@@ -420,14 +421,24 @@
           "name": "Cardozo Mankurad",
           "notes": "Goa-associated cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR001.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR002",
       "name": "Banana",
-      "scientific_name": "Musa spp.",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Musa spp.",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Musa spp., recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [
         {
           "state_id": "AP",
@@ -522,14 +533,23 @@
           "name": "Nendran",
           "notes": "Kerala-associated cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR002.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR003",
       "name": "Guava",
-      "scientific_name": "Psidium guajava",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Psidium guajava",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Psidium guajava, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [
         {
           "state_id": "AP",
@@ -597,14 +617,24 @@
           "name": "Megha Wonder",
           "notes": "Northeast cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR003.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR004",
       "name": "Papaya",
-      "scientific_name": "Carica papaya",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Carica papaya",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Carica papaya, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [
         {
           "state_id": "AP",
@@ -623,16 +653,56 @@
           "status": "Cultivated",
           "evidence": "Verified from retrieved state-wise statistical source",
           "data_year": "2021-22"
+        },
+        {
+          "state_id": "GJ",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/area-pro/NHB_Database_2015.pdf",
+          "data_year": "2014"
+        },
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/area-pro/NHB_Database_2015.pdf",
+          "data_year": "2014"
+        },
+        {
+          "state_id": "WB",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/area-pro/NHB_Database_2015.pdf",
+          "data_year": "2014"
+        },
+        {
+          "state_id": "MP",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/area-pro/NHB_Database_2015.pdf",
+          "data_year": "2014"
+        },
+        {
+          "state_id": "MH",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/area-pro/NHB_Database_2015.pdf",
+          "data_year": "2014"
         }
       ],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR004.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf",
+        "https://nhb.gov.in/area-pro/NHB_Database_2015.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR005",
       "name": "Grapes",
-      "scientific_name": "Vitis vinifera",
-      "crop_group": "Temperate/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Vitis vinifera",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Vitis vinifera, recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "cropGroup": "Temperate/Subtropical",
       "states": [
         {
           "state_id": "AP",
@@ -741,14 +811,26 @@
           "name": "Sharad Seedless",
           "notes": "Indian seedless cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "temperate",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR005.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR006",
-      "name": "Sapota (Chikoo)",
-      "scientific_name": "Manilkara zapota",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "name": "Sapota",
+      "scientificName": "Manilkara zapota",
+      "aliases": [
+        "Chikoo"
+      ],
+      "shortDescription": "The edible fruit of Manilkara zapota, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [
         {
           "state_id": "AP",
@@ -828,14 +910,23 @@
           "name": "Cricket Ball",
           "notes": "Traditional cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR006.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR007",
       "name": "Lime",
-      "scientific_name": "Citrus aurantiifolia",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Citrus aurantiifolia",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Citrus aurantiifolia, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
       "states": [
         {
           "state_id": "AP",
@@ -904,23 +995,44 @@
           "data_year": "2021-22"
         }
       ],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR007.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR008",
       "name": "Lemon",
-      "scientific_name": "Citrus limon",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Citrus limon",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Citrus limon, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR008.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR009",
-      "name": "Aonla (Indian Gooseberry)",
-      "scientific_name": "Phyllanthus emblica",
-      "crop_group": "Subtropical/Arid",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "name": "Aonla",
+      "scientificName": "Phyllanthus emblica",
+      "aliases": [
+        "Amla",
+        "Indian Gooseberry"
+      ],
+      "shortDescription": "The edible fruit of Phyllanthus emblica, recorded in the Fruit Atlas as a subtropical/arid crop.",
+      "cropGroup": "Subtropical/Arid",
       "states": [],
       "varieties": [
         {
@@ -933,15 +1045,50 @@
           "name": "Banarasi",
           "notes": "Traditional cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "subtropical",
+        "arid"
+      ],
+      "imageAsset": "assets/images/fruits/FR009.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR010",
       "name": "Apple",
-      "scientific_name": "Malus domestica",
-      "crop_group": "Temperate",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
+      "scientificName": "Malus domestica",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Malus domestica, recorded in the Fruit Atlas as a temperate crop.",
+      "cropGroup": "Temperate",
+      "states": [
+        {
+          "state_id": "JK",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/apple/APPLE.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "HP",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/apple/APPLE.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "UK",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/apple/APPLE.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "AR",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/apple/APPLE.htm",
+          "data_year": "2001-02"
+        }
+      ],
       "varieties": [
         {
           "id": "VAR027",
@@ -958,15 +1105,86 @@
           "name": "Golden Delicious",
           "notes": "Commercial cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "temperate"
+      ],
+      "imageAsset": "assets/images/fruits/FR010.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf",
+        "https://nhb.gov.in/report_files/apple/APPLE.htm"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR011",
       "name": "Pomegranate",
-      "scientific_name": "Punica granatum",
-      "crop_group": "Arid/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
+      "scientificName": "Punica granatum",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Punica granatum, recorded in the Fruit Atlas as a arid/subtropical crop.",
+      "cropGroup": "Arid/Subtropical",
+      "states": [
+        {
+          "state_id": "MH",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        },
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        },
+        {
+          "state_id": "GJ",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        },
+        {
+          "state_id": "MP",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        },
+        {
+          "state_id": "AP",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        },
+        {
+          "state_id": "RJ",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        },
+        {
+          "state_id": "HP",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        },
+        {
+          "state_id": "TS",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        },
+        {
+          "state_id": "TN",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        },
+        {
+          "state_id": "CG",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf",
+          "data_year": "2016-17"
+        }
+      ],
       "varieties": [
         {
           "id": "VAR030",
@@ -978,15 +1196,69 @@
           "name": "Ganesh",
           "notes": "Commercial cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "arid",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR011.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf",
+        "https://nhb.gov.in/NHBDPR/Pomegranate_DPR.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR012",
       "name": "Pineapple",
-      "scientific_name": "Ananas comosus",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
+      "scientificName": "Ananas comosus",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Ananas comosus, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/pineapple/PINEAPPLE.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "KL",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/pineapple/PINEAPPLE.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "NL",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/pineapple/PINEAPPLE.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "AS",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/pineapple/PINEAPPLE.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "MN",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/pineapple/PINEAPPLE.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "ML",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/pineapple/PINEAPPLE.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "WB",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/pineapple/PINEAPPLE.htm",
+          "data_year": "not stated"
+        }
+      ],
       "varieties": [
         {
           "id": "VAR032",
@@ -998,15 +1270,80 @@
           "name": "Queen",
           "notes": "Indian cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR012.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf",
+        "https://nhb.gov.in/report_files/pineapple/PINEAPPLE.htm"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR013",
       "name": "Litchi",
-      "scientific_name": "Litchi chinensis",
-      "crop_group": "Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
+      "scientificName": "Litchi chinensis",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Litchi chinensis, recorded in the Fruit Atlas as a subtropical crop.",
+      "cropGroup": "Subtropical",
+      "states": [
+        {
+          "state_id": "BR",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/litchi/LITCHI.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "WB",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/litchi/LITCHI.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "AS",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/litchi/LITCHI.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "PB",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/litchi/LITCHI.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "OD",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/litchi/LITCHI.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "TR",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/litchi/LITCHI.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "JH",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/litchi/LITCHI.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "UK",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/litchi/LITCHI.htm",
+          "data_year": "2001-02"
+        },
+        {
+          "state_id": "NL",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/litchi/LITCHI.htm",
+          "data_year": "2001-02"
+        }
+      ],
       "varieties": [
         {
           "id": "VAR034",
@@ -1018,119 +1355,257 @@
           "name": "China",
           "notes": "Commercial cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR013.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf",
+        "https://nhb.gov.in/report_files/litchi/LITCHI.htm"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR014",
       "name": "Custard Apple",
-      "scientific_name": "Annona squamosa",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Annona squamosa",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Annona squamosa, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR014.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR015",
       "name": "Watermelon",
-      "scientific_name": "Citrullus lanatus",
-      "crop_group": "Warm-season",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Citrullus lanatus",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Citrullus lanatus, recorded in the Fruit Atlas as a warm-season crop.",
+      "cropGroup": "Warm-season",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "warm-season"
+      ],
+      "imageAsset": "assets/images/fruits/FR015.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR016",
       "name": "Muskmelon",
-      "scientific_name": "Cucumis melo",
-      "crop_group": "Warm-season",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Cucumis melo",
+      "aliases": [
+        "Cantaloupe"
+      ],
+      "shortDescription": "The edible fruit of Cucumis melo, recorded in the Fruit Atlas as a warm-season crop.",
+      "cropGroup": "Warm-season",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "warm-season"
+      ],
+      "imageAsset": "assets/images/fruits/FR016.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR017",
       "name": "Jackfruit",
-      "scientific_name": "Artocarpus heterophyllus",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Artocarpus heterophyllus",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Artocarpus heterophyllus, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "https://icar.gov.in/en/linking-jackfruit-biodiversity-livelihood-security-self-sustaining-farmer-led-success-story",
+          "data_year": "2023"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR017.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf",
+        "https://icar.gov.in/en/linking-jackfruit-biodiversity-livelihood-security-self-sustaining-farmer-led-success-story"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR018",
       "name": "Bael",
-      "scientific_name": "Aegle marmelos",
-      "crop_group": "Subtropical/Arid",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Aegle marmelos",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Aegle marmelos, recorded in the Fruit Atlas as a subtropical/arid crop.",
+      "cropGroup": "Subtropical/Arid",
       "states": [],
       "varieties": [
         {
           "id": "VAR036",
           "name": "Thar Prakriti",
           "notes": "ICAR cultivar"
+        },
+        {
+          "id": "VAR052",
+          "name": "Goma Yashi",
+          "notes": "ICAR bael variety"
         }
-      ]
+      ],
+      "tags": [
+        "subtropical",
+        "arid"
+      ],
+      "imageAsset": "assets/images/fruits/FR018.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/en/consultative-meet-exploiting-under-exploited-fruits-central-horticultural-experiment-station",
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR019",
-      "name": "Ber (Indian Jujube)",
-      "scientific_name": "Ziziphus mauritiana",
-      "crop_group": "Arid/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "name": "Ber",
+      "scientificName": "Ziziphus mauritiana",
+      "aliases": [
+        "Indian Jujube"
+      ],
+      "shortDescription": "The edible fruit of Ziziphus mauritiana, recorded in the Fruit Atlas as a arid/subtropical crop.",
+      "cropGroup": "Arid/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "arid",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR019.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR020",
       "name": "Jamun",
-      "scientific_name": "Syzygium cumini",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Syzygium cumini",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Syzygium cumini, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [
+        {
+          "id": "VAR053",
+          "name": "Goma Priyanka",
+          "notes": "ICAR jamun variety"
+        }
+      ],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR020.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/en/consultative-meet-exploiting-under-exploited-fruits-central-horticultural-experiment-station"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR021",
       "name": "Karonda",
-      "scientific_name": "Carissa carandas",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Carissa carandas",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Carissa carandas, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR021.webp",
+      "sourceRefs": [
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR022",
       "name": "Phalsa",
-      "scientific_name": "Grewia asiatica",
-      "crop_group": "Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Grewia asiatica",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Grewia asiatica, recorded in the Fruit Atlas as a subtropical crop.",
+      "cropGroup": "Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR022.webp",
+      "sourceRefs": [
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR023",
       "name": "Tamarind",
-      "scientific_name": "Tamarindus indica",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Tamarindus indica",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Tamarindus indica, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR023.webp",
+      "sourceRefs": [
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR024",
       "name": "Kokum",
-      "scientific_name": "Garcinia indica",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Garcinia indica",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Garcinia indica, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR024.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/index.php/en/underutilized-fruits-and-vegetables"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR025",
       "name": "Avocado",
-      "scientific_name": "Persea americana",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Persea americana",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Persea americana, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [
         {
@@ -1143,682 +1618,2100 @@
           "name": "Arka Coorg Ravi",
           "notes": "ICAR cultivar"
         }
-      ]
+      ],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR025.webp",
+      "sourceRefs": [
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR026",
       "name": "Dragon Fruit",
-      "scientific_name": "Selenicereus spp.",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Selenicereus spp.",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Selenicereus spp., recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR026.webp",
+      "sourceRefs": [
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR027",
       "name": "Strawberry",
-      "scientific_name": "Fragaria × ananassa",
-      "crop_group": "Temperate/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Fragaria × ananassa",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Fragaria × ananassa, recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "cropGroup": "Temperate/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "temperate",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR027.webp",
+      "sourceRefs": [
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR028",
       "name": "Peach",
-      "scientific_name": "Prunus persica",
-      "crop_group": "Temperate",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Prunus persica",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Prunus persica, recorded in the Fruit Atlas as a temperate crop.",
+      "cropGroup": "Temperate",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "temperate"
+      ],
+      "imageAsset": "assets/images/fruits/FR028.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR029",
       "name": "Plum",
-      "scientific_name": "Prunus domestica / Prunus salicina",
-      "crop_group": "Temperate",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Prunus domestica / Prunus salicina",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Prunus domestica / Prunus salicina, recorded in the Fruit Atlas as a temperate crop.",
+      "cropGroup": "Temperate",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "temperate"
+      ],
+      "imageAsset": "assets/images/fruits/FR029.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR030",
       "name": "Pear",
-      "scientific_name": "Pyrus spp.",
-      "crop_group": "Temperate/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Pyrus spp.",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Pyrus spp., recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "cropGroup": "Temperate/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "temperate",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR030.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR031",
       "name": "Apricot",
-      "scientific_name": "Prunus armeniaca",
-      "crop_group": "Temperate",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Prunus armeniaca",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Prunus armeniaca, recorded in the Fruit Atlas as a temperate crop.",
+      "cropGroup": "Temperate",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "temperate"
+      ],
+      "imageAsset": "assets/images/fruits/FR031.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR032",
       "name": "Cherry",
-      "scientific_name": "Prunus avium / P. cerasus",
-      "crop_group": "Temperate",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Prunus avium / P. cerasus",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Prunus avium / P. cerasus, recorded in the Fruit Atlas as a temperate crop.",
+      "cropGroup": "Temperate",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "temperate"
+      ],
+      "imageAsset": "assets/images/fruits/FR032.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR033",
       "name": "Kiwi",
-      "scientific_name": "Actinidia deliciosa",
-      "crop_group": "Temperate/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Actinidia deliciosa",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Actinidia deliciosa, recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "cropGroup": "Temperate/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "temperate",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR033.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR034",
       "name": "Persimmon",
-      "scientific_name": "Diospyros kaki",
-      "crop_group": "Temperate/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Diospyros kaki",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Diospyros kaki, recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "cropGroup": "Temperate/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "temperate",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR034.webp",
+      "sourceRefs": [
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR035",
       "name": "Fig",
-      "scientific_name": "Ficus carica",
-      "crop_group": "Arid/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Ficus carica",
+      "aliases": [
+        "Anjeer"
+      ],
+      "shortDescription": "The edible fruit of Ficus carica, recorded in the Fruit Atlas as a arid/subtropical crop.",
+      "cropGroup": "Arid/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "arid",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR035.webp",
+      "sourceRefs": [
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR036",
       "name": "Mulberry",
-      "scientific_name": "Morus spp.",
-      "crop_group": "Temperate/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Morus spp.",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Morus spp., recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "cropGroup": "Temperate/Subtropical",
+      "states": [
+        {
+          "state_id": "AS",
+          "status": "Cultivated",
+          "evidence": "https://hts.assam.gov.in/portlet-innerpage/host-plant-of-mulberry-silkworm",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "temperate",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR036.webp",
+      "sourceRefs": [
+        "https://hts.assam.gov.in/portlet-innerpage/host-plant-of-mulberry-silkworm"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR037",
       "name": "Loquat",
-      "scientific_name": "Eriobotrya japonica",
-      "crop_group": "Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Eriobotrya japonica",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Eriobotrya japonica, recorded in the Fruit Atlas as a subtropical crop.",
+      "cropGroup": "Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR037.webp",
+      "sourceRefs": [
+        "https://niphm.gov.in/IPMPackages/Loquat.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR038",
       "name": "Passion Fruit",
-      "scientific_name": "Passiflora edulis",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Passiflora edulis",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Passiflora edulis, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR038.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/statistics/HorticultureCropsFinal/secadvest1516_5.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR039",
       "name": "Rambutan",
-      "scientific_name": "Nephelium lappaceum",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Nephelium lappaceum",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Nephelium lappaceum, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [
+        {
+          "id": "VAR055",
+          "name": "Arka Coorg Arun",
+          "notes": "ICAR rambutan variety"
+        }
+      ],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR039.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/index.php/en/underutilized-fruits-and-vegetables"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR040",
       "name": "Mangosteen",
-      "scientific_name": "Garcinia mangostana",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Garcinia mangostana",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Garcinia mangostana, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR040.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/index.php/en/underutilized-fruits-and-vegetables"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR041",
       "name": "Durian",
-      "scientific_name": "Durio zibethinus",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Durio zibethinus",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Durio zibethinus, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "TN",
+          "status": "Recorded",
+          "evidence": "https://ignca.gov.in/Asi_data/18010.pdf",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR041.webp",
+      "sourceRefs": [
+        "https://ignca.gov.in/Asi_data/18010.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR042",
-      "name": "Star Fruit (Carambola)",
-      "scientific_name": "Averrhoa carambola",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "name": "Star Fruit",
+      "scientificName": "Averrhoa carambola",
+      "aliases": [
+        "Carambola"
+      ],
+      "shortDescription": "The edible fruit of Averrhoa carambola, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR042.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR043",
       "name": "Wood Apple",
-      "scientific_name": "Limonia acidissima",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Limonia acidissima",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Limonia acidissima, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR043.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR044",
       "name": "Coconut",
-      "scientific_name": "Cocos nucifera",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Cocos nucifera",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Cocos nucifera, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KL",
+          "status": "Cultivated",
+          "evidence": "https://www.icar.gov.in/sites/default/files/2022-04/IAgriAbstracts-Jan-Jun-2013.pdf",
+          "data_year": "2004-08"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR044.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/2026-05/Indian%20Horticulture%2C%20May-June%202026%20Low%20new.pdf",
+        "https://www.icar.gov.in/sites/default/files/2022-04/IAgriAbstracts-Jan-Jun-2013.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR045",
       "name": "Cashew Apple",
-      "scientific_name": "Anacardium occidentale",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR046",
-      "name": "Cantaloupe",
-      "scientific_name": "Cucumis melo",
-      "crop_group": "Warm-season",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Anacardium occidentale",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Anacardium occidentale, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "https://icar.gov.in/en/hands-training-programme-minimal-processing-cashew-apples-organised-icar-dcr-puttur-karnataka",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR045.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/en/hands-training-programme-minimal-processing-cashew-apples-organised-icar-dcr-puttur-karnataka"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR047",
       "name": "Orange",
-      "scientific_name": "Citrus sinensis",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Citrus sinensis",
+      "aliases": [
+        "Blood Orange"
+      ],
+      "shortDescription": "The edible fruit of Citrus sinensis, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR047.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/en/landmark-varieties"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR048",
-      "name": "Sweet Lime (Mosambi)",
-      "scientific_name": "Citrus limettioides",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "name": "Sweet Lime",
+      "scientificName": "Citrus × limettioides",
+      "aliases": [
+        "Mosambi"
+      ],
+      "shortDescription": "The edible fruit of Citrus limettioides, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR048.webp",
+      "sourceRefs": [
+        "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A771957-1"
+      ],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR049",
       "name": "Mandarin",
-      "scientific_name": "Citrus reticulata",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Citrus reticulata",
+      "aliases": [
+        "Tangerine",
+        "Kinnow"
+      ],
+      "shortDescription": "The edible fruit of Citrus reticulata, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
+      "states": [
+        {
+          "state_id": "MH",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/orange/orange.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "KA",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/orange/orange.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "WB",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/orange/orange.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "ML",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/orange/orange.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "MZ",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/orange/orange.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "TR",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/orange/orange.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "SK",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/orange/orange.htm",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "AR",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/report_files/orange/orange.htm",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR049.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/report_files/orange/orange.htm"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR050",
       "name": "Grapefruit",
-      "scientific_name": "Citrus × paradisi",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Citrus × paradisi",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Citrus × paradisi, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR050.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/en/landmark-varieties"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR051",
       "name": "Pomelo",
-      "scientific_name": "Citrus maxima",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Citrus maxima",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Citrus maxima, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR051.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR052",
       "name": "Citron",
-      "scientific_name": "Citrus medica",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Citrus medica",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Citrus medica, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR052.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/2025-04/ICAR-Annual-Report-2022-23-English.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR053",
       "name": "Cape Gooseberry",
-      "scientific_name": "Physalis peruviana",
-      "crop_group": "Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Physalis peruviana",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Physalis peruviana, recorded in the Fruit Atlas as a subtropical crop.",
+      "cropGroup": "Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR053.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR054",
       "name": "Water Apple",
-      "scientific_name": "Syzygium aqueum",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Syzygium aqueum",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Syzygium aqueum, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR054.webp",
+      "sourceRefs": [
+        "https://www.fibkerala.gov.in/sites/default/files/inline-files/KK%20May%202021%20%285%29.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR055",
       "name": "Rose Apple",
-      "scientific_name": "Syzygium jambos",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Syzygium jambos",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Syzygium jambos, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "WB",
+          "status": "Recorded",
+          "evidence": "https://icar.gov.in/sites/default/files/Circulars/ICAR_April-June-2023.pdf",
+          "data_year": "2023"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR055.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/sites/default/files/Circulars/ICAR_April-June-2023.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR056",
       "name": "Malay Apple",
-      "scientific_name": "Syzygium malaccense",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Syzygium malaccense",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Syzygium malaccense, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR056.webp",
+      "sourceRefs": [
+        "https://forest.kerala.gov.in/wp-content/uploads/2024/12/Biodiversity-Action-Plan-2022-2032-ENGLISH.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR057",
       "name": "Breadfruit",
-      "scientific_name": "Artocarpus altilis",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Artocarpus altilis",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Artocarpus altilis, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR057.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR058",
       "name": "Soursop",
-      "scientific_name": "Annona muricata",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Annona muricata",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Annona muricata, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR058.webp",
+      "sourceRefs": [
+        "https://www.nhb.gov.in/KnowledgeCenter/Mainstreaming-Indigenous-Fruits-and-Vegetables.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR059",
       "name": "Cherimoya",
-      "scientific_name": "Annona cherimola",
-      "crop_group": "Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Annona cherimola",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Annona cherimola, recorded in the Fruit Atlas as a subtropical crop.",
+      "cropGroup": "Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR059.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR060",
       "name": "Atemoya",
-      "scientific_name": "Annona × atemoya",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Annona × atemoya",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Annona × atemoya, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR060.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR061",
       "name": "Bilimbi",
-      "scientific_name": "Averrhoa bilimbi",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR062",
-      "name": "Indian Gooseberry",
-      "scientific_name": "Phyllanthus emblica",
-      "crop_group": "Subtropical/Arid",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Averrhoa bilimbi",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Averrhoa bilimbi, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AN",
+          "status": "Recorded",
+          "evidence": "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf",
+          "data_year": "2006"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR061.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR063",
       "name": "Indian Persimmon",
-      "scientific_name": "Diospyros peregrina",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Diospyros peregrina",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Diospyros peregrina, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR063.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR064",
       "name": "Tendu",
-      "scientific_name": "Diospyros melanoxylon",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Diospyros melanoxylon",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Diospyros melanoxylon, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR064.webp",
+      "sourceRefs": [
+        "https://iwst.icfre.gov.in/database/Xylarium/ifgtb/accessno/ts/cbrw006.htm"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR065",
       "name": "Khirni",
-      "scientific_name": "Manilkara hexandra",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Manilkara hexandra",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Manilkara hexandra, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR065.webp",
+      "sourceRefs": [
+        "https://www.gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Thana%20District/Thane-I/pro_minerals.html"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR066",
       "name": "Mahua Fruit",
-      "scientific_name": "Madhuca longifolia",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Madhuca longifolia",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Madhuca longifolia, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR066.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR067",
-      "name": "Lasora (Gonda)",
-      "scientific_name": "Cordia dichotoma",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "name": "Lasora",
+      "scientificName": "Cordia dichotoma",
+      "aliases": [
+        "Gonda"
+      ],
+      "shortDescription": "The edible fruit of Cordia dichotoma, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR067.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR068",
       "name": "Jujube",
-      "scientific_name": "Ziziphus jujuba",
-      "crop_group": "Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Ziziphus jujuba",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Ziziphus jujuba, recorded in the Fruit Atlas as a subtropical crop.",
+      "cropGroup": "Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR068.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR069",
       "name": "Chironji Fruit",
-      "scientific_name": "Buchanania lanzan",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Buchanania lanzan",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Buchanania lanzan, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [
+        {
+          "id": "VAR054",
+          "name": "Thar Priya",
+          "notes": "ICAR chironji variety"
+        }
+      ],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR069.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/en/consultative-meet-exploiting-under-exploited-fruits-central-horticultural-experiment-station"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR070",
       "name": "Burmese Grape",
-      "scientific_name": "Baccaurea ramiflora",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Baccaurea ramiflora",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Baccaurea ramiflora, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AN",
+          "status": "Recorded",
+          "evidence": "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf",
+          "data_year": "2006"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR070.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR071",
       "name": "Governor's Plum",
-      "scientific_name": "Flacourtia indica",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Flacourtia indica",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Flacourtia indica, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR071.webp",
+      "sourceRefs": [
+        "https://mahaforest.gov.in/writereaddata/managementpdf/1418714082vaolume%20II.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR072",
       "name": "Indian Plum",
-      "scientific_name": "Flacourtia jangomas",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Flacourtia jangomas",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Flacourtia jangomas, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AS",
+          "status": "Recorded",
+          "evidence": "https://asbb.assam.gov.in/sites/default/files/swf_utility_folder/departments/asbb_lipl_in_oid_7/portlet/level_2/Edible%20Bioresources%20%26%20Livelihoods.pdf",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR072.webp",
+      "sourceRefs": [
+        "https://asbb.assam.gov.in/sites/default/files/swf_utility_folder/departments/asbb_lipl_in_oid_7/portlet/level_2/Edible%20Bioresources%20%26%20Livelihoods.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR073",
-      "name": "Mimusops (Bullet Wood)",
-      "scientific_name": "Mimusops elengi",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "name": "Bakul Fruit",
+      "scientificName": "Mimusops elengi",
+      "aliases": [
+        "Mimusops (Bullet Wood)",
+        "Maulsari"
+      ],
+      "shortDescription": "The edible fruit of Mimusops elengi, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AS",
+          "status": "Recorded",
+          "evidence": "https://asbb.assam.gov.in/sites/default/files/swf_utility_folder/departments/asbb_lipl_in_oid_7/portlet/level_2/Edible%20Bioresources%20%26%20Livelihoods.pdf",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR073.webp",
+      "sourceRefs": [
+        "https://asbb.assam.gov.in/sites/default/files/swf_utility_folder/departments/asbb_lipl_in_oid_7/portlet/level_2/Edible%20Bioresources%20%26%20Livelihoods.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR074",
       "name": "Palmyra Fruit",
-      "scientific_name": "Borassus flabellifer",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Borassus flabellifer",
+      "aliases": [
+        "Toddy Palm Fruit"
+      ],
+      "shortDescription": "The edible fruit of Borassus flabellifer, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR075",
-      "name": "Toddy Palm Fruit",
-      "scientific_name": "Borassus flabellifer",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR074.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/sites/default/files/2026-06/SIXTH%20DEANS%20COMMITTEE%20VOL%201%20FINAL%207-3-2026.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR076",
       "name": "Date",
-      "scientific_name": "Phoenix dactylifera",
-      "crop_group": "Arid",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Phoenix dactylifera",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Phoenix dactylifera, recorded in the Fruit Atlas as a arid crop.",
+      "cropGroup": "Arid",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "arid"
+      ],
+      "imageAsset": "assets/images/fruits/FR076.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR077",
       "name": "Indian Date Palm",
-      "scientific_name": "Phoenix sylvestris",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Phoenix sylvestris",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Phoenix sylvestris, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR078",
-      "name": "Fig (Anjeer)",
-      "scientific_name": "Ficus carica",
-      "crop_group": "Arid/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR077.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR079",
       "name": "Olive",
-      "scientific_name": "Olea europaea",
-      "crop_group": "Mediterranean/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Olea europaea",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Olea europaea, recorded in the Fruit Atlas as a mediterranean/subtropical crop.",
+      "cropGroup": "Mediterranean/Subtropical",
+      "states": [
+        {
+          "state_id": "RJ",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Olive_DPR.pdf",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "JK",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Olive_DPR.pdf",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "UP",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Olive_DPR.pdf",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "HP",
+          "status": "Cultivated",
+          "evidence": "https://nhb.gov.in/NHBDPR/Olive_DPR.pdf",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "mediterranean",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR079.webp",
+      "sourceRefs": [
+        "https://nhb.gov.in/NHBDPR/Olive_DPR.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR080",
       "name": "Persian Lime",
-      "scientific_name": "Citrus × latifolia",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Citrus × latifolia",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Citrus × latifolia, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
       "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR081",
-      "name": "Kinnow",
-      "scientific_name": "Citrus nobilis × C. deliciosa",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR082",
-      "name": "Tangerine",
-      "scientific_name": "Citrus reticulata",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR080.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR083",
       "name": "Kaffir Lime",
-      "scientific_name": "Citrus hystrix",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Citrus hystrix",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Citrus hystrix, recorded in the Fruit Atlas as a citrus crop.",
+      "cropGroup": "Citrus",
       "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR084",
-      "name": "Blood Orange",
-      "scientific_name": "Citrus sinensis",
-      "crop_group": "Citrus",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "citrus"
+      ],
+      "imageAsset": "assets/images/fruits/FR083.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR085",
       "name": "Sweet Granadilla",
-      "scientific_name": "Passiflora ligularis",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Passiflora ligularis",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Passiflora ligularis, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR085.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR086",
       "name": "Prickly Pear",
-      "scientific_name": "Opuntia ficus-indica",
-      "crop_group": "Arid",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Opuntia ficus-indica",
+      "aliases": [
+        "Indian Fig Cactus Fruit"
+      ],
+      "shortDescription": "The edible fruit of Opuntia ficus-indica, recorded in the Fruit Atlas as a arid crop.",
+      "cropGroup": "Arid",
       "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR087",
-      "name": "Indian Fig Cactus Fruit",
-      "scientific_name": "Opuntia spp.",
-      "crop_group": "Arid",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "arid"
+      ],
+      "imageAsset": "assets/images/fruits/FR086.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR088",
       "name": "Noni",
-      "scientific_name": "Morinda citrifolia",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR089",
-      "name": "Amla",
-      "scientific_name": "Phyllanthus emblica",
-      "crop_group": "Subtropical/Arid",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
-    },
-    {
-      "id": "FR090",
-      "name": "Chikoo",
-      "scientific_name": "Manilkara zapota",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Morinda citrifolia",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Morinda citrifolia, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AN",
+          "status": "Recorded",
+          "evidence": "https://icar.gov.in/sites/default/files/inline-files/overview-12-13.pdf",
+          "data_year": "2012-13"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR088.webp",
+      "sourceRefs": [
+        "https://plantauthority.gov.in/crop-dus-guidelines",
+        "https://icar.gov.in/sites/default/files/inline-files/overview-12-13.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR091",
-      "name": "Hog Plum (Ambada)",
-      "scientific_name": "Spondias pinnata",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "name": "Hog Plum",
+      "scientificName": "Spondias pinnata",
+      "aliases": [
+        "Ambada"
+      ],
+      "shortDescription": "The edible fruit of Spondias pinnata, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "MH",
+          "status": "Recorded",
+          "evidence": "https://gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Ratnagiri%20and%20Sawantwadi/savantvadi/pro2_minerals.html",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR091.webp",
+      "sourceRefs": [
+        "https://gazetteers.maharashtra.gov.in/cultural.maharashtra.gov.in/english/gazetteer/Ratnagiri%20and%20Sawantwadi/savantvadi/pro2_minerals.html"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR092",
       "name": "Ambarella",
-      "scientific_name": "Spondias dulcis",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Spondias dulcis",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Spondias dulcis, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AN",
+          "status": "Recorded",
+          "evidence": "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf",
+          "data_year": "2006"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR092.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR093",
       "name": "Mango Plum",
-      "scientific_name": "Bouea macrophylla",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Bouea macrophylla",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Bouea macrophylla, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR093.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR094",
       "name": "Yellow Mangosteen",
-      "scientific_name": "Garcinia xanthochymus",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Garcinia xanthochymus",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Garcinia xanthochymus, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR094.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/2025-04/ICAR-Annual-Report-2022-23-English.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR095",
       "name": "Kadam Fruit",
-      "scientific_name": "Neolamarckia cadamba",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
-      "states": [],
-      "varieties": []
+      "scientificName": "Neolamarckia cadamba",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Neolamarckia cadamba, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "MZ",
+          "status": "Recorded",
+          "evidence": "https://bsi.gov.in/uploads/documents/Public_Information/publication/books/state_flora_latest/Flora%20of%20Mizoram%20vol%201.pdf",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR095.webp",
+      "sourceRefs": [
+        "https://bsi.gov.in/uploads/documents/Public_Information/publication/books/state_flora_latest/Flora%20of%20Mizoram%20vol%201.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR096",
       "name": "Fig Mulberry",
-      "scientific_name": "Ficus racemosa",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Ficus racemosa",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Ficus racemosa, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR096.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR097",
       "name": "Strawberry Guava",
-      "scientific_name": "Psidium cattleianum",
-      "crop_group": "Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Psidium cattleianum",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Psidium cattleianum, recorded in the Fruit Atlas as a subtropical crop.",
+      "cropGroup": "Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR097.webp",
+      "sourceRefs": [],
+      "researchStatus": "legacy_review_needed"
     },
     {
       "id": "FR098",
       "name": "White Sapote",
-      "scientific_name": "Casimiroa edulis",
-      "crop_group": "Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Casimiroa edulis",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Casimiroa edulis, recorded in the Fruit Atlas as a subtropical crop.",
+      "cropGroup": "Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR098.webp",
+      "sourceRefs": [
+        "https://bsi.gov.in/uploads/documents/Public_Information/publication/books/Flora%20of%20India%20latest/FLORA%20OF%20INDIA%20VOL.4.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR099",
       "name": "Black Sapote",
-      "scientific_name": "Diospyros digyna",
-      "crop_group": "Tropical/Subtropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Diospyros nigra",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Diospyros digyna, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "cropGroup": "Tropical/Subtropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "subtropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR099.webp",
+      "sourceRefs": [
+        "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A322764-1",
+        "https://www.manage.gov.in/publications/eBooks/Training%20manual%20on%20climate%20smart%20horticultural%20technologies.pdf"
+      ],
+      "researchStatus": "source_verified"
     },
     {
       "id": "FR100",
       "name": "Mamey Sapote",
-      "scientific_name": "Pouteria sapota",
-      "crop_group": "Tropical",
-      "image_status": "Pending — licensed/commercial-use image to be sourced",
+      "scientificName": "Pouteria sapota",
+      "aliases": [],
+      "shortDescription": "The edible fruit of Pouteria sapota, recorded in the Fruit Atlas as a tropical crop.",
+      "cropGroup": "Tropical",
       "states": [],
-      "varieties": []
+      "varieties": [],
+      "tags": [
+        "tropical"
+      ],
+      "imageAsset": "assets/images/fruits/FR100.webp",
+      "sourceRefs": [
+        "https://www.fibkerala.gov.in/sites/default/files/inline-files/KKE%20April%202025.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR101",
+      "name": "Longan",
+      "scientificName": "Dimocarpus longan",
+      "aliases": [],
+      "shortDescription": "A close relative of litchi with small, translucent-fleshed fruit.",
+      "cropGroup": "Subtropical",
+      "states": [],
+      "varieties": [
+        {
+          "id": "VAR056",
+          "name": "NRCL Longan-1",
+          "notes": "ICAR longan variety"
+        }
+      ],
+      "tags": [
+        "subtropical",
+        "longan"
+      ],
+      "imageAsset": "assets/images/fruits/FR101.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/2022-12/ICAR-INSTITUTE-PROFILE_.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR102",
+      "name": "Sohiong",
+      "scientificName": "Prunus nepalensis",
+      "aliases": [
+        "Khasi Cherry"
+      ],
+      "shortDescription": "A dark hill fruit cultivated in Meghalaya.",
+      "cropGroup": "Temperate",
+      "states": [
+        {
+          "state_id": "ML",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "temperate",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR102.webp",
+      "sourceRefs": [
+        "https://megagriculture.gov.in/public/crops_fruits.aspx"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR103",
+      "name": "Sohshang",
+      "scientificName": "Elaeagnus latifolia",
+      "aliases": [],
+      "shortDescription": "A tart indigenous fruit cultivated in Meghalaya.",
+      "cropGroup": "Temperate",
+      "states": [
+        {
+          "state_id": "ML",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "temperate",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR103.webp",
+      "sourceRefs": [
+        "https://megagriculture.gov.in/public/crops_fruits.aspx"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR104",
+      "name": "Elephant Apple",
+      "scientificName": "Dillenia indica",
+      "aliases": [
+        "Ou Tenga"
+      ],
+      "shortDescription": "A large sour fruit used in northeastern Indian cooking.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AS",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        },
+        {
+          "state_id": "AN",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR104.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/inline-files/Horticulture-02.pdf",
+        "https://www.icar.gov.in/sites/default/files/2022-06/Doubling-of-Farmers-Income-updated-092020-min.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR105",
+      "name": "Sea Buckthorn",
+      "scientificName": "Hippophae rhamnoides",
+      "aliases": [],
+      "shortDescription": "An orange Himalayan berry associated with Ladakh.",
+      "cropGroup": "Temperate",
+      "states": [
+        {
+          "state_id": "LA",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "temperate",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR105.webp",
+      "sourceRefs": [
+        "https://www.india.gov.in/explore-india/odop/details/seabuckthorn"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR106",
+      "name": "Tamarillo",
+      "scientificName": "Solanum betaceum",
+      "aliases": [
+        "Tree Tomato",
+        "Rukh Rambeda"
+      ],
+      "shortDescription": "A tree-borne fruit grown in Sikkim hill gardens.",
+      "cropGroup": "Subtropical",
+      "states": [
+        {
+          "state_id": "SK",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "subtropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR106.webp",
+      "sourceRefs": [
+        "https://www.sikkim.gov.in/department/departmentmenudetails?url=Menu%3Dfood-security-and-agriculture-development-department%2Fcrops"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR107",
+      "name": "Star Apple",
+      "scientificName": "Chrysophyllum cainito",
+      "aliases": [],
+      "shortDescription": "A tropical fruit recorded in Kerala biodiversity surveys.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KL",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR107.webp",
+      "sourceRefs": [
+        "https://forest.kerala.gov.in/wp-content/uploads/2024/12/Biodiversity-Action-Plan-2022-2032-ENGLISH.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR108",
+      "name": "Acerola",
+      "scientificName": "Malpighia emarginata",
+      "aliases": [
+        "West Indian Cherry"
+      ],
+      "shortDescription": "A small red fruit recorded in Kerala's biodiversity catalogue.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KL",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR108.webp",
+      "sourceRefs": [
+        "https://forest.kerala.gov.in/wp-content/uploads/2024/12/Biodiversity-Action-Plan-2022-2032-ENGLISH.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR109",
+      "name": "Blood Fruit",
+      "scientificName": "Haematocarpus validus",
+      "aliases": [],
+      "shortDescription": "An island fruit studied for its deeply coloured pulp.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AN",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR109.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/2022-12/ICAR-INSTITUTE-PROFILE_.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR110",
+      "name": "Wax Apple",
+      "scientificName": "Syzygium samarangense",
+      "aliases": [
+        "Jamrul"
+      ],
+      "shortDescription": "A crisp bell-shaped fruit distinct from water apple and rose apple.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "GJ",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR110.webp",
+      "sourceRefs": [
+        "https://tfri.icfre.gov.in/IJTB-Journal/Vol_25_2017/Abstracts/Pages%20from%20IJTB%2025%281%29%202017-%2810%29%2076-81.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR111",
+      "name": "Sohphie",
+      "scientificName": "Myrica esculenta",
+      "aliases": [
+        "Himalayan Bayberry"
+      ],
+      "shortDescription": "A hill berry grown in Meghalaya.",
+      "cropGroup": "Temperate",
+      "states": [
+        {
+          "state_id": "ML",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "temperate",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR111.webp",
+      "sourceRefs": [
+        "https://megagriculture.gov.in/public/crops_fruits.aspx"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR112",
+      "name": "Star Gooseberry",
+      "scientificName": "Phyllanthus acidus",
+      "aliases": [
+        "Arinelli"
+      ],
+      "shortDescription": "A ribbed, tart fruit eaten fresh or pickled.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AS",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR112.webp",
+      "sourceRefs": [
+        "https://asbb.assam.gov.in/sites/default/files/swf_utility_folder/departments/asbb_lipl_in_oid_7/portlet/level_2/Edible%20Bioresources%20%26%20Livelihoods.pdf",
+        "https://megbrdc.nic.in/publications/booklets/wild-edible-fruits-of-meghalaya.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR113",
+      "name": "Surinam Cherry",
+      "scientificName": "Eugenia uniflora",
+      "aliases": [
+        "Pitanga"
+      ],
+      "shortDescription": "A ribbed cherry-like fruit recorded in Kerala.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KL",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR113.webp",
+      "sourceRefs": [
+        "https://forest.kerala.gov.in/wp-content/uploads/2024/12/Biodiversity-Action-Plan-2022-2032-ENGLISH.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR114",
+      "name": "Naga Tenga",
+      "scientificName": "Rhus semialata",
+      "aliases": [],
+      "shortDescription": "A sour fruit recorded in Assamese traditional orchards.",
+      "cropGroup": "Subtropical",
+      "states": [
+        {
+          "state_id": "AS",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "subtropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR114.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/2022-06/Doubling-of-Farmers-Income-updated-092020-min.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR115",
+      "name": "Tropical Apricot",
+      "scientificName": "Dovyalis abyssinica",
+      "aliases": [],
+      "shortDescription": "A tart fruit listed in Kerala's biodiversity inventory.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KL",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR115.webp",
+      "sourceRefs": [
+        "https://forest.kerala.gov.in/wp-content/uploads/2024/12/Biodiversity-Action-Plan-2022-2032-ENGLISH.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR116",
+      "name": "Velvet Apple",
+      "scientificName": "Diospyros discolor",
+      "aliases": [],
+      "shortDescription": "A fuzzy-skinned fruit recorded in Kerala's biodiversity inventory.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KL",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR116.webp",
+      "sourceRefs": [
+        "https://forest.kerala.gov.in/wp-content/uploads/2024/12/Biodiversity-Action-Plan-2022-2032-ENGLISH.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR117",
+      "name": "Andaman Garcinia",
+      "scientificName": "Garcinia andamanica",
+      "aliases": [],
+      "shortDescription": "An island fruit whose rind is used as a souring ingredient.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AN",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR117.webp",
+      "sourceRefs": [
+        "https://www.icar.gov.in/sites/default/files/2022-12/ICAR-INSTITUTE-PROFILE_.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR118",
+      "name": "Antidesma Berry",
+      "scientificName": "Antidesma ghaesembilla",
+      "aliases": [
+        "Black Current Tree"
+      ],
+      "shortDescription": "A small edible berry documented in eastern India.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "AS",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR118.webp",
+      "sourceRefs": [
+        "https://asbb.assam.gov.in/sites/default/files/swf_utility_folder/departments/asbb_lipl_in_oid_7/portlet/level_2/Edible%20Bioresources%20%26%20Livelihoods.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR119",
+      "name": "Langsat",
+      "scientificName": "Lansium parasiticum",
+      "aliases": [],
+      "shortDescription": "A clustered subtropical fruit recorded in Kerala.",
+      "cropGroup": "Subtropical",
+      "states": [
+        {
+          "state_id": "KL",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "subtropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR119.webp",
+      "sourceRefs": [
+        "https://forest.kerala.gov.in/wp-content/uploads/2024/12/Biodiversity-Action-Plan-2022-2032-ENGLISH.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR120",
+      "name": "Moottipazham",
+      "scientificName": "Baccaurea courtallensis",
+      "aliases": [],
+      "shortDescription": "An edible Western Ghats fruit borne on forest trees.",
+      "cropGroup": "Tropical",
+      "states": [
+        {
+          "state_id": "KL",
+          "status": "Recorded",
+          "evidence": "Official source cited in sourceRefs",
+          "data_year": "2026"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "tropical",
+        "regional"
+      ],
+      "imageAsset": "assets/images/fruits/FR120.webp",
+      "sourceRefs": [
+        "https://bsi.gov.in/uploads/documents/Public_Information/publication/books/miscellaneous/Floristic%20Diversity%20and%20Conservation%20Strategies%20in%20India%20vol.4.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR121",
+      "name": "Ramphal",
+      "scientificName": "Annona reticulata",
+      "aliases": [
+        "Bullock's Heart",
+        "Aalimaram",
+        "Nona"
+      ],
+      "shortDescription": "A distinct edible Annona fruit naturalized and cultivated in parts of India.",
+      "cropGroup": "Regional/Underutilized",
+      "states": [
+        {
+          "state_id": "UP",
+          "status": "Recorded",
+          "evidence": "https://icar.gov.in/sites/default/files/2022-06/Geographical-Indications-of-Plant-Species-in-ITKs-in-Agriculture.pdf",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "fruit",
+        "regional",
+        "annona"
+      ],
+      "imageAsset": "assets/images/fruits/FR121.webp",
+      "sourceRefs": [
+        "https://icar.gov.in/sites/default/files/2022-06/Geographical-Indications-of-Plant-Species-in-ITKs-in-Agriculture.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR122",
+      "name": "Jungle Jalebi",
+      "scientificName": "Pithecellobium dulce",
+      "aliases": [
+        "Manila Tamarind",
+        "Kodukkapuli",
+        "Seemachintakaya"
+      ],
+      "shortDescription": "Twisted pods carry a sweet-sour edible pulp enjoyed in several Indian regions.",
+      "cropGroup": "Regional/Underutilized",
+      "states": [
+        {
+          "state_id": "BR",
+          "status": "Recorded",
+          "evidence": "https://patnazoo.bihar.gov.in/plant/jungle-jalebi-tree",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "MP",
+          "status": "Recorded",
+          "evidence": "https://mpforest.gov.in/mpsbb/completedProject/BG.pdf",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "fruit",
+        "regional",
+        "wild-edible"
+      ],
+      "imageAsset": "assets/images/fruits/FR122.webp",
+      "sourceRefs": [
+        "https://patnazoo.bihar.gov.in/plant/jungle-jalebi-tree",
+        "https://english.icfre.gov.in/pdf/books-file/book31.pdf",
+        "https://mpforest.gov.in/mpsbb/completedProject/BG.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR123",
+      "name": "Malabar Tamarind",
+      "scientificName": "Garcinia gummi-gutta",
+      "aliases": [
+        "Kudampuli",
+        "Fish Tamarind"
+      ],
+      "shortDescription": "A Western Ghats Garcinia whose dried fruit rind is used to sour dishes in Kerala.",
+      "cropGroup": "Regional/Underutilized",
+      "states": [
+        {
+          "state_id": "KL",
+          "status": "Cultivated",
+          "evidence": "https://fibkerala.gov.in/sites/default/files/inline-files/KKE%202024%20DECEMBER%20%281%29.pdf",
+          "data_year": "2024"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "fruit",
+        "regional",
+        "culinary"
+      ],
+      "imageAsset": "assets/images/fruits/FR123.webp",
+      "sourceRefs": [
+        "https://fibkerala.gov.in/sites/default/files/inline-files/KKE%202024%20DECEMBER%20%281%29.pdf",
+        "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A427982-1"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR124",
+      "name": "Bor Thekera",
+      "scientificName": "Garcinia pedunculata",
+      "aliases": [],
+      "shortDescription": "An Assamese Garcinia whose dried ripe-fruit slices have traditional culinary use.",
+      "cropGroup": "Regional/Underutilized",
+      "states": [
+        {
+          "state_id": "AS",
+          "status": "Recorded",
+          "evidence": "https://dst.gov.in/medicinal-plant-commonly-called-borthekera-assamese-found-have-cardioprotective-potential",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "fruit",
+        "regional",
+        "culinary"
+      ],
+      "imageAsset": "assets/images/fruits/FR124.webp",
+      "sourceRefs": [
+        "https://dst.gov.in/medicinal-plant-commonly-called-borthekera-assamese-found-have-cardioprotective-potential",
+        "https://www.icar.gov.in/sites/default/files/2025-04/ICAR-Annual-Report-2022-23-English.pdf"
+      ],
+      "researchStatus": "source_verified"
+    },
+    {
+      "id": "FR125",
+      "name": "Monkey Jack",
+      "scientificName": "Artocarpus lakoocha",
+      "aliases": [
+        "Lakoocha",
+        "Lakuch",
+        "Deophal"
+      ],
+      "shortDescription": "A regional Artocarpus fruit eaten fresh or prepared in parts of India.",
+      "cropGroup": "Regional/Underutilized",
+      "states": [
+        {
+          "state_id": "AS",
+          "status": "Recorded",
+          "evidence": "https://asbb.assam.gov.in/sites/default/files/swf_utility_folder/departments/asbb_lipl_in_oid_7/portlet/level_2/Edible%20Bioresources%20%26%20Livelihoods.pdf",
+          "data_year": "not stated"
+        },
+        {
+          "state_id": "KA",
+          "status": "Recorded",
+          "evidence": "https://bsi.gov.in/uploads/documents/Public_Information/publication/books/miscellaneous/Flora%20of%20the%20Presidency%20of%20Madras%20vol%203.pdf",
+          "data_year": "not stated"
+        }
+      ],
+      "varieties": [],
+      "tags": [
+        "fruit",
+        "regional",
+        "wild-edible"
+      ],
+      "imageAsset": "assets/images/fruits/FR125.webp",
+      "sourceRefs": [
+        "https://asbb.assam.gov.in/sites/default/files/swf_utility_folder/departments/asbb_lipl_in_oid_7/portlet/level_2/Edible%20Bioresources%20%26%20Livelihoods.pdf",
+        "https://bsi.gov.in/uploads/documents/Public_Information/publication/books/miscellaneous/Flora%20of%20the%20Presidency%20of%20Madras%20vol%203.pdf"
+      ],
+      "researchStatus": "source_verified"
     }
-  ]
+  ],
+  "legacy_id_redirects": {
+    "FR046": "FR016",
+    "FR062": "FR009",
+    "FR075": "FR074",
+    "FR078": "FR035",
+    "FR081": "FR049",
+    "FR082": "FR049",
+    "FR084": "FR047",
+    "FR087": "FR086",
+    "FR089": "FR009",
+    "FR090": "FR006"
+  }
 }

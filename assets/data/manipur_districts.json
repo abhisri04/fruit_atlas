@@ -1,0 +1,148 @@
+{
+  "districts": [
+    {
+      "id": "district_manipur_imphal_west",
+      "name": "Imphal West",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Imphal West is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_imphal_east",
+      "name": "Imphal East",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Imphal East is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_ukhrul",
+      "name": "Ukhrul",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Ukhrul is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_senapati",
+      "name": "Senapati",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Senapati is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_thoubal",
+      "name": "Thoubal",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Thoubal is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_bishnupur",
+      "name": "Bishnupur",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Bishnupur is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_tamenglong",
+      "name": "Tamenglong",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Tamenglong is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_churachandpur",
+      "name": "Churachandpur",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Churachandpur is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_chandel",
+      "name": "Chandel",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Chandel is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_kangpokpi",
+      "name": "Kangpokpi",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Kangpokpi is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_noney",
+      "name": "Noney",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Noney is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_kakching",
+      "name": "Kakching",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Kakching is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_jiribam",
+      "name": "Jiribam",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Jiribam is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_kamjong",
+      "name": "Kamjong",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Kamjong is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_pherzawl",
+      "name": "Pherzawl",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Pherzawl is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_manipur_tengnoupal",
+      "name": "Tengnoupal",
+      "state_id": "manipur",
+      "state_name": "Manipur",
+      "description": "Tengnoupal is a district of Manipur.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

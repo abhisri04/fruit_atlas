@@ -1,5 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../models/fruit_identity.dart';
+
 class ProgressService {
   static const String _completedFruitIdsKey = 'completed_fruit_ids';
   static const String _completedVarietyIdsKey = 'completed_variety_ids';
@@ -10,8 +12,13 @@ class ProgressService {
   static const String _completedExperienceIdsKey = 'completed_experience_ids';
   static const String _completedDistrictIdsKey = 'completed_district_ids';
 
-  static Future<Set<String>> getCompletedFruitIds() {
-    return _getCompletedIds(_completedFruitIdsKey);
+  static Future<Set<String>> getCompletedFruitIds() async {
+    final saved = await _getCompletedIds(_completedFruitIdsKey);
+    final canonical = saved.map(FruitIdentity.canonicalId).toSet();
+    if (canonical.length != saved.length || !canonical.containsAll(saved)) {
+      await _setCompletedIds(_completedFruitIdsKey, canonical);
+    }
+    return canonical;
   }
 
   static Future<Set<String>> getCompletedVarietyIds() {
@@ -26,15 +33,23 @@ class ProgressService {
     return _getCompletedIds(_savedChallengeIdsKey);
   }
 
-  static Future<Set<String>> getSavedEntityReferences() {
-    return _getCompletedIds(_savedEntityReferencesKey);
+  static Future<Set<String>> getSavedEntityReferences() async {
+    final saved = await _getCompletedIds(_savedEntityReferencesKey);
+    final canonical = saved.map(FruitIdentity.canonicalReference).toSet();
+    if (canonical.length != saved.length || !canonical.containsAll(saved)) {
+      await _setCompletedIds(_savedEntityReferencesKey, canonical);
+    }
+    return canonical;
   }
 
   static Future<bool> isEntitySaved(String reference) async {
-    return (await getSavedEntityReferences()).contains(reference);
+    return (await getSavedEntityReferences()).contains(
+      FruitIdentity.canonicalReference(reference),
+    );
   }
 
   static Future<bool> toggleSavedEntity(String reference) async {
+    reference = FruitIdentity.canonicalReference(reference);
     final saved = await getSavedEntityReferences();
     if (!saved.remove(reference)) saved.add(reference);
     await _setCompletedIds(_savedEntityReferencesKey, saved);
@@ -117,7 +132,10 @@ class ProgressService {
   }
 
   static Future<void> setCompletedFruitIds(Set<String> ids) {
-    return _setCompletedIds(_completedFruitIdsKey, ids);
+    return _setCompletedIds(
+      _completedFruitIdsKey,
+      ids.map(FruitIdentity.canonicalId).toSet(),
+    );
   }
 
   static Future<void> setCompletedVarietyIds(Set<String> ids) {

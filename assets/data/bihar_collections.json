@@ -1,0 +1,180 @@
+{
+  "collections": [
+    {
+      "id": "bihar_landmarks_heritage",
+      "title": "Landmarks & Heritage",
+      "description": "Landmarks & Heritage experiences associated with Bihar.",
+      "icon": "landmark",
+      "parent_section_id": "things_to_do",
+      "context_id": "bihar",
+      "context_name": "Bihar",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_bihar_mahabodhi_temple",
+        "exp_bihar_nalanda_mahavihara",
+        "exp_bihar_takht_sri_patna_sahib",
+        "exp_bihar_golghar",
+        "exp_bihar_bihar_museum",
+        "exp_bihar_sher_shah_suri_tomb",
+        "exp_bihar_barabar_caves",
+        "exp_bihar_vikramshila_ruins",
+        "exp_bihar_jal_mandir_pawapuri",
+        "exp_bihar_vishwa_shanti_stupa_rajgir"
+      ],
+      "empty_message": "More Bihar landmarks & heritage experiences are coming soon."
+    },
+    {
+      "id": "bihar_nature_wildlife",
+      "title": "Nature & Wildlife",
+      "description": "Nature & Wildlife experiences associated with Bihar.",
+      "icon": "nature",
+      "parent_section_id": "things_to_do",
+      "context_id": "bihar",
+      "context_name": "Bihar",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "visited",
+      "member_entity_ids": [
+        "exp_bihar_valmiki_tiger_reserve",
+        "exp_bihar_kanwar_lake",
+        "exp_bihar_vikramshila_gangetic_dolphin_sanctuary",
+        "exp_bihar_bhimbandh_wildlife_sanctuary",
+        "exp_bihar_kaimur_wildlife_sanctuary",
+        "exp_bihar_rajgir_wildlife_sanctuary"
+      ],
+      "empty_message": "More Bihar nature & wildlife experiences are coming soon."
+    },
+    {
+      "id": "bihar_experiences_activities",
+      "title": "Experiences & Activities",
+      "description": "Experiences & Activities experiences associated with Bihar.",
+      "icon": "activity",
+      "parent_section_id": "things_to_do",
+      "context_id": "bihar",
+      "context_name": "Bihar",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_bihar_ride_the_rajgir_ropeway",
+        "exp_bihar_explore_patna_s_riverfront",
+        "exp_bihar_discover_madhubani_painting",
+        "exp_bihar_reflect_at_bodh_gaya"
+      ],
+      "empty_message": "More Bihar experiences & activities experiences are coming soon."
+    },
+    {
+      "id": "bihar_fruits",
+      "title": "Fruits",
+      "description": "Fruits experiences associated with Bihar.",
+      "icon": "fruit",
+      "parent_section_id": "food_drink",
+      "context_id": "bihar",
+      "context_name": "Bihar",
+      "entity_type": "fruit",
+      "sort_order": 1,
+      "completion_verb": "explored",
+      "member_entity_ids": [],
+      "empty_message": "More Bihar fruits experiences are coming soon."
+    },
+    {
+      "id": "bihar_dishes",
+      "title": "Dishes",
+      "description": "Dishes experiences associated with Bihar.",
+      "icon": "dish",
+      "parent_section_id": "food_drink",
+      "context_id": "bihar",
+      "context_name": "Bihar",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_bihar_litti_chokha",
+        "exp_bihar_dal_pitha",
+        "exp_bihar_thekua",
+        "exp_bihar_silao_khaja",
+        "exp_bihar_tilkut",
+        "exp_bihar_chana_ghugni",
+        "exp_bihar_sattu_paratha",
+        "exp_bihar_malpua"
+      ],
+      "empty_message": "More Bihar dishes experiences are coming soon."
+    },
+    {
+      "id": "bihar_drinks",
+      "title": "Drinks",
+      "description": "Drinks experiences associated with Bihar.",
+      "icon": "drink",
+      "parent_section_id": "food_drink",
+      "context_id": "bihar",
+      "context_name": "Bihar",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "tried",
+      "member_entity_ids": [
+        "exp_bihar_sattu_sharbat",
+        "exp_bihar_bel_sharbat"
+      ],
+      "empty_message": "More Bihar drinks experiences are coming soon."
+    },
+    {
+      "id": "bihar_arts_crafts",
+      "title": "Arts & Crafts",
+      "description": "Arts & Crafts experiences associated with Bihar.",
+      "icon": "craft",
+      "parent_section_id": "culture",
+      "context_id": "bihar",
+      "context_name": "Bihar",
+      "entity_type": "experience",
+      "sort_order": 1,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_bihar_madhubani_painting",
+        "exp_bihar_sujini_embroidery",
+        "exp_bihar_sikki_grass_craft",
+        "exp_bihar_tikuli_art",
+        "exp_bihar_manjusha_painting"
+      ],
+      "empty_message": "More Bihar arts & crafts experiences are coming soon."
+    },
+    {
+      "id": "bihar_festivals_fairs",
+      "title": "Festivals & Fairs",
+      "description": "Festivals & Fairs experiences associated with Bihar.",
+      "icon": "festival",
+      "parent_section_id": "culture",
+      "context_id": "bihar",
+      "context_name": "Bihar",
+      "entity_type": "experience",
+      "sort_order": 2,
+      "completion_verb": "attended",
+      "member_entity_ids": [
+        "exp_bihar_chhath_puja",
+        "exp_bihar_sonepur_mela",
+        "exp_bihar_rajgir_mahotsav",
+        "exp_bihar_buddha_purnima_in_bodh_gaya"
+      ],
+      "empty_message": "More Bihar festivals & fairs experiences are coming soon."
+    },
+    {
+      "id": "bihar_music_dance",
+      "title": "Music & Dance",
+      "description": "Music & Dance experiences associated with Bihar.",
+      "icon": "music",
+      "parent_section_id": "culture",
+      "context_id": "bihar",
+      "context_name": "Bihar",
+      "entity_type": "experience",
+      "sort_order": 3,
+      "completion_verb": "experienced",
+      "member_entity_ids": [
+        "exp_bihar_bidesia",
+        "exp_bihar_jat_jatin",
+        "exp_bihar_jhijhiya"
+      ],
+      "empty_message": "More Bihar music & dance experiences are coming soon."
+    }
+  ]
+}

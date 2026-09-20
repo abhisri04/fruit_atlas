@@ -1,0 +1,26 @@
+{
+  "districts": [
+    {
+      "id": "district_puducherry_puducherry",
+      "name": "Puducherry",
+      "state_id": "puducherry",
+      "state_name": "Puducherry",
+      "description": "Puducherry administrative district includes Puducherry region and the outlying units of Mahe and Yanam.",
+      "keywords": [
+        "Pondicherry",
+        "Mahe",
+        "Yanam"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_puducherry_karaikal",
+      "name": "Karaikal",
+      "state_id": "puducherry",
+      "state_name": "Puducherry",
+      "description": "Karaikal is a district of Puducherry.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

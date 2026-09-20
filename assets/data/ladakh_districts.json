@@ -1,0 +1,67 @@
+{
+  "districts": [
+    {
+      "id": "district_ladakh_leh",
+      "name": "Leh",
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "description": "Leh is a district of Ladakh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_ladakh_kargil",
+      "name": "Kargil",
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "description": "Kargil is a district of Ladakh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_ladakh_sham",
+      "name": "Sham",
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "description": "Sham is a district of Ladakh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_ladakh_nubra",
+      "name": "Nubra",
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "description": "Nubra is a district of Ladakh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_ladakh_changthang",
+      "name": "Changthang",
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "description": "Changthang is a district of Ladakh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_ladakh_zanskar",
+      "name": "Zanskar",
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "description": "Zanskar is a district of Ladakh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_ladakh_drass",
+      "name": "Drass",
+      "state_id": "ladakh",
+      "state_name": "Ladakh",
+      "description": "Drass is a district of Ladakh.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

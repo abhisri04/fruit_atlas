@@ -1,0 +1,7 @@
+{
+  "state_id": "maharashtra",
+  "state_name": "Maharashtra",
+  "district_asset": "assets/data/maharashtra_districts.json",
+  "experience_asset": "assets/data/maharashtra_experiences.json",
+  "collections_asset": "assets/data/maharashtra_collections.json"
+}

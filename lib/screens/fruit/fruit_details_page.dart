@@ -10,6 +10,7 @@ import '../../widgets/data_notice.dart';
 import '../../services/progress_service.dart';
 import '../../widgets/progress_card.dart';
 import '../../widgets/metadata_chip.dart';
+import '../../widgets/fruit_image.dart';
 import 'variety_details_page.dart';
 
 // FRUIT DETAILS PAGE
@@ -91,6 +92,15 @@ class _FruitDetailsPageState extends State<FruitDetailsPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              SizedBox(
+                width: double.infinity,
+                child: FruitImage(
+                  fruit: widget.fruit,
+                  height: 210,
+                  iconSize: 56,
+                ),
+              ),
+              const SizedBox(height: 16),
               ExplorationHero(
                 title: widget.fruit.name,
                 subtitle: widget.fruit.scientificName.isEmpty
@@ -99,6 +109,13 @@ class _FruitDetailsPageState extends State<FruitDetailsPage> {
                 icon: Icons.eco_outlined,
                 accent: AppColors.orange,
               ),
+              if (widget.fruit.shortDescription.isNotEmpty) ...[
+                const SizedBox(height: 12),
+                Text(
+                  widget.fruit.shortDescription,
+                  style: const TextStyle(color: AppColors.muted, height: 1.4),
+                ),
+              ],
               ProgressCard(
                 prominent: true,
                 variant: ProgressSize.medium,

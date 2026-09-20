@@ -1,0 +1,112 @@
+{
+  "districts": [
+    {
+      "id": "district_meghalaya_east_garo_hills",
+      "name": "East Garo Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "East Garo Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_north_garo_hills",
+      "name": "North Garo Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "North Garo Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_south_garo_hills",
+      "name": "South Garo Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "South Garo Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_west_garo_hills",
+      "name": "West Garo Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "West Garo Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_south_west_garo_hills",
+      "name": "South West Garo Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "South West Garo Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_east_khasi_hills",
+      "name": "East Khasi Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "East Khasi Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_west_jaintia_hills",
+      "name": "West Jaintia Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "West Jaintia Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_east_jaintia_hills",
+      "name": "East Jaintia Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "East Jaintia Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_south_west_khasi_hills",
+      "name": "South West Khasi Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "South West Khasi Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_west_khasi_hills",
+      "name": "West Khasi Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "West Khasi Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_eastern_west_khasi_hills",
+      "name": "Eastern West Khasi Hills",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "Eastern West Khasi Hills is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_meghalaya_ri_bhoi",
+      "name": "Ri Bhoi",
+      "state_id": "meghalaya",
+      "state_name": "Meghalaya",
+      "description": "Ri Bhoi is a district of Meghalaya.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

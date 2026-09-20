@@ -1,0 +1,256 @@
+{
+  "districts": [
+    {
+      "id": "district_arunachal_pradesh_anjaw",
+      "name": "Anjaw",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Anjaw is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_bichom",
+      "name": "Bichom",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Bichom is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_changlang",
+      "name": "Changlang",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Changlang is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_dibang_valley",
+      "name": "Dibang Valley",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Dibang Valley is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_east_kameng",
+      "name": "East Kameng",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "East Kameng is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_east_siang",
+      "name": "East Siang",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "East Siang is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_itanagar_capital_complex",
+      "name": "Itanagar Capital Complex",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Itanagar Capital Complex is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_kamle",
+      "name": "Kamle",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Kamle is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_keyi_panyor",
+      "name": "Keyi Panyor",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Keyi Panyor is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_kra_daadi",
+      "name": "Kra Daadi",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Kra Daadi is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_kurung_kumey",
+      "name": "Kurung Kumey",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Kurung Kumey is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_lepa_rada",
+      "name": "Lepa Rada",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Lepa Rada is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_lohit",
+      "name": "Lohit",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Lohit is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_longding",
+      "name": "Longding",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Longding is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_lower_dibang_valley",
+      "name": "Lower Dibang Valley",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Lower Dibang Valley is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_lower_siang",
+      "name": "Lower Siang",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Lower Siang is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_lower_subansiri",
+      "name": "Lower Subansiri",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Lower Subansiri is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_namsai",
+      "name": "Namsai",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Namsai is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_pakke_kessang",
+      "name": "Pakke-Kessang",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Pakke-Kessang is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_papum_pare",
+      "name": "Papum Pare",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Papum Pare is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_shi_yomi",
+      "name": "Shi Yomi",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Shi Yomi is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_siang",
+      "name": "Siang",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Siang is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_tawang",
+      "name": "Tawang",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Tawang is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_tirap",
+      "name": "Tirap",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Tirap is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_upper_siang",
+      "name": "Upper Siang",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Upper Siang is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_upper_subansiri",
+      "name": "Upper Subansiri",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "Upper Subansiri is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_west_kameng",
+      "name": "West Kameng",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "West Kameng is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_arunachal_pradesh_west_siang",
+      "name": "West Siang",
+      "state_id": "arunachal_pradesh",
+      "state_name": "Arunachal Pradesh",
+      "description": "West Siang is a district of Arunachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

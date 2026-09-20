@@ -1,0 +1,7 @@
+{
+  "state_id": "odisha",
+  "state_name": "Odisha",
+  "district_asset": "assets/data/odisha_districts.json",
+  "experience_asset": "assets/data/odisha_experiences.json",
+  "collections_asset": "assets/data/odisha_collections.json"
+}

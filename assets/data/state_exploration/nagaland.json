@@ -1,0 +1,7 @@
+{
+  "state_id": "nagaland",
+  "state_name": "Nagaland",
+  "district_asset": "assets/data/nagaland_districts.json",
+  "experience_asset": "assets/data/nagaland_experiences.json",
+  "collections_asset": "assets/data/nagaland_collections.json"
+}

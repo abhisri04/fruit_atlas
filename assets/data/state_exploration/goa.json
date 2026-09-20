@@ -1,0 +1,7 @@
+{
+  "state_id": "goa",
+  "state_name": "Goa",
+  "district_asset": "assets/data/goa_districts.json",
+  "experience_asset": "assets/data/goa_experiences.json",
+  "collections_asset": "assets/data/goa_collections.json"
+}

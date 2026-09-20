@@ -1,0 +1,202 @@
+{
+  "districts": [
+    {
+      "id": "district_haryana_ambala",
+      "name": "Ambala",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Ambala is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_bhiwani",
+      "name": "Bhiwani",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Bhiwani is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_charkhi_dadri",
+      "name": "Charkhi Dadri",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Charkhi Dadri is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_faridabad",
+      "name": "Faridabad",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Faridabad is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_fatehabad",
+      "name": "Fatehabad",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Fatehabad is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_gurugram",
+      "name": "Gurugram",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Gurugram is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_hisar",
+      "name": "Hisar",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Hisar is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_jhajjar",
+      "name": "Jhajjar",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Jhajjar is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_jind",
+      "name": "Jind",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Jind is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_kaithal",
+      "name": "Kaithal",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Kaithal is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_karnal",
+      "name": "Karnal",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Karnal is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_kurukshetra",
+      "name": "Kurukshetra",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Kurukshetra is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_mahendragarh",
+      "name": "Mahendragarh",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Mahendragarh is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_nuh",
+      "name": "Nuh",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Nuh is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_palwal",
+      "name": "Palwal",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Palwal is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_panchkula",
+      "name": "Panchkula",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Panchkula is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_panipat",
+      "name": "Panipat",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Panipat is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_rewari",
+      "name": "Rewari",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Rewari is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_rohtak",
+      "name": "Rohtak",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Rohtak is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_sirsa",
+      "name": "Sirsa",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Sirsa is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_sonipat",
+      "name": "Sonipat",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Sonipat is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_haryana_yamunanagar",
+      "name": "Yamunanagar",
+      "state_id": "haryana",
+      "state_name": "Haryana",
+      "description": "Yamunanagar is a district/revenue district of Haryana.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

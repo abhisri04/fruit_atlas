@@ -1,0 +1,76 @@
+{
+  "districts": [
+    {
+      "id": "district_tripura_dhalai",
+      "name": "Dhalai",
+      "state_id": "tripura",
+      "state_name": "Tripura",
+      "description": "Dhalai is a district of Tripura.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tripura_gomati",
+      "name": "Gomati",
+      "state_id": "tripura",
+      "state_name": "Tripura",
+      "description": "Gomati is a district of Tripura.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tripura_khowai",
+      "name": "Khowai",
+      "state_id": "tripura",
+      "state_name": "Tripura",
+      "description": "Khowai is a district of Tripura.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tripura_north_tripura",
+      "name": "North Tripura",
+      "state_id": "tripura",
+      "state_name": "Tripura",
+      "description": "North Tripura is a district of Tripura.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tripura_sepahijala",
+      "name": "Sepahijala",
+      "state_id": "tripura",
+      "state_name": "Tripura",
+      "description": "Sepahijala is a district of Tripura.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tripura_south_tripura",
+      "name": "South Tripura",
+      "state_id": "tripura",
+      "state_name": "Tripura",
+      "description": "South Tripura is a district of Tripura.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tripura_unakoti",
+      "name": "Unakoti",
+      "state_id": "tripura",
+      "state_name": "Tripura",
+      "description": "Unakoti is a district of Tripura.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_tripura_west_tripura",
+      "name": "West Tripura",
+      "state_id": "tripura",
+      "state_name": "Tripura",
+      "description": "West Tripura is a district of Tripura.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "districts": [
+    {
+      "id": "district_kerala_alappuzha",
+      "name": "Alappuzha",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Alappuzha is a district of Kerala.",
+      "keywords": [
+        "Alleppey"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_ernakulam",
+      "name": "Ernakulam",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Ernakulam is a district of Kerala.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_idukki",
+      "name": "Idukki",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Idukki is a district of Kerala.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_kannur",
+      "name": "Kannur",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Kannur is a district of Kerala.",
+      "keywords": [
+        "Cannanore"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_kasaragod",
+      "name": "Kasaragod",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Kasaragod is a district of Kerala.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_kollam",
+      "name": "Kollam",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Kollam is a district of Kerala.",
+      "keywords": [
+        "Quilon"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_kottayam",
+      "name": "Kottayam",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Kottayam is a district of Kerala.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_kozhikode",
+      "name": "Kozhikode",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Kozhikode is a district of Kerala.",
+      "keywords": [
+        "Calicut"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_malappuram",
+      "name": "Malappuram",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Malappuram is a district of Kerala.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_palakkad",
+      "name": "Palakkad",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Palakkad is a district of Kerala.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_pathanamthitta",
+      "name": "Pathanamthitta",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Pathanamthitta is a district of Kerala.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_thiruvananthapuram",
+      "name": "Thiruvananthapuram",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Thiruvananthapuram is a district of Kerala.",
+      "keywords": [
+        "Trivandrum"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_thrissur",
+      "name": "Thrissur",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Thrissur is a district of Kerala.",
+      "keywords": [
+        "Trichur"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "district_kerala_wayanad",
+      "name": "Wayanad",
+      "state_id": "kerala",
+      "state_name": "Kerala",
+      "description": "Wayanad is a district of Kerala.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

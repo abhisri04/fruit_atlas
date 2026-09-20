@@ -1,0 +1,7 @@
+{
+  "state_id": "ladakh",
+  "state_name": "Ladakh",
+  "district_asset": "assets/data/ladakh_districts.json",
+  "experience_asset": "assets/data/ladakh_experiences.json",
+  "collections_asset": "assets/data/ladakh_collections.json"
+}

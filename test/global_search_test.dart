@@ -17,6 +17,7 @@ import 'package:fruit_atlas/screens/fruit/fruit_details_page.dart';
 import 'package:fruit_atlas/screens/fruit/variety_details_page.dart';
 import 'package:fruit_atlas/screens/jyotirlinga/jyotirlinga_details_page.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
+import 'package:fruit_atlas/widgets/fruit_image.dart';
 
 void main() {
   testWidgets(
@@ -61,11 +62,9 @@ void main() {
         'Alphonso': ['Alphonso', 'Mango', 'Taste All Fruits of India'],
         'Fruit': ['Taste All Fruits of India', 'Breadfruit'],
         'Food': ['Food & Drink', 'Taste All Fruits of India'],
-        'Temple': [
-          'Faith & Pilgrimage',
-          'Visit All 12 Jyotirlingas',
-          'Somnath',
-        ],
+        'Temple': ['Faith & Pilgrimage', 'Visit All 12 Jyotirlingas'],
+        // Broad queries are capped at 60 as the catalogue grows.
+        'Somnath': ['Somnath'],
         'Shiva': ['Visit All 12 Jyotirlingas', 'Somnath'],
         'Jyotirlinga': ['Visit All 12 Jyotirlingas', 'Somnath'],
         'Fitness': ['Fitness & Wellness', 'Learn 132 Yoga Poses'],
@@ -75,6 +74,9 @@ void main() {
         'Vrksasana': ['Tree Pose'],
         'Dashehari': ['Dashehari', 'Mango'],
         'Mangifera indica': ['Mango'],
+        'Chikoo': ['Sapota'],
+        'Amla': ['Aonla'],
+        'Kinnow': ['Mandarin'],
         'Pushkar Fair': ['Pushkar Fair'],
         'Blue Pottery': ['Blue Pottery'],
         'Dal Baati': ['Dal Baati Churma'],
@@ -142,6 +144,12 @@ void main() {
         await tester.tap(find.widgetWithText(ListTile, entry.key));
         await tester.pumpAndSettle();
         expect(find.byType(entry.value), findsOneWidget, reason: entry.key);
+        if (entry.key == 'Mango') {
+          expect(
+            tester.widget<FruitImage>(find.byType(FruitImage)).fruit.id,
+            'FR001',
+          );
+        }
         await tester.pageBack();
         await tester.pumpAndSettle();
       }

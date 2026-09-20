@@ -1,0 +1,112 @@
+{
+  "districts": [
+    {
+      "id": "district_himachal_pradesh_bilaspur",
+      "name": "Bilaspur",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Bilaspur is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_chamba",
+      "name": "Chamba",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Chamba is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_hamirpur",
+      "name": "Hamirpur",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Hamirpur is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_kangra",
+      "name": "Kangra",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Kangra is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_kinnaur",
+      "name": "Kinnaur",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Kinnaur is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_kullu",
+      "name": "Kullu",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Kullu is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_lahaul_and_spiti",
+      "name": "Lahaul and Spiti",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Lahaul and Spiti is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_mandi",
+      "name": "Mandi",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Mandi is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_shimla",
+      "name": "Shimla",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Shimla is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_sirmaur",
+      "name": "Sirmaur",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Sirmaur is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_solan",
+      "name": "Solan",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Solan is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    },
+    {
+      "id": "district_himachal_pradesh_una",
+      "name": "Una",
+      "state_id": "himachal_pradesh",
+      "state_name": "Himachal Pradesh",
+      "description": "Una is a district of Himachal Pradesh.",
+      "keywords": [],
+      "status": "active"
+    }
+  ]
+}

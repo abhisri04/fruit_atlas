@@ -1,0 +1,1250 @@
+{
+  "experiences": [
+    {
+      "id": "exp_delhi_red_fort",
+      "title": "Red Fort",
+      "description": "Red Fort is the historic Mughal citadel of Shahjahanabad and a UNESCO World Heritage Site.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "old_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Lal Qila",
+        "UNESCO"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_qutub_minar",
+      "title": "Qutub Minar",
+      "description": "Qutub Minar and its surrounding monuments form a major medieval heritage complex and UNESCO World Heritage Site.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "mehrauli",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Qutb Minar",
+        "UNESCO"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Mehrauli",
+      "city_id": "mehrauli"
+    },
+    {
+      "id": "exp_delhi_humayun_s_tomb",
+      "title": "Humayun's Tomb",
+      "description": "Humayun's Tomb is a 16th-century garden-tomb and UNESCO World Heritage Site.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "nizamuddin",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "UNESCO"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Nizamuddin",
+      "city_id": "nizamuddin"
+    },
+    {
+      "id": "exp_delhi_india_gate",
+      "title": "India Gate",
+      "description": "India Gate is a prominent war memorial on the ceremonial axis of New Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "war memorial"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_rashtrapati_bhavan",
+      "title": "Rashtrapati Bhavan",
+      "description": "Rashtrapati Bhavan is the official residence of the President of India and a major landmark of New Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Presidential Estate"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_parliament_house",
+      "title": "Parliament House",
+      "description": "Parliament House is a major institutional landmark in New Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Sansad Bhavan"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_jama_masjid",
+      "title": "Jama Masjid",
+      "description": "Jama Masjid is a major 17th-century mosque in the historic city of Shahjahanabad.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "old_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Masjid-i-Jahan-Numa"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_purana_qila",
+      "title": "Purana Qila",
+      "description": "Purana Qila is a historic fortified complex associated with Delhi's medieval urban history.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Old Fort"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_agrasen_ki_baoli",
+      "title": "Agrasen ki Baoli",
+      "description": "Agrasen ki Baoli is a historic stepwell near Connaught Place.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ugrasen ki Baoli",
+        "stepwell"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_jantar_mantar",
+      "title": "Jantar Mantar",
+      "description": "Jantar Mantar is an 18th-century astronomical observatory in central New Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "observatory"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_safdarjung_s_tomb",
+      "title": "Safdarjung's Tomb",
+      "description": "Safdarjung's Tomb is an 18th-century garden-tomb complex in New Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Safdarjung Tomb"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_lodhi_garden_tombs",
+      "title": "Lodhi Garden Tombs",
+      "description": "Lodhi Garden contains several medieval tombs and monuments set within a major city garden.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Lodi Garden"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_gurudwara_bangla_sahib",
+      "title": "Gurudwara Bangla Sahib",
+      "description": "Gurudwara Bangla Sahib is a major Sikh pilgrimage site in central Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Bangla Sahib"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_lotus_temple",
+      "title": "Lotus Temple",
+      "description": "Lotus Temple is the Bahá'í House of Worship in South Delhi, known for its lotus-like architecture.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "south_east",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Bahai Temple"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South East",
+      "city_id": "south_east"
+    },
+    {
+      "id": "exp_delhi_akshardham_temple",
+      "title": "Akshardham Temple",
+      "description": "Swaminarayan Akshardham is a major modern Hindu temple complex in East Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "east",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Akshardham"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "East",
+      "city_id": "east"
+    },
+    {
+      "id": "exp_delhi_raj_ghat",
+      "title": "Raj Ghat",
+      "description": "Raj Ghat is the memorial to Mahatma Gandhi on the Yamuna-side memorial landscape.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "central",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Gandhi Memorial"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Central",
+      "city_id": "central"
+    },
+    {
+      "id": "exp_delhi_ghalib_ki_haveli",
+      "title": "Ghalib Ki Haveli",
+      "description": "Ghalib Ki Haveli is a memorial museum in Ballimaran associated with poet Mirza Ghalib.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "old_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Ghalib Haveli",
+        "Ballimaran"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_mehrauli_archaeological_park",
+      "title": "Mehrauli Archaeological Park",
+      "description": "Mehrauli Archaeological Park preserves monuments spanning multiple periods of Delhi's history.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "mehrauli",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "archaeological park"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Mehrauli",
+      "city_id": "mehrauli"
+    },
+    {
+      "id": "exp_delhi_tughlaqabad_fort",
+      "title": "Tughlaqabad Fort",
+      "description": "Tughlaqabad Fort is the large fortified remains of the Tughlaq-era city in southern Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "south_east",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Tughlakabad Fort"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South East",
+      "city_id": "south_east"
+    },
+    {
+      "id": "exp_delhi_hauz_khas_complex",
+      "title": "Hauz Khas Complex",
+      "description": "Hauz Khas Complex combines a medieval reservoir, madrasa, tombs and urban village setting.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "south",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Hauz Khas"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South",
+      "city_id": "south"
+    },
+    {
+      "id": "exp_delhi_national_museum",
+      "title": "National Museum",
+      "description": "The National Museum in New Delhi presents collections spanning India's archaeological and artistic history.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "National Museum of India"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_national_gallery_of_modern_art",
+      "title": "National Gallery of Modern Art",
+      "description": "The National Gallery of Modern Art in New Delhi presents major collections of modern and contemporary Indian art.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "NGMA"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_lodhi_garden",
+      "title": "Lodhi Garden",
+      "description": "Lodhi Garden is a major landscaped public garden combining heritage monuments, lawns and mature trees.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Lodi Garden"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_garden_of_five_senses",
+      "title": "Garden of Five Senses",
+      "description": "Garden of Five Senses is a landscaped public garden in Said-ul-Ajaib designed around themed sensory spaces.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "south",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Said-ul-Ajaib"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South",
+      "city_id": "south"
+    },
+    {
+      "id": "exp_delhi_asola_bhatti_wildlife_sanctuary",
+      "title": "Asola Bhatti Wildlife Sanctuary",
+      "description": "Asola Bhatti Wildlife Sanctuary protects scrub forest and ridge habitat along Delhi's southern edge.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "south",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Asola",
+        "Bhatti"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South",
+      "city_id": "south"
+    },
+    {
+      "id": "exp_delhi_sanjay_van",
+      "title": "Sanjay Van",
+      "description": "Sanjay Van is a large urban forest on Delhi's southern ridge.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "south",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "urban forest"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South",
+      "city_id": "south"
+    },
+    {
+      "id": "exp_delhi_yamuna_biodiversity_park",
+      "title": "Yamuna Biodiversity Park",
+      "description": "Yamuna Biodiversity Park restores wetland and floodplain habitats in north Delhi.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "north",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "biodiversity park"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "North",
+      "city_id": "north"
+    },
+    {
+      "id": "exp_delhi_aravalli_biodiversity_park",
+      "title": "Aravalli Biodiversity Park",
+      "description": "Aravalli Biodiversity Park restores native ridge ecology near Vasant Vihar and Gurugram border.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "south_west",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "biodiversity park"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South West",
+      "city_id": "south_west"
+    },
+    {
+      "id": "exp_delhi_sunder_nursery",
+      "title": "Sunder Nursery",
+      "description": "Sunder Nursery is a heritage park and urban biodiversity landscape adjoining Humayun's Tomb.",
+      "type": "place",
+      "section": "Things to Do",
+      "parent_location_id": "south_east",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage park"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South East",
+      "city_id": "south_east"
+    },
+    {
+      "id": "exp_delhi_walk_chandni_chowk",
+      "title": "Walk Chandni Chowk",
+      "description": "Explore the pedestrianised historic market spine and lanes of Chandni Chowk in Old Delhi.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "old_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage walk",
+        "bazaar"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_explore_paranthe_wali_gali",
+      "title": "Explore Paranthe Wali Gali",
+      "description": "Experience the historic food lane in Chandni Chowk known for stuffed fried parathas.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "old_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Parathe Wali Gali",
+        "food walk"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_take_an_old_delhi_food_walk",
+      "title": "Take an Old Delhi Food Walk",
+      "description": "Explore the street-food traditions around Chandni Chowk and Jama Masjid.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "old_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "food tour"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_visit_dilli_haat_ina",
+      "title": "Visit Dilli Haat INA",
+      "description": "Explore the open-air craft and food market at Dilli Haat INA.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "south",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Dilli Haat",
+        "craft market"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South",
+      "city_id": "south"
+    },
+    {
+      "id": "exp_delhi_attend_the_red_fort_sound_and_light_show",
+      "title": "Attend the Red Fort Sound and Light Show",
+      "description": "Experience the evening sound-and-light presentation at the Red Fort when scheduled.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "old_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "light and sound show"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_walk_the_mehrauli_heritage_area",
+      "title": "Walk the Mehrauli Heritage Area",
+      "description": "Explore monuments and historic urban fabric around Mehrauli and its archaeological park.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "mehrauli",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "heritage walk"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Mehrauli",
+      "city_id": "mehrauli"
+    },
+    {
+      "id": "exp_delhi_cycle_or_walk_at_india_gate_and_kartavya_path",
+      "title": "Cycle or Walk at India Gate and Kartavya Path",
+      "description": "Explore the ceremonial central vista around India Gate and Kartavya Path on foot or bicycle.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Kartavya Path",
+        "Central Vista"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_explore_delhi_by_metro",
+      "title": "Explore Delhi by Metro",
+      "description": "Use Delhi's metro network to connect heritage, market and cultural districts across the city.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "Delhi Metro"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_visit_a_delhi_museum_circuit",
+      "title": "Visit a Delhi Museum Circuit",
+      "description": "Explore multiple museums and galleries in central Delhi, such as the National Museum and NGMA.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "new_delhi",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "museum hopping"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_birdwatch_at_yamuna_biodiversity_park",
+      "title": "Birdwatch at Yamuna Biodiversity Park",
+      "description": "Explore restored wetland and floodplain habitat with a focus on urban birdlife.",
+      "type": "activity",
+      "section": "Things to Do",
+      "parent_location_id": "north",
+      "category_id": "travel_exploration",
+      "keywords": [
+        "birding",
+        "nature walk"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "North",
+      "city_id": "north"
+    },
+    {
+      "id": "exp_delhi_delhi_chaat",
+      "title": "Delhi Chaat",
+      "description": "Delhi chaat combines crisp, tangy and savoury elements and is central to the city's street-food identity.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "old_delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "papdi chaat",
+        "aloo tikki"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_chole_bhature",
+      "title": "Chole Bhature",
+      "description": "Chole bhature pairs spiced chickpeas with deep-fried leavened bread and is a classic Delhi favourite.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "chhole bhature"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_stuffed_paratha",
+      "title": "Stuffed Paratha",
+      "description": "Stuffed parathas are strongly associated with Old Delhi's Paranthe Wali Gali and wider Delhi breakfast culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "old_delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "parantha"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_dahi_bhalla",
+      "title": "Dahi Bhalla",
+      "description": "Dahi bhalla combines soft lentil dumplings with yoghurt, chutneys and spices and is a popular Delhi chaat.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "old_delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "dahi vada"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_aloo_tikki",
+      "title": "Aloo Tikki",
+      "description": "Aloo tikki is a crisp potato patty commonly served as chaat with chutneys and accompaniments.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "chaat"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_kebabs_of_old_delhi",
+      "title": "Kebabs of Old Delhi",
+      "description": "Old Delhi's kebab tradition is closely associated with the lanes around Jama Masjid.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "old_delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "kebab",
+        "Jama Masjid"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_butter_chicken",
+      "title": "Butter Chicken",
+      "description": "Butter chicken is a rich tomato-and-butter chicken preparation strongly associated with post-Partition Delhi restaurant culture.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "murgh makhani"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_nihari",
+      "title": "Nihari",
+      "description": "Nihari is a slow-cooked meat stew with a strong presence in Old Delhi's Mughlai food tradition.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "old_delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "Mughlai"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_jalebi",
+      "title": "Jalebi",
+      "description": "Jalebi is a syrup-soaked spiral sweet strongly associated with Delhi's historic sweet shops and markets.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "old_delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "sweet"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_daulat_ki_chaat",
+      "title": "Daulat ki Chaat",
+      "description": "Daulat ki chaat is a seasonal airy milk-foam sweet traditionally sold in Old Delhi during winter.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "old_delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "winter sweet"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_kulfi_falooda",
+      "title": "Kulfi Falooda",
+      "description": "Kulfi falooda combines dense frozen milk dessert with vermicelli and is a classic Delhi summer treat.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "kulfi"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_ram_laddoo",
+      "title": "Ram Laddoo",
+      "description": "Ram laddoo are savoury fried lentil fritters typically served with grated radish and chutney in Delhi.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "street food"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_delhi_lassi",
+      "title": "Delhi Lassi",
+      "description": "Lassi is a yoghurt-based drink widely served across Delhi's traditional food markets.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "old_delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "lassi"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_shikanji",
+      "title": "Shikanji",
+      "description": "Shikanji is a spiced lemon drink widely consumed in Delhi during hot weather.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "nimbu pani"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_masala_chai",
+      "title": "Masala Chai",
+      "description": "Masala chai is an everyday tea preparation found throughout Delhi's markets and neighbourhoods.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "tea",
+        "chai"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_badam_milk",
+      "title": "Badam Milk",
+      "description": "Badam milk is a sweet milk drink flavoured with almonds and spices, commonly found in Delhi's traditional sweet shops.",
+      "type": "food",
+      "section": "Food & Drink",
+      "parent_location_id": "delhi",
+      "category_id": "food_drink",
+      "keywords": [
+        "almond milk"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_old_delhi_urdu_calligraphy",
+      "title": "Old Delhi Urdu Calligraphy",
+      "description": "Explore the calligraphic traditions associated with Urdu literary and manuscript culture in historic Delhi.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "old_delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "calligraphy",
+        "Urdu"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_zardozi_embroidery_in_delhi",
+      "title": "Zardozi Embroidery in Delhi",
+      "description": "Explore zari and zardozi embroidery traditions practised by artisans in Delhi's craft economy.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "zari",
+        "embroidery"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_dilli_haat_craft_traditions",
+      "title": "Dilli Haat Craft Traditions",
+      "description": "Experience a rotating range of Indian handloom and handicraft traditions presented at Delhi's Dilli Haats.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "south",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Dilli Haat",
+        "handicrafts"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "South",
+      "city_id": "south"
+    },
+    {
+      "id": "exp_delhi_mehrauli_stone_and_architectural_craft",
+      "title": "Mehrauli Stone and Architectural Craft",
+      "description": "Explore stone-carving and architectural ornament visible across historic Mehrauli monuments.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "mehrauli",
+      "category_id": "culture_learning",
+      "keywords": [
+        "stone carving"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Mehrauli",
+      "city_id": "mehrauli"
+    },
+    {
+      "id": "exp_delhi_miniature_painting_workshops_in_delhi",
+      "title": "Miniature Painting Workshops in Delhi",
+      "description": "Experience miniature-painting practice through Delhi's craft markets and cultural workshops.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "miniature painting"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_traditional_kite_making_in_delhi",
+      "title": "Traditional Kite Making in Delhi",
+      "description": "Explore kite-making traditions associated with Delhi's seasonal kite-flying culture.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "old_delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "patang",
+        "kite craft"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Old Delhi",
+      "city_id": "old_delhi"
+    },
+    {
+      "id": "exp_delhi_mango_festival_delhi",
+      "title": "Mango Festival Delhi",
+      "description": "Delhi Tourism's Mango Festival celebrates mango varieties, growers and mango products.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Mango Festival"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_garden_tourism_festival",
+      "title": "Garden Tourism Festival",
+      "description": "The Garden Tourism Festival is a recurring Delhi Tourism event focused on gardens, flowers and horticulture.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Garden Festival"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_international_kite_festival_delhi",
+      "title": "International Kite Festival Delhi",
+      "description": "Delhi Tourism has organised an International Kite Festival celebrating kite flying and kite culture.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "kite festival"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_itra_and_sugandhi_mela",
+      "title": "Itra and Sugandhi Mela",
+      "description": "Itra and Sugandhi Mela is a Delhi Tourism event centred on traditional fragrances and perfumery.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Itra Festival",
+        "perfume"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_dilli_ke_pakwaan",
+      "title": "Dilli Ke Pakwaan",
+      "description": "Dilli Ke Pakwaan is a Delhi food festival celebrating the city's culinary diversity.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "food festival"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_phool_walon_ki_sair",
+      "title": "Phool Walon Ki Sair",
+      "description": "Phool Walon Ki Sair is a historic Delhi festival associated with Mehrauli and offerings at both Hindu and Muslim shrines.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "mehrauli",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Sair-e-Gul Faroshan"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Mehrauli",
+      "city_id": "mehrauli"
+    },
+    {
+      "id": "exp_delhi_republic_day_parade",
+      "title": "Republic Day Parade",
+      "description": "The Republic Day Parade is a major annual ceremonial event on Kartavya Path in New Delhi.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "new_delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "26 January"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "New Delhi",
+      "city_id": "new_delhi"
+    },
+    {
+      "id": "exp_delhi_qawwali_at_nizamuddin",
+      "title": "Qawwali at Nizamuddin",
+      "description": "Experience qawwali performance in the devotional setting associated with Nizamuddin Dargah.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "nizamuddin",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Sufi music",
+        "qawwali"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Nizamuddin",
+      "city_id": "nizamuddin"
+    },
+    {
+      "id": "exp_delhi_delhi_gharana_tabla",
+      "title": "Delhi Gharana Tabla",
+      "description": "Delhi Gharana is an important lineage in the history of tabla performance.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "tabla",
+        "Delhi gharana"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_urdu_mushaira_in_delhi",
+      "title": "Urdu Mushaira in Delhi",
+      "description": "Mushaira is a poetic performance tradition deeply connected with Delhi's Urdu literary culture.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Urdu poetry",
+        "mushaira"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    },
+    {
+      "id": "exp_delhi_ramleela_in_delhi",
+      "title": "Ramleela in Delhi",
+      "description": "Delhi hosts large annual Ramleela theatrical performances during the Dussehra season.",
+      "type": "culture",
+      "section": "Culture",
+      "parent_location_id": "delhi",
+      "category_id": "culture_learning",
+      "keywords": [
+        "Ramlila",
+        "folk theatre"
+      ],
+      "state_id": "delhi",
+      "state_name": "Delhi",
+      "status": "active",
+      "city": "Delhi",
+      "city_id": "delhi"
+    }
+  ]
+}
