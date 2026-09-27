@@ -55,7 +55,7 @@ void main() {
         .expand((item) => item.memberEntityIds)
         .toSet();
     expect(configuredExperienceIds.difference(experienceIds), isEmpty);
-    expect(configuredExperienceIds, hasLength(74));
+    expect(configuredExperienceIds, hasLength(60));
 
     final cityPalaces = experienceJson
         .where((item) => (item['title'] as String).startsWith('City Palace'))
@@ -63,11 +63,18 @@ void main() {
     expect(cityPalaces, hasLength(2));
     expect(cityPalaces.map((item) => item['id']).toSet(), hasLength(2));
 
-    // Existing persisted IDs remain stable while instruction-style titles are reconciled.
-    final dal = experienceJson.firstWhere(
+    final dishJson =
+        readJson('assets/data/indian_dishes.json')['items'] as List;
+    final dal = dishJson.firstWhere(
       (item) => item['id'] == 'exp_rajasthan_dal_baati_churma',
     );
-    expect(dal['title'], 'Dal Baati Churma');
+    expect(dal['name'], 'Dal Baati Churma');
+    expect(
+      experienceJson.any(
+        (item) => item['id'] == 'exp_rajasthan_dal_baati_churma',
+      ),
+      isFalse,
+    );
     expect(
       experienceJson.any(
         (item) => item['id'] == 'exp_rajasthan_mehrangarh_fort',

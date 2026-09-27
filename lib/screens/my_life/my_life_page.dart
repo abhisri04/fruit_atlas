@@ -59,7 +59,10 @@ class _MyLifePageState extends State<MyLifePage> {
       final genericProgress = <({Challenge challenge, int count, int total})>[];
       for (final challenge in challenges.where(
         (challenge) =>
-            challenge.status == 'active' && challenge.dataAsset != null,
+            challenge.status == 'active' &&
+            challenge.dataAsset != null &&
+            challenge.itemType != 'indian_dish' &&
+            challenge.itemType != 'indian_drink',
       )) {
         final items = await dataService.loadChallengeItems(challenge);
         final itemIds = items.map((item) => item.id).toSet();

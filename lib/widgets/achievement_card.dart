@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
 
 import '../theme/app_colors.dart';
+import 'circular_progress_widget.dart';
 
 import '../models/achievement.dart';
 
 class AchievementCard extends StatelessWidget {
   final Achievement achievement;
   final bool unlocked;
+  final double? progress;
 
   const AchievementCard({
     super.key,
     required this.achievement,
     this.unlocked = true,
+    this.progress,
   });
 
   IconData get icon => switch (achievement.iconIdentifier) {
@@ -85,6 +88,13 @@ class AchievementCard extends StatelessWidget {
                 ],
               ),
             ),
+            if (progress != null) ...[
+              const SizedBox(width: 10),
+              CircularProgressWidget(
+                progress: progress!,
+                variant: ProgressSize.small,
+              ),
+            ],
           ],
         ),
       ),

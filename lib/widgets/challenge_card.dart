@@ -8,6 +8,8 @@ import 'saved_challenge_button.dart';
 import 'compact_progress.dart';
 import '../services/asset_data_service.dart';
 import '../services/progress_service.dart';
+import '../services/indian_dishes_repository.dart';
+import '../services/indian_drinks_repository.dart';
 
 class ChallengeCard extends StatefulWidget {
   final Challenge challenge;
@@ -65,6 +67,16 @@ class _ChallengeCardState extends State<ChallengeCard> {
             .map((f) => f.id.isEmpty ? f.name : f.id)
             .toSet();
         saved = await ProgressService.getCompletedFruitIds();
+      } else if (challenge.itemType == 'indian_dish') {
+        final catalogue = await const IndianDishesRepository().load();
+        ids = catalogue.dishes.map((dish) => dish.id).toSet();
+        final progress = await ProgressService.getDishProgress(catalogue);
+        saved = IndianDishesRepository.triedDishIds(catalogue, progress);
+      } else if (challenge.itemType == 'indian_drink') {
+        final catalogue = await const IndianDrinksRepository().load();
+        ids = catalogue.drinks.map((drink) => drink.id).toSet();
+        final progress = await ProgressService.getDrinkProgress(catalogue);
+        saved = IndianDrinksRepository.triedDrinkIds(catalogue, progress);
       } else if (challenge.itemType == 'jyotirlinga') {
         ids = (await data.loadJyotirlingas()).map((s) => s.id).toSet();
         saved = await ProgressService.getCompletedJyotirlingaIds();
@@ -97,6 +109,8 @@ class _ChallengeCardState extends State<ChallengeCard> {
   IconData get icon {
     return switch (challenge.itemType) {
       'fruit' => Icons.eco_outlined,
+      'indian_dish' => Icons.ramen_dining_outlined,
+      'indian_drink' => Icons.local_cafe_outlined,
       'jyotirlinga' => Icons.temple_hindu_outlined,
       'yoga_pose' => Icons.self_improvement,
       'nut' => Icons.spa_outlined,

@@ -85,37 +85,37 @@
       "parent_section_id": "food_drink",
       "context_id": "sikkim",
       "context_name": "Sikkim",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_sikkim_momos",
-        "exp_sikkim_thukpa",
-        "exp_sikkim_phagshapa",
-        "exp_sikkim_sha_phaley",
-        "exp_sikkim_sel_roti",
-        "exp_sikkim_kinema",
         "exp_sikkim_chhurpi",
-        "exp_sikkim_sisnu_soup"
+        "DSH065",
+        "exp_sikkim_kinema",
+        "exp_himachal_pradesh_momos",
+        "exp_sikkim_phagshapa",
+        "exp_sikkim_sel_roti",
+        "exp_sikkim_sha_phaley",
+        "exp_sikkim_sisnu_soup",
+        "exp_ladakh_thukpa"
       ],
       "empty_message": "More Sikkim dishes experiences are coming soon."
     },
     {
       "id": "sikkim_drinks",
       "title": "Drinks",
-      "description": "Drinks experiences associated with Sikkim.",
+      "description": "Regional drinks associated with Sikkim.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "sikkim",
       "context_name": "Sikkim",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_sikkim_temi_tea",
-        "exp_sikkim_tongba"
+        "exp_sikkim_temi_tea"
       ],
-      "empty_message": "More Sikkim drinks experiences are coming soon."
+      "empty_message": "More verified Sikkim drinks are coming soon."
     },
     {
       "id": "sikkim_arts_crafts",

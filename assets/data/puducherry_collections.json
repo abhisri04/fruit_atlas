@@ -77,27 +77,30 @@
       "parent_section_id": "food_drink",
       "context_id": "puducherry",
       "context_name": "Puducherry",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_puducherry_kadugu_yerra"
+        "exp_puducherry_french_style_dosa",
+        "exp_puducherry_kadugu_yerra",
+        "exp_puducherry_masala_vada",
+        "exp_puducherry_puducherry_style_vegetable_curry"
       ],
       "empty_message": "More Puducherry dishes experiences are coming soon."
     },
     {
       "id": "puducherry_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Puducherry.",
+      "description": "Regional drinks associated with Puducherry.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "puducherry",
       "context_name": "Puducherry",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [],
-      "empty_message": "No distinct, verified local drinks are listed yet."
+      "empty_message": "More verified Puducherry drinks are coming soon."
     },
     {
       "id": "puducherry_arts_crafts",

@@ -79,32 +79,33 @@
       "parent_section_id": "food_drink",
       "context_id": "mizoram",
       "context_name": "Mizoram",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_mizoram_bai",
         "exp_mizoram_arsa_buhchiar",
-        "exp_mizoram_vawksa_rep",
-        "exp_mizoram_hmarcha_rawt"
+        "exp_mizoram_bai",
+        "exp_mizoram_hmarcha_rawt",
+        "DSH050",
+        "exp_mizoram_vawksa_rep"
       ],
       "empty_message": "More Mizoram dishes experiences are coming soon."
     },
     {
       "id": "mizoram_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Mizoram.",
+      "description": "Regional drinks associated with Mizoram.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "mizoram",
       "context_name": "Mizoram",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
         "exp_mizoram_mizoram_coffee"
       ],
-      "empty_message": "More Mizoram drinks experiences are coming soon."
+      "empty_message": "More verified Mizoram drinks are coming soon."
     },
     {
       "id": "mizoram_arts_crafts",

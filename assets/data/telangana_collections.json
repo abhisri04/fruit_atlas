@@ -80,34 +80,45 @@
       "parent_section_id": "food_drink",
       "context_id": "telangana",
       "context_name": "Telangana",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
+        "exp_telangana_boti_kebab",
+        "exp_chandigarh_butter_chicken",
+        "exp_telangana_dry_chicken_fry",
+        "exp_telangana_gongura_mutton",
         "exp_telangana_hyderabadi_biryani",
         "exp_telangana_hyderabadi_haleem",
-        "exp_telangana_sarva_pindi",
+        "DSH067",
+        "exp_telangana_keema_samosa",
+        "exp_telangana_mirchi_ka_salan",
         "exp_telangana_osmania_biscuits",
+        "exp_andhra_pradesh_pesarattu",
+        "exp_telangana_phirni",
+        "exp_telangana_qubani_ka_meetha",
         "exp_telangana_sakinalu",
-        "exp_telangana_qubani_ka_meetha"
+        "exp_telangana_sarva_pindi",
+        "exp_telangana_shahi_tukda"
       ],
       "empty_message": "More Telangana dishes experiences are coming soon."
     },
     {
       "id": "telangana_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Telangana.",
+      "description": "Regional drinks associated with Telangana.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "telangana",
       "context_name": "Telangana",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_telangana_hyderabadi_irani_chai"
+        "exp_telangana_hyderabadi_irani_chai",
+        "DRK013"
       ],
-      "empty_message": "More Telangana drinks experiences are coming soon."
+      "empty_message": "More verified Telangana drinks are coming soon."
     },
     {
       "id": "telangana_arts_crafts",

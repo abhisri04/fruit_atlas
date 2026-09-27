@@ -1,8 +1,13 @@
+import 'dart:convert';
+
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/fruit_identity.dart';
+import '../models/indian_dish.dart';
+import '../models/indian_drink.dart';
 
 class ProgressService {
+  static const String _categoryProgressPrefix = 'category_item_progress_v1_';
   static const String _completedFruitIdsKey = 'completed_fruit_ids';
   static const String _completedVarietyIdsKey = 'completed_variety_ids';
   static const String _completedJyotirlingaIdsKey = 'completed_jyotirlinga_ids';
@@ -102,9 +107,9 @@ class ProgressService {
   static Future<void> setChallengeItemIds(
     String? progressKey,
     Set<String> ids,
-  ) {
-    if (progressKey == null || progressKey.isEmpty) return Future.value();
-    return _setCompletedIds(progressKey, ids);
+  ) async {
+    if (progressKey == null || progressKey.isEmpty) return;
+    await _setCompletedIds(progressKey, ids);
   }
 
   static Future<bool> toggleChallengeItem(
@@ -112,10 +117,10 @@ class ProgressService {
     String itemId,
   ) async {
     if (progressKey == null || progressKey.isEmpty) return false;
-    final completedIds = await getChallengeItemIds(progressKey);
+    final completedIds = await _getCompletedIds(progressKey);
     if (!completedIds.remove(itemId)) completedIds.add(itemId);
     await setChallengeItemIds(progressKey, completedIds);
-    return completedIds.contains(itemId);
+    return (await getChallengeItemIds(progressKey)).contains(itemId);
   }
 
   static Future<bool> isChallengeSaved(String challengeId) async {
@@ -129,6 +134,126 @@ class ProgressService {
     }
     await _setCompletedIds(_savedChallengeIdsKey, savedIds);
     return savedIds.contains(challengeId);
+  }
+
+  static Future<Map<String, ItemActionProgress>> getCategoryItemProgress(
+    String categoryId,
+  ) async {
+    final prefs = await SharedPreferences.getInstance();
+    final encoded = prefs.getString('$_categoryProgressPrefix$categoryId');
+    if (encoded == null || encoded.isEmpty) return {};
+    final json = jsonDecode(encoded) as Map<String, dynamic>;
+    return json.map(
+      (id, value) => MapEntry(
+        id,
+        ItemActionProgress.fromJson(value as Map<String, dynamic>),
+      ),
+    );
+  }
+
+  /// Returns the single canonical dish progress store and safely folds in
+  /// progress saved under legacy state-experience or seed IDs.
+  static Future<Map<String, ItemActionProgress>> getDishProgress(
+    IndianDishesCatalogue catalogue,
+  ) async {
+    final saved = await getCategoryItemProgress(catalogue.category.id);
+    final completedExperiences = await getCompletedExperienceIds();
+    final canonicalByLegacyId = <String, String>{
+      for (final dish in catalogue.dishes)
+        for (final legacyId in {dish.id, ...dish.legacyIds}) legacyId: dish.id,
+    };
+    final migrated = <String, ItemActionProgress>{};
+    var changed = false;
+
+    for (final entry in saved.entries) {
+      final canonicalId = canonicalByLegacyId[entry.key] ?? entry.key;
+      final previous = migrated[canonicalId];
+      migrated[canonicalId] = previous == null
+          ? entry.value
+          : previous.merge(entry.value);
+      if (canonicalId != entry.key || previous != null) changed = true;
+    }
+    for (final legacyId in completedExperiences) {
+      final canonicalId = canonicalByLegacyId[legacyId];
+      if (canonicalId == null) continue;
+      final previous = migrated[canonicalId] ?? const ItemActionProgress();
+      if (!previous.tried) {
+        migrated[canonicalId] = previous.merge(
+          const ItemActionProgress(tried: true),
+        );
+        changed = true;
+      }
+    }
+
+    if (changed) {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setString(
+        '$_categoryProgressPrefix${catalogue.category.id}',
+        jsonEncode(migrated.map((id, value) => MapEntry(id, value.toJson()))),
+      );
+    }
+    return migrated;
+  }
+
+  /// Returns canonical drink progress and folds in completion saved against
+  /// the former State/UT experience records.
+  static Future<DrinkProgress> getDrinkProgress(
+    IndianDrinksCatalogue catalogue,
+  ) async {
+    final saved = await getCategoryItemProgress(catalogue.category.id);
+    final completedExperiences = await getCompletedExperienceIds();
+    final canonicalByLegacyId = <String, String>{
+      for (final drink in catalogue.drinks)
+        for (final legacyId in {drink.id, ...drink.legacyIds})
+          legacyId: drink.id,
+    };
+    final migrated = <String, ItemActionProgress>{};
+    var changed = false;
+    for (final entry in saved.entries) {
+      final canonicalId = canonicalByLegacyId[entry.key] ?? entry.key;
+      final previous = migrated[canonicalId];
+      migrated[canonicalId] = previous == null
+          ? entry.value
+          : previous.merge(entry.value);
+      if (canonicalId != entry.key || previous != null) changed = true;
+    }
+    for (final legacyId in completedExperiences) {
+      final canonicalId = canonicalByLegacyId[legacyId];
+      if (canonicalId == null) continue;
+      final previous = migrated[canonicalId] ?? const ItemActionProgress();
+      if (!previous.tried) {
+        migrated[canonicalId] = previous.merge(
+          const ItemActionProgress(tried: true),
+        );
+        changed = true;
+      }
+    }
+    if (changed) {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setString(
+        '$_categoryProgressPrefix${catalogue.category.id}',
+        jsonEncode(migrated.map((id, value) => MapEntry(id, value.toJson()))),
+      );
+    }
+    return migrated;
+  }
+
+  static Future<ItemActionProgress> toggleCategoryItemAction({
+    required String categoryId,
+    required String itemId,
+    required String action,
+  }) async {
+    final progress = await getCategoryItemProgress(categoryId);
+    final updated = (progress[itemId] ?? const ItemActionProgress()).toggle(
+      action,
+    );
+    progress[itemId] = updated;
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(
+      '$_categoryProgressPrefix$categoryId',
+      jsonEncode(progress.map((id, value) => MapEntry(id, value.toJson()))),
+    );
+    return updated;
   }
 
   static Future<void> setCompletedFruitIds(Set<String> ids) {

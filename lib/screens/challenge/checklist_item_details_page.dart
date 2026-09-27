@@ -10,16 +10,22 @@ import '../../models/experience.dart';
 import '../../models/experience_collection.dart';
 import '../../models/fruit.dart';
 import '../../models/item.dart';
+import '../../models/indian_dish.dart';
+import '../../models/indian_drink.dart';
 import '../../screens/district/district_details_page.dart';
 import '../../screens/experience/experience_details_page.dart';
 import '../../screens/experience/experience_collection_page.dart';
 import '../../screens/fruit/fruit_details_page.dart';
+import '../../screens/dishes/indian_dishes_page.dart';
+import '../../screens/drinks/indian_drinks_page.dart';
 import '../../services/asset_data_service.dart';
 import '../../services/district_repository.dart';
 import '../../services/experience_repository.dart';
 import '../../services/experience_collection_repository.dart';
 import '../../services/progress_service.dart';
 import '../../services/state_exploration_repository.dart';
+import '../../services/indian_dishes_repository.dart';
+import '../../services/indian_drinks_repository.dart';
 import '../../widgets/circular_progress_widget.dart';
 import '../../widgets/district_tile.dart';
 import '../../widgets/exploration_section_card.dart';
@@ -69,6 +75,12 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
   Set<String> completedExperienceIds = {};
   Set<String> completedDistrictIds = {};
   Set<String> completedFruitIds = {};
+  IndianDishesCatalogue? dishCatalogue;
+  List<IndianDish> dishes = [];
+  DishProgress dishProgress = {};
+  IndianDrinksCatalogue? drinkCatalogue;
+  List<IndianDrink> drinks = [];
+  DrinkProgress drinkProgress = {};
 
   @override
   void initState() {
@@ -251,10 +263,40 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
         );
         isExperiencesLoading = false;
       });
+      _loadStateDishes();
+      _loadStateDrinks();
     } catch (_) {
       if (!mounted) return;
       setState(() => isExperiencesLoading = false);
     }
+  }
+
+  Future<void> _loadStateDishes() async {
+    final catalogue = await const IndianDishesRepository().load();
+    final progress = await ProgressService.getDishProgress(catalogue);
+    final relatedDishes = catalogue.dishes
+        .where((dish) => dish.associatedStateIds.contains(widget.item.id))
+        .toList(growable: false);
+    if (!mounted) return;
+    setState(() {
+      dishCatalogue = catalogue;
+      dishes = relatedDishes;
+      dishProgress = progress;
+    });
+  }
+
+  Future<void> _loadStateDrinks() async {
+    final catalogue = await const IndianDrinksRepository().load();
+    final progress = await ProgressService.getDrinkProgress(catalogue);
+    final relatedDrinks = catalogue.drinks
+        .where((drink) => drink.associatedStateIds.contains(widget.item.id))
+        .toList(growable: false);
+    if (!mounted) return;
+    setState(() {
+      drinkCatalogue = catalogue;
+      drinks = relatedDrinks;
+      drinkProgress = progress;
+    });
   }
 
   Future<void> loadCompletion() async {
@@ -402,7 +444,11 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
               )
               .toList();
     final totalCount =
-        districts.length + visibleExperiences.length + fruits.length;
+        districts.length +
+        visibleExperiences.length +
+        fruits.length +
+        dishes.length +
+        drinks.length;
     final completedCount =
         completedDistrictIds.length +
         visibleExperiences
@@ -410,7 +456,9 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
               (experience) => completedExperienceIds.contains(experience.id),
             )
             .length +
-        completedFruitIds.length;
+        completedFruitIds.length +
+        dishes.where((dish) => dishProgress[dish.id]?.tried ?? false).length +
+        drinks.where((drink) => drinkProgress[drink.id]?.tried ?? false).length;
     final progress = totalCount == 0 ? 0.0 : completedCount / totalCount;
     final sections = <String>[
       if (districts.isNotEmpty ||
@@ -419,7 +467,9 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
         'Places',
       for (final section in ['Food & Drink', 'Things to Do', 'Culture'])
         if (visibleExperiences.any((item) => item.section == section) ||
-            _collectionsForSection(section).isNotEmpty)
+            _collectionsForSection(section).isNotEmpty ||
+            (section == 'Food & Drink' &&
+                (dishes.isNotEmpty || drinks.isNotEmpty)))
           section,
     ];
     return [
@@ -527,6 +577,26 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
               completedCollectionKeys.add('fruit:${fruit.id}');
             }
           }
+        } else if (collection.entityType == 'dish') {
+          final memberIds = collection.memberEntityIds.toSet();
+          for (final dish in dishes.where(
+            (dish) => memberIds.contains(dish.id),
+          )) {
+            collectionMemberKeys.add('dish:${dish.id}');
+            if (dishProgress[dish.id]?.tried ?? false) {
+              completedCollectionKeys.add('dish:${dish.id}');
+            }
+          }
+        } else if (collection.entityType == 'drink') {
+          final memberIds = collection.memberEntityIds.toSet();
+          for (final drink in drinks.where(
+            (drink) => memberIds.contains(drink.id),
+          )) {
+            collectionMemberKeys.add('drink:${drink.id}');
+            if (drinkProgress[drink.id]?.tried ?? false) {
+              completedCollectionKeys.add('drink:${drink.id}');
+            }
+          }
         } else {
           for (final experience in _experiencesForCollection(collection)) {
             collectionMemberKeys.add('experience:${experience.id}');
@@ -537,16 +607,21 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
         }
       }
     }
-    final total = hasDistricts || usesCollections
+    final baseTotal = hasDistricts || usesCollections
         ? (hasDistricts ? districts.length : 0) + collectionMemberKeys.length
         : sectionExperiences.length;
-    final completed = hasDistricts || usesCollections
+    final baseCompleted = hasDistricts || usesCollections
         ? (hasDistricts ? completedDistrictIds.length : 0) +
               completedCollectionKeys.length
         : sectionExperiences
               .where((item) => completedExperienceIds.contains(item.id))
               .length;
     final districtItemCount = hasDistricts ? districts.length : 0;
+    final baseItemCount = hasDistricts || usesCollections
+        ? districtItemCount + sectionCollections.length
+        : sectionExperiences.length;
+    final total = baseTotal;
+    final completed = baseCompleted;
     return ExplorationSectionCard(
       key: ValueKey('exploration-section-$section'),
       icon: sectionIcon(section),
@@ -558,9 +633,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
       totalCount: total,
       showProgress: total > 0,
       initiallyExpanded: section == sections.first && districts.length <= 10,
-      itemCount: hasDistricts || usesCollections
-          ? districtItemCount + sectionCollections.length
-          : sectionExperiences.length,
+      itemCount: baseItemCount,
       itemBuilder: (context, index) {
         if (index < districtItemCount) {
           final district = districts[index];
@@ -580,24 +653,47 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
           final collectionExperiences = collection.entityType == 'experience'
               ? _experiencesForCollection(collection)
               : const <Experience>[];
-          final memberIds = collection.entityType == 'fruit'
-              ? collectionFruits.map((item) => item.id).toSet()
-              : collectionExperiences.map((item) => item.id).toSet();
-          final collectionCompleted =
-              (collection.entityType == 'fruit'
-                      ? completedFruitIds
-                      : completedExperienceIds)
-                  .intersection(memberIds)
-                  .length;
+          final collectionDishes = collection.entityType == 'dish'
+              ? dishes
+                    .where(
+                      (dish) => collection.memberEntityIds.contains(dish.id),
+                    )
+                    .toList(growable: false)
+              : const <IndianDish>[];
+          final collectionDrinks = collection.entityType == 'drink'
+              ? drinks
+                    .where(
+                      (drink) => collection.memberEntityIds.contains(drink.id),
+                    )
+                    .toList(growable: false)
+              : const <IndianDrink>[];
+          final memberIds = switch (collection.entityType) {
+            'fruit' => collectionFruits.map((item) => item.id).toSet(),
+            'dish' => collectionDishes.map((item) => item.id).toSet(),
+            'drink' => collectionDrinks.map((item) => item.id).toSet(),
+            _ => collectionExperiences.map((item) => item.id).toSet(),
+          };
+          final collectionCompleted = switch (collection.entityType) {
+            'fruit' => completedFruitIds.intersection(memberIds).length,
+            'dish' =>
+              memberIds.where((id) => dishProgress[id]?.tried ?? false).length,
+            'drink' =>
+              memberIds.where((id) => drinkProgress[id]?.tried ?? false).length,
+            _ => completedExperienceIds.intersection(memberIds).length,
+          };
           return ExperienceCollectionTile(
             collection: collection,
             completedCount: collectionCompleted,
             totalCount: memberIds.length,
-            onTap: () => openCollection(
-              collection,
-              collectionFruits,
-              collectionExperiences,
-            ),
+            onTap: collection.entityType == 'dish'
+                ? () => openDishCollection(collection, collectionDishes)
+                : collection.entityType == 'drink'
+                ? () => openDrinkCollection(collection, collectionDrinks)
+                : () => openCollection(
+                    collection,
+                    collectionFruits,
+                    collectionExperiences,
+                  ),
           );
         }
         final experience = sectionExperiences[index];
@@ -650,6 +746,45 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
       ),
     );
     await loadExploration();
+  }
+
+  Future<void> openDishCollection(
+    ExperienceCollection collection,
+    List<IndianDish> collectionDishes,
+  ) async {
+    final catalogue = dishCatalogue;
+    if (catalogue == null) return;
+    await Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => DishBrowsePage(
+          catalogue: catalogue,
+          source: collectionDishes,
+          title: '${widget.item.name} Dishes',
+          showCookedOnTiles: false,
+        ),
+      ),
+    );
+    await _loadStateDishes();
+  }
+
+  Future<void> openDrinkCollection(
+    ExperienceCollection collection,
+    List<IndianDrink> collectionDrinks,
+  ) async {
+    final catalogue = drinkCatalogue;
+    if (catalogue == null) return;
+    await Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => DrinkBrowsePage(
+          catalogue: catalogue,
+          source: collectionDrinks,
+          title: '${widget.item.name} Drinks',
+        ),
+      ),
+    );
+    await _loadStateDrinks();
   }
 
   // Kept as the canonical fruit-row builder for other contextual sections.

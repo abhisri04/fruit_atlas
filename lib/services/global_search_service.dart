@@ -1,10 +1,14 @@
 import '../models/category.dart';
 import '../models/challenge.dart';
 import '../models/fruit.dart';
+import '../models/indian_dish.dart';
+import '../models/indian_drink.dart';
 import '../models/search_result.dart';
 import 'asset_data_service.dart';
 import 'district_repository.dart';
 import 'experience_repository.dart';
+import 'indian_dishes_repository.dart';
+import 'indian_drinks_repository.dart';
 
 class GlobalSearchService {
   final AssetDataService data;
@@ -18,6 +22,8 @@ class GlobalSearchService {
   List<Category> categories = [];
   List<Challenge> challenges = [];
   List<AtlasState> states = [];
+  IndianDishesCatalogue? dishesCatalogue;
+  IndianDrinksCatalogue? drinksCatalogue;
   List<SearchResult> _index = [];
   Future<void>? _loading;
   Future<void> load() => _loading ??= _load().catchError((Object error) {
@@ -29,6 +35,10 @@ class GlobalSearchService {
     categories = await data.loadCategories();
     challenges = await data.loadChallenges();
     final metadata = await data.loadSearchKeywords();
+    final experienceFuture = experiences.loadExperiences();
+    final districtFuture = districts.loadDistricts();
+    final dishFuture = const IndianDishesRepository().load();
+    final drinkFuture = const IndianDrinksRepository().load();
     final results = <SearchResult>[];
     for (final category in categories) {
       results.add(
@@ -116,6 +126,39 @@ class GlobalSearchService {
             );
           }
         }
+      } else if (challenge.itemType == 'indian_dish') {
+        final dishData = await dishFuture;
+        dishesCatalogue = dishData;
+        for (final dish in dishData.dishes) {
+          addItem(
+            dish.id,
+            dish.name,
+            'Indian dish',
+            dish,
+            secondary: dish.shortDescription,
+            keywords: [...dish.aliases, ...dish.tags],
+            parentTerms: dish.states,
+          );
+        }
+      } else if (challenge.itemType == 'indian_drink') {
+        final drinkData = await drinkFuture;
+        drinksCatalogue = drinkData;
+        for (final drink in drinkData.drinks) {
+          addItem(
+            drink.id,
+            drink.name,
+            'Indian drink',
+            drink,
+            secondary: drink.shortDescription,
+            keywords: [
+              ...drink.aliases,
+              ...drink.tags,
+              drink.drinkType,
+              drink.alcoholContent,
+            ],
+            parentTerms: drink.states,
+          );
+        }
       } else if (challenge.itemType == 'jyotirlinga') {
         for (final site in await data.loadJyotirlingas()) {
           addItem(
@@ -175,7 +218,7 @@ class GlobalSearchService {
       );
       results.addAll(children);
     }
-    for (final experience in await experiences.loadExperiences()) {
+    for (final experience in await experienceFuture) {
       results.add(
         SearchResult(
           id: 'experience:${experience.id}',
@@ -198,7 +241,7 @@ class GlobalSearchService {
         ),
       );
     }
-    for (final district in await districts.loadDistricts()) {
+    for (final district in await districtFuture) {
       results.add(
         SearchResult(
           id: 'district:${district.id}',

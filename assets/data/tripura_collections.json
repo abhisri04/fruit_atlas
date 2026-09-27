@@ -79,33 +79,37 @@
       "parent_section_id": "food_drink",
       "context_id": "tripura",
       "context_name": "Tripura",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_tripura_muya_awandru",
-        "exp_tripura_kosoi_bwtwi",
-        "exp_tripura_muya_bai_wahan",
+        "exp_tripura_bangui",
+        "DSH073",
         "exp_tripura_gudok",
-        "exp_tripura_mosdeng_serma"
+        "exp_tripura_kosoi_bwtwi",
+        "exp_tripura_mosdeng_serma",
+        "exp_tripura_muiborok",
+        "exp_tripura_muya_awandru",
+        "exp_tripura_muya_bai_wahan",
+        "DSH074"
       ],
       "empty_message": "More Tripura dishes experiences are coming soon."
     },
     {
       "id": "tripura_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Tripura.",
+      "description": "Regional drinks associated with Tripura.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "tripura",
       "context_name": "Tripura",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
         "exp_tripura_tripura_tea"
       ],
-      "empty_message": "More Tripura drinks experiences are coming soon."
+      "empty_message": "More verified Tripura drinks are coming soon."
     },
     {
       "id": "tripura_arts_crafts",

@@ -170,10 +170,13 @@ flutter:
     - assets/data/dadra_nagar_haveli_daman_diu_collections.json
     - assets/data/experience_collections.json
     - assets/data/search_keywords.json
+    - assets/data/indian_dishes.json
+    - assets/data/indian_drinks.json
     - assets/data/state_exploration/
     - assets/images/india_map_borders.png
     - assets/images/yoga/
     - assets/images/fruits/
+    - assets/images/dishes/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

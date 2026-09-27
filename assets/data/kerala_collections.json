@@ -80,35 +80,47 @@
       "parent_section_id": "food_drink",
       "context_id": "kerala",
       "context_name": "Kerala",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_kerala_puttu_and_kadala_curry",
-        "exp_kerala_appam_and_stew",
-        "exp_kerala_karimeen_pollichathu",
         "exp_kerala_ada_pradhaman",
+        "exp_kerala_appam_and_stew",
+        "exp_kerala_avial",
         "exp_kerala_kappa_and_fish_curry",
+        "exp_kerala_karimeen_pollichathu",
+        "exp_kerala_kerala_chicken_fry",
+        "exp_kerala_kerala_sadya",
+        "exp_kerala_kothu_porotta",
+        "exp_kerala_malabar_parotta",
         "exp_kerala_pazham_pori",
-        "exp_kerala_kerala_sadya"
+        "exp_kerala_puttu_and_kadala_curry",
+        "exp_tamil_nadu_sundal"
       ],
       "empty_message": "More Kerala dishes experiences are coming soon."
     },
     {
       "id": "kerala_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Kerala.",
+      "description": "Regional drinks associated with Kerala.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "kerala",
       "context_name": "Kerala",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
+        "exp_gujarat_chaas",
+        "exp_goa_fresh_tender_coconut_water",
+        "DRK016",
+        "exp_madhya_pradesh_masala_chai",
+        "DRK014",
+        "DRK015",
+        "exp_madhya_pradesh_sugarcane_juice",
         "exp_kerala_sulaimani_tea"
       ],
-      "empty_message": "More Kerala drinks experiences are coming soon."
+      "empty_message": "More verified Kerala drinks are coming soon."
     },
     {
       "id": "kerala_arts_crafts",

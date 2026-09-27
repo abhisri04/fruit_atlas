@@ -159,7 +159,7 @@ void main() {
 
     expect(resolved, isNotNull);
     expect(resolved!.districts, hasLength(75));
-    expect(resolved.experiences, hasLength(119));
+    expect(resolved.experiences, hasLength(97));
     expect(resolved.collections, hasLength(9));
     expect(
       resolved.districts.every(
@@ -183,14 +183,14 @@ void main() {
     final experienceIds = resolved.experiences
         .map((experience) => experience.id)
         .toSet();
-    expect(experienceIds, hasLength(119));
+    expect(experienceIds, hasLength(97));
     final experienceCollections = resolved.collections.where(
       (collection) => collection.entityType == 'experience',
     );
     final memberIds = experienceCollections
         .expand((collection) => collection.memberEntityIds)
         .toList(growable: false);
-    expect(memberIds.toSet(), hasLength(119));
+    expect(memberIds.toSet(), hasLength(97));
     expect(memberIds.toSet().difference(experienceIds), isEmpty);
     expect(
       {
@@ -202,7 +202,7 @@ void main() {
         'uttar_pradesh_nature_wildlife': 13,
         'uttar_pradesh_experiences_activities': 12,
         'uttar_pradesh_fruits': 0,
-        'uttar_pradesh_dishes': 18,
+        'uttar_pradesh_dishes': 43,
         'uttar_pradesh_drinks': 4,
         'uttar_pradesh_arts_crafts': 16,
         'uttar_pradesh_festivals_fairs': 16,
@@ -254,13 +254,13 @@ void main() {
           >{
             'delhi': (
               districts: 13,
-              experiences: 72,
+              experiences: 56,
               collections: {
                 'delhi_landmarks_heritage': 22,
                 'delhi_nature_wildlife': 7,
                 'delhi_experiences_activities': 10,
                 'delhi_fruits': 0,
-                'delhi_dishes': 12,
+                'delhi_dishes': 15,
                 'delhi_drinks': 4,
                 'delhi_arts_crafts': 6,
                 'delhi_festivals_fairs': 7,
@@ -269,13 +269,13 @@ void main() {
             ),
             'haryana': (
               districts: 22,
-              experiences: 68,
+              experiences: 55,
               collections: {
                 'haryana_landmarks_heritage': 18,
                 'haryana_nature_wildlife': 8,
                 'haryana_experiences_activities': 10,
                 'haryana_fruits': 0,
-                'haryana_dishes': 10,
+                'haryana_dishes': 18,
                 'haryana_drinks': 3,
                 'haryana_arts_crafts': 6,
                 'haryana_festivals_fairs': 7,
@@ -284,13 +284,13 @@ void main() {
             ),
             'punjab': (
               districts: 23,
-              experiences: 77,
+              experiences: 62,
               collections: {
                 'punjab_landmarks_heritage': 20,
                 'punjab_nature_wildlife': 7,
                 'punjab_experiences_activities': 10,
                 'punjab_fruits': 0,
-                'punjab_dishes': 12,
+                'punjab_dishes': 22,
                 'punjab_drinks': 3,
                 'punjab_arts_crafts': 8,
                 'punjab_festivals_fairs': 8,
@@ -371,13 +371,13 @@ void main() {
           >{
             'uttarakhand': (
               districts: 13,
-              experiences: 81,
+              experiences: 65,
               collections: {
                 'uttarakhand_landmarks_heritage': 18,
                 'uttarakhand_nature_wildlife': 12,
                 'uttarakhand_experiences_activities': 13,
                 'uttarakhand_fruits': 0,
-                'uttarakhand_dishes': 13,
+                'uttarakhand_dishes': 18,
                 'uttarakhand_drinks': 3,
                 'uttarakhand_arts_crafts': 7,
                 'uttarakhand_festivals_fairs': 9,
@@ -386,13 +386,13 @@ void main() {
             ),
             'himachal_pradesh': (
               districts: 12,
-              experiences: 81,
+              experiences: 65,
               collections: {
                 'himachal_pradesh_landmarks_heritage': 19,
                 'himachal_pradesh_nature_wildlife': 11,
                 'himachal_pradesh_experiences_activities': 12,
                 'himachal_pradesh_fruits': 0,
-                'himachal_pradesh_dishes': 13,
+                'himachal_pradesh_dishes': 34,
                 'himachal_pradesh_drinks': 3,
                 'himachal_pradesh_arts_crafts': 8,
                 'himachal_pradesh_festivals_fairs': 9,
@@ -401,13 +401,13 @@ void main() {
             ),
             'jammu_kashmir': (
               districts: 20,
-              experiences: 92,
+              experiences: 75,
               collections: {
                 'jammu_kashmir_landmarks_heritage': 21,
                 'jammu_kashmir_nature_wildlife': 15,
                 'jammu_kashmir_experiences_activities': 13,
                 'jammu_kashmir_fruits': 0,
-                'jammu_kashmir_dishes': 14,
+                'jammu_kashmir_dishes': 31,
                 'jammu_kashmir_drinks': 3,
                 'jammu_kashmir_arts_crafts': 10,
                 'jammu_kashmir_festivals_fairs': 8,
@@ -416,13 +416,13 @@ void main() {
             ),
             'ladakh': (
               districts: 7,
-              experiences: 74,
+              experiences: 62,
               collections: {
                 'ladakh_landmarks_heritage': 16,
                 'ladakh_nature_wildlife': 11,
                 'ladakh_experiences_activities': 12,
                 'ladakh_fruits': 0,
-                'ladakh_dishes': 9,
+                'ladakh_dishes': 14,
                 'ladakh_drinks': 3,
                 'ladakh_arts_crafts': 8,
                 'ladakh_festivals_fairs': 9,
@@ -431,13 +431,13 @@ void main() {
             ),
             'chandigarh': (
               districts: 1,
-              experiences: 54,
+              experiences: 43,
               collections: {
                 'chandigarh_landmarks_heritage': 10,
                 'chandigarh_nature_wildlife': 7,
                 'chandigarh_experiences_activities': 10,
                 'chandigarh_fruits': 0,
-                'chandigarh_dishes': 8,
+                'chandigarh_dishes': 18,
                 'chandigarh_drinks': 3,
                 'chandigarh_arts_crafts': 5,
                 'chandigarh_festivals_fairs': 7,
@@ -518,13 +518,13 @@ void main() {
           >{
             'madhya_pradesh': (
               districts: 55,
-              experiences: 84,
+              experiences: 69,
               collections: {
                 'madhya_pradesh_landmarks_heritage': 22,
                 'madhya_pradesh_nature_wildlife': 12,
                 'madhya_pradesh_experiences_activities': 11,
                 'madhya_pradesh_fruits': 0,
-                'madhya_pradesh_dishes': 12,
+                'madhya_pradesh_dishes': 27,
                 'madhya_pradesh_drinks': 3,
                 'madhya_pradesh_arts_crafts': 9,
                 'madhya_pradesh_festivals_fairs': 8,
@@ -533,13 +533,13 @@ void main() {
             ),
             'gujarat': (
               districts: 33,
-              experiences: 84,
+              experiences: 67,
               collections: {
                 'gujarat_landmarks_heritage': 20,
                 'gujarat_nature_wildlife': 12,
                 'gujarat_experiences_activities': 11,
                 'gujarat_fruits': 0,
-                'gujarat_dishes': 14,
+                'gujarat_dishes': 19,
                 'gujarat_drinks': 3,
                 'gujarat_arts_crafts': 10,
                 'gujarat_festivals_fairs': 8,
@@ -548,14 +548,14 @@ void main() {
             ),
             'maharashtra': (
               districts: 36,
-              experiences: 91,
+              experiences: 72,
               collections: {
                 'maharashtra_landmarks_heritage': 22,
                 'maharashtra_nature_wildlife': 14,
                 'maharashtra_experiences_activities': 12,
                 'maharashtra_fruits': 0,
-                'maharashtra_dishes': 16,
-                'maharashtra_drinks': 3,
+                'maharashtra_dishes': 33,
+                'maharashtra_drinks': 6,
                 'maharashtra_arts_crafts': 8,
                 'maharashtra_festivals_fairs': 9,
                 'maharashtra_music_dance': 7,
@@ -563,13 +563,13 @@ void main() {
             ),
             'goa': (
               districts: 3,
-              experiences: 71,
+              experiences: 56,
               collections: {
                 'goa_landmarks_heritage': 15,
                 'goa_nature_wildlife': 11,
                 'goa_experiences_activities': 11,
                 'goa_fruits': 0,
-                'goa_dishes': 12,
+                'goa_dishes': 26,
                 'goa_drinks': 3,
                 'goa_arts_crafts': 6,
                 'goa_festivals_fairs': 7,
@@ -578,13 +578,13 @@ void main() {
             ),
             'chhattisgarh': (
               districts: 33,
-              experiences: 79,
+              experiences: 63,
               collections: {
                 'chhattisgarh_landmarks_heritage': 15,
                 'chhattisgarh_nature_wildlife': 13,
                 'chhattisgarh_experiences_activities': 12,
                 'chhattisgarh_fruits': 0,
-                'chhattisgarh_dishes': 13,
+                'chhattisgarh_dishes': 16,
                 'chhattisgarh_drinks': 3,
                 'chhattisgarh_arts_crafts': 8,
                 'chhattisgarh_festivals_fairs': 8,

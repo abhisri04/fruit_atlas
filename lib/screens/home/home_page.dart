@@ -133,6 +133,12 @@ class _HomePageState extends State<HomePage> {
               .map((fruit) => fruit.id.isEmpty ? fruit.name : fruit.id)
               .toSet();
           savedIds = completedIds;
+        } else if (challenge.itemType == 'indian_dish' ||
+            challenge.itemType == 'indian_drink') {
+          // The card loads catalogue progress independently so Home's primary
+          // fruit/state data remains fast and existing dashboard loading is
+          // not blocked by an additional catalogue.
+          continue;
         } else if (challenge.itemType == 'jyotirlinga') {
           validIds = (await assetDataService.loadJyotirlingas())
               .map((site) => site.id)
@@ -414,7 +420,7 @@ class _HomePageState extends State<HomePage> {
 
                 DropdownButtonFormField<String>(
                   isExpanded: true,
-                  value: selectedStateId,
+                  initialValue: selectedStateId,
                   decoration: InputDecoration(
                     labelText: 'Select State / UT',
                     border: OutlineInputBorder(
@@ -769,6 +775,10 @@ class _HomePageState extends State<HomePage> {
                                     Icon(
                                       challenge.itemType == 'fruit'
                                           ? Icons.eco
+                                          : challenge.itemType == 'indian_dish'
+                                          ? Icons.ramen_dining_outlined
+                                          : challenge.itemType == 'indian_drink'
+                                          ? Icons.local_cafe_outlined
                                           : challenge.itemType == 'jyotirlinga'
                                           ? Icons.temple_hindu
                                           : Icons.self_improvement,

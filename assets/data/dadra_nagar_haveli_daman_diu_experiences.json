@@ -118,19 +118,6 @@
       "status": "active"
     },
     {
-      "id": "exp_dadra_nagar_haveli_daman_diu_daman_jetty_roll",
-      "title": "Daman Jetty Roll",
-      "description": "A local adaptation of the filled kebab roll associated with Daman.",
-      "type": "food",
-      "section": "Food & Drink",
-      "parent_location_id": "dadra_nagar_haveli_daman_diu",
-      "category_id": "food_drink",
-      "keywords": [],
-      "state_id": "dadra_nagar_haveli_daman_diu",
-      "state_name": "Dadra and Nagar Haveli and Daman and Diu",
-      "status": "active"
-    },
-    {
       "id": "exp_dadra_nagar_haveli_daman_diu_daman_mat_weaving",
       "title": "Daman Mat Weaving",
       "description": "A traditional local craft of weaving mats.",

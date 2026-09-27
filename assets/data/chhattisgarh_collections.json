@@ -107,43 +107,46 @@
       "parent_section_id": "food_drink",
       "context_id": "chhattisgarh",
       "context_name": "Chhattisgarh",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_chhattisgarh_chila",
-        "exp_chhattisgarh_faraa",
+        "exp_chhattisgarh_aamat",
         "exp_chhattisgarh_angakar_roti",
         "exp_chhattisgarh_bafauri",
-        "exp_chhattisgarh_dubki_kadhi",
-        "exp_chhattisgarh_aamat",
+        "exp_chhattisgarh_bara",
+        "exp_chhattisgarh_bhajia",
         "exp_chhattisgarh_bore_baasi",
-        "exp_chhattisgarh_muthia",
-        "exp_chhattisgarh_khurmi",
-        "exp_chhattisgarh_thethri",
-        "exp_chhattisgarh_tilgur",
+        "exp_chhattisgarh_chila",
         "exp_chhattisgarh_dehati_chicken",
-        "exp_chhattisgarh_mahua_ladoo"
+        "exp_chhattisgarh_dubki_kadhi",
+        "exp_chhattisgarh_faraa",
+        "exp_chhattisgarh_khurma",
+        "exp_chhattisgarh_khurmi",
+        "exp_chhattisgarh_mahua_ladoo",
+        "exp_chhattisgarh_muthia",
+        "exp_chhattisgarh_thethri",
+        "exp_chhattisgarh_tilgur"
       ],
       "empty_message": "More Chhattisgarh dishes experiences are coming soon."
     },
     {
       "id": "chhattisgarh_drinks",
       "title": "Drinks",
-      "description": "Drinks experiences associated with Chhattisgarh.",
+      "description": "Regional drinks associated with Chhattisgarh.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "chhattisgarh",
       "context_name": "Chhattisgarh",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_chhattisgarh_rice_kanji",
+        "exp_chhattisgarh_lemon_shikanji",
         "exp_chhattisgarh_mahua_flower_sharbat",
-        "exp_chhattisgarh_lemon_shikanji"
+        "exp_chhattisgarh_rice_kanji"
       ],
-      "empty_message": "More Chhattisgarh drinks experiences are coming soon."
+      "empty_message": "More verified Chhattisgarh drinks are coming soon."
     },
     {
       "id": "chhattisgarh_arts_crafts",

@@ -1,0 +1,2309 @@
+{
+  "schema_version": "1.0",
+  "category": {
+    "id": "CAT_INDIAN_DRINKS",
+    "name": "Indian Drinks",
+    "subtitle": "Sip your way across India",
+    "description": "One canonical catalogue of regional Indian drinks shared with every State and UT exploration.",
+    "icon_key": "local_cafe",
+    "primary_action": "tried",
+    "actions": [
+      {
+        "key": "tried",
+        "label": "Tried",
+        "counts_toward_primary_progress": true
+      },
+      {
+        "key": "want_to_try",
+        "label": "Want to try",
+        "counts_toward_primary_progress": false
+      },
+      {
+        "key": "favourite",
+        "label": "Favourite",
+        "counts_toward_primary_progress": false
+      }
+    ],
+    "filters": [
+      {
+        "key": "primary_state",
+        "label": "State"
+      },
+      {
+        "key": "region",
+        "label": "Region"
+      },
+      {
+        "key": "drink_type",
+        "label": "Type"
+      },
+      {
+        "key": "alcohol_content",
+        "label": "Alcohol"
+      }
+    ],
+    "sort_options": [
+      "name",
+      "state",
+      "recently_completed"
+    ],
+    "item_count": 68,
+    "version": "1.2-non-alcoholic-catalogue"
+  },
+  "drink_types": [
+    {
+      "id": "tea",
+      "label": "Tea"
+    },
+    {
+      "id": "coffee",
+      "label": "Coffee"
+    },
+    {
+      "id": "dairy",
+      "label": "Dairy"
+    },
+    {
+      "id": "herbal_medicinal",
+      "label": "Herbal & Medicinal"
+    },
+    {
+      "id": "juice",
+      "label": "Juices"
+    },
+    {
+      "id": "sherbet_cooler",
+      "label": "Sherbets & Coolers"
+    },
+    {
+      "id": "grain_pulse",
+      "label": "Grain & Pulse Drinks"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "collections": [
+    {
+      "id": "COL_DRINK_ALL",
+      "name": "Indian Drinks",
+      "type": "all_items",
+      "description": "Try every drink in the catalogue.",
+      "rule": {
+        "all_items": true
+      }
+    },
+    {
+      "id": "COL_DRINK_STATES",
+      "name": "Sip Across India",
+      "type": "unique_field",
+      "description": "Try drinks associated with India’s states and union territories.",
+      "rule": {
+        "field": "primary_state",
+        "unique_required": 32
+      }
+    },
+    {
+      "id": "COL_DRINK_TEA",
+      "name": "Tea Trails",
+      "type": "filter",
+      "description": "Explore tea trails from across India.",
+      "rule": {
+        "drink_type": "tea"
+      }
+    },
+    {
+      "id": "COL_DRINK_COFFEE",
+      "name": "Coffee Trails",
+      "type": "filter",
+      "description": "Explore coffee trails from across India.",
+      "rule": {
+        "drink_type": "coffee"
+      }
+    },
+    {
+      "id": "COL_DRINK_HERBAL_MEDICINAL",
+      "name": "Herbal & Medicinal Drinks",
+      "type": "filter",
+      "description": "Explore herbal & medicinal drinks from across India.",
+      "rule": {
+        "drink_type": "herbal_medicinal"
+      }
+    },
+    {
+      "id": "COL_DRINK_DAIRY",
+      "name": "Dairy Drinks",
+      "type": "filter",
+      "description": "Explore dairy drinks from across India.",
+      "rule": {
+        "drink_type": "dairy"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ACH_DRINK_FIRST",
+      "name": "First Sip",
+      "metric": "tried_count",
+      "threshold": 1,
+      "description": "Try your first drink."
+    },
+    {
+      "id": "ACH_DRINK_TEN",
+      "name": "Beverage Explorer",
+      "metric": "tried_count",
+      "threshold": 10,
+      "description": "Try 10 Indian drinks."
+    },
+    {
+      "id": "ACH_DRINK_STATES",
+      "name": "Regional Sipper",
+      "metric": "unique_states_tried",
+      "threshold": 10,
+      "description": "Try drinks related to 10 States or UTs."
+    }
+  ],
+  "items": [
+    {
+      "id": "DRK011",
+      "name": "Aam Panna",
+      "aliases": [
+        "Kairi Panha",
+        "Aam Panha"
+      ],
+      "origin_state_ids": [
+        "maharashtra"
+      ],
+      "associated_state_ids": [
+        "maharashtra"
+      ],
+      "regions": [
+        "West"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A tangy-sweet summer cooler made from raw mangoes and spices.",
+      "tags": [
+        "sherbet_cooler",
+        "maharashtra",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK011.webp",
+      "legacy_ids": [
+        "DRK011"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/maharashtra/kolhapur"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_himachal_pradesh_apple_juice",
+      "name": "Apple Juice",
+      "aliases": [],
+      "origin_state_ids": [
+        "himachal_pradesh"
+      ],
+      "associated_state_ids": [
+        "himachal_pradesh"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "juice",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Apple juice reflects Himachal's major apple-growing economy and orchard culture.",
+      "tags": [
+        "juice",
+        "non_alcoholic",
+        "himachal_pradesh"
+      ],
+      "image_asset": "assets/images/drinks/exp_himachal_pradesh_apple_juice.webp",
+      "legacy_ids": [
+        "exp_himachal_pradesh_apple_juice"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_ladakh_apricot_juice",
+      "name": "Apricot Juice",
+      "aliases": [],
+      "origin_state_ids": [
+        "ladakh"
+      ],
+      "associated_state_ids": [
+        "ladakh"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "juice",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Apricot juice and squash are made from fruit grown in Ladakh's warmer valleys.",
+      "tags": [
+        "juice",
+        "non_alcoholic",
+        "ladakh"
+      ],
+      "image_asset": "assets/images/drinks/exp_ladakh_apricot_juice.webp",
+      "legacy_ids": [
+        "exp_ladakh_apricot_juice"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_andhra_pradesh_araku_coffee",
+      "name": "Araku Coffee",
+      "aliases": [],
+      "origin_state_ids": [
+        "andhra_pradesh"
+      ],
+      "associated_state_ids": [
+        "andhra_pradesh"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "coffee",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic brew made with coffee grown in the Araku region.",
+      "tags": [
+        "coffee",
+        "andhra_pradesh",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_andhra_pradesh_araku_coffee.webp",
+      "legacy_ids": [
+        "exp_andhra_pradesh_araku_coffee"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK019",
+      "name": "Arshina Tambuli",
+      "aliases": [
+        "Turmeric Tambuli"
+      ],
+      "origin_state_ids": [
+        "karnataka"
+      ],
+      "associated_state_ids": [
+        "karnataka"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "herbal_medicinal",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A lightly spiced fresh-turmeric and buttermilk aperitif cooler from Malnad.",
+      "tags": [
+        "herbal_medicinal",
+        "karnataka",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK019.webp",
+      "legacy_ids": [
+        "DRK019"
+      ],
+      "source_refs": [
+        "https://karnatakatourism.org/wp-content/uploads/2020/05/Karnataka-Cuisine.pdf"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_assam_assam_tea",
+      "name": "Assam Tea",
+      "aliases": [],
+      "origin_state_ids": [
+        "assam"
+      ],
+      "associated_state_ids": [
+        "assam"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic infusion of tea grown in Assam.",
+      "tags": [
+        "tea",
+        "assam",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_assam_assam_tea.webp",
+      "legacy_ids": [
+        "exp_assam_assam_tea"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_delhi_badam_milk",
+      "name": "Badam Milk",
+      "aliases": [],
+      "origin_state_ids": [
+        "delhi"
+      ],
+      "associated_state_ids": [
+        "delhi"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Badam milk is a sweet milk drink flavoured with almonds and spices, commonly found in Delhi's traditional sweet shops.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "delhi"
+      ],
+      "image_asset": "assets/images/drinks/exp_delhi_badam_milk.webp",
+      "legacy_ids": [
+        "exp_delhi_badam_milk"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_uttar_pradesh_banarasi_chai",
+      "name": "Banarasi Chai",
+      "aliases": [],
+      "origin_state_ids": [
+        "uttar_pradesh"
+      ],
+      "associated_state_ids": [
+        "uttar_pradesh"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "Banarasi chai is part of Varanasi's everyday street-food culture and is commonly enjoyed in small cups.",
+      "tags": [
+        "tea",
+        "non_alcoholic",
+        "uttar_pradesh"
+      ],
+      "image_asset": "assets/images/drinks/exp_uttar_pradesh_banarasi_chai.webp",
+      "legacy_ids": [
+        "exp_uttar_pradesh_banarasi_chai"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_bihar_bel_sharbat",
+      "name": "Bel Sharbat",
+      "aliases": [],
+      "origin_state_ids": [
+        "bihar"
+      ],
+      "associated_state_ids": [
+        "bihar"
+      ],
+      "regions": [
+        "East"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A seasonal drink made from ripe bael pulp.",
+      "tags": [
+        "sherbet_cooler",
+        "non_alcoholic",
+        "bihar"
+      ],
+      "image_asset": "assets/images/drinks/exp_bihar_bel_sharbat.webp",
+      "legacy_ids": [
+        "exp_bihar_bel_sharbat"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_odisha_bela_pana",
+      "name": "Bela Pana",
+      "aliases": [],
+      "origin_state_ids": [
+        "odisha"
+      ],
+      "associated_state_ids": [
+        "odisha"
+      ],
+      "regions": [
+        "East"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "A bael-based drink associated with Pana Sankranti.",
+      "tags": [
+        "sherbet_cooler",
+        "non_alcoholic",
+        "odisha"
+      ],
+      "image_asset": "assets/images/drinks/exp_odisha_bela_pana.webp",
+      "legacy_ids": [
+        "exp_odisha_bela_pana"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_west_bengal_bharer_cha",
+      "name": "Bharer Cha",
+      "aliases": [],
+      "origin_state_ids": [
+        "west_bengal"
+      ],
+      "associated_state_ids": [
+        "west_bengal"
+      ],
+      "regions": [
+        "East"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "Street-side tea served in a small earthen cup.",
+      "tags": [
+        "tea",
+        "non_alcoholic",
+        "west_bengal"
+      ],
+      "image_asset": "assets/images/drinks/exp_west_bengal_bharer_cha.webp",
+      "legacy_ids": [
+        "exp_west_bengal_bharer_cha"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_uttarakhand_buransh_sharbat",
+      "name": "Buransh Sharbat",
+      "aliases": [],
+      "origin_state_ids": [
+        "uttarakhand"
+      ],
+      "associated_state_ids": [
+        "uttarakhand"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "herbal_medicinal",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Buransh sharbat is a rhododendron-flower drink popular in the Himalayan hills of Uttarakhand.",
+      "tags": [
+        "herbal_medicinal",
+        "non_alcoholic",
+        "uttarakhand"
+      ],
+      "image_asset": "assets/images/drinks/exp_uttarakhand_buransh_sharbat.webp",
+      "legacy_ids": [
+        "exp_uttarakhand_buransh_sharbat"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_himachal_pradesh_butter_tea",
+      "name": "Butter Tea",
+      "aliases": [
+        "Gur Gur Cha",
+        "Ja",
+        "Po Cha",
+        "Tibetan Tea"
+      ],
+      "origin_state_ids": [
+        "himachal_pradesh"
+      ],
+      "associated_state_ids": [
+        "himachal_pradesh",
+        "ladakh",
+        "arunachal_pradesh",
+        "west_bengal"
+      ],
+      "regions": [
+        "North",
+        "Northeast",
+        "East"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "Salty butter tea is consumed in Tibetan-influenced high-altitude regions such as Kinnaur and Spiti.",
+      "tags": [
+        "tea",
+        "non_alcoholic",
+        "himachal_pradesh",
+        "ladakh"
+      ],
+      "image_asset": "assets/images/drinks/exp_himachal_pradesh_butter_tea.webp",
+      "legacy_ids": [
+        "exp_himachal_pradesh_butter_tea",
+        "exp_ladakh_gur_gur_cha"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/arunachal-pradesh/itanagar/a-culinary-journey-through-itanagar-and-arunachal-pradesh",
+        "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/darjeeling/food-and-cuisine.html"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_gujarat_chaas",
+      "name": "Chaas",
+      "aliases": [
+        "Buttermilk",
+        "Majjige",
+        "Moru",
+        "Sambharam",
+        "Spiced Sambharam",
+        "Taak",
+        "Mattha"
+      ],
+      "origin_state_ids": [
+        "gujarat"
+      ],
+      "associated_state_ids": [
+        "gujarat",
+        "haryana",
+        "uttar_pradesh",
+        "andhra_pradesh",
+        "karnataka",
+        "kerala",
+        "maharashtra",
+        "tamil_nadu"
+      ],
+      "regions": [
+        "West",
+        "North",
+        "South"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Chaas is a non-alcoholic drink experience associated with Gujarat.",
+      "tags": [
+        "dairy",
+        "gujarat",
+        "haryana",
+        "uttar_pradesh",
+        "non_alcoholic",
+        "andhra_pradesh",
+        "karnataka",
+        "kerala",
+        "maharashtra",
+        "tamil_nadu"
+      ],
+      "image_asset": "assets/images/drinks/exp_gujarat_chaas.webp",
+      "legacy_ids": [
+        "exp_gujarat_chaas",
+        "exp_haryana_chaas",
+        "exp_uttar_pradesh_chaas"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/andhra-pradesh/amaravati",
+        "https://old.karnatakatourism.org/tour-item/cuisines/",
+        "https://www.keralatourism.org/ktadmin/img/file_upload/lowres/destination-wedding-1738663780_4063e14037f26a4d00ef.pdf",
+        "https://www.incredibleindia.gov.in/en/maharashtra/nashik",
+        "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/chennai/food-and-cuisine.html"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_west_bengal_darjeeling_tea",
+      "name": "Darjeeling Tea",
+      "aliases": [],
+      "origin_state_ids": [
+        "west_bengal"
+      ],
+      "associated_state_ids": [
+        "west_bengal"
+      ],
+      "regions": [
+        "East"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "Tea grown in Darjeeling's hill gardens.",
+      "tags": [
+        "tea",
+        "non_alcoholic",
+        "west_bengal"
+      ],
+      "image_asset": "assets/images/drinks/exp_west_bengal_darjeeling_tea.webp",
+      "legacy_ids": [
+        "exp_west_bengal_darjeeling_tea"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_delhi_delhi_lassi",
+      "name": "Delhi Lassi",
+      "aliases": [],
+      "origin_state_ids": [
+        "delhi"
+      ],
+      "associated_state_ids": [
+        "delhi"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Lassi is a yoghurt-based drink widely served across Delhi's traditional food markets.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "delhi"
+      ],
+      "image_asset": "assets/images/drinks/exp_delhi_delhi_lassi.webp",
+      "legacy_ids": [
+        "exp_delhi_delhi_lassi"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_goa_fresh_tender_coconut_water",
+      "name": "Fresh Tender Coconut Water",
+      "aliases": [],
+      "origin_state_ids": [
+        "goa"
+      ],
+      "associated_state_ids": [
+        "goa",
+        "kerala"
+      ],
+      "regions": [
+        "West",
+        "South"
+      ],
+      "drink_type": "juice",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Fresh Tender Coconut Water is a non-alcoholic drink experience associated with Goa.",
+      "tags": [
+        "juice",
+        "goa",
+        "non_alcoholic",
+        "kerala"
+      ],
+      "image_asset": "assets/images/drinks/exp_goa_fresh_tender_coconut_water.webp",
+      "legacy_ids": [
+        "exp_goa_fresh_tender_coconut_water"
+      ],
+      "source_refs": [
+        "https://health.kerala.gov.in/wellnessdetail/Stay_Cool_and_Balanced_Through_Ayurveda/eyJpdiI6IkRVek5ZZUFyWDIvQ1ZJVDhKL0NFTEE9PSIsInZhbHVlIjoiRy82NG96WmFneEx0NU03WlFxT2NFQT09IiwibWFjIjoiZjRhYWY4MGU2MDRhOTJlYzI4OWUwODljMDBmNzU4NjQwZWQ0NTk5MTE2NzlhMjc2N2Q0ODBjYjM5OTU3MmNlMSIsInRhZyI6IiJ9/eyJpdiI6IkdtZXMxRnE4YjZ1WTl2ajA3NCtZNGc9PSIsInZhbHVlIjoiS1ZRektnWjdYZXEzMDIxeU91c0wxdz09IiwibWFjIjoiYjlhMmIyYTFiMWJjZDZjZDZlMTM0N2VlNWE3NWU4YWU0M2FhMDZiOTY0ZjdhZmNhNTBhNGExMGNlMDhjMzU2MCIsInRhZyI6IiJ9",
+        "https://www.keralatourism.org/ktadmin/img/file_upload/lowres/destination-wedding-1738663780_4063e14037f26a4d00ef.pdf"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_haryana_haryanvi_lassi",
+      "name": "Haryanvi Lassi",
+      "aliases": [],
+      "origin_state_ids": [
+        "haryana"
+      ],
+      "associated_state_ids": [
+        "haryana"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Lassi is a yoghurt-based drink deeply associated with Haryana's dairy-rich food culture.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "haryana"
+      ],
+      "image_asset": "assets/images/drinks/exp_haryana_haryanvi_lassi.webp",
+      "legacy_ids": [
+        "exp_haryana_haryanvi_lassi"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_telangana_hyderabadi_irani_chai",
+      "name": "Hyderabadi Irani Chai",
+      "aliases": [],
+      "origin_state_ids": [
+        "telangana"
+      ],
+      "associated_state_ids": [
+        "telangana"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic, milk-rich tea associated with Hyderabad's cafes.",
+      "tags": [
+        "tea",
+        "telangana",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_telangana_hyderabadi_irani_chai.webp",
+      "legacy_ids": [
+        "exp_telangana_hyderabadi_irani_chai"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_madhya_pradesh_indori_shikanji",
+      "name": "Indori Shikanji",
+      "aliases": [],
+      "origin_state_ids": [
+        "madhya_pradesh"
+      ],
+      "associated_state_ids": [
+        "madhya_pradesh"
+      ],
+      "regions": [
+        "Central"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Indori Shikanji is a non-alcoholic drink experience associated with Madhya Pradesh.",
+      "tags": [
+        "dairy",
+        "madhya_pradesh",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_madhya_pradesh_indori_shikanji.webp",
+      "legacy_ids": [
+        "exp_madhya_pradesh_indori_shikanji"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_jammu_kashmir_kahwa",
+      "name": "Kahwa",
+      "aliases": [],
+      "origin_state_ids": [
+        "jammu_kashmir"
+      ],
+      "associated_state_ids": [
+        "jammu_kashmir"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "Kahwa is a fragrant green-tea infusion commonly prepared with saffron, spices and nuts in Kashmir.",
+      "tags": [
+        "tea",
+        "non_alcoholic",
+        "jammu_kashmir"
+      ],
+      "image_asset": "assets/images/drinks/exp_jammu_kashmir_kahwa.webp",
+      "legacy_ids": [
+        "exp_jammu_kashmir_kahwa"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_jammu_kashmir_kashmiri_saffron_milk",
+      "name": "Kashmiri Saffron Milk",
+      "aliases": [],
+      "origin_state_ids": [
+        "jammu_kashmir"
+      ],
+      "associated_state_ids": [
+        "jammu_kashmir"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Warm milk flavoured with Kashmiri saffron is a popular winter and festive drink.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "jammu_kashmir"
+      ],
+      "image_asset": "assets/images/drinks/exp_jammu_kashmir_kashmiri_saffron_milk.webp",
+      "legacy_ids": [
+        "exp_jammu_kashmir_kashmiri_saffron_milk"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_punjab_kesar_badam_milk",
+      "name": "Kesar Badam Milk",
+      "aliases": [],
+      "origin_state_ids": [
+        "punjab"
+      ],
+      "associated_state_ids": [
+        "punjab"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Kesar badam milk is a rich saffron-and-almond milk drink found in Punjabi sweet shops and eateries.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "punjab"
+      ],
+      "image_asset": "assets/images/drinks/exp_punjab_kesar_badam_milk.webp",
+      "legacy_ids": [
+        "exp_punjab_kesar_badam_milk"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_gujarat_kesar_milk",
+      "name": "Kesar Milk",
+      "aliases": [],
+      "origin_state_ids": [
+        "gujarat"
+      ],
+      "associated_state_ids": [
+        "gujarat"
+      ],
+      "regions": [
+        "West"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Kesar Milk is a non-alcoholic drink experience associated with Gujarat.",
+      "tags": [
+        "dairy",
+        "gujarat",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_gujarat_kesar_milk.webp",
+      "legacy_ids": [
+        "exp_gujarat_kesar_milk"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_karnataka_kodagu_coffee",
+      "name": "Kodagu Coffee",
+      "aliases": [],
+      "origin_state_ids": [
+        "karnataka"
+      ],
+      "associated_state_ids": [
+        "karnataka"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "coffee",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic brew made from coffee grown in Kodagu, also known as Coorg.",
+      "tags": [
+        "coffee",
+        "karnataka",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_karnataka_kodagu_coffee.webp",
+      "legacy_ids": [
+        "exp_karnataka_kodagu_coffee"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_goa_kokum_sherbet",
+      "name": "Kokum Sharbat",
+      "aliases": [
+        "Kokum Sherbet"
+      ],
+      "origin_state_ids": [
+        "goa"
+      ],
+      "associated_state_ids": [
+        "goa",
+        "maharashtra"
+      ],
+      "regions": [
+        "West"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Kokum Sherbet is a non-alcoholic drink experience associated with Goa.",
+      "tags": [
+        "sherbet_cooler",
+        "goa",
+        "maharashtra",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_goa_kokum_sherbet.webp",
+      "legacy_ids": [
+        "exp_goa_kokum_sherbet",
+        "exp_maharashtra_kokum_sharbat"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK016",
+      "name": "Kulukki Sarbath",
+      "aliases": [
+        "Kulukki Sharbat"
+      ],
+      "origin_state_ids": [
+        "kerala"
+      ],
+      "associated_state_ids": [
+        "kerala"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A shaken Kerala lime drink known for its bright, refreshing flavour.",
+      "tags": [
+        "sherbet_cooler",
+        "kerala",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK016.webp",
+      "legacy_ids": [
+        "DRK016"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/kerala/kochi"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_uttar_pradesh_lassi",
+      "name": "Lassi",
+      "aliases": [],
+      "origin_state_ids": [
+        "uttar_pradesh"
+      ],
+      "associated_state_ids": [
+        "uttar_pradesh"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Lassi is a yoghurt-based drink widely enjoyed across Uttar Pradesh, including the Braj and Varanasi regions.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "uttar_pradesh"
+      ],
+      "image_asset": "assets/images/drinks/exp_uttar_pradesh_lassi.webp",
+      "legacy_ids": [
+        "exp_uttar_pradesh_lassi"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_chhattisgarh_lemon_shikanji",
+      "name": "Lemon Shikanji",
+      "aliases": [
+        "Lemon Shikanji of the Hills"
+      ],
+      "origin_state_ids": [
+        "chhattisgarh"
+      ],
+      "associated_state_ids": [
+        "chhattisgarh",
+        "uttarakhand"
+      ],
+      "regions": [
+        "Central",
+        "North"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Lemon Shikanji is a non-alcoholic drink experience associated with Chhattisgarh.",
+      "tags": [
+        "sherbet_cooler",
+        "chhattisgarh",
+        "uttarakhand",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_chhattisgarh_lemon_shikanji.webp",
+      "legacy_ids": [
+        "exp_chhattisgarh_lemon_shikanji",
+        "exp_uttarakhand_lemon_shikanji_of_the_hills"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_gujarat_limbu_soda",
+      "name": "Limbu Soda",
+      "aliases": [],
+      "origin_state_ids": [
+        "gujarat"
+      ],
+      "associated_state_ids": [
+        "gujarat"
+      ],
+      "regions": [
+        "West"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Limbu Soda is a non-alcoholic drink experience associated with Gujarat.",
+      "tags": [
+        "sherbet_cooler",
+        "gujarat",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_gujarat_limbu_soda.webp",
+      "legacy_ids": [
+        "exp_gujarat_limbu_soda"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_tamil_nadu_madurai_jigarthanda",
+      "name": "Madurai Jigarthanda",
+      "aliases": [],
+      "origin_state_ids": [
+        "tamil_nadu"
+      ],
+      "associated_state_ids": [
+        "tamil_nadu"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A chilled, non-alcoholic milk-based speciality of Madurai.",
+      "tags": [
+        "dairy",
+        "tamil_nadu",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_tamil_nadu_madurai_jigarthanda.webp",
+      "legacy_ids": [
+        "exp_tamil_nadu_madurai_jigarthanda"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_chhattisgarh_mahua_flower_sharbat",
+      "name": "Mahua Flower Sharbat",
+      "aliases": [],
+      "origin_state_ids": [
+        "chhattisgarh"
+      ],
+      "associated_state_ids": [
+        "chhattisgarh"
+      ],
+      "regions": [
+        "Central"
+      ],
+      "drink_type": "herbal_medicinal",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Mahua Flower Sharbat is a non-alcoholic drink experience associated with Chhattisgarh.",
+      "tags": [
+        "herbal_medicinal",
+        "chhattisgarh",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_chhattisgarh_mahua_flower_sharbat.webp",
+      "legacy_ids": [
+        "exp_chhattisgarh_mahua_flower_sharbat"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK001",
+      "name": "Makhaniya Lassi",
+      "aliases": [],
+      "origin_state_ids": [
+        "rajasthan"
+      ],
+      "associated_state_ids": [
+        "rajasthan"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A thick Jodhpuri lassi enriched with saffron, cream, butter, cardamom and nuts.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "rajasthan"
+      ],
+      "image_asset": "assets/images/drinks/DRK001.webp",
+      "legacy_ids": [
+        "DRK001"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/rajasthan/jodhpur/food-and-cuisine"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_odisha_mandia_pej",
+      "name": "Mandia Pej",
+      "aliases": [],
+      "origin_state_ids": [
+        "odisha"
+      ],
+      "associated_state_ids": [
+        "odisha"
+      ],
+      "regions": [
+        "East"
+      ],
+      "drink_type": "grain_pulse",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "A traditional drink or thin porridge made with finger millet.",
+      "tags": [
+        "grain_pulse",
+        "non_alcoholic",
+        "odisha"
+      ],
+      "image_asset": "assets/images/drinks/exp_odisha_mandia_pej.webp",
+      "legacy_ids": [
+        "exp_odisha_mandia_pej"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_madhya_pradesh_masala_chai",
+      "name": "Masala Chai",
+      "aliases": [
+        "Masala Chai in the Hills",
+        "Kerala Masala Tea"
+      ],
+      "origin_state_ids": [
+        "madhya_pradesh"
+      ],
+      "associated_state_ids": [
+        "madhya_pradesh",
+        "uttarakhand",
+        "chandigarh",
+        "delhi",
+        "kerala"
+      ],
+      "regions": [
+        "Central",
+        "North",
+        "South"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "Masala Chai is a non-alcoholic drink experience associated with Madhya Pradesh.",
+      "tags": [
+        "tea",
+        "madhya_pradesh",
+        "uttarakhand",
+        "chandigarh",
+        "delhi",
+        "non_alcoholic",
+        "kerala"
+      ],
+      "image_asset": "assets/images/drinks/exp_madhya_pradesh_masala_chai.webp",
+      "legacy_ids": [
+        "exp_madhya_pradesh_masala_chai",
+        "exp_uttarakhand_masala_chai_in_the_hills",
+        "exp_chandigarh_masala_chai",
+        "exp_delhi_masala_chai"
+      ],
+      "source_refs": [
+        "https://www.keralatourism.org/faq/what-is-the-masala-tea-of-kerala"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_meghalaya_meghalaya_red_tea",
+      "name": "Meghalaya Red Tea",
+      "aliases": [],
+      "origin_state_ids": [
+        "meghalaya"
+      ],
+      "associated_state_ids": [
+        "meghalaya"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic tea served with local snacks in Meghalaya.",
+      "tags": [
+        "tea",
+        "meghalaya",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_meghalaya_meghalaya_red_tea.webp",
+      "legacy_ids": [
+        "exp_meghalaya_meghalaya_red_tea"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_mizoram_mizoram_coffee",
+      "name": "Mizoram Coffee",
+      "aliases": [],
+      "origin_state_ids": [
+        "mizoram"
+      ],
+      "associated_state_ids": [
+        "mizoram"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "drink_type": "coffee",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic brew made from coffee grown in Mizoram.",
+      "tags": [
+        "coffee",
+        "mizoram",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_mizoram_mizoram_coffee.webp",
+      "legacy_ids": [
+        "exp_mizoram_mizoram_coffee"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_nagaland_mon_tea",
+      "name": "Mon Tea",
+      "aliases": [],
+      "origin_state_ids": [
+        "nagaland"
+      ],
+      "associated_state_ids": [
+        "nagaland"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic infusion of tea grown in Nagaland's Mon district.",
+      "tags": [
+        "tea",
+        "nagaland",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_nagaland_mon_tea.webp",
+      "legacy_ids": [
+        "exp_nagaland_mon_tea"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK020",
+      "name": "Nellikayi Tambuli",
+      "aliases": [
+        "Amla Tambuli",
+        "Vonagiru Nellikayi Tambuli"
+      ],
+      "origin_state_ids": [
+        "karnataka"
+      ],
+      "associated_state_ids": [
+        "karnataka"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "herbal_medicinal",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A Malnad cooler made with dried amla and fresh coconut.",
+      "tags": [
+        "herbal_medicinal",
+        "karnataka",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK020.webp",
+      "legacy_ids": [
+        "DRK020"
+      ],
+      "source_refs": [
+        "https://karnatakatourism.org/wp-content/uploads/2020/05/Karnataka-Cuisine.pdf"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_manipur_nillai_tea",
+      "name": "Nillai Tea",
+      "aliases": [],
+      "origin_state_ids": [
+        "manipur"
+      ],
+      "associated_state_ids": [
+        "manipur"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic infusion of tea associated with Nillai near Ukhrul.",
+      "tags": [
+        "tea",
+        "manipur",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_manipur_nillai_tea.webp",
+      "legacy_ids": [
+        "exp_manipur_nillai_tea"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_jammu_kashmir_noon_chai",
+      "name": "Noon Chai",
+      "aliases": [],
+      "origin_state_ids": [
+        "jammu_kashmir"
+      ],
+      "associated_state_ids": [
+        "jammu_kashmir"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "Noon chai is a salty pink tea traditionally consumed in Kashmir.",
+      "tags": [
+        "tea",
+        "non_alcoholic",
+        "jammu_kashmir"
+      ],
+      "image_asset": "assets/images/drinks/exp_jammu_kashmir_noon_chai.webp",
+      "legacy_ids": [
+        "exp_jammu_kashmir_noon_chai"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK008",
+      "name": "Paazha Sharbat",
+      "aliases": [
+        "Pazha Sharbat"
+      ],
+      "origin_state_ids": [
+        "tamil_nadu"
+      ],
+      "associated_state_ids": [
+        "tamil_nadu"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "juice",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A mixed-fruit refresher associated with the food stalls of Kanniyakumari.",
+      "tags": [
+        "juice",
+        "non_alcoholic",
+        "tamil_nadu"
+      ],
+      "image_asset": "assets/images/drinks/DRK008.webp",
+      "legacy_ids": [
+        "DRK008"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/tamil-nadu/kanniyakumari"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK013",
+      "name": "Panakam",
+      "aliases": [
+        "Panagam",
+        "Panaka"
+      ],
+      "origin_state_ids": [
+        "telangana"
+      ],
+      "associated_state_ids": [
+        "telangana"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A jaggery-water drink seasoned with spices and served in festive traditions around Medak.",
+      "tags": [
+        "sherbet_cooler",
+        "telangana",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK013.webp",
+      "legacy_ids": [
+        "DRK013"
+      ],
+      "source_refs": [
+        "https://censusindia.gov.in/nada/index.php/catalog/30151/download/33332/22182_1961_MED.pdf"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK014",
+      "name": "Panchasaara Panna",
+      "aliases": [
+        "Panchasara Panna"
+      ],
+      "origin_state_ids": [
+        "kerala"
+      ],
+      "associated_state_ids": [
+        "kerala"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "herbal_medicinal",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "An Ayurvedic cooling syrup drink prepared with fruits and aromatic spices.",
+      "tags": [
+        "herbal_medicinal",
+        "kerala",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK014.webp",
+      "legacy_ids": [
+        "DRK014"
+      ],
+      "source_refs": [
+        "https://health.kerala.gov.in/wellnessdetail/Stay_Cool_and_Balanced_Through_Ayurveda/eyJpdiI6IkRVek5ZZUFyWDIvQ1ZJVDhKL0NFTEE9PSIsInZhbHVlIjoiRy82NG96WmFneEx0NU03WlFxT2NFQT09IiwibWFjIjoiZjRhYWY4MGU2MDRhOTJlYzI4OWUwODljMDBmNzU4NjQwZWQ0NTk5MTE2NzlhMjc2N2Q0ODBjYjM5OTU3MmNlMSIsInRhZyI6IiJ9/eyJpdiI6IkdtZXMxRnE4YjZ1WTl2ajA3NCtZNGc9PSIsInZhbHVlIjoiS1ZRektnWjdYZXEzMDIxeU91c0wxdz09IiwibWFjIjoiYjlhMmIyYTFiMWJjZDZjZDZlMTM0N2VlNWE3NWU4YWU0M2FhMDZiOTY0ZjdhZmNhNTBhNGExMGNlMDhjMzU2MCIsInRhZyI6IiJ9"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK007",
+      "name": "Pineapple Sharbat",
+      "aliases": [],
+      "origin_state_ids": [
+        "maharashtra"
+      ],
+      "associated_state_ids": [
+        "maharashtra"
+      ],
+      "regions": [
+        "West"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A Nashik speciality layering pineapple concentrate, pineapple milkshake and pineapple ice cream.",
+      "tags": [
+        "sherbet_cooler",
+        "non_alcoholic",
+        "maharashtra"
+      ],
+      "image_asset": "assets/images/drinks/DRK007.webp",
+      "legacy_ids": [
+        "DRK007"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/maharashtra/nashik/food-guide"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_maharashtra_piyush",
+      "name": "Piyush",
+      "aliases": [],
+      "origin_state_ids": [
+        "maharashtra"
+      ],
+      "associated_state_ids": [
+        "maharashtra"
+      ],
+      "regions": [
+        "West"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Piyush is a non-alcoholic drink experience associated with Maharashtra.",
+      "tags": [
+        "dairy",
+        "maharashtra",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_maharashtra_piyush.webp",
+      "legacy_ids": [
+        "exp_maharashtra_piyush"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK017",
+      "name": "Puliyanam",
+      "aliases": [],
+      "origin_state_ids": [
+        "tamil_nadu"
+      ],
+      "associated_state_ids": [
+        "tamil_nadu"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "other",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A cold coconut-milk beverage from Tamil Sahibu cuisine.",
+      "tags": [
+        "other",
+        "tamil_nadu",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK017.webp",
+      "legacy_ids": [
+        "DRK017"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/tamil-nadu/chennai/a-foodies-guide-to-trying-local"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_chandigarh_punjabi_lassi",
+      "name": "Punjabi Lassi",
+      "aliases": [],
+      "origin_state_ids": [
+        "chandigarh"
+      ],
+      "associated_state_ids": [
+        "chandigarh"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Thick sweet or salted lassi reflects Chandigarh's strong Punjabi food culture.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "chandigarh"
+      ],
+      "image_asset": "assets/images/drinks/exp_chandigarh_punjabi_lassi.webp",
+      "legacy_ids": [
+        "exp_chandigarh_punjabi_lassi"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_punjab_punjabi_sweet_lassi",
+      "name": "Punjabi Sweet Lassi",
+      "aliases": [],
+      "origin_state_ids": [
+        "punjab"
+      ],
+      "associated_state_ids": [
+        "punjab"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Sweet lassi is a thick yoghurt drink strongly associated with Punjab's dairy-rich food culture.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "punjab"
+      ],
+      "image_asset": "assets/images/drinks/exp_punjab_punjabi_sweet_lassi.webp",
+      "legacy_ids": [
+        "exp_punjab_punjabi_sweet_lassi"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK012",
+      "name": "Ragi Ambali",
+      "aliases": [
+        "Raagi Ambali",
+        "Finger Millet Malt"
+      ],
+      "origin_state_ids": [
+        "karnataka"
+      ],
+      "associated_state_ids": [
+        "karnataka"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "grain_pulse",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "A traditional Karnataka finger-millet malt, especially associated with the state's northern region.",
+      "tags": [
+        "grain_pulse",
+        "karnataka",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK012.webp",
+      "legacy_ids": [
+        "DRK012"
+      ],
+      "source_refs": [
+        "https://old.karnatakatourism.org/tour-item/cuisines/"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_himachal_pradesh_rhododendron_squash",
+      "name": "Rhododendron Squash",
+      "aliases": [],
+      "origin_state_ids": [
+        "himachal_pradesh"
+      ],
+      "associated_state_ids": [
+        "himachal_pradesh"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "herbal_medicinal",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Rhododendron-flower drinks are prepared in parts of the western Himalaya, including Himachal.",
+      "tags": [
+        "herbal_medicinal",
+        "non_alcoholic",
+        "himachal_pradesh"
+      ],
+      "image_asset": "assets/images/drinks/exp_himachal_pradesh_rhododendron_squash.webp",
+      "legacy_ids": [
+        "exp_himachal_pradesh_rhododendron_squash"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_chhattisgarh_rice_kanji",
+      "name": "Rice Kanji",
+      "aliases": [],
+      "origin_state_ids": [
+        "chhattisgarh"
+      ],
+      "associated_state_ids": [
+        "chhattisgarh"
+      ],
+      "regions": [
+        "Central"
+      ],
+      "drink_type": "grain_pulse",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Rice Kanji is a non-alcoholic drink experience associated with Chhattisgarh.",
+      "tags": [
+        "grain_pulse",
+        "chhattisgarh",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_chhattisgarh_rice_kanji.webp",
+      "legacy_ids": [
+        "exp_chhattisgarh_rice_kanji"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK015",
+      "name": "Rose Sharbat",
+      "aliases": [
+        "Rose Sherbet"
+      ],
+      "origin_state_ids": [
+        "kerala"
+      ],
+      "associated_state_ids": [
+        "kerala"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A rose-based cooling sharbat recommended as a refreshing Kerala summer drink.",
+      "tags": [
+        "sherbet_cooler",
+        "kerala",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK015.webp",
+      "legacy_ids": [
+        "DRK015"
+      ],
+      "source_refs": [
+        "https://health.kerala.gov.in/wellnessdetail/Stay_Cool_and_Balanced_Through_Ayurveda/eyJpdiI6IkRVek5ZZUFyWDIvQ1ZJVDhKL0NFTEE9PSIsInZhbHVlIjoiRy82NG96WmFneEx0NU03WlFxT2NFQT09IiwibWFjIjoiZjRhYWY4MGU2MDRhOTJlYzI4OWUwODljMDBmNzU4NjQwZWQ0NTk5MTE2NzlhMjc2N2Q0ODBjYjM5OTU3MmNlMSIsInRhZyI6IiJ9/eyJpdiI6IkdtZXMxRnE4YjZ1WTl2ajA3NCtZNGc9PSIsInZhbHVlIjoiS1ZRektnWjdYZXEzMDIxeU91c0wxdz09IiwibWFjIjoiYjlhMmIyYTFiMWJjZDZjZDZlMTM0N2VlNWE3NWU4YWU0M2FhMDZiOTY0ZjdhZmNhNTBhNGExMGNlMDhjMzU2MCIsInRhZyI6IiJ9"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_punjab_salted_lassi",
+      "name": "Salted Lassi",
+      "aliases": [],
+      "origin_state_ids": [
+        "punjab"
+      ],
+      "associated_state_ids": [
+        "punjab"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Salted lassi is a savoury yoghurt drink commonly served with Punjabi meals.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "punjab"
+      ],
+      "image_asset": "assets/images/drinks/exp_punjab_salted_lassi.webp",
+      "legacy_ids": [
+        "exp_punjab_salted_lassi"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_bihar_sattu_sharbat",
+      "name": "Sattu Sharbat",
+      "aliases": [
+        "Sattu Drink"
+      ],
+      "origin_state_ids": [
+        "bihar"
+      ],
+      "associated_state_ids": [
+        "bihar",
+        "jharkhand"
+      ],
+      "regions": [
+        "East"
+      ],
+      "drink_type": "grain_pulse",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "A roasted gram drink served in sweet or savoury versions.",
+      "tags": [
+        "grain_pulse",
+        "non_alcoholic",
+        "bihar",
+        "jharkhand"
+      ],
+      "image_asset": "assets/images/drinks/exp_bihar_sattu_sharbat.webp",
+      "legacy_ids": [
+        "exp_bihar_sattu_sharbat",
+        "exp_jharkhand_sattu_drink"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_ladakh_sea_buckthorn_juice",
+      "name": "Sea Buckthorn Juice",
+      "aliases": [],
+      "origin_state_ids": [
+        "ladakh"
+      ],
+      "associated_state_ids": [
+        "ladakh"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "juice",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Sea-buckthorn berries are processed into juices and other products in Ladakh.",
+      "tags": [
+        "juice",
+        "non_alcoholic",
+        "ladakh"
+      ],
+      "image_asset": "assets/images/drinks/exp_ladakh_sea_buckthorn_juice.webp",
+      "legacy_ids": [
+        "exp_ladakh_sea_buckthorn_juice"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_chandigarh_shikanji",
+      "name": "Shikanji",
+      "aliases": [],
+      "origin_state_ids": [
+        "chandigarh"
+      ],
+      "associated_state_ids": [
+        "chandigarh",
+        "delhi"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Shikanji is a spiced lemon drink popular during Chandigarh's hot months.",
+      "tags": [
+        "sherbet_cooler",
+        "non_alcoholic",
+        "chandigarh",
+        "delhi"
+      ],
+      "image_asset": "assets/images/drinks/exp_chandigarh_shikanji.webp",
+      "legacy_ids": [
+        "exp_chandigarh_shikanji",
+        "exp_delhi_shikanji"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK018",
+      "name": "Shunti Bellada Kashaya",
+      "aliases": [
+        "Ginger Jaggery Kashaya"
+      ],
+      "origin_state_ids": [
+        "karnataka"
+      ],
+      "associated_state_ids": [
+        "karnataka"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "herbal_medicinal",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A Malnad ginger-and-jaggery infusion spiced with pepper and cumin.",
+      "tags": [
+        "herbal_medicinal",
+        "karnataka",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK018.webp",
+      "legacy_ids": [
+        "DRK018"
+      ],
+      "source_refs": [
+        "https://karnatakatourism.org/wp-content/uploads/2020/05/Karnataka-Cuisine.pdf"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_goa_sol_kadhi",
+      "name": "Sol Kadhi",
+      "aliases": [],
+      "origin_state_ids": [
+        "goa"
+      ],
+      "associated_state_ids": [
+        "goa",
+        "karnataka"
+      ],
+      "regions": [
+        "West",
+        "South"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Sol Kadhi is a non-alcoholic drink experience associated with Goa.",
+      "tags": [
+        "sherbet_cooler",
+        "goa",
+        "non_alcoholic",
+        "karnataka"
+      ],
+      "image_asset": "assets/images/drinks/exp_goa_sol_kadhi.webp",
+      "legacy_ids": [
+        "exp_goa_sol_kadhi"
+      ],
+      "source_refs": [
+        "https://karnatakatourism.org/wp-content/uploads/2020/05/Karnataka-Cuisine.pdf"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK002",
+      "name": "South Indian Filter Coffee",
+      "aliases": [
+        "Degree Coffee"
+      ],
+      "origin_state_ids": [
+        "karnataka"
+      ],
+      "associated_state_ids": [
+        "karnataka",
+        "tamil_nadu",
+        "andhra_pradesh"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "coffee",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A strong coffee decoction mixed with hot milk and traditionally served in a tumbler and dabarah.",
+      "tags": [
+        "coffee",
+        "non_alcoholic",
+        "karnataka",
+        "tamil_nadu",
+        "andhra_pradesh"
+      ],
+      "image_asset": "assets/images/drinks/DRK002.webp",
+      "legacy_ids": [
+        "DRK002"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/karnataka/bengaluru/the-delectable-cuisine-of-karnataka-13-must-try-local-dishes-in-bengaluru",
+        "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/chennai/food-and-cuisine.html",
+        "https://www.incredibleindia.gov.in/en/andhra-pradesh/amaravati"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_madhya_pradesh_sugarcane_juice",
+      "name": "Sugarcane Juice",
+      "aliases": [],
+      "origin_state_ids": [
+        "madhya_pradesh"
+      ],
+      "associated_state_ids": [
+        "madhya_pradesh",
+        "maharashtra",
+        "kerala"
+      ],
+      "regions": [
+        "Central",
+        "West",
+        "South"
+      ],
+      "drink_type": "juice",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Sugarcane Juice is a non-alcoholic drink experience associated with Madhya Pradesh.",
+      "tags": [
+        "juice",
+        "madhya_pradesh",
+        "maharashtra",
+        "non_alcoholic",
+        "kerala"
+      ],
+      "image_asset": "assets/images/drinks/exp_madhya_pradesh_sugarcane_juice.webp",
+      "legacy_ids": [
+        "exp_madhya_pradesh_sugarcane_juice",
+        "exp_maharashtra_sugarcane_juice"
+      ],
+      "source_refs": [
+        "https://health.kerala.gov.in/wellnessdetail/Stay_Cool_and_Balanced_Through_Ayurveda/eyJpdiI6IkRVek5ZZUFyWDIvQ1ZJVDhKL0NFTEE9PSIsInZhbHVlIjoiRy82NG96WmFneEx0NU03WlFxT2NFQT09IiwibWFjIjoiZjRhYWY4MGU2MDRhOTJlYzI4OWUwODljMDBmNzU4NjQwZWQ0NTk5MTE2NzlhMjc2N2Q0ODBjYjM5OTU3MmNlMSIsInRhZyI6IiJ9/eyJpdiI6IkdtZXMxRnE4YjZ1WTl2ajA3NCtZNGc9PSIsInZhbHVlIjoiS1ZRektnWjdYZXEzMDIxeU91c0wxdz09IiwibWFjIjoiYjlhMmIyYTFiMWJjZDZjZDZlMTM0N2VlNWE3NWU4YWU0M2FhMDZiOTY0ZjdhZmNhNTBhNGExMGNlMDhjMzU2MCIsInRhZyI6IiJ9"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_kerala_sulaimani_tea",
+      "name": "Sulaimani Tea",
+      "aliases": [],
+      "origin_state_ids": [
+        "kerala"
+      ],
+      "associated_state_ids": [
+        "kerala"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic tea associated with Kerala's Malabar food culture.",
+      "tags": [
+        "tea",
+        "kerala",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_kerala_sulaimani_tea.webp",
+      "legacy_ids": [
+        "exp_kerala_sulaimani_tea"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_haryana_sweet_milk_with_gur",
+      "name": "Sweet Milk with Gur",
+      "aliases": [],
+      "origin_state_ids": [
+        "haryana"
+      ],
+      "associated_state_ids": [
+        "haryana"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "dairy",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "either",
+      "short_description": "Fresh milk sweetened with jaggery reflects the dairy and agrarian food culture of Haryana.",
+      "tags": [
+        "dairy",
+        "non_alcoholic",
+        "haryana"
+      ],
+      "image_asset": "assets/images/drinks/exp_haryana_sweet_milk_with_gur.webp",
+      "legacy_ids": [
+        "exp_haryana_sweet_milk_with_gur"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_sikkim_temi_tea",
+      "name": "Temi Tea",
+      "aliases": [],
+      "origin_state_ids": [
+        "sikkim"
+      ],
+      "associated_state_ids": [
+        "sikkim"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "Tea grown on the slopes of Sikkim's Temi estate.",
+      "tags": [
+        "tea",
+        "non_alcoholic",
+        "sikkim"
+      ],
+      "image_asset": "assets/images/drinks/exp_sikkim_temi_tea.webp",
+      "legacy_ids": [
+        "exp_sikkim_temi_tea"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_uttar_pradesh_thandai",
+      "name": "Thandai",
+      "aliases": [],
+      "origin_state_ids": [
+        "uttar_pradesh"
+      ],
+      "associated_state_ids": [
+        "uttar_pradesh"
+      ],
+      "regions": [
+        "North"
+      ],
+      "drink_type": "sherbet_cooler",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "cold",
+      "short_description": "Thandai is a chilled milk-based drink flavoured with nuts and spices and is associated with festive and summer drinking traditions in Uttar Pradesh.",
+      "tags": [
+        "sherbet_cooler",
+        "non_alcoholic",
+        "uttar_pradesh"
+      ],
+      "image_asset": "assets/images/drinks/exp_uttar_pradesh_thandai.webp",
+      "legacy_ids": [
+        "exp_uttar_pradesh_thandai"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "DRK021",
+      "name": "Thenga Paal",
+      "aliases": [
+        "Thengai Paal"
+      ],
+      "origin_state_ids": [
+        "tamil_nadu"
+      ],
+      "associated_state_ids": [
+        "tamil_nadu"
+      ],
+      "regions": [
+        "South"
+      ],
+      "drink_type": "other",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A sweet Kongunadu drink made with jaggery, coconut and cotton seeds.",
+      "tags": [
+        "other",
+        "tamil_nadu",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/DRK021.webp",
+      "legacy_ids": [
+        "DRK021"
+      ],
+      "source_refs": [
+        "https://www.incredibleindia.gov.in/en/tamil-nadu/chennai/a-foodies-guide-to-trying-local"
+      ],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_tripura_tripura_tea",
+      "name": "Tripura Tea",
+      "aliases": [],
+      "origin_state_ids": [
+        "tripura"
+      ],
+      "associated_state_ids": [
+        "tripura"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic brew from tea cultivated in Tripura.",
+      "tags": [
+        "tea",
+        "tripura",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_tripura_tripura_tea.webp",
+      "legacy_ids": [
+        "exp_tripura_tripura_tea"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    },
+    {
+      "id": "exp_arunachal_pradesh_wakro_green_tea",
+      "name": "Wakro Green Tea",
+      "aliases": [],
+      "origin_state_ids": [
+        "arunachal_pradesh"
+      ],
+      "associated_state_ids": [
+        "arunachal_pradesh"
+      ],
+      "regions": [
+        "Northeast"
+      ],
+      "drink_type": "tea",
+      "alcohol_content": "non_alcoholic",
+      "serving_style": "hot",
+      "short_description": "A non-alcoholic infusion of green tea grown in the Wakro area.",
+      "tags": [
+        "tea",
+        "arunachal_pradesh",
+        "non_alcoholic"
+      ],
+      "image_asset": "assets/images/drinks/exp_arunachal_pradesh_wakro_green_tea.webp",
+      "legacy_ids": [
+        "exp_arunachal_pradesh_wakro_green_tea"
+      ],
+      "source_refs": [],
+      "contains_cannabis": false
+    }
+  ]
+}

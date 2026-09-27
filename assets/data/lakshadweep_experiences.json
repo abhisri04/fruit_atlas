@@ -79,19 +79,6 @@
       "status": "active"
     },
     {
-      "id": "exp_lakshadweep_masmin",
-      "title": "Masmin",
-      "description": "A traditional processed tuna product associated with Lakshadweep.",
-      "type": "food",
-      "section": "Food & Drink",
-      "parent_location_id": "lakshadweep",
-      "category_id": "food_drink",
-      "keywords": [],
-      "state_id": "lakshadweep",
-      "state_name": "Lakshadweep",
-      "status": "active"
-    },
-    {
       "id": "exp_lakshadweep_minicoy_jahadhoni_boat_craft",
       "title": "Minicoy Jahadhoni Boat Craft",
       "description": "The craft of Minicoy's colourful traditional racing boats.",

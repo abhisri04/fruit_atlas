@@ -80,36 +80,37 @@
       "parent_section_id": "food_drink",
       "context_id": "meghalaya",
       "context_name": "Meghalaya",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_meghalaya_jadoh",
+        "exp_meghalaya_do_o_kappa",
         "exp_meghalaya_dohkhleh",
-        "exp_meghalaya_tungrymbai",
+        "DSH047",
+        "exp_meghalaya_jadoh",
+        "exp_meghalaya_nakham_bitchi",
+        "exp_meghalaya_pudoh",
         "exp_meghalaya_pukhlein",
         "exp_meghalaya_pumaloi",
-        "exp_meghalaya_pudoh",
-        "exp_meghalaya_nakham_bitchi",
-        "exp_meghalaya_do_o_kappa"
+        "exp_meghalaya_tungrymbai"
       ],
       "empty_message": "More Meghalaya dishes experiences are coming soon."
     },
     {
       "id": "meghalaya_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Meghalaya.",
+      "description": "Regional drinks associated with Meghalaya.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "meghalaya",
       "context_name": "Meghalaya",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
         "exp_meghalaya_meghalaya_red_tea"
       ],
-      "empty_message": "More Meghalaya drinks experiences are coming soon."
+      "empty_message": "More verified Meghalaya drinks are coming soon."
     },
     {
       "id": "meghalaya_arts_crafts",

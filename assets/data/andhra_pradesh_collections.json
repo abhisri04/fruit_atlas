@@ -80,34 +80,48 @@
       "parent_section_id": "food_drink",
       "context_id": "andhra_pradesh",
       "context_name": "Andhra Pradesh",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_andhra_pradesh_pesarattu",
-        "exp_andhra_pradesh_chepala_pulusu",
+        "exp_andhra_pradesh_andhra_chicken_pakodi",
         "exp_andhra_pradesh_andhra_kodi_kura",
+        "exp_andhra_pradesh_aviri_kudumu",
+        "exp_andhra_pradesh_bread_bajji",
+        "exp_andhra_pradesh_chepala_pulusu",
+        "exp_andhra_pradesh_dosakaya_pachadi",
+        "exp_andhra_pradesh_egg_65",
         "exp_andhra_pradesh_gongura_pachadi",
-        "exp_andhra_pradesh_tirupati_laddu",
-        "exp_andhra_pradesh_pootharekulu"
+        "exp_andhra_pradesh_kalakand",
+        "exp_andhra_pradesh_karam_podi",
+        "exp_andhra_pradesh_keema_dosa",
+        "exp_andhra_pradesh_mirchi_bajji",
+        "exp_andhra_pradesh_pesarattu",
+        "exp_andhra_pradesh_pootharekulu",
+        "exp_andhra_pradesh_potlam_biryani",
+        "exp_andhra_pradesh_pulusu",
+        "exp_maharashtra_puran_poli",
+        "exp_andhra_pradesh_tirupati_laddu"
       ],
       "empty_message": "More Andhra Pradesh dishes experiences are coming soon."
     },
     {
       "id": "andhra_pradesh_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Andhra Pradesh.",
+      "description": "Regional drinks associated with Andhra Pradesh.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "andhra_pradesh",
       "context_name": "Andhra Pradesh",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_andhra_pradesh_araku_coffee"
+        "exp_andhra_pradesh_araku_coffee",
+        "exp_gujarat_chaas",
+        "DRK002"
       ],
-      "empty_message": "More Andhra Pradesh drinks experiences are coming soon."
+      "empty_message": "More verified Andhra Pradesh drinks are coming soon."
     },
     {
       "id": "andhra_pradesh_arts_crafts",

@@ -94,38 +94,48 @@
       "parent_section_id": "food_drink",
       "context_id": "chandigarh",
       "context_name": "Chandigarh",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_chandigarh_chole_bhature",
+        "exp_chandigarh_aloo_paratha",
+        "exp_delhi_aloo_tikki",
         "exp_chandigarh_amritsari_kulcha_chandigarh_style",
-        "exp_chandigarh_paneer_tikka",
         "exp_chandigarh_butter_chicken",
-        "exp_chandigarh_rajma_chawal",
+        "exp_chandigarh_chole_bhature",
+        "exp_punjab_dal_makhani",
+        "exp_haryana_gajar_ka_halwa",
         "exp_chandigarh_gol_gappe",
-        "exp_chandigarh_tikki_chaat",
-        "exp_chandigarh_stuffed_paratha"
+        "exp_delhi_jalebi",
+        "exp_punjab_kadhi_pakora",
+        "exp_chandigarh_paneer_tikka",
+        "exp_chandigarh_papdi_chaat",
+        "exp_chandigarh_punjabi_kadhi",
+        "exp_chandigarh_rajma_chawal",
+        "exp_chandigarh_samosa",
+        "exp_chandigarh_stuffed_paratha",
+        "exp_punjab_tandoori_chicken",
+        "exp_chandigarh_tikki_chaat"
       ],
       "empty_message": "More Chandigarh dishes experiences are coming soon."
     },
     {
       "id": "chandigarh_drinks",
       "title": "Drinks",
-      "description": "Non-alcoholic drink experiences associated with Chandigarh.",
+      "description": "Regional drinks associated with Chandigarh.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "chandigarh",
       "context_name": "Chandigarh",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
+        "exp_madhya_pradesh_masala_chai",
         "exp_chandigarh_punjabi_lassi",
-        "exp_chandigarh_masala_chai",
         "exp_chandigarh_shikanji"
       ],
-      "empty_message": "More Chandigarh drinks experiences are coming soon."
+      "empty_message": "More verified Chandigarh drinks are coming soon."
     },
     {
       "id": "chandigarh_arts_crafts",

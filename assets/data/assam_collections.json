@@ -81,16 +81,26 @@
       "parent_section_id": "food_drink",
       "context_id": "assam",
       "context_name": "Assam",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_assam_khar",
-        "exp_assam_masor_tenga",
         "exp_assam_aloo_pitika",
         "exp_assam_assamese_jolpaan",
-        "exp_assam_til_pitha",
+        "exp_assam_assamese_pitha",
+        "exp_assam_doi_chira",
+        "exp_assam_duck_meat_curry",
         "exp_assam_ghila_pitha",
+        "exp_assam_haah_joha_kumura",
+        "exp_assam_hulasaporir_pitha",
+        "exp_assam_khar",
+        "exp_assam_lai_xaak_gahori",
+        "exp_assam_masor_tenga",
+        "exp_assam_ou_khatta",
+        "exp_assam_paror_mangxo",
+        "exp_assam_patot_diya_maas",
+        "exp_assam_pork_with_bamboo_shoots_and_black_lentils",
+        "exp_assam_til_pitha",
         "exp_assam_tilor_laru"
       ],
       "empty_message": "More Assam dishes experiences are coming soon."
@@ -98,18 +108,18 @@
     {
       "id": "assam_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Assam.",
+      "description": "Regional drinks associated with Assam.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "assam",
       "context_name": "Assam",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
         "exp_assam_assam_tea"
       ],
-      "empty_message": "More Assam drinks experiences are coming soon."
+      "empty_message": "More verified Assam drinks are coming soon."
     },
     {
       "id": "assam_arts_crafts",

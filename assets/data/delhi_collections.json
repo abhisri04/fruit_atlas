@@ -106,43 +106,46 @@
       "parent_section_id": "food_drink",
       "context_id": "delhi",
       "context_name": "Delhi",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_delhi_delhi_chaat",
-        "exp_delhi_chole_bhature",
-        "exp_delhi_stuffed_paratha",
-        "exp_delhi_dahi_bhalla",
         "exp_delhi_aloo_tikki",
-        "exp_delhi_kebabs_of_old_delhi",
-        "exp_delhi_butter_chicken",
-        "exp_delhi_nihari",
-        "exp_delhi_jalebi",
+        "exp_punjab_amritsari_kulcha",
+        "exp_chandigarh_butter_chicken",
+        "exp_chandigarh_chole_bhature",
+        "exp_delhi_dahi_bhalla",
+        "exp_punjab_dal_makhani",
         "exp_delhi_daulat_ki_chaat",
+        "exp_delhi_delhi_chaat",
+        "exp_chandigarh_gol_gappe",
+        "exp_delhi_jalebi",
+        "exp_delhi_kebabs_of_old_delhi",
         "exp_delhi_kulfi_falooda",
-        "exp_delhi_ram_laddoo"
+        "exp_delhi_nihari",
+        "exp_delhi_ram_laddoo",
+        "exp_chandigarh_stuffed_paratha"
       ],
       "empty_message": "More Delhi dishes experiences are coming soon."
     },
     {
       "id": "delhi_drinks",
       "title": "Drinks",
-      "description": "Non-alcoholic drink experiences. Associated with Delhi.",
+      "description": "Regional drinks associated with Delhi.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "delhi",
       "context_name": "Delhi",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
+        "exp_delhi_badam_milk",
         "exp_delhi_delhi_lassi",
-        "exp_delhi_shikanji",
-        "exp_delhi_masala_chai",
-        "exp_delhi_badam_milk"
+        "exp_madhya_pradesh_masala_chai",
+        "exp_chandigarh_shikanji"
       ],
-      "empty_message": "More Delhi drinks experiences are coming soon."
+      "empty_message": "More verified Delhi drinks are coming soon."
     },
     {
       "id": "delhi_arts_crafts",

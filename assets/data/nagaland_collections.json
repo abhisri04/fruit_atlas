@@ -76,34 +76,40 @@
       "parent_section_id": "food_drink",
       "context_id": "nagaland",
       "context_name": "Nagaland",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_nagaland_smoked_pork_with_axone",
-        "exp_nagaland_amrusu",
-        "exp_nagaland_hinkejvu",
+        "exp_nagaland_aikibeye",
         "exp_nagaland_akini_chokibo",
+        "exp_nagaland_amrusu",
+        "exp_nagaland_bamboo_steamed_fish",
         "exp_nagaland_galho",
-        "exp_nagaland_bamboo_steamed_fish"
+        "exp_nagaland_hinkejvu",
+        "exp_himachal_pradesh_momos",
+        "exp_nagaland_naga_fried_fish",
+        "exp_nagaland_nap_naang",
+        "exp_nagaland_pork_momos",
+        "exp_nagaland_samuthu",
+        "exp_nagaland_smoked_pork_with_axone"
       ],
       "empty_message": "More Nagaland dishes experiences are coming soon."
     },
     {
       "id": "nagaland_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Nagaland.",
+      "description": "Regional drinks associated with Nagaland.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "nagaland",
       "context_name": "Nagaland",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
         "exp_nagaland_mon_tea"
       ],
-      "empty_message": "More Nagaland drinks experiences are coming soon."
+      "empty_message": "More verified Nagaland drinks are coming soon."
     },
     {
       "id": "nagaland_arts_crafts",

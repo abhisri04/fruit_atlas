@@ -126,7 +126,7 @@ void main() {
     expect(find.text('Region'), findsOneWidget);
     expect(find.text('Northwestern India'), findsOneWidget);
     expect(find.text('EXPLORE RAJASTHAN'), findsOneWidget);
-    expect(find.text('0 of 119'), findsOneWidget);
+    expect(find.text('0 of 105'), findsOneWidget);
 
     await tester.pageBack();
     await tester.pumpWidget(

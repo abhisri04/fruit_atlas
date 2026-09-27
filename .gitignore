@@ -46,3 +46,25 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Local research and one-off data preparation artifacts
+.tmp_*
+*.tmp
+**/__pycache__/
+
+# Fruit photo sourcing work products. Keep the reusable pipeline, approved
+# image assets, and canonical docs/image_sources/fruit_photo_manifest.csv.
+/download_*_fruit_photos.py
+/retry_*_fruit_photos.py
+/fruit_photo_*_audit.csv
+/fruit_photo_sources_*.csv
+/docs/image_sources/fruit_photo_batch_*_report.md
+/docs/image_sources/fruit_photo_candidates.csv
+/docs/image_sources/fruit_photo_curated_next_batch.csv
+/docs/image_sources/fruit_photo_review.html
+/docs/image_sources/fruit_photo_selections.json
+/docs/image_sources/fruit_photo_validation_report.md
+
+# One-time catalogue migration report; canonical datasets and source registers
+# remain versioned under assets/data and docs/data_sources.
+/docs/dish_catalogue_migration_report.md

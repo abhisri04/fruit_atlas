@@ -48,18 +48,22 @@ void main() {
       final cards = tester.widgetList<ChallengeCard>(
         find.byType(ChallengeCard),
       );
-      expect(cards.length, 4);
+      expect(cards.length, 5);
       expect(
         cards.map((card) => card.completedCount),
         containsAll(<int>[1, 1, 1, 0]),
       );
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 1)),
+      );
+      await tester.pump();
       await tester.tap(find.byTooltip('Search discovery'));
-      await tester.pumpAndSettle();
+      await tester.pump();
+      await tester.pump(const Duration(seconds: 1));
       expect(find.byType(DiscoverySearchPage), findsOneWidget);
       for (final query in ['Mango', 'Dashehari', 'Mangifera indica']) {
         await tester.enterText(find.byType(TextField), query);
         await tester.pump(const Duration(milliseconds: 300));
-        await tester.pumpAndSettle();
         await tester.scrollUntilVisible(
           find.widgetWithText(ListTile, 'Mango'),
           200,
@@ -76,25 +80,26 @@ void main() {
         tester.element(find.text('Mango')),
         alignment: .5,
       );
-      await tester.pumpAndSettle();
+      await tester.pump(const Duration(milliseconds: 300));
       await tester.tap(find.text('Mango'));
-      await tester.pumpAndSettle();
+      await tester.pump();
+      await tester.pump(const Duration(seconds: 1));
       expect(find.byType(FruitDetailsPage), findsOneWidget);
       await tester.pageBack();
-      await tester.pumpAndSettle();
+      await tester.pump();
+      await tester.pump(const Duration(seconds: 1));
       await tester.enterText(find.byType(TextField), 'not-a-fruit');
       await tester.pump(const Duration(milliseconds: 300));
-      await tester.pumpAndSettle();
       expect(find.text('No results found'), findsOneWidget);
       await tester.tap(find.byTooltip('Clear search'));
-      await tester.pumpAndSettle();
+      await tester.pump(const Duration(milliseconds: 300));
       expect(find.text('Explore categories and challenges'), findsOneWidget);
       await tester.pageBack();
-      await tester.pumpAndSettle();
+      await tester.pump();
+      await tester.pump(const Duration(seconds: 1));
       await tester.ensureVisible(find.byType(TextField));
       await tester.enterText(find.byType(TextField), 'Dashehari');
       await tester.pump(const Duration(milliseconds: 300));
-      await tester.pumpAndSettle();
       expect(find.text('Mango'), findsOneWidget);
       expect(tester.takeException(), isNull);
     },

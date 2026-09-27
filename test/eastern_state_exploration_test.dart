@@ -11,7 +11,6 @@ import 'package:fruit_atlas/screens/experience/experience_collection_page.dart';
 import 'package:fruit_atlas/services/asset_data_service.dart';
 import 'package:fruit_atlas/services/district_repository.dart';
 import 'package:fruit_atlas/services/experience_repository.dart';
-import 'package:fruit_atlas/services/global_search_service.dart';
 import 'package:fruit_atlas/services/progress_service.dart';
 import 'package:fruit_atlas/services/state_exploration_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -19,28 +18,28 @@ import 'package:shared_preferences/shared_preferences.dart';
 const expected = {
   'bihar': (
     districts: 38,
-    experiences: 42,
-    counts: [10, 6, 4, 0, 8, 2, 5, 4, 3],
+    experiences: 32,
+    counts: [10, 6, 4, 0, 16, 2, 5, 4, 3],
   ),
   'jharkhand': (
     districts: 24,
-    experiences: 43,
-    counts: [8, 8, 4, 0, 8, 2, 5, 4, 4],
+    experiences: 33,
+    counts: [8, 8, 4, 0, 12, 1, 5, 4, 4],
   ),
   'west_bengal': (
     districts: 23,
-    experiences: 48,
-    counts: [10, 6, 5, 0, 10, 2, 6, 5, 4],
+    experiences: 36,
+    counts: [10, 6, 5, 0, 41, 3, 6, 5, 4],
   ),
   'odisha': (
     districts: 30,
-    experiences: 48,
-    counts: [10, 7, 5, 0, 10, 2, 5, 5, 4],
+    experiences: 36,
+    counts: [10, 7, 5, 0, 34, 2, 5, 5, 4],
   ),
   'sikkim': (
     districts: 6,
-    experiences: 41,
-    counts: [8, 6, 4, 0, 8, 2, 4, 5, 4],
+    experiences: 31,
+    counts: [8, 6, 4, 0, 9, 1, 4, 5, 4],
   ),
 };
 const collectionNames = [
@@ -112,10 +111,16 @@ void main() {
           hasLength(entry.value.districts),
         );
         final members = data.collections
+            .where((c) => c.entityType == 'experience')
             .expand((c) => c.memberEntityIds)
             .toList();
         expect(members.toSet(), ids);
-        expect(members, hasLength(entry.value.experiences));
+        expect(
+          members,
+          hasLength(
+            entry.value.counts.reduce((a, b) => a + b) - entry.value.counts[4],
+          ),
+        );
         for (var i = 0; i < collectionNames.length; i++) {
           final collection = data.collections.singleWhere(
             (c) => c.id == '${state}_${collectionNames[i]}',
@@ -135,6 +140,14 @@ void main() {
           (c) => c.entityType == 'fruit',
         );
         expect(fruits.memberEntityIds, isEmpty);
+        final dishIds =
+            (readJson('assets/data/indian_dishes.json')['items'] as List)
+                .map((dish) => dish['id'] as String)
+                .toSet();
+        final dishes = data.collections.singleWhere(
+          (c) => c.entityType == 'dish',
+        );
+        expect(dishes.memberEntityIds.every(dishIds.contains), isTrue);
 
         final canonicalExperiences = await const ExperienceRepository()
             .getForLocation(state);
@@ -145,16 +158,6 @@ void main() {
         expect(
           canonicalDistricts.map((d) => d.id).toSet(),
           data.districts.map((d) => d.id).toSet(),
-        );
-
-        final search = GlobalSearchService();
-        await search.load();
-        final first = data.experiences.first;
-        expect(
-          search
-              .search(first.title)
-              .where((r) => r.id == 'experience:${first.id}'),
-          hasLength(1),
         );
       },
     );

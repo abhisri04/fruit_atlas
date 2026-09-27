@@ -131,19 +131,6 @@
       "status": "active"
     },
     {
-      "id": "exp_puducherry_kadugu_yerra",
-      "title": "Kadugu Yerra",
-      "description": "A Puducherry prawn curry flavoured with mustard and coconut milk.",
-      "type": "food",
-      "section": "Food & Drink",
-      "parent_location_id": "puducherry",
-      "category_id": "food_drink",
-      "keywords": [],
-      "state_id": "puducherry",
-      "state_name": "Puducherry",
-      "status": "active"
-    },
-    {
       "id": "exp_puducherry_villianur_terracotta",
       "title": "Villianur Terracotta",
       "description": "A local tradition of fired-clay sculpture and decorative work.",

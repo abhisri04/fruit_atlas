@@ -76,27 +76,38 @@
       "parent_section_id": "food_drink",
       "context_id": "dadra_nagar_haveli_daman_diu",
       "context_name": "Dadra and Nagar Haveli and Daman and Diu",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_dadra_nagar_haveli_daman_diu_daman_jetty_roll"
+        "exp_dadra_nagar_haveli_daman_diu_bajri_no_rotlo",
+        "exp_dadra_nagar_haveli_daman_diu_butter_garlic_tiger_prawns",
+        "exp_dadra_nagar_haveli_daman_diu_chicken_xacuti",
+        "exp_dadra_nagar_haveli_daman_diu_chilli_prawns",
+        "exp_dadra_nagar_haveli_daman_diu_chourico",
+        "exp_dadra_nagar_haveli_daman_diu_daman_jetty_roll",
+        "exp_dadra_nagar_haveli_daman_diu_doodh_pak",
+        "exp_dadra_nagar_haveli_daman_diu_gamthi_chicken",
+        "exp_dadra_nagar_haveli_daman_diu_kingfish_with_garlic_potatoes",
+        "exp_dadra_nagar_haveli_daman_diu_papri",
+        "exp_dadra_nagar_haveli_daman_diu_prawn_masala",
+        "exp_dadra_nagar_haveli_daman_diu_ubadiyu"
       ],
       "empty_message": "More Dadra and Nagar Haveli and Daman and Diu dishes experiences are coming soon."
     },
     {
       "id": "dadra_nagar_haveli_daman_diu_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Dadra and Nagar Haveli and Daman and Diu.",
+      "description": "Regional drinks associated with Dadra and Nagar Haveli and Daman and Diu.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "dadra_nagar_haveli_daman_diu",
       "context_name": "Dadra and Nagar Haveli and Daman and Diu",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [],
-      "empty_message": "No distinct, verified local drinks are listed yet."
+      "empty_message": "More verified Dadra and Nagar Haveli and Daman and Diu drinks are coming soon."
     },
     {
       "id": "dadra_nagar_haveli_daman_diu_arts_crafts",

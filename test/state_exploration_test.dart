@@ -40,16 +40,26 @@ void main() {
     final experiences =
         readJson('assets/data/rajasthan_experiences.json')['experiences']
             as List;
-    expect(experiences, hasLength(78));
-    expect(experiences.map((item) => item['id']).toSet(), hasLength(78));
+    expect(experiences, hasLength(64));
+    expect(experiences.map((item) => item['id']).toSet(), hasLength(64));
     expect(experiences.map((item) => item['section']).toSet(), {
       'Places',
       'Things to Do',
-      'Food & Drink',
       'Culture',
     });
     expect(
       experiences.every((item) => item['state_id'] == 'rajasthan'),
+      isTrue,
+    );
+    final dishes = (readJson('assets/data/indian_dishes.json')['items'] as List)
+        .where(
+          (dish) =>
+              (dish['associated_state_ids'] as List).contains('rajasthan'),
+        )
+        .toList();
+    expect(dishes, hasLength(14));
+    expect(
+      dishes.any((dish) => dish['id'] == 'exp_rajasthan_dal_baati_churma'),
       isTrue,
     );
     expect(
@@ -58,7 +68,7 @@ void main() {
     );
     expect(
       experiences.any((item) => item['id'] == 'exp_rajasthan_dal_baati_churma'),
-      isTrue,
+      isFalse,
     );
   });
 
@@ -131,7 +141,7 @@ void main() {
 
     expect(find.text('Mark as Visited'), findsOneWidget);
     expect(find.text('EXPLORE RAJASTHAN'), findsOneWidget);
-    expect(find.text('1 of 119'), findsOneWidget);
+    expect(find.text('0 of 105'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('Places'),
       180,
@@ -240,6 +250,6 @@ void main() {
     );
     await tester.pumpAndSettle();
     expect(find.text('Experiences completed'), findsOneWidget);
-    expect(find.text('2'), findsWidgets);
+    expect(find.text('1'), findsWidgets);
   });
 }

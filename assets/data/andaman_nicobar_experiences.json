@@ -131,19 +131,6 @@
       "status": "active"
     },
     {
-      "id": "exp_andaman_nicobar_andaman_prawn_curry",
-      "title": "Andaman Prawn Curry",
-      "description": "A local seafood preparation featuring prawns in a spiced curry.",
-      "type": "food",
-      "section": "Food & Drink",
-      "parent_location_id": "andaman_nicobar",
-      "category_id": "food_drink",
-      "keywords": [],
-      "state_id": "andaman_nicobar",
-      "state_name": "Andaman and Nicobar Islands",
-      "status": "active"
-    },
-    {
       "id": "exp_andaman_nicobar_nicobari_hodi_craft",
       "title": "Nicobari Hodi Craft",
       "description": "Traditional outrigger-canoe craftsmanship, represented through public cultural displays.",

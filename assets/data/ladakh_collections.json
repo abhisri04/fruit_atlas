@@ -106,18 +106,23 @@
       "parent_section_id": "food_drink",
       "context_id": "ladakh",
       "context_name": "Ladakh",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_ladakh_thukpa",
-        "exp_ladakh_momos",
-        "exp_ladakh_skyu",
+        "exp_ladakh_apricot_jam",
+        "exp_sikkim_chhurpi",
         "exp_ladakh_chutagi",
         "exp_ladakh_khambir",
-        "exp_ladakh_paba",
         "exp_ladakh_mokmok",
-        "exp_ladakh_apricot_jam",
+        "exp_himachal_pradesh_momos",
+        "exp_ladakh_mothuk",
+        "exp_ladakh_paba",
+        "exp_ladakh_skyu",
+        "exp_ladakh_thenthuk",
+        "exp_ladakh_thukpa",
+        "exp_ladakh_tingmo",
+        "exp_ladakh_tsampa",
         "exp_ladakh_walnut_and_apricot_dry_fruit_mix"
       ],
       "empty_message": "More Ladakh dishes experiences are coming soon."
@@ -125,20 +130,20 @@
     {
       "id": "ladakh_drinks",
       "title": "Drinks",
-      "description": "Non-alcoholic drink experiences associated with Ladakh.",
+      "description": "Regional drinks associated with Ladakh.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "ladakh",
       "context_name": "Ladakh",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_ladakh_gur_gur_cha",
         "exp_ladakh_apricot_juice",
+        "exp_himachal_pradesh_butter_tea",
         "exp_ladakh_sea_buckthorn_juice"
       ],
-      "empty_message": "More Ladakh drinks experiences are coming soon."
+      "empty_message": "More verified Ladakh drinks are coming soon."
     },
     {
       "id": "ladakh_arts_crafts",

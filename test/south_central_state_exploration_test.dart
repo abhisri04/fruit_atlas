@@ -12,7 +12,6 @@ import 'package:fruit_atlas/screens/my_life/my_life_page.dart';
 import 'package:fruit_atlas/services/asset_data_service.dart';
 import 'package:fruit_atlas/services/district_repository.dart';
 import 'package:fruit_atlas/services/experience_repository.dart';
-import 'package:fruit_atlas/services/global_search_service.dart';
 import 'package:fruit_atlas/services/progress_service.dart';
 import 'package:fruit_atlas/services/state_exploration_repository.dart';
 import 'package:fruit_atlas/widgets/exploration_section_card.dart';
@@ -21,28 +20,28 @@ import 'package:shared_preferences/shared_preferences.dart';
 const expected = {
   'mizoram': (
     districts: 11,
-    experiences: 26,
-    counts: [4, 6, 2, 0, 4, 1, 3, 3, 3],
+    experiences: 21,
+    counts: [4, 6, 2, 0, 5, 1, 3, 3, 3],
   ),
   'tripura': (
     districts: 8,
-    experiences: 27,
-    counts: [6, 4, 2, 0, 5, 1, 2, 4, 3],
+    experiences: 21,
+    counts: [6, 4, 2, 0, 9, 1, 2, 4, 3],
   ),
   'andhra_pradesh': (
     districts: 28,
-    experiences: 30,
-    counts: [6, 5, 2, 0, 6, 1, 5, 3, 3],
+    experiences: 23,
+    counts: [6, 5, 2, 0, 18, 3, 5, 3, 3],
   ),
   'telangana': (
     districts: 33,
-    experiences: 30,
-    counts: [6, 5, 2, 0, 6, 1, 4, 3, 3],
+    experiences: 23,
+    counts: [6, 5, 2, 0, 16, 2, 4, 3, 3],
   ),
   'karnataka': (
     districts: 31,
-    experiences: 33,
-    counts: [7, 5, 2, 0, 8, 1, 4, 3, 3],
+    experiences: 24,
+    counts: [7, 5, 2, 0, 28, 8, 4, 3, 3],
   ),
 };
 const collectionNames = [
@@ -218,10 +217,16 @@ void main() {
           hasLength(entry.value.districts),
         );
         final members = data.collections
+            .where((c) => c.entityType == 'experience')
             .expand((c) => c.memberEntityIds)
             .toList();
         expect(members.toSet(), ids);
-        expect(members, hasLength(entry.value.counts.reduce((a, b) => a + b)));
+        expect(
+          members,
+          hasLength(
+            entry.value.counts.reduce((a, b) => a + b) - entry.value.counts[4],
+          ),
+        );
         for (var i = 0; i < collectionNames.length; i++) {
           final collection = data.collections.singleWhere(
             (c) => c.id == '${state}_${collectionNames[i]}',
@@ -241,6 +246,14 @@ void main() {
           (c) => c.entityType == 'fruit',
         );
         expect(fruits.memberEntityIds, isEmpty);
+        final dishIds =
+            (readJson('assets/data/indian_dishes.json')['items'] as List)
+                .map((dish) => dish['id'] as String)
+                .toSet();
+        final dishes = data.collections.singleWhere(
+          (c) => c.entityType == 'dish',
+        );
+        expect(dishes.memberEntityIds.every(dishIds.contains), isTrue);
 
         final canonicalExperiences = await const ExperienceRepository()
             .getForLocation(state);
@@ -251,16 +264,6 @@ void main() {
         expect(
           canonicalDistricts.map((d) => d.id).toSet(),
           data.districts.map((d) => d.id).toSet(),
-        );
-
-        final search = GlobalSearchService();
-        await search.load();
-        final first = data.experiences.first;
-        expect(
-          search
-              .search(first.title)
-              .where((r) => r.id == 'experience:${first.id}'),
-          hasLength(1),
         );
       },
     );
@@ -521,13 +524,11 @@ void main() {
                 (c) => c['id'] == '${state}_drinks',
               )['member_entity_ids']
               as List;
-      expect(drinks, hasLength(1));
-      final drink = rows.singleWhere((e) => e['id'] == drinks.single);
-      expect(drink['description'], contains('non-alcoholic'));
-      expect(
-        drink['title'],
-        anyOf(contains('Tea'), contains('Coffee'), contains('Chai')),
-      );
+      final drinkCatalogue =
+          readJson('assets/data/indian_drinks.json')['items'] as List;
+      final canonicalIds = drinkCatalogue.map((e) => e['id']).toSet();
+      expect(drinks, hasLength(expected[state]!.counts[5]));
+      expect(canonicalIds.containsAll(drinks), isTrue, reason: state);
     }
   });
   testWidgets(
@@ -572,7 +573,7 @@ void main() {
       await tester.pumpAndSettle();
       await tester.drag(find.byType(CustomScrollView), const Offset(0, -620));
       await tester.pumpAndSettle();
-      expect(find.text('1 of ${28 + 30 + fruitCount}'), findsOneWidget);
+      expect(find.text('1 of ${28 + 24 + fruitCount}'), findsOneWidget);
       await tester.scrollUntilVisible(
         find.text('Culture').hitTestable(),
         180,

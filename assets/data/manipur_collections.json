@@ -82,33 +82,37 @@
       "parent_section_id": "food_drink",
       "context_id": "manipur",
       "context_name": "Manipur",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
+        "exp_manipur_chak_hao_kheer",
+        "exp_manipur_chamfoot",
+        "DSH045",
         "exp_manipur_eromba",
-        "exp_manipur_singju",
+        "exp_manipur_morok_metpa",
         "exp_manipur_nga_thongba",
         "exp_manipur_ooti",
-        "exp_manipur_paknam"
+        "exp_manipur_paknam",
+        "exp_manipur_singju"
       ],
       "empty_message": "More Manipur dishes experiences are coming soon."
     },
     {
       "id": "manipur_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Manipur.",
+      "description": "Regional drinks associated with Manipur.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "manipur",
       "context_name": "Manipur",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
         "exp_manipur_nillai_tea"
       ],
-      "empty_message": "More Manipur drinks experiences are coming soon."
+      "empty_message": "More verified Manipur drinks are coming soon."
     },
     {
       "id": "manipur_arts_crafts",

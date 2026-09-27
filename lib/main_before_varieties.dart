@@ -357,7 +357,7 @@ class _HomePageState extends State<HomePage> {
                 const SizedBox(height: 12),
 
                 DropdownButtonFormField<String>(
-                  value: selectedStateId,
+                  initialValue: selectedStateId,
                   decoration: InputDecoration(
                     labelText: 'Select State / UT',
                     border: OutlineInputBorder(

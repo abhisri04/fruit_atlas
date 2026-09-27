@@ -13,6 +13,31 @@ import 'package:fruit_atlas/widgets/fruit_image.dart';
 import 'package:fruit_atlas/widgets/search_result_tile.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+List<String> parseCsvLine(String line) {
+  final values = <String>[];
+  var field = StringBuffer();
+  var quoted = false;
+  for (var i = 0; i < line.length; i++) {
+    final character = line[i];
+    if (character == '"') {
+      if (quoted && i + 1 < line.length && line[i + 1] == '"') {
+        field.write('"');
+        i++;
+      } else {
+        quoted = !quoted;
+      }
+    } else if (character == ',' && !quoted) {
+      values.add(field.toString());
+      field = StringBuffer();
+    } else {
+      field.write(character);
+    }
+  }
+  if (quoted) throw const FormatException('Unterminated CSV field');
+  values.add(field.toString());
+  return values;
+}
+
 void main() {
   final raw = jsonDecode(
     File('assets/data/fruit_atlas_seed.json').readAsStringSync(),
@@ -124,6 +149,7 @@ void main() {
         .where((file) => file.path.toLowerCase().endsWith('.webp'))
         .map((file) => file.uri.pathSegments.last)
         .toSet();
+    expect(actualImages, hasLength(40));
     expect(
       actualImages.difference(
         fruits.map((fruit) => '${fruit.id}.webp').toSet(),
@@ -132,7 +158,7 @@ void main() {
     );
   });
 
-  test('photo manifest has exactly one unsourced row per active fruit', () {
+  test('photo manifest has one identity row per fruit and verified assets', () {
     final lines = File('docs/image_sources/fruit_photo_manifest.csv')
         .readAsLinesSync()
         .where((line) => line.isNotEmpty)
@@ -146,21 +172,48 @@ void main() {
       'commercial_use_verified,modification_allowed,verification_notes,'
       'source_file_sha256,asset_file_sha256,approval_status',
     );
-    final rows = lines.skip(1).map((line) => line.split(',')).toList();
+    final headers = parseCsvLine(lines.first);
+    final rows = lines.skip(1).map(parseCsvLine).toList();
     expect(rows.every((row) => row.length == 19), isTrue);
     expect(
       rows.map((row) => row[0]).toSet(),
       fruits.map((fruit) => fruit.id).toSet(),
     );
+    final sourceHashes = <String>{};
+    final assetHashes = <String>{};
     for (final row in rows) {
       final fruit = fruits.singleWhere((item) => item.id == row[0]);
-      expect(row.take(4).toList(), [
+      final cells = Map<String, String>.fromIterables(headers, row);
+      expect(row.take(4), [
         fruit.id,
         fruit.name,
         fruit.scientificName,
         fruit.imageAsset,
       ]);
-      expect(row.skip(4).every((cell) => cell.isEmpty), isTrue);
+      if (int.parse(fruit.id.substring(2)) <= 40) {
+        expect(cells['approval_status'], 'approved', reason: fruit.id);
+        for (final key in headers.skip(4)) {
+          expect(cells[key], isNotEmpty, reason: '${fruit.id}: $key');
+        }
+        expect(cells['commercial_use_verified'], 'true');
+        expect(cells['modification_allowed'], 'true');
+        expect(
+          cells['attribution_required'],
+          cells['license'] == 'CC BY 4.0' ? 'true' : 'false',
+        );
+        expect(cells['source_file_sha256'], matches(RegExp(r'^[a-f0-9]{64}$')));
+        expect(cells['asset_file_sha256'], matches(RegExp(r'^[a-f0-9]{64}$')));
+        expect(sourceHashes.add(cells['source_file_sha256']!), isTrue);
+        expect(assetHashes.add(cells['asset_file_sha256']!), isTrue);
+        final file = File(fruit.imageAsset);
+        expect(file.existsSync(), isTrue, reason: fruit.id);
+        final bytes = file.readAsBytesSync();
+        expect(bytes.length, greaterThan(12), reason: fruit.id);
+        expect(ascii.decode(bytes.sublist(0, 4)), 'RIFF');
+        expect(ascii.decode(bytes.sublist(8, 12)), 'WEBP');
+      } else {
+        expect(row.skip(4).every((cell) => cell.isEmpty), isTrue);
+      }
     }
   });
 
@@ -232,6 +285,21 @@ void main() {
   testWidgets('missing canonical image uses the shared fruit placeholder', (
     tester,
   ) async {
+    final durian = fruits.singleWhere((fruit) => fruit.id == 'FR041');
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(body: FruitImage(fruit: durian, width: 100, height: 100)),
+      ),
+    );
+    await tester.pumpAndSettle();
+    expect(find.byIcon(Icons.eco_outlined), findsOneWidget);
+    expect(find.byType(Image), findsNothing);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('approved canonical image renders through FruitImage', (
+    tester,
+  ) async {
     final mango = fruits.singleWhere((fruit) => fruit.id == 'FR001');
     await tester.pumpWidget(
       MaterialApp(
@@ -239,8 +307,23 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
-    expect(find.byIcon(Icons.eco_outlined), findsOneWidget);
-    expect(find.byType(Image), findsNothing);
+    expect(find.byType(Image), findsOneWidget);
+    expect(find.byIcon(Icons.eco_outlined), findsNothing);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('Batch 2 canonical image renders through FruitImage', (
+    tester,
+  ) async {
+    final karonda = fruits.singleWhere((fruit) => fruit.id == 'FR021');
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(body: FruitImage(fruit: karonda, width: 100, height: 100)),
+      ),
+    );
+    await tester.pumpAndSettle();
+    expect(find.byType(Image), findsOneWidget);
+    expect(find.byIcon(Icons.eco_outlined), findsNothing);
     expect(tester.takeException(), isNull);
   });
 

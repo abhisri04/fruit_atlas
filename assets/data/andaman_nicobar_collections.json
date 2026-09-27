@@ -77,27 +77,37 @@
       "parent_section_id": "food_drink",
       "context_id": "andaman_nicobar",
       "context_name": "Andaman and Nicobar Islands",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_andaman_nicobar_andaman_prawn_curry"
+        "exp_punjab_amritsari_kulcha",
+        "exp_andaman_nicobar_andaman_fish_curry",
+        "exp_andaman_nicobar_andaman_prawn_curry",
+        "exp_andaman_nicobar_bamboo_shoot_curry",
+        "exp_andaman_nicobar_barbecued_prawns",
+        "exp_andaman_nicobar_chilli_curry",
+        "exp_andaman_nicobar_cutlet_samosa",
+        "exp_andaman_nicobar_grilled_lobster",
+        "exp_andaman_nicobar_nicobari_chicken",
+        "exp_andaman_nicobar_squid_fry",
+        "exp_andaman_nicobar_tandoori_fish"
       ],
       "empty_message": "More Andaman and Nicobar Islands dishes experiences are coming soon."
     },
     {
       "id": "andaman_nicobar_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Andaman and Nicobar Islands.",
+      "description": "Regional drinks associated with Andaman and Nicobar Islands.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "andaman_nicobar",
       "context_name": "Andaman and Nicobar Islands",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [],
-      "empty_message": "No distinct, verified local drinks are listed yet."
+      "empty_message": "More verified Andaman and Nicobar Islands drinks are coming soon."
     },
     {
       "id": "andaman_nicobar_arts_crafts",

@@ -73,27 +73,32 @@
       "parent_section_id": "food_drink",
       "context_id": "lakshadweep",
       "context_name": "Lakshadweep",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_lakshadweep_masmin"
+        "exp_lakshadweep_batla_appam",
+        "exp_lakshadweep_fried_octopus",
+        "exp_lakshadweep_kilanji",
+        "exp_lakshadweep_maas_podichathu",
+        "exp_lakshadweep_masmin",
+        "exp_lakshadweep_mus_kavaab"
       ],
       "empty_message": "More Lakshadweep dishes experiences are coming soon."
     },
     {
       "id": "lakshadweep_drinks",
       "title": "Drinks",
-      "description": "Drinks associated with Lakshadweep.",
+      "description": "Regional drinks associated with Lakshadweep.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "lakshadweep",
       "context_name": "Lakshadweep",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [],
-      "empty_message": "No distinct, verified local drinks are listed yet."
+      "empty_message": "More verified Lakshadweep drinks are coming soon."
     },
     {
       "id": "lakshadweep_arts_crafts",

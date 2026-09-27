@@ -87,37 +87,40 @@
       "parent_section_id": "food_drink",
       "context_id": "jharkhand",
       "context_name": "Jharkhand",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_jharkhand_dhuska",
-        "exp_jharkhand_chilka_roti",
-        "exp_jharkhand_rugra_curry",
-        "exp_jharkhand_dal_pitha",
         "exp_jharkhand_arsa",
-        "exp_jharkhand_litti_chokha",
-        "exp_jharkhand_sattu_paratha",
-        "exp_jharkhand_kudrum_chutney"
+        "exp_bihar_chana_ghugni",
+        "exp_jharkhand_chilka_roti",
+        "exp_bihar_dal_pitha",
+        "exp_jharkhand_dhuska",
+        "exp_jharkhand_jharkhand_khaja",
+        "exp_jharkhand_kudrum_chutney",
+        "exp_bihar_litti_chokha",
+        "exp_west_bengal_phuchka",
+        "exp_jharkhand_rugra_curry",
+        "exp_jharkhand_samosa_and_kachori",
+        "exp_bihar_sattu_paratha"
       ],
       "empty_message": "More Jharkhand dishes experiences are coming soon."
     },
     {
       "id": "jharkhand_drinks",
       "title": "Drinks",
-      "description": "Drinks experiences associated with Jharkhand.",
+      "description": "Regional drinks associated with Jharkhand.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "jharkhand",
       "context_name": "Jharkhand",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_jharkhand_handia",
-        "exp_jharkhand_sattu_drink"
+        "exp_bihar_sattu_sharbat"
       ],
-      "empty_message": "More Jharkhand drinks experiences are coming soon."
+      "empty_message": "More verified Jharkhand drinks are coming soon."
     },
     {
       "id": "jharkhand_arts_crafts",

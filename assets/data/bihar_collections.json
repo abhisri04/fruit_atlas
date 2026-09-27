@@ -87,37 +87,45 @@
       "parent_section_id": "food_drink",
       "context_id": "bihar",
       "context_name": "Bihar",
-      "entity_type": "experience",
+      "entity_type": "dish",
       "sort_order": 2,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_bihar_litti_chokha",
-        "exp_bihar_dal_pitha",
-        "exp_bihar_thekua",
-        "exp_bihar_silao_khaja",
-        "exp_bihar_tilkut",
+        "exp_bihar_bharta",
+        "exp_bihar_bihari_khichdi",
+        "DSH012",
         "exp_bihar_chana_ghugni",
+        "exp_bihar_dahi_chura",
+        "exp_bihar_dal_pitha",
+        "exp_bihar_ghunt",
+        "exp_bihar_laung_lata",
+        "exp_bihar_litti_chokha",
+        "exp_bihar_maher",
+        "exp_bihar_makhana_kheer",
+        "exp_bihar_malpua",
         "exp_bihar_sattu_paratha",
-        "exp_bihar_malpua"
+        "exp_bihar_silao_khaja",
+        "exp_bihar_thekua",
+        "exp_bihar_tilkut"
       ],
       "empty_message": "More Bihar dishes experiences are coming soon."
     },
     {
       "id": "bihar_drinks",
       "title": "Drinks",
-      "description": "Drinks experiences associated with Bihar.",
+      "description": "Regional drinks associated with Bihar.",
       "icon": "drink",
       "parent_section_id": "food_drink",
       "context_id": "bihar",
       "context_name": "Bihar",
-      "entity_type": "experience",
+      "entity_type": "drink",
       "sort_order": 3,
       "completion_verb": "tried",
       "member_entity_ids": [
-        "exp_bihar_sattu_sharbat",
-        "exp_bihar_bel_sharbat"
+        "exp_bihar_bel_sharbat",
+        "exp_bihar_sattu_sharbat"
       ],
-      "empty_message": "More Bihar drinks experiences are coming soon."
+      "empty_message": "More verified Bihar drinks are coming soon."
     },
     {
       "id": "bihar_arts_crafts",
