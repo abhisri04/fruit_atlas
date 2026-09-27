@@ -59,7 +59,10 @@ void main() {
     final boundaryKey = GlobalKey();
     Future<void> capture(String name, Widget page) async {
       await tester.pumpWidget(RepaintBoundary(key: boundaryKey, child: page));
-      await tester.pumpAndSettle();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 1)),
+      );
+      await tester.pump();
       expect(tester.takeException(), isNull);
       final boundary =
           boundaryKey.currentContext!.findRenderObject()!

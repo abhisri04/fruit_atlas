@@ -51,14 +51,20 @@ void main() {
       );
 
       await tester.pumpWidget(const FruitAtlasApp());
-      await tester.pumpAndSettle();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 1)),
+      );
+      await tester.pump();
 
       final navigation = find.byType(NavigationBar);
       for (final section in ['Discover', 'Saved', 'My Life']) {
         await tester.tap(
           find.descendant(of: navigation, matching: find.text(section)),
         );
-        await tester.pumpAndSettle();
+        await tester.runAsync(
+          () => Future<void>.delayed(const Duration(seconds: 1)),
+        );
+        await tester.pump();
         expect(
           tester.widget<NavigationBar>(navigation).selectedIndex,
           isNot(0),

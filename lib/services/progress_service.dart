@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/fruit_identity.dart';
 import '../models/indian_dish.dart';
 import '../models/indian_drink.dart';
+import '../models/item_action_progress.dart';
 
 class ProgressService {
   static const String _categoryProgressPrefix = 'category_item_progress_v1_';

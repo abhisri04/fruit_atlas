@@ -118,7 +118,9 @@ void main() {
         expect(
           members,
           hasLength(
-            entry.value.counts.reduce((a, b) => a + b) - entry.value.counts[4],
+            entry.value.counts.reduce((a, b) => a + b) -
+                entry.value.counts[4] -
+                entry.value.counts[5],
           ),
         );
         for (var i = 0; i < collectionNames.length; i++) {

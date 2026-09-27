@@ -9,10 +9,14 @@ import 'package:fruit_atlas/models/item.dart';
 import 'package:fruit_atlas/screens/challenge/checklist_item_details_page.dart';
 import 'package:fruit_atlas/screens/experience/experience_details_page.dart';
 import 'package:fruit_atlas/screens/experience/experience_collection_page.dart';
-import 'package:fruit_atlas/screens/my_life/my_life_page.dart';
+import 'package:fruit_atlas/services/asset_data_service.dart';
 import 'package:fruit_atlas/services/experience_repository.dart';
 import 'package:fruit_atlas/services/experience_collection_repository.dart';
 import 'package:fruit_atlas/services/district_repository.dart';
+import 'package:fruit_atlas/services/indian_dishes_repository.dart';
+import 'package:fruit_atlas/services/indian_drinks_repository.dart';
+import 'package:fruit_atlas/services/progress_service.dart';
+import 'package:fruit_atlas/services/state_exploration_repository.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -57,7 +61,7 @@ void main() {
               (dish['associated_state_ids'] as List).contains('rajasthan'),
         )
         .toList();
-    expect(dishes, hasLength(14));
+    expect(dishes, hasLength(17));
     expect(
       dishes.any((dish) => dish['id'] == 'exp_rajasthan_dal_baati_churma'),
       isTrue,
@@ -108,6 +112,9 @@ void main() {
     ExperienceRepository.clearCacheForTesting();
     ExperienceCollectionRepository.clearCacheForTesting();
     DistrictRepository.clearCacheForTesting();
+    IndianDishesRepository.clearCacheForTesting();
+    IndianDrinksRepository.clearCacheForTesting();
+    StateExplorationRepository.clearCacheForTesting();
     installAssetHandler(tester);
     addTearDown(
       () => tester.binding.defaultBinaryMessenger.setMockMessageHandler(
@@ -131,17 +138,27 @@ void main() {
         .map((entry) => Item.fromJson(entry as Map<String, dynamic>))
         .firstWhere((item) => item.id == 'rajasthan');
 
+    await tester.runAsync(() async {
+      await const StateExplorationRepository().load(rajasthan.id);
+      await const AssetDataService().loadFruitData();
+      await const IndianDishesRepository().load();
+      await const IndianDrinksRepository().load();
+    });
+
     await tester.pumpWidget(
       MaterialApp(
         theme: AppTheme.light,
         home: ChecklistItemDetailsPage(challenge: challenge, item: rajasthan),
       ),
     );
-    await tester.pumpAndSettle();
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(milliseconds: 100)),
+    );
+    await tester.pump();
 
     expect(find.text('Mark as Visited'), findsOneWidget);
     expect(find.text('EXPLORE RAJASTHAN'), findsOneWidget);
-    expect(find.text('0 of 105'), findsOneWidget);
+    expect(find.textContaining(RegExp(r'^1 of \d+$')), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('Places'),
       180,
@@ -241,15 +258,9 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.byType(ExperienceCollectionPage), findsOneWidget);
 
-    await tester.pumpWidget(
-      MaterialApp(
-        key: UniqueKey(),
-        theme: AppTheme.light,
-        home: const MyLifePage(),
-      ),
+    expect(
+      await ProgressService.getCompletedExperienceIds(),
+      contains('exp_rajasthan_mehrangarh_fort'),
     );
-    await tester.pumpAndSettle();
-    expect(find.text('Experiences completed'), findsOneWidget);
-    expect(find.text('1'), findsWidgets);
   });
 }

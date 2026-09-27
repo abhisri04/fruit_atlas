@@ -1,4 +1,5 @@
-import 'indian_dish.dart' show ItemActionProgress;
+import 'india_location_registry.dart';
+import 'item_action_progress.dart';
 
 class DrinkCategory {
   final String id;
@@ -69,44 +70,7 @@ class IndianDrink {
     this.sourceRefs = const [],
   });
 
-  static const stateNames = <String, String>{
-    'andhra_pradesh': 'Andhra Pradesh',
-    'arunachal_pradesh': 'Arunachal Pradesh',
-    'assam': 'Assam',
-    'bihar': 'Bihar',
-    'chhattisgarh': 'Chhattisgarh',
-    'goa': 'Goa',
-    'gujarat': 'Gujarat',
-    'haryana': 'Haryana',
-    'himachal_pradesh': 'Himachal Pradesh',
-    'jharkhand': 'Jharkhand',
-    'karnataka': 'Karnataka',
-    'kerala': 'Kerala',
-    'madhya_pradesh': 'Madhya Pradesh',
-    'maharashtra': 'Maharashtra',
-    'manipur': 'Manipur',
-    'meghalaya': 'Meghalaya',
-    'mizoram': 'Mizoram',
-    'nagaland': 'Nagaland',
-    'odisha': 'Odisha',
-    'punjab': 'Punjab',
-    'rajasthan': 'Rajasthan',
-    'sikkim': 'Sikkim',
-    'tamil_nadu': 'Tamil Nadu',
-    'telangana': 'Telangana',
-    'tripura': 'Tripura',
-    'uttar_pradesh': 'Uttar Pradesh',
-    'uttarakhand': 'Uttarakhand',
-    'west_bengal': 'West Bengal',
-    'andaman_nicobar': 'Andaman and Nicobar Islands',
-    'chandigarh': 'Chandigarh',
-    'dadra_nagar_haveli_daman_diu': 'Dadra and Nagar Haveli and Daman and Diu',
-    'delhi': 'Delhi',
-    'jammu_kashmir': 'Jammu and Kashmir',
-    'ladakh': 'Ladakh',
-    'lakshadweep': 'Lakshadweep',
-    'puducherry': 'Puducherry',
-  };
+  static final stateNames = IndiaLocationRegistry.names;
 
   List<String> get states => associatedStateIds
       .map((id) => stateNames[id] ?? id)

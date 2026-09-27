@@ -52,47 +52,62 @@ void main() {
     );
     Future<void> show(Widget page) async {
       await tester.pumpWidget(MaterialApp(theme: AppTheme.light, home: page));
-      await tester.pumpAndSettle();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 2)),
+      );
+      await tester.pump();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 1)),
+      );
+      await tester.pump();
+    }
+
+    Future<void> settle() async {
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(milliseconds: 500)),
+      );
+      await tester.pump();
+      await tester.pump(const Duration(seconds: 1));
     }
 
     await show(GenericChecklistChallengePage(challenge: yoga));
     await tester.tap(find.text('Mountain Pose'));
-    await tester.pumpAndSettle();
+    await settle();
     await tester.tap(find.widgetWithText(FilledButton, 'Mark as Completed'));
-    await tester.pumpAndSettle();
+    await settle();
     await tester.pageBack();
-    await tester.pumpAndSettle();
+    await settle();
     final prefs = await SharedPreferences.getInstance();
     expect(prefs.getStringList('completed_yoga_pose_ids'), ['mountain_pose']);
     await tester.tap(find.byTooltip('Save challenge'));
-    await tester.pumpAndSettle();
+    await settle();
     expect(prefs.getStringList('saved_challenge_ids'), [yoga.id]);
     await show(const SavedPage());
     expect(find.text('1 of 132 explored'), findsOneWidget);
     await tester.tap(find.text(yoga.name));
-    await tester.pumpAndSettle();
+    await settle();
     await tester.tap(find.text('Mountain Pose'));
-    await tester.pumpAndSettle();
+    await settle();
     expect(find.widgetWithText(FilledButton, 'Completed'), findsOneWidget);
     await tester.pageBack();
-    await tester.pumpAndSettle();
+    await settle();
     await tester.pageBack();
-    await tester.pumpAndSettle();
+    await settle();
     await tester.tap(find.byTooltip('Remove from Saved'));
-    await tester.pumpAndSettle();
+    await settle();
     expect(prefs.getStringList('saved_challenge_ids'), isEmpty);
     expect(find.text('Keep your next adventure close'), findsOneWidget);
     await show(JyotirlingaChallengePage(challenge: temple));
     await tester.scrollUntilVisible(find.byType(Image), 200);
-    await tester.pumpAndSettle();
+    await settle();
     expect(find.byType(Image), findsOneWidget);
     await tester.scrollUntilVisible(
       find.widgetWithText(ChoiceChip, 'List'),
       -180,
     );
-    await tester.pumpAndSettle();
+    await settle();
     await tester.tap(find.widgetWithText(ChoiceChip, 'List'));
-    await tester.pumpAndSettle();
+    await settle();
     await tester.scrollUntilVisible(find.text('Kedarnath'), 200);
     await tester.pumpAndSettle();
     await tester.tap(find.byType(Checkbox).first);

@@ -8,6 +8,8 @@ import '../../services/asset_data_service.dart';
 import '../../services/district_repository.dart';
 import '../../services/experience_repository.dart';
 import '../../services/progress_service.dart';
+import '../../services/progress_summary_service.dart';
+import '../../services/indian_dishes_repository.dart';
 import '../../widgets/achievement_card.dart';
 import '../../widgets/progress_card.dart';
 import '../../widgets/empty_state.dart';
@@ -34,6 +36,9 @@ class _MyLifePageState extends State<MyLifePage> {
   List<({Challenge challenge, int count, int total})> checklistProgress = [];
   int experienceCount = 0;
   int districtCount = 0;
+  int dishTriedCount = 0;
+  int dishCookedCount = 0;
+  int drinkTriedCount = 0;
   List<Achievement> achievements = [];
 
   @override
@@ -56,25 +61,34 @@ class _MyLifePageState extends State<MyLifePage> {
           await ProgressService.getCompletedExperienceIds();
       final completedDistricts =
           await ProgressService.getCompletedDistrictIds();
-      final genericProgress = <({Challenge challenge, int count, int total})>[];
-      for (final challenge in challenges.where(
-        (challenge) =>
-            challenge.status == 'active' &&
-            challenge.dataAsset != null &&
-            challenge.itemType != 'indian_dish' &&
-            challenge.itemType != 'indian_drink',
-      )) {
-        final items = await dataService.loadChallengeItems(challenge);
-        final itemIds = items.map((item) => item.id).toSet();
-        final completedIds = await ProgressService.getChallengeItemIds(
-          challenge.progressKey,
-        );
-        genericProgress.add((
-          challenge: challenge,
-          count: completedIds.intersection(itemIds).length,
-          total: itemIds.length,
-        ));
-      }
+      final summary = await const ProgressSummaryService().load(
+        challenges: challenges,
+      );
+      final genericProgress = summary.challenges.values
+          .where(
+            (value) =>
+                value.challenge.itemType != 'fruit' &&
+                value.challenge.itemType != 'jyotirlinga',
+          )
+          .map(
+            (value) => (
+              challenge: value.challenge,
+              count: value.completed,
+              total: value.total,
+            ),
+          )
+          .toList();
+      final dishCatalogue = await const IndianDishesRepository().load();
+      final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
+      int dishMetric(String metric) => switch (metric) {
+        'tried_count' => summary.dishesTried,
+        'cooked_count' => summary.dishesCooked,
+        'unique_states_tried' => IndianDishesRepository.triedStateIds(
+          dishCatalogue.dishes,
+          dishProgress,
+        ).length,
+        _ => 0,
+      };
       final fruitIds = fruitData.fruits
           .map((fruit) => fruit.id)
           .where((id) => id.isNotEmpty)
@@ -111,11 +125,24 @@ class _MyLifePageState extends State<MyLifePage> {
         checklistProgress = genericProgress;
         experienceCount = validExperienceCount;
         districtCount = validDistrictCount;
+        dishTriedCount = summary.dishesTried;
+        dishCookedCount = summary.dishesCooked;
+        drinkTriedCount = summary.drinksTried;
         achievements = [
           ...Achievement.achievedFor('taste_fruits_of_india', validFruitCount),
           ...Achievement.achievedFor('visit_12_jyotirlingas', validSiteCount),
           for (final progress in genericProgress)
             ...Achievement.achievedFor(progress.challenge.id, progress.count),
+          for (final item in dishCatalogue.achievements)
+            if (dishMetric(item.metric) >= item.threshold)
+              Achievement(
+                id: item.id,
+                title: item.name,
+                description: item.description,
+                threshold: item.threshold,
+                challengeId: 'explore_indian_dishes',
+                iconIdentifier: 'food',
+              ),
           ...Achievement.achievedFor('all_experiences', validExperienceCount),
         ];
         isLoading = false;
@@ -187,6 +214,24 @@ class _MyLifePageState extends State<MyLifePage> {
                     runSpacing: 10,
                     children: [
                       _MetricCard(
+                        label: 'Indian dishes tried',
+                        value: '$dishTriedCount',
+                        icon: Icons.ramen_dining_outlined,
+                        accent: AppColors.orange,
+                      ),
+                      _MetricCard(
+                        label: 'Indian dishes cooked',
+                        value: '$dishCookedCount',
+                        icon: Icons.kitchen_outlined,
+                        accent: AppColors.orange,
+                      ),
+                      _MetricCard(
+                        label: 'Indian drinks tried',
+                        value: '$drinkTriedCount',
+                        icon: Icons.local_cafe_outlined,
+                        accent: AppColors.blue,
+                      ),
+                      _MetricCard(
                         label: 'Challenges started',
                         value: '$started',
                         icon: Icons.shield_outlined,
@@ -215,7 +260,11 @@ class _MyLifePageState extends State<MyLifePage> {
                         icon: Icons.temple_hindu_outlined,
                         accent: AppColors.blue,
                       ),
-                      for (final progress in checklistProgress)
+                      for (final progress in checklistProgress.where(
+                        (progress) =>
+                            progress.challenge.itemType != 'indian_dish' &&
+                            progress.challenge.itemType != 'indian_drink',
+                      ))
                         _MetricCard(
                           label:
                               progress.challenge.metricLabel ??

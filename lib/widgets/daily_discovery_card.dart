@@ -26,6 +26,10 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.fruit => Icons.eco_outlined,
     DailyDiscoveryType.variety => Icons.local_florist_outlined,
     DailyDiscoveryType.yogaPose => Icons.self_improvement_outlined,
+    DailyDiscoveryType.indianDish => Icons.ramen_dining_outlined,
+    DailyDiscoveryType.indianDrink => Icons.local_cafe_outlined,
+    DailyDiscoveryType.indiaLocation => Icons.map_outlined,
+    DailyDiscoveryType.jyotirlinga => Icons.temple_hindu_outlined,
     null => Icons.auto_awesome_outlined,
   };
 
@@ -36,6 +40,13 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.variety =>
       'Discover another variety to add to your fruit journey.',
     DailyDiscoveryType.yogaPose => _yogaSupportingCopy(),
+    DailyDiscoveryType.indianDish =>
+      'Discover a dish from India’s food traditions.',
+    DailyDiscoveryType.indianDrink =>
+      'Discover a drink from India’s regional traditions.',
+    DailyDiscoveryType.indiaLocation => 'Discover another part of India.',
+    DailyDiscoveryType.jyotirlinga =>
+      'Discover one of India’s twelve Jyotirlingas.',
   };
 
   String get compactMetadata => switch (discovery!.type) {
@@ -46,12 +57,20 @@ class DailyDiscoveryCard extends StatelessWidget {
       discovery!.yogaPose?.difficulty,
       discovery!.yogaPose?.category,
     ].whereType<String>().join(' · '),
+    DailyDiscoveryType.indianDish => 'Indian dish',
+    DailyDiscoveryType.indianDrink => 'Indian drink',
+    DailyDiscoveryType.indiaLocation => 'State or Union Territory',
+    DailyDiscoveryType.jyotirlinga => 'Jyotirlinga',
   };
 
   String get primaryAction => switch (discovery!.type) {
     DailyDiscoveryType.fruit => 'Explore this fruit →',
     DailyDiscoveryType.variety => 'Explore this variety →',
     DailyDiscoveryType.yogaPose => 'Try this pose →',
+    DailyDiscoveryType.indianDish => 'Explore this dish →',
+    DailyDiscoveryType.indianDrink => 'Explore this drink →',
+    DailyDiscoveryType.indiaLocation => 'Explore this place →',
+    DailyDiscoveryType.jyotirlinga => 'Explore this Jyotirlinga →',
   };
 
   String _yogaSupportingCopy() {

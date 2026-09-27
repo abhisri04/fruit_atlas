@@ -156,7 +156,10 @@ void main() {
     await tester.pumpWidget(
       MaterialApp(theme: AppTheme.light, home: const MyLifePage()),
     );
-    await tester.pumpAndSettle();
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(seconds: 1)),
+    );
+    await tester.pump();
     expect(find.text('States & UTs explored'), findsOneWidget);
     await tester.scrollUntilVisible(
       find.text('1 of 36 states and UTs explored'),

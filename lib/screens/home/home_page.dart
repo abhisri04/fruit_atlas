@@ -18,6 +18,7 @@ import '../../services/asset_data_service.dart';
 import '../../services/challenge_repository.dart';
 import '../../services/progress_service.dart';
 import '../../services/daily_discovery_service.dart';
+import '../../services/progress_summary_service.dart';
 import '../challenge/fruit_challenge_page.dart';
 import '../discover/discover_page.dart';
 import '../fruit/fruit_details_page.dart';
@@ -28,6 +29,11 @@ import '../../services/global_search_service.dart';
 import '../../navigation/search_navigation.dart';
 import '../../widgets/search_result_tile.dart';
 import '../../widgets/daily_discovery_card.dart';
+import '../../services/indian_dishes_repository.dart';
+import '../../services/indian_drinks_repository.dart';
+import '../dishes/indian_dishes_page.dart';
+import '../drinks/indian_drinks_page.dart';
+import '../jyotirlinga/jyotirlinga_details_page.dart';
 
 // HOME PAGE
 // ================================================================
@@ -52,6 +58,7 @@ class _HomePageState extends State<HomePage> {
   List<Challenge> challenges = [];
   Set<String> completedFruitIds = {};
   Map<String, ({int completed, int total})> challengeProgress = {};
+  int experiencesExplored = 0;
   DailyDiscovery? dailyDiscovery;
   bool isDailyDiscoveryLoading = true;
   bool isDailyDiscoverySaved = false;
@@ -122,44 +129,17 @@ class _HomePageState extends State<HomePage> {
       final loadedChallenges = await challengeRepository.loadChallenges();
       final completedIds = await ProgressService.getCompletedFruitIds();
 
-      final loadedProgress = <String, ({int completed, int total})>{};
-      for (final challenge in loadedChallenges.where(
-        (c) => c.status == 'active',
-      )) {
-        Set<String> validIds;
-        Set<String> savedIds;
-        if (challenge.itemType == 'fruit') {
-          validIds = fruitData.fruits
-              .map((fruit) => fruit.id.isEmpty ? fruit.name : fruit.id)
-              .toSet();
-          savedIds = completedIds;
-        } else if (challenge.itemType == 'indian_dish' ||
-            challenge.itemType == 'indian_drink') {
-          // The card loads catalogue progress independently so Home's primary
-          // fruit/state data remains fast and existing dashboard loading is
-          // not blocked by an additional catalogue.
-          continue;
-        } else if (challenge.itemType == 'jyotirlinga') {
-          validIds = (await assetDataService.loadJyotirlingas())
-              .map((site) => site.id)
-              .toSet();
-          savedIds = await ProgressService.getCompletedJyotirlingaIds();
-        } else {
-          validIds = (await assetDataService.loadChallengeItems(challenge))
-              .map((item) => item.id)
-              .toSet();
-          savedIds = await ProgressService.getChallengeItemIds(
-            challenge.progressKey,
-          );
-        }
-        loadedProgress[challenge.id] = (
-          completed: savedIds.intersection(validIds).length,
-          total: validIds.length,
-        );
-      }
+      final summary = await const ProgressSummaryService().load(
+        challenges: loadedChallenges,
+      );
+      final loadedProgress = summary.challenges.map(
+        (id, value) =>
+            MapEntry(id, (completed: value.completed, total: value.total)),
+      );
       if (!mounted) return;
       setState(() {
         challengeProgress = loadedProgress;
+        experiencesExplored = summary.experiencesExplored;
         errorMessage = null;
         fruits = fruitData.fruits;
         states = fruitData.states;
@@ -182,7 +162,7 @@ class _HomePageState extends State<HomePage> {
       final discovery = await dailyDiscoveryService.getToday();
       final saved = discovery == null
           ? false
-          : await ProgressService.isEntitySaved(discovery.reference);
+          : await _isDiscoverySaved(discovery);
       if (!mounted) return;
       setState(() {
         dailyDiscovery = discovery;
@@ -204,7 +184,7 @@ class _HomePageState extends State<HomePage> {
     final discovery = await dailyDiscoveryService.another();
     final saved = discovery == null
         ? false
-        : await ProgressService.isEntitySaved(discovery.reference);
+        : await _isDiscoverySaved(discovery);
     if (!mounted) return;
     setState(() {
       dailyDiscovery = discovery;
@@ -216,13 +196,52 @@ class _HomePageState extends State<HomePage> {
   Future<void> toggleDailyDiscoverySaved() async {
     final discovery = dailyDiscovery;
     if (discovery == null) return;
-    final saved = await ProgressService.toggleSavedEntity(discovery.reference);
+    final saved = switch (discovery.type) {
+      DailyDiscoveryType.indianDish =>
+        (await ProgressService.toggleCategoryItemAction(
+          categoryId: IndianDishesRepository.categoryId,
+          itemId: discovery.canonicalId,
+          action: 'want_to_try',
+        )).wantToTry,
+      DailyDiscoveryType.indianDrink =>
+        (await ProgressService.toggleCategoryItemAction(
+          categoryId: IndianDrinksRepository.categoryId,
+          itemId: discovery.canonicalId,
+          action: 'want_to_try',
+        )).wantToTry,
+      _ => await ProgressService.toggleSavedEntity(discovery.reference),
+    };
     if (mounted) setState(() => isDailyDiscoverySaved = saved);
+  }
+
+  Future<bool> _isDiscoverySaved(DailyDiscovery discovery) async {
+    if (discovery.type == DailyDiscoveryType.indianDish) {
+      final catalogue = await const IndianDishesRepository().load();
+      return (await ProgressService.getDishProgress(
+            catalogue,
+          ))[discovery.canonicalId]?.wantToTry ??
+          false;
+    }
+    if (discovery.type == DailyDiscoveryType.indianDrink) {
+      final catalogue = await const IndianDrinksRepository().load();
+      return (await ProgressService.getDrinkProgress(
+            catalogue,
+          ))[discovery.canonicalId]?.wantToTry ??
+          false;
+    }
+    return ProgressService.isEntitySaved(discovery.reference);
   }
 
   Future<void> openDailyDiscovery() async {
     final discovery = dailyDiscovery;
     if (discovery == null) return;
+    final dishCatalogue = discovery.type == DailyDiscoveryType.indianDish
+        ? await const IndianDishesRepository().load()
+        : null;
+    final drinkCatalogue = discovery.type == DailyDiscoveryType.indianDrink
+        ? await const IndianDrinksRepository().load()
+        : null;
+    if (!mounted) return;
     final page = switch (discovery.type) {
       DailyDiscoveryType.fruit => FruitDetailsPage(
         fruit: discovery.fruit!,
@@ -236,6 +255,24 @@ class _HomePageState extends State<HomePage> {
       DailyDiscoveryType.yogaPose => ChecklistItemDetailsPage(
         challenge: discovery.yogaChallenge!,
         item: discovery.yogaPose!,
+      ),
+      DailyDiscoveryType.indianDish => DishDetailPage(
+        catalogue: dishCatalogue!,
+        dishes: dishCatalogue.dishes,
+        initialIndex: dishCatalogue.dishes.indexWhere(
+          (dish) => dish.id == discovery.canonicalId,
+        ),
+      ),
+      DailyDiscoveryType.indianDrink => DrinkDetailPage(
+        catalogue: drinkCatalogue!,
+        drink: discovery.drink!,
+      ),
+      DailyDiscoveryType.indiaLocation => ChecklistItemDetailsPage(
+        challenge: discovery.locationChallenge!,
+        item: discovery.location!,
+      ),
+      DailyDiscoveryType.jyotirlinga => JyotirlingaDetailsPage(
+        site: discovery.jyotirlinga!,
       ),
     };
     await Navigator.push(context, MaterialPageRoute(builder: (_) => page));
@@ -684,7 +721,10 @@ class _HomePageState extends State<HomePage> {
                     'Explore',
                     Icons.explore,
                     AppColors.primary,
-                    () => setState(() => isShowingFruitExplorer = true),
+                    () => Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const DiscoverPage()),
+                    ),
                   ),
                   _quickAction(
                     'Challenges',
@@ -717,7 +757,7 @@ class _HomePageState extends State<HomePage> {
               ),
               const SizedBox(height: 20),
               Text(
-                '${challengeProgress.values.fold<int>(0, (sum, entry) => sum + entry.completed)} experiences explored',
+                '$experiencesExplored experiences explored',
                 style: const TextStyle(
                   color: AppColors.primary,
                   fontSize: 13,

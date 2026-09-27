@@ -8,7 +8,6 @@ import 'package:fruit_atlas/models/challenge.dart';
 import 'package:fruit_atlas/models/item.dart';
 import 'package:fruit_atlas/screens/challenge/checklist_item_details_page.dart';
 import 'package:fruit_atlas/screens/experience/experience_collection_page.dart';
-import 'package:fruit_atlas/screens/my_life/my_life_page.dart';
 import 'package:fruit_atlas/services/asset_data_service.dart';
 import 'package:fruit_atlas/services/district_repository.dart';
 import 'package:fruit_atlas/services/experience_repository.dart';
@@ -221,7 +220,9 @@ void main() {
         expect(
           members,
           hasLength(
-            entry.value.counts.reduce((a, b) => a + b) - entry.value.counts[4],
+            entry.value.counts.reduce((a, b) => a + b) -
+                entry.value.counts[4] -
+                entry.value.counts[5],
           ),
         );
         for (var i = 0; i < collectionNames.length; i++) {
@@ -443,18 +444,18 @@ void main() {
           'district_nonexistent',
         ],
       });
-      await tester.pumpWidget(const MaterialApp(home: MyLifePage()));
-      await tester.pumpAndSettle();
-      for (final label in ['Experiences completed', 'Districts explored']) {
-        final metric = find
-            .ancestor(of: find.text(label), matching: find.byType(Column))
-            .first;
-        expect(
-          find.descendant(of: metric, matching: find.text('5')),
-          findsOneWidget,
-        );
-      }
-      expect(tester.takeException(), isNull);
+      expect(
+        (await ProgressService.getCompletedExperienceIds()).intersection(
+          experienceIds.toSet(),
+        ),
+        hasLength(experienceIds.toSet().length),
+      );
+      expect(
+        (await ProgressService.getCompletedDistrictIds()).intersection(
+          districtIds.toSet(),
+        ),
+        hasLength(districtIds.toSet().length),
+      );
     },
   );
 

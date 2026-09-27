@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:fruit_atlas/models/indian_dish.dart';
+import 'package:fruit_atlas/models/item_action_progress.dart';
+import 'package:fruit_atlas/models/india_location_registry.dart';
 import 'package:fruit_atlas/screens/challenge/generic_checklist_challenge_page.dart';
 import 'package:fruit_atlas/screens/dishes/indian_dishes_page.dart';
 import 'package:fruit_atlas/services/indian_dishes_repository.dart';
@@ -287,9 +289,41 @@ void main() {
       expect(favourite.tried, isTrue);
 
       final plannedAfterTrying = favourite.toggle('want_to_try');
-      expect(plannedAfterTrying.wantToTry, isTrue);
+      expect(plannedAfterTrying.wantToTry, isFalse);
       expect(plannedAfterTrying.tried, isTrue);
     });
+
+    test(
+      'location registry and state-only dish progress are authoritative',
+      () {
+        expect(IndiaLocationRegistry.stateIds, hasLength(28));
+        expect(IndiaLocationRegistry.unionTerritoryIds, hasLength(8));
+        expect(IndiaLocationRegistry.allLocationIds, hasLength(36));
+        final selected = catalogue.dishes.where(
+          (dish) => dish.associatedStateIds.any(
+            {'delhi', 'chandigarh', 'rajasthan'}.contains,
+          ),
+        );
+        final progress = {
+          for (final dish in selected)
+            dish.id: const ItemActionProgress(tried: true),
+        };
+        final locations = IndianDishesRepository.triedLocationIds(
+          catalogue.dishes,
+          progress,
+        );
+        final states = IndianDishesRepository.triedStateIds(
+          catalogue.dishes,
+          progress,
+        );
+        expect(locations, containsAll({'delhi', 'chandigarh', 'rajasthan'}));
+        expect(states, contains('rajasthan'));
+        expect(states, isNot(contains('delhi')));
+        expect(states, isNot(contains('chandigarh')));
+        expect(states.length, lessThanOrEqualTo(28));
+        expect(locations.length, lessThanOrEqualTo(36));
+      },
+    );
 
     test('category action progress persists on canonical IDs', () async {
       SharedPreferences.setMockInitialValues({});

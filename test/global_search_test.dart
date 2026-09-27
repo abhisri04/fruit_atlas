@@ -56,7 +56,10 @@ void main() {
           home: DiscoverySearchPage(service: service),
         ),
       );
-      await tester.pumpAndSettle();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 1)),
+      );
+      await tester.pump();
       const expected = {
         'Mango': ['Mango', 'Alphonso', 'Taste All Fruits of India'],
         'Alphonso': ['Alphonso', 'Mango', 'Taste All Fruits of India'],

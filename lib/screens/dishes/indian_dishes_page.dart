@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../models/achievement.dart';
 import '../../models/indian_dish.dart';
+import '../../models/item_action_progress.dart';
+import '../../models/india_location_registry.dart';
 import '../../services/indian_dishes_repository.dart';
 import '../../services/progress_service.dart';
 import '../../theme/app_colors.dart';
@@ -87,8 +89,10 @@ class _IndianDishesPageState extends State<IndianDishesPage> {
     final cooked = data.dishes
         .where((dish) => progress[dish.id]?.cooked ?? false)
         .length;
-    final stateNames = data.dishes.expand((dish) => dish.states).toSet();
-    final statesTried = _uniqueStatesTried(data.dishes, progress);
+    final locationsTried = IndianDishesRepository.triedLocationIds(
+      data.dishes,
+      progress,
+    ).length;
     final regionNames = data.dishes.expand((dish) => dish.regions).toSet();
     final regionsTried = data.dishes
         .where((dish) => progress[dish.id]?.tried ?? false)
@@ -164,7 +168,7 @@ class _IndianDishesPageState extends State<IndianDishesPage> {
                     Text('$cooked / ${data.dishes.length} Cooked'),
                     const SizedBox(height: 4),
                     Text(
-                      '${_uniqueStatesTried(data.dishes, progress)} / 28 States explored',
+                      '$locationsTried / ${IndiaLocationRegistry.allLocationIds.length} States & UTs explored',
                     ),
                   ],
                 ),
@@ -189,8 +193,8 @@ class _IndianDishesPageState extends State<IndianDishesPage> {
               icon: Icons.map_outlined,
               title: 'States',
               subtitle: 'Explore dishes from every State and UT',
-              completed: statesTried,
-              total: stateNames.length,
+              completed: locationsTried,
+              total: IndiaLocationRegistry.allLocationIds.length,
               onTap: () => _open(
                 DishGroupPage(
                   catalogue: data,
@@ -1205,7 +1209,7 @@ class _DishProgressSummary extends StatelessWidget {
 ) {
   if (collection.type == 'unique_field') {
     return (
-      completed: _uniqueStatesTried(dishes, progress),
+      completed: IndianDishesRepository.triedStateIds(dishes, progress).length,
       total: collection.rule['unique_required'] as int,
     );
   }
@@ -1224,12 +1228,9 @@ int _achievementMetric(
     dishes.where((dish) => progress[dish.id]?.tried ?? false).length,
   'cooked_count' =>
     dishes.where((dish) => progress[dish.id]?.cooked ?? false).length,
-  'unique_states_tried' => _uniqueStatesTried(dishes, progress),
+  'unique_states_tried' => IndianDishesRepository.triedStateIds(
+    dishes,
+    progress,
+  ).length,
   _ => 0,
 };
-
-int _uniqueStatesTried(List<IndianDish> dishes, DishProgress progress) => dishes
-    .where((dish) => progress[dish.id]?.tried ?? false)
-    .expand((dish) => dish.states)
-    .toSet()
-    .length;

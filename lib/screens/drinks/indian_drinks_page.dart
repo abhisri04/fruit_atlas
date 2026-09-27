@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../models/indian_dish.dart' show ItemActionProgress;
+import '../../models/item_action_progress.dart';
 import '../../models/indian_drink.dart';
 import '../../services/indian_drinks_repository.dart';
 import '../../services/progress_service.dart';

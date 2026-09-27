@@ -3,6 +3,9 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 
 import '../models/indian_dish.dart';
+import '../models/catalogue_category.dart';
+import '../models/item_action_progress.dart';
+import '../models/india_location_registry.dart';
 
 class IndianDishesRepository {
   static const assetPath = 'assets/data/indian_dishes.json';
@@ -79,4 +82,21 @@ class IndianDishesRepository {
       .where((dish) => progress[dish.id]?.tried ?? false)
       .map((dish) => dish.id)
       .toSet();
+
+  static Set<String> triedLocationIds(
+    List<IndianDish> dishes,
+    Map<String, ItemActionProgress> progress,
+  ) => dishes
+      .where((dish) => progress[dish.id]?.tried ?? false)
+      .expand((dish) => dish.associatedStateIds)
+      .where(IndiaLocationRegistry.allLocationIds.contains)
+      .toSet();
+
+  static Set<String> triedStateIds(
+    List<IndianDish> dishes,
+    Map<String, ItemActionProgress> progress,
+  ) => triedLocationIds(
+    dishes,
+    progress,
+  ).where(IndiaLocationRegistry.isState).toSet();
 }

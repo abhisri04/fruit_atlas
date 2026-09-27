@@ -4,6 +4,8 @@ import '../models/daily_discovery.dart';
 import 'asset_data_service.dart';
 import 'challenge_repository.dart';
 import 'progress_service.dart';
+import 'indian_dishes_repository.dart';
+import 'indian_drinks_repository.dart';
 
 class DailyDiscoveryService {
   static const _dateKey = 'daily_discovery_date';
@@ -37,9 +39,29 @@ class DailyDiscoveryService {
     final yogaItems = yogaChallenge == null
         ? const []
         : await data.loadChallengeItems(yogaChallenge);
+    final locationChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'state_or_union_territory')
+        .firstOrNull;
+    final locationItems = locationChallenge == null
+        ? const []
+        : await data.loadChallengeItems(locationChallenge);
+    final jyotirlingas = await data.loadJyotirlingas();
+    final dishCatalogue = await const IndianDishesRepository().load();
+    final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
+    final drinkCatalogue = await const IndianDrinksRepository().load();
+    final drinkProgress = await ProgressService.getDrinkProgress(
+      drinkCatalogue,
+    );
     final completedFruits = await ProgressService.getCompletedFruitIds();
     final completedVarieties = await ProgressService.getCompletedVarietyIds();
     final completedYoga = await ProgressService.getCompletedYogaPoseIds();
+    final completedLocations = locationChallenge == null
+        ? <String>{}
+        : await ProgressService.getChallengeItemIds(
+            locationChallenge.progressKey,
+          );
+    final completedJyotirlingas =
+        await ProgressService.getCompletedJyotirlingaIds();
     final recommendations = <DailyDiscovery>[];
 
     for (final fruit in fruitData.fruits) {
@@ -96,6 +118,62 @@ class DailyDiscoveryService {
           ),
         );
       }
+    }
+
+    for (final dish in dishCatalogue.dishes) {
+      if (excludeCompleted && (dishProgress[dish.id]?.tried ?? false)) continue;
+      recommendations.add(
+        DailyDiscovery(
+          type: DailyDiscoveryType.indianDish,
+          canonicalId: dish.id,
+          title: dish.name,
+          subtitle: '${dish.primaryState} · Indian dish',
+          dish: dish,
+        ),
+      );
+    }
+    for (final drink in drinkCatalogue.drinks) {
+      if (excludeCompleted && (drinkProgress[drink.id]?.tried ?? false)) {
+        continue;
+      }
+      recommendations.add(
+        DailyDiscovery(
+          type: DailyDiscoveryType.indianDrink,
+          canonicalId: drink.id,
+          title: drink.name,
+          subtitle: '${drink.primaryState} · Indian drink',
+          drink: drink,
+        ),
+      );
+    }
+    if (locationChallenge != null) {
+      for (final location in locationItems) {
+        if (excludeCompleted && completedLocations.contains(location.id)) {
+          continue;
+        }
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.indiaLocation,
+            canonicalId: location.id,
+            title: location.name,
+            subtitle: location.category ?? 'State or Union Territory',
+            location: location,
+            locationChallenge: locationChallenge,
+          ),
+        );
+      }
+    }
+    for (final site in jyotirlingas) {
+      if (excludeCompleted && completedJyotirlingas.contains(site.id)) continue;
+      recommendations.add(
+        DailyDiscovery(
+          type: DailyDiscoveryType.jyotirlinga,
+          canonicalId: site.id,
+          title: site.name,
+          subtitle: site.location,
+          jyotirlinga: site,
+        ),
+      );
     }
 
     final unique = <String, DailyDiscovery>{

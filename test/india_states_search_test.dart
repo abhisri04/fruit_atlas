@@ -34,7 +34,7 @@ void main() {
       );
 
       final search = GlobalSearchService();
-      await search.load();
+      await tester.runAsync(search.load);
       for (final name in [
         'Rajasthan',
         'Delhi',

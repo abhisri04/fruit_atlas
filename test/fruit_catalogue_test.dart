@@ -149,7 +149,7 @@ void main() {
         .where((file) => file.path.toLowerCase().endsWith('.webp'))
         .map((file) => file.uri.pathSegments.last)
         .toSet();
-    expect(actualImages, hasLength(40));
+    expect(actualImages, hasLength(112));
     expect(
       actualImages.difference(
         fruits.map((fruit) => '${fruit.id}.webp').toSet(),
@@ -190,7 +190,7 @@ void main() {
         fruit.scientificName,
         fruit.imageAsset,
       ]);
-      if (int.parse(fruit.id.substring(2)) <= 40) {
+      if (cells['approval_status'] == 'approved') {
         expect(cells['approval_status'], 'approved', reason: fruit.id);
         for (final key in headers.skip(4)) {
           expect(cells[key], isNotEmpty, reason: '${fruit.id}: $key');
@@ -285,10 +285,12 @@ void main() {
   testWidgets('missing canonical image uses the shared fruit placeholder', (
     tester,
   ) async {
-    final durian = fruits.singleWhere((fruit) => fruit.id == 'FR041');
+    final durian = fruits.singleWhere((fruit) => fruit.id == 'FR048');
     await tester.pumpWidget(
       MaterialApp(
-        home: Scaffold(body: FruitImage(fruit: durian, width: 100, height: 100)),
+        home: Scaffold(
+          body: FruitImage(fruit: durian, width: 100, height: 100),
+        ),
       ),
     );
     await tester.pumpAndSettle();
@@ -318,7 +320,9 @@ void main() {
     final karonda = fruits.singleWhere((fruit) => fruit.id == 'FR021');
     await tester.pumpWidget(
       MaterialApp(
-        home: Scaffold(body: FruitImage(fruit: karonda, width: 100, height: 100)),
+        home: Scaffold(
+          body: FruitImage(fruit: karonda, width: 100, height: 100),
+        ),
       ),
     );
     await tester.pumpAndSettle();

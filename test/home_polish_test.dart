@@ -43,12 +43,15 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(theme: AppTheme.light, home: const HomePage()),
       );
-      await tester.pumpAndSettle();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 1)),
+      );
+      await tester.pump();
       expect(find.text('3 experiences explored'), findsOneWidget);
       final cards = tester.widgetList<ChallengeCard>(
         find.byType(ChallengeCard),
       );
-      expect(cards.length, 5);
+      expect(cards.length, 6);
       expect(
         cards.map((card) => card.completedCount),
         containsAll(<int>[1, 1, 1, 0]),

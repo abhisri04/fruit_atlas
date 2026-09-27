@@ -87,7 +87,10 @@ void main() {
           ),
         ),
       );
-      await tester.pumpAndSettle();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 1)),
+      );
+      await tester.pump();
       expect(find.text('Make room for discovery'), findsNothing);
       expect(find.text('Small experiences. A richer you.'), findsNothing);
       expect(find.text('Hello, explorer'), findsOneWidget);
@@ -111,7 +114,10 @@ void main() {
       expect(tester.getBottomRight(find.text('Explore')).dy, lessThan(844));
 
       await tester.tap(find.widgetWithText(TextButton, 'Save for later'));
-      await tester.pumpAndSettle();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 1)),
+      );
+      await tester.pump();
       final preferences = await SharedPreferences.getInstance();
       expect(preferences.getStringList('saved_entity_references'), [
         'variety:VAR001',
@@ -132,7 +138,10 @@ void main() {
           ),
         ),
       );
-      await tester.pumpAndSettle();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(seconds: 1)),
+      );
+      await tester.pump();
       expect(find.text('Saved discoveries'), findsOneWidget);
       expect(find.text('Dashehari'), findsOneWidget);
       expect(
