@@ -66,9 +66,9 @@ void main() {
           of: navigation,
           matching: find.byType(NavigationDestination),
         ),
-        findsNWidgets(3),
+        findsNWidgets(4),
       );
-      for (final section in ['Explore', 'My Life']) {
+      for (final section in ['Explore', 'Hobbies', 'My Life']) {
         await tester.tap(
           find.descendant(of: navigation, matching: find.text(section)),
         );

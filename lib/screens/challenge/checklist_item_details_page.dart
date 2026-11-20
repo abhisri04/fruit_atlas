@@ -35,6 +35,7 @@ import '../../widgets/experience_collection_tile.dart';
 import '../../widgets/yoga_pose_tile.dart';
 import '../../widgets/challenge_icon.dart';
 import '../../widgets/skill_ladder.dart';
+import '../../widgets/hobby_start_button.dart';
 import '../../widgets/fruit_image.dart';
 
 class ChecklistItemDetailsPage extends StatefulWidget {
@@ -1175,6 +1176,10 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                       ),
                     ),
                   ),
+                if (widget.challenge.itemType == 'hobby') ...[
+                  const SizedBox(height: 12),
+                  HobbyStartButton(item: widget.item),
+                ],
                 const SizedBox(height: 28),
                 Text(
                   'About ${widget.item.name}',

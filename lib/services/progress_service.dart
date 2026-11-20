@@ -438,8 +438,78 @@ class ProgressService {
       if (event.startsWith('completion:')) return sum + 10;
       if (event.startsWith('achievement:')) return sum + 25;
       if (event.startsWith('dailyQuest:')) return sum + 50;
+      if (event.startsWith('practice:')) return sum + practiceXp;
+      if (event.startsWith('milestone:')) return sum + milestoneXp;
       return sum;
     });
+  }
+
+  static const practiceXp = 5;
+  static const milestoneXp = 25;
+
+  /// Records a logged hobby session: up to [practiceXp] once per hobby per
+  /// day, plus activity for streaks and the daily quest.
+  static Future<bool> recordHobbyPractice(
+    String hobbyId,
+    String hobbyName, {
+    DateTime? now,
+  }) async {
+    final localNow = (now ?? DateTime.now()).toLocal();
+    final date = _dateKey(localNow);
+    final rewardId = 'practice:$hobbyId:$date';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.canonicalCompletion,
+          intensity: CelebrationIntensity.small,
+          title: 'Practice logged',
+          message: 'Another session of $hobbyName.',
+          xp: practiceXp,
+        ),
+      );
+    }
+    await _recordActivity(localNow, 'hobby:$hobbyId');
+    return added.isNotEmpty;
+  }
+
+  /// Records reaching a rung of a hobby's skill ladder, once per rung.
+  static Future<bool> recordHobbyMilestone(
+    String hobbyId,
+    String levelLabel,
+    String hobbyName, {
+    DateTime? now,
+  }) async {
+    final rewardId = 'milestone:$hobbyId:$levelLabel';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.milestone,
+          intensity: CelebrationIntensity.medium,
+          title: '$levelLabel!',
+          message: 'You levelled up in $hobbyName.',
+          xp: milestoneXp,
+        ),
+      );
+      await _recordActivity(
+        (now ?? DateTime.now()).toLocal(),
+        'hobby:$hobbyId',
+      );
+    }
+    return added.isNotEmpty;
+  }
+
+  static Future<void> _recordActivity(DateTime localNow, String ref) async {
+    final date = _dateKey(localNow);
+    final dates = await _getCompletedIds(_activityDatesKey);
+    if (dates.add(date)) await _setCompletedIds(_activityDatesKey, dates);
+    final events = await _getCompletedIds(_activityEventsKey);
+    if (events.add('$date|$ref')) {
+      await _setCompletedIds(_activityEventsKey, events);
+    }
   }
 
   static Future<void> recordMeaningfulCompletion(

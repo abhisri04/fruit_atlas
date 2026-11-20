@@ -13,23 +13,11 @@ import '../../services/progress_service.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/app_gradients.dart';
 import '../../widgets/empty_state.dart';
+import '../../widgets/hobby_icon.dart';
 import '../../widgets/reveal.dart';
 import '../../widgets/reward_animations.dart';
 import '../challenge/checklist_item_details_page.dart';
 import 'hobby_quiz_page.dart';
-
-IconData hobbyGroupIcon(String? group) => switch (group) {
-  'Creative & Crafts' => Icons.palette_outlined,
-  'Mind & Words' => Icons.psychology_outlined,
-  'Outdoors & Nature' => Icons.park_outlined,
-  'Grow & Make' => Icons.local_florist_outlined,
-  'Music & Play' => Icons.music_note_outlined,
-  'Capture & Share' => Icons.photo_camera_outlined,
-  'Fitness & Movement' => Icons.directions_run,
-  'Learn & Explore' => Icons.lightbulb_outline,
-  'People & Community' => Icons.diversity_3_outlined,
-  _ => Icons.auto_awesome_outlined,
-};
 
 /// Helps people choose a hobby: personal matches, quick filters and a
 /// "Pick for me" suggestion that learns from "Not for me".

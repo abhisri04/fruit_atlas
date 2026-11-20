@@ -7,6 +7,7 @@ import '../screens/discover/discover_page.dart';
 import '../theme/app_theme.dart';
 import '../screens/home/home_page.dart';
 import '../screens/my_life/my_life_page.dart';
+import '../screens/hobbies/my_hobbies_page.dart';
 import '../widgets/reward_feedback_host.dart';
 import '../models/app_branding.dart';
 
@@ -119,7 +120,8 @@ class _MainNavigationPageState extends State<MainNavigationPage>
             children: [
               HomePage(isActive: selectedIndex == 0),
               const DiscoverPage(),
-              selectedIndex == 2 ? const MyLifePage() : const SizedBox.shrink(),
+              const MyHobbiesPage(),
+              selectedIndex == 3 ? const MyLifePage() : const SizedBox.shrink(),
             ],
           ),
         ),
@@ -136,6 +138,11 @@ class _MainNavigationPageState extends State<MainNavigationPage>
               icon: Icon(Icons.explore_outlined),
               selectedIcon: Icon(Icons.explore),
               label: 'Explore',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.palette_outlined),
+              selectedIcon: Icon(Icons.palette),
+              label: 'Hobbies',
             ),
             NavigationDestination(
               icon: Icon(Icons.person_outline),
