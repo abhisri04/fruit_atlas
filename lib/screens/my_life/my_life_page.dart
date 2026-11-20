@@ -416,12 +416,12 @@ class _MyLifePageState extends State<MyLifePage> {
       const SizedBox(height: 12),
       ProgressCard(
         title: 'Taste All Fruits of India',
-        summary: '$fruitCount / $fruitTotal fruits explored',
+        summary: '$fruitCount / $fruitTotal fruits tried',
         progress: ratio(fruitCount, fruitTotal),
       ),
       ProgressCard(
         title: 'Fruit varieties',
-        summary: '$varietyCount / $varietyTotal varieties explored',
+        summary: '$varietyCount / $varietyTotal varieties tried',
         progress: ratio(varietyCount, varietyTotal),
       ),
       ProgressCard(
@@ -497,13 +497,13 @@ class _MyLifePageState extends State<MyLifePage> {
               icon: Icons.verified_outlined,
             ),
             _MetricCard(
-              label: 'Fruits explored',
+              label: 'Fruits tried',
               value: '$fruitCount',
               icon: Icons.eco_outlined,
               accent: AppColors.purple,
             ),
             _MetricCard(
-              label: 'Varieties explored',
+              label: 'Varieties tried',
               value: '$varietyCount',
               icon: Icons.local_florist_outlined,
               accent: AppColors.orange,

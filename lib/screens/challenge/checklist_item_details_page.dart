@@ -1103,7 +1103,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
       return _buildYogaDetails(context);
     }
     return Scaffold(
-      appBar: AppBar(title: const Text('Details')),
+      appBar: AppBar(title: Text(widget.challenge.compactTitle)),
       body: CustomScrollView(
         slivers: [
           SliverPadding(

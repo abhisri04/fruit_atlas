@@ -71,7 +71,7 @@ class _VarietyDetailsPageState extends State<VarietyDetailsPage> {
         context,
         before: 0,
         after: 1,
-        message: 'Variety collected. A new discovery to remember.',
+        message: 'Variety tried. A new taste to remember.',
       );
     }
   }
@@ -119,14 +119,12 @@ class _VarietyDetailsPageState extends State<VarietyDetailsPage> {
                       child: Icon(
                         isCompleted
                             ? Icons.check_circle
-                            : Icons.explore_outlined,
+                            : Icons.check_circle_outline,
                         key: ValueKey(isCompleted),
                       ),
                     ),
                     label: Text(
-                      isCompleted
-                          ? 'Explored - tap to undo'
-                          : 'Mark as explored',
+                      isCompleted ? 'Tried - tap to undo' : 'Mark as tried',
                     ),
                   ),
                 ),

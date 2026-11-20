@@ -199,7 +199,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
                   ),
                   const SizedBox(height: 22),
                   _sectionTitle('Recommended for you'),
-                  const TravelJourneys(),
+                  const TravelJourneys(onDarkBackground: true),
                   const SizedBox(height: 12),
                   AnimatedSwitcher(
                     duration: const Duration(milliseconds: 220),

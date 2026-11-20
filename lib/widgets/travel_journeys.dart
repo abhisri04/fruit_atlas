@@ -7,7 +7,10 @@ import '../services/state_exploration_repository.dart';
 import '../theme/app_colors.dart';
 
 class TravelJourneys extends StatefulWidget {
-  const TravelJourneys({super.key});
+  /// Set when shown on a dark surface (Explore) so the heading stays legible.
+  final bool onDarkBackground;
+
+  const TravelJourneys({super.key, this.onDarkBackground = false});
   @override
   State<TravelJourneys> createState() => _TravelJourneysState();
 }
@@ -51,10 +54,10 @@ class _TravelJourneysState extends State<TravelJourneys> {
     builder: (_, _) => Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
+        Text(
           'Travel & Exploration',
           style: TextStyle(
-            color: AppColors.primary,
+            color: widget.onDarkBackground ? AppColors.gold : AppColors.primary,
             fontWeight: FontWeight.bold,
           ),
         ),

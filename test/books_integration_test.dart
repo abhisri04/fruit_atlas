@@ -373,7 +373,8 @@ void main() {
               subtitle: "I've read 2 books by Premchand.",
               progressCurrent: 2,
               collectionType: 'author',
-              shareText: "I've read 2 books by Premchand. — UPLYFA — Experience more.",
+              shareText:
+                  "I've read 2 books by Premchand. — UPLYFA — Experience more.",
             ),
             shareService: BookShareService(gateway: gateway),
           ),
