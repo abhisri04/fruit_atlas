@@ -16,39 +16,43 @@ class HobbyMatch {
 /// does not filter.
 class HobbyFilters {
   final HobbySetting? setting;
-  final bool freeOnly;
   final bool quick;
   final HobbyEnergy? energy;
   final HobbySocial? social;
   final HobbyGoal? goal;
+
+  /// Only games (true), only hobbies (false), or both (null).
+  final bool? gamesOnly;
 
   /// Sessions of this many minutes or fewer count as quick.
   static const quickMinutes = 30;
 
   const HobbyFilters({
     this.setting,
-    this.freeOnly = false,
     this.quick = false,
     this.energy,
     this.social,
     this.goal,
+    this.gamesOnly,
   });
 
   bool get isEmpty =>
       setting == null &&
-      !freeOnly &&
       !quick &&
       energy == null &&
       social == null &&
-      goal == null;
+      goal == null &&
+      gamesOnly == null;
 
   bool accepts(Hobby hobby) {
+    if (gamesOnly case final games?) {
+      if (hobby.item.challengeId.startsWith('play_') != games) return false;
+    }
     if (setting case final wanted?) {
       if (hobby.setting != wanted && hobby.setting != HobbySetting.either) {
         return false;
       }
     }
-    if (freeOnly && hobby.cost != HobbyCost.free) return false;
     if (quick && hobby.sessionMinutes > quickMinutes) return false;
     if (energy case final wanted? when hobby.energy != wanted) return false;
     if (social case final wanted?) {
@@ -82,14 +86,6 @@ class HobbyMatcher {
       score += 1;
     } else {
       score -= 3;
-    }
-
-    // Budget: anything over budget is strongly penalised.
-    if (hobby.cost.index <= prefs.budget.index) {
-      score += 2;
-      if (hobby.cost == HobbyCost.free) reasons.add('Free');
-    } else {
-      score -= 4;
     }
 
     // Time.

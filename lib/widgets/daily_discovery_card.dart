@@ -33,13 +33,14 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.jyotirlinga => Icons.temple_hindu_outlined,
     DailyDiscoveryType.book => Icons.menu_book_outlined,
     DailyDiscoveryType.hobby => Icons.palette_outlined,
+    DailyDiscoveryType.game => Icons.casino_outlined,
     null => Icons.auto_awesome_outlined,
   };
 
   String get presentationTitle => switch (discovery!.type) {
     DailyDiscoveryType.book => 'Read ${discovery!.title}',
     // Hobby titles are already actions, e.g. "Fold a paper crane".
-    DailyDiscoveryType.hobby => discovery!.title,
+    DailyDiscoveryType.hobby || DailyDiscoveryType.game => discovery!.title,
     _ => 'Try ${discovery!.title}',
   };
 
@@ -56,7 +57,8 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.jyotirlinga =>
       'Discover one of India’s twelve Jyotirlingas.',
     DailyDiscoveryType.book => 'Open a new chapter in your reading journey.',
-    DailyDiscoveryType.hobby => 'A low-cost hobby you can start today.',
+    DailyDiscoveryType.hobby => 'A hobby you can start today.',
+    DailyDiscoveryType.game => 'A game worth playing. Gather some friends!',
   };
 
   String get compactMetadata => switch (discovery!.type) {
@@ -76,6 +78,10 @@ class DailyDiscoveryCard extends StatelessWidget {
       'Hobby',
       discovery!.hobby?.category,
     ].whereType<String>().join(' · '),
+    DailyDiscoveryType.game => [
+      'Game',
+      discovery!.hobby?.filterGroup,
+    ].whereType<String>().join(' · '),
   };
 
   String get primaryAction => switch (discovery!.type) {
@@ -88,6 +94,7 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.jyotirlinga => 'Explore this Jyotirlinga →',
     DailyDiscoveryType.book => 'Explore this book →',
     DailyDiscoveryType.hobby => 'Try this hobby →',
+    DailyDiscoveryType.game => 'Play this game →',
   };
 
   String _yogaSupportingCopy() {

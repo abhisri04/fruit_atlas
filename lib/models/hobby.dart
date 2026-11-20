@@ -2,21 +2,11 @@ import 'item.dart';
 
 enum HobbySetting { indoor, outdoor, either }
 
-enum HobbyCost { free, low, medium }
-
 enum HobbyEnergy { calm, moderate, active }
 
 enum HobbySocial { solo, social, either }
 
 enum HobbyGoal { relax, active, create, connect, learn }
-
-extension HobbyCostLabel on HobbyCost {
-  String get label => switch (this) {
-    HobbyCost.free => 'Free',
-    HobbyCost.low => 'Under ₹300',
-    HobbyCost.medium => 'Under ₹1,500',
-  };
-}
 
 extension HobbyGoalLabel on HobbyGoal {
   String get label => switch (this) {
@@ -36,7 +26,6 @@ T _enum<T extends Enum>(List<T> values, Object? raw, T fallback) =>
 class Hobby {
   final Item item;
   final HobbySetting setting;
-  final HobbyCost cost;
   final int sessionMinutes;
   final HobbyEnergy energy;
   final HobbySocial social;
@@ -45,7 +34,6 @@ class Hobby {
   const Hobby({
     required this.item,
     required this.setting,
-    required this.cost,
     required this.sessionMinutes,
     required this.energy,
     required this.social,
@@ -69,7 +57,6 @@ class Hobby {
         attributes['setting'],
         HobbySetting.either,
       ),
-      cost: _enum(HobbyCost.values, attributes['cost'], HobbyCost.low),
       sessionMinutes: (attributes['session_minutes'] as num?)?.toInt() ?? 60,
       energy: _enum(
         HobbyEnergy.values,

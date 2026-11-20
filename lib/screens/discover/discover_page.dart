@@ -410,6 +410,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
     'culture_learning' => 'Learning',
     'faith_pilgrimage' => 'Faith',
     'life_experiences' => 'Life',
+    'games_play' => 'Games',
     _ => category.name.split(' & ').first,
   };
   Widget _sectionTitle(String value) => Text(

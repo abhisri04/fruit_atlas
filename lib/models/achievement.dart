@@ -189,6 +189,49 @@ class Achievement {
     ),
   ];
 
+  static const gameChallengeAchievements = [
+    Achievement(
+      id: 'game_first',
+      title: 'Game On',
+      description: 'Play your first game.',
+      threshold: 1,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'game',
+    ),
+    Achievement(
+      id: 'game_five',
+      title: 'Games Night',
+      description: 'Play 5 games.',
+      threshold: 5,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'start',
+    ),
+    Achievement(
+      id: 'game_fifteen',
+      title: 'Player',
+      description: 'Play 15 games.',
+      threshold: 15,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'game_forty',
+      title: 'Game Master',
+      description: 'Play 40 games.',
+      threshold: 40,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'flag',
+    ),
+    Achievement(
+      id: 'game_complete',
+      title: 'Played Them All',
+      description: 'Play all 100 games.',
+      threshold: 100,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
   static const indiaStatesChallengeAchievements = [
     Achievement(
       id: 'india_states_first',
@@ -300,6 +343,7 @@ class Achievement {
       'visit_12_jyotirlingas' => jyotirlingaChallengeAchievements,
       'learn_yoga_poses' => yogaChallengeAchievements,
       'try_easy_hobbies' => hobbyChallengeAchievements,
+      'play_great_games' => gameChallengeAchievements,
       'explore_indian_states' => indiaStatesChallengeAchievements,
       'explore_great_books' => bookAchievements,
       'all_experiences' => experienceAchievements,

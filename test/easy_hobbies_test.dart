@@ -59,11 +59,7 @@ void main() {
         'confident',
       ], reason: item.id);
       expect(item.ladder.first.milestone, item.name, reason: item.id);
-      expect(item.metadata.keys.toSet(), {
-        'Cost',
-        'Where',
-        'Time',
-      }, reason: item.id);
+      expect(item.metadata.keys.toSet(), {'Where', 'Time'}, reason: item.id);
     }
   });
 

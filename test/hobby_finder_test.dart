@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -16,7 +17,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 Hobby _hobby(
   String id, {
   HobbySetting setting = HobbySetting.indoor,
-  HobbyCost cost = HobbyCost.free,
   int minutes = 30,
   HobbyEnergy energy = HobbyEnergy.calm,
   HobbySocial social = HobbySocial.solo,
@@ -24,7 +24,6 @@ Hobby _hobby(
 }) => Hobby(
   item: Item(id: id, challengeId: 'try_easy_hobbies', name: id),
   setting: setting,
-  cost: cost,
   sessionMinutes: minutes,
   energy: energy,
   social: social,
@@ -45,7 +44,6 @@ void main() {
     final activeOutdoor = _hobby(
       'active_outdoor',
       setting: HobbySetting.outdoor,
-      cost: HobbyCost.medium,
       minutes: 240,
       energy: HobbyEnergy.active,
       social: HobbySocial.social,
@@ -56,7 +54,6 @@ void main() {
     test('ranks the better fit first and explains why', () {
       const prefs = HobbyPreferences(
         place: HobbySetting.indoor,
-        budget: HobbyCost.free,
         maxMinutes: 30,
         energy: HobbyEnergy.calm,
         company: HobbySocial.solo,
@@ -70,7 +67,6 @@ void main() {
         ranked.first.reasons,
         containsAll([
           'Indoors',
-          'Free',
           'Quick to do',
           'Calming',
           'On your own',
@@ -82,7 +78,6 @@ void main() {
     test('an active, social person gets the outdoor hobby first', () {
       const prefs = HobbyPreferences(
         place: HobbySetting.outdoor,
-        budget: HobbyCost.medium,
         maxMinutes: 240,
         energy: HobbyEnergy.active,
         company: HobbySocial.social,
@@ -101,7 +96,7 @@ void main() {
     test('filters narrow the list', () {
       expect(
         matcher
-            .rank(hobbies, null, filters: const HobbyFilters(freeOnly: true))
+            .rank(hobbies, null, filters: const HobbyFilters(quick: true))
             .map((m) => m.hobby.id),
         ['calm_indoor'],
       );
@@ -136,7 +131,6 @@ void main() {
   test('preferences survive a JSON round trip and storage', () async {
     const prefs = HobbyPreferences(
       place: HobbySetting.outdoor,
-      budget: HobbyCost.free,
       maxMinutes: 240,
       energy: HobbyEnergy.active,
       company: HobbySocial.social,
@@ -164,7 +158,10 @@ void main() {
         HobbySetting.outdoor,
         HobbySetting.either,
       });
-      expect(hobbies.where((h) => h.cost == HobbyCost.free), isNotEmpty);
+      expect(
+        File('assets/data/easy_hobbies.json').readAsStringSync(),
+        isNot(contains('"cost"')),
+      );
       expect(hobbies.where((h) => h.energy == HobbyEnergy.active), isNotEmpty);
     },
   );
@@ -194,7 +191,6 @@ void main() {
 
     for (final answer in [
       'Outdoors',
-      'Free only',
       '15–30 minutes',
       'Active',
       'With others',
@@ -202,7 +198,7 @@ void main() {
       await tester.tap(find.text(answer));
       await tester.pumpAndSettle();
     }
-    expect(find.text('6 of ${HobbyQuizPage.questionCount}'), findsOneWidget);
+    expect(find.text('5 of ${HobbyQuizPage.questionCount}'), findsOneWidget);
     await tester.tap(find.text('Get active'));
     await tester.tap(find.text('Meet people'));
     await tester.pumpAndSettle();
@@ -211,7 +207,6 @@ void main() {
 
     expect(result, isNotNull);
     expect(result!.place, HobbySetting.outdoor);
-    expect(result!.budget, HobbyCost.free);
     expect(result!.maxMinutes, 30);
     expect(result!.energy, HobbyEnergy.active);
     expect(result!.company, HobbySocial.social);
@@ -229,7 +224,6 @@ void main() {
     await HobbyPreferencesService.save(
       const HobbyPreferences(
         place: HobbySetting.indoor,
-        budget: HobbyCost.free,
         goals: {HobbyGoal.create},
       ),
     );
@@ -240,7 +234,16 @@ void main() {
         home: HobbyFinderPage(random: Random(3)),
       ),
     );
-    await tester.runAsync(() => Future<void>.delayed(Duration.zero));
+    for (
+      var attempt = 0;
+      attempt < 40 && find.text('Not sure what to try?').evaluate().isEmpty;
+      attempt++
+    ) {
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(milliseconds: 50)),
+      );
+      await tester.pump();
+    }
     await tester.pumpAndSettle();
     expect(find.text('Not sure what to try?'), findsOneWidget);
     expect(find.textContaining('best matches first'), findsOneWidget);
@@ -254,7 +257,7 @@ void main() {
     expect(await HobbyPreferencesService.skippedIds(), hasLength(1));
     expect(find.byKey(const ValueKey('hobby-pick-try')), findsOneWidget);
 
-    final freeChip = find.widgetWithText(FilterChip, 'Free');
+    final freeChip = find.widgetWithText(FilterChip, 'Under 30 min');
     await tester.scrollUntilVisible(
       freeChip,
       200,

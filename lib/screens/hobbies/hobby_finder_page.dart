@@ -34,7 +34,7 @@ class _HobbyFinderPageState extends State<HobbyFinderPage> {
   static const _matcher = HobbyMatcher();
 
   List<Hobby> hobbies = [];
-  Challenge? challenge;
+  Map<String, Challenge> challenges = {};
   HobbyPreferences? prefs;
   Set<String> tried = {};
   Set<String> skipped = {};
@@ -53,19 +53,15 @@ class _HobbyFinderPageState extends State<HobbyFinderPage> {
 
   Future<void> _load() async {
     try {
-      final loadedHobbies = await const HobbyRepository().load();
+      final loadedHobbies = await const HobbyRepository().loadAll();
       final challenges = await const AssetDataService().loadChallenges();
       final loadedPrefs = await HobbyPreferencesService.load();
       final loadedSkipped = await HobbyPreferencesService.skippedIds();
-      final loadedTried = await ProgressService.getChallengeItemIds(
-        HobbyRepository.progressKey,
-      );
+      final loadedTried = await _loadTried();
       if (!mounted) return;
       setState(() {
         hobbies = loadedHobbies;
-        challenge = challenges
-            .where((c) => c.id == HobbyRepository.challengeId)
-            .firstOrNull;
+        this.challenges = {for (final c in challenges) c.id: c};
         prefs = loadedPrefs;
         skipped = loadedSkipped;
         tried = loadedTried;
@@ -134,8 +130,15 @@ class _HobbyFinderPageState extends State<HobbyFinderPage> {
     _pickForMe();
   }
 
+  static Future<Set<String>> _loadTried() async => {
+    ...await ProgressService.getChallengeItemIds(HobbyRepository.progressKey),
+    ...await ProgressService.getChallengeItemIds(
+      HobbyRepository.gamesProgressKey,
+    ),
+  };
+
   Future<void> _open(Hobby hobby) async {
-    final target = challenge;
+    final target = challenges[hobby.item.challengeId];
     if (target == null) return;
     await Navigator.push(
       context,
@@ -144,9 +147,7 @@ class _HobbyFinderPageState extends State<HobbyFinderPage> {
             ChecklistItemDetailsPage(challenge: target, item: hobby.item),
       ),
     );
-    final updated = await ProgressService.getChallengeItemIds(
-      HobbyRepository.progressKey,
-    );
+    final updated = await _loadTried();
     if (mounted) setState(() => tried = updated);
   }
 
@@ -227,8 +228,8 @@ class _HobbyFinderPageState extends State<HobbyFinderPage> {
               const SizedBox(height: 14),
               Text(
                 prefs == null
-                    ? '${list.length} hobbies'
-                    : '${list.length} hobbies · best matches first',
+                    ? '${list.length} hobbies & games'
+                    : '${list.length} hobbies & games · best matches first',
                 style: const TextStyle(
                   color: AppColors.muted,
                   fontWeight: FontWeight.w600,
@@ -313,7 +314,7 @@ class _HeroCard extends StatelessWidget {
           hasPreferences
               ? 'We\'ll pick one that fits your preferences.'
               : 'Answer ${HobbyQuizPage.questionCount} quick questions and '
-                    'we\'ll match you with hobbies, indoors or out.',
+                    'we\'ll match you with hobbies and games, indoors or out.',
           style: TextStyle(
             color: Colors.white.withValues(alpha: .92),
             fontSize: 15,
@@ -501,20 +502,22 @@ class _FilterBar extends StatelessWidget {
 
   HobbyFilters _with({
     Object? setting = _keep,
-    bool? freeOnly,
     bool? quick,
     Object? energy = _keep,
     Object? social = _keep,
     Object? goal = _keep,
+    Object? gamesOnly = _keep,
   }) => HobbyFilters(
     setting: identical(setting, _keep)
         ? filters.setting
         : setting as HobbySetting?,
-    freeOnly: freeOnly ?? filters.freeOnly,
     quick: quick ?? filters.quick,
     energy: identical(energy, _keep) ? filters.energy : energy as HobbyEnergy?,
     social: identical(social, _keep) ? filters.social : social as HobbySocial?,
     goal: identical(goal, _keep) ? filters.goal : goal as HobbyGoal?,
+    gamesOnly: identical(gamesOnly, _keep)
+        ? filters.gamesOnly
+        : gamesOnly as bool?,
   );
 
   static const _keep = Object();
@@ -540,6 +543,20 @@ class _FilterBar extends StatelessWidget {
           child: Row(
             children: [
               _chip(
+                'Games',
+                f.gamesOnly == true,
+                () => onChanged(
+                  _with(gamesOnly: f.gamesOnly == true ? null : true),
+                ),
+              ),
+              _chip(
+                'Hobbies',
+                f.gamesOnly == false,
+                () => onChanged(
+                  _with(gamesOnly: f.gamesOnly == false ? null : false),
+                ),
+              ),
+              _chip(
                 'Indoors',
                 f.setting == HobbySetting.indoor,
                 () => onChanged(
@@ -560,11 +577,6 @@ class _FilterBar extends StatelessWidget {
                         : HobbySetting.outdoor,
                   ),
                 ),
-              ),
-              _chip(
-                'Free',
-                f.freeOnly,
-                () => onChanged(_with(freeOnly: !f.freeOnly)),
               ),
               _chip(
                 'Under 30 min',
@@ -660,7 +672,6 @@ class _HobbyTile extends StatelessWidget {
     final accent = AppColors.categoryAccent('life_experiences');
     final details = [
       hobby.name,
-      hobby.item.metadata['Cost'],
       hobby.item.metadata['Time'],
     ].whereType<String>().join(' · ');
     return Padding(

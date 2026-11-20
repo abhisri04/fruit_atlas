@@ -4,7 +4,6 @@ import 'hobby.dart';
 class HobbyPreferences {
   /// Preferred place; [HobbySetting.either] means "both".
   final HobbySetting place;
-  final HobbyCost budget;
 
   /// Longest session they usually have time for.
   final int maxMinutes;
@@ -18,7 +17,6 @@ class HobbyPreferences {
 
   const HobbyPreferences({
     this.place = HobbySetting.either,
-    this.budget = HobbyCost.low,
     this.maxMinutes = 60,
     this.energy,
     this.company = HobbySocial.either,
@@ -27,7 +25,6 @@ class HobbyPreferences {
 
   HobbyPreferences copyWith({
     HobbySetting? place,
-    HobbyCost? budget,
     int? maxMinutes,
     HobbyEnergy? energy,
     bool clearEnergy = false,
@@ -35,7 +32,6 @@ class HobbyPreferences {
     Set<HobbyGoal>? goals,
   }) => HobbyPreferences(
     place: place ?? this.place,
-    budget: budget ?? this.budget,
     maxMinutes: maxMinutes ?? this.maxMinutes,
     energy: clearEnergy ? null : energy ?? this.energy,
     company: company ?? this.company,
@@ -44,7 +40,6 @@ class HobbyPreferences {
 
   Map<String, dynamic> toJson() => {
     'place': place.name,
-    'budget': budget.name,
     'max_minutes': maxMinutes,
     'energy': energy?.name,
     'company': company.name,
@@ -56,7 +51,6 @@ class HobbyPreferences {
         values.where((value) => value.name == raw).firstOrNull ?? fallback;
     return HobbyPreferences(
       place: pick(HobbySetting.values, json['place'], HobbySetting.either),
-      budget: pick(HobbyCost.values, json['budget'], HobbyCost.low),
       maxMinutes: (json['max_minutes'] as num?)?.toInt() ?? 60,
       energy: HobbyEnergy.values
           .where((value) => value.name == json['energy'])

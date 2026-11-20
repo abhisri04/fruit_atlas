@@ -591,6 +591,7 @@ class ProgressService {
         _completedYogaPoseIdsKey => 'yoga',
         'completed_india_state_ut_ids' => 'state',
         'completed_hobby_ids' => 'hobby',
+        'completed_game_ids' => 'game',
         _ => null,
       };
 

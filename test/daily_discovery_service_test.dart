@@ -52,6 +52,7 @@ void main() {
       DailyDiscoveryType.jyotirlinga,
       DailyDiscoveryType.book,
       DailyDiscoveryType.hobby,
+      DailyDiscoveryType.game,
     });
     expect(pool.every((item) => !item.locationRequired), isTrue);
     expect(pool.map((item) => item.reference), isNot(contains('fruit:FR001')));
@@ -142,6 +143,10 @@ void main() {
         );
       case DailyDiscoveryType.hobby:
         await preferences.setStringList('completed_hobby_ids', [
+          nextDay.canonicalId,
+        ]);
+      case DailyDiscoveryType.game:
+        await preferences.setStringList('completed_game_ids', [
           nextDay.canonicalId,
         ]);
     }

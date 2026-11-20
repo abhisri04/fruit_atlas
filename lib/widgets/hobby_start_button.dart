@@ -109,9 +109,11 @@ class _HobbyStartButtonState extends State<HobbyStartButton> {
                   onPressed: _start,
                   icon: const Icon(Icons.rocket_launch_outlined),
                   label: Text(
-                    record == null
-                        ? 'Start this hobby · 7-day starter'
-                        : 'Restart this hobby',
+                    record != null
+                        ? 'Restart tracking'
+                        : widget.item.challengeId == 'play_great_games'
+                        ? 'Play it regularly · track in My Hobbies'
+                        : 'Start this hobby · 7-day starter',
                   ),
                 ),
               ),

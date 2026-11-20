@@ -29,7 +29,7 @@ class _AddExistingHobbyPageState extends State<AddExistingHobbyPage> {
   @override
   void initState() {
     super.initState();
-    const HobbyRepository().load().then((loaded) {
+    const HobbyRepository().loadAll().then((loaded) {
       if (mounted) setState(() => hobbies = loaded);
     });
   }
@@ -146,7 +146,7 @@ class _AddExistingHobbyPageState extends State<AddExistingHobbyPage> {
         padding: const EdgeInsets.fromLTRB(16, 4, 16, 32),
         children: [
           const Text(
-            'Already have a hobby? Add it to track sessions and progress.',
+            'Already have a hobby or a game you play? Add it to track sessions and progress.',
             style: TextStyle(color: AppColors.muted, fontSize: 15),
           ),
           const SizedBox(height: 14),
@@ -154,7 +154,7 @@ class _AddExistingHobbyPageState extends State<AddExistingHobbyPage> {
             key: const ValueKey('add-hobby-search'),
             decoration: const InputDecoration(
               prefixIcon: Icon(Icons.search),
-              hintText: 'Search hobbies',
+              hintText: 'Search hobbies and games',
             ),
             onChanged: (value) => setState(() => query = value),
           ),

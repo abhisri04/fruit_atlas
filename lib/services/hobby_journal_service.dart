@@ -185,14 +185,12 @@ abstract final class HobbyJournalService {
 
   /// Ticks the catalogue "tried" checklist, which also awards completion XP.
   static Future<void> _markTried(String hobbyId) async {
-    final ids = await ProgressService.getChallengeItemIds(
-      HobbyRepository.progressKey,
-    );
+    final key = hobbyId.startsWith('game_')
+        ? HobbyRepository.gamesProgressKey
+        : HobbyRepository.progressKey;
+    final ids = await ProgressService.getChallengeItemIds(key);
     if (ids.contains(hobbyId)) return;
-    await ProgressService.setChallengeItemIds(HobbyRepository.progressKey, {
-      ...ids,
-      hobbyId,
-    });
+    await ProgressService.setChallengeItemIds(key, {...ids, hobbyId});
   }
 
   static String levelLabel(int level) =>

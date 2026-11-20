@@ -1161,9 +1161,11 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                             ? widget.challenge.itemType ==
                                       'state_or_union_territory'
                                   ? 'Visited'
-                                  : widget.challenge.progressVerb == 'tried'
-                                  ? 'Tried'
-                                  : 'Explored'
+                                  : switch (widget.challenge.progressVerb) {
+                                      'tried' => 'Tried',
+                                      'played' => 'Played',
+                                      _ => 'Explored',
+                                    }
                             : widget.challenge.itemType ==
                                   'state_or_union_territory'
                             ? 'Mark as Visited'
@@ -1176,7 +1178,8 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                       ),
                     ),
                   ),
-                if (widget.challenge.itemType == 'hobby') ...[
+                if (widget.challenge.itemType == 'hobby' ||
+                    widget.challenge.itemType == 'game') ...[
                   const SizedBox(height: 12),
                   HobbyStartButton(item: widget.item),
                 ],

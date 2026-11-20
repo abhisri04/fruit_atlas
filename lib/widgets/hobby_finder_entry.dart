@@ -59,7 +59,7 @@ class HobbyFinderEntry extends StatelessWidget {
                       ),
                       SizedBox(height: 2),
                       Text(
-                        '150 ideas, indoors or out. Get matches or let us pick.',
+                        '250 hobbies & games, indoors or out. Get matches or let us pick.',
                         style: TextStyle(color: AppColors.muted),
                       ),
                     ],

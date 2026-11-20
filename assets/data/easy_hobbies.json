@@ -24,13 +24,11 @@
         "origami"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "20 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 20,
         "energy": "calm",
         "social": "solo",
@@ -79,13 +77,11 @@
         "sketching"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -134,13 +130,11 @@
         "doodling"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -190,13 +184,11 @@
         "hand lettering"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -245,13 +237,11 @@
         "watercolour"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "medium",
         "session_minutes": 45,
         "energy": "calm",
         "social": "solo",
@@ -301,13 +291,11 @@
         "rangoli"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -357,13 +345,11 @@
         "mehendi"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -412,13 +398,11 @@
         "crochet"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1–2 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 90,
         "energy": "calm",
         "social": "solo",
@@ -467,13 +451,11 @@
         "knitting"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 120,
         "energy": "calm",
         "social": "solo",
@@ -522,13 +504,11 @@
         "embroidery"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -578,13 +558,11 @@
         "block printing"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -633,13 +611,11 @@
         "clay modelling"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -688,13 +664,11 @@
         "paper quilling"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -744,13 +718,11 @@
         "collage"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "calm",
         "social": "solo",
@@ -799,13 +771,11 @@
         "upcycling"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -854,13 +824,11 @@
         "mandala art"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "calm",
         "social": "solo",
@@ -910,13 +878,11 @@
         "card making"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "calm",
         "social": "either",
@@ -965,13 +931,11 @@
         "sewing"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 120,
         "energy": "calm",
         "social": "solo",
@@ -1019,13 +983,11 @@
         "jewellery making"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 30,
         "energy": "calm",
         "social": "either",
@@ -1074,13 +1036,11 @@
         "comics"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "calm",
         "social": "solo",
@@ -1128,13 +1088,11 @@
         "rock painting"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 45,
         "energy": "calm",
         "social": "either",
@@ -1184,13 +1142,11 @@
         "folk art"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "calm",
         "social": "solo",
@@ -1240,13 +1196,11 @@
         "journaling"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "10 min a day"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 10,
         "energy": "calm",
         "social": "solo",
@@ -1296,13 +1250,11 @@
         "gratitude log"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "5 min a day"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 5,
         "energy": "calm",
         "social": "solo",
@@ -1350,13 +1302,11 @@
         "poetry"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "15 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "calm",
         "social": "solo",
@@ -1405,13 +1355,11 @@
         "story writing"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "calm",
         "social": "solo",
@@ -1459,13 +1407,11 @@
         "crosswords"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -1514,13 +1460,11 @@
         "sudoku"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -1569,13 +1513,11 @@
         "jigsaw puzzles"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "At home",
         "Time": "A few evenings"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "medium",
         "session_minutes": 120,
         "energy": "calm",
         "social": "either",
@@ -1625,13 +1567,11 @@
         "chess"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -1680,13 +1620,11 @@
         "rubik's cube"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "A few days"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -1735,13 +1673,11 @@
         "memorisation"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "A few days"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "calm",
         "social": "solo",
@@ -1790,13 +1726,11 @@
         "scripts"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -1844,13 +1778,11 @@
         "languages"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 week"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "calm",
         "social": "solo",
@@ -1899,13 +1831,11 @@
         "meditation"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "10 min a day"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 10,
         "energy": "calm",
         "social": "solo",
@@ -1953,13 +1883,11 @@
         "reading"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "30 min a day"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -2008,13 +1936,11 @@
         "letter writing"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 30,
         "energy": "calm",
         "social": "social",
@@ -2064,13 +1990,11 @@
         "word games"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "social",
@@ -2119,13 +2043,11 @@
         "dream journaling"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "5 min a day"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 5,
         "energy": "calm",
         "social": "solo",
@@ -2174,13 +2096,11 @@
         "reviewing"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "calm",
         "social": "solo",
@@ -2230,13 +2150,11 @@
         "mental maths"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -2285,13 +2203,11 @@
         "breathwork"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "5 min a day"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 5,
         "energy": "calm",
         "social": "solo",
@@ -2340,13 +2256,11 @@
         "birdwatching"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "A few mornings"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -2396,13 +2310,11 @@
         "stargazing"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -2451,13 +2363,11 @@
         "moon watching"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "2 weeks"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "calm",
         "social": "solo",
@@ -2507,13 +2417,11 @@
         "sunrise watching"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -2562,13 +2470,11 @@
         "tree spotting"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -2618,13 +2524,11 @@
         "butterfly spotting"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "A few mornings"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -2674,13 +2578,11 @@
         "nature walks"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "1–2 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 90,
         "energy": "moderate",
         "social": "either",
@@ -2730,13 +2632,11 @@
         "heritage walks"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "2–3 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 150,
         "energy": "moderate",
         "social": "either",
@@ -2786,13 +2686,11 @@
         "trekking"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "Outdoors",
         "Time": "1 day"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "low",
         "session_minutes": 360,
         "energy": "active",
         "social": "social",
@@ -2842,13 +2740,11 @@
         "cycling"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 120,
         "energy": "active",
         "social": "either",
@@ -2897,13 +2793,11 @@
         "kite flying"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "Outdoors",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "moderate",
         "social": "either",
@@ -2953,13 +2847,11 @@
         "cloud watching"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "A few days"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "calm",
         "social": "solo",
@@ -3009,13 +2901,11 @@
         "picnics"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "Outdoors",
         "Time": "2–3 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "low",
         "session_minutes": 150,
         "energy": "calm",
         "social": "social",
@@ -3065,13 +2955,11 @@
         "garden visits"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "Outdoors",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "low",
         "session_minutes": 120,
         "energy": "calm",
         "social": "either",
@@ -3120,13 +3008,11 @@
         "leaf pressing"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "1 week"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 20,
         "energy": "calm",
         "social": "solo",
@@ -3176,13 +3062,11 @@
         "monsoon walks"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "moderate",
         "social": "either",
@@ -3232,13 +3116,11 @@
         "camping"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "Outdoors",
         "Time": "Overnight"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "medium",
         "session_minutes": 720,
         "energy": "moderate",
         "social": "social",
@@ -3288,13 +3170,11 @@
         "day trips"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "Outdoors",
         "Time": "1 day"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "medium",
         "session_minutes": 480,
         "energy": "moderate",
         "social": "either",
@@ -3344,13 +3224,11 @@
         "farm visits"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "Outdoors",
         "Time": "Half a day"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "low",
         "session_minutes": 240,
         "energy": "moderate",
         "social": "social",
@@ -3399,13 +3277,11 @@
         "tree planting"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "Outdoors",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "moderate",
         "social": "either",
@@ -3455,13 +3331,11 @@
         "herb gardening"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "2–4 weeks"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 10,
         "energy": "calm",
         "social": "solo",
@@ -3510,13 +3384,11 @@
         "microgreens"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 week"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 10,
         "energy": "calm",
         "social": "solo",
@@ -3565,13 +3437,11 @@
         "composting"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr to start"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -3619,13 +3489,11 @@
         "propagation"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "2 weeks"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 10,
         "energy": "calm",
         "social": "solo",
@@ -3673,13 +3541,11 @@
         "bread baking"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "3 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 180,
         "energy": "calm",
         "social": "solo",
@@ -3728,13 +3594,11 @@
         "pickling"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr + resting"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -3784,13 +3648,11 @@
         "fermentation"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "Overnight"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -3839,13 +3701,11 @@
         "chai making"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "15 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 15,
         "energy": "calm",
         "social": "either",
@@ -3894,13 +3754,11 @@
         "cooking"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "moderate",
         "social": "either",
@@ -3949,13 +3807,11 @@
         "terrariums"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -4004,13 +3860,11 @@
         "baking"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -4060,13 +3914,11 @@
         "candle making"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -4114,13 +3966,11 @@
         "preserves"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -4168,13 +4018,11 @@
         "container vegetables"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "2–3 months"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 10,
         "energy": "calm",
         "social": "solo",
@@ -4224,13 +4072,11 @@
         "coffee brewing"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "20 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 20,
         "energy": "calm",
         "social": "either",
@@ -4279,13 +4125,11 @@
         "cheesemaking"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 45,
         "energy": "calm",
         "social": "solo",
@@ -4334,13 +4178,11 @@
         "singing"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "A few days"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 20,
         "energy": "moderate",
         "social": "either",
@@ -4390,13 +4232,11 @@
         "rhythm"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "moderate",
         "social": "solo",
@@ -4445,13 +4285,11 @@
         "instruments"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "At home",
         "Time": "1 week"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "medium",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -4501,13 +4339,11 @@
         "dance"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "A few days"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "active",
         "social": "either",
@@ -4556,13 +4392,11 @@
         "skipping"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "A few days"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 15,
         "energy": "active",
         "social": "solo",
@@ -4611,13 +4445,11 @@
         "gully cricket"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "1–2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 90,
         "energy": "active",
         "social": "social",
@@ -4667,13 +4499,11 @@
         "carrom"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "medium",
         "session_minutes": 60,
         "energy": "calm",
         "social": "social",
@@ -4723,13 +4553,11 @@
         "traditional games"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "active",
         "social": "social",
@@ -4778,13 +4606,11 @@
         "juggling"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "A few days"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 15,
         "energy": "moderate",
         "social": "solo",
@@ -4833,13 +4659,11 @@
         "magic tricks"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 30,
         "energy": "calm",
         "social": "either",
@@ -4888,13 +4712,11 @@
         "yo-yo"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "A few days"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 15,
         "energy": "moderate",
         "social": "solo",
@@ -4943,13 +4765,11 @@
         "antakshari"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "social",
@@ -4998,13 +4818,11 @@
         "beatboxing"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "moderate",
         "social": "solo",
@@ -5054,13 +4872,11 @@
         "lagori"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "active",
         "social": "social",
@@ -5109,13 +4925,11 @@
         "classical dance"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "active",
         "social": "solo",
@@ -5164,13 +4978,11 @@
         "table tennis"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "active",
         "social": "social",
@@ -5219,13 +5031,11 @@
         "phone photography"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "1–2 days"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "moderate",
         "social": "solo",
@@ -5273,13 +5083,11 @@
         "street photography"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "1 day"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 90,
         "energy": "moderate",
         "social": "solo",
@@ -5328,13 +5136,11 @@
         "video editing"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -5382,13 +5188,11 @@
         "stop motion"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -5436,13 +5240,11 @@
         "podcasting"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -5491,13 +5293,11 @@
         "time-lapse"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -5545,13 +5345,11 @@
         "photo-a-day"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "5 min a day"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 5,
         "energy": "calm",
         "social": "solo",
@@ -5600,13 +5398,11 @@
         "blogging"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1–2 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 90,
         "energy": "calm",
         "social": "solo",
@@ -5655,13 +5451,11 @@
         "running"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "active",
         "social": "either",
@@ -5709,13 +5503,11 @@
         "stretching"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "10 min a day"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 10,
         "energy": "calm",
         "social": "solo",
@@ -5764,13 +5556,11 @@
         "swimming"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "In your neighbourhood",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "medium",
         "session_minutes": 60,
         "energy": "active",
         "social": "either",
@@ -5818,13 +5608,11 @@
         "core strength"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "10 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 10,
         "energy": "active",
         "social": "solo",
@@ -5872,13 +5660,11 @@
         "bodyweight training"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "15 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "active",
         "social": "solo",
@@ -5926,13 +5712,11 @@
         "stair climbing"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "1 day"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "active",
         "social": "solo",
@@ -5981,13 +5765,11 @@
         "zumba"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "active",
         "social": "either",
@@ -6036,13 +5818,11 @@
         "badminton"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "active",
         "social": "social",
@@ -6091,13 +5871,11 @@
         "football"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "1–2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 90,
         "energy": "active",
         "social": "social",
@@ -6146,13 +5924,11 @@
         "climbing"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "In your neighbourhood",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "medium",
         "session_minutes": 120,
         "energy": "active",
         "social": "either",
@@ -6202,13 +5978,11 @@
         "walking"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "1 day"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 90,
         "energy": "moderate",
         "social": "solo",
@@ -6256,13 +6030,11 @@
         "skating"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "In your neighbourhood",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "medium",
         "session_minutes": 60,
         "energy": "active",
         "social": "either",
@@ -6312,13 +6084,11 @@
         "martial arts"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "active",
         "social": "social",
@@ -6366,13 +6136,11 @@
         "basketball"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "active",
         "social": "either",
@@ -6420,13 +6188,11 @@
         "home workouts"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "20 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 20,
         "energy": "active",
         "social": "solo",
@@ -6474,13 +6240,11 @@
         "tai chi"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "15 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "calm",
         "social": "solo",
@@ -6529,13 +6293,11 @@
         "hula hooping"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "15 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 15,
         "energy": "active",
         "social": "solo",
@@ -6584,13 +6346,11 @@
         "5k events"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "active",
         "social": "social",
@@ -6639,13 +6399,11 @@
         "sign language"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -6694,13 +6452,11 @@
         "coding"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -6749,13 +6505,11 @@
         "touch typing"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "15 min a day"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "calm",
         "social": "solo",
@@ -6803,13 +6557,11 @@
         "documentaries"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1–2 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 90,
         "energy": "calm",
         "social": "either",
@@ -6858,13 +6610,11 @@
         "first aid"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 120,
         "energy": "calm",
         "social": "solo",
@@ -6913,13 +6663,11 @@
         "museums"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 120,
         "energy": "calm",
         "social": "either",
@@ -6967,13 +6715,11 @@
         "knot tying"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 45,
         "energy": "calm",
         "social": "solo",
@@ -7021,13 +6767,11 @@
         "navigation"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "Outdoors",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "low",
         "session_minutes": 120,
         "energy": "moderate",
         "social": "either",
@@ -7075,13 +6819,11 @@
         "online learning"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1–2 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 90,
         "energy": "calm",
         "social": "solo",
@@ -7129,13 +6871,11 @@
         "bike repair"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "45 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 45,
         "energy": "moderate",
         "social": "solo",
@@ -7183,13 +6923,11 @@
         "diy repair"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "moderate",
         "social": "solo",
@@ -7238,13 +6976,11 @@
         "electronics"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 60,
         "energy": "calm",
         "social": "solo",
@@ -7292,13 +7028,11 @@
         "local history"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 90,
         "energy": "calm",
         "social": "either",
@@ -7348,13 +7082,11 @@
         "birdsong"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "A few mornings"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "solo",
@@ -7404,13 +7136,11 @@
         "home science"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "either",
@@ -7459,13 +7189,11 @@
         "volunteering"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "Half a day"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 240,
         "energy": "moderate",
         "social": "social",
@@ -7513,13 +7241,11 @@
         "clubs"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 120,
         "energy": "calm",
         "social": "social",
@@ -7568,13 +7294,11 @@
         "board games"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "3 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 180,
         "energy": "calm",
         "social": "social",
@@ -7623,13 +7347,11 @@
         "hosting"
       ],
       "metadata": {
-        "Cost": "Under ₹1,500",
         "Where": "At home",
         "Time": "3 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "medium",
         "session_minutes": 180,
         "energy": "moderate",
         "social": "social",
@@ -7678,13 +7400,11 @@
         "cleanup drives"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "Outdoors",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "outdoor",
-        "cost": "free",
         "session_minutes": 120,
         "energy": "moderate",
         "social": "social",
@@ -7733,13 +7453,11 @@
         "teaching"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "social",
@@ -7788,13 +7506,11 @@
         "book clubs"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 120,
         "energy": "calm",
         "social": "social",
@@ -7844,13 +7560,11 @@
         "festivals"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "Half a day"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 240,
         "energy": "moderate",
         "social": "social",
@@ -7899,13 +7613,11 @@
         "quizzing"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 120,
         "energy": "calm",
         "social": "social",
@@ -7954,13 +7666,11 @@
         "karaoke"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 120,
         "energy": "moderate",
         "social": "social",
@@ -8009,13 +7719,11 @@
         "reconnecting"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "30 min"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 30,
         "energy": "calm",
         "social": "social",
@@ -8063,13 +7771,11 @@
         "potlucks"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "At home",
         "Time": "3 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "low",
         "session_minutes": 180,
         "energy": "calm",
         "social": "social",
@@ -8117,13 +7823,11 @@
         "open mics"
       ],
       "metadata": {
-        "Cost": "Under ₹300",
         "Where": "In your neighbourhood",
         "Time": "2 hr"
       },
       "attributes": {
         "setting": "either",
-        "cost": "low",
         "session_minutes": 120,
         "energy": "calm",
         "social": "social",
@@ -8172,13 +7876,11 @@
         "kindness"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "In your neighbourhood",
         "Time": "15 min"
       },
       "attributes": {
         "setting": "either",
-        "cost": "free",
         "session_minutes": 15,
         "energy": "calm",
         "social": "social",
@@ -8226,13 +7928,11 @@
         "oral history"
       ],
       "metadata": {
-        "Cost": "Free",
         "Where": "At home",
         "Time": "1 hr"
       },
       "attributes": {
         "setting": "indoor",
-        "cost": "free",
         "session_minutes": 60,
         "energy": "calm",
         "social": "social",

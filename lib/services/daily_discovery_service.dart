@@ -62,6 +62,15 @@ class DailyDiscoveryService {
     final completedHobbies = hobbyChallenge == null
         ? <String>{}
         : await ProgressService.getChallengeItemIds(hobbyChallenge.progressKey);
+    final gameChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'game')
+        .firstOrNull;
+    final gameItems = gameChallenge == null
+        ? const <Item>[]
+        : await data.loadChallengeItems(gameChallenge);
+    final completedGames = gameChallenge == null
+        ? <String>{}
+        : await ProgressService.getChallengeItemIds(gameChallenge.progressKey);
     final jyotirlingas = await data.loadJyotirlingas();
     final dishCatalogue = await const IndianDishesRepository().load();
     final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
@@ -213,6 +222,22 @@ class DailyDiscoveryService {
             categoryId: hobbyChallenge.categoryId,
             hobby: hobby,
             hobbyChallenge: hobbyChallenge,
+          ),
+        );
+      }
+    }
+    if (gameChallenge != null) {
+      for (final game in gameItems) {
+        if (excludeCompleted && completedGames.contains(game.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.game,
+            canonicalId: game.id,
+            title: game.name,
+            subtitle: game.category ?? 'Game',
+            categoryId: gameChallenge.categoryId,
+            hobby: game,
+            hobbyChallenge: gameChallenge,
           ),
         );
       }

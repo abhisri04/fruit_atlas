@@ -2,6 +2,8 @@
 
 _Researched 2026-11-20 for UPLYFA. Status: **implemented** as the `try_easy_hobbies` challenge (`assets/data/easy_hobbies.json`). The JSON snippets below are the original proposal. The shipped entry also sets `completion_filters` and `item_summary`, omits `geography`, and stores hobby groups in `filter_group` with display labels such as "Creative & Crafts"._
 
+> **Product decision (later):** cost tiers were removed from the app. Money can stop people trying something they'd enjoy, so hobbies and games are never labelled, filtered or matched by price. The cost columns below are research notes only.
+
 ## Source note
 
 This was meant to come from r/Hobbies, but Reddit blocks Claude at every route (browser, page fetch, web search). **None of this list comes from Reddit.** It combines publicly accessible hobby round-ups, adult hobby surveys and India-focused hobby features (sources at the end), filtered for UPLYFA's own constraints.

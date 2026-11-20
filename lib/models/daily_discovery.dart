@@ -16,6 +16,7 @@ enum DailyDiscoveryType {
   jyotirlinga,
   book,
   hobby,
+  game,
 }
 
 class DailyDiscovery {
@@ -34,7 +35,11 @@ class DailyDiscovery {
   final Challenge? locationChallenge;
   final JyotirlingaSite? jyotirlinga;
   final Book? book;
+
+  /// The checklist item for hobby and game discoveries.
   final Item? hobby;
+
+  /// The challenge the [hobby] item belongs to.
   final Challenge? hobbyChallenge;
 
   const DailyDiscovery({

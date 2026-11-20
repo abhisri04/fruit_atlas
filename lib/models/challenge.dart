@@ -84,6 +84,7 @@ class Challenge {
       'faith_pilgrimage' => 'Faith & Pilgrimage',
       'collecting' => 'Collecting',
       'life_experiences' => 'Life Experiences',
+      'games_play' => 'Games & Play',
       _ => 'Explore',
     };
   }

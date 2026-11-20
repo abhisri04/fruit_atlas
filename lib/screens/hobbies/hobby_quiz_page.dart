@@ -76,32 +76,6 @@ final _questions = <_Question>[
     ],
   ),
   _Question(
-    title: 'What\'s your budget to start?',
-    subtitle: 'Most hobbies here cost little or nothing.',
-    options: [
-      _Option(
-        label: 'Free only',
-        icon: Icons.money_off_outlined,
-        apply: (p) => p.copyWith(budget: HobbyCost.free),
-        isSelected: (p) => p.budget == HobbyCost.free,
-      ),
-      _Option(
-        label: 'A little',
-        hint: 'Under ₹300',
-        icon: Icons.currency_rupee,
-        apply: (p) => p.copyWith(budget: HobbyCost.low),
-        isSelected: (p) => p.budget == HobbyCost.low,
-      ),
-      _Option(
-        label: 'Happy to invest a bit',
-        hint: 'Under ₹1,500',
-        icon: Icons.savings_outlined,
-        apply: (p) => p.copyWith(budget: HobbyCost.medium),
-        isSelected: (p) => p.budget == HobbyCost.medium,
-      ),
-    ],
-  ),
-  _Question(
     title: 'How much time do you usually have?',
     subtitle: 'For one session.',
     options: [

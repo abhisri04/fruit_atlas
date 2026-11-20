@@ -11,5 +11,10 @@ IconData hobbyGroupIcon(String? group) => switch (group) {
   'Fitness & Movement' => Icons.directions_run,
   'Learn & Explore' => Icons.lightbulb_outline,
   'People & Community' => Icons.diversity_3_outlined,
+  'Card Games' => Icons.style_outlined,
+  'Board Games' => Icons.casino_outlined,
+  'Traditional Indian Games' => Icons.grid_on_outlined,
+  'Outdoor Games' => Icons.sports_handball_outlined,
+  'Party & Indoor Games' => Icons.celebration_outlined,
   _ => Icons.auto_awesome_outlined,
 };

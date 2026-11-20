@@ -48,7 +48,7 @@ class _HobbyJournalPageState extends State<HobbyJournalPage> {
 
   Future<void> _load() async {
     final loaded = await HobbyJournalService.get(widget.hobbyId);
-    final catalogue = await const HobbyRepository().load();
+    final catalogue = await const HobbyRepository().loadAll();
     if (!mounted) return;
     setState(() {
       record = loaded;

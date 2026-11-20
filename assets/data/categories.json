@@ -34,6 +34,11 @@
       "id": "life_experiences",
       "name": "Life Experiences",
       "description": "Try meaningful, memorable and unusual experiences."
+    },
+    {
+      "id": "games_play",
+      "name": "Games & Play",
+      "description": "Card, board, outdoor and party games worth playing."
     }
   ]
 }

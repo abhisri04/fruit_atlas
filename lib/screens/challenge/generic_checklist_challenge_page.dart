@@ -128,15 +128,19 @@ class _GenericChecklistChallengePageState
 
   String get _doneLabel => _isStates
       ? 'Visited'
-      : widget.challenge.progressVerb == 'tried'
-      ? 'Tried'
-      : 'Explored';
+      : switch (widget.challenge.progressVerb) {
+          'tried' => 'Tried',
+          'played' => 'Played',
+          _ => 'Explored',
+        };
 
   String get _todoLabel => _isStates
       ? 'Not Visited'
-      : widget.challenge.progressVerb == 'tried'
-      ? 'To Try'
-      : 'To Explore';
+      : switch (widget.challenge.progressVerb) {
+          'tried' => 'To Try',
+          'played' => 'To Play',
+          _ => 'To Explore',
+        };
 
   @override
   Widget build(BuildContext context) {
@@ -201,7 +205,8 @@ class _GenericChecklistChallengePageState
                       '$completedCount of ${items.length} ${widget.challenge.progressVerb}',
                   progress: progress,
                 ),
-                if (widget.challenge.itemType == 'hobby') ...[
+                if (widget.challenge.itemType == 'hobby' ||
+                    widget.challenge.itemType == 'game') ...[
                   const SizedBox(height: 12),
                   HobbyFinderEntry(onReturn: loadChallenge),
                 ],
@@ -318,9 +323,17 @@ class _GenericChecklistChallengePageState
                           color: completed ? AppColors.primary : AppColors.ink,
                         ),
                       ),
-                      subtitle: item.category == null
-                          ? null
-                          : Text(item.category!),
+                      // Games: players and length say more than the name.
+                      subtitle: switch (item.metadata['Players']) {
+                        final players? => Text(
+                          [
+                            '$players players',
+                            item.metadata['Time'],
+                          ].whereType<String>().join(' · '),
+                        ),
+                        _ =>
+                          item.category == null ? null : Text(item.category!),
+                      },
                       onTap:
                           widget.challenge.presentationType ==
                               'checklist_with_details'
