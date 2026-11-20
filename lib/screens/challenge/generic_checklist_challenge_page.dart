@@ -19,6 +19,7 @@ import '../../widgets/achievement_card.dart';
 import '../../widgets/saved_challenge_button.dart';
 import '../../widgets/exploration_section_card.dart';
 import '../../widgets/yoga_pose_tile.dart';
+import '../../widgets/challenge_icon.dart';
 import 'checklist_item_details_page.dart';
 
 class GenericChecklistChallengePage extends StatefulWidget {
@@ -120,6 +121,20 @@ class _GenericChecklistChallengePageState
     });
   }
 
+  bool get _isStates => widget.challenge.itemType == 'state_or_union_territory';
+
+  String get _doneLabel => _isStates
+      ? 'Visited'
+      : widget.challenge.progressVerb == 'tried'
+      ? 'Tried'
+      : 'Explored';
+
+  String get _todoLabel => _isStates
+      ? 'Not Visited'
+      : widget.challenge.progressVerb == 'tried'
+      ? 'To Try'
+      : 'To Explore';
+
   @override
   Widget build(BuildContext context) {
     if (widget.challenge.itemType == 'yoga_pose') {
@@ -129,8 +144,12 @@ class _GenericChecklistChallengePageState
         .where(
           (item) => switch (selectedCategory) {
             'All' => true,
-            'Explored' || 'Visited' => completedIds.contains(item.id),
-            'To Explore' || 'Not Visited' => !completedIds.contains(item.id),
+            _ when selectedCategory == _doneLabel => completedIds.contains(
+              item.id,
+            ),
+            _ when selectedCategory == _todoLabel => !completedIds.contains(
+              item.id,
+            ),
             _ => (item.filterGroup ?? item.category) == selectedCategory,
           },
         )
@@ -167,9 +186,9 @@ class _GenericChecklistChallengePageState
                 ExplorationHero(
                   title: widget.challenge.name,
                   accent: AppColors.categoryAccent(widget.challenge.categoryId),
-                  icon: widget.challenge.itemType == 'state_or_union_territory'
+                  icon: _isStates
                       ? Icons.map_outlined
-                      : Icons.self_improvement,
+                      : challengeIcon(widget.challenge.iconIdentifier),
                   subtitle: widget.challenge.description,
                 ),
                 ProgressCard(
@@ -212,12 +231,8 @@ class _GenericChecklistChallengePageState
                       'All',
                       ...categoryFilters,
                       if (widget.challenge.completionFilters) ...[
-                        widget.challenge.itemType == 'state_or_union_territory'
-                            ? 'Visited'
-                            : 'Explored',
-                        widget.challenge.itemType == 'state_or_union_territory'
-                            ? 'Not Visited'
-                            : 'To Explore',
+                        _doneLabel,
+                        _todoLabel,
                       ],
                     ],
                     selected: selectedCategory,
@@ -267,9 +282,9 @@ class _GenericChecklistChallengePageState
                   margin: const EdgeInsets.only(bottom: 8),
                   child: ListTile(
                     leading: Icon(
-                      widget.challenge.itemType == 'state_or_union_territory'
+                      _isStates
                           ? Icons.location_on_outlined
-                          : Icons.self_improvement,
+                          : challengeIcon(widget.challenge.iconIdentifier),
                     ),
                     title: Text(
                       item.name,

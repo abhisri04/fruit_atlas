@@ -10,5 +10,6 @@ IconData challengeIcon(String identifier) => switch (identifier) {
   'state' => Icons.map_outlined,
   'book' => Icons.menu_book_outlined,
   'perfume' => Icons.local_florist_outlined,
+  'hobby' => Icons.palette_outlined,
   _ => Icons.emoji_events_outlined,
 };

@@ -33,6 +33,7 @@ import '../../widgets/exploration_section_card.dart';
 import '../../widgets/experience_tile.dart';
 import '../../widgets/experience_collection_tile.dart';
 import '../../widgets/yoga_pose_tile.dart';
+import '../../widgets/challenge_icon.dart';
 import '../../widgets/fruit_image.dart';
 
 class ChecklistItemDetailsPage extends StatefulWidget {
@@ -1113,7 +1114,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                 Icon(
                   widget.challenge.itemType == 'state_or_union_territory'
                       ? Icons.location_on_outlined
-                      : Icons.checklist_outlined,
+                      : challengeIcon(widget.challenge.iconIdentifier),
                   size: 72,
                   color: AppColors.primary,
                 ),
@@ -1158,6 +1159,8 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                             ? widget.challenge.itemType ==
                                       'state_or_union_territory'
                                   ? 'Visited'
+                                  : widget.challenge.progressVerb == 'tried'
+                                  ? 'Tried'
                                   : 'Explored'
                             : widget.challenge.itemType ==
                                   'state_or_union_territory'
@@ -1181,6 +1184,32 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                   widget.item.description ?? 'No description is available yet.',
                   style: const TextStyle(fontSize: 16, height: 1.5),
                 ),
+                if (widget.item.howToSteps.isNotEmpty) ...[
+                  const SizedBox(height: 24),
+                  Text(
+                    'How to start',
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
+                  const SizedBox(height: 8),
+                  for (final (index, step) in widget.item.howToSteps.indexed)
+                    ListTile(
+                      dense: true,
+                      contentPadding: EdgeInsets.zero,
+                      leading: CircleAvatar(
+                        radius: 13,
+                        backgroundColor: AppColors.accentSurface,
+                        child: Text(
+                          '${index + 1}',
+                          style: const TextStyle(
+                            fontSize: 12,
+                            fontWeight: FontWeight.w700,
+                            color: AppColors.primary,
+                          ),
+                        ),
+                      ),
+                      title: Text(step, style: const TextStyle(fontSize: 15)),
+                    ),
+                ],
                 if (widget.item.metadata.isNotEmpty) ...[
                   const SizedBox(height: 24),
                   ...widget.item.metadata.entries.map(

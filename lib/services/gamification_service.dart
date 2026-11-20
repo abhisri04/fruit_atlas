@@ -71,6 +71,7 @@ class GamificationService {
           item.startsWith('state:') ||
           item.startsWith('experience:') ||
           item.startsWith('district:') ||
+          item.startsWith('hobby:') ||
           item.startsWith('jyotirlinga:'),
     );
     final questComplete = foodComplete && worldComplete;
@@ -121,7 +122,7 @@ class GamificationService {
           ),
           QuestTask(
             id: 'world',
-            label: 'Learn a pose or visit a place',
+            label: 'Learn a pose, visit a place or try a hobby',
             conditionGroup: 'wellness_travel_faith',
             completed: worldComplete,
           ),

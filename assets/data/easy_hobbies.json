@@ -1,0 +1,1599 @@
+{
+  "challenge_id": "try_easy_hobbies",
+  "version": 1,
+  "source_note": "Curated from public hobby guides and surveys; see docs/research/easy_hobbies_shortlist.md.",
+  "items": [
+    {
+      "id": "hobby_origami_crane",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Fold a paper crane",
+      "category": "Origami",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "The classic Japanese paper fold. A crane takes about twenty minutes and only a square of paper.",
+      "howToSteps": [
+        "Cut any sheet of paper into a square.",
+        "Follow a beginner crane tutorial one fold at a time.",
+        "Crease every fold firmly before moving on."
+      ],
+      "tags": [
+        "paper",
+        "mindful"
+      ],
+      "keywords": [
+        "origami"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "20 min"
+      }
+    },
+    {
+      "id": "hobby_sketch_from_life",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Draw an object from life",
+      "category": "Sketching",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "Pick something in your room and draw what you actually see, not what you think it looks like.",
+      "howToSteps": [
+        "Choose a simple object such as a mug or a shoe.",
+        "Sketch light outlines first, then add shading.",
+        "Spend at least 15 minutes looking more than drawing."
+      ],
+      "tags": [
+        "drawing",
+        "art"
+      ],
+      "keywords": [
+        "sketching"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "30 min"
+      }
+    },
+    {
+      "id": "hobby_zentangle_page",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Fill a page with one repeating pattern",
+      "category": "Doodling",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "Pattern doodling (often called Zentangle) is a calming, no-skill-needed way to start drawing.",
+      "howToSteps": [
+        "Draw a border on a blank page.",
+        "Pick one simple pattern of lines, dots or waves.",
+        "Repeat it until the page is full."
+      ],
+      "tags": [
+        "drawing",
+        "mindful"
+      ],
+      "keywords": [
+        "doodling"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "30 min"
+      }
+    },
+    {
+      "id": "hobby_hand_lettering",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Letter your name in three styles",
+      "category": "Hand lettering",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "Hand lettering and calligraphy turn everyday writing into something decorative.",
+      "howToSteps": [
+        "Write your name in neat capitals.",
+        "Write it again in joined-up script with thick downstrokes.",
+        "Try a third style of your own, then pick a favourite."
+      ],
+      "tags": [
+        "writing",
+        "art",
+        "calligraphy"
+      ],
+      "keywords": [
+        "hand lettering"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "30 min"
+      }
+    },
+    {
+      "id": "hobby_watercolour_sky",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Paint a simple sky gradient",
+      "category": "Watercolour",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "A sky wash is the first exercise most watercolour painters learn.",
+      "howToSteps": [
+        "Wet the top half of the paper with clean water.",
+        "Drop in blue at the top and let it fade downwards.",
+        "Add a band of orange near the horizon and let it dry flat."
+      ],
+      "tags": [
+        "painting",
+        "art"
+      ],
+      "keywords": [
+        "watercolour"
+      ],
+      "metadata": {
+        "Cost": "₹₹",
+        "Where": "At home",
+        "Time": "45 min"
+      }
+    },
+    {
+      "id": "hobby_rangoli_doorstep",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Make a rangoli at your doorstep",
+      "category": "Rangoli",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "A traditional Indian floor design of coloured powder, rice or flowers, made to welcome guests.",
+      "howToSteps": [
+        "Mark a grid of dots with chalk or rice flour.",
+        "Join the dots into a symmetrical design.",
+        "Fill it in with colours or petals."
+      ],
+      "tags": [
+        "india",
+        "festival",
+        "art"
+      ],
+      "keywords": [
+        "rangoli"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_mehendi_pattern",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Draw a mehendi pattern on your hand",
+      "category": "Mehendi",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "Henna art is a celebration tradition across India. Start with a simple floral motif.",
+      "howToSteps": [
+        "Practise the design on paper first.",
+        "Apply henna in thin, steady lines.",
+        "Let it dry for a few hours before scraping it off."
+      ],
+      "tags": [
+        "india",
+        "festival",
+        "art"
+      ],
+      "keywords": [
+        "mehendi"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_crochet_coaster",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Crochet a simple coaster",
+      "category": "Crochet",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "A round coaster teaches the chain, slip stitch and single crochet: the basics of almost every project.",
+      "howToSteps": [
+        "Get a ball of cotton yarn and a hook.",
+        "Follow a beginner coaster tutorial.",
+        "Finish by weaving in the loose ends."
+      ],
+      "tags": [
+        "yarn",
+        "mindful"
+      ],
+      "keywords": [
+        "crochet"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1–2 hr"
+      }
+    },
+    {
+      "id": "hobby_knit_swatch",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Knit a 10 × 10 cm swatch",
+      "category": "Knitting",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "A practice square is how every knitter learns to cast on, knit, purl and cast off.",
+      "howToSteps": [
+        "Cast on about 20 stitches.",
+        "Knit rows until the piece is square.",
+        "Cast off and admire your first fabric."
+      ],
+      "tags": [
+        "yarn",
+        "mindful"
+      ],
+      "keywords": [
+        "knitting"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "2 hr"
+      }
+    },
+    {
+      "id": "hobby_embroider_initial",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Stitch your initial on cloth",
+      "category": "Embroidery",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "Embroidery needs only a needle, thread and scrap fabric to get started.",
+      "howToSteps": [
+        "Draw your initial lightly on a piece of cloth.",
+        "Outline it with a backstitch.",
+        "Fill it in with a satin stitch if you like."
+      ],
+      "tags": [
+        "sewing",
+        "craft"
+      ],
+      "keywords": [
+        "embroidery"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_block_print",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Print a pattern with a block",
+      "category": "Block printing",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "India's block-printing tradition can be tried at home with a carved potato or a wooden block.",
+      "howToSteps": [
+        "Cut a simple shape into half a potato, or use a wooden block.",
+        "Dab it in fabric or poster paint.",
+        "Print a repeating pattern on paper or cloth."
+      ],
+      "tags": [
+        "india",
+        "craft",
+        "printing"
+      ],
+      "keywords": [
+        "block printing"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_clay_diya",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Shape a small diya or pot",
+      "category": "Clay modelling",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "Air-dry clay lets you try pottery without a wheel or kiln.",
+      "howToSteps": [
+        "Knead a lump of air-dry clay until soft.",
+        "Pinch it into a small bowl or diya shape.",
+        "Let it dry for a day, then paint it if you wish."
+      ],
+      "tags": [
+        "clay",
+        "craft",
+        "india"
+      ],
+      "keywords": [
+        "clay modelling"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_paper_quilling",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Make a quilled flower",
+      "category": "Paper quilling",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "Quilling rolls thin strips of paper into coils that form flowers and patterns.",
+      "howToSteps": [
+        "Cut or buy thin paper strips.",
+        "Roll strips tightly around a toothpick and pinch them into petals.",
+        "Glue the petals into a flower on card."
+      ],
+      "tags": [
+        "paper",
+        "craft"
+      ],
+      "keywords": [
+        "paper quilling"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_magazine_collage",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Make a one-page collage",
+      "category": "Collage",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "Collage turns old magazines and newspapers into art. There's no wrong answer.",
+      "howToSteps": [
+        "Collect pictures and words around one theme.",
+        "Arrange them on a page before gluing.",
+        "Glue everything down and give it a title."
+      ],
+      "tags": [
+        "paper",
+        "art",
+        "upcycling"
+      ],
+      "keywords": [
+        "collage"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "45 min"
+      }
+    },
+    {
+      "id": "hobby_upcycle_jar",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Turn a jar or bottle into something useful",
+      "category": "Upcycling",
+      "filter_group": "Creative & Crafts",
+      "difficulty": "beginner",
+      "about": "Give something headed for the bin a second life as a planter, lamp or organiser.",
+      "howToSteps": [
+        "Clean a glass jar or plastic bottle.",
+        "Decide what it will become.",
+        "Paint, wrap or cut it to finish the job."
+      ],
+      "tags": [
+        "craft",
+        "sustainability"
+      ],
+      "keywords": [
+        "upcycling"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_journal_seven_days",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Journal for 7 days in a row",
+      "category": "Journaling",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "A few lines a day is enough to start a journaling habit.",
+      "howToSteps": [
+        "Pick a notebook or notes app.",
+        "Write at least three sentences each day.",
+        "Read back the whole week on day seven."
+      ],
+      "tags": [
+        "writing",
+        "habit",
+        "mindful"
+      ],
+      "keywords": [
+        "journaling"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "7 days"
+      }
+    },
+    {
+      "id": "hobby_gratitude_week",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Note three gratitudes a day for a week",
+      "category": "Gratitude log",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "A short daily gratitude list is one of the simplest well-being habits.",
+      "howToSteps": [
+        "Each evening, write down three things you are grateful for.",
+        "Be specific: name people, moments and places.",
+        "Keep going for seven days."
+      ],
+      "tags": [
+        "writing",
+        "habit",
+        "mindful"
+      ],
+      "keywords": [
+        "gratitude log"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "7 days"
+      }
+    },
+    {
+      "id": "hobby_write_haiku",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Write a haiku",
+      "category": "Poetry",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "Three lines of five, seven and five syllables. Small enough to finish in one sitting.",
+      "howToSteps": [
+        "Pick a moment you noticed today.",
+        "Write three lines of 5, 7 and 5 syllables.",
+        "Read it aloud and adjust the words."
+      ],
+      "tags": [
+        "writing",
+        "poetry"
+      ],
+      "keywords": [
+        "poetry"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "15 min"
+      }
+    },
+    {
+      "id": "hobby_short_story",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Write a 300-word story",
+      "category": "Story writing",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "Very short fiction is a quick way to start writing stories.",
+      "howToSteps": [
+        "Pick a character and one problem they face.",
+        "Write a beginning, a turning point and an ending.",
+        "Trim it to about 300 words."
+      ],
+      "tags": [
+        "writing",
+        "fiction"
+      ],
+      "keywords": [
+        "story writing"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "45 min"
+      }
+    },
+    {
+      "id": "hobby_newspaper_crossword",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Finish a crossword",
+      "category": "Crosswords",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "Newspaper and online crosswords build vocabulary and make a good daily ritual.",
+      "howToSteps": [
+        "Start with an easy or quick crossword.",
+        "Fill in the clues you're sure of first.",
+        "Use crossing letters to crack the rest."
+      ],
+      "tags": [
+        "puzzle",
+        "words"
+      ],
+      "keywords": [
+        "crosswords"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "30 min"
+      }
+    },
+    {
+      "id": "hobby_solve_sudoku",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Solve a medium sudoku",
+      "category": "Sudoku",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "Number logic with no maths required.",
+      "howToSteps": [
+        "Pick a medium-difficulty puzzle.",
+        "Scan rows, columns and boxes for missing numbers.",
+        "Pencil in candidates when you get stuck."
+      ],
+      "tags": [
+        "puzzle",
+        "logic"
+      ],
+      "keywords": [
+        "sudoku"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "30 min"
+      }
+    },
+    {
+      "id": "hobby_jigsaw_500",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Complete a 500-piece jigsaw",
+      "category": "Jigsaw puzzles",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "A satisfying slow hobby, and good to do with family.",
+      "howToSteps": [
+        "Sort out the edge pieces first.",
+        "Group the rest by colour or pattern.",
+        "Build outwards from the parts you recognise."
+      ],
+      "tags": [
+        "puzzle",
+        "family"
+      ],
+      "keywords": [
+        "jigsaw puzzles"
+      ],
+      "metadata": {
+        "Cost": "₹₹",
+        "Where": "At home",
+        "Time": "A few evenings"
+      }
+    },
+    {
+      "id": "hobby_chess_game",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Play a full game of chess",
+      "category": "Chess",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "Chess began in India as chaturanga. Learn the moves and play one game to the end.",
+      "howToSteps": [
+        "Learn how each piece moves.",
+        "Play a friend or a free beginner app.",
+        "Finish the game, win or lose."
+      ],
+      "tags": [
+        "game",
+        "strategy",
+        "india"
+      ],
+      "keywords": [
+        "chess"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_rubiks_cube",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Solve a 3×3 cube",
+      "category": "Rubik's cube",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "With the layer-by-layer beginner method, anyone can solve the cube.",
+      "howToSteps": [
+        "Learn the beginner method from a tutorial.",
+        "Solve one layer at a time.",
+        "Complete the whole cube once without help."
+      ],
+      "tags": [
+        "puzzle",
+        "logic"
+      ],
+      "keywords": [
+        "rubik's cube"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "A few days"
+      }
+    },
+    {
+      "id": "hobby_memorise_poem",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Learn a poem or shloka by heart",
+      "category": "Memorisation",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "Memorising verse is an old Indian learning tradition and good exercise for the brain.",
+      "howToSteps": [
+        "Choose a short poem, doha or shloka.",
+        "Learn it two lines at a time.",
+        "Recite the whole thing from memory."
+      ],
+      "tags": [
+        "memory",
+        "india",
+        "poetry"
+      ],
+      "keywords": [
+        "memorisation"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "A few days"
+      }
+    },
+    {
+      "id": "hobby_new_script_name",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Write your name in another Indian script",
+      "category": "Scripts",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "India has more than a dozen scripts. Try Devanagari, Tamil, Bengali, Gurmukhi or another.",
+      "howToSteps": [
+        "Pick a script you can't yet read.",
+        "Learn the letters that spell your name.",
+        "Write your name neatly ten times."
+      ],
+      "tags": [
+        "language",
+        "india",
+        "writing"
+      ],
+      "keywords": [
+        "scripts"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "30 min"
+      }
+    },
+    {
+      "id": "hobby_twenty_words",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Learn 20 words in a new language",
+      "category": "Languages",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "A first vocabulary of greetings, numbers and food words.",
+      "howToSteps": [
+        "Pick a language you're curious about.",
+        "Learn greetings, numbers 1–10 and a few foods.",
+        "Test yourself the next day."
+      ],
+      "tags": [
+        "language",
+        "learning"
+      ],
+      "keywords": [
+        "languages"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "1 week"
+      }
+    },
+    {
+      "id": "hobby_meditate_week",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Meditate 10 minutes a day for 7 days",
+      "category": "Meditation",
+      "filter_group": "Mind & Words",
+      "difficulty": "beginner",
+      "about": "Sitting quietly and following the breath is the simplest form of meditation.",
+      "howToSteps": [
+        "Sit comfortably somewhere quiet.",
+        "Follow your breath, and return to it when your mind wanders.",
+        "Repeat daily for a week."
+      ],
+      "tags": [
+        "mindful",
+        "habit",
+        "wellness"
+      ],
+      "keywords": [
+        "meditation"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "7 days"
+      }
+    },
+    {
+      "id": "hobby_ten_birds",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Identify 10 bird species near home",
+      "category": "Birdwatching",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "Mynas, bulbuls, sunbirds, kites: there's a lot to spot from a balcony or park.",
+      "howToSteps": [
+        "Go out early in the morning, when birds are most active.",
+        "Note colour, size, call and behaviour.",
+        "Identify each bird with a field guide or free app."
+      ],
+      "tags": [
+        "nature",
+        "birds",
+        "outdoors"
+      ],
+      "keywords": [
+        "birdwatching"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "Outdoors",
+        "Time": "A few mornings"
+      }
+    },
+    {
+      "id": "hobby_planet_constellation",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Spot a planet and a constellation",
+      "category": "Stargazing",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "No telescope needed. Venus, Jupiter and Orion are easy to find with the naked eye.",
+      "howToSteps": [
+        "Find a dark spot away from bright lights.",
+        "Use a free sky-map app to find a planet.",
+        "Trace one constellation, such as Orion or Saptarishi (the Big Dipper)."
+      ],
+      "tags": [
+        "sky",
+        "night",
+        "outdoors"
+      ],
+      "keywords": [
+        "stargazing"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "Outdoors",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_moon_phases",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Photograph three moon phases",
+      "category": "Moon watching",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "Watch the moon change over a couple of weeks.",
+      "howToSteps": [
+        "Photograph the moon on three different nights.",
+        "Try to capture a crescent, a half and a full moon.",
+        "Put the photos side by side."
+      ],
+      "tags": [
+        "sky",
+        "photography"
+      ],
+      "keywords": [
+        "moon watching"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "Outdoors",
+        "Time": "2 weeks"
+      }
+    },
+    {
+      "id": "hobby_full_sunrise",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Watch a full sunrise",
+      "category": "Sunrise watching",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "A simple, memorable experience that costs nothing.",
+      "howToSteps": [
+        "Check tomorrow's sunrise time.",
+        "Find a spot with an open eastern view.",
+        "Arrive 20 minutes early and watch the whole thing."
+      ],
+      "tags": [
+        "sky",
+        "mindful",
+        "outdoors"
+      ],
+      "keywords": [
+        "sunrise watching"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "Outdoors",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_ten_trees",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Identify 10 trees on your street",
+      "category": "Tree spotting",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "Neem, peepal, gulmohar, banyan: learn the trees you walk past every day.",
+      "howToSteps": [
+        "Look closely at the leaves, bark, flowers and fruit.",
+        "Identify each tree with a guide or app.",
+        "Note where each one grows."
+      ],
+      "tags": [
+        "nature",
+        "trees",
+        "outdoors"
+      ],
+      "keywords": [
+        "tree spotting"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "In your neighbourhood",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_five_butterflies",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Identify 5 butterflies",
+      "category": "Butterfly spotting",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "Gardens and parks are full of butterflies, especially after the monsoon.",
+      "howToSteps": [
+        "Visit a flowering garden on a sunny morning.",
+        "Photograph butterflies from a respectful distance.",
+        "Identify five different species."
+      ],
+      "tags": [
+        "nature",
+        "insects",
+        "photography"
+      ],
+      "keywords": [
+        "butterfly spotting"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "Outdoors",
+        "Time": "A few mornings"
+      }
+    },
+    {
+      "id": "hobby_walk_5km_new",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Walk 5 km somewhere new",
+      "category": "Nature walks",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "Explore a park, lake or trail you've never walked before.",
+      "howToSteps": [
+        "Pick a safe route you've never walked.",
+        "Carry water and wear comfortable shoes.",
+        "Walk the full 5 km at an easy pace."
+      ],
+      "tags": [
+        "walking",
+        "fitness",
+        "outdoors"
+      ],
+      "keywords": [
+        "nature walks"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "Outdoors",
+        "Time": "1–2 hr"
+      }
+    },
+    {
+      "id": "hobby_heritage_walk",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Do a heritage walk in your city",
+      "category": "Heritage walks",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "Most Indian cities have old quarters, monuments and markets with stories behind them.",
+      "howToSteps": [
+        "Find a local heritage walk or plan your own route.",
+        "Read a little about each stop beforehand.",
+        "Walk it and note your favourite place."
+      ],
+      "tags": [
+        "history",
+        "city",
+        "walking"
+      ],
+      "keywords": [
+        "heritage walks"
+      ],
+      "metadata": {
+        "Cost": "Free–₹",
+        "Where": "In your neighbourhood",
+        "Time": "2–3 hr"
+      }
+    },
+    {
+      "id": "hobby_beginner_trek",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Complete a beginner day trek",
+      "category": "Trekking",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "Short, well-marked trails are a great introduction to the hills.",
+      "howToSteps": [
+        "Choose a popular, well-marked beginner trail.",
+        "Go with others and tell someone your plan.",
+        "Carry water and snacks, and start early."
+      ],
+      "tags": [
+        "hiking",
+        "fitness",
+        "outdoors"
+      ],
+      "keywords": [
+        "trekking"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "Outdoors",
+        "Time": "1 day"
+      }
+    },
+    {
+      "id": "hobby_ride_20km",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Ride 20 km by bicycle",
+      "category": "Cycling",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "A borrowed, rented or second-hand bicycle is all you need.",
+      "howToSteps": [
+        "Check the tyres and brakes.",
+        "Plan a safe route, ideally early in the morning.",
+        "Wear a helmet and ride the full 20 km."
+      ],
+      "tags": [
+        "cycling",
+        "fitness",
+        "outdoors"
+      ],
+      "keywords": [
+        "cycling"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "Outdoors",
+        "Time": "2 hr"
+      }
+    },
+    {
+      "id": "hobby_fly_kite",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Fly a kite",
+      "category": "Kite flying",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "A favourite on Makar Sankranti and Independence Day across India.",
+      "howToSteps": [
+        "Get a paper kite and some cotton string.",
+        "Find an open space away from power lines.",
+        "Launch into the wind and keep it airborne."
+      ],
+      "tags": [
+        "india",
+        "festival",
+        "outdoors"
+      ],
+      "keywords": [
+        "kite flying"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "Outdoors",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_cloud_types",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Identify 4 cloud types",
+      "category": "Cloud watching",
+      "filter_group": "Outdoors & Nature",
+      "difficulty": "beginner",
+      "about": "Cumulus, cirrus, stratus, nimbus: the sky changes every day.",
+      "howToSteps": [
+        "Look up a simple cloud chart.",
+        "Photograph clouds over a few days.",
+        "Match four different types."
+      ],
+      "tags": [
+        "sky",
+        "weather",
+        "mindful"
+      ],
+      "keywords": [
+        "cloud watching"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "Outdoors",
+        "Time": "A few days"
+      }
+    },
+    {
+      "id": "hobby_herb_pot",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Grow tulsi, mint or coriander",
+      "category": "Herb gardening",
+      "filter_group": "Grow & Make",
+      "difficulty": "beginner",
+      "about": "A single pot on a windowsill is enough for a kitchen herb.",
+      "howToSteps": [
+        "Fill a pot with soil and plant seeds or a cutting.",
+        "Keep it in sunlight and water it lightly.",
+        "Harvest your first leaves."
+      ],
+      "tags": [
+        "gardening",
+        "plants",
+        "food"
+      ],
+      "keywords": [
+        "herb gardening"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "2–4 weeks"
+      }
+    },
+    {
+      "id": "hobby_microgreens_tray",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Harvest a tray of microgreens",
+      "category": "Microgreens",
+      "filter_group": "Grow & Make",
+      "difficulty": "beginner",
+      "about": "Mustard, methi or moong microgreens are ready in about a week.",
+      "howToSteps": [
+        "Spread soaked seeds densely on soil in a shallow tray.",
+        "Mist with water daily and keep it in indirect light.",
+        "Snip the greens when they're 5–8 cm tall."
+      ],
+      "tags": [
+        "gardening",
+        "food"
+      ],
+      "keywords": [
+        "microgreens"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1 week"
+      }
+    },
+    {
+      "id": "hobby_start_compost",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Start a kitchen compost bin",
+      "category": "Composting",
+      "filter_group": "Grow & Make",
+      "difficulty": "beginner",
+      "about": "Turn vegetable peels into rich soil for your plants.",
+      "howToSteps": [
+        "Make holes in a bucket or bin for air.",
+        "Layer vegetable scraps with dry leaves or paper.",
+        "Mix it weekly and keep it moist, not wet."
+      ],
+      "tags": [
+        "gardening",
+        "sustainability"
+      ],
+      "keywords": [
+        "composting"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1 hr to start"
+      }
+    },
+    {
+      "id": "hobby_money_plant_cutting",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Root a money-plant cutting",
+      "category": "Propagation",
+      "filter_group": "Grow & Make",
+      "difficulty": "beginner",
+      "about": "Grow a new plant from a single cutting in a glass of water.",
+      "howToSteps": [
+        "Cut a stem just below a node.",
+        "Place it in a glass of water.",
+        "Change the water weekly until roots appear."
+      ],
+      "tags": [
+        "plants",
+        "gardening"
+      ],
+      "keywords": [
+        "propagation"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "2 weeks"
+      }
+    },
+    {
+      "id": "hobby_bake_bread",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Bake a loaf of bread",
+      "category": "Bread baking",
+      "filter_group": "Grow & Make",
+      "difficulty": "beginner",
+      "about": "Flour, water, yeast and salt. Baking your first loaf is very satisfying.",
+      "howToSteps": [
+        "Mix and knead a simple dough.",
+        "Let it rise until it doubles in size.",
+        "Shape it and bake until golden."
+      ],
+      "tags": [
+        "baking",
+        "food"
+      ],
+      "keywords": [
+        "bread baking"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "3 hr"
+      }
+    },
+    {
+      "id": "hobby_small_pickle",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Make a small jar of pickle",
+      "category": "Pickling",
+      "filter_group": "Grow & Make",
+      "difficulty": "beginner",
+      "about": "A quick nimbu or mango pickle is a taste of home-kitchen tradition.",
+      "howToSteps": [
+        "Chop fresh lime or raw mango.",
+        "Mix with salt, spices and oil as a family or trusted recipe says.",
+        "Store it in a clean, dry jar and let it mature."
+      ],
+      "tags": [
+        "food",
+        "india",
+        "preserving"
+      ],
+      "keywords": [
+        "pickling"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "1 hr + resting"
+      }
+    },
+    {
+      "id": "hobby_set_curd",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Set curd or ferment batter from scratch",
+      "category": "Fermentation",
+      "filter_group": "Grow & Make",
+      "difficulty": "beginner",
+      "about": "Dahi and idli batter are everyday ferments, and fun to get right yourself.",
+      "howToSteps": [
+        "Warm milk and add a spoon of curd, or grind soaked rice and urad dal.",
+        "Leave it covered somewhere warm overnight.",
+        "Check the texture and taste the next day."
+      ],
+      "tags": [
+        "food",
+        "india",
+        "fermentation"
+      ],
+      "keywords": [
+        "fermentation"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "Overnight"
+      }
+    },
+    {
+      "id": "hobby_masala_chai_whole",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Make masala chai from whole spices",
+      "category": "Chai making",
+      "filter_group": "Grow & Make",
+      "difficulty": "beginner",
+      "about": "Crush your own cardamom, ginger and cloves for a fragrant cup.",
+      "howToSteps": [
+        "Crush cardamom, cloves and ginger.",
+        "Simmer the spices in water, then add tea leaves.",
+        "Add milk and sugar, bring it to a boil and strain."
+      ],
+      "tags": [
+        "food",
+        "india",
+        "drink"
+      ],
+      "keywords": [
+        "chai making"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "15 min"
+      }
+    },
+    {
+      "id": "hobby_sing_by_heart",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Sing a full song by heart",
+      "category": "Singing",
+      "filter_group": "Music & Play",
+      "difficulty": "beginner",
+      "about": "Learn every word of one song and sing it through.",
+      "howToSteps": [
+        "Pick a song you love.",
+        "Learn the lyrics verse by verse.",
+        "Sing the whole song without reading the words."
+      ],
+      "tags": [
+        "music",
+        "voice"
+      ],
+      "keywords": [
+        "singing"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "A few days"
+      }
+    },
+    {
+      "id": "hobby_basic_rhythm",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Learn a basic beat",
+      "category": "Rhythm",
+      "filter_group": "Music & Play",
+      "difficulty": "beginner",
+      "about": "Learn a simple taal on a dholak, tabla or just a table top.",
+      "howToSteps": [
+        "Learn a simple pattern, such as teental counting.",
+        "Tap it slowly with a metronome app.",
+        "Play it for one minute without losing the beat."
+      ],
+      "tags": [
+        "music",
+        "india",
+        "rhythm"
+      ],
+      "keywords": [
+        "rhythm"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_play_simple_tune",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Play a simple tune",
+      "category": "Instruments",
+      "filter_group": "Music & Play",
+      "difficulty": "beginner",
+      "about": "Harmonica, bansuri or ukulele are friendly first instruments.",
+      "howToSteps": [
+        "Choose an affordable beginner instrument.",
+        "Learn the notes of a simple tune.",
+        "Play it from start to finish."
+      ],
+      "tags": [
+        "music",
+        "instrument"
+      ],
+      "keywords": [
+        "instruments"
+      ],
+      "metadata": {
+        "Cost": "₹₹",
+        "Where": "At home",
+        "Time": "1 week"
+      }
+    },
+    {
+      "id": "hobby_learn_routine",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Learn a full dance routine",
+      "category": "Dance",
+      "filter_group": "Music & Play",
+      "difficulty": "beginner",
+      "about": "From Bollywood to folk, follow a tutorial and learn one routine end to end.",
+      "howToSteps": [
+        "Pick a beginner routine video.",
+        "Learn it in short sections.",
+        "Dance the whole routine without pausing."
+      ],
+      "tags": [
+        "dance",
+        "fitness",
+        "music"
+      ],
+      "keywords": [
+        "dance"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "A few days"
+      }
+    },
+    {
+      "id": "hobby_hundred_skips",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Do 100 skips without stopping",
+      "category": "Skipping",
+      "filter_group": "Music & Play",
+      "difficulty": "beginner",
+      "about": "A skipping rope is cheap, portable and great exercise.",
+      "howToSteps": [
+        "Adjust the rope to your height.",
+        "Practise steady, low jumps.",
+        "Build up to 100 in a row."
+      ],
+      "tags": [
+        "fitness",
+        "play"
+      ],
+      "keywords": [
+        "skipping"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "A few days"
+      }
+    },
+    {
+      "id": "hobby_gully_cricket",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Play a game of gully cricket",
+      "category": "Gully cricket",
+      "filter_group": "Music & Play",
+      "difficulty": "beginner",
+      "about": "India's favourite street game. All you need is a bat, a ball and friends.",
+      "howToSteps": [
+        "Gather a few friends and a safe open space.",
+        "Agree on local rules and boundaries.",
+        "Play a full match."
+      ],
+      "tags": [
+        "sport",
+        "india",
+        "friends"
+      ],
+      "keywords": [
+        "gully cricket"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "In your neighbourhood",
+        "Time": "1–2 hr"
+      }
+    },
+    {
+      "id": "hobby_win_carrom",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Win a game of carrom",
+      "category": "Carrom",
+      "filter_group": "Music & Play",
+      "difficulty": "beginner",
+      "about": "A classic Indian table game of flicks and angles.",
+      "howToSteps": [
+        "Learn the basic rules and scoring.",
+        "Practise striking towards the pockets.",
+        "Play and win one game."
+      ],
+      "tags": [
+        "game",
+        "india",
+        "family"
+      ],
+      "keywords": [
+        "carrom"
+      ],
+      "metadata": {
+        "Cost": "₹₹",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_kho_kho_kabaddi",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Play kho-kho or kabaddi",
+      "category": "Traditional games",
+      "filter_group": "Music & Play",
+      "difficulty": "beginner",
+      "about": "Two traditional Indian team games that need no equipment at all.",
+      "howToSteps": [
+        "Gather enough players for two teams.",
+        "Learn the basic rules.",
+        "Play one full game."
+      ],
+      "tags": [
+        "sport",
+        "india",
+        "friends"
+      ],
+      "keywords": [
+        "traditional games"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "In your neighbourhood",
+        "Time": "1 hr"
+      }
+    },
+    {
+      "id": "hobby_juggle_three",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Juggle three balls for 10 catches",
+      "category": "Juggling",
+      "filter_group": "Music & Play",
+      "difficulty": "beginner",
+      "about": "Start with one ball, then two, then three.",
+      "howToSteps": [
+        "Practise throwing one ball in an arc from hand to hand.",
+        "Add a second ball, then a third.",
+        "Keep going until you make 10 catches in a row."
+      ],
+      "tags": [
+        "play",
+        "coordination"
+      ],
+      "keywords": [
+        "juggling"
+      ],
+      "metadata": {
+        "Cost": "₹",
+        "Where": "At home",
+        "Time": "A few days"
+      }
+    },
+    {
+      "id": "hobby_photo_series",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Shoot a 10-photo themed series",
+      "category": "Phone photography",
+      "filter_group": "Capture & Share",
+      "difficulty": "beginner",
+      "about": "Pick a theme, such as doors, shadows or chai stalls, and tell a story in ten shots.",
+      "howToSteps": [
+        "Choose a theme.",
+        "Take many photos over a day or two.",
+        "Pick your best ten and arrange them in order."
+      ],
+      "tags": [
+        "photography",
+        "art"
+      ],
+      "keywords": [
+        "phone photography"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "Outdoors",
+        "Time": "1–2 days"
+      }
+    },
+    {
+      "id": "hobby_street_day",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Photograph one street from morning to evening",
+      "category": "Street photography",
+      "filter_group": "Capture & Share",
+      "difficulty": "beginner",
+      "about": "The same place looks completely different as the light and people change.",
+      "howToSteps": [
+        "Choose a street you can return to safely.",
+        "Photograph it in the morning, afternoon and evening.",
+        "Compare the shots side by side."
+      ],
+      "tags": [
+        "photography",
+        "city"
+      ],
+      "keywords": [
+        "street photography"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "In your neighbourhood",
+        "Time": "1 day"
+      }
+    },
+    {
+      "id": "hobby_thirty_sec_video",
+      "challenge_id": "try_easy_hobbies",
+      "name": "Edit a 30-second clip of your day",
+      "category": "Video editing",
+      "filter_group": "Capture & Share",
+      "difficulty": "beginner",
+      "about": "Learn the basics of cutting clips and adding music with a free phone editor.",
+      "howToSteps": [
+        "Record short clips throughout one day.",
+        "Trim them into a 30-second sequence.",
+        "Add music or text and export it."
+      ],
+      "tags": [
+        "video",
+        "creative"
+      ],
+      "keywords": [
+        "video editing"
+      ],
+      "metadata": {
+        "Cost": "Free",
+        "Where": "At home",
+        "Time": "1 hr"
+      }
+    }
+  ]
+}

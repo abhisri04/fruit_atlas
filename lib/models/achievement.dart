@@ -146,6 +146,49 @@ class Achievement {
     ),
   ];
 
+  static const hobbyChallengeAchievements = [
+    Achievement(
+      id: 'hobby_first',
+      title: 'First Hobby',
+      description: 'Try your first hobby.',
+      threshold: 1,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'hobby',
+    ),
+    Achievement(
+      id: 'hobby_five',
+      title: 'Hobby Sampler',
+      description: 'Try 5 hobbies.',
+      threshold: 5,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'start',
+    ),
+    Achievement(
+      id: 'hobby_fifteen',
+      title: 'Curious Mind',
+      description: 'Try 15 hobbies.',
+      threshold: 15,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'hobby_thirty',
+      title: 'Halfway There',
+      description: 'Try 30 hobbies.',
+      threshold: 30,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'flag',
+    ),
+    Achievement(
+      id: 'hobby_complete',
+      title: 'Renaissance Explorer',
+      description: 'Try all 60 hobbies.',
+      threshold: 60,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
   static const indiaStatesChallengeAchievements = [
     Achievement(
       id: 'india_states_first',
@@ -256,6 +299,7 @@ class Achievement {
       'taste_fruits_of_india' => fruitChallengeAchievements,
       'visit_12_jyotirlingas' => jyotirlingaChallengeAchievements,
       'learn_yoga_poses' => yogaChallengeAchievements,
+      'try_easy_hobbies' => hobbyChallengeAchievements,
       'explore_indian_states' => indiaStatesChallengeAchievements,
       'explore_great_books' => bookAchievements,
       'all_experiences' => experienceAchievements,

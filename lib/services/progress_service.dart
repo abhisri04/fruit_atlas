@@ -520,6 +520,7 @@ class ProgressService {
       switch (progressKey) {
         _completedYogaPoseIdsKey => 'yoga',
         'completed_india_state_ut_ids' => 'state',
+        'completed_hobby_ids' => 'hobby',
         _ => null,
       };
 

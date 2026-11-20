@@ -91,6 +91,12 @@ void main() {
         start: 'Start reading',
         continueLabel: 'Continue reading',
       ),
+      'try_easy_hobbies': (
+        shortTitle: 'Easy Hobbies',
+        verb: 'tried',
+        start: 'Start a hobby',
+        continueLabel: 'Try another hobby',
+      ),
     };
 
     expect(active, hasLength(expected.length));
@@ -109,8 +115,8 @@ void main() {
           ..sort(
             (a, b) => a.quickExplorePriority.compareTo(b.quickExplorePriority),
           );
-    expect(quickExplore, hasLength(7));
-    expect(quickExplore.take(7).map((item) => item.compactTitle), [
+    expect(quickExplore, hasLength(8));
+    expect(quickExplore.take(8).map((item) => item.compactTitle), [
       'Fruits of India',
       'Indian Dishes',
       'Indian Drinks',
@@ -118,6 +124,7 @@ void main() {
       'Yoga Poses',
       'India Passport',
       'Books',
+      'Easy Hobbies',
     ]);
   });
 
