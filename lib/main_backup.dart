@@ -1,6 +1,9 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+
+import 'models/app_branding.dart';
+
 import 'package:flutter/services.dart';
 
 void main() {
@@ -17,7 +20,7 @@ class FruitAtlasApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Fruit Atlas',
+      title: AppBranding.appName,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
@@ -224,7 +227,7 @@ class _HomePageState extends State<HomePage> {
 
     if (errorMessage != null) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Fruit Atlas')),
+        appBar: AppBar(title: const Text(AppBranding.appName)),
         body: Center(
           child: Padding(
             padding: const EdgeInsets.all(24),
@@ -242,7 +245,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Fruit Atlas',
+          AppBranding.appName,
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
       ),

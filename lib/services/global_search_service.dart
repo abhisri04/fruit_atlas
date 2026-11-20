@@ -4,6 +4,8 @@ import '../models/fruit.dart';
 import '../models/indian_dish.dart';
 import '../models/indian_drink.dart';
 import '../models/search_result.dart';
+import '../models/book.dart';
+import 'books_repository.dart';
 import 'asset_data_service.dart';
 import 'district_repository.dart';
 import 'experience_repository.dart';
@@ -24,6 +26,7 @@ class GlobalSearchService {
   List<AtlasState> states = [];
   IndianDishesCatalogue? dishesCatalogue;
   IndianDrinksCatalogue? drinksCatalogue;
+  BookCatalogue? booksCatalogue;
   List<SearchResult> _index = [];
   Future<void>? _loading;
   Future<void> load() => _loading ??= _load().catchError((Object error) {
@@ -39,6 +42,7 @@ class GlobalSearchService {
     final districtFuture = districts.loadDistricts();
     final dishFuture = const IndianDishesRepository().load();
     final drinkFuture = const IndianDrinksRepository().load();
+    final bookFuture = const BooksRepository().load();
     final results = <SearchResult>[];
     for (final category in categories) {
       results.add(
@@ -167,6 +171,25 @@ class GlobalSearchService {
             'Jyotirlinga',
             site,
             secondary: '${site.location} ${site.backstory}',
+          );
+        }
+      } else if (challenge.itemType == 'book') {
+        final bookData = await bookFuture;
+        booksCatalogue = bookData;
+        for (final book in bookData.books) {
+          addItem(
+            book.id,
+            book.canonicalTitle,
+            'Book',
+            book,
+            secondary: book.description,
+            keywords: [
+              ...book.searchableTitles,
+              book.primaryAuthorDisplay,
+              book.primaryGenre,
+              ...book.secondaryGenres,
+              ...book.tags,
+            ],
           );
         }
       } else if (challenge.dataAsset != null) {

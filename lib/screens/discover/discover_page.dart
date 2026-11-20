@@ -1,291 +1,482 @@
 import 'package:flutter/material.dart';
 
-import '../search/discovery_search_page.dart';
-
-import '../../widgets/empty_state.dart';
-import '../../widgets/filter_chip_group.dart';
-
-import '../../theme/app_colors.dart';
-
 import '../../models/category.dart';
 import '../../models/challenge.dart';
+import '../../models/daily_discovery.dart';
 import '../../navigation/challenge_navigation.dart';
+import '../../navigation/daily_discovery_navigation.dart';
 import '../../services/challenge_repository.dart';
-import '../../widgets/challenge_card.dart';
-import 'category_details_page.dart';
-
-// DISCOVER PAGE
-// =================================================================
+import '../../services/daily_discovery_service.dart';
+import '../../services/discovery_saved_service.dart';
+import '../../services/progress_summary_service.dart';
+import '../../theme/app_colors.dart';
+import '../../theme/app_gradients.dart';
+import '../../widgets/category_icon.dart';
+import '../../widgets/challenge_icon.dart';
+import '../../widgets/empty_state.dart';
+import '../../widgets/experience_artwork.dart';
+import '../../widgets/journey_card.dart';
+import '../../widgets/travel_journeys.dart';
+import '../search/discovery_search_page.dart';
 
 class DiscoverPage extends StatefulWidget {
-  const DiscoverPage({super.key});
-
+  final DailyDiscoveryService? dailyDiscoveryService;
+  const DiscoverPage({super.key, this.dailyDiscoveryService});
   @override
   State<DiscoverPage> createState() => _DiscoverPageState();
 }
 
 class _DiscoverPageState extends State<DiscoverPage> {
-  static const challengeRepository = ChallengeRepository();
-
+  static const _repository = ChallengeRepository();
+  static const _savedService = DiscoverySavedService();
+  DailyDiscoveryService get _daily =>
+      widget.dailyDiscoveryService ?? const DailyDiscoveryService();
   List<Category> categories = [];
   List<Challenge> challenges = [];
-
-  String selectedCategory = 'All';
+  List<DailyDiscovery> recommendations = [];
+  Set<String> savedReferences = {};
+  Map<String, ChallengeProgressSummary> challengeProgress = {};
+  String selectedCategoryId = 'all';
   bool isLoading = true;
   String? errorMessage;
 
   @override
   void initState() {
     super.initState();
-    loadChallengeData();
+    _load();
   }
 
-  Future<void> loadChallengeData() async {
+  Future<void> _load() async {
     try {
-      final loadedCategories = await challengeRepository.loadCategories();
-      final loadedChallenges = await challengeRepository.loadChallenges();
-
+      final loadedCategories = await _repository.loadCategories();
+      final loadedChallenges = await _repository.loadChallenges();
+      final pool = await _daily.buildEligiblePool();
+      final progress = await const ProgressSummaryService().load(
+        challenges: loadedChallenges,
+      );
+      final diverse = <DailyDiscovery>[];
+      final seenTypes = <DailyDiscoveryType>{};
+      for (final item in pool) {
+        if (seenTypes.add(item.type)) diverse.add(item);
+      }
+      for (final item in pool) {
+        if (diverse.length >= 12) break;
+        if (!diverse.contains(item)) diverse.add(item);
+      }
+      final saved = <String>{};
+      for (final item in diverse) {
+        if (await _savedService.isSaved(item)) saved.add(item.reference);
+      }
       if (!mounted) return;
       setState(() {
         categories = loadedCategories;
         challenges = loadedChallenges;
-
+        recommendations = diverse;
+        savedReferences = saved;
+        challengeProgress = progress.challenges;
         isLoading = false;
+        errorMessage = null;
       });
-    } catch (e) {
+    } catch (error) {
       if (!mounted) return;
       setState(() {
         isLoading = false;
-        errorMessage = e.toString();
+        errorMessage = error.toString();
       });
     }
+  }
+
+  List<DailyDiscovery> get _filtered => selectedCategoryId == 'all'
+      ? recommendations
+      : recommendations
+            .where((item) => item.categoryId == selectedCategoryId)
+            .toList(growable: false);
+
+  Future<void> _toggleSaved(DailyDiscovery item) async {
+    final saved = await _savedService.toggle(item);
+    if (!mounted) return;
+    setState(
+      () => saved
+          ? savedReferences.add(item.reference)
+          : savedReferences.remove(item.reference),
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     if (isLoading) {
-      return const Scaffold(body: Center(child: CircularProgressIndicator()));
+      return const Scaffold(
+        backgroundColor: AppColors.navy,
+        body: Center(child: CircularProgressIndicator()),
+      );
     }
-
     if (errorMessage != null) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Discover')),
+        appBar: AppBar(title: const Text('Explore')),
         body: EmptyState(
           icon: Icons.cloud_off_outlined,
           title: 'Unable to load',
-          message: 'Could not load challenges.\n\n$errorMessage',
+          message: 'Could not load Explore.\n\n$errorMessage',
+          actionLabel: 'Retry',
+          onAction: _load,
         ),
       );
     }
-
-    final activeChallenges = challenges
+    final active = challenges
         .where((challenge) => challenge.status == 'active')
-        .toList();
-
-    final plannedChallenges = challenges
-        .where((challenge) => challenge.status == 'planned')
-        .toList();
-
+        .toList(growable: false);
     return Scaffold(
-      appBar: AppBar(
-        actions: [
-          IconButton(
-            tooltip: 'Search discovery',
-            icon: const Icon(Icons.search),
-            onPressed: () => Navigator.push(
-              context,
-              MaterialPageRoute(builder: (_) => const DiscoverySearchPage()),
+      backgroundColor: AppColors.navy,
+      body: SafeArea(
+        child: CustomScrollView(
+          slivers: [
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(18, 20, 18, 8),
+              sliver: SliverList.list(
+                children: [
+                  const Text(
+                    'Explore',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontFamily: 'Georgia',
+                      fontSize: 28,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                  const SizedBox(height: 14),
+                  InkWell(
+                    key: const ValueKey('explore-search'),
+                    borderRadius: BorderRadius.circular(18),
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const DiscoverySearchPage(),
+                      ),
+                    ),
+                    child: Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(18),
+                      ),
+                      child: const Row(
+                        children: [
+                          Icon(Icons.search, color: AppColors.muted),
+                          SizedBox(width: 10),
+                          Expanded(
+                            child: Text(
+                              'Search experiences, places, dishes...',
+                              style: TextStyle(color: AppColors.muted),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 18),
+                  SizedBox(
+                    height: 82,
+                    child: ListView(
+                      scrollDirection: Axis.horizontal,
+                      children: [
+                        _CategoryShortcut(
+                          id: 'all',
+                          label: 'For You',
+                          icon: Icons.auto_awesome,
+                          selected: selectedCategoryId == 'all',
+                          onTap: _selectCategory,
+                        ),
+                        for (final category in categories)
+                          _CategoryShortcut(
+                            id: category.id,
+                            label: _shortCategoryName(category),
+                            icon: categoryIcon(category.id),
+                            selected: selectedCategoryId == category.id,
+                            onTap: _selectCategory,
+                          ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 22),
+                  _sectionTitle('Recommended for you'),
+                  const TravelJourneys(),
+                  const SizedBox(height: 12),
+                  AnimatedSwitcher(
+                    duration: const Duration(milliseconds: 220),
+                    child: _filtered.isEmpty
+                        ? const _DarkEmpty(
+                            key: ValueKey('empty-recommendations'),
+                          )
+                        : SizedBox(
+                            key: ValueKey(selectedCategoryId),
+                            height: 270,
+                            child: ListView.separated(
+                              scrollDirection: Axis.horizontal,
+                              itemCount: _filtered.length,
+                              separatorBuilder: (_, _) =>
+                                  const SizedBox(width: 12),
+                              itemBuilder: (_, index) {
+                                final item = _filtered[index];
+                                return _RecommendationCard(
+                                  item: item,
+                                  isSaved: savedReferences.contains(
+                                    item.reference,
+                                  ),
+                                  onSave: () => _toggleSaved(item),
+                                  onTap: () async {
+                                    await openDailyDiscoveryItem(context, item);
+                                    if (mounted) await _load();
+                                  },
+                                );
+                              },
+                            ),
+                          ),
+                  ),
+                  const SizedBox(height: 24),
+                  _sectionTitle('Collections'),
+                  const SizedBox(height: 12),
+                  SizedBox(
+                    height: 235,
+                    child: ListView.separated(
+                      scrollDirection: Axis.horizontal,
+                      itemCount: active.length,
+                      separatorBuilder: (_, _) => const SizedBox(width: 12),
+                      itemBuilder: (_, index) => JourneyCard(
+                        challenge: active[index],
+                        completed:
+                            challengeProgress[active[index].id]?.completed ?? 0,
+                        total:
+                            challengeProgress[active[index].id]?.total ??
+                            active[index].totalItems,
+                        onTap: () => openChallenge(context, active[index]),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 24),
+                  _sectionTitle('Explore by category'),
+                  const SizedBox(height: 12),
+                ],
+              ),
+            ),
+            SliverPadding(
+              padding: const EdgeInsets.fromLTRB(18, 0, 18, 28),
+              sliver: SliverGrid(
+                gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                  maxCrossAxisExtent: 190,
+                  mainAxisExtent: 116,
+                  crossAxisSpacing: 12,
+                  mainAxisSpacing: 12,
+                ),
+                delegate: SliverChildBuilderDelegate((context, index) {
+                  final challenge = active[index];
+                  final accent = AppColors.categoryAccent(challenge.categoryId);
+                  return InkWell(
+                    key: ValueKey('explore-category-${challenge.id}'),
+                    borderRadius: BorderRadius.circular(20),
+                    onTap: () => openChallenge(context, challenge),
+                    child: Container(
+                      padding: const EdgeInsets.all(15),
+                      decoration: BoxDecoration(
+                        gradient: AppGradients.category(accent),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Icon(
+                            challengeIcon(challenge.iconIdentifier),
+                            color: Colors.white,
+                          ),
+                          Text(
+                            challenge.compactTitle,
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  );
+                }, childCount: active.length),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _selectCategory(String value) =>
+      setState(() => selectedCategoryId = value);
+  String _shortCategoryName(Category category) => switch (category.id) {
+    'food_drink' => 'Food',
+    'fitness_wellness' => 'Wellness',
+    'travel_exploration' => 'Travel',
+    'culture_learning' => 'Learning',
+    'faith_pilgrimage' => 'Faith',
+    _ => category.name.split(' & ').first,
+  };
+  Widget _sectionTitle(String value) => Text(
+    value,
+    style: const TextStyle(
+      color: Colors.white,
+      fontSize: 20,
+      fontWeight: FontWeight.w800,
+    ),
+  );
+}
+
+class _CategoryShortcut extends StatelessWidget {
+  final String id;
+  final String label;
+  final IconData icon;
+  final bool selected;
+  final ValueChanged<String> onTap;
+  const _CategoryShortcut({
+    required this.id,
+    required this.label,
+    required this.icon,
+    required this.selected,
+    required this.onTap,
+  });
+  @override
+  Widget build(BuildContext context) => SizedBox(
+    width: 72,
+    child: InkWell(
+      key: ValueKey('explore-shortcut-$id'),
+      onTap: () => onTap(id),
+      borderRadius: BorderRadius.circular(30),
+      child: Column(
+        children: [
+          AnimatedContainer(
+            duration: const Duration(milliseconds: 180),
+            width: 48,
+            height: 48,
+            decoration: BoxDecoration(
+              color: selected ? AppColors.gold : AppColors.navyRaised,
+              shape: BoxShape.circle,
+              border: Border.all(color: Colors.white24),
+            ),
+            child: Icon(icon, color: selected ? AppColors.navy : Colors.white),
+          ),
+          const SizedBox(height: 6),
+          Text(
+            label,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: TextStyle(
+              color: selected ? AppColors.gold : Colors.white70,
+              fontSize: 11,
+              fontWeight: FontWeight.w700,
             ),
           ),
         ],
-        title: const Text(
-          'Discover',
-          style: TextStyle(fontWeight: FontWeight.bold),
-        ),
       ),
+    ),
+  );
+}
 
-      body: SafeArea(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const Text(
-                'What are you curious about?',
-                style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
-              ),
-
-              const SizedBox(height: 8),
-
-              const Text(
-                'Discover challenges and find something worth doing.',
-                style: TextStyle(fontSize: 15, color: AppColors.muted),
-              ),
-
-              const SizedBox(height: 28),
-
-              // ------------------------------------------------
-              // CATEGORIES
-              // ------------------------------------------------
-              const Text(
-                'Explore by Category',
-                style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
-              ),
-
-              const SizedBox(height: 14),
-
-              FilterChipGroup(
-                options: ['All', ...categories.map((c) => c.name)],
-                selected: selectedCategory,
-                onChanged: (value) => setState(() => selectedCategory = value),
-              ),
-              ...categories
-                  .where(
-                    (c) =>
-                        selectedCategory == 'All' || c.name == selectedCategory,
-                  )
-                  .map((category) {
-                    return buildCategoryCard(category);
-                  }),
-
-              const SizedBox(height: 28),
-
-              // ------------------------------------------------
-              // ACTIVE CHALLENGES
-              // ------------------------------------------------
-              if (activeChallenges.isNotEmpty) ...[
-                const Text(
-                  'Start Exploring',
-                  style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
+class _RecommendationCard extends StatelessWidget {
+  final DailyDiscovery item;
+  final bool isSaved;
+  final VoidCallback onSave;
+  final VoidCallback onTap;
+  const _RecommendationCard({
+    required this.item,
+    required this.isSaved,
+    required this.onSave,
+    required this.onTap,
+  });
+  @override
+  Widget build(BuildContext context) => SizedBox(
+    width: 232,
+    child: Material(
+      color: Colors.white,
+      borderRadius: BorderRadius.circular(20),
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        onTap: onTap,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Stack(
+              children: [
+                ExperienceArtwork(
+                  discovery: item,
+                  height: 154,
+                  borderRadius: BorderRadius.zero,
                 ),
-
-                const SizedBox(height: 14),
-
-                ...activeChallenges.map(
-                  (challenge) => buildChallengeCard(challenge, isActive: true),
+                Positioned(
+                  right: 8,
+                  top: 8,
+                  child: IconButton.filled(
+                    tooltip: isSaved ? 'Remove from Saved' : 'Save',
+                    style: IconButton.styleFrom(
+                      backgroundColor: Colors.white.withValues(alpha: .9),
+                      foregroundColor: AppColors.navy,
+                    ),
+                    onPressed: onSave,
+                    icon: Icon(
+                      isSaved ? Icons.bookmark : Icons.bookmark_border,
+                    ),
+                  ),
                 ),
               ],
-
-              const SizedBox(height: 28),
-
-              // ------------------------------------------------
-              // COMING SOON
-              // ------------------------------------------------
-              if (plannedChallenges.isNotEmpty) ...[
-                const Text(
-                  'Coming Soon',
-                  style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
-                ),
-
-                const SizedBox(height: 14),
-
-                ...plannedChallenges.map(
-                  (challenge) => buildChallengeCard(challenge, isActive: false),
-                ),
-              ],
-
-              const SizedBox(height: 20),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
-  // =============================================================
-  // CHALLENGE CARD
-  // =============================================================
-
-  Widget buildChallengeCard(Challenge challenge, {required bool isActive}) {
-    return ChallengeCard(
-      challenge: challenge,
-      isActive: isActive,
-      onTap: () => openChallenge(context, challenge),
-    );
-  }
-  // =============================================================
-  // CATEGORY CARD
-  // =============================================================
-
-  Widget buildCategoryCard(Category category) {
-    IconData icon = Icons.category_outlined;
-
-    final id = category.id;
-
-    if (id == 'food_drink') {
-      icon = Icons.restaurant_outlined;
-    } else if (id == 'fitness_wellness') {
-      icon = Icons.self_improvement;
-    } else if (id == 'travel_exploration') {
-      icon = Icons.landscape_outlined;
-    } else if (id == 'culture_learning') {
-      icon = Icons.menu_book_outlined;
-    } else if (id == 'faith_pilgrimage') {
-      icon = Icons.temple_hindu_outlined;
-    } else if (id == 'collecting') {
-      icon = Icons.camera_alt_outlined;
-    } else if (id == 'life_experiences') {
-      icon = Icons.auto_awesome_outlined;
-    }
-
-    return Card(
-      color: AppColors.categoryAccent(category.id).withValues(alpha: .06),
-      margin: const EdgeInsets.only(bottom: 10),
-      child: ListTile(
-        contentPadding: const EdgeInsets.symmetric(
-          horizontal: 14,
-          vertical: 10,
-        ),
-        leading: Container(
-          width: 56,
-          height: 64,
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                AppColors.categoryAccent(category.id).withValues(alpha: .35),
-                AppColors.categoryAccent(category.id).withValues(alpha: .12),
-              ],
             ),
-            borderRadius: BorderRadius.circular(15),
-          ),
-          child: Icon(
-            icon,
-            color: AppColors.categoryAccent(category.id),
-            size: 30,
-          ),
-        ),
-        title: Text(
-          category.name,
-          style: const TextStyle(fontWeight: FontWeight.w600),
-        ),
-        subtitle: Padding(
-          padding: const EdgeInsets.only(top: 5),
-          child: Text(
-            '${category.description}\n${challenges.where((c) => c.categoryId == category.id).length} challenges',
-            maxLines: 3,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(
-              fontSize: 13,
-              height: 1.4,
-              color: AppColors.muted,
-            ),
-          ),
-        ),
-        trailing: const Icon(Icons.chevron_right),
-        onTap: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => CategoryDetailsPage(
-                category: category,
-                challenges: challenges,
+            Padding(
+              padding: const EdgeInsets.all(14),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    item.subtitle.toUpperCase(),
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      color: AppColors.primary,
+                      fontSize: 10,
+                      fontWeight: FontWeight.w800,
+                      letterSpacing: .7,
+                    ),
+                  ),
+                  const SizedBox(height: 5),
+                  Text(
+                    item.title,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      color: AppColors.ink,
+                      fontSize: 16,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                ],
               ),
             ),
-          );
-        },
+          ],
+        ),
       ),
-    );
-  }
+    ),
+  );
+}
+
+class _DarkEmpty extends StatelessWidget {
+  const _DarkEmpty({super.key});
+  @override
+  Widget build(BuildContext context) => Container(
+    height: 130,
+    padding: const EdgeInsets.all(18),
+    decoration: BoxDecoration(
+      color: AppColors.navyRaised,
+      borderRadius: BorderRadius.circular(20),
+    ),
+    child: const Text(
+      'More recommendations will appear as this collection grows.',
+      style: TextStyle(color: Colors.white70),
+    ),
+  );
 }

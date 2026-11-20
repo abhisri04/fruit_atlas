@@ -23,6 +23,7 @@ import '../challenge/checklist_item_details_page.dart';
 import '../dishes/indian_dishes_page.dart';
 import '../drinks/indian_drinks_page.dart';
 import '../jyotirlinga/jyotirlinga_details_page.dart';
+import '../books/book_detail_page.dart';
 
 // SAVED PAGE
 // =================================================================
@@ -171,6 +172,7 @@ class _SavedPageState extends State<SavedPage> {
       DailyDiscoveryType.jyotirlinga => JyotirlingaDetailsPage(
         site: discovery.jyotirlinga!,
       ),
+      DailyDiscoveryType.book => BookDetailPage(book: discovery.book!),
     };
     await Navigator.push(context, MaterialPageRoute(builder: (_) => page));
     await loadSavedChallenges();

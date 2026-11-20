@@ -6,7 +6,7 @@ import '../models/indian_dish.dart';
 import '../models/indian_drink.dart';
 import '../theme/app_colors.dart';
 import 'fruit_image.dart';
-import 'dish_image.dart';
+import 'dish_artwork.dart';
 
 class SearchResultTile extends StatelessWidget {
   final SearchResult result;
@@ -46,8 +46,9 @@ class SearchResultTile extends StatelessWidget {
     return Card(
       child: ListTile(
         leading: dish != null
-            ? DishImage(
-                assetPath: dish.imageAsset,
+            ? DishArtwork(
+                dish: dish,
+                variant: DishArtworkVariant.thumbnail,
                 width: 46,
                 height: 46,
                 borderRadius: BorderRadius.circular(14),

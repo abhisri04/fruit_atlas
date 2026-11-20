@@ -1,0 +1,31 @@
+﻿dishId,dishName,group,reviewStatus,candidatesShown
+exp_chandigarh_aloo_paratha,Aloo Paratha,common,pending,0
+exp_delhi_aloo_tikki,Aloo Tikki,common,pending,0
+exp_punjab_amritsari_kulcha,Amritsari Kulcha,common,pending,0
+exp_chandigarh_butter_chicken,Butter Chicken,common,pending,3
+exp_chandigarh_chole_bhature,Chole Bhature,common,pending,0
+exp_punjab_dal_makhani,Dal Makhani,common,pending,0
+exp_gujarat_dhokla,Dhokla,common,pending,1
+exp_telangana_hyderabadi_biryani,Hyderabadi Biryani,common,pending,0
+DSH067,Idli with Sambar,common,pending,5
+exp_delhi_jalebi,Jalebi,common,pending,5
+exp_karnataka_mysuru_masala_dosa,Mysuru Masala Dosa,common,pending,0
+exp_himachal_pradesh_momos,Momos,common,pending,5
+exp_maharashtra_pav_bhaji,Pav Bhaji,common,pending,0
+exp_chandigarh_rajma_chawal,Rajma Chawal,common,pending,0
+exp_chandigarh_samosa,Samosa,common,pending,5
+exp_maharashtra_vada_pav,Vada Pav,common,pending,0
+exp_maharashtra_poha,Poha,common,pending,2
+exp_punjab_chole_kulche,Chole Kulche,common,pending,0
+exp_bihar_makhana_kheer,Makhana Kheer,common,pending,0
+exp_karnataka_neer_dosa,Neer Dosa,common,pending,0
+exp_chhattisgarh_aamat,Aamat,obscure,pending,0
+exp_arunachal_pradesh_aamin,Aamin,obscure,pending,0
+exp_nagaland_aikibeye,Aikibeye,obscure,pending,0
+exp_nagaland_akini_chokibo,Akini Chokibo,obscure,pending,0
+exp_nagaland_amrusu,Amrusu,obscure,pending,0
+exp_mizoram_bai,Bai,obscure,pending,1
+exp_meghalaya_jadoh,Jadoh,obscure,pending,0
+exp_manipur_chak_hao_kheer,Chak-Hao Kheer,obscure,pending,0
+exp_jharkhand_rugra_curry,Rugra Curry,obscure,pending,0
+exp_tripura_muya_bai_wahan,Muya Bai Wahan,obscure,pending,0

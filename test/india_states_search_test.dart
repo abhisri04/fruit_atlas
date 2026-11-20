@@ -47,7 +47,7 @@ void main() {
         expect(search.search(name).first.title, name);
         expect(
           search.search(name).map((result) => result.title),
-          contains('Explore All 36 States & UTs of India'),
+          contains('India Passport'),
         );
       }
       expect(search.search('UP').first.title, 'Uttar Pradesh');

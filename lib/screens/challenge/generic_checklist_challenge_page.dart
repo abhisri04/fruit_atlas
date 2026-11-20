@@ -129,8 +129,8 @@ class _GenericChecklistChallengePageState
         .where(
           (item) => switch (selectedCategory) {
             'All' => true,
-            'Explored' => completedIds.contains(item.id),
-            'To Explore' => !completedIds.contains(item.id),
+            'Explored' || 'Visited' => completedIds.contains(item.id),
+            'To Explore' || 'Not Visited' => !completedIds.contains(item.id),
             _ => (item.filterGroup ?? item.category) == selectedCategory,
           },
         )
@@ -176,7 +176,7 @@ class _GenericChecklistChallengePageState
                   prominent: true,
                   title: 'Your progress',
                   summary:
-                      '$completedCount / ${items.length} ${widget.challenge.completionVerb}',
+                      '$completedCount of ${items.length} ${widget.challenge.progressVerb}',
                   progress: progress,
                 ),
                 if (widget.challenge.itemSummary case final summary?) ...[
@@ -212,8 +212,12 @@ class _GenericChecklistChallengePageState
                       'All',
                       ...categoryFilters,
                       if (widget.challenge.completionFilters) ...[
-                        'Explored',
-                        'To Explore',
+                        widget.challenge.itemType == 'state_or_union_territory'
+                            ? 'Visited'
+                            : 'Explored',
+                        widget.challenge.itemType == 'state_or_union_territory'
+                            ? 'Not Visited'
+                            : 'To Explore',
                       ],
                     ],
                     selected: selectedCategory,
@@ -327,7 +331,8 @@ class _GenericChecklistChallengePageState
                       const SizedBox(height: 14),
                       ProgressCard(
                         title: 'Your progress',
-                        summary: '$completedCount / ${items.length} explored',
+                        summary:
+                            '$completedCount of ${items.length} ${widget.challenge.progressVerb}',
                         progress: progress,
                       ),
                       const SizedBox(height: 14),

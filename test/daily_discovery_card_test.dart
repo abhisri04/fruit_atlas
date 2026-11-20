@@ -41,7 +41,7 @@ void main() {
       expect(find.text('Mangifera indica'), findsNothing);
       expect(find.text('Explore this fruit →'), findsOneWidget);
       expect(find.text('Save for later'), findsOneWidget);
-      expect(find.text('Another'), findsOneWidget);
+      expect(find.text('Surprise me'), findsOneWidget);
       expect(
         tester.widget<FruitImage>(find.byType(FruitImage)).fruit.id,
         'FR001',

@@ -61,7 +61,7 @@
     {
       "id": "kerala_fruits",
       "title": "Fruits",
-      "description": "Fruits linked to Kerala in the Fruit Atlas.",
+      "description": "Fruits linked to Kerala in the fruit catalogue.",
       "icon": "fruit",
       "parent_section_id": "food_drink",
       "context_id": "kerala",

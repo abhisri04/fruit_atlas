@@ -10,6 +10,7 @@ import '../models/jyotirlinga.dart';
 import '../models/indian_dish.dart';
 import '../models/indian_drink.dart';
 import '../models/search_result.dart';
+import '../models/book.dart';
 import '../services/global_search_service.dart';
 import '../screens/discover/category_details_page.dart';
 import '../screens/district/district_details_page.dart';
@@ -20,6 +21,7 @@ import '../screens/jyotirlinga/jyotirlinga_details_page.dart';
 import '../screens/challenge/checklist_item_details_page.dart';
 import '../screens/dishes/indian_dishes_page.dart';
 import '../screens/drinks/indian_drinks_page.dart';
+import '../screens/books/book_detail_page.dart';
 import 'challenge_navigation.dart';
 
 Future<void> openSearchResult(
@@ -67,6 +69,7 @@ Future<void> openSearchResult(
       catalogue: search.drinksCatalogue!,
       drink: drink,
     ),
+    Book book => BookDetailPage(book: book),
     Item item when challenge != null => ChecklistItemDetailsPage(
       challenge: challenge,
       item: item,

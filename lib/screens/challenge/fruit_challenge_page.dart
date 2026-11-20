@@ -166,7 +166,8 @@ class _FruitChallengePageState extends State<FruitChallengePage> {
             ProgressCard(
               prominent: true,
               title: 'Your progress',
-              summary: '$completedCount / ${fruits.length} fruits explored',
+              summary:
+                  '$completedCount of ${fruits.length} ${widget.challenge.progressVerb}',
               progress: progress,
             ),
             const SizedBox(height: 8),

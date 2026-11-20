@@ -4,6 +4,7 @@ import 'item.dart';
 import 'indian_dish.dart';
 import 'indian_drink.dart';
 import 'jyotirlinga.dart';
+import 'book.dart';
 
 enum DailyDiscoveryType {
   fruit,
@@ -13,6 +14,7 @@ enum DailyDiscoveryType {
   indianDrink,
   indiaLocation,
   jyotirlinga,
+  book,
 }
 
 class DailyDiscovery {
@@ -20,6 +22,7 @@ class DailyDiscovery {
   final String canonicalId;
   final String title;
   final String subtitle;
+  final String categoryId;
   final Fruit? fruit;
   final FruitVariety? variety;
   final Item? yogaPose;
@@ -29,12 +32,14 @@ class DailyDiscovery {
   final Item? location;
   final Challenge? locationChallenge;
   final JyotirlingaSite? jyotirlinga;
+  final Book? book;
 
   const DailyDiscovery({
     required this.type,
     required this.canonicalId,
     required this.title,
     required this.subtitle,
+    this.categoryId = '',
     this.fruit,
     this.variety,
     this.yogaPose,
@@ -44,6 +49,7 @@ class DailyDiscovery {
     this.location,
     this.locationChallenge,
     this.jyotirlinga,
+    this.book,
   });
 
   String get reference => '${type.name}:$canonicalId';

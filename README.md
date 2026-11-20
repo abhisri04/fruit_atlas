@@ -1,6 +1,8 @@
-# fruit_atlas
+# UPLYFA
 
-A new Flutter project.
+Experience more.
+
+The internal Dart package name remains `fruit_atlas` for compatibility.
 
 ## Getting Started
 

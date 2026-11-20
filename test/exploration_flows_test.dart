@@ -83,7 +83,7 @@ void main() {
     await settle();
     expect(prefs.getStringList('saved_challenge_ids'), [yoga.id]);
     await show(const SavedPage());
-    expect(find.text('1 of 132 explored'), findsOneWidget);
+    expect(find.text('1 of 132 learned'), findsOneWidget);
     await tester.tap(find.text(yoga.name));
     await settle();
     await tester.tap(find.text('Mountain Pose'));
@@ -121,10 +121,18 @@ void main() {
       findsNothing,
     );
     expect(find.text('Challenges started'), findsOneWidget);
-    expect(find.text('2'), findsOneWidget);
-    await tester.scrollUntilVisible(find.text('1 of 12 visited'), 200);
+    expect(find.text('2'), findsWidgets);
+    await tester.scrollUntilVisible(
+      find.text('1 of 12 visited'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('1 of 12 visited'), findsOneWidget);
-    await tester.scrollUntilVisible(find.text('1 of 132 poses learned'), 200);
+    await tester.scrollUntilVisible(
+      find.text('1 of 132 poses learned'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('1 of 132 poses learned'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });

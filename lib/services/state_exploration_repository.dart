@@ -3,6 +3,16 @@ import '../models/experience.dart';
 import '../models/experience_collection.dart';
 import '../models/state_exploration.dart';
 import 'asset_data_service.dart';
+import 'progress_service.dart';
+import '../models/india_location_registry.dart';
+
+class IndiaExplorationSummary {
+  final Map<String, int> counts;
+  final Map<String, int> totals;
+  final Set<String> completedIds;
+  const IndiaExplorationSummary(this.counts, this.totals, this.completedIds);
+  int get exploredCount => completedIds.length;
+}
 
 class StateExplorationRepository {
   final AssetDataService data;
@@ -14,6 +24,27 @@ class StateExplorationRepository {
 
   Future<StateExplorationData?> load(String stateId) {
     return _stateCache.putIfAbsent(stateId, () => _load(stateId));
+  }
+
+  Future<IndiaExplorationSummary> loadProgress() async {
+    final completed = await ProgressService.getCompletedExperienceIds();
+    final counts = <String, int>{};
+    final totals = <String, int>{};
+    final all = <String>{};
+    final locations = IndiaLocationRegistry.locations;
+    final states = await Future.wait(
+      locations.map((location) => load(location.id)),
+    );
+    for (var index = 0; index < locations.length; index++) {
+      final location = locations[index];
+      final state = states[index];
+      final ids = (state?.experiences ?? []).map((e) => e.id).toSet();
+      final done = ids.intersection(completed);
+      counts[location.id] = done.length;
+      totals[location.id] = ids.length;
+      all.addAll(done);
+    }
+    return IndiaExplorationSummary(counts, totals, all);
   }
 
   Future<StateExplorationData?> _load(String stateId) async {

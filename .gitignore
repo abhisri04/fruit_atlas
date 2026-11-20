@@ -68,3 +68,7 @@ app.*.map.json
 # One-time catalogue migration report; canonical datasets and source registers
 # remain versioned under assets/data and docs/data_sources.
 /docs/dish_catalogue_migration_report.md
+
+# Local Pexels query cache and rate-limit checkpoint; provenance stays in manifest.
+/.dish_pexels_work/
+/.dish_pixabay_work/

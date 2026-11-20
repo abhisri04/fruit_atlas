@@ -1,0 +1,14 @@
+{
+  "batchSize": 30,
+  "candidateDishes": 8,
+  "noPlausibleMetadataCandidates": 22,
+  "strongExactCandidates": null,
+  "genericOrWrongDishes": null,
+  "commonApprovedRate": null,
+  "obscureApprovedRate": null,
+  "pending": 30,
+  "unresolved": 0,
+  "finalImages": 0,
+  "accuracyAssessment": "Human review required; metadata ranking cannot establish exact identity",
+  "newQueriesRemaining": 84
+}

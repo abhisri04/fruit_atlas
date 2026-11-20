@@ -103,7 +103,7 @@
     {
       "id": "uttar_pradesh_fruits",
       "title": "Fruits",
-      "description": "Fruits with a verified Uttar Pradesh growing relationship in the canonical Fruit Atlas dataset.",
+      "description": "Fruits with a verified Uttar Pradesh growing relationship in the canonical fruit catalogue dataset.",
       "icon": "fruit",
       "parent_section_id": "food_drink",
       "context_id": "uttar_pradesh",

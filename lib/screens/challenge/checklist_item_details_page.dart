@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/completion_feedback.dart';
 import '../../widgets/metadata_chip.dart';
+import '../../widgets/reward_animations.dart';
 
 import '../../models/challenge.dart';
 import '../../models/district.dart';
@@ -1073,10 +1074,20 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
               padding: const EdgeInsets.fromLTRB(20, 10, 20, 16),
               child: SizedBox(
                 width: double.infinity,
-                child: FilledButton.icon(
-                  onPressed: isLoading ? null : toggleCompletion,
-                  icon: Icon(isCompleted ? Icons.check_circle : Icons.check),
-                  label: Text(isCompleted ? 'Completed' : 'Mark as Completed'),
+                child: TactileScale(
+                  child: FilledButton.icon(
+                    onPressed: isLoading ? null : toggleCompletion,
+                    icon: AnimatedSwitcher(
+                      duration: const Duration(milliseconds: 180),
+                      child: Icon(
+                        isCompleted ? Icons.check_circle : Icons.check,
+                        key: ValueKey(isCompleted),
+                      ),
+                    ),
+                    label: Text(
+                      isCompleted ? 'Completed' : 'Mark as Completed',
+                    ),
+                  ),
                 ),
               ),
             ),
@@ -1133,26 +1144,33 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                     ],
                   ),
                 const SizedBox(height: 20),
-                Card(
-                  child: CheckboxListTile(
-                    value: isCompleted,
-                    onChanged: isLoading ? null : (_) => toggleCompletion(),
-                    title: Text(
-                      isCompleted
-                          ? widget.challenge.itemType ==
-                                    'state_or_union_territory'
-                                ? 'Visited'
-                                : 'Explored'
-                          : widget.challenge.itemType ==
-                                'state_or_union_territory'
-                          ? 'Mark as Visited'
-                          : 'Mark as ${widget.challenge.completionVerb}',
-                    ),
-                    subtitle: Text(
-                      isCompleted ? 'This item is included in your progress.' : 'Use the checkbox when you have completed this item.',
+                if (widget.challenge.itemType == 'state_or_union_territory')
+                  const Text(
+                    'Explore the linked experiences below. Track State & UT visits separately in India Passport.',
+                  )
+                else
+                  Card(
+                    child: CheckboxListTile(
+                      value: isCompleted,
+                      onChanged: isLoading ? null : (_) => toggleCompletion(),
+                      title: Text(
+                        isCompleted
+                            ? widget.challenge.itemType ==
+                                      'state_or_union_territory'
+                                  ? 'Visited'
+                                  : 'Explored'
+                            : widget.challenge.itemType ==
+                                  'state_or_union_territory'
+                            ? 'Mark as Visited'
+                            : 'Mark as ${widget.challenge.completionVerb}',
+                      ),
+                      subtitle: Text(
+                        isCompleted
+                            ? 'This item is included in your progress.'
+                            : 'Use the checkbox when you have completed this item.',
+                      ),
                     ),
                   ),
-                ),
                 const SizedBox(height: 28),
                 Text(
                   'About ${widget.item.name}',

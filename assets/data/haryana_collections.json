@@ -84,7 +84,7 @@
     {
       "id": "haryana_fruits",
       "title": "Fruits",
-      "description": "Fruits with a verified growing relationship in the canonical Fruit Atlas dataset. Associated with Haryana.",
+      "description": "Fruits with a verified growing relationship in the canonical fruit catalogue dataset. Associated with Haryana.",
       "icon": "fruit",
       "parent_section_id": "food_drink",
       "context_id": "haryana",
