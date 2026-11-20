@@ -34,6 +34,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
   List<Category> categories = [];
   List<Challenge> challenges = [];
   List<DailyDiscovery> recommendations = [];
+  List<DailyDiscovery> _pool = [];
   Set<String> savedReferences = {};
   Map<String, ChallengeProgressSummary> challengeProgress = {};
   String selectedCategoryId = 'all';
@@ -72,6 +73,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
         categories = loadedCategories;
         challenges = loadedChallenges;
         recommendations = diverse;
+        _pool = pool;
         savedReferences = saved;
         challengeProgress = progress.challenges;
         isLoading = false;
@@ -86,10 +88,13 @@ class _DiscoverPageState extends State<DiscoverPage> {
     }
   }
 
+  /// "For You" shows the diverse mix; a category shows up to 12 items from
+  /// the whole eligible pool so smaller categories aren't limited to one.
   List<DailyDiscovery> get _filtered => selectedCategoryId == 'all'
       ? recommendations
-      : recommendations
+      : _pool
             .where((item) => item.categoryId == selectedCategoryId)
+            .take(12)
             .toList(growable: false);
 
   Future<void> _toggleSaved(DailyDiscovery item) async {
@@ -310,14 +315,28 @@ class _DiscoverPageState extends State<DiscoverPage> {
     );
   }
 
-  void _selectCategory(String value) =>
-      setState(() => selectedCategoryId = value);
+  Future<void> _selectCategory(String value) async {
+    setState(() => selectedCategoryId = value);
+    // Category views draw from the full pool, so load saved state for any
+    // cards that were not part of the initial "For You" mix.
+    final unchecked = _filtered
+        .where((item) => !recommendations.contains(item))
+        .toList(growable: false);
+    final saved = <String>{};
+    for (final item in unchecked) {
+      if (await _savedService.isSaved(item)) saved.add(item.reference);
+    }
+    if (!mounted || saved.isEmpty) return;
+    setState(() => savedReferences.addAll(saved));
+  }
+
   String _shortCategoryName(Category category) => switch (category.id) {
     'food_drink' => 'Food',
     'fitness_wellness' => 'Wellness',
     'travel_exploration' => 'Travel',
     'culture_learning' => 'Learning',
     'faith_pilgrimage' => 'Faith',
+    'life_experiences' => 'Life',
     _ => category.name.split(' & ').first,
   };
   Widget _sectionTitle(String value) => Text(

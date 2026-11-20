@@ -1,6 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/daily_discovery.dart';
+import '../models/item.dart';
 import 'asset_data_service.dart';
 import 'challenge_repository.dart';
 import 'progress_service.dart';
@@ -52,6 +53,15 @@ class DailyDiscoveryService {
     final locationItems = locationChallenge == null
         ? const []
         : await data.loadChallengeItems(locationChallenge);
+    final hobbyChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'hobby')
+        .firstOrNull;
+    final hobbyItems = hobbyChallenge == null
+        ? const <Item>[]
+        : await data.loadChallengeItems(hobbyChallenge);
+    final completedHobbies = hobbyChallenge == null
+        ? <String>{}
+        : await ProgressService.getChallengeItemIds(hobbyChallenge.progressKey);
     final jyotirlingas = await data.loadJyotirlingas();
     final dishCatalogue = await const IndianDishesRepository().load();
     final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
@@ -190,6 +200,22 @@ class DailyDiscoveryService {
           jyotirlinga: site,
         ),
       );
+    }
+    if (hobbyChallenge != null) {
+      for (final hobby in hobbyItems) {
+        if (excludeCompleted && completedHobbies.contains(hobby.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.hobby,
+            canonicalId: hobby.id,
+            title: hobby.name,
+            subtitle: hobby.category ?? 'Hobby',
+            categoryId: hobbyChallenge.categoryId,
+            hobby: hobby,
+            hobbyChallenge: hobbyChallenge,
+          ),
+        );
+      }
     }
     for (final book in bookCatalogue.books) {
       if (excludeCompleted && (bookProgress[book.id]?.isRead ?? false)) {

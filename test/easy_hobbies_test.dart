@@ -1,14 +1,18 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:fruit_atlas/models/achievement.dart';
+import 'package:fruit_atlas/models/daily_discovery.dart';
 import 'package:fruit_atlas/models/item.dart';
 import 'package:fruit_atlas/services/asset_data_service.dart';
+import 'package:fruit_atlas/services/daily_discovery_service.dart';
 import 'package:fruit_atlas/services/gamification_service.dart';
 import 'package:fruit_atlas/services/global_search_service.dart';
 import 'package:fruit_atlas/services/progress_service.dart';
 import 'package:fruit_atlas/services/progress_summary_service.dart';
+import 'package:fruit_atlas/widgets/daily_discovery_card.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -115,5 +119,50 @@ void main() {
       results.map((result) => result.title),
       contains('Fold a paper crane'),
     );
+  });
+
+  test('hobbies feed Explore recommendations until tried', () async {
+    final first = items.first.id;
+    SharedPreferences.setMockInitialValues({
+      progressKey: [first],
+    });
+    final pool = await DailyDiscoveryService().buildEligiblePool();
+    final hobbies = pool
+        .where((item) => item.type == DailyDiscoveryType.hobby)
+        .toList();
+    expect(hobbies, hasLength(59));
+    expect(hobbies.map((item) => item.canonicalId), isNot(contains(first)));
+    expect(
+      hobbies.every((item) => item.categoryId == 'life_experiences'),
+      isTrue,
+    );
+    expect(hobbies.every((item) => item.hobbyChallenge != null), isTrue);
+  });
+
+  testWidgets('discovery card presents a hobby as an action', (tester) async {
+    final hobby = items.first;
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: SingleChildScrollView(
+            child: DailyDiscoveryCard(
+              discovery: DailyDiscovery(
+                type: DailyDiscoveryType.hobby,
+                canonicalId: hobby.id,
+                title: hobby.name,
+                subtitle: hobby.category!,
+                categoryId: 'life_experiences',
+                hobby: hobby,
+              ),
+              isLoading: false,
+              isSaved: false,
+            ),
+          ),
+        ),
+      ),
+    );
+    expect(find.text('Fold a paper crane'), findsWidgets);
+    expect(find.text('Try Fold a paper crane'), findsNothing);
+    expect(find.text('Try this hobby →'), findsOneWidget);
   });
 }

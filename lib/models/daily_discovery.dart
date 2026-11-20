@@ -15,6 +15,7 @@ enum DailyDiscoveryType {
   indiaLocation,
   jyotirlinga,
   book,
+  hobby,
 }
 
 class DailyDiscovery {
@@ -33,6 +34,8 @@ class DailyDiscovery {
   final Challenge? locationChallenge;
   final JyotirlingaSite? jyotirlinga;
   final Book? book;
+  final Item? hobby;
+  final Challenge? hobbyChallenge;
 
   const DailyDiscovery({
     required this.type,
@@ -50,6 +53,8 @@ class DailyDiscovery {
     this.locationChallenge,
     this.jyotirlinga,
     this.book,
+    this.hobby,
+    this.hobbyChallenge,
   });
 
   String get reference => '${type.name}:$canonicalId';

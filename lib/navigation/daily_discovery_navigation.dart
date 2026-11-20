@@ -56,6 +56,10 @@ Future<void> openDailyDiscoveryItem(
       challenge: discovery.locationChallenge!,
       item: discovery.location!,
     ),
+    DailyDiscoveryType.hobby => ChecklistItemDetailsPage(
+      challenge: discovery.hobbyChallenge!,
+      item: discovery.hobby!,
+    ),
     DailyDiscoveryType.jyotirlinga => JyotirlingaDetailsPage(
       site: discovery.jyotirlinga!,
     ),

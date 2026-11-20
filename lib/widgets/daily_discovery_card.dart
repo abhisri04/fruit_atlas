@@ -32,12 +32,16 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.indiaLocation => Icons.map_outlined,
     DailyDiscoveryType.jyotirlinga => Icons.temple_hindu_outlined,
     DailyDiscoveryType.book => Icons.menu_book_outlined,
+    DailyDiscoveryType.hobby => Icons.palette_outlined,
     null => Icons.auto_awesome_outlined,
   };
 
-  String get presentationTitle => discovery!.type == DailyDiscoveryType.book
-      ? 'Read ${discovery!.title}'
-      : 'Try ${discovery!.title}';
+  String get presentationTitle => switch (discovery!.type) {
+    DailyDiscoveryType.book => 'Read ${discovery!.title}',
+    // Hobby titles are already actions, e.g. "Fold a paper crane".
+    DailyDiscoveryType.hobby => discovery!.title,
+    _ => 'Try ${discovery!.title}',
+  };
 
   String get supportingCopy => switch (discovery!.type) {
     DailyDiscoveryType.fruit => 'Add a new fruit to your collection.',
@@ -52,6 +56,7 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.jyotirlinga =>
       'Discover one of India’s twelve Jyotirlingas.',
     DailyDiscoveryType.book => 'Open a new chapter in your reading journey.',
+    DailyDiscoveryType.hobby => 'A low-cost hobby you can start today.',
   };
 
   String get compactMetadata => switch (discovery!.type) {
@@ -67,6 +72,10 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.indiaLocation => 'State or Union Territory',
     DailyDiscoveryType.jyotirlinga => 'Jyotirlinga',
     DailyDiscoveryType.book => 'Book',
+    DailyDiscoveryType.hobby => [
+      'Hobby',
+      discovery!.hobby?.category,
+    ].whereType<String>().join(' · '),
   };
 
   String get primaryAction => switch (discovery!.type) {
@@ -78,6 +87,7 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.indiaLocation => 'Explore this place →',
     DailyDiscoveryType.jyotirlinga => 'Explore this Jyotirlinga →',
     DailyDiscoveryType.book => 'Explore this book →',
+    DailyDiscoveryType.hobby => 'Try this hobby →',
   };
 
   String _yogaSupportingCopy() {

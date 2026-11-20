@@ -51,6 +51,7 @@ void main() {
       DailyDiscoveryType.indiaLocation,
       DailyDiscoveryType.jyotirlinga,
       DailyDiscoveryType.book,
+      DailyDiscoveryType.hobby,
     });
     expect(pool.every((item) => !item.locationRequired), isTrue);
     expect(pool.map((item) => item.reference), isNot(contains('fruit:FR001')));
@@ -139,6 +140,10 @@ void main() {
           status: BookStatus.read,
           language: nextDay.book!.availableLanguages.first,
         );
+      case DailyDiscoveryType.hobby:
+        await preferences.setStringList('completed_hobby_ids', [
+          nextDay.canonicalId,
+        ]);
     }
     final replacement = await tester.runAsync(service.getToday);
     expect(replacement, isNotNull);
