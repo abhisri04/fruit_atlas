@@ -40,19 +40,32 @@ class MainNavigationPage extends StatefulWidget {
   State<MainNavigationPage> createState() => _MainNavigationPageState();
 }
 
-class _MainNavigationPageState extends State<MainNavigationPage> {
+class _MainNavigationPageState extends State<MainNavigationPage>
+    with SingleTickerProviderStateMixin {
   int selectedIndex = 0;
+  // Fades the newly selected tab in. Tabs stay mounted in the IndexedStack,
+  // so switching never loses scroll position or loaded state.
+  late final AnimationController _tabFade = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 220),
+    value: 1,
+  );
   bool _exitArmed = false;
   Timer? _exitTimer;
 
   @override
   void dispose() {
     _exitTimer?.cancel();
+    _tabFade.dispose();
     super.dispose();
   }
 
   void _selectDestination(int index) {
     _exitTimer?.cancel();
+    if (index != selectedIndex) {
+      final reduced = MediaQuery.maybeOf(context)?.disableAnimations ?? false;
+      reduced ? _tabFade.value = 1 : _tabFade.forward(from: 0);
+    }
     setState(() {
       selectedIndex = index;
       _exitArmed = false;
@@ -99,13 +112,16 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
       canPop: false,
       onPopInvokedWithResult: _handleBack,
       child: Scaffold(
-        body: IndexedStack(
-          index: selectedIndex,
-          children: [
-            HomePage(isActive: selectedIndex == 0),
-            const DiscoverPage(),
-            selectedIndex == 2 ? const MyLifePage() : const SizedBox.shrink(),
-          ],
+        body: FadeTransition(
+          opacity: CurvedAnimation(parent: _tabFade, curve: Curves.easeOut),
+          child: IndexedStack(
+            index: selectedIndex,
+            children: [
+              HomePage(isActive: selectedIndex == 0),
+              const DiscoverPage(),
+              selectedIndex == 2 ? const MyLifePage() : const SizedBox.shrink(),
+            ],
+          ),
         ),
         bottomNavigationBar: NavigationBar(
           selectedIndex: selectedIndex,

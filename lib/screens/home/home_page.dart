@@ -7,6 +7,8 @@ import '../../theme/app_colors.dart';
 import '../../models/challenge.dart';
 import '../../models/app_branding.dart';
 import '../../services/fruit_search.dart';
+import '../../widgets/reward_animations.dart';
+import '../../widgets/reveal.dart';
 import '../../widgets/discovery_search_field.dart';
 import '../../widgets/challenge_card.dart';
 import '../../widgets/empty_state.dart';
@@ -626,23 +628,29 @@ class _HomePageState extends State<HomePage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               if (game != null)
-                GamificationHeader(
-                  summary: game,
-                  eyebrow: greeting,
-                  title: AppBranding.appName,
+                Reveal(
+                  child: GamificationHeader(
+                    summary: game,
+                    eyebrow: greeting,
+                    title: AppBranding.appName,
+                  ),
                 ),
               const SizedBox(height: 18),
-              if (game != null) QuestCard(quest: game.quest),
+              if (game != null)
+                Reveal(index: 1, child: QuestCard(quest: game.quest)),
               const SizedBox(height: 16),
-              const TravelJourneys(),
+              const Reveal(index: 2, child: TravelJourneys()),
               const SizedBox(height: 24),
-              DailyDiscoveryCard(
-                discovery: dailyDiscovery,
-                isLoading: isDailyDiscoveryLoading,
-                isSaved: isDailyDiscoverySaved,
-                onDiscover: openDailyDiscovery,
-                onSave: toggleDailyDiscoverySaved,
-                onAnother: showAnotherDiscovery,
+              Reveal(
+                index: 3,
+                child: DailyDiscoveryCard(
+                  discovery: dailyDiscovery,
+                  isLoading: isDailyDiscoveryLoading,
+                  isSaved: isDailyDiscoverySaved,
+                  onDiscover: openDailyDiscovery,
+                  onSave: toggleDailyDiscoverySaved,
+                  onAnother: showAnotherDiscovery,
+                ),
               ),
               const SizedBox(height: 24),
               Row(
@@ -719,36 +727,38 @@ class _HomePageState extends State<HomePage> {
                       return SizedBox(
                         key: ValueKey('quick-explore-${challenge.id}'),
                         width: width,
-                        child: Material(
-                          color: accent.withValues(alpha: .11),
-                          borderRadius: BorderRadius.circular(16),
-                          child: InkWell(
+                        child: TactileScale(
+                          child: Material(
+                            color: accent.withValues(alpha: .11),
                             borderRadius: BorderRadius.circular(16),
-                            onTap: () async {
-                              await openChallenge(context, challenge);
-                              if (mounted) await loadFruitAtlasData();
-                            },
-                            child: Padding(
-                              padding: const EdgeInsets.all(12),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Icon(
-                                    challengeIcon(challenge.iconIdentifier),
-                                    color: accent,
-                                    size: 30,
-                                  ),
-                                  const SizedBox(height: 9),
-                                  Text(
-                                    challenge.compactTitle,
-                                    maxLines: 2,
-                                    overflow: TextOverflow.ellipsis,
-                                    style: const TextStyle(
-                                      fontSize: 12,
-                                      fontWeight: FontWeight.w700,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(16),
+                              onTap: () async {
+                                await openChallenge(context, challenge);
+                                if (mounted) await loadFruitAtlasData();
+                              },
+                              child: Padding(
+                                padding: const EdgeInsets.all(12),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Icon(
+                                      challengeIcon(challenge.iconIdentifier),
+                                      color: accent,
+                                      size: 30,
                                     ),
-                                  ),
-                                ],
+                                    const SizedBox(height: 9),
+                                    Text(
+                                      challenge.compactTitle,
+                                      maxLines: 2,
+                                      overflow: TextOverflow.ellipsis,
+                                      style: const TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: FontWeight.w700,
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           ),

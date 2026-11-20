@@ -16,6 +16,8 @@ import '../../widgets/challenge_icon.dart';
 import '../../widgets/empty_state.dart';
 import '../../widgets/experience_artwork.dart';
 import '../../widgets/journey_card.dart';
+import '../../widgets/reveal.dart';
+import '../../widgets/reward_animations.dart';
 import '../../widgets/travel_journeys.dart';
 import '../search/discovery_search_page.dart';
 
@@ -222,16 +224,24 @@ class _DiscoverPageState extends State<DiscoverPage> {
                                   const SizedBox(width: 12),
                               itemBuilder: (_, index) {
                                 final item = _filtered[index];
-                                return _RecommendationCard(
-                                  item: item,
-                                  isSaved: savedReferences.contains(
-                                    item.reference,
+                                return Reveal(
+                                  index: index,
+                                  child: TactileScale(
+                                    child: _RecommendationCard(
+                                      item: item,
+                                      isSaved: savedReferences.contains(
+                                        item.reference,
+                                      ),
+                                      onSave: () => _toggleSaved(item),
+                                      onTap: () async {
+                                        await openDailyDiscoveryItem(
+                                          context,
+                                          item,
+                                        );
+                                        if (mounted) await _load();
+                                      },
+                                    ),
                                   ),
-                                  onSave: () => _toggleSaved(item),
-                                  onTap: () async {
-                                    await openDailyDiscoveryItem(context, item);
-                                    if (mounted) await _load();
-                                  },
                                 );
                               },
                             ),
@@ -268,41 +278,100 @@ class _DiscoverPageState extends State<DiscoverPage> {
               sliver: SliverGrid(
                 gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
                   maxCrossAxisExtent: 190,
-                  mainAxisExtent: 116,
+                  mainAxisExtent: 132,
                   crossAxisSpacing: 12,
                   mainAxisSpacing: 12,
                 ),
                 delegate: SliverChildBuilderDelegate((context, index) {
                   final challenge = active[index];
                   final accent = AppColors.categoryAccent(challenge.categoryId);
-                  return InkWell(
-                    key: ValueKey('explore-category-${challenge.id}'),
-                    borderRadius: BorderRadius.circular(20),
-                    onTap: () => openChallenge(context, challenge),
-                    child: Container(
-                      padding: const EdgeInsets.all(15),
-                      decoration: BoxDecoration(
-                        gradient: AppGradients.category(accent),
+                  final progress = challengeProgress[challenge.id];
+                  final done = progress?.completed ?? 0;
+                  final total = progress?.total ?? challenge.totalItems;
+                  return Reveal(
+                    index: index,
+                    child: TactileScale(
+                      child: Material(
+                        key: ValueKey('explore-category-${challenge.id}'),
                         borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Icon(
-                            challengeIcon(challenge.iconIdentifier),
-                            color: Colors.white,
+                        clipBehavior: Clip.antiAlias,
+                        child: Ink(
+                          decoration: BoxDecoration(
+                            gradient: AppGradients.category(accent),
                           ),
-                          Text(
-                            challenge.compactTitle,
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                            style: const TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.w800,
+                          child: InkWell(
+                            onTap: () => openChallenge(context, challenge),
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  right: -14,
+                                  bottom: -18,
+                                  child: Icon(
+                                    challengeIcon(challenge.iconIdentifier),
+                                    size: 92,
+                                    color: Colors.white.withValues(alpha: .14),
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(15),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Icon(
+                                        challengeIcon(challenge.iconIdentifier),
+                                        color: Colors.white,
+                                      ),
+                                      Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            challenge.compactTitle,
+                                            maxLines: 2,
+                                            overflow: TextOverflow.ellipsis,
+                                            style: const TextStyle(
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.w800,
+                                            ),
+                                          ),
+                                          const SizedBox(height: 6),
+                                          ClipRRect(
+                                            borderRadius: BorderRadius.circular(
+                                              4,
+                                            ),
+                                            child: AnimatedProgressValue(
+                                              value: total <= 0
+                                                  ? 0
+                                                  : done / total,
+                                              minHeight: 4,
+                                              color: Colors.white,
+                                              backgroundColor: Colors.white
+                                                  .withValues(alpha: .25),
+                                            ),
+                                          ),
+                                          const SizedBox(height: 4),
+                                          Text(
+                                            '$done of $total',
+                                            style: TextStyle(
+                                              color: Colors.white.withValues(
+                                                alpha: .85,
+                                              ),
+                                              fontSize: 11,
+                                              fontWeight: FontWeight.w600,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
-                        ],
+                        ),
                       ),
                     ),
                   );

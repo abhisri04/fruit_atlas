@@ -14,6 +14,7 @@ abstract final class AppColors {
     'fitness_wellness' || 'collecting' => purple,
     'travel_exploration' => blue,
     'culture_learning' => Color(0xFFAD6545),
+    'life_experiences' => rose,
     _ => primary,
   };
   static const background = Color(0xFFFAF9F6);
