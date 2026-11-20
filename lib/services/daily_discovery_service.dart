@@ -1,11 +1,13 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../models/daily_discovery.dart';
+import '../models/item.dart';
 import 'asset_data_service.dart';
 import 'challenge_repository.dart';
 import 'progress_service.dart';
 import 'indian_dishes_repository.dart';
 import 'indian_drinks_repository.dart';
+import 'books_repository.dart';
 
 class DailyDiscoveryService {
   static const _dateKey = 'daily_discovery_date';
@@ -33,6 +35,9 @@ class DailyDiscoveryService {
   }) async {
     final fruitData = await data.loadFruitData();
     final loadedChallenges = await challenges.loadChallenges();
+    final fruitChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'fruit')
+        .firstOrNull;
     final yogaChallenge = loadedChallenges
         .where((challenge) => challenge.itemType == 'yoga_pose')
         .firstOrNull;
@@ -42,9 +47,30 @@ class DailyDiscoveryService {
     final locationChallenge = loadedChallenges
         .where((challenge) => challenge.itemType == 'state_or_union_territory')
         .firstOrNull;
+    final jyotirlingaChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'jyotirlinga')
+        .firstOrNull;
     final locationItems = locationChallenge == null
         ? const []
         : await data.loadChallengeItems(locationChallenge);
+    final hobbyChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'hobby')
+        .firstOrNull;
+    final hobbyItems = hobbyChallenge == null
+        ? const <Item>[]
+        : await data.loadChallengeItems(hobbyChallenge);
+    final completedHobbies = hobbyChallenge == null
+        ? <String>{}
+        : await ProgressService.getChallengeItemIds(hobbyChallenge.progressKey);
+    final gameChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'game')
+        .firstOrNull;
+    final gameItems = gameChallenge == null
+        ? const <Item>[]
+        : await data.loadChallengeItems(gameChallenge);
+    final completedGames = gameChallenge == null
+        ? <String>{}
+        : await ProgressService.getChallengeItemIds(gameChallenge.progressKey);
     final jyotirlingas = await data.loadJyotirlingas();
     final dishCatalogue = await const IndianDishesRepository().load();
     final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
@@ -62,6 +88,8 @@ class DailyDiscoveryService {
           );
     final completedJyotirlingas =
         await ProgressService.getCompletedJyotirlingaIds();
+    final bookCatalogue = await const BooksRepository().load();
+    final bookProgress = await ProgressService.getBookProgress();
     final recommendations = <DailyDiscovery>[];
 
     for (final fruit in fruitData.fruits) {
@@ -75,6 +103,7 @@ class DailyDiscoveryService {
             subtitle: fruit.scientificName.isEmpty
                 ? 'Fruit to discover'
                 : fruit.scientificName,
+            categoryId: fruitChallenge?.categoryId ?? 'food_drink',
             fruit: fruit,
           ),
         );
@@ -92,6 +121,7 @@ class DailyDiscoveryService {
             canonicalId: varietyId,
             title: variety.name,
             subtitle: 'Variety of ${fruit.name}',
+            categoryId: fruitChallenge?.categoryId ?? 'food_drink',
             fruit: fruit,
             variety: variety,
           ),
@@ -113,6 +143,7 @@ class DailyDiscoveryService {
               pose.category,
               pose.difficulty,
             ].whereType<String>().join(' · '),
+            categoryId: yogaChallenge.categoryId,
             yogaPose: pose,
             yogaChallenge: yogaChallenge,
           ),
@@ -128,6 +159,7 @@ class DailyDiscoveryService {
           canonicalId: dish.id,
           title: dish.name,
           subtitle: '${dish.primaryState} · Indian dish',
+          categoryId: 'food_drink',
           dish: dish,
         ),
       );
@@ -142,6 +174,7 @@ class DailyDiscoveryService {
           canonicalId: drink.id,
           title: drink.name,
           subtitle: '${drink.primaryState} · Indian drink',
+          categoryId: 'food_drink',
           drink: drink,
         ),
       );
@@ -157,6 +190,7 @@ class DailyDiscoveryService {
             canonicalId: location.id,
             title: location.name,
             subtitle: location.category ?? 'State or Union Territory',
+            categoryId: locationChallenge.categoryId,
             location: location,
             locationChallenge: locationChallenge,
           ),
@@ -171,7 +205,55 @@ class DailyDiscoveryService {
           canonicalId: site.id,
           title: site.name,
           subtitle: site.location,
+          categoryId: jyotirlingaChallenge?.categoryId ?? 'faith_pilgrimage',
           jyotirlinga: site,
+        ),
+      );
+    }
+    if (hobbyChallenge != null) {
+      for (final hobby in hobbyItems) {
+        if (excludeCompleted && completedHobbies.contains(hobby.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.hobby,
+            canonicalId: hobby.id,
+            title: hobby.name,
+            subtitle: hobby.category ?? 'Hobby',
+            categoryId: hobbyChallenge.categoryId,
+            hobby: hobby,
+            hobbyChallenge: hobbyChallenge,
+          ),
+        );
+      }
+    }
+    if (gameChallenge != null) {
+      for (final game in gameItems) {
+        if (excludeCompleted && completedGames.contains(game.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.game,
+            canonicalId: game.id,
+            title: game.name,
+            subtitle: game.category ?? 'Game',
+            categoryId: gameChallenge.categoryId,
+            hobby: game,
+            hobbyChallenge: gameChallenge,
+          ),
+        );
+      }
+    }
+    for (final book in bookCatalogue.books) {
+      if (excludeCompleted && (bookProgress[book.id]?.isRead ?? false)) {
+        continue;
+      }
+      recommendations.add(
+        DailyDiscovery(
+          type: DailyDiscoveryType.book,
+          canonicalId: book.id,
+          title: book.canonicalTitle,
+          subtitle: '${book.primaryAuthorDisplay} · ${book.primaryGenre}',
+          categoryId: 'culture_learning',
+          book: book,
         ),
       );
     }

@@ -176,7 +176,7 @@
     },
     {
       "id": "AN",
-      "name": "Andaman and Nicobar Islands",
+      "name": "Andaman & Nicobar Islands",
       "type": "UT",
       "region": "Islands"
     },
@@ -229,7 +229,7 @@
       "name": "Mango",
       "scientificName": "Mangifera indica",
       "aliases": [],
-      "shortDescription": "The edible fruit of Mangifera indica, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Mangifera indica, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [
         {
@@ -437,7 +437,7 @@
       "name": "Banana",
       "scientificName": "Musa spp.",
       "aliases": [],
-      "shortDescription": "The edible fruit of Musa spp., recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Musa spp., recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -548,7 +548,7 @@
       "name": "Guava",
       "scientificName": "Psidium guajava",
       "aliases": [],
-      "shortDescription": "The edible fruit of Psidium guajava, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Psidium guajava, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [
         {
@@ -633,7 +633,7 @@
       "name": "Papaya",
       "scientificName": "Carica papaya",
       "aliases": [],
-      "shortDescription": "The edible fruit of Carica papaya, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Carica papaya, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -701,7 +701,7 @@
       "name": "Grapes",
       "scientificName": "Vitis vinifera",
       "aliases": [],
-      "shortDescription": "The edible fruit of Vitis vinifera, recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "shortDescription": "The edible fruit of Vitis vinifera, recorded in the fruit catalogue as a temperate/subtropical crop.",
       "cropGroup": "Temperate/Subtropical",
       "states": [
         {
@@ -829,7 +829,7 @@
       "aliases": [
         "Chikoo"
       ],
-      "shortDescription": "The edible fruit of Manilkara zapota, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Manilkara zapota, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -925,7 +925,7 @@
       "name": "Lime",
       "scientificName": "Citrus aurantiifolia",
       "aliases": [],
-      "shortDescription": "The edible fruit of Citrus aurantiifolia, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus aurantiifolia, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [
         {
@@ -1010,7 +1010,7 @@
       "name": "Lemon",
       "scientificName": "Citrus limon",
       "aliases": [],
-      "shortDescription": "The edible fruit of Citrus limon, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus limon, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [],
       "varieties": [],
@@ -1031,7 +1031,7 @@
         "Amla",
         "Indian Gooseberry"
       ],
-      "shortDescription": "The edible fruit of Phyllanthus emblica, recorded in the Fruit Atlas as a subtropical/arid crop.",
+      "shortDescription": "The edible fruit of Phyllanthus emblica, recorded in the fruit catalogue as a subtropical/arid crop.",
       "cropGroup": "Subtropical/Arid",
       "states": [],
       "varieties": [
@@ -1061,7 +1061,7 @@
       "name": "Apple",
       "scientificName": "Malus domestica",
       "aliases": [],
-      "shortDescription": "The edible fruit of Malus domestica, recorded in the Fruit Atlas as a temperate crop.",
+      "shortDescription": "The edible fruit of Malus domestica, recorded in the fruit catalogue as a temperate crop.",
       "cropGroup": "Temperate",
       "states": [
         {
@@ -1121,7 +1121,7 @@
       "name": "Pomegranate",
       "scientificName": "Punica granatum",
       "aliases": [],
-      "shortDescription": "The edible fruit of Punica granatum, recorded in the Fruit Atlas as a arid/subtropical crop.",
+      "shortDescription": "The edible fruit of Punica granatum, recorded in the fruit catalogue as a arid/subtropical crop.",
       "cropGroup": "Arid/Subtropical",
       "states": [
         {
@@ -1213,7 +1213,7 @@
       "name": "Pineapple",
       "scientificName": "Ananas comosus",
       "aliases": [],
-      "shortDescription": "The edible fruit of Ananas comosus, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Ananas comosus, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -1286,7 +1286,7 @@
       "name": "Litchi",
       "scientificName": "Litchi chinensis",
       "aliases": [],
-      "shortDescription": "The edible fruit of Litchi chinensis, recorded in the Fruit Atlas as a subtropical crop.",
+      "shortDescription": "The edible fruit of Litchi chinensis, recorded in the fruit catalogue as a subtropical crop.",
       "cropGroup": "Subtropical",
       "states": [
         {
@@ -1371,7 +1371,7 @@
       "name": "Custard Apple",
       "scientificName": "Annona squamosa",
       "aliases": [],
-      "shortDescription": "The edible fruit of Annona squamosa, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Annona squamosa, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -1390,7 +1390,7 @@
       "name": "Watermelon",
       "scientificName": "Citrullus lanatus",
       "aliases": [],
-      "shortDescription": "The edible fruit of Citrullus lanatus, recorded in the Fruit Atlas as a warm-season crop.",
+      "shortDescription": "The edible fruit of Citrullus lanatus, recorded in the fruit catalogue as a warm-season crop.",
       "cropGroup": "Warm-season",
       "states": [],
       "varieties": [],
@@ -1410,7 +1410,7 @@
       "aliases": [
         "Cantaloupe"
       ],
-      "shortDescription": "The edible fruit of Cucumis melo, recorded in the Fruit Atlas as a warm-season crop.",
+      "shortDescription": "The edible fruit of Cucumis melo, recorded in the fruit catalogue as a warm-season crop.",
       "cropGroup": "Warm-season",
       "states": [],
       "varieties": [],
@@ -1428,7 +1428,7 @@
       "name": "Jackfruit",
       "scientificName": "Artocarpus heterophyllus",
       "aliases": [],
-      "shortDescription": "The edible fruit of Artocarpus heterophyllus, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Artocarpus heterophyllus, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -1454,7 +1454,7 @@
       "name": "Bael",
       "scientificName": "Aegle marmelos",
       "aliases": [],
-      "shortDescription": "The edible fruit of Aegle marmelos, recorded in the Fruit Atlas as a subtropical/arid crop.",
+      "shortDescription": "The edible fruit of Aegle marmelos, recorded in the fruit catalogue as a subtropical/arid crop.",
       "cropGroup": "Subtropical/Arid",
       "states": [],
       "varieties": [
@@ -1487,7 +1487,7 @@
       "aliases": [
         "Indian Jujube"
       ],
-      "shortDescription": "The edible fruit of Ziziphus mauritiana, recorded in the Fruit Atlas as a arid/subtropical crop.",
+      "shortDescription": "The edible fruit of Ziziphus mauritiana, recorded in the fruit catalogue as a arid/subtropical crop.",
       "cropGroup": "Arid/Subtropical",
       "states": [],
       "varieties": [],
@@ -1506,7 +1506,7 @@
       "name": "Jamun",
       "scientificName": "Syzygium cumini",
       "aliases": [],
-      "shortDescription": "The edible fruit of Syzygium cumini, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Syzygium cumini, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [
@@ -1531,7 +1531,7 @@
       "name": "Karonda",
       "scientificName": "Carissa carandas",
       "aliases": [],
-      "shortDescription": "The edible fruit of Carissa carandas, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Carissa carandas, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -1550,7 +1550,7 @@
       "name": "Phalsa",
       "scientificName": "Grewia asiatica",
       "aliases": [],
-      "shortDescription": "The edible fruit of Grewia asiatica, recorded in the Fruit Atlas as a subtropical crop.",
+      "shortDescription": "The edible fruit of Grewia asiatica, recorded in the fruit catalogue as a subtropical crop.",
       "cropGroup": "Subtropical",
       "states": [],
       "varieties": [],
@@ -1568,7 +1568,7 @@
       "name": "Tamarind",
       "scientificName": "Tamarindus indica",
       "aliases": [],
-      "shortDescription": "The edible fruit of Tamarindus indica, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Tamarindus indica, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -1586,7 +1586,7 @@
       "name": "Kokum",
       "scientificName": "Garcinia indica",
       "aliases": [],
-      "shortDescription": "The edible fruit of Garcinia indica, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Garcinia indica, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -1604,7 +1604,7 @@
       "name": "Avocado",
       "scientificName": "Persea americana",
       "aliases": [],
-      "shortDescription": "The edible fruit of Persea americana, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Persea americana, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [
@@ -1634,7 +1634,7 @@
       "name": "Dragon Fruit",
       "scientificName": "Selenicereus spp.",
       "aliases": [],
-      "shortDescription": "The edible fruit of Selenicereus spp., recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Selenicereus spp., recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -1652,7 +1652,7 @@
       "name": "Strawberry",
       "scientificName": "Fragaria × ananassa",
       "aliases": [],
-      "shortDescription": "The edible fruit of Fragaria × ananassa, recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "shortDescription": "The edible fruit of Fragaria × ananassa, recorded in the fruit catalogue as a temperate/subtropical crop.",
       "cropGroup": "Temperate/Subtropical",
       "states": [],
       "varieties": [],
@@ -1671,7 +1671,7 @@
       "name": "Peach",
       "scientificName": "Prunus persica",
       "aliases": [],
-      "shortDescription": "The edible fruit of Prunus persica, recorded in the Fruit Atlas as a temperate crop.",
+      "shortDescription": "The edible fruit of Prunus persica, recorded in the fruit catalogue as a temperate crop.",
       "cropGroup": "Temperate",
       "states": [],
       "varieties": [],
@@ -1689,7 +1689,7 @@
       "name": "Plum",
       "scientificName": "Prunus domestica / Prunus salicina",
       "aliases": [],
-      "shortDescription": "The edible fruit of Prunus domestica / Prunus salicina, recorded in the Fruit Atlas as a temperate crop.",
+      "shortDescription": "The edible fruit of Prunus domestica / Prunus salicina, recorded in the fruit catalogue as a temperate crop.",
       "cropGroup": "Temperate",
       "states": [],
       "varieties": [],
@@ -1707,7 +1707,7 @@
       "name": "Pear",
       "scientificName": "Pyrus spp.",
       "aliases": [],
-      "shortDescription": "The edible fruit of Pyrus spp., recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "shortDescription": "The edible fruit of Pyrus spp., recorded in the fruit catalogue as a temperate/subtropical crop.",
       "cropGroup": "Temperate/Subtropical",
       "states": [],
       "varieties": [],
@@ -1726,7 +1726,7 @@
       "name": "Apricot",
       "scientificName": "Prunus armeniaca",
       "aliases": [],
-      "shortDescription": "The edible fruit of Prunus armeniaca, recorded in the Fruit Atlas as a temperate crop.",
+      "shortDescription": "The edible fruit of Prunus armeniaca, recorded in the fruit catalogue as a temperate crop.",
       "cropGroup": "Temperate",
       "states": [],
       "varieties": [],
@@ -1744,7 +1744,7 @@
       "name": "Cherry",
       "scientificName": "Prunus avium / P. cerasus",
       "aliases": [],
-      "shortDescription": "The edible fruit of Prunus avium / P. cerasus, recorded in the Fruit Atlas as a temperate crop.",
+      "shortDescription": "The edible fruit of Prunus avium / P. cerasus, recorded in the fruit catalogue as a temperate crop.",
       "cropGroup": "Temperate",
       "states": [],
       "varieties": [],
@@ -1762,7 +1762,7 @@
       "name": "Kiwi",
       "scientificName": "Actinidia deliciosa",
       "aliases": [],
-      "shortDescription": "The edible fruit of Actinidia deliciosa, recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "shortDescription": "The edible fruit of Actinidia deliciosa, recorded in the fruit catalogue as a temperate/subtropical crop.",
       "cropGroup": "Temperate/Subtropical",
       "states": [],
       "varieties": [],
@@ -1781,7 +1781,7 @@
       "name": "Persimmon",
       "scientificName": "Diospyros kaki",
       "aliases": [],
-      "shortDescription": "The edible fruit of Diospyros kaki, recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "shortDescription": "The edible fruit of Diospyros kaki, recorded in the fruit catalogue as a temperate/subtropical crop.",
       "cropGroup": "Temperate/Subtropical",
       "states": [],
       "varieties": [],
@@ -1802,7 +1802,7 @@
       "aliases": [
         "Anjeer"
       ],
-      "shortDescription": "The edible fruit of Ficus carica, recorded in the Fruit Atlas as a arid/subtropical crop.",
+      "shortDescription": "The edible fruit of Ficus carica, recorded in the fruit catalogue as a arid/subtropical crop.",
       "cropGroup": "Arid/Subtropical",
       "states": [],
       "varieties": [],
@@ -1821,7 +1821,7 @@
       "name": "Mulberry",
       "scientificName": "Morus spp.",
       "aliases": [],
-      "shortDescription": "The edible fruit of Morus spp., recorded in the Fruit Atlas as a temperate/subtropical crop.",
+      "shortDescription": "The edible fruit of Morus spp., recorded in the fruit catalogue as a temperate/subtropical crop.",
       "cropGroup": "Temperate/Subtropical",
       "states": [
         {
@@ -1847,7 +1847,7 @@
       "name": "Loquat",
       "scientificName": "Eriobotrya japonica",
       "aliases": [],
-      "shortDescription": "The edible fruit of Eriobotrya japonica, recorded in the Fruit Atlas as a subtropical crop.",
+      "shortDescription": "The edible fruit of Eriobotrya japonica, recorded in the fruit catalogue as a subtropical crop.",
       "cropGroup": "Subtropical",
       "states": [],
       "varieties": [],
@@ -1865,7 +1865,7 @@
       "name": "Passion Fruit",
       "scientificName": "Passiflora edulis",
       "aliases": [],
-      "shortDescription": "The edible fruit of Passiflora edulis, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Passiflora edulis, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -1884,7 +1884,7 @@
       "name": "Rambutan",
       "scientificName": "Nephelium lappaceum",
       "aliases": [],
-      "shortDescription": "The edible fruit of Nephelium lappaceum, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Nephelium lappaceum, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [
@@ -1908,7 +1908,7 @@
       "name": "Mangosteen",
       "scientificName": "Garcinia mangostana",
       "aliases": [],
-      "shortDescription": "The edible fruit of Garcinia mangostana, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Garcinia mangostana, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -1926,7 +1926,7 @@
       "name": "Durian",
       "scientificName": "Durio zibethinus",
       "aliases": [],
-      "shortDescription": "The edible fruit of Durio zibethinus, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Durio zibethinus, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -1953,7 +1953,7 @@
       "aliases": [
         "Carambola"
       ],
-      "shortDescription": "The edible fruit of Averrhoa carambola, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Averrhoa carambola, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -1971,7 +1971,7 @@
       "name": "Wood Apple",
       "scientificName": "Limonia acidissima",
       "aliases": [],
-      "shortDescription": "The edible fruit of Limonia acidissima, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Limonia acidissima, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -1990,7 +1990,7 @@
       "name": "Coconut",
       "scientificName": "Cocos nucifera",
       "aliases": [],
-      "shortDescription": "The edible fruit of Cocos nucifera, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Cocos nucifera, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2016,7 +2016,7 @@
       "name": "Cashew Apple",
       "scientificName": "Anacardium occidentale",
       "aliases": [],
-      "shortDescription": "The edible fruit of Anacardium occidentale, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Anacardium occidentale, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2043,7 +2043,7 @@
       "aliases": [
         "Blood Orange"
       ],
-      "shortDescription": "The edible fruit of Citrus sinensis, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus sinensis, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [],
       "varieties": [],
@@ -2063,7 +2063,7 @@
       "aliases": [
         "Mosambi"
       ],
-      "shortDescription": "The edible fruit of Citrus limettioides, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus limettioides, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [],
       "varieties": [],
@@ -2084,7 +2084,7 @@
         "Tangerine",
         "Kinnow"
       ],
-      "shortDescription": "The edible fruit of Citrus reticulata, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus reticulata, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [
         {
@@ -2151,7 +2151,7 @@
       "name": "Grapefruit",
       "scientificName": "Citrus × paradisi",
       "aliases": [],
-      "shortDescription": "The edible fruit of Citrus × paradisi, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus × paradisi, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [],
       "varieties": [],
@@ -2169,7 +2169,7 @@
       "name": "Pomelo",
       "scientificName": "Citrus maxima",
       "aliases": [],
-      "shortDescription": "The edible fruit of Citrus maxima, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus maxima, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [],
       "varieties": [],
@@ -2187,7 +2187,7 @@
       "name": "Citron",
       "scientificName": "Citrus medica",
       "aliases": [],
-      "shortDescription": "The edible fruit of Citrus medica, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus medica, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [],
       "varieties": [],
@@ -2205,7 +2205,7 @@
       "name": "Cape Gooseberry",
       "scientificName": "Physalis peruviana",
       "aliases": [],
-      "shortDescription": "The edible fruit of Physalis peruviana, recorded in the Fruit Atlas as a subtropical crop.",
+      "shortDescription": "The edible fruit of Physalis peruviana, recorded in the fruit catalogue as a subtropical crop.",
       "cropGroup": "Subtropical",
       "states": [],
       "varieties": [],
@@ -2221,7 +2221,7 @@
       "name": "Water Apple",
       "scientificName": "Syzygium aqueum",
       "aliases": [],
-      "shortDescription": "The edible fruit of Syzygium aqueum, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Syzygium aqueum, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2239,7 +2239,7 @@
       "name": "Rose Apple",
       "scientificName": "Syzygium jambos",
       "aliases": [],
-      "shortDescription": "The edible fruit of Syzygium jambos, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Syzygium jambos, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2264,7 +2264,7 @@
       "name": "Malay Apple",
       "scientificName": "Syzygium malaccense",
       "aliases": [],
-      "shortDescription": "The edible fruit of Syzygium malaccense, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Syzygium malaccense, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2282,7 +2282,7 @@
       "name": "Breadfruit",
       "scientificName": "Artocarpus altilis",
       "aliases": [],
-      "shortDescription": "The edible fruit of Artocarpus altilis, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Artocarpus altilis, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2298,7 +2298,7 @@
       "name": "Soursop",
       "scientificName": "Annona muricata",
       "aliases": [],
-      "shortDescription": "The edible fruit of Annona muricata, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Annona muricata, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2316,7 +2316,7 @@
       "name": "Cherimoya",
       "scientificName": "Annona cherimola",
       "aliases": [],
-      "shortDescription": "The edible fruit of Annona cherimola, recorded in the Fruit Atlas as a subtropical crop.",
+      "shortDescription": "The edible fruit of Annona cherimola, recorded in the fruit catalogue as a subtropical crop.",
       "cropGroup": "Subtropical",
       "states": [],
       "varieties": [],
@@ -2332,7 +2332,7 @@
       "name": "Atemoya",
       "scientificName": "Annona × atemoya",
       "aliases": [],
-      "shortDescription": "The edible fruit of Annona × atemoya, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Annona × atemoya, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -2349,7 +2349,7 @@
       "name": "Bilimbi",
       "scientificName": "Averrhoa bilimbi",
       "aliases": [],
-      "shortDescription": "The edible fruit of Averrhoa bilimbi, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Averrhoa bilimbi, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2374,7 +2374,7 @@
       "name": "Indian Persimmon",
       "scientificName": "Diospyros peregrina",
       "aliases": [],
-      "shortDescription": "The edible fruit of Diospyros peregrina, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Diospyros peregrina, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2390,7 +2390,7 @@
       "name": "Tendu",
       "scientificName": "Diospyros melanoxylon",
       "aliases": [],
-      "shortDescription": "The edible fruit of Diospyros melanoxylon, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Diospyros melanoxylon, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -2409,7 +2409,7 @@
       "name": "Khirni",
       "scientificName": "Manilkara hexandra",
       "aliases": [],
-      "shortDescription": "The edible fruit of Manilkara hexandra, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Manilkara hexandra, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2427,7 +2427,7 @@
       "name": "Mahua Fruit",
       "scientificName": "Madhuca longifolia",
       "aliases": [],
-      "shortDescription": "The edible fruit of Madhuca longifolia, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Madhuca longifolia, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2445,7 +2445,7 @@
       "aliases": [
         "Gonda"
       ],
-      "shortDescription": "The edible fruit of Cordia dichotoma, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Cordia dichotoma, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -2464,7 +2464,7 @@
       "name": "Jujube",
       "scientificName": "Ziziphus jujuba",
       "aliases": [],
-      "shortDescription": "The edible fruit of Ziziphus jujuba, recorded in the Fruit Atlas as a subtropical crop.",
+      "shortDescription": "The edible fruit of Ziziphus jujuba, recorded in the fruit catalogue as a subtropical crop.",
       "cropGroup": "Subtropical",
       "states": [],
       "varieties": [],
@@ -2480,7 +2480,7 @@
       "name": "Chironji Fruit",
       "scientificName": "Buchanania lanzan",
       "aliases": [],
-      "shortDescription": "The edible fruit of Buchanania lanzan, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Buchanania lanzan, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [
@@ -2505,7 +2505,7 @@
       "name": "Burmese Grape",
       "scientificName": "Baccaurea ramiflora",
       "aliases": [],
-      "shortDescription": "The edible fruit of Baccaurea ramiflora, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Baccaurea ramiflora, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2530,7 +2530,7 @@
       "name": "Governor's Plum",
       "scientificName": "Flacourtia indica",
       "aliases": [],
-      "shortDescription": "The edible fruit of Flacourtia indica, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Flacourtia indica, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -2549,7 +2549,7 @@
       "name": "Indian Plum",
       "scientificName": "Flacourtia jangomas",
       "aliases": [],
-      "shortDescription": "The edible fruit of Flacourtia jangomas, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Flacourtia jangomas, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2577,7 +2577,7 @@
         "Mimusops (Bullet Wood)",
         "Maulsari"
       ],
-      "shortDescription": "The edible fruit of Mimusops elengi, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Mimusops elengi, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2604,7 +2604,7 @@
       "aliases": [
         "Toddy Palm Fruit"
       ],
-      "shortDescription": "The edible fruit of Borassus flabellifer, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Borassus flabellifer, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2622,7 +2622,7 @@
       "name": "Date",
       "scientificName": "Phoenix dactylifera",
       "aliases": [],
-      "shortDescription": "The edible fruit of Phoenix dactylifera, recorded in the Fruit Atlas as a arid crop.",
+      "shortDescription": "The edible fruit of Phoenix dactylifera, recorded in the fruit catalogue as a arid crop.",
       "cropGroup": "Arid",
       "states": [],
       "varieties": [],
@@ -2640,7 +2640,7 @@
       "name": "Indian Date Palm",
       "scientificName": "Phoenix sylvestris",
       "aliases": [],
-      "shortDescription": "The edible fruit of Phoenix sylvestris, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Phoenix sylvestris, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -2657,7 +2657,7 @@
       "name": "Olive",
       "scientificName": "Olea europaea",
       "aliases": [],
-      "shortDescription": "The edible fruit of Olea europaea, recorded in the Fruit Atlas as a mediterranean/subtropical crop.",
+      "shortDescription": "The edible fruit of Olea europaea, recorded in the fruit catalogue as a mediterranean/subtropical crop.",
       "cropGroup": "Mediterranean/Subtropical",
       "states": [
         {
@@ -2701,7 +2701,7 @@
       "name": "Persian Lime",
       "scientificName": "Citrus × latifolia",
       "aliases": [],
-      "shortDescription": "The edible fruit of Citrus × latifolia, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus × latifolia, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [],
       "varieties": [],
@@ -2717,7 +2717,7 @@
       "name": "Kaffir Lime",
       "scientificName": "Citrus hystrix",
       "aliases": [],
-      "shortDescription": "The edible fruit of Citrus hystrix, recorded in the Fruit Atlas as a citrus crop.",
+      "shortDescription": "The edible fruit of Citrus hystrix, recorded in the fruit catalogue as a citrus crop.",
       "cropGroup": "Citrus",
       "states": [],
       "varieties": [],
@@ -2733,7 +2733,7 @@
       "name": "Sweet Granadilla",
       "scientificName": "Passiflora ligularis",
       "aliases": [],
-      "shortDescription": "The edible fruit of Passiflora ligularis, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Passiflora ligularis, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -2752,7 +2752,7 @@
       "aliases": [
         "Indian Fig Cactus Fruit"
       ],
-      "shortDescription": "The edible fruit of Opuntia ficus-indica, recorded in the Fruit Atlas as a arid crop.",
+      "shortDescription": "The edible fruit of Opuntia ficus-indica, recorded in the fruit catalogue as a arid crop.",
       "cropGroup": "Arid",
       "states": [],
       "varieties": [],
@@ -2768,7 +2768,7 @@
       "name": "Noni",
       "scientificName": "Morinda citrifolia",
       "aliases": [],
-      "shortDescription": "The edible fruit of Morinda citrifolia, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Morinda citrifolia, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2796,7 +2796,7 @@
       "aliases": [
         "Ambada"
       ],
-      "shortDescription": "The edible fruit of Spondias pinnata, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Spondias pinnata, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2821,7 +2821,7 @@
       "name": "Ambarella",
       "scientificName": "Spondias dulcis",
       "aliases": [],
-      "shortDescription": "The edible fruit of Spondias dulcis, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Spondias dulcis, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2846,7 +2846,7 @@
       "name": "Mango Plum",
       "scientificName": "Bouea macrophylla",
       "aliases": [],
-      "shortDescription": "The edible fruit of Bouea macrophylla, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Bouea macrophylla, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2862,7 +2862,7 @@
       "name": "Yellow Mangosteen",
       "scientificName": "Garcinia xanthochymus",
       "aliases": [],
-      "shortDescription": "The edible fruit of Garcinia xanthochymus, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Garcinia xanthochymus, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2880,7 +2880,7 @@
       "name": "Kadam Fruit",
       "scientificName": "Neolamarckia cadamba",
       "aliases": [],
-      "shortDescription": "The edible fruit of Neolamarckia cadamba, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Neolamarckia cadamba, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [
         {
@@ -2905,7 +2905,7 @@
       "name": "Fig Mulberry",
       "scientificName": "Ficus racemosa",
       "aliases": [],
-      "shortDescription": "The edible fruit of Ficus racemosa, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Ficus racemosa, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],
@@ -2921,7 +2921,7 @@
       "name": "Strawberry Guava",
       "scientificName": "Psidium cattleianum",
       "aliases": [],
-      "shortDescription": "The edible fruit of Psidium cattleianum, recorded in the Fruit Atlas as a subtropical crop.",
+      "shortDescription": "The edible fruit of Psidium cattleianum, recorded in the fruit catalogue as a subtropical crop.",
       "cropGroup": "Subtropical",
       "states": [],
       "varieties": [],
@@ -2937,7 +2937,7 @@
       "name": "White Sapote",
       "scientificName": "Casimiroa edulis",
       "aliases": [],
-      "shortDescription": "The edible fruit of Casimiroa edulis, recorded in the Fruit Atlas as a subtropical crop.",
+      "shortDescription": "The edible fruit of Casimiroa edulis, recorded in the fruit catalogue as a subtropical crop.",
       "cropGroup": "Subtropical",
       "states": [],
       "varieties": [],
@@ -2955,7 +2955,7 @@
       "name": "Black Sapote",
       "scientificName": "Diospyros nigra",
       "aliases": [],
-      "shortDescription": "The edible fruit of Diospyros digyna, recorded in the Fruit Atlas as a tropical/subtropical crop.",
+      "shortDescription": "The edible fruit of Diospyros digyna, recorded in the fruit catalogue as a tropical/subtropical crop.",
       "cropGroup": "Tropical/Subtropical",
       "states": [],
       "varieties": [],
@@ -2975,7 +2975,7 @@
       "name": "Mamey Sapote",
       "scientificName": "Pouteria sapota",
       "aliases": [],
-      "shortDescription": "The edible fruit of Pouteria sapota, recorded in the Fruit Atlas as a tropical crop.",
+      "shortDescription": "The edible fruit of Pouteria sapota, recorded in the fruit catalogue as a tropical crop.",
       "cropGroup": "Tropical",
       "states": [],
       "varieties": [],

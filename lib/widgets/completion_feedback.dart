@@ -1,6 +1,10 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../models/achievement.dart';
+import '../models/celebration_event.dart';
+import '../services/celebration_service.dart';
 import '../theme/app_colors.dart';
 
 /// Called only after a successful user-initiated completion write.
@@ -16,6 +20,33 @@ void showCompletionFeedback(
   final unlocked = Achievement.forChallenge(challengeId ?? '')
       .where((a) => a.threshold > before && a.threshold <= after);
   final complete = total > 0 && before < total && after >= total;
+  if (complete) {
+    unawaited(
+      CelebrationService.instance.emitOnce(
+        CelebrationEvent(
+          id: 'collection:${challengeId ?? 'generic'}:$total',
+          kind: CelebrationKind.collectionComplete,
+          intensity: CelebrationIntensity.large,
+          title: 'Collection complete',
+          message: 'Every experience in this journey is complete.',
+        ),
+      ),
+    );
+  } else if (unlocked.isNotEmpty) {
+    final achievement = unlocked.last;
+    unawaited(
+      CelebrationService.instance.emitOnce(
+        CelebrationEvent(
+          id: 'achievement:${achievement.id}',
+          kind: CelebrationKind.achievement,
+          intensity: CelebrationIntensity.large,
+          title: 'Achievement unlocked',
+          message: achievement.title,
+          xp: 25,
+        ),
+      ),
+    );
+  }
   final text = complete
       ? 'Collection complete. Every experience counts.'
       : unlocked.isNotEmpty

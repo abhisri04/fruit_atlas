@@ -119,9 +119,9 @@ class _FruitDetailsPageState extends State<FruitDetailsPage> {
               ProgressCard(
                 prominent: true,
                 variant: ProgressSize.medium,
-                title: 'Varieties explored',
+                title: 'Varieties tried',
                 summary:
-                    '$completedVarietyCount / ${varieties.length} varieties explored',
+                    '$completedVarietyCount / ${varieties.length} varieties tried',
                 progress: varietyProgress,
                 isLoading: isLoadingVarietyProgress,
               ),

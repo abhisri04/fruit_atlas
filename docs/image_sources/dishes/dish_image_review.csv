@@ -1,0 +1,641 @@
+﻿dishId,dishName,query,candidate1,candidate2,candidate3,selectedPhotoId,confidence,reviewStatus
+exp_west_bengal_aam_achar_ilish,Aam Achar Ilish,Aam Achar Ilish | Aam Achar Ilish Indian food | Aam Achar Ilish west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_aam_papad,Aam Papad,Aam Papad | Aam Papad Indian food | Aam Papad uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_aamat,Aamat,Aamat | Aamat Indian food | Aamat chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_aamin,Aamin,Aamin | Aamin Indian food | Aamin arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_abar_khabo_sandesh,Abar Khabo Sandesh,Abar Khabo Sandesh | Abar Khabo Sandesh Indian food | Abar Khabo Sandesh west bengal | Abar Khabo food,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_ada_pradhaman,Ada Pradhaman,Ada Pradhaman | Ada Pradhaman Indian food | Ada Pradhaman kerala,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_agra_petha,Agra Petha,Agra Petha | Agra Petha Indian food | Agra Petha uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_aikibeye,Aikibeye,Aikibeye | Aikibeye Indian food | Aikibeye nagaland,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_akini_chokibo,Akini Chokibo,Akini Chokibo | Akini Chokibo Indian food | Akini Chokibo nagaland,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_aktori,Aktori,Aktori | Aktori Indian food | Aktori himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_al_yakhni,Al Yakhni,Al Yakhni | Al Yakhni Indian food | Al Yakhni jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_aloo_ke_gutke,Aloo ke Gutke,Aloo ke Gutke | Aloo ke Gutke Indian food | Aloo ke Gutke uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_aloo_palda,Aloo Palda,Aloo Palda | Aloo Palda Indian food | Aloo Palda himachal pradesh | Pahari Aloo Palda food | Palda food,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_aloo_paratha,Aloo Paratha,Aloo Paratha | Aloo Paratha Indian food | Aloo Paratha chandigarh,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_aloo_pitika,Aloo Pitika,Aloo Pitika | Aloo Pitika Indian food | Aloo Pitika assam | Pitika food,,,,,UNRESOLVED,awaiting_api_key
+exp_delhi_aloo_tikki,Aloo Tikki,Aloo Tikki | Aloo Tikki Indian food | Aloo Tikki chandigarh | Aloo Tikki delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_alsandyanche_tonakh,Alsandyanche Tonakh,Alsandyanche Tonakh | Alsandyanche Tonakh Indian food | Alsandyanche Tonakh goa,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_alu_phing_sha,Alu Phing Sha,Alu Phing Sha | Alu Phing Sha Indian food | Alu Phing Sha himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_ambadyachi_uddamethi,Ambadyachi Uddamethi,Ambadyachi Uddamethi | Ambadyachi Uddamethi Indian food | Ambadyachi Uddamethi goa,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_ambal,Ambal,Ambal | Ambal Indian food | Ambal jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_ambot_tik,Ambot Tik,Ambot Tik | Ambot Tik Indian food | Ambot Tik goa,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_amritsari_fish,Amritsari Fish,Amritsari Fish | Amritsari Fish Indian food | Amritsari Fish punjab | Amritsari Fish Fry food,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_amritsari_kulcha,Amritsari Kulcha,Amritsari Kulcha | Amritsari Kulcha Indian food | Amritsari Kulcha punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_amritsari_kulcha_chandigarh_style,Amritsari Kulcha Chandigarh Style,Amritsari Kulcha Chandigarh Style | Amritsari Kulcha Chandigarh Style Indian food | Amritsari Kulcha Chandigarh Style chandigarh,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_amrusu,Amrusu,Amrusu | Amrusu Indian food | Amrusu nagaland,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_andaman_fish_curry,Andaman Fish Curry,Andaman Fish Curry | Andaman Fish Curry Indian food | Andaman Fish Curry andaman nicobar | Fish Curry food,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_andaman_prawn_curry,Andaman Prawn Curry,Andaman Prawn Curry | Andaman Prawn Curry Indian food | Andaman Prawn Curry andaman nicobar,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_andhra_chicken_pakodi,Andhra Chicken Pakodi,Andhra Chicken Pakodi | Andhra Chicken Pakodi Indian food | Andhra Chicken Pakodi andhra pradesh | Raju's Andhra Chicken Pakodi food,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_andhra_kodi_kura,Andhra Kodi Kura,Andhra Kodi Kura | Andhra Kodi Kura Indian food | Andhra Kodi Kura andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_angakar_roti,Angakar Roti,Angakar Roti | Angakar Roti Indian food | Angakar Roti chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_anu_nu,Anu-Nu,Anu-Nu | Anu-Nu Indian food | Anu-Nu arunachal pradesh | Anu Nu food | anu nu food,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_appam_and_stew,Appam and Stew,Appam and Stew | Appam and Stew Indian food | Appam and Stew kerala | Appam with Vegetable Stew food,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_apricot_jam,Apricot Jam,Apricot Jam | Apricot Jam Indian food | Apricot Jam ladakh,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_arisi_paruppu_sadam,Arisi Paruppu Sadam,Arisi Paruppu Sadam | Arisi Paruppu Sadam Indian food | Arisi Paruppu Sadam tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_jharkhand_arsa,Arsa,Arsa | Arsa Indian food | Arsa jharkhand | Arsa uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_mizoram_arsa_buhchiar,Arsa Buhchiar,Arsa Buhchiar | Arsa Buhchiar Indian food | Arsa Buhchiar mizoram,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_assamese_jolpaan,Assamese Jolpaan,Assamese Jolpaan | Assamese Jolpaan Indian food | Assamese Jolpaan assam,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_assamese_pitha,Assamese Pitha,Assamese Pitha | Assamese Pitha Indian food | Assamese Pitha assam,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_asumbi,Asumbi,Asumbi | Asumbi Indian food | Asumbi arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_athirasam,Athirasam,Athirasam | Athirasam Indian food | Athirasam tamil nadu | Adhirasam food,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_ato,Ato,Ato | Ato Indian food | Ato arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_auriya,Auriya,Auriya | Auriya Indian food | Auriya jammu kashmir | Oria food,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_auriya_kadoo,Auriya Kadoo,Auriya Kadoo | Auriya Kadoo Indian food | Auriya Kadoo himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_avial,Avial,Avial | Avial Indian food | Avial kerala,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_aviri_kudumu,Aviri Kudumu,Aviri Kudumu | Aviri Kudumu Indian food | Aviri Kudumu andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_awadhi_dum_biryani,Awadhi Dum Biryani,Awadhi Dum Biryani | Awadhi Dum Biryani Indian food | Awadhi Dum Biryani uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_baati_chokha,Baati Chokha,Baati Chokha | Baati Chokha Indian food | Baati Chokha uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_babru,Babru,Babru | Babru Indian food | Babru himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_badam_kulfi,Badam Kulfi,Badam Kulfi | Badam Kulfi Indian food | Badam Kulfi uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_badi_chura,Badi Chura,Badi Chura | Badi Chura Indian food | Badi Chura odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_bafauri,Bafauri,Bafauri | Bafauri Indian food | Bafauri chhattisgarh | Bafuari food,,,,,UNRESOLVED,awaiting_api_key
+exp_mizoram_bai,Bai,Bai | Bai Indian food | Bai mizoram,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_bajra_aloo_roti,Bajra Aloo Roti,Bajra Aloo Roti | Bajra Aloo Roti Indian food | Bajra Aloo Roti haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_bajra_khichdi,Bajra Khichdi,Bajra Khichdi | Bajra Khichdi Indian food | Bajra Khichdi haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_bajra_roti,Bajra Roti,Bajra Roti | Bajra Roti Indian food | Bajra Roti haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_bajri_no_rotlo,Bajri no Rotlo,Bajri no Rotlo | Bajri no Rotlo Indian food | Bajri no Rotlo dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_bal_mithai,Bal Mithai,Bal Mithai | Bal Mithai Indian food | Bal Mithai uttar pradesh | Bal Mithai uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_bamboo_shoot_curry,Bamboo Shoot Curry,Bamboo Shoot Curry | Bamboo Shoot Curry Indian food | Bamboo Shoot Curry andaman nicobar,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_bamboo_shoot_pickle,Bamboo Shoot Pickle,Bamboo Shoot Pickle | Bamboo Shoot Pickle Indian food | Bamboo Shoot Pickle arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_bamboo_steamed_fish,Bamboo-Steamed Fish,Bamboo-Steamed Fish | Bamboo-Steamed Fish Indian food | Bamboo-Steamed Fish nagaland | Bamboo Steamed Fish food | bamboo steamed fish food,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_banana_bun,Banana Bun,Banana Bun | Banana Bun Indian food | Banana Bun karnataka | Mangalore Buns food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_banarasi_kachori_sabzi,Banarasi Kachori Sabzi,Banarasi Kachori Sabzi | Banarasi Kachori Sabzi Indian food | Banarasi Kachori Sabzi uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_banarasi_paan,Banarasi Paan,Banarasi Paan | Banarasi Paan Indian food | Banarasi Paan uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_bangude_pulimunchi,Bangude Pulimunchi,Bangude Pulimunchi | Bangude Pulimunchi Indian food | Bangude Pulimunchi karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_tripura_bangui,Bangui,Bangui | Bangui Indian food | Bangui tripura,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_bara,Bara,Bara | Bara Indian food | Bara chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_barbecued_prawns,Barbecued Prawns,Barbecued Prawns | Barbecued Prawns Indian food | Barbecued Prawns andaman nicobar,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_barfi_rasmalai,Barfi Rasmalai,Barfi Rasmalai | Barfi Rasmalai Indian food | Barfi Rasmalai madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_basundi,Basundi,Basundi | Basundi Indian food | Basundi gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_batata_vada,Batata Vada,Batata Vada | Batata Vada Indian food | Batata Vada maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_bathua_raita,Bathua Raita,Bathua Raita | Bathua Raita Indian food | Bathua Raita haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_lakshadweep_batla_appam,Batla Appam,Batla Appam | Batla Appam Indian food | Batla Appam lakshadweep,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_batla_kachori,Batla Kachori,Batla Kachori | Batla Kachori Indian food | Batla Kachori madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_bay,Bay,Bay | Bay Indian food | Bay arunachal pradesh | Sakap food,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_bebinca,Bebinca,Bebinca | Bebinca Indian food | Bebinca goa,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_bedhai,Bedhai,Bedhai | Bedhai Indian food | Bedhai uttar pradesh | Bedmi Puri with Aloo food,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_beef_dry_shapta_with_tingmo,Beef Dry Shapta with Tingmo,Beef Dry Shapta with Tingmo | Beef Dry Shapta with Tingmo Indian food | Beef Dry Shapta with Tingmo west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_besan_masala_roti,Besan Masala Roti,Besan Masala Roti | Besan Masala Roti Indian food | Besan Masala Roti haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_besara,Besara,Besara | Besara Indian food | Besara odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_bhagjery,Bhagjery,Bhagjery | Bhagjery Indian food | Bhagjery himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_bhagsu_cake,Bhagsu Cake,Bhagsu Cake | Bhagsu Cake Indian food | Bhagsu Cake himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_bhajia,Bhajia,Bhajia | Bhajia Indian food | Bhajia chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_bhakarwadi,Bhakarwadi,Bhakarwadi | Bhakarwadi Indian food | Bhakarwadi maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_bhanam_arak_adin,Bhanam Arak Adin,Bhanam Arak Adin | Bhanam Arak Adin Indian food | Bhanam Arak Adin arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_bharli_vangi,Bharli Vangi,Bharli Vangi | Bharli Vangi Indian food | Bharli Vangi maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_bharta,Bharta,Bharta | Bharta Indian food | Bharta bihar,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_bhatmas,Bhatmas,Bhatmas | Bhatmas Indian food | Bhatmas west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_bhatt_ki_churkani,Bhatt ki Churkani,Bhatt ki Churkani | Bhatt ki Churkani Indian food | Bhatt ki Churkani uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_bhel_puri,Bhel Puri,Bhel Puri | Bhel Puri Indian food | Bhel Puri maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_bhetki_paturi,Bhetki Paturi,Bhetki Paturi | Bhetki Paturi Indian food | Bhetki Paturi west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_bhey,Bhey,Bhey | Bhey Indian food | Bhey himachal pradesh | Spicy Lotus Stems food,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_bhoonde,Bhoonde,Bhoonde | Bhoonde Indian food | Bhoonde himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_bhopali_gosht_korma,Bhopali Gosht Korma,Bhopali Gosht Korma | Bhopali Gosht Korma Indian food | Bhopali Gosht Korma madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_bhopali_paya_soup,Bhopali Paya Soup,Bhopali Paya Soup | Bhopali Paya Soup Indian food | Bhopali Paya Soup madhya pradesh | Paya Soup food,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_bhuna_gosht,Bhuna Gosht,Bhuna Gosht | Bhuna Gosht Indian food | Bhuna Gosht punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_bhutte_ka_kees,Bhutte ka Kees,Bhutte ka Kees | Bhutte ka Kees Indian food | Bhutte ka Kees madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_bihari_khichdi,Bihari Khichdi,Bihari Khichdi | Bihari Khichdi Indian food | Bihari Khichdi bihar | Khichdi food,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_bisi_bele_bath,Bisi Bele Bath,Bisi Bele Bath | Bisi Bele Bath Indian food | Bisi Bele Bath karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_bombil_fry,Bombil Fry,Bombil Fry | Bombil Fry Indian food | Bombil Fry maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_bore_baasi,Bore Baasi,Bore Baasi | Bore Baasi Indian food | Bore Baasi chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_boti_kebab,Boti Kebab,Boti Kebab | Boti Kebab Indian food | Boti Kebab telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_bread_bajji,Bread Bajji,Bread Bajji | Bread Bajji Indian food | Bread Bajji andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_bun_maska,Bun Maska,Bun Maska | Bun Maska Indian food | Bun Maska uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_bun_parotta,Bun Parotta,Bun Parotta | Bun Parotta Indian food | Bun Parotta tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_butter_bun,Butter Bun,Butter Bun | Butter Bun Indian food | Butter Bun himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_butter_chicken,Butter Chicken,Butter Chicken | Butter Chicken Indian food | Butter Chicken punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_butter_garlic_tiger_prawns,Butter-Garlic Tiger Prawns,Butter-Garlic Tiger Prawns | Butter-Garlic Tiger Prawns Indian food | Butter-Garlic Tiger Prawns dadra nagar haveli daman diu | butter garlic tiger prawns food,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_byake_chutney,Byake Chutney,Byake Chutney | Byake Chutney Indian food | Byake Chutney arunachal pradesh | Byak Chutney food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_chaat,Chaat,Chaat | Chaat Indian food | Chaat uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_chainsoo,Chainsoo,Chainsoo | Chainsoo Indian food | Chainsoo uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_manipur_chak_hao_kheer,Chak-Hao Kheer,Chak-Hao Kheer | Chak-Hao Kheer Indian food | Chak-Hao Kheer manipur | Chak Hao Kheer food | chak hao kheer food,,,,,UNRESOLVED,awaiting_api_key
+DSH073,Chakhwi,Chakhwi | Chakhwi Indian food | Chakhwi tripura,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_chakki_ki_shaak,Chakki ki Shaak,Chakki ki Shaak | Chakki ki Shaak Indian food | Chakki ki Shaak madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_chakuli_pitha,Chakuli Pitha,Chakuli Pitha | Chakuli Pitha Indian food | Chakuli Pitha odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_manipur_chamfoot,Chamfoot,Chamfoot | Chamfoot Indian food | Chamfoot manipur,,,,,UNRESOLVED,awaiting_api_key
+DSH012,Champaran Mutton,Champaran Mutton | Champaran Mutton Indian food | Champaran Mutton bihar | Champaran Meat food,,,,,UNRESOLVED,awaiting_api_key
+DSH045,Chamthong,Chamthong | Chamthong Indian food | Chamthong manipur | Kangshoi food | Kangsoi food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_chana_churmura,Chana Churmura,Chana Churmura | Chana Churmura Indian food | Chana Churmura uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_chana_ghugni,Chana Ghugni,Chana Ghugni | Chana Ghugni Indian food | Chana Ghugni bihar | Chana Ghugni jharkhand | Gugni food,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_chana_madra,Chana Madra,Chana Madra | Chana Madra Indian food | Chana Madra himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_chatpate_chane,Chatpate Chane,Chatpate Chane | Chatpate Chane Indian food | Chatpate Chane himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_chelo_kebab,Chelo Kebab,Chelo Kebab | Chelo Kebab Indian food | Chelo Kebab west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_chena_dahi_vada,Chena Dahi Vada,Chena Dahi Vada | Chena Dahi Vada Indian food | Chena Dahi Vada uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_chenna_jhili,Chenna Jhili,Chenna Jhili | Chenna Jhili Indian food | Chenna Jhili odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_chepala_pulusu,Chepala Pulusu,Chepala Pulusu | Chepala Pulusu Indian food | Chepala Pulusu andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+DSH069,Chettinad Chicken,Chettinad Chicken | Chettinad Chicken Indian food | Chettinad Chicken tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_chha_gosht,Chha Gosht,Chha Gosht | Chha Gosht Indian food | Chha Gosht himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_chhana_motorshutir_chop,Chhana Motorshutir Chop,Chhana Motorshutir Chop | Chhana Motorshutir Chop Indian food | Chhana Motorshutir Chop west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_chhena_gaja,Chhena Gaja,Chhena Gaja | Chhena Gaja Indian food | Chhena Gaja odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_chhena_poda,Chhena Poda,Chhena Poda | Chhena Poda Indian food | Chhena Poda odisha | Chhena Podo food,,,,,UNRESOLVED,awaiting_api_key
+exp_sikkim_chhurpi,Chhurpi,Chhurpi | Chhurpi Indian food | Chhurpi ladakh | Chhurpi sikkim | Churpi food,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_chicken_cafreal,Chicken Cafreal,Chicken Cafreal | Chicken Cafreal Indian food | Chicken Cafreal goa,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_chicken_ghee_roast,Chicken Ghee Roast,Chicken Ghee Roast | Chicken Ghee Roast Indian food | Chicken Ghee Roast karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_chicken_xacuti,Chicken Xacuti,Chicken Xacuti | Chicken Xacuti Indian food | Chicken Xacuti dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_chila,Chila,Chila | Chila Indian food | Chila chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_jharkhand_chilka_roti,Chilka Roti,Chilka Roti | Chilka Roti Indian food | Chilka Roti jharkhand,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_chilli_curry,Chilli Curry,Chilli Curry | Chilli Curry Indian food | Chilli Curry andaman nicobar,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_chilli_prawns,Chilli Prawns,Chilli Prawns | Chilli Prawns Indian food | Chilli Prawns dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_chingri_malaikari,Chingri Malaikari,Chingri Malaikari | Chingri Malaikari Indian food | Chingri Malaikari west bengal | Chingri Malai Curry food,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_chingudi_jhola,Chingudi Jhola,Chingudi Jhola | Chingudi Jhola Indian food | Chingudi Jhola odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_chingudi_kossa,Chingudi Kossa,Chingudi Kossa | Chingudi Kossa Indian food | Chingudi Kossa odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_chok_wangun,Chok Wangun,Chok Wangun | Chok Wangun Indian food | Chok Wangun jammu kashmir | Kashmiri Khattey Baingan food,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_chole_bhature,Chole Bhature,Chole Bhature | Chole Bhature Indian food | Chole Bhature chandigarh | Chole Bhature delhi | Chhole Bhature food,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_chole_kulche,Chole Kulche,Chole Kulche | Chole Kulche Indian food | Chole Kulche punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_choora_matar,Choora Matar,Choora Matar | Choora Matar Indian food | Choora Matar uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_chouk,Chouk,Chouk | Chouk Indian food | Chouk himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_chourico,Chourico,Chourico | Chourico Indian food | Chourico dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_chutagi,Chutagi,Chutagi | Chutagi Indian food | Chutagi ladakh,,,,,UNRESOLVED,awaiting_api_key
+DSH033,Coorg Pandi Curry,Coorg Pandi Curry | Coorg Pandi Curry Indian food | Coorg Pandi Curry karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_crab_xacuti,Crab Xacuti,Crab Xacuti | Crab Xacuti Indian food | Crab Xacuti goa | Goan Crab Curry food | Goan Crab Masala food,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_cutlet_samosa,Cutlet Samosa,Cutlet Samosa | Cutlet Samosa Indian food | Cutlet Samosa andaman nicobar,,,,,UNRESOLVED,awaiting_api_key
+exp_delhi_dahi_bhalla,Dahi Bhalla,Dahi Bhalla | Dahi Bhalla Indian food | Dahi Bhalla delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_dahi_chura,Dahi Chura,Dahi Chura | Dahi Chura Indian food | Dahi Chura bihar,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_dahi_chutney_golgappe,Dahi Chutney Golgappe,Dahi Chutney Golgappe | Dahi Chutney Golgappe Indian food | Dahi Chutney Golgappe uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_dahibara_aloodum,Dahibara Aloodum,Dahibara Aloodum | Dahibara Aloodum Indian food | Dahibara Aloodum odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_rajasthan_dal_baati_churma,Dal Baati Churma,Dal Baati Churma | Dal Baati Churma Indian food | Dal Baati Churma rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_dal_bafla,Dal Bafla,Dal Bafla | Dal Bafla Indian food | Dal Bafla madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_dal_dhokli,Dal Dhokli,Dal Dhokli | Dal Dhokli Indian food | Dal Dhokli gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_dal_makhani,Dal Makhani,Dal Makhani | Dal Makhani Indian food | Dal Makhani chandigarh | Dal Makhani delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_dal_moth,Dal Moth,Dal Moth | Dal Moth Indian food | Dal Moth uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_dal_pakwan,Dal Pakwan,Dal Pakwan | Dal Pakwan Indian food | Dal Pakwan madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_dal_pitha,Dal Pitha,Dal Pitha | Dal Pitha Indian food | Dal Pitha bihar | Dal Pitha jharkhand | Pittha food,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_dalma,Dalma,Dalma | Dalma Indian food | Dalma odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_daman_jetty_roll,Daman Jetty Roll,Daman Jetty Roll | Daman Jetty Roll Indian food | Daman Jetty Roll dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_darbesh,Darbesh,Darbesh | Darbesh Indian food | Darbesh west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_delhi_daulat_ki_chaat,Daulat ki Chaat,Daulat ki Chaat | Daulat ki Chaat Indian food | Daulat ki Chaat delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_dehati_chicken,Dehati Chicken,Dehati Chicken | Dehati Chicken Indian food | Dehati Chicken chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_delhi_delhi_chaat,Delhi Chaat,Delhi Chaat | Delhi Chaat Indian food | Delhi Chaat delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_dharwad_pedha,Dharwad Pedha,Dharwad Pedha | Dharwad Pedha Indian food | Dharwad Pedha karnataka | Dharwad Peda food,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_dhokla,Dhokla,Dhokla | Dhokla Indian food | Dhokla gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_jharkhand_dhuska,Dhuska,Dhuska | Dhuska Indian food | Dhuska jharkhand,,,,,UNRESOLVED,awaiting_api_key
+exp_meghalaya_do_o_kappa,Do'o Kappa,Do'o Kappa | Do'o Kappa Indian food | Do'o Kappa meghalaya | do o kappa food,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_doce,Doce,Doce | Doce Indian food | Doce goa | Doce de Grao food,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_dodol,Dodol,Dodol | Dodol Indian food | Dodol goa,,,,,UNRESOLVED,awaiting_api_key
+exp_meghalaya_dohkhleh,Dohkhleh,Dohkhleh | Dohkhleh Indian food | Dohkhleh meghalaya,,,,,UNRESOLVED,awaiting_api_key
+DSH047,Dohneiiong,Dohneiiong | Dohneiiong Indian food | Dohneiiong meghalaya,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_doi_chira,Doi Chira,Doi Chira | Doi Chira Indian food | Doi Chira assam,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_doi_maach,Doi Maach,Doi Maach | Doi Maach Indian food | Doi Maach west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_doodh_pak,Doodh Pak,Doodh Pak | Doodh Pak Indian food | Doodh Pak dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_dosakaya_pachadi,Dosakaya Pachadi,Dosakaya Pachadi | Dosakaya Pachadi Indian food | Dosakaya Pachadi andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_dry_chicken_fry,Dry Chicken Fry,Dry Chicken Fry | Dry Chicken Fry Indian food | Dry Chicken Fry telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_dubki_kadhi,Dubki Kadhi,Dubki Kadhi | Dubki Kadhi Indian food | Dubki Kadhi chhattisgarh | Dubki Kadi food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_dubuk,Dubuk,Dubuk | Dubuk Indian food | Dubuk uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_duck_meat_curry,Duck Meat Curry,Duck Meat Curry | Duck Meat Curry Indian food | Duck Meat Curry assam,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_dum_aloo_kashmiri,Dum Aloo Kashmiri,Dum Aloo Kashmiri | Dum Aloo Kashmiri Indian food | Dum Aloo Kashmiri jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_egg_65,Egg 65,Egg 65 | Egg 65 Indian food | Egg 65 andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_enduri_pitha,Enduri Pitha,Enduri Pitha | Enduri Pitha Indian food | Enduri Pitha odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_manipur_eromba,Eromba,Eromba | Eromba Indian food | Eromba manipur,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_fafda_jalebi,Fafda Jalebi,Fafda Jalebi | Fafda Jalebi Indian food | Fafda Jalebi gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_faraa,Faraa,Faraa | Faraa Indian food | Faraa chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_fish_kabiraji,Fish Kabiraji,Fish Kabiraji | Fish Kabiraji Indian food | Fish Kabiraji west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_puducherry_french_style_dosa,French-Style Dosa,French-Style Dosa | French-Style Dosa Indian food | French-Style Dosa puducherry | french style dosa food,,,,,UNRESOLVED,awaiting_api_key
+exp_lakshadweep_fried_octopus,Fried Octopus,Fried Octopus | Fried Octopus Indian food | Fried Octopus lakshadweep,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_fruit_chaat,Fruit Chaat,Fruit Chaat | Fruit Chaat Indian food | Fruit Chaat himachal pradesh | Fruit Chat food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_gadbad_chaat,Gadbad Chaat,Gadbad Chaat | Gadbad Chaat Indian food | Gadbad Chaat uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_gahat_ki_dal,Gahat ki Dal,Gahat ki Dal | Gahat ki Dal Indian food | Gahat ki Dal uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_gajak,Gajak,Gajak | Gajak Indian food | Gajak punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_gajar_ka_halwa,Gajar ka Halwa,Gajar ka Halwa | Gajar ka Halwa Indian food | Gajar ka Halwa chandigarh | Gajar ka Halwa haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_galho,Galho,Galho | Galho Indian food | Galho nagaland,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_galouti_kebab,Galouti Kebab,Galouti Kebab | Galouti Kebab Indian food | Galouti Kebab uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_gamthi_chicken,Gamthi Chicken,Gamthi Chicken | Gamthi Chicken Indian food | Gamthi Chicken dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_ganthiya,Ganthiya,Ganthiya | Ganthiya Indian food | Ganthiya gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_garadu,Garadu,Garadu | Garadu Indian food | Garadu madhya pradesh | Garadu ki Chaat food,,,,,UNRESOLVED,awaiting_api_key
+exp_gatte_ki_khichdi,Gatte ki Khichdi,Gatte ki Khichdi | Gatte ki Khichdi Indian food | Gatte ki Khichdi rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_gatte_ki_sabzi,Gatte ki Sabzi,Gatte ki Sabzi | Gatte ki Sabzi Indian food | Gatte ki Sabzi rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_ghari,Ghari,Ghari | Ghari Indian food | Ghari gujarat | Surti Ghari food,,,,,UNRESOLVED,awaiting_api_key
+exp_rajasthan_ghevar,Ghevar,Ghevar | Ghevar Indian food | Ghevar rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_ghila_pitha,Ghila Pitha,Ghila Pitha | Ghila Pitha Indian food | Ghila Pitha assam,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_ghuian_ki_sabzi,Ghuian ki Sabzi,Ghuian ki Sabzi | Ghuian ki Sabzi Indian food | Ghuian ki Sabzi madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_ghunt,Ghunt,Ghunt | Ghunt Indian food | Ghunt bihar,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_goan_chorizo_pao,Goan Chorizo Pao,Goan Chorizo Pao | Goan Chorizo Pao Indian food | Goan Chorizo Pao goa,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_goan_fish_curry_rice,Goan Fish Curry Rice,Goan Fish Curry Rice | Goan Fish Curry Rice Indian food | Goan Fish Curry Rice goa | Goan Fish Curry food,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_gol_gappe,Gol Gappe,Gol Gappe | Gol Gappe Indian food | Gol Gappe chandigarh | Gol Gappe delhi | Golgappa food | Pani Puri food,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_goli_baje,Goli Baje,Goli Baje | Goli Baje Indian food | Goli Baje karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_gondhoraj_fish,Gondhoraj Fish,Gondhoraj Fish | Gondhoraj Fish Indian food | Gondhoraj Fish west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_gongura_mutton,Gongura Mutton,Gongura Mutton | Gongura Mutton Indian food | Gongura Mutton telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_gongura_pachadi,Gongura Pachadi,Gongura Pachadi | Gongura Pachadi Indian food | Gongura Pachadi andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_goond_ladoo,Goond Ladoo,Goond Ladoo | Goond Ladoo Indian food | Goond Ladoo haryana | Gond Ladoo food,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_grilled_lobster,Grilled Lobster,Grilled Lobster | Grilled Lobster Indian food | Grilled Lobster andaman nicobar,,,,,UNRESOLVED,awaiting_api_key
+exp_tripura_gudok,Gudok,Gudok | Gudok Indian food | Gudok tripura | Godok food,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_gujarati_kadhi,Gujarati Kadhi,Gujarati Kadhi | Gujarati Kadhi Indian food | Gujarati Kadhi gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_rajasthan_gulab_halwa,Gulab Halwa,Gulab Halwa | Gulab Halwa Indian food | Gulab Halwa rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_guliyappa,Guliyappa,Guliyappa | Guliyappa Indian food | Guliyappa karnataka | Paddu food,,,,,UNRESOLVED,awaiting_api_key
+DSH065,Gundruk Soup,Gundruk Soup | Gundruk Soup Indian food | Gundruk Soup sikkim,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_gupchup,Gupchup,Gupchup | Gupchup Indian food | Gupchup odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_gur_rewari,Gur Rewari,Gur Rewari | Gur Rewari Indian food | Gur Rewari punjab | Gur Rewari uttar pradesh | Revari food,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_gushtaba,Gushtaba,Gushtaba | Gushtaba Indian food | Gushtaba jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_haah_joha_kumura,Haah Joha Kumura,Haah Joha Kumura | Haah Joha Kumura Indian food | Haah Joha Kumura assam | Duck and White Gourd Curry food,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_haak_saag,Haak Saag,Haak Saag | Haak Saag Indian food | Haak Saag jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_handvo,Handvo,Handvo | Handvo Indian food | Handvo gujarat,,,,,UNRESOLVED,awaiting_api_key
+DSH024,Hara Dhania Cholia,Hara Dhania Cholia | Hara Dhania Cholia Indian food | Hara Dhania Cholia haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_haryanvi_churma,Haryanvi Churma,Haryanvi Churma | Haryanvi Churma Indian food | Haryanvi Churma haryana | Churma food,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_haryanvi_kadhi,Haryanvi Kadhi,Haryanvi Kadhi | Haryanvi Kadhi Indian food | Haryanvi Kadhi haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_himachali_dham,Himachali Dham,Himachali Dham | Himachali Dham Indian food | Himachali Dham himachal pradesh | Dhaam food | Dham food,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_hinkejvu,Hinkejvu,Hinkejvu | Hinkejvu Indian food | Hinkejvu nagaland,,,,,UNRESOLVED,awaiting_api_key
+exp_mizoram_hmarcha_rawt,Hmarcha Rawt,Hmarcha Rawt | Hmarcha Rawt Indian food | Hmarcha Rawt mizoram,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_hokka_pada,Hokka Pada,Hokka Pada | Hokka Pada Indian food | Hokka Pada arunachal pradesh | Dhekia Saag food,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_hulasaporir_pitha,Hulasaporir Pitha,Hulasaporir Pitha | Hulasaporir Pitha Indian food | Hulasaporir Pitha assam,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_hyderabadi_biryani,Hyderabadi Biryani,Hyderabadi Biryani | Hyderabadi Biryani Indian food | Hyderabadi Biryani telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_hyderabadi_haleem,Hyderabadi Haleem,Hyderabadi Haleem | Hyderabadi Haleem Indian food | Hyderabadi Haleem telangana | Haleem food,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_idiyappam_with_meen_anam,Idiyappam with Meen Anam,Idiyappam with Meen Anam | Idiyappam with Meen Anam Indian food | Idiyappam with Meen Anam tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+DSH067,Idli with Sambar,Idli with Sambar | Idli with Sambar Indian food | Idli with Sambar tamil nadu | Idli food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_idris_ki_biryani,Idris Ki Biryani,Idris Ki Biryani | Idris Ki Biryani Indian food | Idris Ki Biryani uttar pradesh | Mutton Biryani food,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_ilish_cutlet,Ilish Cutlet,Ilish Cutlet | Ilish Cutlet Indian food | Ilish Cutlet west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_imarti,Imarti,Imarti | Imarti Indian food | Imarti madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_indori_namkeen,Indori Namkeen,Indori Namkeen | Indori Namkeen Indian food | Indori Namkeen madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_meghalaya_jadoh,Jadoh,Jadoh | Jadoh Indian food | Jadoh meghalaya,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_jagannath_mahaprasad,Jagannath Mahaprasad,Jagannath Mahaprasad | Jagannath Mahaprasad Indian food | Jagannath Mahaprasad odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_delhi_jalebi,Jalebi,Jalebi | Jalebi Indian food | Jalebi chandigarh | Jalebi delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_jhangora_ki_kheer,Jhangora ki Kheer,Jhangora ki Kheer | Jhangora ki Kheer Indian food | Jhangora ki Kheer uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_jharkhand_jharkhand_khaja,Jharkhand Khaja,Jharkhand Khaja | Jharkhand Khaja Indian food | Jharkhand Khaja jharkhand | Khaja food,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_jhinge_aloo_posto,Jhinge Aloo Posto,Jhinge Aloo Posto | Jhinge Aloo Posto Indian food | Jhinge Aloo Posto west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_jhol_momo,Jhol Momo,Jhol Momo | Jhol Momo Indian food | Jhol Momo west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_jolada_rotti,Jolada Rotti,Jolada Rotti | Jolada Rotti Indian food | Jolada Rotti karnataka | Jolada Roti food,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_jolbhora_sandesh,Jolbhora Sandesh,Jolbhora Sandesh | Jolbhora Sandesh Indian food | Jolbhora Sandesh west bengal | Jolbhora food,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_kaaji,Kaaji,Kaaji | Kaaji Indian food | Kaaji arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_kabargah,Kabargah,Kabargah | Kabargah Indian food | Kabargah jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_kachri_ki_chutney,Kachri ki Chutney,Kachri ki Chutney | Kachri ki Chutney Indian food | Kachri ki Chutney haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_kadale_bele_payasa,Kadale Bele Payasa,Kadale Bele Payasa | Kadale Bele Payasa Indian food | Kadale Bele Payasa karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_kadali_khanja,Kadali Khanja,Kadali Khanja | Kadali Khanja Indian food | Kadali Khanja odisha | Raw Banana Chips food,,,,,UNRESOLVED,awaiting_api_key
+exp_rajasthan_kadhi_chawal,Kadhi Chawal,Kadhi Chawal | Kadhi Chawal Indian food | Kadhi Chawal rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_kadhi_pakora,Kadhi Pakora,Kadhi Pakora | Kadhi Pakora Indian food | Kadhi Pakora haryana | Punjabi Kadhi Pakora food,,,,,UNRESOLVED,awaiting_api_key
+exp_puducherry_kadugu_yerra,Kadugu Yerra,Kadugu Yerra | Kadugu Yerra Indian food | Kadugu Yerra puducherry,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_kafuli,Kafuli,Kafuli | Kafuli Indian food | Kafuli uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_kaju_biyam_tondak,Kaju Biyam Tondak,Kaju Biyam Tondak | Kaju Biyam Tondak Indian food | Kaju Biyam Tondak goa,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_kakara_pitha,Kakara Pitha,Kakara Pitha | Kakara Pitha Indian food | Kakara Pitha odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_kaladi_kulcha,Kaladi Kulcha,Kaladi Kulcha | Kaladi Kulcha Indian food | Kaladi Kulcha jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_kalakand,Kalakand,Kalakand | Kalakand Indian food | Kalakand andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_kali_dal,Kali Dal,Kali Dal | Kali Dal Indian food | Kali Dal himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_kambu_dosa,Kambu Dosa,Kambu Dosa | Kambu Dosa Indian food | Kambu Dosa tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_kanava_karuvad_curry,Kanava Karuvad Curry,Kanava Karuvad Curry | Kanava Karuvad Curry Indian food | Kanava Karuvad Curry tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_kanchipuram_idli,Kanchipuram Idli,Kanchipuram Idli | Kanchipuram Idli Indian food | Kanchipuram Idli tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_kandalee_ka_saag,Kandalee ka Saag,Kandalee ka Saag | Kandalee ka Saag Indian food | Kandalee ka Saag uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_kanika,Kanika,Kanika | Kanika Indian food | Kanika odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_kappa_and_fish_curry,Kappa and Fish Curry,Kappa and Fish Curry | Kappa and Fish Curry Indian food | Kappa and Fish Curry kerala,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_karaikudi_eral_masala,Karaikudi Eral Masala,Karaikudi Eral Masala | Karaikudi Eral Masala Indian food | Karaikudi Eral Masala tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_karam_podi,Karam Podi,Karam Podi | Karam Podi Indian food | Karam Podi andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_karapak_sandesh,Karapak Sandesh,Karapak Sandesh | Karapak Sandesh Indian food | Karapak Sandesh west bengal | Karapak food,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_kari_dosa,Kari Dosa,Kari Dosa | Kari Dosa Indian food | Kari Dosa tamil nadu | Mutton Dosa food,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_karimeen_pollichathu,Karimeen Pollichathu,Karimeen Pollichathu | Karimeen Pollichathu Indian food | Karimeen Pollichathu kerala,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_kashmiri_rajma,Kashmiri Rajma,Kashmiri Rajma | Kashmiri Rajma Indian food | Kashmiri Rajma jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_delhi_kebabs_of_old_delhi,Kebabs of Old Delhi,Kebabs of Old Delhi | Kebabs of Old Delhi Indian food | Kebabs of Old Delhi delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_keema_dosa,Keema Dosa,Keema Dosa | Keema Dosa Indian food | Keema Dosa andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_keema_pav,Keema Pav,Keema Pav | Keema Pav Indian food | Keema Pav maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_keema_samosa,Keema Samosa,Keema Samosa | Keema Samosa Indian food | Keema Samosa telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_ker_sangri,Ker Sangri,Ker Sangri | Ker Sangri Indian food | Ker Sangri rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_kerala_chicken_fry,Kerala Chicken Fry,Kerala Chicken Fry | Kerala Chicken Fry Indian food | Kerala Chicken Fry kerala,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_kerala_sadya,Kerala Sadya,Kerala Sadya | Kerala Sadya Indian food | Kerala Sadya kerala,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_kesari,Kesari,Kesari | Kesari Indian food | Kesari tamil nadu | Rava Kesari food,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_khaje,Khaje,Khaje | Khaje Indian food | Khaje goa,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_khaman,Khaman,Khaman | Khaman Indian food | Khaman gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_khambir,Khambir,Khambir | Khambir Indian food | Khambir ladakh,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_khameera,Khameera,Khameera | Khameera Indian food | Khameera jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_khandvi,Khandvi,Khandvi | Khandvi Indian food | Khandvi gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_khaow_nam_paak,Khaow Nam Paak,Khaow Nam Paak | Khaow Nam Paak Indian food | Khaow Nam Paak arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_khapse,Khapse,Khapse | Khapse Indian food | Khapse arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_khar,Khar,Khar | Khar Indian food | Khar assam | Khaar food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_khasta_kachori,Khasta Kachori,Khasta Kachori | Khasta Kachori Indian food | Khasta Kachori uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_khatkatem,Khatkatem,Khatkatem | Khatkatem Indian food | Khatkatem goa,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_khatta,Khatta,Khatta | Khatta Indian food | Khatta himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_khatta_meat,Khatta Meat,Khatta Meat | Khatta Meat Indian food | Khatta Meat jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_khatte_chane,Khatte Chane,Khatte Chane | Khatte Chane Indian food | Khatte Chane himachal pradesh | Channe ka Khatta food,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_kheer_kadam,Kheer Kadam,Kheer Kadam | Kheer Kadam Indian food | Kheer Kadam west bengal | Kheer Kodom food,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_khichu,Khichu,Khichu | Khichu Indian food | Khichu gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_khopra_patties,Khopra Patties,Khopra Patties | Khopra Patties Indian food | Khopra Patties madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_khoya_jalebi,Khoya Jalebi,Khoya Jalebi | Khoya Jalebi Indian food | Khoya Jalebi madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_khunchang_tok,Khunchang-Tok,Khunchang-Tok | Khunchang-Tok Indian food | Khunchang-Tok arunachal pradesh | Khunchang Tok food | khunchang tok food,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_khurma,Khurma,Khurma | Khurma Indian food | Khurma chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_khurmi,Khurmi,Khurmi | Khurmi Indian food | Khurmi chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_lakshadweep_kilanji,Kilanji,Kilanji | Kilanji Indian food | Kilanji lakshadweep,,,,,UNRESOLVED,awaiting_api_key
+exp_sikkim_kinema,Kinema,Kinema | Kinema Indian food | Kinema sikkim,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_kingfish_with_garlic_potatoes,Kingfish with Garlic Potatoes,Kingfish with Garlic Potatoes | Kingfish with Garlic Potatoes Indian food | Kingfish with Garlic Potatoes dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_kismur,Kismur,Kismur | Kismur Indian food | Kismur goa | Dry Fish Salad food,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_kodo_kutki_millet_bowl,Kodo-Kutki Millet Bowl,Kodo-Kutki Millet Bowl | Kodo-Kutki Millet Bowl Indian food | Kodo-Kutki Millet Bowl madhya pradesh | kodo kutki millet bowl food,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_kola_urundai,Kola Urundai,Kola Urundai | Kola Urundai Indian food | Kola Urundai tamil nadu | Mutton Balls food,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_kolhapuri_mutton,Kolhapuri Mutton,Kolhapuri Mutton | Kolhapuri Mutton Indian food | Kolhapuri Mutton maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_kolkata_biryani,Kolkata Biryani,Kolkata Biryani | Kolkata Biryani Indian food | Kolkata Biryani west bengal | Royal er Biriyani food,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_kolkata_kathi_roll,Kolkata Kathi Roll,Kolkata Kathi Roll | Kolkata Kathi Roll Indian food | Kolkata Kathi Roll west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_kong_e_penam,Kong E Penam,Kong E Penam | Kong E Penam Indian food | Kong E Penam arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_kori_ajadina,Kori Ajadina,Kori Ajadina | Kori Ajadina Indian food | Kori Ajadina karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_kori_gassi,Kori Gassi,Kori Gassi | Kori Gassi Indian food | Kori Gassi karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_kosha_mangsho,Kosha Mangsho,Kosha Mangsho | Kosha Mangsho Indian food | Kosha Mangsho west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_tripura_kosoi_bwtwi,Kosoi Bwtwi,Kosoi Bwtwi | Kosoi Bwtwi Indian food | Kosoi Bwtwi tripura,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_kothu_porotta,Kothu Porotta,Kothu Porotta | Kothu Porotta Indian food | Kothu Porotta kerala,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_kottige_idli,Kottige Idli,Kottige Idli | Kottige Idli Indian food | Kottige Idli karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_jharkhand_kudrum_chutney,Kudrum Chutney,Kudrum Chutney | Kudrum Chutney Indian food | Kudrum Chutney jharkhand,,,,,UNRESOLVED,awaiting_api_key
+exp_delhi_kulfi_falooda,Kulfi Falooda,Kulfi Falooda | Kulfi Falooda Indian food | Kulfi Falooda delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_kullu_trout,Kullu Trout,Kullu Trout | Kullu Trout Indian food | Kullu Trout himachal pradesh | Kullu Trout Fish food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_kumaoni_raita,Kumaoni Raita,Kumaoni Raita | Kumaoni Raita Indian food | Kumaoni Raita uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_kundapura_koli_saaru,Kundapura Koli Saaru,Kundapura Koli Saaru | Kundapura Koli Saaru Indian food | Kundapura Koli Saaru karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_kunna_gosht,Kunna Gosht,Kunna Gosht | Kunna Gosht Indian food | Kunna Gosht punjab | Kunna Ghosht food,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_kurkeys,Kurkeys,Kurkeys | Kurkeys Indian food | Kurkeys himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_lagan_ka_murgh,Lagan Ka Murgh,Lagan Ka Murgh | Lagan Ka Murgh Indian food | Lagan Ka Murgh uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_lai_xaak_gahori,Lai Xaak Gahori,Lai Xaak Gahori | Lai Xaak Gahori Indian food | Lai Xaak Gahori assam | Pork with Mustard Greens food,,,,,UNRESOLVED,awaiting_api_key
+exp_rajasthan_laal_maas,Lal Maas,Lal Maas | Lal Maas Indian food | Lal Maas rajasthan | Laal Maas food,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_langar_ka_prasad,Langar Ka Prasad,Langar Ka Prasad | Langar Ka Prasad Indian food | Langar Ka Prasad punjab | Kadha Prasad food,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_laphing,Laphing,Laphing | Laphing Indian food | Laphing west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_lashkari_tomato_bhajiya,Lashkari Tomato Bhajiya,Lashkari Tomato Bhajiya | Lashkari Tomato Bhajiya Indian food | Lashkari Tomato Bhajiya gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_laung_lata,Laung Lata,Laung Lata | Laung Lata Indian food | Laung Lata bihar,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_litti_chokha,Litti Chokha,Litti Chokha | Litti Chokha Indian food | Litti Chokha bihar,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_luchi_and_cholar_dal,Luchi and Cholar Dal,Luchi and Cholar Dal | Luchi and Cholar Dal Indian food | Luchi and Cholar Dal west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_lukter,Lukter,Lukter | Lukter Indian food | Lukter arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_lyodur_tschaman,Lyodur Tschaman,Lyodur Tschaman | Lyodur Tschaman Indian food | Lyodur Tschaman jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_lakshadweep_maas_podichathu,Maas Podichathu,Maas Podichathu | Maas Podichathu Indian food | Maas Podichathu lakshadweep,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_maasi_thuvayal,Maasi Thuvayal,Maasi Thuvayal | Maasi Thuvayal Indian food | Maasi Thuvayal tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_macha_ghanta,Macha Ghanta,Macha Ghanta | Macha Ghanta Indian food | Macha Ghanta odisha | Maccha Ghanta food,,,,,UNRESOLVED,awaiting_api_key
+exp_machalee_jaisamandi,Machalee Jaisamandi,Machalee Jaisamandi | Machalee Jaisamandi Indian food | Machalee Jaisamandi rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_macher_jhol,Macher Jhol,Macher Jhol | Macher Jhol Indian food | Macher Jhol west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_machha_besara,Machha Besara,Machha Besara | Machha Besara Indian food | Machha Besara odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_machha_jhola,Machha Jhola,Machha Jhola | Machha Jhola Indian food | Machha Jhola odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_maddur_vada,Maddur Vada,Maddur Vada | Maddur Vada Indian food | Maddur Vada karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_madra,Madra,Madra | Madra Indian food | Madra himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_maharashtrian_bhajiya,Maharashtrian Bhajiya,Maharashtrian Bhajiya | Maharashtrian Bhajiya Indian food | Maharashtrian Bhajiya maharashtra | Bhajiya food,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_maher,Maher,Maher | Maher Indian food | Maher bihar,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_mahua_ladoo,Mahua Ladoo,Mahua Ladoo | Mahua Ladoo Indian food | Mahua Ladoo chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_maiche_zaan,Maiche Zaan,Maiche Zaan | Maiche Zaan Indian food | Maiche Zaan arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_makhan_mishri,Makhan Mishri,Makhan Mishri | Makhan Mishri Indian food | Makhan Mishri uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_makhana_kheer,Makhana Kheer,Makhana Kheer | Makhana Kheer Indian food | Makhana Kheer bihar,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_malabar_parotta,Malabar Parotta,Malabar Parotta | Malabar Parotta Indian food | Malabar Parotta kerala,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_malai_kulfi,Malai Kulfi,Malai Kulfi | Malai Kulfi Indian food | Malai Kulfi uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_malai_makhan,Malai Makhan,Malai Makhan | Malai Makhan Indian food | Malai Makhan uttar pradesh | Nimish food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_malaiyyo,Malaiyyo,Malaiyyo | Malaiyyo Indian food | Malaiyyo uttar pradesh | Malaiyo food,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_malleshwaram_18th_cross_dosa,Malleshwaram 18th Cross Dosa,Malleshwaram 18th Cross Dosa | Malleshwaram 18th Cross Dosa Indian food | Malleshwaram 18th Cross Dosa karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_malpua,Malpua,Malpua | Malpua Indian food | Malpua bihar | Malpua haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_malvani_fish_curry,Malvani Fish Curry,Malvani Fish Curry | Malvani Fish Curry Indian food | Malvani Fish Curry maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_malwa_ka_bhatta_bharta,Malwa ka Bhatta Bharta,Malwa ka Bhatta Bharta | Malwa ka Bhatta Bharta Indian food | Malwa ka Bhatta Bharta madhya pradesh | Malwa Bhatta Bharta food,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_manda_pitha,Manda Pitha,Manda Pitha | Manda Pitha Indian food | Manda Pitha odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_mandia_kandul_raav,Mandia Kandul Raav,Mandia Kandul Raav | Mandia Kandul Raav Indian food | Mandia Kandul Raav odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_mandia_ruti,Mandia Ruti,Mandia Ruti | Mandia Ruti Indian food | Mandia Ruti odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_mandia_sijha_pitha,Mandia Sijha Pitha,Mandia Sijha Pitha | Mandia Sijha Pitha Indian food | Mandia Sijha Pitha odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_mandia_sukua_raav,Mandia Sukua Raav,Mandia Sukua Raav | Mandia Sukua Raav Indian food | Mandia Sukua Raav odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_mandia_tampa,Mandia Tampa,Mandia Tampa | Mandia Tampa Indian food | Mandia Tampa odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_mandua_ki_roti,Mandua ki Roti,Mandua ki Roti | Mandua ki Roti Indian food | Mandua ki Roti uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_mangaluru_fish_curry,Mangaluru Fish Curry,Mangaluru Fish Curry | Mangaluru Fish Curry Indian food | Mangaluru Fish Curry karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_manjal_da_irretha_gatti,Manjal da Irretha Gatti,Manjal da Irretha Gatti | Manjal da Irretha Gatti Indian food | Manjal da Irretha Gatti karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_puducherry_masala_vada,Masala Vada,Masala Vada | Masala Vada Indian food | Masala Vada puducherry,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_mash_dal,Mash Dal,Mash Dal | Mash Dal Indian food | Mash Dal himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_lakshadweep_masmin,Masmin,Masmin | Masmin Indian food | Masmin lakshadweep,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_masor_tenga,Masor Tenga,Masor Tenga | Masor Tenga Indian food | Masor Tenga assam,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_matar_pulao,Matar Pulao,Matar Pulao | Matar Pulao Indian food | Matar Pulao madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_mathri,Mathri,Mathri | Mathri Indian food | Mathri punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_mathura_peda,Mathura Peda,Mathura Peda | Mathura Peda Indian food | Mathura Peda uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_matka_roti,Matka Roti,Matka Roti | Matka Roti Indian food | Matka Roti maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_mawa_bati,Mawa Bati,Mawa Bati | Mawa Bati Indian food | Mawa Bati madhya pradesh | Mawa Baati food,,,,,UNRESOLVED,awaiting_api_key
+exp_mawa_kachori,Mawa Kachori,Mawa Kachori | Mawa Kachori Indian food | Mawa Kachori rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_meethe_chawal,Meethe Chawal,Meethe Chawal | Meethe Chawal Indian food | Meethe Chawal haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_methi_gajar,Methi Gajar,Methi Gajar | Methi Gajar Indian food | Methi Gajar haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_methi_maaz,Methi Maaz,Methi Maaz | Methi Maaz Indian food | Methi Maaz jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_meuouk_taam,Meuouk Taam,Meuouk Taam | Meuouk Taam Indian food | Meuouk Taam arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_mihidana,Mihidana,Mihidana | Mihidana Indian food | Mihidana west bengal | Mihi Dana food,,,,,UNRESOLVED,awaiting_api_key
+exp_rajasthan_mirchi_bada,Mirchi Bada,Mirchi Bada | Mirchi Bada Indian food | Mirchi Bada rajasthan | Mirchi Vada food,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_mirchi_bajji,Mirchi Bajji,Mirchi Bajji | Mirchi Bajji Indian food | Mirchi Bajji andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_mirchi_ka_salan,Mirchi Ka Salan,Mirchi Ka Salan | Mirchi Ka Salan Indian food | Mirchi Ka Salan telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_misal_pav,Misal Pav,Misal Pav | Misal Pav Indian food | Misal Pav maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_mishti_doi,Mishti Doi,Mishti Doi | Mishti Doi Indian food | Mishti Doi west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_mittha,Mittha,Mittha | Mittha Indian food | Mittha himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_mixed_dal_haryanvi_style,Mixed Dal Haryanvi Style,Mixed Dal Haryanvi Style | Mixed Dal Haryanvi Style Indian food | Mixed Dal Haryanvi Style haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_mochar_chop,Mochar Chop,Mochar Chop | Mochar Chop Indian food | Mochar Chop west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_mochar_ghonto,Mochar Ghonto,Mochar Ghonto | Mochar Ghonto Indian food | Mochar Ghonto west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_modak,Modak,Modak | Modak Indian food | Modak maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_modur_pulao,Modur Pulao,Modur Pulao | Modur Pulao Indian food | Modur Pulao jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_mohanthal,Mohanthal,Mohanthal | Mohanthal Indian food | Mohanthal gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_mokmok,Mokmok,Mokmok | Mokmok Indian food | Mokmok ladakh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_momos,Momos,Momos | Momos Indian food | Momos sikkim | Tibetan Momos food,,,,,UNRESOLVED,awaiting_api_key
+exp_manipur_morok_metpa,Morok Metpa,Morok Metpa | Morok Metpa Indian food | Morok Metpa manipur,,,,,UNRESOLVED,awaiting_api_key
+exp_tripura_mosdeng_serma,Mosdeng Serma,Mosdeng Serma | Mosdeng Serma Indian food | Mosdeng Serma tripura,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_mothuk,Mothuk,Mothuk | Mothuk Indian food | Mothuk ladakh,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_mudhi_mansa,Mudhi Mansa,Mudhi Mansa | Mudhi Mansa Indian food | Mudhi Mansa odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_mughlai_biryani,Mughlai Biryani,Mughlai Biryani | Mughlai Biryani Indian food | Mughlai Biryani uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_tripura_muiborok,Muiborok,Muiborok | Muiborok Indian food | Muiborok tripura,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_mujh_gaad,Mujh Gaad,Mujh Gaad | Mujh Gaad Indian food | Mujh Gaad jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_lakshadweep_mus_kavaab,Mus Kavaab,Mus Kavaab | Mus Kavaab Indian food | Mus Kavaab lakshadweep,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_muthia,Muthia,Muthia | Muthia Indian food | Muthia chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_mutta_avial,Mutta Avial,Mutta Avial | Mutta Avial Indian food | Mutta Avial tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_mutton_bhakri,Mutton Bhakri,Mutton Bhakri | Mutton Bhakri Indian food | Mutton Bhakri maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_mutton_egg_devil,Mutton Egg Devil,Mutton Egg Devil | Mutton Egg Devil Indian food | Mutton Egg Devil west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_mutton_pachauni_curry,Mutton Pachauni Curry,Mutton Pachauni Curry | Mutton Pachauni Curry Indian food | Mutton Pachauni Curry west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_tripura_muya_awandru,Muya Awandru,Muya Awandru | Muya Awandru Indian food | Muya Awandru tripura,,,,,UNRESOLVED,awaiting_api_key
+exp_tripura_muya_bai_wahan,Muya Bai Wahan,Muya Bai Wahan | Muya Bai Wahan Indian food | Muya Bai Wahan tripura,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_mysore_pak,Mysore Pak,Mysore Pak | Mysore Pak Indian food | Mysore Pak karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_mysuru_masala_dosa,Mysuru Masala Dosa,Mysuru Masala Dosa | Mysuru Masala Dosa Indian food | Mysuru Masala Dosa karnataka | Mysore Masala Dosa food,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_nadru_choorma,Nadru Choorma,Nadru Choorma | Nadru Choorma Indian food | Nadru Choorma jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_nadru_yakhni,Nadru Yakhni,Nadru Yakhni | Nadru Yakhni Indian food | Nadru Yakhni jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_nadur_monje,Nadur Monje,Nadur Monje | Nadur Monje Indian food | Nadur Monje jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_naga_fried_fish,Naga Fried Fish,Naga Fried Fish | Naga Fried Fish Indian food | Naga Fried Fish nagaland | Fried Fish food,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_nagpur_orange_burfi,Nagpur Orange Burfi,Nagpur Orange Burfi | Nagpur Orange Burfi Indian food | Nagpur Orange Burfi maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_nagpuri_saoji_mutton,Nagpuri Saoji Mutton,Nagpuri Saoji Mutton | Nagpuri Saoji Mutton Indian food | Nagpuri Saoji Mutton maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_meghalaya_nakham_bitchi,Nakham Bitchi,Nakham Bitchi | Nakham Bitchi Indian food | Nakham Bitchi meghalaya,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_nalli_nihari,Nalli Nihari,Nalli Nihari | Nalli Nihari Indian food | Nalli Nihari uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_nanjil_fish_curry,Nanjil Fish Curry,Nanjil Fish Curry | Nanjil Fish Curry Indian food | Nanjil Fish Curry tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_nankhatai,Nankhatai,Nankhatai | Nankhatai Indian food | Nankhatai uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_naokai_sae_khawpong,Naokai Sae Khawpong,Naokai Sae Khawpong | Naokai Sae Khawpong Indian food | Naokai Sae Khawpong arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_nap_naang,Nap Naang,Nap Naang | Nap Naang Indian food | Nap Naang nagaland,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_nattukozhi_kozhambu,Nattukozhi Kozhambu,Nattukozhi Kozhambu | Nattukozhi Kozhambu Indian food | Nattukozhi Kozhambu tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_nau_moo_phan,Nau Moo Phan,Nau Moo Phan | Nau Moo Phan Indian food | Nau Moo Phan arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_nau_shaa,Nau-Shaa,Nau-Shaa | Nau-Shaa Indian food | Nau-Shaa arunachal pradesh | Nau Shaa food | nau shaa food,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_neer_dosa,Neer Dosa,Neer Dosa | Neer Dosa Indian food | Neer Dosa karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_manipur_nga_thongba,Nga Thongba,Nga Thongba | Nga Thongba Indian food | Nga Thongba manipur,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_ngah_weeh,Ngah Weeh,Ngah Weeh | Ngah Weeh Indian food | Ngah Weeh arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_ngolum,Ngolum,Ngolum | Ngolum Indian food | Ngolum arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_ngui_ramnam,Ngui Ramnam,Ngui Ramnam | Ngui Ramnam Indian food | Ngui Ramnam arunachal pradesh | Mui Ramnam food,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_nicobari_chicken,Nicobari Chicken,Nicobari Chicken | Nicobari Chicken Indian food | Nicobari Chicken andaman nicobar,,,,,UNRESOLVED,awaiting_api_key
+exp_delhi_nihari,Nihari,Nihari | Nihari Indian food | Nihari delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_nihari_kulcha,Nihari Kulcha,Nihari Kulcha | Nihari Kulcha Indian food | Nihari Kulcha uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_noatak,Noatak,Noatak | Noatak Indian food | Noatak arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_nungel_meen_chutney_and_ganji,Nungel Meen Chutney and Ganji,Nungel Meen Chutney and Ganji | Nungel Meen Chutney and Ganji Indian food | Nungel Meen Chutney and Ganji karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_odia_pitha,Odia Pitha,Odia Pitha | Odia Pitha Indian food | Odia Pitha odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_odisha_rasagola,Odisha Rasagola,Odisha Rasagola | Odisha Rasagola Indian food | Odisha Rasagola odisha | Rasagola food | Rasagulla food,,,,,UNRESOLVED,awaiting_api_key
+exp_manipur_ooti,Ooti,Ooti | Ooti Indian food | Ooti manipur,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_osmania_biscuits,Osmania Biscuits,Osmania Biscuits | Osmania Biscuits Indian food | Osmania Biscuits telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_ou_khatta,Ou Khatta,Ou Khatta | Ou Khatta Indian food | Ou Khatta assam,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_oyik_aao,Oyik Aao,Oyik Aao | Oyik Aao Indian food | Oyik Aao arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+DSH006,Paa Nung,Paa Nung | Paa Nung Indian food | Paa Nung arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_paa_pho,Paa-Pho,Paa-Pho | Paa-Pho Indian food | Paa-Pho arunachal pradesh | Paa Pho food | paa pho food,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_paba,Paba,Paba | Paba Indian food | Paba ladakh,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_pakhala,Pakhala,Pakhala | Pakhala Indian food | Pakhala odisha | Pakhala Bhata food,,,,,UNRESOLVED,awaiting_api_key
+exp_manipur_paknam,Paknam,Paknam | Paknam Indian food | Paknam manipur | Paaknam food,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_palak_poori_and_aloo_sabji,Palak Poori and Aloo Sabji,Palak Poori and Aloo Sabji | Palak Poori and Aloo Sabji Indian food | Palak Poori and Aloo Sabji madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_panasa_manji_bhaja,Panasa Manji Bhaja,Panasa Manji Bhaja | Panasa Manji Bhaja Indian food | Panasa Manji Bhaja odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_panchamritham,Panchamritham,Panchamritham | Panchamritham Indian food | Panchamritham tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_panchmel_dal,Panchmel Dal,Panchmel Dal | Panchmel Dal Indian food | Panchmel Dal rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_pandhra_rassa,Pandhra Rassa,Pandhra Rassa | Pandhra Rassa Indian food | Pandhra Rassa maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_paneer_kaliya,Paneer Kaliya,Paneer Kaliya | Paneer Kaliya Indian food | Paneer Kaliya jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_paneer_rogan_josh,Paneer Rogan Josh,Paneer Rogan Josh | Paneer Rogan Josh Indian food | Paneer Rogan Josh jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_paneer_tikka,Paneer Tikka,Paneer Tikka | Paneer Tikka Indian food | Paneer Tikka chandigarh | Paneer Tikka punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_paniya,Paniya,Paniya | Paniya Indian food | Paniya madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_panjeri,Panjeri,Panjeri | Panjeri Indian food | Panjeri punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_papad_ki_sabji,Papad ki Sabji,Papad ki Sabji | Papad ki Sabji Indian food | Papad ki Sabji madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_papdi_chaat,Papdi Chaat,Papdi Chaat | Papdi Chaat Indian food | Papdi Chaat chandigarh,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_papri,Papri,Papri | Papri Indian food | Papri dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_papuk,Papuk,Papuk | Papuk Indian food | Papuk arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_paror_mangxo,Paror Mangxo,Paror Mangxo | Paror Mangxo Indian food | Paror Mangxo assam | Pigeon Meat Curry food,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_pasa,Pasa,Pasa | Pasa Indian food | Pasa arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_pasanda_kebab,Pasanda Kebab,Pasanda Kebab | Pasanda Kebab Indian food | Pasanda Kebab uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_patande,Patande,Patande | Patande Indian food | Patande himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_patodi,Patodi,Patodi | Patodi Indian food | Patodi maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_patoleo,Patoleo,Patoleo | Patoleo Indian food | Patoleo goa,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_patot_diya_maas,Patot Diya Maas,Patot Diya Maas | Patot Diya Maas Indian food | Patot Diya Maas assam,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_pav_bhaji,Pav Bhaji,Pav Bhaji | Pav Bhaji Indian food | Pav Bhaji maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_pazham_pori,Pazham Pori,Pazham Pori | Pazham Pori Indian food | Pazham Pori kerala,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_pehak,Pehak,Pehak | Pehak Indian food | Pehak arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_penam_arak_adin,Penam Arak Adin,Penam Arak Adin | Penam Arak Adin Indian food | Penam Arak Adin arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_perad,Perad,Perad | Perad Indian food | Perad goa | Guava Cheese food,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_pesarattu,Pesarattu,Pesarattu | Pesarattu Indian food | Pesarattu andhra pradesh | Pesarattu Dosa food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_phaanu,Phaanu,Phaanu | Phaanu Indian food | Phaanu uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_sikkim_phagshapa,Phagshapa,Phagshapa | Phagshapa Indian food | Phagshapa sikkim,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_phirni,Phirni,Phirni | Phirni Indian food | Phirni telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_phuchka,Phuchka,Phuchka | Phuchka Indian food | Phuchka jharkhand | Phuchka west bengal | Puchka food,,,,,UNRESOLVED,awaiting_api_key
+DSH004,Pika Pila,Pika Pila | Pika Pila Indian food | Pika Pila arunachal pradesh | Pikey Pila food,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_pindi_chole_and_bhature,Pindi Chole and Bhature,Pindi Chole and Bhature | Pindi Chole and Bhature Indian food | Pindi Chole and Bhature punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_pinni,Pinni,Pinni | Pinni Indian food | Pinni punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_pitla_bhakri,Pitla Bhakri,"Pitla Bhakri | Pitla Bhakri Indian food | Pitla Bhakri maharashtra | Bhakri, Pitla and Bhaji food | Pithla Bhakri food",,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_poda_pitha,Poda Pitha,Poda Pitha | Poda Pitha Indian food | Poda Pitha odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_poha,Poha,Poha | Poha Indian food | Poha madhya pradesh | Poha maharashtra | Kanda Poha food | Kande Pohe food,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_poha_jalebi,Poha Jalebi,Poha Jalebi | Poha Jalebi Indian food | Poha Jalebi madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_ponk,Ponk,Ponk | Ponk Indian food | Ponk gujarat | Paunk food,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_poori_chhole,Poori-Chhole,Poori-Chhole | Poori-Chhole Indian food | Poori-Chhole uttarakhand | Poori Chhole food | poori chhole food,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_pootharekulu,Pootharekulu,Pootharekulu | Pootharekulu Indian food | Pootharekulu andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_pork_momos,Pork Momos,Pork Momos | Pork Momos Indian food | Pork Momos nagaland,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_pork_vindaloo,Pork Vindaloo,Pork Vindaloo | Pork Vindaloo Indian food | Pork Vindaloo goa,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_pork_with_bamboo_shoots_and_black_lentils,Pork with Bamboo Shoots and Black Lentils,Pork with Bamboo Shoots and Black Lentils | Pork with Bamboo Shoots and Black Lentils Indian food | Pork with Bamboo Shoots and Black Lentils assam,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_potlam_biryani,Potlam Biryani,Potlam Biryani | Potlam Biryani Indian food | Potlam Biryani andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_prawn_balchao,Prawn Balchao,Prawn Balchao | Prawn Balchao Indian food | Prawn Balchao goa,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_prawn_cutlet,Prawn Cutlet,Prawn Cutlet | Prawn Cutlet Indian food | Prawn Cutlet west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_prawn_daangar,Prawn Daangar,Prawn Daangar | Prawn Daangar Indian food | Prawn Daangar goa | Prawn Cutlets food,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_prawn_masala,Prawn Masala,Prawn Masala | Prawn Masala Indian food | Prawn Masala dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_meghalaya_pudoh,Pudoh,Pudoh | Pudoh Indian food | Pudoh meghalaya,,,,,UNRESOLVED,awaiting_api_key
+exp_puducherry_puducherry_style_vegetable_curry,Puducherry-Style Vegetable Curry,Puducherry-Style Vegetable Curry | Puducherry-Style Vegetable Curry Indian food | Puducherry-Style Vegetable Curry puducherry | puducherry style vegetable curry food,,,,,UNRESOLVED,awaiting_api_key
+exp_meghalaya_pukhlein,Pukhlein,Pukhlein | Pukhlein Indian food | Pukhlein meghalaya,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_puliyodharai,Puliyodharai,Puliyodharai | Puliyodharai Indian food | Puliyodharai tamil nadu | Puliyodhare food | Tamarind Rice food,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_pulusu,Pulusu,Pulusu | Pulusu Indian food | Pulusu andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_meghalaya_pumaloi,Pumaloi,Pumaloi | Pumaloi Indian food | Pumaloi meghalaya,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_punjabi_kadhi,Punjabi Kadhi,Punjabi Kadhi | Punjabi Kadhi Indian food | Punjabi Kadhi chandigarh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_puran_poli,Puran Poli,Puran Poli | Puran Poli Indian food | Puran Poli maharashtra | Bobbatlu food | Holige food | Obbattu food,,,,,UNRESOLVED,awaiting_api_key
+exp_kerala_puttu_and_kadala_curry,Puttu and Kadala Curry,Puttu and Kadala Curry | Puttu and Kadala Curry Indian food | Puttu and Kadala Curry kerala | Puttu with Kadala Curry food,,,,,UNRESOLVED,awaiting_api_key
+exp_rajasthan_pyaaz_kachori,Pyaaz Kachori,Pyaaz Kachori | Pyaaz Kachori Indian food | Pyaaz Kachori rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_qubani_ka_meetha,Qubani ka Meetha,Qubani ka Meetha | Qubani ka Meetha Indian food | Qubani ka Meetha telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_raar_arak_adin,Raar Arak Adin,Raar Arak Adin | Raar Arak Adin Indian food | Raar Arak Adin arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_rabri,Rabri,Rabri | Rabri Indian food | Rabri haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_rajasthan_rabri_ke_laddoo,Rabri ke Laddoo,Rabri ke Laddoo | Rabri ke Laddoo Indian food | Rabri ke Laddoo rajasthan | Rabri Keladdoo food,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_ragi_dosa,Ragi Dosa,Ragi Dosa | Ragi Dosa Indian food | Ragi Dosa karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_ragi_mudde,Ragi Mudde,Ragi Mudde | Ragi Mudde Indian food | Ragi Mudde karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_ragi_roti,Ragi Roti,Ragi Roti | Ragi Roti Indian food | Ragi Roti karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_rajma_chawal,Rajma Chawal,Rajma Chawal | Rajma Chawal Indian food | Rajma Chawal chandigarh,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_rajma_chawal_jammu_style,Rajma Chawal Jammu Style,Rajma Chawal Jammu Style | Rajma Chawal Jammu Style Indian food | Rajma Chawal Jammu Style jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_rajma_gogji,Rajma Gogji,Rajma Gogji | Rajma Gogji Indian food | Rajma Gogji jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_delhi_ram_laddoo,Ram Laddoo,Ram Laddoo | Ram Laddoo Indian food | Ram Laddoo delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_rasabali,Rasabali,Rasabali | Rasabali Indian food | Rasabali odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_ratlami_sev,Ratlami Sev,Ratlami Sev | Ratlami Sev Indian food | Ratlami Sev madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_recheado_fish,Recheado Fish,Recheado Fish | Recheado Fish Indian food | Recheado Fish goa,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_rista,Rista,Rista | Rista Indian food | Rista jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_rogan_josh,Rogan Josh,Rogan Josh | Rogan Josh Indian food | Rogan Josh jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_ros_omelette,Ros Omelette,Ros Omelette | Ros Omelette Indian food | Ros Omelette goa,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_rosogolla,Rosogolla,Rosogolla | Rosogolla Indian food | Rosogolla west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_jharkhand_rugra_curry,Rugra Curry,Rugra Curry | Rugra Curry Indian food | Rugra Curry jharkhand,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_sabudana_khichdi,Sabudana Khichdi,Sabudana Khichdi | Sabudana Khichdi Indian food | Sabudana Khichdi madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_sabudana_vada,Sabudana Vada,Sabudana Vada | Sabudana Vada Indian food | Sabudana Vada maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_saeb_dingho,Saeb Dingho,Saeb Dingho | Saeb Dingho Indian food | Saeb Dingho arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_safed_maas,Safed Maas,Safed Maas | Safed Maas Indian food | Safed Maas rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_sakinalu,Sakinalu,Sakinalu | Sakinalu Indian food | Sakinalu telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_sakkarai_pongal,Sakkarai Pongal,Sakkarai Pongal | Sakkarai Pongal Indian food | Sakkarai Pongal tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_samabrachi_koddi,Samabrachi Koddi,Samabrachi Koddi | Samabrachi Koddi Indian food | Samabrachi Koddi goa,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_sambar_rice,Sambar Rice,Sambar Rice | Sambar Rice Indian food | Sambar Rice tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_samosa,Samosa,Samosa | Samosa Indian food | Samosa chandigarh | Samosas food,,,,,UNRESOLVED,awaiting_api_key
+exp_jharkhand_samosa_and_kachori,Samosa and Kachori,Samosa and Kachori | Samosa and Kachori Indian food | Samosa and Kachori jharkhand,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_samuthu,Samuthu,Samuthu | Samuthu Indian food | Samuthu nagaland,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_sandesh,Sandesh,Sandesh | Sandesh Indian food | Sandesh west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_sannas,Sannas,Sannas | Sannas Indian food | Sannas goa,,,,,UNRESOLVED,awaiting_api_key
+exp_odisha_santula,Santula,Santula | Santula Indian food | Santula odisha,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_sarson_da_saag_with_makki_di_roti,Sarson da Saag with Makki di Roti,Sarson da Saag with Makki di Roti | Sarson da Saag with Makki di Roti Indian food | Sarson da Saag with Makki di Roti punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_sarva_pindi,Sarva Pindi,Sarva Pindi | Sarva Pindi Indian food | Sarva Pindi telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_sattu_paratha,Sattu Paratha,Sattu Paratha | Sattu Paratha Indian food | Sattu Paratha bihar | Sattu Paratha jharkhand,,,,,UNRESOLVED,awaiting_api_key
+DSH050,Sawhchiar,Sawhchiar | Sawhchiar Indian food | Sawhchiar mizoram,,,,,UNRESOLVED,awaiting_api_key
+exp_madhya_pradesh_seekh_kebab,Seekh Kebab,Seekh Kebab | Seekh Kebab Indian food | Seekh Kebab madhya pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_sikkim_sel_roti,Sel Roti,Sel Roti | Sel Roti Indian food | Sel Roti sikkim | Sel Roti west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_sepu_vadi,Sepu Vadi,Sepu Vadi | Sepu Vadi Indian food | Sepu Vadi himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_sev_puri,Sev Puri,Sev Puri | Sev Puri Indian food | Sev Puri maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_sev_tameta,Sev Tameta,Sev Tameta | Sev Tameta Indian food | Sev Tameta gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_sikkim_sha_phaley,Sha Phaley,Sha Phaley | Sha Phaley Indian food | Sha Phaley sikkim | Sha Phaley west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_shabalay,Shabalay,Shabalay | Shabalay Indian food | Shabalay west bengal | Phalay food,,,,,UNRESOLVED,awaiting_api_key
+exp_shahi_gatte,Shahi Gatte,Shahi Gatte | Shahi Gatte Indian food | Shahi Gatte rajasthan,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_shahi_paneer,Shahi Paneer,Shahi Paneer | Shahi Paneer Indian food | Shahi Paneer punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_telangana_shahi_tukda,Shahi Tukda,Shahi Tukda | Shahi Tukda Indian food | Shahi Tukda telangana,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_shami_kebab,Shami Kebab,Shami Kebab | Shami Kebab Indian food | Shami Kebab uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_shapta,Shapta,Shapta | Shapta Indian food | Shapta himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_sheermal,Sheermal,Sheermal | Sheermal Indian food | Sheermal jammu kashmir | Sheermal uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_shev_bhaji,Shev Bhaji,Shev Bhaji | Shev Bhaji Indian food | Shev Bhaji maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_shorshe_ilish,Shorshe Ilish,Shorshe Ilish | Shorshe Ilish Indian food | Shorshe Ilish west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_west_bengal_shukto,Shukto,Shukto | Shukto Indian food | Shukto west bengal,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_siddu,Siddu,Siddu | Siddu Indian food | Siddu himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_silao_khaja,Silao Khaja,Silao Khaja | Silao Khaja Indian food | Silao Khaja bihar,,,,,UNRESOLVED,awaiting_api_key
+exp_manipur_singju,Singju,Singju | Singju Indian food | Singju manipur,,,,,UNRESOLVED,awaiting_api_key
+exp_uttarakhand_singori,Singori,Singori | Singori Indian food | Singori uttarakhand,,,,,UNRESOLVED,awaiting_api_key
+exp_haryana_singri_ki_sabzi,Singri ki Sabzi,Singri ki Sabzi | Singri ki Sabzi Indian food | Singri ki Sabzi haryana,,,,,UNRESOLVED,awaiting_api_key
+exp_sikkim_sisnu_soup,Sisnu Soup,Sisnu Soup | Sisnu Soup Indian food | Sisnu Soup sikkim,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_skyu,Skyu,Skyu | Skyu Indian food | Skyu ladakh,,,,,UNRESOLVED,awaiting_api_key
+exp_nagaland_smoked_pork_with_axone,Smoked Pork with Axone,Smoked Pork with Axone | Smoked Pork with Axone Indian food | Smoked Pork with Axone nagaland,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_sol_kadhi,Sol Kadhi,Sol Kadhi | Sol Kadhi Indian food | Sol Kadhi maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_sooji_appam,Sooji Appam,Sooji Appam | Sooji Appam Indian food | Sooji Appam tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_sorpotel,Sorpotel,Sorpotel | Sorpotel Indian food | Sorpotel goa,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_squid_fry,Squid Fry,Squid Fry | Squid Fry Indian food | Squid Fry andaman nicobar,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_stuffed_paratha,Stuffed Paratha,Stuffed Paratha | Stuffed Paratha Indian food | Stuffed Paratha chandigarh | Stuffed Paratha delhi,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_sundal,Sundal,Sundal | Sundal Indian food | Sundal kerala | Sundal tamil nadu | Soondal food,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_surti_batasa,Surti Batasa,Surti Batasa | Surti Batasa Indian food | Surti Batasa gujarat | Batasa food,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_surti_locho,Surti Locho,Surti Locho | Surti Locho Indian food | Surti Locho gujarat | Locho food,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_tabak_maaz,Tabak Maaz,Tabak Maaz | Tabak Maaz Indian food | Tabak Maaz jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_tamatar_chaat,Tamatar Chaat,Tamatar Chaat | Tamatar Chaat Indian food | Tamatar Chaat uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_tambda_rassa,Tambda Rassa,Tambda Rassa | Tambda Rassa Indian food | Tambda Rassa maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_tandoori_chicken,Tandoori Chicken,Tandoori Chicken | Tandoori Chicken Indian food | Tandoori Chicken chandigarh | Tandoori Chicken punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_andaman_nicobar_tandoori_fish,Tandoori Fish,Tandoori Fish | Tandoori Fish Indian food | Tandoori Fish andaman nicobar,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_tarri_poha,Tarri Poha,Tarri Poha | Tarri Poha Indian food | Tarri Poha maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_tchok_charwan,Tchok Charwan,Tchok Charwan | Tchok Charwan Indian food | Tchok Charwan jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_tehar,Tehar,Tehar | Tehar Indian food | Tehar jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_teliya_mah,Teliya Mah,Teliya Mah | Teliya Mah Indian food | Teliya Mah himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_tethi_paladya,Tethi Paladya,Tethi Paladya | Tethi Paladya Indian food | Tethi Paladya karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_thaggu_ke_laddu,Thaggu Ke Laddu,Thaggu Ke Laddu | Thaggu Ke Laddu Indian food | Thaggu Ke Laddu uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_thalipeeth,Thalipeeth,Thalipeeth | Thalipeeth Indian food | Thalipeeth maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_thayir_sadam,Thayir Sadam,Thayir Sadam | Thayir Sadam Indian food | Thayir Sadam tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_theeyal,Theeyal,Theeyal | Theeyal Indian food | Theeyal tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_thekua,Thekua,Thekua | Thekua Indian food | Thekua bihar,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_thenthuk,Thenthuk,Thenthuk | Thenthuk Indian food | Thenthuk ladakh | Thentuk food,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_thepla,Thepla,Thepla | Thepla Indian food | Thepla gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_thethri,Thethri,Thethri | Thethri Indian food | Thethri chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_tho_phan,Tho Phan,Tho Phan | Tho Phan Indian food | Tho Phan arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_thukpa,Thukpa,Thukpa | Thukpa Indian food | Thukpa arunachal pradesh | Thukpa himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_tibetan_bread_with_local_honey,Tibetan Bread with Local Honey,Tibetan Bread with Local Honey | Tibetan Bread with Local Honey Indian food | Tibetan Bread with Local Honey himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_tibetan_tsampa_porridge,Tibetan Tsampa Porridge,Tibetan Tsampa Porridge | Tibetan Tsampa Porridge Indian food | Tibetan Tsampa Porridge himachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_chandigarh_tikki_chaat,Tikki Chaat,Tikki Chaat | Tikki Chaat Indian food | Tikki Chaat chandigarh,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_til_pitha,Til Pitha,Til Pitha | Til Pitha Indian food | Til Pitha assam,,,,,UNRESOLVED,awaiting_api_key
+exp_chhattisgarh_tilgur,Tilgur,Tilgur | Tilgur Indian food | Tilgur chhattisgarh,,,,,UNRESOLVED,awaiting_api_key
+exp_bihar_tilkut,Tilkut,Tilkut | Tilkut Indian food | Tilkut bihar | Tilku food,,,,,UNRESOLVED,awaiting_api_key
+exp_assam_tilor_laru,Tilor Laru,Tilor Laru | Tilor Laru Indian food | Tilor Laru assam,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_tingmo,Tingmo,Tingmo | Tingmo Indian food | Tingmo ladakh,,,,,UNRESOLVED,awaiting_api_key
+exp_andhra_pradesh_tirupati_laddu,Tirupati Laddu,Tirupati Laddu | Tirupati Laddu Indian food | Tirupati Laddu andhra pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_to_doh,To Doh,To Doh | To Doh Indian food | To Doh arunachal pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_tsampa,Tsampa,Tsampa | Tsampa Indian food | Tsampa ladakh | Ngamphe food,,,,,UNRESOLVED,awaiting_api_key
+exp_himachal_pradesh_tudkiya_bhath,Tudkiya Bhath,Tudkiya Bhath | Tudkiya Bhath Indian food | Tudkiya Bhath himachal pradesh | Tudkiya Bhat food,,,,,UNRESOLVED,awaiting_api_key
+exp_meghalaya_tungrymbai,Tungrymbai,Tungrymbai | Tungrymbai Indian food | Tungrymbai meghalaya,,,,,UNRESOLVED,awaiting_api_key
+exp_dadra_nagar_haveli_daman_diu_ubadiyu,Ubadiyu,Ubadiyu | Ubadiyu Indian food | Ubadiyu dadra nagar haveli daman diu,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_ukadiche_modak,Ukadiche Modak,Ukadiche Modak | Ukadiche Modak Indian food | Ukadiche Modak maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_uttar_pradesh_ulte_tave_ka_paratha,Ulte Tave Ka Paratha,Ulte Tave Ka Paratha | Ulte Tave Ka Paratha Indian food | Ulte Tave Ka Paratha uttar pradesh,,,,,UNRESOLVED,awaiting_api_key
+exp_gujarat_undhiyu,Undhiyu,Undhiyu | Undhiyu Indian food | Undhiyu gujarat,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_urulai_roast,Urulai Roast,Urulai Roast | Urulai Roast Indian food | Urulai Roast tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_vada_pav,Vada Pav,Vada Pav | Vada Pav Indian food | Vada Pav maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_karnataka_vangi_bath,Vangi Bath,Vangi Bath | Vangi Bath Indian food | Vangi Bath karnataka,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_varhadi_aloo_bonda,Varhadi Aloo Bonda,Varhadi Aloo Bonda | Varhadi Aloo Bonda Indian food | Varhadi Aloo Bonda maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_maharashtra_varhadi_rassa,Varhadi Rassa,Varhadi Rassa | Varhadi Rassa Indian food | Varhadi Rassa maharashtra,,,,,UNRESOLVED,awaiting_api_key
+exp_punjab_varian,Varian,Varian | Varian Indian food | Varian punjab,,,,,UNRESOLVED,awaiting_api_key
+exp_mizoram_vawksa_rep,Vawksa Rep,Vawksa Rep | Vawksa Rep Indian food | Vawksa Rep mizoram,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_vazhapoo_vada,Vazhapoo Vada,Vazhapoo Vada | Vazhapoo Vada Indian food | Vazhapoo Vada tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_ven_pongal,Ven Pongal,Ven Pongal | Ven Pongal Indian food | Ven Pongal tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_vendakkai_mandi,Vendakkai Mandi,Vendakkai Mandi | Vendakkai Mandi Indian food | Vendakkai Mandi tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+exp_tamil_nadu_vendhaya_kuzhambu,Vendhaya Kuzhambu,Vendhaya Kuzhambu | Vendhaya Kuzhambu Indian food | Vendhaya Kuzhambu tamil nadu,,,,,UNRESOLVED,awaiting_api_key
+DSH074,Wahan Mosdeng,Wahan Mosdeng | Wahan Mosdeng Indian food | Wahan Mosdeng tripura,,,,,UNRESOLVED,awaiting_api_key
+exp_ladakh_walnut_and_apricot_dry_fruit_mix,Walnut and Apricot Dry-Fruit Mix,Walnut and Apricot Dry-Fruit Mix | Walnut and Apricot Dry-Fruit Mix Indian food | Walnut and Apricot Dry-Fruit Mix ladakh | walnut and apricot dry fruit mix food,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_waza_chicken,Waza Chicken,Waza Chicken | Waza Chicken Indian food | Waza Chicken jammu kashmir,,,,,UNRESOLVED,awaiting_api_key
+exp_arunachal_pradesh_wongam_tok,Wongam-Tok,Wongam-Tok | Wongam-Tok Indian food | Wongam-Tok arunachal pradesh | Wongam Tok food | wongam tok food,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_xacuti,Xacuti,Xacuti | Xacuti Indian food | Xacuti goa,,,,,UNRESOLVED,awaiting_api_key
+exp_goa_xitt_kodi,Xitt-Kodi,Xitt-Kodi | Xitt-Kodi Indian food | Xitt-Kodi goa | Xitt Kodi food | xitt kodi food,,,,,UNRESOLVED,awaiting_api_key
+exp_jammu_kashmir_yakhni,Yakhni,Yakhni | Yakhni Indian food | Yakhni jammu kashmir,,,,,UNRESOLVED,awaiting_api_key

@@ -10,6 +10,7 @@ import '../services/asset_data_service.dart';
 import '../services/progress_service.dart';
 import '../services/indian_dishes_repository.dart';
 import '../services/indian_drinks_repository.dart';
+import 'challenge_icon.dart';
 
 class ChallengeCard extends StatefulWidget {
   final Challenge challenge;
@@ -106,33 +107,9 @@ class _ChallengeCardState extends State<ChallengeCard> {
     if (mounted) await loadProgress();
   }
 
-  IconData get icon {
-    return switch (challenge.itemType) {
-      'fruit' => Icons.eco_outlined,
-      'indian_dish' => Icons.ramen_dining_outlined,
-      'indian_drink' => Icons.local_cafe_outlined,
-      'jyotirlinga' => Icons.temple_hindu_outlined,
-      'yoga_pose' => Icons.self_improvement,
-      'nut' => Icons.spa_outlined,
-      'state' => Icons.map_outlined,
-      'perfume' => Icons.local_florist_outlined,
-      _ => Icons.emoji_events_outlined,
-    };
-  }
-
   @override
   Widget build(BuildContext context) {
     final total = totalCount ?? challenge.totalItems;
-    final category = switch (challenge.categoryId) {
-      'food_drink' => 'Food & Drink',
-      'fitness_wellness' => 'Fitness & Wellness',
-      'travel_exploration' => 'Travel & Exploration',
-      'culture_learning' => 'Culture & Learning',
-      'faith_pilgrimage' => 'Faith & Pilgrimage',
-      'collecting' => 'Collecting',
-      'life_experiences' => 'Life Experiences',
-      _ => 'Explore',
-    };
     return Card(
       color: Color.lerp(
         AppColors.categoryAccent(challenge.categoryId),
@@ -165,7 +142,7 @@ class _ChallengeCardState extends State<ChallengeCard> {
                       borderRadius: BorderRadius.circular(14),
                     ),
                     child: Icon(
-                      icon,
+                      challengeIcon(challenge.iconIdentifier),
                       color: AppColors.categoryAccent(challenge.categoryId),
                       size: 32,
                     ),
@@ -176,7 +153,7 @@ class _ChallengeCardState extends State<ChallengeCard> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          category,
+                          challenge.displayCategoryName,
                           style: const TextStyle(
                             color: AppColors.muted,
                             fontSize: 12,
@@ -204,7 +181,12 @@ class _ChallengeCardState extends State<ChallengeCard> {
               ),
               const SizedBox(height: 12),
               if (completedCount != null) ...[
-                CompactProgress(completed: completedCount!, total: total),
+                CompactProgress(
+                  completed: completedCount!,
+                  total: total,
+                  summary:
+                      '$completedCount of $total ${challenge.progressVerb}',
+                ),
                 const SizedBox(height: 10),
               ],
               Row(
@@ -213,12 +195,10 @@ class _ChallengeCardState extends State<ChallengeCard> {
                     child: Text(
                       isActive
                           ? (completedCount == null
-                                ? 'Start exploring'
-                                : completedCount! >= total && total > 0
-                                ? 'Completed - revisit collection'
+                                ? challenge.startLabel
                                 : completedCount! > 0
-                                ? 'Continue your journey'
-                                : 'Start exploring')
+                                ? challenge.continueLabel
+                                : challenge.startLabel)
                           : 'Coming soon',
                       style: const TextStyle(
                         color: AppColors.primary,

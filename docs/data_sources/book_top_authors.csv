@@ -1,0 +1,51 @@
+rank,author_id,author_name,catalogue_book_count
+1,AUTH0423,Stephen King,24
+2,AUTH0435,Rick Riordan,14
+3,AUTH0431,Jeff Kinney,12
+4,AUTH0048,William Shakespeare,11
+5,AUTH0049,Arthur Conan Doyle,10
+6,AUTH0284,Roald Dahl,10
+7,AU021,Agatha Christie,9
+8,AUTH0416,Colleen Hoover,8
+9,AUTH0038,J. K. Rowling,8
+10,AUTH0073,Rudyard Kipling,8
+11,AUTH0428,Sarah J. Maas,8
+12,AUTH0482,Neil Gaiman,7
+13,AUTH0421,Ana Huang,6
+14,AUTH0443,J.R.R. Tolkien,6
+15,AU014,Ruskin Bond,6
+16,AUTH0430,Tahereh Mafi,6
+17,AUTH0558,C. S. Lewis,5
+18,AUTH0077,Chetan Bhagat,5
+19,AUTH0473,Dan Brown,5
+20,AUTH0422,George R. R. Martin,5
+21,AUTH0520,Isaac Asimov,5
+22,AUTH0454,Jenny Han,5
+23,AU001,Premchand,5
+24,AU008,R. K. Narayan,5
+25,AUTH0437,Stephenie Meyer,5
+26,AUTH0432,Suzanne Collins,5
+27,AUTH0174,B. R. Ambedkar,4
+28,AUTH0142,Bhagwan Rajneesh,4
+29,AUTH0547,Charles Dickens,4
+30,AUTH0045,Fiódor Dostoievski,4
+31,AU018,George Orwell,4
+32,AU017,Jane Austen,4
+33,AUTH0494,Lewis Carroll,4
+34,AUTH0415,Robert Greene,4
+35,AUTH0070,Salman Rushdie,4
+36,AUTH0066,Лев Толстой,4
+37,AUTH0046,Albert Camus,3
+38,AUTH0061,Amish Tripathi,3
+39,AUTH0224,Amitav Ghosh,3
+40,AU009,Arundhati Roy,3
+41,AUTH0588,Brandon Sanderson,3
+42,AUTH0130,Charlotte Perkins Gilman,3
+43,AUTH0193,Colleen Houck,3
+44,AUTH0506,Ernest Hemingway,3
+45,AUTH0106,Franz Kafka,3
+46,AUTH0552,Freida McFadden,3
+47,AUTH0424,H. D. Carlton,3
+48,AUTH0538,H. G. Wells,3
+49,AUTH0438,Holly Jackson,3
+50,AUTH0107,Jhumpa Lahiri,3

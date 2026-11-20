@@ -471,14 +471,14 @@ def review_html(fruits, rows):
         cards.append(f'<section><h2>{fruit_id} · {html.escape(fruit["name"])} <em>{html.escape(fruit["scientificName"])}</em></h2>'
                      f'{badge}<div class="grid">{"".join(blocks)}</div></section>')
     ids = json.dumps([fruit["id"] for fruit in fruits]).replace("<", "\\u003c")
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Fruit Atlas photo review</title>
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Fruit photo review</title>
 <style>body{{font:16px system-ui;margin:2rem auto;max-width:1250px;padding:0 1rem;background:#f5f7f4;color:#18251b}}
 section{{background:white;border:1px solid #d8e2d9;border-radius:10px;margin:1.5rem 0;padding:1.2rem}}
 h2 em{{font-size:.85em;font-weight:normal;margin-left:1rem}}.grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}}
 .candidate,.none{{display:flex;flex-direction:column;gap:.4rem;padding:.7rem;border:1px solid #cbd8cb;border-radius:8px;cursor:pointer}}
 .candidate:has(input:checked),.none:has(input:checked){{border:3px solid #267c43}}img{{width:100%;height:190px;object-fit:contain;background:#eee}}
 small{{display:block}}.warning{{color:#9a3d05;font-weight:bold}}button{{font-size:1rem;padding:.8rem;cursor:pointer}}</style></head><body>
-<h1>Fruit Atlas photo review</h1><p>Choose one real photograph per fruit after checking the linked original page, visible fruit, taxon and licence. Nothing is approved until finalize re-verifies it. Thumbnails require internet; this page itself needs no server.</p>
+<h1>Fruit photo review</h1><p>Choose one real photograph per fruit after checking the linked original page, visible fruit, taxon and licence. Nothing is approved until finalize re-verifies it. Thumbnails require internet; this page itself needs no server.</p>
 <button id="export">Export selections</button><span id="status"></span>{''.join(cards)}
 <script>const ids={ids};document.getElementById('export').onclick=()=>{{
 const selections=[];for(const fruit_id of ids){{const chosen=document.querySelector('input[name="'+fruit_id+'"]:checked');

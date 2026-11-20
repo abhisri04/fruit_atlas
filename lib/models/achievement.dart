@@ -146,19 +146,113 @@ class Achievement {
     ),
   ];
 
+  static const hobbyChallengeAchievements = [
+    Achievement(
+      id: 'hobby_first',
+      title: 'First Hobby',
+      description: 'Try your first hobby.',
+      threshold: 1,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'hobby',
+    ),
+    Achievement(
+      id: 'hobby_five',
+      title: 'Hobby Sampler',
+      description: 'Try 5 hobbies.',
+      threshold: 5,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'start',
+    ),
+    Achievement(
+      id: 'hobby_fifteen',
+      title: 'Curious Mind',
+      description: 'Try 15 hobbies.',
+      threshold: 15,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'hobby_fifty',
+      title: 'Hobby Explorer',
+      description: 'Try 50 hobbies.',
+      threshold: 50,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'flag',
+    ),
+    Achievement(
+      id: 'hobby_complete',
+      title: 'Renaissance Explorer',
+      description: 'Try all 150 hobbies.',
+      threshold: 150,
+      challengeId: 'try_easy_hobbies',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
+  static const gameChallengeAchievements = [
+    Achievement(
+      id: 'game_first',
+      title: 'Game On',
+      description: 'Play your first game.',
+      threshold: 1,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'game',
+    ),
+    Achievement(
+      id: 'game_five',
+      title: 'Games Night',
+      description: 'Play 5 games.',
+      threshold: 5,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'start',
+    ),
+    Achievement(
+      id: 'game_fifteen',
+      title: 'Player',
+      description: 'Play 15 games.',
+      threshold: 15,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'game_forty',
+      title: 'Game Master',
+      description: 'Play 40 games.',
+      threshold: 40,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'flag',
+    ),
+    Achievement(
+      id: 'game_complete',
+      title: 'Played Them All',
+      description: 'Play all 100 games.',
+      threshold: 100,
+      challengeId: 'play_great_games',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
   static const indiaStatesChallengeAchievements = [
     Achievement(
       id: 'india_states_first',
-      title: 'First Step',
-      description: 'Explore your first state or union territory.',
+      title: 'First Journey',
+      description: 'Visit your first State or UT.',
       threshold: 1,
       challengeId: 'explore_indian_states',
       iconIdentifier: 'start',
     ),
     Achievement(
-      id: 'india_states_ten',
+      id: 'india_states_five',
       title: 'India Explorer',
-      description: 'Explore 10 states and union territories.',
+      description: 'Visit 5 States & UTs.',
+      threshold: 5,
+      challengeId: 'explore_indian_states',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'india_states_ten',
+      title: 'Traveller',
+      description: 'Visit 10 States & UTs.',
       threshold: 10,
       challengeId: 'explore_indian_states',
       iconIdentifier: 'explore',
@@ -166,23 +260,23 @@ class Achievement {
     Achievement(
       id: 'india_states_halfway',
       title: 'Halfway Across India',
-      description: 'Explore 18 states and union territories.',
+      description: 'Visit 18 States & UTs.',
       threshold: 18,
       challengeId: 'explore_indian_states',
       iconIdentifier: 'map',
     ),
     Achievement(
       id: 'india_states_twenty_five',
-      title: 'India Traveller',
-      description: 'Explore 25 states and union territories.',
+      title: 'India Veteran',
+      description: 'Visit 25 States & UTs.',
       threshold: 25,
       challengeId: 'explore_indian_states',
       iconIdentifier: 'flag',
     ),
     Achievement(
       id: 'india_states_complete',
-      title: 'India Completed',
-      description: 'Explore all 36 states and union territories.',
+      title: 'All India',
+      description: 'Visit all 36 States & UTs.',
       threshold: 36,
       challengeId: 'explore_indian_states',
       iconIdentifier: 'trophy',
@@ -208,12 +302,50 @@ class Achievement {
     ),
   ];
 
+  static const bookAchievements = [
+    Achievement(
+      id: 'book_first_chapter',
+      title: 'First Chapter',
+      description: 'Read your first book.',
+      threshold: 1,
+      challengeId: 'explore_great_books',
+      iconIdentifier: 'book',
+    ),
+    Achievement(
+      id: 'book_bookworm',
+      title: 'Bookworm',
+      description: 'Read 5 books.',
+      threshold: 5,
+      challengeId: 'explore_great_books',
+      iconIdentifier: 'book',
+    ),
+    Achievement(
+      id: 'book_page_turner',
+      title: 'Page Turner',
+      description: 'Read 10 books.',
+      threshold: 10,
+      challengeId: 'explore_great_books',
+      iconIdentifier: 'book',
+    ),
+    Achievement(
+      id: 'book_bibliophile',
+      title: 'Bibliophile',
+      description: 'Read 25 books.',
+      threshold: 25,
+      challengeId: 'explore_great_books',
+      iconIdentifier: 'book',
+    ),
+  ];
+
   static List<Achievement> forChallenge(String challengeId) {
     return switch (challengeId) {
       'taste_fruits_of_india' => fruitChallengeAchievements,
       'visit_12_jyotirlingas' => jyotirlingaChallengeAchievements,
       'learn_yoga_poses' => yogaChallengeAchievements,
+      'try_easy_hobbies' => hobbyChallengeAchievements,
+      'play_great_games' => gameChallengeAchievements,
       'explore_indian_states' => indiaStatesChallengeAchievements,
+      'explore_great_books' => bookAchievements,
       'all_experiences' => experienceAchievements,
       _ => const [],
     };

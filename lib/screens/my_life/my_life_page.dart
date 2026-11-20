@@ -9,7 +9,19 @@ import '../../services/district_repository.dart';
 import '../../services/experience_repository.dart';
 import '../../services/progress_service.dart';
 import '../../services/progress_summary_service.dart';
+import '../../services/state_travel_service.dart';
+import '../../services/state_exploration_repository.dart';
 import '../../services/indian_dishes_repository.dart';
+import '../../services/indian_drinks_repository.dart';
+import '../../models/gamification_summary.dart';
+import '../../models/book.dart';
+import '../../services/gamification_service.dart';
+import '../../services/celebration_service.dart';
+import '../../widgets/gamification_header.dart';
+import '../../widgets/category_progress_ring.dart';
+import '../../widgets/category_icon.dart';
+import '../saved/saved_page.dart';
+import '../share/share_studio_page.dart';
 import '../../widgets/achievement_card.dart';
 import '../../widgets/progress_card.dart';
 import '../../widgets/empty_state.dart';
@@ -40,6 +52,12 @@ class _MyLifePageState extends State<MyLifePage> {
   int dishCookedCount = 0;
   int drinkTriedCount = 0;
   List<Achievement> achievements = [];
+  GamificationSummary? gamification;
+  int savedCount = 0;
+  int selectedTab = 0;
+  int statesVisited = 0;
+  int statesWanted = 0;
+  int indiaExplored = 0;
 
   @override
   void initState() {
@@ -64,6 +82,20 @@ class _MyLifePageState extends State<MyLifePage> {
       final summary = await const ProgressSummaryService().load(
         challenges: challenges,
       );
+      final loadedGamification = await const GamificationService().load(
+        summary,
+      );
+      final travel = StateTravelService();
+      await travel.load();
+      final visited = travel.visitedCount;
+      final wanted = travel.wantToVisitCount;
+      travel.dispose();
+      final india = await const StateExplorationRepository().loadProgress();
+      final bookProgress = await ProgressService.getBookProgress();
+      final readBookLanguages = bookProgress.values
+          .where((item) => item.isRead)
+          .expand((item) => item.readLanguages)
+          .toSet();
       final genericProgress = summary.challenges.values
           .where(
             (value) =>
@@ -80,6 +112,19 @@ class _MyLifePageState extends State<MyLifePage> {
           .toList();
       final dishCatalogue = await const IndianDishesRepository().load();
       final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
+      final drinkCatalogue = await const IndianDrinksRepository().load();
+      final drinkProgress = await ProgressService.getDrinkProgress(
+        drinkCatalogue,
+      );
+      final savedChallenges = await ProgressService.getSavedChallengeIds();
+      final savedEntities = await ProgressService.getSavedEntityReferences();
+      final savedCatalogueItems =
+          dishProgress.values
+              .where((value) => value.wantToTry || value.favourite)
+              .length +
+          drinkProgress.values
+              .where((value) => value.wantToTry || value.favourite)
+              .length;
       int dishMetric(String metric) => switch (metric) {
         'tried_count' => summary.dishesTried,
         'cooked_count' => summary.dishesCooked,
@@ -115,6 +160,10 @@ class _MyLifePageState extends State<MyLifePage> {
           .intersection(districts.map((district) => district.id).toSet())
           .length;
       if (!mounted) return;
+      CelebrationService.instance.presentSummaryTransition(
+        gamification,
+        loadedGamification,
+      );
       setState(() {
         fruitCount = validFruitCount;
         fruitTotal = fruitIds.length;
@@ -128,11 +177,27 @@ class _MyLifePageState extends State<MyLifePage> {
         dishTriedCount = summary.dishesTried;
         dishCookedCount = summary.dishesCooked;
         drinkTriedCount = summary.drinksTried;
+        gamification = loadedGamification;
+        statesVisited = visited;
+        statesWanted = wanted;
+        indiaExplored = india.exploredCount;
+        savedCount =
+            savedChallenges.length + savedEntities.length + savedCatalogueItems;
         achievements = [
           ...Achievement.achievedFor('taste_fruits_of_india', validFruitCount),
           ...Achievement.achievedFor('visit_12_jyotirlingas', validSiteCount),
           for (final progress in genericProgress)
             ...Achievement.achievedFor(progress.challenge.id, progress.count),
+          if (readBookLanguages.contains(BookLanguage.english) &&
+              readBookLanguages.contains(BookLanguage.hindi))
+            const Achievement(
+              id: 'book_language_explorer',
+              title: 'Language Explorer',
+              description: 'Read at least one English and one Hindi book.',
+              threshold: 2,
+              challengeId: 'explore_great_books',
+              iconIdentifier: 'book',
+            ),
           for (final item in dishCatalogue.achievements)
             if (dishMetric(item.metric) >= item.threshold)
               Achievement(
@@ -161,25 +226,21 @@ class _MyLifePageState extends State<MyLifePage> {
 
   @override
   Widget build(BuildContext context) {
-    final started =
-        (fruitCount > 0 || varietyCount > 0 ? 1 : 0) +
-        (jyotirlingaCount > 0 ? 1 : 0) +
-        checklistProgress.where((progress) => progress.count > 0).length;
-    final completed =
-        (fruitTotal > 0 && fruitCount == fruitTotal ? 1 : 0) +
-        (jyotirlingaTotal > 0 && jyotirlingaCount == jyotirlingaTotal ? 1 : 0) +
-        checklistProgress
-            .where(
-              (progress) =>
-                  progress.total > 0 && progress.count == progress.total,
-            )
-            .length;
+    final game = gamification;
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'My Life',
-          style: TextStyle(fontWeight: FontWeight.bold),
-        ),
+        title: const Text('My Life'),
+        actions: [
+          IconButton(
+            key: const ValueKey('open-share-studio'),
+            tooltip: 'Share Studio',
+            icon: const Icon(Icons.ios_share_outlined),
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const ShareStudioPage()),
+            ),
+          ),
+        ],
       ),
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
@@ -193,182 +254,362 @@ class _MyLifePageState extends State<MyLifePage> {
               onRefresh: loadSummary,
               child: ListView(
                 physics: const AlwaysScrollableScrollPhysics(),
-                padding: const EdgeInsets.all(16),
+                padding: const EdgeInsets.fromLTRB(16, 4, 16, 28),
                 children: [
-                  const Text(
-                    'A collection of experiences that make life richer.',
-                    style: TextStyle(
-                      fontSize: 16,
-                      height: 1.4,
-                      color: AppColors.muted,
+                  if (game != null)
+                    GamificationHeader(
+                      summary: game,
+                      eyebrow: 'YOUR LIFE PROFILE',
+                      title: 'Your journey so far',
                     ),
-                  ),
-                  const SizedBox(height: 8),
-                  const Text(
-                    'Discover. Do. Collect.',
-                    style: TextStyle(color: AppColors.primary),
+                  const SizedBox(height: 18),
+                  _LifeTabs(
+                    selected: selectedTab,
+                    onChanged: (value) => setState(() => selectedTab = value),
                   ),
                   const SizedBox(height: 20),
-                  Wrap(
-                    spacing: 10,
-                    runSpacing: 10,
-                    children: [
-                      _MetricCard(
-                        label: 'Indian dishes tried',
-                        value: '$dishTriedCount',
-                        icon: Icons.ramen_dining_outlined,
-                        accent: AppColors.orange,
-                      ),
-                      _MetricCard(
-                        label: 'Indian dishes cooked',
-                        value: '$dishCookedCount',
-                        icon: Icons.kitchen_outlined,
-                        accent: AppColors.orange,
-                      ),
-                      _MetricCard(
-                        label: 'Indian drinks tried',
-                        value: '$drinkTriedCount',
-                        icon: Icons.local_cafe_outlined,
-                        accent: AppColors.blue,
-                      ),
-                      _MetricCard(
-                        label: 'Challenges started',
-                        value: '$started',
-                        icon: Icons.shield_outlined,
-                        accent: AppColors.blue,
-                      ),
-                      _MetricCard(
-                        label: 'Challenges completed',
-                        value: '$completed',
-                        icon: Icons.verified_outlined,
-                      ),
-                      _MetricCard(
-                        label: 'Fruits explored',
-                        value: '$fruitCount',
-                        icon: Icons.eco_outlined,
-                        accent: AppColors.purple,
-                      ),
-                      _MetricCard(
-                        label: 'Varieties explored',
-                        value: '$varietyCount',
-                        icon: Icons.local_florist_outlined,
-                        accent: AppColors.orange,
-                      ),
-                      _MetricCard(
-                        label: 'Jyotirlingas visited',
-                        value: '$jyotirlingaCount',
-                        icon: Icons.temple_hindu_outlined,
-                        accent: AppColors.blue,
-                      ),
-                      for (final progress in checklistProgress.where(
-                        (progress) =>
-                            progress.challenge.itemType != 'indian_dish' &&
-                            progress.challenge.itemType != 'indian_drink',
-                      ))
-                        _MetricCard(
-                          label:
-                              progress.challenge.metricLabel ??
-                              '${progress.challenge.itemType.replaceAll('_', ' ')} completed',
-                          value: '${progress.count}',
-                          icon:
-                              progress.challenge.itemType ==
-                                  'state_or_union_territory'
-                              ? Icons.map_outlined
-                              : Icons.self_improvement,
-                          accent: AppColors.categoryAccent(
-                            progress.challenge.categoryId,
-                          ),
-                        ),
-                      _MetricCard(
-                        label: 'Experiences completed',
-                        value: '$experienceCount',
-                        icon: Icons.explore_outlined,
-                        accent: AppColors.primary,
-                      ),
-                      _MetricCard(
-                        label: 'Districts explored',
-                        value: '$districtCount',
-                        icon: Icons.location_city_outlined,
-                        accent: AppColors.blue,
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    '$completed challenges completed. Your collections grow with every explored experience.',
-                    style: const TextStyle(
-                      color: AppColors.muted,
-                      fontSize: 12,
+                  if (selectedTab == 0) _buildOverview(game),
+                  if (selectedTab == 1) _buildStats(),
+                  if (selectedTab == 2) _buildAchievements(),
+                  if (selectedTab == 3)
+                    const EmptyState(
+                      icon: Icons.calendar_month_outlined,
+                      title: 'Your timeline starts here',
+                      message: 'Activity history will appear when completion dates are available.',
                     ),
-                  ),
-                  const SizedBox(height: 26),
-                  const Text(
-                    'Achievements earned',
-                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-                  ),
-                  const SizedBox(height: 8),
-                  if (achievements.isEmpty)
-                    const Padding(
-                      padding: EdgeInsets.symmetric(vertical: 20),
-                      child: Text(
-                        'Start a challenge to earn your first achievement.',
-                        style: TextStyle(color: AppColors.muted),
-                      ),
-                    )
-                  else
-                    ...achievements.map(
-                      (achievement) =>
-                          AchievementCard(achievement: achievement),
-                    ),
-                  for (final entry in <String, int>{
-                    'taste_fruits_of_india': fruitCount,
-                    'visit_12_jyotirlingas': jyotirlingaCount,
-                    for (final progress in checklistProgress)
-                      progress.challenge.id: progress.count,
-                    'all_experiences': experienceCount,
-                  }.entries)
-                    if (Achievement.forChallenge(entry.key)
-                            .where((a) => !a.isAchieved(entry.value))
-                            .firstOrNull
-                        case final next?)
-                      AchievementCard(achievement: next, unlocked: false),
-                  const SizedBox(height: 24),
-                  const Text(
-                    'Your collections',
-                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-                  ),
-                  const SizedBox(height: 12),
-                  ProgressCard(
-                    title: 'Taste All Fruits of India',
-                    summary: '$fruitCount / $fruitTotal fruits explored',
-                    progress: ratio(fruitCount, fruitTotal),
-                  ),
-                  const SizedBox(height: 12),
-                  ProgressCard(
-                    title: 'Fruit varieties',
-                    summary: '$varietyCount / $varietyTotal varieties explored',
-                    progress: ratio(varietyCount, varietyTotal),
-                  ),
-                  const SizedBox(height: 12),
-                  ProgressCard(
-                    title: 'Visit 12 Jyotirlingas',
-                    summary: '$jyotirlingaCount / $jyotirlingaTotal visited',
-                    progress: ratio(jyotirlingaCount, jyotirlingaTotal),
-                  ),
-                  const SizedBox(height: 12),
-                  for (final progress in checklistProgress) ...[
-                    ProgressCard(
-                      title: progress.challenge.name,
-                      summary:
-                          '${progress.count} / ${progress.total} ${progress.challenge.collectionUnit ?? progress.challenge.completionVerb}',
-                      progress: ratio(progress.count, progress.total),
-                    ),
-                    const SizedBox(height: 12),
-                  ],
-                  const SizedBox(height: 20),
                 ],
               ),
             ),
+    );
+  }
+
+  Widget _buildOverview(GamificationSummary? game) => Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: [
+      Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(22),
+        decoration: BoxDecoration(
+          color: AppColors.navy,
+          borderRadius: BorderRadius.circular(22),
+        ),
+        child: Column(
+          children: [
+            const Text(
+              'Life Experience Score',
+              style: TextStyle(
+                color: Colors.white70,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              '${game?.experienceCount ?? 0}',
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 44,
+                fontWeight: FontWeight.w900,
+              ),
+            ),
+            const Text(
+              'Experiences completed',
+              style: TextStyle(color: Colors.white70),
+            ),
+          ],
+        ),
+      ),
+      const SizedBox(height: 24),
+      const Text(
+        'Progress by category',
+        style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
+      ),
+      const SizedBox(height: 12),
+      LayoutBuilder(
+        builder: (context, constraints) {
+          final width = constraints.maxWidth < 380
+              ? constraints.maxWidth
+              : (constraints.maxWidth - 12) / 2;
+          return Wrap(
+            spacing: 12,
+            runSpacing: 12,
+            children: [
+              for (final category in game?.categories ?? const [])
+                if (category.categoryId != 'travel_exploration')
+                  SizedBox(
+                    width: width,
+                    child: CategoryProgressRing(
+                      icon: categoryIcon(category.categoryId),
+                      label: category.label,
+                      completed: category.completed,
+                      total: category.total,
+                      accent: AppColors.categoryAccent(category.categoryId),
+                    ),
+                  ),
+            ],
+          );
+        },
+      ),
+      Card(
+        child: ListTile(
+          key: const ValueKey('my-life-travel-summary'),
+          leading: const Icon(Icons.travel_explore),
+          title: const Text('Travel & Exploration'),
+          subtitle: Text(
+            '$statesVisited States & UTs visited\n$statesWanted want to visit\n$indiaExplored India experiences explored',
+          ),
+        ),
+      ),
+      const SizedBox(height: 20),
+      Card(
+        child: ListTile(
+          key: const ValueKey('my-life-share-studio-entry'),
+          leading: const Icon(Icons.auto_awesome_outlined),
+          title: const Text('Share Studio'),
+          subtitle: const Text('Create a My Journey highlights card'),
+          trailing: const Icon(Icons.chevron_right),
+          onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute(builder: (_) => const ShareStudioPage()),
+          ),
+        ),
+      ),
+      const SizedBox(height: 8),
+      Card(
+        child: ListTile(
+          key: const ValueKey('my-life-saved-entry'),
+          leading: const Icon(Icons.bookmark_outline),
+          title: const Text('Saved Experiences'),
+          subtitle: Text('$savedCount saved'),
+          trailing: const Icon(Icons.chevron_right),
+          onTap: () async {
+            await Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const SavedPage()),
+            );
+            if (mounted) await loadSummary();
+          },
+        ),
+      ),
+      const SizedBox(height: 20),
+      const Text(
+        'Weekly progress',
+        style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
+      ),
+      const SizedBox(height: 10),
+      Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(18),
+        decoration: BoxDecoration(
+          color: AppColors.information,
+          borderRadius: BorderRadius.circular(18),
+        ),
+        child: const Text(
+          'Weekly activity will appear as you explore.',
+          style: TextStyle(color: AppColors.muted),
+        ),
+      ),
+      const SizedBox(height: 24),
+      const Text(
+        'Your collections',
+        style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
+      ),
+      const SizedBox(height: 12),
+      ProgressCard(
+        title: 'Taste All Fruits of India',
+        summary: '$fruitCount / $fruitTotal fruits tried',
+        progress: ratio(fruitCount, fruitTotal),
+      ),
+      ProgressCard(
+        title: 'Fruit varieties',
+        summary: '$varietyCount / $varietyTotal varieties tried',
+        progress: ratio(varietyCount, varietyTotal),
+      ),
+      ProgressCard(
+        title: 'Visit 12 Jyotirlingas',
+        summary: '$jyotirlingaCount / $jyotirlingaTotal visited',
+        progress: ratio(jyotirlingaCount, jyotirlingaTotal),
+      ),
+      for (final progress in checklistProgress)
+        ProgressCard(
+          title: progress.challenge.name,
+          summary:
+              '${progress.count} of ${progress.total} ${progress.challenge.collectionUnit ?? progress.challenge.progressVerb}',
+          progress: ratio(progress.count, progress.total),
+        ),
+      const SizedBox(height: 12),
+      _buildStats(),
+    ],
+  );
+
+  Widget _buildStats() {
+    final started =
+        (fruitCount > 0 || varietyCount > 0 ? 1 : 0) +
+        (jyotirlingaCount > 0 ? 1 : 0) +
+        checklistProgress.where((progress) => progress.count > 0).length;
+    final completed =
+        (fruitTotal > 0 && fruitCount == fruitTotal ? 1 : 0) +
+        (jyotirlingaTotal > 0 && jyotirlingaCount == jyotirlingaTotal ? 1 : 0) +
+        checklistProgress
+            .where(
+              (progress) =>
+                  progress.total > 0 && progress.count == progress.total,
+            )
+            .length;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Text(
+          'Stats',
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
+        ),
+        const SizedBox(height: 12),
+        Wrap(
+          spacing: 10,
+          runSpacing: 10,
+          children: [
+            _MetricCard(
+              label: 'Indian dishes tried',
+              value: '$dishTriedCount',
+              icon: Icons.ramen_dining_outlined,
+              accent: AppColors.orange,
+            ),
+            _MetricCard(
+              label: 'Indian dishes cooked',
+              value: '$dishCookedCount',
+              icon: Icons.kitchen_outlined,
+              accent: AppColors.orange,
+            ),
+            _MetricCard(
+              label: 'Indian drinks tried',
+              value: '$drinkTriedCount',
+              icon: Icons.local_cafe_outlined,
+              accent: AppColors.blue,
+            ),
+            _MetricCard(
+              label: 'Challenges started',
+              value: '$started',
+              icon: Icons.shield_outlined,
+              accent: AppColors.blue,
+            ),
+            _MetricCard(
+              label: 'Challenges completed',
+              value: '$completed',
+              icon: Icons.verified_outlined,
+            ),
+            _MetricCard(
+              label: 'Fruits tried',
+              value: '$fruitCount',
+              icon: Icons.eco_outlined,
+              accent: AppColors.purple,
+            ),
+            _MetricCard(
+              label: 'Varieties tried',
+              value: '$varietyCount',
+              icon: Icons.local_florist_outlined,
+              accent: AppColors.orange,
+            ),
+            _MetricCard(
+              label: 'Jyotirlingas visited',
+              value: '$jyotirlingaCount',
+              icon: Icons.temple_hindu_outlined,
+              accent: AppColors.blue,
+            ),
+            for (final progress in checklistProgress.where(
+              (progress) =>
+                  progress.challenge.itemType != 'indian_dish' &&
+                  progress.challenge.itemType != 'indian_drink',
+            ))
+              _MetricCard(
+                label:
+                    progress.challenge.metricLabel ??
+                    '${progress.challenge.compactTitle} ${progress.challenge.progressVerb}',
+                value: '${progress.count}',
+                icon: categoryIcon(progress.challenge.categoryId),
+                accent: AppColors.categoryAccent(progress.challenge.categoryId),
+              ),
+            _MetricCard(
+              label: 'Experiences completed',
+              value: '${gamification?.experienceCount ?? 0}',
+              icon: Icons.explore_outlined,
+              accent: AppColors.primary,
+            ),
+            _MetricCard(
+              label: 'Districts explored',
+              value: '$districtCount',
+              icon: Icons.location_city_outlined,
+              accent: AppColors.blue,
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+
+  Widget _buildAchievements() => Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
+    children: [
+      const Text(
+        'Achievements earned',
+        style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
+      ),
+      const SizedBox(height: 12),
+      if (achievements.isEmpty)
+        const EmptyState(
+          icon: Icons.emoji_events_outlined,
+          title: 'Your first badge awaits',
+          message: 'Start a journey to earn an achievement.',
+        )
+      else
+        for (final achievement in achievements)
+          AchievementCard(achievement: achievement),
+    ],
+  );
+}
+
+class _LifeTabs extends StatelessWidget {
+  final int selected;
+  final ValueChanged<int> onChanged;
+  const _LifeTabs({required this.selected, required this.onChanged});
+
+  @override
+  Widget build(BuildContext context) {
+    const labels = ['Overview', 'Stats', 'Achievements', 'Timeline'];
+    return SizedBox(
+      height: 44,
+      child: ListView.separated(
+        scrollDirection: Axis.horizontal,
+        itemCount: labels.length,
+        separatorBuilder: (_, _) => const SizedBox(width: 8),
+        itemBuilder: (_, index) {
+          final active = selected == index;
+          return Material(
+            key: ValueKey('my-life-tab-$index'),
+            color: active ? AppColors.primary : AppColors.surface,
+            shape: StadiumBorder(
+              side: BorderSide(
+                color: active ? AppColors.primary : AppColors.outline,
+              ),
+            ),
+            child: InkWell(
+              customBorder: const StadiumBorder(),
+              onTap: () => onChanged(index),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Center(
+                  child: Text(
+                    labels[index],
+                    style: TextStyle(
+                      color: active ? Colors.white : AppColors.ink,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          );
+        },
+      ),
     );
   }
 }

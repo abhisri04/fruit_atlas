@@ -1,0 +1,156 @@
+{
+  "source": "pixabay",
+  "approvalRequiredBeforeExpansion": true,
+  "dishes": [
+    {
+      "dishId": "exp_chandigarh_aloo_paratha",
+      "dishName": "Aloo Paratha",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_delhi_aloo_tikki",
+      "dishName": "Aloo Tikki",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_punjab_amritsari_kulcha",
+      "dishName": "Amritsari Kulcha",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_chandigarh_butter_chicken",
+      "dishName": "Butter Chicken",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_chandigarh_chole_bhature",
+      "dishName": "Chole Bhature",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_punjab_dal_makhani",
+      "dishName": "Dal Makhani",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_gujarat_dhokla",
+      "dishName": "Dhokla",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_telangana_hyderabadi_biryani",
+      "dishName": "Hyderabadi Biryani",
+      "group": "common"
+    },
+    {
+      "dishId": "DSH067",
+      "dishName": "Idli with Sambar",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_delhi_jalebi",
+      "dishName": "Jalebi",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_karnataka_mysuru_masala_dosa",
+      "dishName": "Mysuru Masala Dosa",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_himachal_pradesh_momos",
+      "dishName": "Momos",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_maharashtra_pav_bhaji",
+      "dishName": "Pav Bhaji",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_chandigarh_rajma_chawal",
+      "dishName": "Rajma Chawal",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_chandigarh_samosa",
+      "dishName": "Samosa",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_maharashtra_vada_pav",
+      "dishName": "Vada Pav",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_maharashtra_poha",
+      "dishName": "Poha",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_punjab_chole_kulche",
+      "dishName": "Chole Kulche",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_bihar_makhana_kheer",
+      "dishName": "Makhana Kheer",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_karnataka_neer_dosa",
+      "dishName": "Neer Dosa",
+      "group": "common"
+    },
+    {
+      "dishId": "exp_chhattisgarh_aamat",
+      "dishName": "Aamat",
+      "group": "obscure"
+    },
+    {
+      "dishId": "exp_arunachal_pradesh_aamin",
+      "dishName": "Aamin",
+      "group": "obscure"
+    },
+    {
+      "dishId": "exp_nagaland_aikibeye",
+      "dishName": "Aikibeye",
+      "group": "obscure"
+    },
+    {
+      "dishId": "exp_nagaland_akini_chokibo",
+      "dishName": "Akini Chokibo",
+      "group": "obscure"
+    },
+    {
+      "dishId": "exp_nagaland_amrusu",
+      "dishName": "Amrusu",
+      "group": "obscure"
+    },
+    {
+      "dishId": "exp_mizoram_bai",
+      "dishName": "Bai",
+      "group": "obscure"
+    },
+    {
+      "dishId": "exp_meghalaya_jadoh",
+      "dishName": "Jadoh",
+      "group": "obscure"
+    },
+    {
+      "dishId": "exp_manipur_chak_hao_kheer",
+      "dishName": "Chak-Hao Kheer",
+      "group": "obscure"
+    },
+    {
+      "dishId": "exp_jharkhand_rugra_curry",
+      "dishName": "Rugra Curry",
+      "group": "obscure"
+    },
+    {
+      "dishId": "exp_tripura_muya_bai_wahan",
+      "dishName": "Muya Bai Wahan",
+      "group": "obscure"
+    }
+  ]
+}
