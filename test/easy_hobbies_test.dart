@@ -30,10 +30,10 @@ void main() {
 
   setUp(() => SharedPreferences.setMockInitialValues({}));
 
-  test('hobby catalogue has 60 complete, unique, beginner items', () {
-    expect(items, hasLength(60));
-    expect(items.map((item) => item.id).toSet(), hasLength(60));
-    expect(items.map((item) => item.name).toSet(), hasLength(60));
+  test('hobby catalogue has 150 complete, unique, beginner items', () {
+    expect(items, hasLength(150));
+    expect(items.map((item) => item.id).toSet(), hasLength(150));
+    expect(items.map((item) => item.name).toSet(), hasLength(150));
     expect(items.map((item) => item.filterGroup).toSet(), {
       'Creative & Crafts',
       'Mind & Words',
@@ -41,6 +41,9 @@ void main() {
       'Grow & Make',
       'Music & Play',
       'Capture & Share',
+      'Fitness & Movement',
+      'Learn & Explore',
+      'People & Community',
     });
     for (final item in items) {
       expect(item.id, startsWith('hobby_'));
@@ -49,6 +52,13 @@ void main() {
       expect(item.description, isNotEmpty, reason: item.id);
       expect(item.difficulty, isNotNull, reason: item.id);
       expect(item.howToSteps, hasLength(3), reason: item.id);
+      expect(item.ladder.map((step) => step.level), [
+        'tried',
+        'learning',
+        'practising',
+        'confident',
+      ], reason: item.id);
+      expect(item.ladder.first.milestone, item.name, reason: item.id);
       expect(item.metadata.keys.toSet(), {
         'Cost',
         'Where',
@@ -69,7 +79,7 @@ void main() {
       contains('- ${challenge.dataAsset}'),
     );
     final loaded = await const AssetDataService().loadChallengeItems(challenge);
-    expect(loaded, hasLength(60));
+    expect(loaded, hasLength(150));
   });
 
   test('trying a hobby earns XP once and counts in the summary', () async {
@@ -85,7 +95,7 @@ void main() {
 
     final summary = await const ProgressSummaryService().load();
     final hobbies = summary.challenges[challengeId]!;
-    expect((hobbies.completed, hobbies.total), (1, 60));
+    expect((hobbies.completed, hobbies.total), (1, 150));
     expect(summary.completedReferences, contains('hobby:$id'));
     expect(summary.achievementIds, contains('hobby_first'));
   });
@@ -107,8 +117,8 @@ void main() {
 
   test('hobby achievements scale up to the full catalogue', () {
     final achievements = Achievement.forChallenge(challengeId);
-    expect(achievements.map((a) => a.threshold), [1, 5, 15, 30, 60]);
-    expect(Achievement.achievedFor(challengeId, 60), hasLength(5));
+    expect(achievements.map((a) => a.threshold), [1, 5, 15, 50, 150]);
+    expect(Achievement.achievedFor(challengeId, 150), hasLength(5));
   });
 
   test('hobbies are searchable', () async {
@@ -130,7 +140,7 @@ void main() {
     final hobbies = pool
         .where((item) => item.type == DailyDiscoveryType.hobby)
         .toList();
-    expect(hobbies, hasLength(59));
+    expect(hobbies, hasLength(149));
     expect(hobbies.map((item) => item.canonicalId), isNot(contains(first)));
     expect(
       hobbies.every((item) => item.categoryId == 'life_experiences'),

@@ -231,10 +231,10 @@
     {
       "id": "try_easy_hobbies",
       "category_id": "life_experiences",
-      "name": "Try 60 Easy Hobbies",
-      "description": "Low-cost hobbies you can start this week, each with a first win you can finish in a day.",
+      "name": "Try 150 Easy Hobbies",
+      "description": "Indoor and outdoor hobbies to try, each with a first win you can finish in a day and a path to get better.",
       "item_type": "hobby",
-      "total_items": 60,
+      "total_items": 150,
       "has_sub_items": false,
       "sub_item_type": null,
       "presentation_type": "checklist_with_details",

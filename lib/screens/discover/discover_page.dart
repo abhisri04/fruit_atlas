@@ -11,6 +11,7 @@ import '../../services/discovery_saved_service.dart';
 import '../../services/progress_summary_service.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/app_gradients.dart';
+import '../../widgets/hobby_finder_entry.dart';
 import '../../widgets/category_icon.dart';
 import '../../widgets/challenge_icon.dart';
 import '../../widgets/empty_state.dart';
@@ -207,6 +208,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
                   const SizedBox(height: 22),
                   _sectionTitle('Recommended for you'),
                   const TravelJourneys(onDarkBackground: true),
+
                   const SizedBox(height: 12),
                   AnimatedSwitcher(
                     duration: const Duration(milliseconds: 220),
@@ -247,6 +249,8 @@ class _DiscoverPageState extends State<DiscoverPage> {
                             ),
                           ),
                   ),
+                  const SizedBox(height: 24),
+                  HobbyFinderEntry(onReturn: _load),
                   const SizedBox(height: 24),
                   _sectionTitle('Collections'),
                   const SizedBox(height: 12),

@@ -7,6 +7,7 @@ import '../../theme/app_colors.dart';
 import '../../models/challenge.dart';
 import '../../models/app_branding.dart';
 import '../../services/fruit_search.dart';
+import '../../widgets/hobby_finder_entry.dart';
 import '../../widgets/reward_animations.dart';
 import '../../widgets/reveal.dart';
 import '../../widgets/discovery_search_field.dart';
@@ -651,6 +652,11 @@ class _HomePageState extends State<HomePage> {
                   onSave: toggleDailyDiscoverySaved,
                   onAnother: showAnotherDiscovery,
                 ),
+              ),
+              const SizedBox(height: 16),
+              Reveal(
+                index: 4,
+                child: HobbyFinderEntry(onReturn: loadFruitAtlasData),
               ),
               const SizedBox(height: 24),
               Row(

@@ -34,6 +34,7 @@ import '../../widgets/experience_tile.dart';
 import '../../widgets/experience_collection_tile.dart';
 import '../../widgets/yoga_pose_tile.dart';
 import '../../widgets/challenge_icon.dart';
+import '../../widgets/skill_ladder.dart';
 import '../../widgets/fruit_image.dart';
 
 class ChecklistItemDetailsPage extends StatefulWidget {
@@ -1209,6 +1210,23 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                       ),
                       title: Text(step, style: const TextStyle(fontSize: 15)),
                     ),
+                ],
+                if (widget.item.ladder.isNotEmpty) ...[
+                  const SizedBox(height: 24),
+                  Text(
+                    'Your path',
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
+                  const SizedBox(height: 4),
+                  const Text(
+                    'Start with the first win, then keep going at your own pace.',
+                    style: TextStyle(color: AppColors.muted),
+                  ),
+                  const SizedBox(height: 12),
+                  SkillLadder(
+                    steps: widget.item.ladder,
+                    reached: isCompleted ? 1 : 0,
+                  ),
                 ],
                 if (widget.item.metadata.isNotEmpty) ...[
                   const SizedBox(height: 24),

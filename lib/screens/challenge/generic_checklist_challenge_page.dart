@@ -21,6 +21,7 @@ import '../../widgets/exploration_section_card.dart';
 import '../../widgets/yoga_pose_tile.dart';
 import '../../widgets/challenge_icon.dart';
 import '../../widgets/reveal.dart';
+import '../../widgets/hobby_finder_entry.dart';
 import '../../theme/app_spacing.dart';
 import 'checklist_item_details_page.dart';
 
@@ -200,6 +201,10 @@ class _GenericChecklistChallengePageState
                       '$completedCount of ${items.length} ${widget.challenge.progressVerb}',
                   progress: progress,
                 ),
+                if (widget.challenge.itemType == 'hobby') ...[
+                  const SizedBox(height: 12),
+                  HobbyFinderEntry(onReturn: loadChallenge),
+                ],
                 if (widget.challenge.itemSummary case final summary?) ...[
                   const SizedBox(height: 10),
                   Center(
