@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../theme/app_colors.dart';
+import '../../widgets/scent_shelf_buttons.dart';
 import '../../widgets/completion_feedback.dart';
 import '../../widgets/metadata_chip.dart';
 import '../../widgets/reward_animations.dart';
@@ -1179,6 +1180,11 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                       ),
                     ),
                   ),
+                if (widget.challenge.itemType == 'perfume' ||
+                    widget.challenge.itemType == 'attar') ...[
+                  const SizedBox(height: 12),
+                  ScentShelfButtons(item: widget.item),
+                ],
                 if (widget.challenge.itemType == 'hobby' ||
                     widget.challenge.itemType == 'game') ...[
                   const SizedBox(height: 12),

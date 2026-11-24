@@ -440,6 +440,7 @@ class ProgressService {
       if (event.startsWith('dailyQuest:')) return sum + 50;
       if (event.startsWith('practice:')) return sum + practiceXp;
       if (event.startsWith('milestone:')) return sum + milestoneXp;
+      if (event.startsWith('collection:')) return sum + milestoneXp;
       return sum;
     });
   }
@@ -497,6 +498,54 @@ class ProgressService {
       await _recordActivity(
         (now ?? DateTime.now()).toLocal(),
         'hobby:$hobbyId',
+      );
+    }
+    return added.isNotEmpty;
+  }
+
+  /// Records wearing a perfume from My Collection: up to [practiceXp] once
+  /// per day, plus activity for streaks and the daily quest.
+  static Future<bool> recordScentWear(
+    String perfumeName, {
+    DateTime? now,
+  }) async {
+    final localNow = (now ?? DateTime.now()).toLocal();
+    final rewardId = 'practice:perfume_collection:${_dateKey(localNow)}';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.canonicalCompletion,
+          intensity: CelebrationIntensity.small,
+          title: 'Scent of the day',
+          message: 'You wore $perfumeName today.',
+          xp: practiceXp,
+        ),
+      );
+    }
+    await _recordActivity(localNow, 'hobby:perfume_collection');
+    return added.isNotEmpty;
+  }
+
+  /// Rewards a perfume-collection milestone once.
+  static Future<bool> recordCollectionMilestone(
+    String milestoneId,
+    String title,
+    String message,
+  ) async {
+    final rewardId = 'collection:$milestoneId';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.milestone,
+          intensity: CelebrationIntensity.medium,
+          title: title,
+          message: message,
+          xp: milestoneXp,
+        ),
       );
     }
     return added.isNotEmpty;

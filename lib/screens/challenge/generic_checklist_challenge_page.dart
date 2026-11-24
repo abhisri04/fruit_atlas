@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../widgets/scent_shelf_buttons.dart';
 import '../../widgets/filter_chip_group.dart';
 import '../../widgets/completion_feedback.dart';
 import '../../widgets/experience_list.dart';
@@ -207,6 +208,10 @@ class _GenericChecklistChallengePageState
                       '$completedCount of ${items.length} ${widget.challenge.progressVerb}',
                   progress: progress,
                 ),
+                if (widget.challenge.categoryId == 'scent') ...[
+                  const SizedBox(height: 12),
+                  const MyCollectionEntry(),
+                ],
                 if (widget.challenge.itemType == 'hobby' ||
                     widget.challenge.itemType == 'game') ...[
                   const SizedBox(height: 12),
