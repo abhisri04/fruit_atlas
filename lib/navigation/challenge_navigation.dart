@@ -7,10 +7,14 @@ import '../screens/challenge/jyotirlinga_challenge_page.dart';
 import '../screens/dishes/indian_dishes_page.dart';
 import '../screens/drinks/indian_drinks_page.dart';
 import '../screens/books/books_page.dart';
+import '../screens/scent/scent_hub_page.dart';
+import '../services/challenge_groups.dart';
 import '../screens/travel/india_passport_page.dart';
 
 Future<void> openChallenge(BuildContext context, Challenge challenge) async {
-  final Widget? page = challenge.itemType == 'state_or_union_territory'
+  final Widget? page = challenge.id == scentHubId
+      ? const ScentHubPage()
+      : challenge.itemType == 'state_or_union_territory'
       ? const IndiaPassportPage()
       : switch (challenge.presentationType) {
           'catalogue' when challenge.itemType == 'indian_dish' =>

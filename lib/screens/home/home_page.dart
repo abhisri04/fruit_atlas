@@ -6,6 +6,7 @@ import '../../theme/app_colors.dart';
 
 import '../../models/challenge.dart';
 import '../../models/app_branding.dart';
+import '../../services/challenge_groups.dart';
 import '../../services/fruit_search.dart';
 import '../../widgets/hobby_finder_entry.dart';
 import '../../widgets/reward_animations.dart';
@@ -596,12 +597,14 @@ class _HomePageState extends State<HomePage> {
   // =============================================================
 
   Widget buildDashboard(BuildContext context) {
-    final activeChallenges = challenges
-        .where((challenge) => challenge.status == 'active')
-        .toList();
+    final activeChallenges = groupScentChallenges(
+      challenges.where((challenge) => challenge.status == 'active'),
+    );
+    int doneFor(Challenge c) =>
+        groupedProgress(c, (id) => challengeProgress[id], challenges).completed;
     activeChallenges.sort((a, b) {
-      final aStarted = (challengeProgress[a.id]?.completed ?? 0) > 0;
-      final bStarted = (challengeProgress[b.id]?.completed ?? 0) > 0;
+      final aStarted = doneFor(a) > 0;
+      final bStarted = doneFor(b) > 0;
       if (aStarted != bStarted) return aStarted ? -1 : 1;
       return challenges.indexOf(a).compareTo(challenges.indexOf(b));
     });
@@ -697,11 +700,15 @@ class _HomePageState extends State<HomePage> {
                     separatorBuilder: (_, _) => const SizedBox(width: 12),
                     itemBuilder: (context, index) {
                       final challenge = activeChallenges[index];
-                      final progress = challengeProgress[challenge.id];
+                      final progress = groupedProgress(
+                        challenge,
+                        (id) => challengeProgress[id],
+                        challenges,
+                      );
                       return JourneyCard(
                         challenge: challenge,
-                        completed: progress?.completed ?? 0,
-                        total: progress?.total ?? challenge.totalItems,
+                        completed: progress.completed,
+                        total: progress.total,
                         onTap: () async {
                           if (challenge.id == 'taste_fruits_of_india') {
                             await openFruitChallenge(challenge);

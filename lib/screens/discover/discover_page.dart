@@ -5,6 +5,7 @@ import '../../models/challenge.dart';
 import '../../models/daily_discovery.dart';
 import '../../navigation/challenge_navigation.dart';
 import '../../navigation/daily_discovery_navigation.dart';
+import '../../services/challenge_groups.dart';
 import '../../services/challenge_repository.dart';
 import '../../services/daily_discovery_service.dart';
 import '../../services/discovery_saved_service.dart';
@@ -130,9 +131,10 @@ class _DiscoverPageState extends State<DiscoverPage> {
         ),
       );
     }
-    final active = challenges
-        .where((challenge) => challenge.status == 'active')
-        .toList(growable: false);
+    // Scent's four collections appear as one Scent & Perfume tile.
+    final active = groupScentChallenges(
+      challenges.where((challenge) => challenge.status == 'active'),
+    );
     return Scaffold(
       backgroundColor: AppColors.navy,
       body: SafeArea(
@@ -262,11 +264,16 @@ class _DiscoverPageState extends State<DiscoverPage> {
                       separatorBuilder: (_, _) => const SizedBox(width: 12),
                       itemBuilder: (_, index) => JourneyCard(
                         challenge: active[index],
-                        completed:
-                            challengeProgress[active[index].id]?.completed ?? 0,
-                        total:
-                            challengeProgress[active[index].id]?.total ??
-                            active[index].totalItems,
+                        completed: groupedProgress(
+                          active[index],
+                          summaryLookup(challengeProgress),
+                          challenges,
+                        ).completed,
+                        total: groupedProgress(
+                          active[index],
+                          summaryLookup(challengeProgress),
+                          challenges,
+                        ).total,
                         onTap: () => openChallenge(context, active[index]),
                       ),
                     ),
@@ -289,9 +296,13 @@ class _DiscoverPageState extends State<DiscoverPage> {
                 delegate: SliverChildBuilderDelegate((context, index) {
                   final challenge = active[index];
                   final accent = AppColors.categoryAccent(challenge.categoryId);
-                  final progress = challengeProgress[challenge.id];
-                  final done = progress?.completed ?? 0;
-                  final total = progress?.total ?? challenge.totalItems;
+                  final progress = groupedProgress(
+                    challenge,
+                    summaryLookup(challengeProgress),
+                    challenges,
+                  );
+                  final done = progress.completed;
+                  final total = progress.total;
                   return Reveal(
                     index: index,
                     child: TactileScale(
