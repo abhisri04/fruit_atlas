@@ -127,6 +127,30 @@ void main() {
         start: 'Start smelling',
         continueLabel: 'Smell another',
       ),
+      'explore_garden_ways': (
+        shortTitle: 'Ways to Garden',
+        verb: 'tried',
+        start: 'Start gardening',
+        continueLabel: 'Try another way',
+      ),
+      'explore_garden_plants': (
+        shortTitle: 'Plants to Grow',
+        verb: 'grown',
+        start: 'Start growing',
+        continueLabel: 'Grow another',
+      ),
+      'explore_garden_skills': (
+        shortTitle: 'Garden Skills',
+        verb: 'learned',
+        start: 'Start learning',
+        continueLabel: 'Learn another',
+      ),
+      'explore_garden_visits': (
+        shortTitle: 'Gardens to Visit',
+        verb: 'visited',
+        start: 'Plan a visit',
+        continueLabel: 'Visit another',
+      ),
     };
 
     expect(active, hasLength(expected.length));

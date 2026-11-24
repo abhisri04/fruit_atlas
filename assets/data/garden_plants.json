@@ -1,0 +1,2406 @@
+{
+  "challenge_id": "explore_garden_plants",
+  "version": 1,
+  "items": [
+    {
+      "id": "plant_tomato",
+      "challenge_id": "explore_garden_plants",
+      "name": "Tomato",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "The most rewarding kitchen-garden crop.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a large (15+ litres) pot.",
+        "Stake it early. Pinch side shoots for bigger fruit."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "tomato",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Large (15+ litres)",
+        "Ease": "Moderate",
+        "First reward": "Harvest in 60–80 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_chilli",
+      "challenge_id": "explore_garden_plants",
+      "name": "Chilli (Mirchi)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "Prolific and pretty. One plant gives handfuls.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Let the soil dry slightly between waterings."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "chilli (mirchi)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Harvest in 60–90 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_brinjal",
+      "challenge_id": "explore_garden_plants",
+      "name": "Brinjal (Baingan)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "A sturdy plant with glossy purple fruit.",
+      "howToSteps": [
+        "Best started: monsoon · winter (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Feed with compost every few weeks."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "brinjal (baingan)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon · Winter",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Moderate",
+        "First reward": "Harvest in 70–90 days"
+      },
+      "sow_months": [
+        6,
+        7,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_okra",
+      "challenge_id": "explore_garden_plants",
+      "name": "Okra (Bhindi)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "Loves heat and grows fast.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Pick pods young and tender, every two days."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "okra (bhindi)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Harvest in 45–60 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_spinach",
+      "challenge_id": "explore_garden_plants",
+      "name": "Spinach (Palak)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "Cut-and-come-again greens for months.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun to partial and a wide, shallow pot.",
+        "Harvest outer leaves and let the centre keep growing."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "spinach (palak)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun to partial",
+        "Pot": "Wide, shallow",
+        "Ease": "Easy",
+        "First reward": "Harvest in 30–40 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_fenugreek",
+      "challenge_id": "explore_garden_plants",
+      "name": "Fenugreek (Methi)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "One of the fastest crops you can grow.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a wide, shallow pot.",
+        "Sow thickly; harvest by snipping."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "fenugreek (methi)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Wide, shallow",
+        "Ease": "Easy",
+        "First reward": "Harvest in 20–30 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_radish",
+      "challenge_id": "explore_garden_plants",
+      "name": "Radish (Mooli)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "Quick roots for impatient gardeners.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a deep pot.",
+        "Thin seedlings so each root has space."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "radish (mooli)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Deep",
+        "Ease": "Easy",
+        "First reward": "Harvest in 30–45 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_carrot",
+      "challenge_id": "explore_garden_plants",
+      "name": "Carrot (Gajar)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "Sweet winter roots, best in loose soil.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a deep pot.",
+        "Keep the soil moist while seeds germinate."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "carrot (gajar)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Deep",
+        "Ease": "Moderate",
+        "First reward": "Harvest in 70–90 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_bottle_gourd",
+      "challenge_id": "explore_garden_plants",
+      "name": "Bottle gourd (Lauki)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "A vigorous climber with big fruit.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Give it a trellis or terrace railing to climb."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "bottle gourd (lauki)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Moderate",
+        "First reward": "Harvest in 60–75 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_french_beans",
+      "challenge_id": "explore_garden_plants",
+      "name": "French beans",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "Climbing or bush beans, generous and quick.",
+      "howToSteps": [
+        "Best started: monsoon · winter (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Pick often to keep them producing."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "french beans",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon · Winter",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Harvest in 50–60 days"
+      },
+      "sow_months": [
+        6,
+        7,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_peas",
+      "challenge_id": "explore_garden_plants",
+      "name": "Peas (Matar)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "Sweet pods straight from the vine.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Give them a small net or sticks to climb."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "peas (matar)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Harvest in 60–70 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_lettuce",
+      "challenge_id": "explore_garden_plants",
+      "name": "Lettuce",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "Crisp salad leaves for cool months.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it partial sun and a shallow pot.",
+        "Shade it from harsh afternoon sun."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "lettuce",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Partial sun",
+        "Pot": "Shallow",
+        "Ease": "Easy",
+        "First reward": "Harvest in 40–50 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_cucumber",
+      "challenge_id": "explore_garden_plants",
+      "name": "Cucumber (Kheera)",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "A summer climber with crunchy fruit.",
+      "howToSteps": [
+        "Best started: summer (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Water regularly; dry soil makes them bitter."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "cucumber (kheera)",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Summer",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Moderate",
+        "First reward": "Harvest in 50–60 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "plant_spring_onion",
+      "challenge_id": "explore_garden_plants",
+      "name": "Spring onion",
+      "category": "Vegetables",
+      "filter_group": "Vegetables",
+      "difficulty": "beginner",
+      "about": "Regrow from kitchen scraps in a glass or pot.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it full sun and a small pot.",
+        "Replant the white root ends from the market bunch."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "vegetables"
+      ],
+      "keywords": [
+        "spring onion",
+        "vegetables"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Full sun",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Harvest in 3–4 weeks"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_tulsi",
+      "challenge_id": "explore_garden_plants",
+      "name": "Tulsi (Holy basil)",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "A sacred, fragrant household herb.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Pinch off flower spikes to keep it bushy."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "tulsi (holy basil)",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Leaves in 3–4 weeks"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_mint",
+      "challenge_id": "explore_garden_plants",
+      "name": "Mint (Pudina)",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "Grows from a market sprig and spreads happily.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it partial sun and a medium pot.",
+        "Give it its own pot. It takes over."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "mint (pudina)",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Partial sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Leaves in 2–3 weeks"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_coriander",
+      "challenge_id": "explore_garden_plants",
+      "name": "Coriander (Dhaniya)",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "The everyday kitchen herb.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun to partial and a wide, shallow pot.",
+        "Crush the seeds lightly before sowing."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "coriander (dhaniya)",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun to partial",
+        "Pot": "Wide, shallow",
+        "Ease": "Easy",
+        "First reward": "Leaves in 3–4 weeks"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_curry_leaf",
+      "challenge_id": "explore_garden_plants",
+      "name": "Curry leaf (Kadi patta)",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "A small tree with leaves for every tadka.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Grows slowly at first; be patient."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "curry leaf (kadi patta)",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Moderate",
+        "First reward": "Leaves in a few months"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_lemongrass",
+      "challenge_id": "explore_garden_plants",
+      "name": "Lemongrass",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "Citrusy grass for chai and soups.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Root a market stalk in water first."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "lemongrass",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Stalks in 3–4 months"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_ajwain_leaf",
+      "challenge_id": "explore_garden_plants",
+      "name": "Ajwain leaf (Karpooravalli)",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "Fleshy, aromatic leaves, a home remedy favourite.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it partial sun and a small pot.",
+        "Grows easily from a cutting."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "ajwain leaf (karpooravalli)",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Partial sun",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Leaves in 3–4 weeks"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_sweet_basil",
+      "challenge_id": "explore_garden_plants",
+      "name": "Sweet basil",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "The basil of pesto and pasta.",
+      "howToSteps": [
+        "Best started: summer (approximate; check locally).",
+        "Give it full sun and a small pot.",
+        "Pinch the tips to make it bushy."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "sweet basil",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Summer",
+        "Light": "Full sun",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Leaves in 4 weeks"
+      },
+      "sow_months": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "plant_ginger",
+      "challenge_id": "explore_garden_plants",
+      "name": "Ginger (Adrak)",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "Grow from a sprouting market rhizome.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it partial sun and a wide pot.",
+        "Plant a piece with a visible bud just under the soil."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "ginger (adrak)",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Partial sun",
+        "Pot": "Wide",
+        "Ease": "Easy",
+        "First reward": "Harvest in 8–10 months"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_turmeric",
+      "challenge_id": "explore_garden_plants",
+      "name": "Turmeric (Haldi)",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "Lush leaves and golden roots.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it partial sun and a wide pot.",
+        "Plant a fresh rhizome before the monsoon."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "turmeric (haldi)",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Partial sun",
+        "Pot": "Wide",
+        "Ease": "Easy",
+        "First reward": "Harvest in 8–9 months"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_garlic",
+      "challenge_id": "explore_garden_plants",
+      "name": "Garlic (Lehsun)",
+      "category": "Herbs",
+      "filter_group": "Herbs",
+      "difficulty": "beginner",
+      "about": "Plant single cloves and harvest whole bulbs.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Plant cloves pointy end up."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "herbs"
+      ],
+      "keywords": [
+        "garlic (lehsun)",
+        "herbs"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Harvest in 4–5 months"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_marigold",
+      "challenge_id": "explore_garden_plants",
+      "name": "Marigold (Genda)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "India's festival flower, and loved by bees.",
+      "howToSteps": [
+        "Best started: winter · monsoon (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Deadhead spent flowers for more blooms."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "marigold (genda)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Winter · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Flowers in 45–60 days"
+      },
+      "sow_months": [
+        6,
+        7,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_hibiscus",
+      "challenge_id": "explore_garden_plants",
+      "name": "Hibiscus (Gudhal)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Big, bold blooms nearly all year.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Feed regularly and water well in summer."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "hibiscus (gudhal)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Easy",
+        "First reward": "Flowers in a few months"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_rose",
+      "challenge_id": "explore_garden_plants",
+      "name": "Rose (Gulab)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "The classic garden flower.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Prune after flowering; give plenty of sun."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "rose (gulab)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Moderate",
+        "First reward": "Flowers in 2–3 months"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_jasmine",
+      "challenge_id": "explore_garden_plants",
+      "name": "Jasmine (Mogra)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Fragrant white summer flowers.",
+      "howToSteps": [
+        "Best started: summer (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Prune after the flowering season."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "jasmine (mogra)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Summer",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Flowers in summer"
+      },
+      "sow_months": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "plant_sunflower",
+      "challenge_id": "explore_garden_plants",
+      "name": "Sunflower",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Tall, cheerful and easy for children to grow.",
+      "howToSteps": [
+        "Best started: summer (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Sow directly where it will grow."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "sunflower",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Summer",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Easy",
+        "First reward": "Flowers in 70–90 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "plant_zinnia",
+      "challenge_id": "explore_garden_plants",
+      "name": "Zinnia",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Bright, butterfly-friendly blooms.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Water at the base to keep leaves dry."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "zinnia",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Flowers in 50–60 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_petunia",
+      "challenge_id": "explore_garden_plants",
+      "name": "Petunia",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Colourful winter balcony flowers.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a small pot.",
+        "Pinch back leggy stems."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "petunia",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Flowers in 60–70 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_periwinkle",
+      "challenge_id": "explore_garden_plants",
+      "name": "Periwinkle (Sadabahar)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Flowers almost every day of the year.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it full sun to partial and a small pot.",
+        "Tolerates heat and neglect."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "periwinkle (sadabahar)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Full sun to partial",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Flowers in 6–8 weeks"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_portulaca",
+      "challenge_id": "explore_garden_plants",
+      "name": "Portulaca (9 o'clock flower)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Opens bright flowers in the morning sun.",
+      "howToSteps": [
+        "Best started: summer (approximate; check locally).",
+        "Give it full sun and a small pot.",
+        "Grows from cuttings; loves heat."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "portulaca (9 o'clock flower)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Summer",
+        "Light": "Full sun",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Flowers in 4–6 weeks"
+      },
+      "sow_months": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "plant_bougainvillea",
+      "challenge_id": "explore_garden_plants",
+      "name": "Bougainvillea",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "A riot of colour that thrives in heat.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Flowers best when slightly under-watered."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "bougainvillea",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Easy",
+        "First reward": "Flowers in a season"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_chrysanthemum",
+      "challenge_id": "explore_garden_plants",
+      "name": "Chrysanthemum (Guldaudi)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "The star of winter flower shows.",
+      "howToSteps": [
+        "Best started: monsoon (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Pinch tips until late monsoon for more buds."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "chrysanthemum (guldaudi)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Moderate",
+        "First reward": "Flowers in winter"
+      },
+      "sow_months": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_cosmos",
+      "challenge_id": "explore_garden_plants",
+      "name": "Cosmos",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Airy, daisy-like flowers that self-seed.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Poor soil gives more flowers."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "cosmos",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Flowers in 50–60 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_money_plant",
+      "challenge_id": "explore_garden_plants",
+      "name": "Money plant (Pothos)",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "The classic Indian houseplant: grows in water or soil.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it low to bright indirect and a small pot.",
+        "Root a cutting in a bottle of water."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "money plant (pothos)",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Low to bright indirect",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Settles in 2–3 weeks"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_snake_plant",
+      "challenge_id": "explore_garden_plants",
+      "name": "Snake plant",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "Nearly indestructible upright leaves.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it low to bright indirect and a medium pot.",
+        "Water only when completely dry."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "snake plant",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Low to bright indirect",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Slow and steady"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_zz_plant",
+      "challenge_id": "explore_garden_plants",
+      "name": "ZZ plant",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "Glossy leaves that handle neglect.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it low light and a medium pot.",
+        "Water every few weeks."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "zz plant",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Low light",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Slow and steady"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_spider_plant",
+      "challenge_id": "explore_garden_plants",
+      "name": "Spider plant",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "Arching leaves that make baby plants.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it bright indirect and a small pot.",
+        "Pot up the babies to share with friends."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "spider plant",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Bright indirect",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Babies in a few months"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_peace_lily",
+      "challenge_id": "explore_garden_plants",
+      "name": "Peace lily",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "White flowers indoors; droops when thirsty.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it low to medium light and a medium pot.",
+        "Water when it droops; it bounces back."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "peace lily",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Low to medium light",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Flowers in a few months"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_areca_palm",
+      "challenge_id": "explore_garden_plants",
+      "name": "Areca palm",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "A feathery indoor palm.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it bright indirect and a large pot.",
+        "Keep the soil lightly moist."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "areca palm",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Bright indirect",
+        "Pot": "Large",
+        "Ease": "Moderate",
+        "First reward": "Grows steadily"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_rubber_plant",
+      "challenge_id": "explore_garden_plants",
+      "name": "Rubber plant",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "Big, glossy, dark leaves.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it bright indirect and a large pot.",
+        "Wipe the leaves to keep them shiny."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "rubber plant",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Bright indirect",
+        "Pot": "Large",
+        "Ease": "Easy",
+        "First reward": "New leaves monthly"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_syngonium",
+      "challenge_id": "explore_garden_plants",
+      "name": "Syngonium",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "Arrow-shaped leaves in pinks and greens.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it bright indirect and a small pot.",
+        "Grows easily from cuttings."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "syngonium",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Bright indirect",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "New leaves monthly"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_aglaonema",
+      "challenge_id": "explore_garden_plants",
+      "name": "Aglaonema (Chinese evergreen)",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "Patterned leaves for darker corners.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it low to medium light and a medium pot.",
+        "Keep it away from cold drafts."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "aglaonema (chinese evergreen)",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Low to medium light",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Slow and steady"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_lucky_bamboo",
+      "challenge_id": "explore_garden_plants",
+      "name": "Lucky bamboo",
+      "category": "Houseplants",
+      "filter_group": "Houseplants",
+      "difficulty": "beginner",
+      "about": "Grows in a vase of water and pebbles.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it low to medium light and a vase of water pot.",
+        "Change the water every week or two."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "houseplants"
+      ],
+      "keywords": [
+        "lucky bamboo",
+        "houseplants"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Low to medium light",
+        "Pot": "Vase of water",
+        "Ease": "Easy",
+        "First reward": "Grows in water"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_aloe_vera",
+      "challenge_id": "explore_garden_plants",
+      "name": "Aloe vera",
+      "category": "Succulents & Cacti",
+      "filter_group": "Succulents & Cacti",
+      "difficulty": "beginner",
+      "about": "Soothing gel and endless baby plants.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it bright light and a medium pot.",
+        "Water sparingly; let it dry out."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "succulents_cacti"
+      ],
+      "keywords": [
+        "aloe vera",
+        "succulents & cacti"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Bright light",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Pups in a few months"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_jade_plant",
+      "challenge_id": "explore_garden_plants",
+      "name": "Jade plant",
+      "category": "Succulents & Cacti",
+      "filter_group": "Succulents & Cacti",
+      "difficulty": "beginner",
+      "about": "A chunky little tree, said to bring luck.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it bright light and a small pot.",
+        "Grows from a single leaf or cutting."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "succulents_cacti"
+      ],
+      "keywords": [
+        "jade plant",
+        "succulents & cacti"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Bright light",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Slow and steady"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_echeveria",
+      "challenge_id": "explore_garden_plants",
+      "name": "Echeveria",
+      "category": "Succulents & Cacti",
+      "filter_group": "Succulents & Cacti",
+      "difficulty": "beginner",
+      "about": "Rose-shaped succulents in soft colours.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it bright light and a small pot.",
+        "Water at the soil, not into the rosette."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "succulents_cacti"
+      ],
+      "keywords": [
+        "echeveria",
+        "succulents & cacti"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Bright light",
+        "Pot": "Small",
+        "Ease": "Moderate",
+        "First reward": "Slow and steady"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_haworthia",
+      "challenge_id": "explore_garden_plants",
+      "name": "Haworthia",
+      "category": "Succulents & Cacti",
+      "filter_group": "Succulents & Cacti",
+      "difficulty": "beginner",
+      "about": "Small, striped and happy indoors.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it bright indirect and a small pot.",
+        "Handles less light than most succulents."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "succulents_cacti"
+      ],
+      "keywords": [
+        "haworthia",
+        "succulents & cacti"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Bright indirect",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Slow and steady"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_kalanchoe",
+      "challenge_id": "explore_garden_plants",
+      "name": "Kalanchoe",
+      "category": "Succulents & Cacti",
+      "filter_group": "Succulents & Cacti",
+      "difficulty": "beginner",
+      "about": "A succulent with clusters of bright flowers.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it bright light and a small pot.",
+        "Pinch spent flowers for repeat blooms."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "succulents_cacti"
+      ],
+      "keywords": [
+        "kalanchoe",
+        "succulents & cacti"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Bright light",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Flowers in winter"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_bunny_ears_cactus",
+      "challenge_id": "explore_garden_plants",
+      "name": "Bunny ears cactus (Opuntia)",
+      "category": "Succulents & Cacti",
+      "filter_group": "Succulents & Cacti",
+      "difficulty": "beginner",
+      "about": "Paddle-shaped pads, easy from a cutting.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it full sun and a small pot.",
+        "Handle with care: tiny spines."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "succulents_cacti"
+      ],
+      "keywords": [
+        "bunny ears cactus (opuntia)",
+        "succulents & cacti"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Full sun",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Slow and steady"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_lemon",
+      "challenge_id": "explore_garden_plants",
+      "name": "Lemon (Nimbu)",
+      "category": "Fruit",
+      "filter_group": "Fruit",
+      "difficulty": "beginner",
+      "about": "Fragrant flowers and your own lemons.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Start from a nursery sapling, not a seed."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "fruit"
+      ],
+      "keywords": [
+        "lemon (nimbu)",
+        "fruit"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Moderate",
+        "First reward": "Fruit in 1–2 years"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "plant_papaya",
+      "challenge_id": "explore_garden_plants",
+      "name": "Papaya",
+      "category": "Fruit",
+      "filter_group": "Fruit",
+      "difficulty": "beginner",
+      "about": "Grows fast from seed.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a large or ground pot.",
+        "Plant a few; some plants won't fruit."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "fruit"
+      ],
+      "keywords": [
+        "papaya",
+        "fruit"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Large or ground",
+        "Ease": "Easy",
+        "First reward": "Fruit in 8–10 months"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_strawberry",
+      "challenge_id": "explore_garden_plants",
+      "name": "Strawberry",
+      "category": "Fruit",
+      "filter_group": "Fruit",
+      "difficulty": "beginner",
+      "about": "Sweet winter berries in a pot or hanging basket.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Grows best in the cool season."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "fruit"
+      ],
+      "keywords": [
+        "strawberry",
+        "fruit"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Moderate",
+        "First reward": "Fruit in 2–3 months"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "plant_guava",
+      "challenge_id": "explore_garden_plants",
+      "name": "Guava (Amrood)",
+      "category": "Fruit",
+      "filter_group": "Fruit",
+      "difficulty": "beginner",
+      "about": "A hardy fruit tree that suits containers too.",
+      "howToSteps": [
+        "Best started: monsoon (approximate; check locally).",
+        "Give it full sun and a large or ground pot.",
+        "Choose a dwarf variety for pots."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "fruit"
+      ],
+      "keywords": [
+        "guava (amrood)",
+        "fruit"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon",
+        "Light": "Full sun",
+        "Pot": "Large or ground",
+        "Ease": "Easy",
+        "First reward": "Fruit in 2–3 years"
+      },
+      "sow_months": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_pomegranate",
+      "challenge_id": "explore_garden_plants",
+      "name": "Pomegranate (Anaar)",
+      "category": "Fruit",
+      "filter_group": "Fruit",
+      "difficulty": "beginner",
+      "about": "Orange-red flowers and jewel-like fruit.",
+      "howToSteps": [
+        "Best started: monsoon (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Loves sun and little water."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "fruit"
+      ],
+      "keywords": [
+        "pomegranate (anaar)",
+        "fruit"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Moderate",
+        "First reward": "Fruit in 2–3 years"
+      },
+      "sow_months": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_neem",
+      "challenge_id": "explore_garden_plants",
+      "name": "Neem",
+      "category": "Trees",
+      "filter_group": "Trees",
+      "difficulty": "beginner",
+      "about": "A hardy, much-loved native tree.",
+      "howToSteps": [
+        "Best started: monsoon (approximate; check locally).",
+        "Give it full sun and a in the ground pot.",
+        "Plant during the monsoon for easy rooting."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "trees"
+      ],
+      "keywords": [
+        "neem",
+        "trees"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon",
+        "Light": "Full sun",
+        "Pot": "In the ground",
+        "Ease": "Easy",
+        "First reward": "Shade in a few years"
+      },
+      "sow_months": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_moringa",
+      "challenge_id": "explore_garden_plants",
+      "name": "Moringa (Drumstick)",
+      "category": "Trees",
+      "filter_group": "Trees",
+      "difficulty": "beginner",
+      "about": "Fast-growing with nutritious leaves and pods.",
+      "howToSteps": [
+        "Best started: monsoon (approximate; check locally).",
+        "Give it full sun and a large or ground pot.",
+        "Grows from a thick cutting."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "trees"
+      ],
+      "keywords": [
+        "moringa (drumstick)",
+        "trees"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon",
+        "Light": "Full sun",
+        "Pot": "Large or ground",
+        "Ease": "Easy",
+        "First reward": "Leaves in months, pods in a year"
+      },
+      "sow_months": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_jamun",
+      "challenge_id": "explore_garden_plants",
+      "name": "Jamun",
+      "category": "Trees",
+      "filter_group": "Trees",
+      "difficulty": "beginner",
+      "about": "A native shade tree with purple summer fruit.",
+      "howToSteps": [
+        "Best started: monsoon (approximate; check locally).",
+        "Give it full sun and a in the ground pot.",
+        "Give it space to spread."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "trees"
+      ],
+      "keywords": [
+        "jamun",
+        "trees"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon",
+        "Light": "Full sun",
+        "Pot": "In the ground",
+        "Ease": "Easy",
+        "First reward": "Fruit in a few years"
+      },
+      "sow_months": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_gulmohar",
+      "challenge_id": "explore_garden_plants",
+      "name": "Gulmohar",
+      "category": "Trees",
+      "filter_group": "Trees",
+      "difficulty": "beginner",
+      "about": "Fiery red-orange summer flowers.",
+      "howToSteps": [
+        "Best started: monsoon (approximate; check locally).",
+        "Give it full sun and a in the ground pot.",
+        "Plant away from walls; roots spread."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "trees"
+      ],
+      "keywords": [
+        "gulmohar",
+        "trees"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon",
+        "Light": "Full sun",
+        "Pot": "In the ground",
+        "Ease": "Easy",
+        "First reward": "Flowers in a few years"
+      },
+      "sow_months": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "plant_champa",
+      "challenge_id": "explore_garden_plants",
+      "name": "Champa (Frangipani)",
+      "category": "Trees",
+      "filter_group": "Trees",
+      "difficulty": "beginner",
+      "about": "Fragrant temple flowers on a small tree.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a large or ground pot.",
+        "Grows from a cutting dried for a week."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "trees"
+      ],
+      "keywords": [
+        "champa (frangipani)",
+        "trees"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Large or ground",
+        "Ease": "Easy",
+        "First reward": "Flowers in 1–2 years"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    }
+  ]
+}

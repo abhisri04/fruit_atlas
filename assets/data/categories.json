@@ -44,6 +44,11 @@
       "id": "scent",
       "name": "Scent & Perfume",
       "description": "Scent families, famous perfumes, notes and Indian attars to smell and collect."
+    },
+    {
+      "id": "garden",
+      "name": "Garden & Plants",
+      "description": "Ways to garden, plants to grow through the Indian seasons, skills and famous gardens."
     }
   ]
 }

@@ -28,6 +28,7 @@ class AchievementCard extends StatelessWidget {
     'hobby' => Icons.palette_outlined,
     'game' => Icons.casino_outlined,
     'perfume' => Icons.local_florist_outlined,
+    'garden' => Icons.yard_outlined,
     _ => Icons.emoji_events_outlined,
   };
 

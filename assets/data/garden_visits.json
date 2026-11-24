@@ -1,0 +1,470 @@
+{
+  "challenge_id": "explore_garden_visits",
+  "version": 1,
+  "items": [
+    {
+      "id": "visit_karnataka_lalbagh_botanical_garden",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Lalbagh Botanical Garden",
+      "category": "Lalbagh Botanical Garden",
+      "filter_group": "South India",
+      "difficulty": "beginner",
+      "about": "A grand old garden known for its glasshouse flower shows.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: Flower shows around 26 January and 15 August.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "karnataka"
+      ],
+      "keywords": [
+        "lalbagh botanical garden",
+        "bengaluru",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Bengaluru",
+        "Best time": "Flower shows around 26 January and 15 August",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_karnataka_brindavan_gardens",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Brindavan Gardens",
+      "category": "Brindavan Gardens",
+      "filter_group": "South India",
+      "difficulty": "beginner",
+      "about": "Terraced gardens below the KRS dam.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: Evenings, for the musical fountain.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "karnataka"
+      ],
+      "keywords": [
+        "brindavan gardens",
+        "mysuru",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Mysuru",
+        "Best time": "Evenings, for the musical fountain",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_west_bengal_indian_botanic_garden",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Indian Botanic Garden",
+      "category": "Indian Botanic Garden",
+      "filter_group": "East India",
+      "difficulty": "beginner",
+      "about": "India's oldest botanic garden, home to the Great Banyan.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: October to March.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "west_bengal"
+      ],
+      "keywords": [
+        "indian botanic garden",
+        "howrah, kolkata",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Howrah, Kolkata",
+        "Best time": "October to March",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_west_bengal_lloyd_s_botanical_garden",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Lloyd's Botanical Garden",
+      "category": "Lloyd's Botanical Garden",
+      "filter_group": "East India",
+      "difficulty": "beginner",
+      "about": "A hillside garden of orchids and Himalayan plants.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: March to May.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "west_bengal"
+      ],
+      "keywords": [
+        "lloyd's botanical garden",
+        "darjeeling",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Darjeeling",
+        "Best time": "March to May",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_tamil_nadu_government_botanical_garden_ooty",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Government Botanical Garden, Ooty",
+      "category": "Government Botanical Garden, Ooty",
+      "filter_group": "South India",
+      "difficulty": "beginner",
+      "about": "Terraced gardens in the Nilgiri hills.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: April to June.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "tamil_nadu"
+      ],
+      "keywords": [
+        "government botanical garden, ooty",
+        "ooty",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Ooty",
+        "Best time": "April to June",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_tamil_nadu_sim_s_park",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Sim's Park",
+      "category": "Sim's Park",
+      "filter_group": "South India",
+      "difficulty": "beginner",
+      "about": "A sloping valley garden full of rare trees.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: April to June.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "tamil_nadu"
+      ],
+      "keywords": [
+        "sim's park",
+        "coonoor",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Coonoor",
+        "Best time": "April to June",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_delhi_amrit_udyan_rashtrapati_bhavan",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Amrit Udyan, Rashtrapati Bhavan",
+      "category": "Amrit Udyan, Rashtrapati Bhavan",
+      "filter_group": "North India",
+      "difficulty": "beginner",
+      "about": "Formal gardens famous for their tulips and roses.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: February to March, when it opens to visitors.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "delhi"
+      ],
+      "keywords": [
+        "amrit udyan, rashtrapati bhavan",
+        "new delhi",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "New Delhi",
+        "Best time": "February to March, when it opens to visitors",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_delhi_lodhi_garden",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Lodhi Garden",
+      "category": "Lodhi Garden",
+      "filter_group": "North India",
+      "difficulty": "beginner",
+      "about": "A green park around 15th-century tombs.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: October to March.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "delhi"
+      ],
+      "keywords": [
+        "lodhi garden",
+        "new delhi",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "New Delhi",
+        "Best time": "October to March",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_delhi_sunder_nursery",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Sunder Nursery",
+      "category": "Sunder Nursery",
+      "filter_group": "North India",
+      "difficulty": "beginner",
+      "about": "A restored heritage park with a historic nursery.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: October to March.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "delhi"
+      ],
+      "keywords": [
+        "sunder nursery",
+        "new delhi",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "New Delhi",
+        "Best time": "October to March",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_jammu_kashmir_indira_gandhi_memorial_tulip_garden",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Indira Gandhi Memorial Tulip Garden",
+      "category": "Indira Gandhi Memorial Tulip Garden",
+      "filter_group": "North India",
+      "difficulty": "beginner",
+      "about": "Asia's largest tulip garden, blooming each spring.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: Late March to April.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "jammu_kashmir"
+      ],
+      "keywords": [
+        "indira gandhi memorial tulip garden",
+        "srinagar",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Srinagar",
+        "Best time": "Late March to April",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_jammu_kashmir_shalimar_bagh",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Shalimar Bagh",
+      "category": "Shalimar Bagh",
+      "filter_group": "North India",
+      "difficulty": "beginner",
+      "about": "A Mughal garden of terraces and water channels.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: April to October.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "jammu_kashmir"
+      ],
+      "keywords": [
+        "shalimar bagh",
+        "srinagar",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Srinagar",
+        "Best time": "April to October",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_uttarakhand_valley_of_flowers",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Valley of Flowers",
+      "category": "Valley of Flowers",
+      "filter_group": "North India",
+      "difficulty": "beginner",
+      "about": "A high Himalayan valley carpeted with wildflowers in the monsoon.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: July to September.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "uttarakhand"
+      ],
+      "keywords": [
+        "valley of flowers",
+        "chamoli",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Chamoli",
+        "Best time": "July to September",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_maharashtra_kaas_plateau",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Kaas Plateau",
+      "category": "Kaas Plateau",
+      "filter_group": "West India",
+      "difficulty": "beginner",
+      "about": "A plateau that bursts into tiny wildflowers after the rains.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: August to October.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "maharashtra"
+      ],
+      "keywords": [
+        "kaas plateau",
+        "satara",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Satara",
+        "Best time": "August to October",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_maharashtra_hanging_gardens",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Hanging Gardens",
+      "category": "Hanging Gardens",
+      "filter_group": "West India",
+      "difficulty": "beginner",
+      "about": "Terraced gardens with topiary animals on Malabar Hill.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: October to March.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "maharashtra"
+      ],
+      "keywords": [
+        "hanging gardens",
+        "mumbai",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Mumbai",
+        "Best time": "October to March",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_chandigarh_rock_garden",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Rock Garden",
+      "category": "Rock Garden",
+      "filter_group": "North India",
+      "difficulty": "beginner",
+      "about": "A sculpture garden built from recycled waste.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: October to March.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "chandigarh"
+      ],
+      "keywords": [
+        "rock garden",
+        "chandigarh",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Chandigarh",
+        "Best time": "October to March",
+        "India Passport": "Visiting stamps this state"
+      }
+    },
+    {
+      "id": "visit_haryana_pinjore_gardens_yadavindra_gardens",
+      "challenge_id": "explore_garden_visits",
+      "name": "Visit Pinjore Gardens (Yadavindra Gardens)",
+      "category": "Pinjore Gardens (Yadavindra Gardens)",
+      "filter_group": "North India",
+      "difficulty": "beginner",
+      "about": "A Mughal-style terraced garden near Chandigarh.",
+      "howToSteps": [
+        "Check opening days and timings before you go.",
+        "Best time: October to March.",
+        "Note three plants or flowers you've never seen before."
+      ],
+      "tags": [
+        "garden",
+        "visit",
+        "haryana"
+      ],
+      "keywords": [
+        "pinjore gardens (yadavindra gardens)",
+        "pinjore",
+        "garden"
+      ],
+      "metadata": {
+        "Where": "Pinjore",
+        "Best time": "October to March",
+        "India Passport": "Visiting stamps this state"
+      }
+    }
+  ]
+}

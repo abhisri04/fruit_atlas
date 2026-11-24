@@ -1,0 +1,342 @@
+{
+  "challenge_id": "explore_garden_ways",
+  "version": 1,
+  "items": [
+    {
+      "id": "way_windowsill_herbs",
+      "challenge_id": "explore_garden_ways",
+      "name": "Start a windowsill herb garden",
+      "category": "Windowsill herbs",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "Three or four herbs on a sunny sill: the easiest way to start.",
+      "howToSteps": [
+        "Pick your sunniest window.",
+        "Plant tulsi or mint cuttings and coriander seeds in small pots.",
+        "Water when the top inch of soil is dry."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "windowsill herbs",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A sunny windowsill",
+        "Light": "4+ hours of sun",
+        "Good plants": "Tulsi, mint, coriander, basil",
+        "First win": "First herb leaves in 3–4 weeks"
+      }
+    },
+    {
+      "id": "way_balcony_containers",
+      "challenge_id": "explore_garden_ways",
+      "name": "Grow a balcony container garden",
+      "category": "Balcony containers",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "A few pots and grow bags turn a balcony into a small garden.",
+      "howToSteps": [
+        "Watch which hours your balcony gets sun.",
+        "Start with 3–5 pots; check the weight on the railing.",
+        "Mix shade-lovers and sun-lovers to match each spot."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "balcony containers",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A balcony",
+        "Light": "Depends on the balcony",
+        "Good plants": "Chilli, tomato, marigold, money plant",
+        "First win": "First flower or fruit in 2–3 months"
+      }
+    },
+    {
+      "id": "way_terrace_kitchen_garden",
+      "challenge_id": "explore_garden_ways",
+      "name": "Start a terrace kitchen garden",
+      "category": "Terrace kitchen garden",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "Grow-bags of vegetables on a rooftop: India's favourite urban garden.",
+      "howToSteps": [
+        "Use grow bags or old buckets with drainage holes.",
+        "Sow what suits the season.",
+        "Water early morning or evening in summer."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "terrace kitchen garden",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A terrace or rooftop",
+        "Light": "Full sun",
+        "Good plants": "Tomato, palak, okra, gourds",
+        "First win": "First harvest in 6–10 weeks"
+      }
+    },
+    {
+      "id": "way_houseplant_corner",
+      "challenge_id": "explore_garden_ways",
+      "name": "Create a houseplant corner",
+      "category": "Houseplant corner",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "A green corner indoors with easy, forgiving plants.",
+      "howToSteps": [
+        "Find a bright spot out of direct afternoon sun.",
+        "Start with two hardy plants.",
+        "Water only when the soil is dry. Overwatering is the usual mistake."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "houseplant corner",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "Any room",
+        "Light": "Bright indirect or low light",
+        "Good plants": "Money plant, snake plant, ZZ plant, peace lily",
+        "First win": "Settled in after 2–3 weeks"
+      }
+    },
+    {
+      "id": "way_succulents_cacti",
+      "challenge_id": "explore_garden_ways",
+      "name": "Start a succulent collection",
+      "category": "Succulents & cacti",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "Fleshy, sculptural plants that need little water.",
+      "howToSteps": [
+        "Use a fast-draining mix with sand or pebbles.",
+        "Water deeply, then wait until the soil is fully dry.",
+        "Grow new plants from fallen leaves."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "succulents & cacti",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A sunny sill or balcony",
+        "Light": "Bright light",
+        "Good plants": "Aloe vera, jade, echeveria, haworthia",
+        "First win": "New growth in a month"
+      }
+    },
+    {
+      "id": "way_microgreens",
+      "challenge_id": "explore_garden_ways",
+      "name": "Grow a tray of microgreens",
+      "category": "Microgreens",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "Tiny edible greens ready in about a week, even in a flat.",
+      "howToSteps": [
+        "Soak seeds overnight.",
+        "Spread them thickly on soil in a shallow tray.",
+        "Mist daily and snip when 5–8 cm tall."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "microgreens",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A tray on a table",
+        "Light": "Indirect light",
+        "Good plants": "Mustard, methi, moong, radish",
+        "First win": "Harvest in 7–10 days"
+      }
+    },
+    {
+      "id": "way_hydroponics",
+      "challenge_id": "explore_garden_ways",
+      "name": "Try a simple hydroponic jar",
+      "category": "Hydroponics",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "Grow greens in water and nutrients, no soil, using the simple jar method.",
+      "howToSteps": [
+        "Fill a jar with water and hydroponic nutrients.",
+        "Set a seedling in a net cup so its roots touch the water.",
+        "Top up the water as the level drops."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "hydroponics",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A sunny sill",
+        "Light": "Bright light",
+        "Good plants": "Lettuce, basil, spinach",
+        "First win": "First leaves in 3–4 weeks"
+      }
+    },
+    {
+      "id": "way_bonsai",
+      "challenge_id": "explore_garden_ways",
+      "name": "Begin a bonsai",
+      "category": "Bonsai",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "The slow art of shaping a tree in a small pot.",
+      "howToSteps": [
+        "Start with a hardy ficus or jade.",
+        "Pot it in a shallow container with good drainage.",
+        "Prune a little at a time and be patient."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "bonsai",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A sunny outdoor spot",
+        "Light": "Sun most of the day",
+        "Good plants": "Ficus, jade, bougainvillea",
+        "First win": "First shaping in a few months"
+      }
+    },
+    {
+      "id": "way_terrarium",
+      "challenge_id": "explore_garden_ways",
+      "name": "Build a terrarium",
+      "category": "Terrarium",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "A miniature garden in a glass jar.",
+      "howToSteps": [
+        "Layer pebbles, charcoal and soil in a clean jar.",
+        "Plant two or three small plants.",
+        "Mist lightly; closed jars rarely need water."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "terrarium",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A tabletop",
+        "Light": "Bright indirect light",
+        "Good plants": "Small ferns, moss, fittonia, small succulents",
+        "First win": "Done in an afternoon"
+      }
+    },
+    {
+      "id": "way_pollinator_garden",
+      "challenge_id": "explore_garden_ways",
+      "name": "Plant a butterfly garden",
+      "category": "Pollinator garden",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "Flowers that feed butterflies and bees in your own space.",
+      "howToSteps": [
+        "Plant bright, nectar-rich flowers.",
+        "Add a host plant like curry leaf for caterpillars.",
+        "Avoid chemical sprays."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "pollinator garden",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "Balcony, terrace or yard",
+        "Light": "Full sun",
+        "Good plants": "Marigold, zinnia, periwinkle, curry leaf",
+        "First win": "First visitors in weeks"
+      }
+    },
+    {
+      "id": "way_vertical_garden",
+      "challenge_id": "explore_garden_ways",
+      "name": "Make a vertical garden",
+      "category": "Vertical garden",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "Grow up the wall when floor space is short.",
+      "howToSteps": [
+        "Hang pots, pockets or reused bottles on a frame.",
+        "Group plants by water needs.",
+        "Water from the top so it trickles down."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "vertical garden",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A wall or railing",
+        "Light": "Depends on the wall",
+        "Good plants": "Money plant, herbs, ferns, strawberry",
+        "First win": "Green wall in 1–2 months"
+      }
+    },
+    {
+      "id": "way_water_garden",
+      "challenge_id": "explore_garden_ways",
+      "name": "Grow a lotus in a tub",
+      "category": "Water garden",
+      "filter_group": "Ways to garden",
+      "difficulty": "beginner",
+      "about": "A water lily or lotus in a big tub of water.",
+      "howToSteps": [
+        "Fill a wide tub with clay soil and water.",
+        "Plant a lotus tuber or water lily.",
+        "Add a few small fish to keep mosquitoes away."
+      ],
+      "tags": [
+        "garden",
+        "way"
+      ],
+      "keywords": [
+        "water garden",
+        "gardening"
+      ],
+      "metadata": {
+        "Space": "A sunny terrace or yard",
+        "Light": "Full sun",
+        "Good plants": "Lotus, water lily, water lettuce",
+        "First win": "First bloom in a season"
+      }
+    }
+  ]
+}

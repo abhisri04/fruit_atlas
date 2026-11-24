@@ -15,5 +15,10 @@ IconData challengeIcon(String identifier) => switch (identifier) {
   'scent_family' => Icons.donut_large_outlined,
   'scent_note' => Icons.spa_outlined,
   'attar' => Icons.water_drop_outlined,
+  'garden' => Icons.yard_outlined,
+  'garden_way' => Icons.grid_view_outlined,
+  'plant' => Icons.eco_outlined,
+  'garden_skill' => Icons.handyman_outlined,
+  'garden_visit' => Icons.park_outlined,
   _ => Icons.emoji_events_outlined,
 };

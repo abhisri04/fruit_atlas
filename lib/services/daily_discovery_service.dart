@@ -1,5 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../models/challenge.dart';
 import '../models/daily_discovery.dart';
 import '../models/item.dart';
 import 'asset_data_service.dart';
@@ -71,11 +72,11 @@ class DailyDiscoveryService {
     final completedGames = gameChallenge == null
         ? <String>{}
         : await ProgressService.getChallengeItemIds(gameChallenge.progressKey);
-    final scentChallenges = loadedChallenges
-        .where((challenge) => challenge.categoryId == 'scent')
-        .toList(growable: false);
-    final scentPools = [
-      for (final challenge in scentChallenges)
+    Future<List<({Challenge challenge, List<Item> items, Set<String> done})>>
+    poolsFor(String categoryId) async => [
+      for (final challenge in loadedChallenges.where(
+        (challenge) => challenge.categoryId == categoryId,
+      ))
         (
           challenge: challenge,
           items: await data.loadChallengeItems(challenge),
@@ -84,6 +85,8 @@ class DailyDiscoveryService {
           ),
         ),
     ];
+    final scentPools = await poolsFor('scent');
+    final gardenPools = await poolsFor('garden');
     final jyotirlingas = await data.loadJyotirlingas();
     final dishCatalogue = await const IndianDishesRepository().load();
     final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
@@ -266,6 +269,22 @@ class DailyDiscoveryService {
             subtitle: scent.filterGroup ?? 'Scent',
             categoryId: pool.challenge.categoryId,
             hobby: scent,
+            hobbyChallenge: pool.challenge,
+          ),
+        );
+      }
+    }
+    for (final pool in gardenPools) {
+      for (final item in pool.items) {
+        if (excludeCompleted && pool.done.contains(item.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.garden,
+            canonicalId: item.id,
+            title: item.name,
+            subtitle: item.filterGroup ?? 'Garden',
+            categoryId: pool.challenge.categoryId,
+            hobby: item,
             hobbyChallenge: pool.challenge,
           ),
         );

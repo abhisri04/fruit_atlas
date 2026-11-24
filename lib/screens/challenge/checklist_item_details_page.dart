@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../theme/app_colors.dart';
+import '../../widgets/garden_hub_link.dart';
 import '../../widgets/scent_shelf_buttons.dart';
 import '../../widgets/completion_feedback.dart';
 import '../../widgets/metadata_chip.dart';
@@ -1166,6 +1167,9 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                                       'tried' => 'Tried',
                                       'played' => 'Played',
                                       'smelled' => 'Smelled',
+                                      'grown' => 'Grown',
+                                      'learned' => 'Learned',
+                                      'visited' => 'Visited',
                                       _ => 'Explored',
                                     }
                             : widget.challenge.itemType ==
@@ -1190,11 +1194,15 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                   const SizedBox(height: 12),
                   HobbyStartButton(item: widget.item),
                 ],
+                if (gardeningHobbyIds.contains(widget.item.id)) ...[
+                  const SizedBox(height: 12),
+                  const GardenHubLink(),
+                ],
                 const SizedBox(height: 28),
                 Text(
                   // Action-style names ("Fold a paper crane", "Get to know
                   // Chypre") read better as "About Origami", "About Chypre".
-                  'About ${const {'hobby', 'game', 'scent_family', 'scent_note', 'attar'}.contains(widget.challenge.itemType) ? widget.item.category ?? widget.item.name : widget.item.name}',
+                  'About ${const {'hobby', 'game', 'scent_family', 'scent_note', 'attar', 'garden_way', 'garden_visit'}.contains(widget.challenge.itemType) ? widget.item.category ?? widget.item.name : widget.item.name}',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
                 const SizedBox(height: 10),

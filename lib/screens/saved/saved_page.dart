@@ -171,7 +171,8 @@ class _SavedPageState extends State<SavedPage> {
       ),
       DailyDiscoveryType.hobby ||
       DailyDiscoveryType.game ||
-      DailyDiscoveryType.scent => ChecklistItemDetailsPage(
+      DailyDiscoveryType.scent ||
+      DailyDiscoveryType.garden => ChecklistItemDetailsPage(
         challenge: discovery.hobbyChallenge!,
         item: discovery.hobby!,
       ),

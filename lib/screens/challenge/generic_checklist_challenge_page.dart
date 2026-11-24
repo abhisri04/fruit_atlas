@@ -133,6 +133,9 @@ class _GenericChecklistChallengePageState
           'tried' => 'Tried',
           'played' => 'Played',
           'smelled' => 'Smelled',
+          'grown' => 'Grown',
+          'learned' => 'Learned',
+          'visited' => 'Visited',
           _ => 'Explored',
         };
 
@@ -142,6 +145,9 @@ class _GenericChecklistChallengePageState
           'tried' => 'To Try',
           'played' => 'To Play',
           'smelled' => 'To Smell',
+          'grown' => 'To Grow',
+          'learned' => 'To Learn',
+          'visited' => 'To Visit',
           _ => 'To Explore',
         };
 

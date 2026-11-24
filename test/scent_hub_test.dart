@@ -23,7 +23,8 @@ void main() {
 
       final grouped = groupScentChallenges(active);
       expect(grouped.where((c) => c.categoryId == 'scent'), hasLength(1));
-      expect(grouped, hasLength(active.length - 3));
+      // Scent's four and Garden's four each collapse into one tile.
+      expect(grouped, hasLength(active.length - 3 - 3));
       final hub = grouped.singleWhere((c) => c.id == scentHubId);
       expect(hub.compactTitle, 'Scent & Perfume');
       expect(hub.totalItems, scent.fold(0, (sum, c) => sum + c.totalItems));
@@ -85,7 +86,7 @@ void main() {
       'explore_scent_notes',
       'explore_indian_attars',
     ]) {
-      expect(find.byKey(ValueKey('scent-hub-$id')), findsOneWidget);
+      expect(find.byKey(ValueKey('hub-collection-$id')), findsOneWidget);
     }
     expect(tester.takeException(), isNull);
   });

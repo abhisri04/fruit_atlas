@@ -10,5 +10,6 @@ IconData categoryIcon(String categoryId) => switch (categoryId) {
   'life_experiences' => Icons.auto_awesome_outlined,
   'games_play' => Icons.casino_outlined,
   'scent' => Icons.local_florist_outlined,
+  'garden' => Icons.yard_outlined,
   _ => Icons.grid_view_rounded,
 };

@@ -18,6 +18,7 @@ enum DailyDiscoveryType {
   hobby,
   game,
   scent,
+  garden,
 }
 
 class DailyDiscovery {

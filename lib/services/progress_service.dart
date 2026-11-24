@@ -222,6 +222,42 @@ class ProgressService {
         await recordMeaningfulCompletion('$prefix:$id');
       }
     }
+    if (progressKey == gardenVisitProgressKey) {
+      await _stampPassportForGardenVisits(ids.difference(previous));
+    }
+  }
+
+  static const gardenVisitProgressKey = 'completed_garden_visit_ids';
+
+  /// The state a garden visit id (`visit_<stateId>_<garden>`) belongs to.
+  static String? stateForGardenVisit(String visitId) {
+    if (!visitId.startsWith('visit_')) return null;
+    final rest = visitId.substring('visit_'.length);
+    String? best;
+    for (final id in IndiaLocationRegistry.allLocationIds) {
+      if (rest.startsWith('${id}_') && id.length > (best?.length ?? 0)) {
+        best = id;
+      }
+    }
+    return best;
+  }
+
+  /// Visiting a garden stamps its state. Unmarking a garden leaves the stamp:
+  /// the user was still there, and the passport is theirs to edit.
+  static Future<void> _stampPassportForGardenVisits(Set<String> added) async {
+    final states = added.map(stateForGardenVisit).whereType<String>().toSet();
+    if (states.isEmpty) return;
+    final travel = StateTravelService();
+    try {
+      await travel.load();
+      for (final id in states) {
+        if (travel.statusFor(id) != TravelStatus.visited) {
+          await travel.setStatus(id, TravelStatus.visited);
+        }
+      }
+    } finally {
+      travel.dispose();
+    }
   }
 
   static Future<bool> toggleChallengeItem(
@@ -645,6 +681,10 @@ class ProgressService {
         'completed_perfume_ids' => 'perfume',
         'completed_scent_note_ids' => 'note',
         'completed_attar_ids' => 'attar',
+        'completed_garden_way_ids' => 'gardenway',
+        'completed_garden_plant_ids' => 'plant',
+        'completed_garden_skill_ids' => 'gardenskill',
+        'completed_garden_visit_ids' => 'gardenvisit',
         _ => null,
       };
 

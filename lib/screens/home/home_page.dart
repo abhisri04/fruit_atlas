@@ -267,7 +267,8 @@ class _HomePageState extends State<HomePage> {
       ),
       DailyDiscoveryType.hobby ||
       DailyDiscoveryType.game ||
-      DailyDiscoveryType.scent => ChecklistItemDetailsPage(
+      DailyDiscoveryType.scent ||
+      DailyDiscoveryType.garden => ChecklistItemDetailsPage(
         challenge: discovery.hobbyChallenge!,
         item: discovery.hobby!,
       ),
@@ -597,7 +598,7 @@ class _HomePageState extends State<HomePage> {
   // =============================================================
 
   Widget buildDashboard(BuildContext context) {
-    final activeChallenges = groupScentChallenges(
+    final activeChallenges = groupHubChallenges(
       challenges.where((challenge) => challenge.status == 'active'),
     );
     int doneFor(Challenge c) =>

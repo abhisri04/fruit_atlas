@@ -180,6 +180,10 @@ flutter:
     - assets/data/famous_perfumes.json
     - assets/data/scent_notes.json
     - assets/data/indian_attars.json
+    - assets/data/garden_ways.json
+    - assets/data/garden_plants.json
+    - assets/data/garden_skills.json
+    - assets/data/garden_visits.json
     - assets/data/books.json
     - assets/data/book_index.json
     - assets/data/featured_book_authors.json

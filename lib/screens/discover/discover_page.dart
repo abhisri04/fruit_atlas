@@ -132,7 +132,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
       );
     }
     // Scent's four collections appear as one Scent & Perfume tile.
-    final active = groupScentChallenges(
+    final active = groupHubChallenges(
       challenges.where((challenge) => challenge.status == 'active'),
     );
     return Scaffold(
@@ -423,6 +423,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
     'life_experiences' => 'Life',
     'games_play' => 'Games',
     'scent' => 'Scent',
+    'garden' => 'Garden',
     _ => category.name.split(' & ').first,
   };
   Widget _sectionTitle(String value) => Text(
