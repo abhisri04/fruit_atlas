@@ -1,0 +1,62 @@
+name: Deploy web app
+
+# Publishes the installable web app to GitHub Pages:
+# https://abhisri04.github.io/fruit_atlas/
+on:
+  push:
+    branches:
+      - master
+      - uplyfa-books-passport-gamification
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Test and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.47.2
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      # Never publish a version that fails its tests.
+      - name: Test
+        run: flutter test
+
+      # --wasm uses the faster WebAssembly renderer where the browser supports
+      # it (Chrome on Android does) and falls back to JavaScript elsewhere.
+      - name: Build
+        run: flutter build web --release --wasm --base-href /fruit_atlas/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+  deploy:
+    name: Publish
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

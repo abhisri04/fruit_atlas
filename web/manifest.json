@@ -1,13 +1,16 @@
 {
+    "id": "./",
     "name": "UPLYFA",
     "short_name": "UPLYFA",
-    "start_url": ".",
+    "start_url": "./",
+    "scope": "./",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Experience more.",
+    "background_color": "#FAF9F6",
+    "theme_color": "#0F766E",
+    "description": "Experience more. Hobbies, games, food and places to try.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
+    "categories": ["lifestyle", "education", "entertainment"],
     "icons": [
         {
             "src": "icons/Icon-192.png",
