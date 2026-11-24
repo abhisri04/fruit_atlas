@@ -31,6 +31,7 @@ class RecordingShareService extends ShareStudioService {
     Uint8List? png,
     required String text,
     Rect? origin,
+    String fileName = 'india-passport.png',
   }) async {
     if (failInvocation) throw StateError('share failed');
     this.png = png;

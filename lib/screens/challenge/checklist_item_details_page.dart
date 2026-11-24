@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../theme/app_colors.dart';
+import '../../widgets/my_garden_buttons.dart';
 import '../../widgets/garden_hub_link.dart';
 import '../../widgets/scent_shelf_buttons.dart';
 import '../../widgets/completion_feedback.dart';
@@ -1193,6 +1194,10 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                     widget.challenge.itemType == 'game') ...[
                   const SizedBox(height: 12),
                   HobbyStartButton(item: widget.item),
+                ],
+                if (widget.challenge.itemType == 'plant') ...[
+                  const SizedBox(height: 12),
+                  GrowThisButton(item: widget.item),
                 ],
                 if (gardeningHobbyIds.contains(widget.item.id)) ...[
                   const SizedBox(height: 12),

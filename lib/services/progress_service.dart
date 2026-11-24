@@ -564,7 +564,32 @@ class ProgressService {
     return added.isNotEmpty;
   }
 
-  /// Rewards a perfume-collection milestone once.
+  /// Any gardening logged today earns practice XP once a day and counts
+  /// towards the day's activity.
+  static Future<bool> recordGardenCare(
+    String plantName, {
+    DateTime? now,
+  }) async {
+    final localNow = (now ?? DateTime.now()).toLocal();
+    final rewardId = 'practice:my_garden:${_dateKey(localNow)}';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.canonicalCompletion,
+          intensity: CelebrationIntensity.small,
+          title: 'Garden time',
+          message: 'You spent time with your $plantName today.',
+          xp: practiceXp,
+        ),
+      );
+    }
+    await _recordActivity(localNow, 'hobby:my_garden');
+    return added.isNotEmpty;
+  }
+
+  /// Rewards a collection milestone (perfume or garden) once.
   static Future<bool> recordCollectionMilestone(
     String milestoneId,
     String title,

@@ -77,6 +77,7 @@ class ShareStudioService {
     required GlobalKey boundaryKey,
     required String text,
     Rect? origin,
+    String fileName = 'india-passport.png',
   }) async {
     Uint8List? png;
     try {
@@ -84,13 +85,14 @@ class ShareStudioService {
     } catch (_) {
       // Rendering failures retain the same progress in a text-only share.
     }
-    await invokeShare(png: png, text: text, origin: origin);
+    await invokeShare(png: png, text: text, origin: origin, fileName: fileName);
   }
 
   Future<void> invokeShare({
     Uint8List? png,
     required String text,
     Rect? origin,
+    String fileName = 'india-passport.png',
   }) async {
     final result = await SharePlus.instance.share(
       ShareParams(
@@ -98,7 +100,7 @@ class ShareStudioService {
         files: png == null
             ? null
             : [XFile.fromData(png, mimeType: 'image/png')],
-        fileNameOverrides: png == null ? null : ['india-passport.png'],
+        fileNameOverrides: png == null ? null : [fileName],
         sharePositionOrigin: origin,
       ),
     );

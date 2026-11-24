@@ -7,6 +7,7 @@ import '../../services/challenge_groups.dart';
 import '../../services/progress_summary_service.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/app_gradients.dart';
+import '../../widgets/my_garden_buttons.dart';
 import '../../widgets/challenge_icon.dart';
 import '../../widgets/empty_state.dart';
 import '../../widgets/reveal.dart';
@@ -38,7 +39,13 @@ class _CategoryHubPageState extends State<CategoryHubPage> {
   /// The card shown above the collections.
   Widget? get topCard => switch (widget.categoryId) {
     scentCategoryId => const MyCollectionEntry(),
-    gardenCategoryId => SowNowCard(clock: widget.clock),
+    gardenCategoryId => Column(
+      children: [
+        const MyGardenEntry(),
+        const SizedBox(height: 12),
+        SowNowCard(clock: widget.clock),
+      ],
+    ),
     _ => null,
   };
 
