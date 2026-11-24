@@ -592,6 +592,10 @@ class ProgressService {
         'completed_india_state_ut_ids' => 'state',
         'completed_hobby_ids' => 'hobby',
         'completed_game_ids' => 'game',
+        'completed_scent_family_ids' => 'scent',
+        'completed_perfume_ids' => 'perfume',
+        'completed_scent_note_ids' => 'note',
+        'completed_attar_ids' => 'attar',
         _ => null,
       };
 

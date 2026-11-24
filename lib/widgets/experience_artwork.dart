@@ -90,6 +90,10 @@ class ExperienceArtwork extends StatelessWidget {
         Icons.casino_outlined,
         AppColors.categoryAccent('games_play'),
       ),
+      DailyDiscoveryType.scent => (
+        Icons.local_florist_outlined,
+        AppColors.categoryAccent('scent'),
+      ),
       DailyDiscoveryType.indiaLocation => (
         Icons.map_outlined,
         AppColors.categoryAccent('travel_exploration'),

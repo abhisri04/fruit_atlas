@@ -103,6 +103,30 @@ void main() {
         start: 'Start playing',
         continueLabel: 'Play another',
       ),
+      'explore_scent_families': (
+        shortTitle: 'Scent Families',
+        verb: 'smelled',
+        start: 'Start smelling',
+        continueLabel: 'Smell another',
+      ),
+      'explore_iconic_perfumes': (
+        shortTitle: 'Famous Perfumes',
+        verb: 'smelled',
+        start: 'Start smelling',
+        continueLabel: 'Smell another',
+      ),
+      'explore_scent_notes': (
+        shortTitle: 'Scent Notes',
+        verb: 'smelled',
+        start: 'Start smelling',
+        continueLabel: 'Smell another',
+      ),
+      'explore_indian_attars': (
+        shortTitle: 'Indian Attars',
+        verb: 'smelled',
+        start: 'Start smelling',
+        continueLabel: 'Smell another',
+      ),
     };
 
     expect(active, hasLength(expected.length));
@@ -121,8 +145,8 @@ void main() {
           ..sort(
             (a, b) => a.quickExplorePriority.compareTo(b.quickExplorePriority),
           );
-    expect(quickExplore, hasLength(9));
-    expect(quickExplore.take(9).map((item) => item.compactTitle), [
+    expect(quickExplore, hasLength(10));
+    expect(quickExplore.take(10).map((item) => item.compactTitle), [
       'Fruits of India',
       'Indian Dishes',
       'Indian Drinks',
@@ -132,6 +156,7 @@ void main() {
       'Books',
       'Easy Hobbies',
       'Games',
+      'Famous Perfumes',
     ]);
   });
 

@@ -53,6 +53,7 @@ void main() {
       DailyDiscoveryType.book,
       DailyDiscoveryType.hobby,
       DailyDiscoveryType.game,
+      DailyDiscoveryType.scent,
     });
     expect(pool.every((item) => !item.locationRequired), isTrue);
     expect(pool.map((item) => item.reference), isNot(contains('fruit:FR001')));
@@ -147,6 +148,10 @@ void main() {
         ]);
       case DailyDiscoveryType.game:
         await preferences.setStringList('completed_game_ids', [
+          nextDay.canonicalId,
+        ]);
+      case DailyDiscoveryType.scent:
+        await preferences.setStringList(nextDay.hobbyChallenge!.progressKey!, [
           nextDay.canonicalId,
         ]);
     }

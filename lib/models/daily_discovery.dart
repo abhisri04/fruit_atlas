@@ -17,6 +17,7 @@ enum DailyDiscoveryType {
   book,
   hobby,
   game,
+  scent,
 }
 
 class DailyDiscovery {

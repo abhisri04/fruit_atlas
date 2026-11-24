@@ -1,0 +1,1140 @@
+{
+  "challenge_id": "explore_scent_notes",
+  "version": 1,
+  "items": [
+    {
+      "id": "note_rose",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell rose",
+      "category": "Rose",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "The queen of perfume flowers: fresh, honeyed, sometimes spicy.",
+      "howToSteps": [
+        "Find it: flower market or garden.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "rose",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Flower market or garden",
+        "Found in families": "Floral, Oud & Attar"
+      }
+    },
+    {
+      "id": "note_jasmine_mogra",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell jasmine (Mogra)",
+      "category": "Jasmine (Mogra)",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Heady, sweet and a little animalic, especially at night.",
+      "howToSteps": [
+        "Find it: flower sellers, temple garlands.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "jasmine (mogra)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Flower sellers, temple garlands",
+        "Found in families": "Floral"
+      }
+    },
+    {
+      "id": "note_tuberose_rajnigandha",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell tuberose (Rajnigandha)",
+      "category": "Tuberose (Rajnigandha)",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Creamy, buttery and intense.",
+      "howToSteps": [
+        "Find it: flower market.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "tuberose (rajnigandha)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Flower market",
+        "Found in families": "Floral"
+      }
+    },
+    {
+      "id": "note_orange_blossom",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell orange blossom",
+      "category": "Orange blossom",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Sweet, honeyed, clean white flower.",
+      "howToSteps": [
+        "Find it: orange flower water in the kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "orange blossom",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Orange flower water in the kitchen",
+        "Found in families": "Floral, Fresh"
+      }
+    },
+    {
+      "id": "note_lavender",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell lavender",
+      "category": "Lavender",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Herbal, clean and calming.",
+      "howToSteps": [
+        "Find it: dried lavender, herb shops.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "lavender",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Dried lavender, herb shops",
+        "Found in families": "Fougère, Fresh"
+      }
+    },
+    {
+      "id": "note_champa_frangipani",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell champa (Frangipani)",
+      "category": "Champa (Frangipani)",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Creamy, fruity and tropical.",
+      "howToSteps": [
+        "Find it: temple trees, flower sellers.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "champa (frangipani)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Temple trees, flower sellers",
+        "Found in families": "Floral"
+      }
+    },
+    {
+      "id": "note_ylang_ylang",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell ylang-ylang",
+      "category": "Ylang-ylang",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Rich, banana-like, exotic flower.",
+      "howToSteps": [
+        "Find it: essential oil shops.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "ylang-ylang",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Essential oil shops",
+        "Found in families": "Floral"
+      }
+    },
+    {
+      "id": "note_iris",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell iris",
+      "category": "Iris",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Powdery, earthy, like soft lipstick.",
+      "howToSteps": [
+        "Find it: orris root powder, perfume counters.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "iris",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Orris root powder, perfume counters",
+        "Found in families": "Floral, Woody"
+      }
+    },
+    {
+      "id": "note_marigold_genda",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell marigold (Genda)",
+      "category": "Marigold (Genda)",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Green, herbal and slightly bitter.",
+      "howToSteps": [
+        "Find it: garlands, flower market.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "marigold (genda)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Garlands, flower market",
+        "Found in families": "Floral"
+      }
+    },
+    {
+      "id": "note_sandalwood_chandan",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell sandalwood (Chandan)",
+      "category": "Sandalwood (Chandan)",
+      "filter_group": "Woods",
+      "difficulty": "beginner",
+      "about": "Creamy, milky, soft wood.",
+      "howToSteps": [
+        "Find it: temple paste, incense, soap.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "sandalwood (chandan)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Temple paste, incense, soap",
+        "Found in families": "Woody, Oud & Attar"
+      }
+    },
+    {
+      "id": "note_vetiver_khus",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell vetiver (Khus)",
+      "category": "Vetiver (Khus)",
+      "filter_group": "Woods",
+      "difficulty": "beginner",
+      "about": "Earthy, smoky, rooty and cooling.",
+      "howToSteps": [
+        "Find it: khus mats and coolers, khus syrup.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "vetiver (khus)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Khus mats and coolers, khus syrup",
+        "Found in families": "Woody, Fresh"
+      }
+    },
+    {
+      "id": "note_cedar",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell cedar",
+      "category": "Cedar",
+      "filter_group": "Woods",
+      "difficulty": "beginner",
+      "about": "Dry, clean, pencil-like wood.",
+      "howToSteps": [
+        "Find it: pencil shavings, wooden chests.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "cedar",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Pencil shavings, wooden chests",
+        "Found in families": "Woody"
+      }
+    },
+    {
+      "id": "note_patchouli",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell patchouli",
+      "category": "Patchouli",
+      "filter_group": "Woods",
+      "difficulty": "beginner",
+      "about": "Dark, earthy, damp-forest smell.",
+      "howToSteps": [
+        "Find it: essential oil shops, incense.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "patchouli",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Essential oil shops, incense",
+        "Found in families": "Woody, Chypre, Gourmand"
+      }
+    },
+    {
+      "id": "note_oud_agarwood",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell oud (Agarwood)",
+      "category": "Oud (Agarwood)",
+      "filter_group": "Woods",
+      "difficulty": "beginner",
+      "about": "Deep, resinous, animalic wood. Prized and complex.",
+      "howToSteps": [
+        "Find it: attar shops, bakhoor.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "oud (agarwood)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Attar shops, bakhoor",
+        "Found in families": "Oud & Attar"
+      }
+    },
+    {
+      "id": "note_cardamom_elaichi",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell cardamom (Elaichi)",
+      "category": "Cardamom (Elaichi)",
+      "filter_group": "Spices",
+      "difficulty": "beginner",
+      "about": "Fresh, cool and sweetly spicy.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "cardamom (elaichi)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Amber, Woody"
+      }
+    },
+    {
+      "id": "note_saffron_kesar",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell saffron (Kesar)",
+      "category": "Saffron (Kesar)",
+      "filter_group": "Spices",
+      "difficulty": "beginner",
+      "about": "Honeyed, leathery, hay-like.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "saffron (kesar)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Amber, Leather, Oud & Attar"
+      }
+    },
+    {
+      "id": "note_cinnamon_dalchini",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell cinnamon (Dalchini)",
+      "category": "Cinnamon (Dalchini)",
+      "filter_group": "Spices",
+      "difficulty": "beginner",
+      "about": "Warm, sweet and woody spice.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "cinnamon (dalchini)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Amber, Gourmand"
+      }
+    },
+    {
+      "id": "note_clove_laung",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell clove (Laung)",
+      "category": "Clove (Laung)",
+      "filter_group": "Spices",
+      "difficulty": "beginner",
+      "about": "Sharp, warm, a little medicinal.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "clove (laung)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Amber"
+      }
+    },
+    {
+      "id": "note_black_pepper",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell black pepper",
+      "category": "Black pepper",
+      "filter_group": "Spices",
+      "difficulty": "beginner",
+      "about": "Dry, zingy, fresh spice.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "black pepper",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Fougère, Woody"
+      }
+    },
+    {
+      "id": "note_nutmeg_jaiphal",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell nutmeg (Jaiphal)",
+      "category": "Nutmeg (Jaiphal)",
+      "filter_group": "Spices",
+      "difficulty": "beginner",
+      "about": "Warm, sweet and woody.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "nutmeg (jaiphal)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Amber, Leather"
+      }
+    },
+    {
+      "id": "note_bergamot",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell bergamot",
+      "category": "Bergamot",
+      "filter_group": "Citrus",
+      "difficulty": "beginner",
+      "about": "The classic perfume citrus: bright with a floral edge.",
+      "howToSteps": [
+        "Find it: earl grey tea.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "bergamot",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Earl Grey tea",
+        "Found in families": "Fresh, Chypre"
+      }
+    },
+    {
+      "id": "note_lemon_nimbu",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell lemon (Nimbu)",
+      "category": "Lemon (Nimbu)",
+      "filter_group": "Citrus",
+      "difficulty": "beginner",
+      "about": "Zesty and clean. Smell the peel, not the juice.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "lemon (nimbu)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Fresh"
+      }
+    },
+    {
+      "id": "note_sweet_orange",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell sweet orange",
+      "category": "Sweet orange",
+      "filter_group": "Citrus",
+      "difficulty": "beginner",
+      "about": "Juicy, sunny and sweet.",
+      "howToSteps": [
+        "Find it: fruit seller.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "sweet orange",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Fruit seller",
+        "Found in families": "Fresh"
+      }
+    },
+    {
+      "id": "note_grapefruit",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell grapefruit",
+      "category": "Grapefruit",
+      "filter_group": "Citrus",
+      "difficulty": "beginner",
+      "about": "Bitter-sweet, sparkling citrus.",
+      "howToSteps": [
+        "Find it: fruit seller.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "grapefruit",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Fruit seller",
+        "Found in families": "Fresh, Woody"
+      }
+    },
+    {
+      "id": "note_lime_kaffir_lime",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell lime (Kaffir lime)",
+      "category": "Lime (Kaffir lime)",
+      "filter_group": "Citrus",
+      "difficulty": "beginner",
+      "about": "Sharp, green and aromatic.",
+      "howToSteps": [
+        "Find it: kitchen, thai groceries.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "lime (kaffir lime)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen, Thai groceries",
+        "Found in families": "Fresh"
+      }
+    },
+    {
+      "id": "note_frankincense_loban",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell frankincense (Loban)",
+      "category": "Frankincense (Loban)",
+      "filter_group": "Resins & Balms",
+      "difficulty": "beginner",
+      "about": "Clean, peppery, church-like smoke.",
+      "howToSteps": [
+        "Find it: temple smoke, puja shops.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "frankincense (loban)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Temple smoke, puja shops",
+        "Found in families": "Amber, Woody"
+      }
+    },
+    {
+      "id": "note_benzoin",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell benzoin",
+      "category": "Benzoin",
+      "filter_group": "Resins & Balms",
+      "difficulty": "beginner",
+      "about": "Sweet, vanilla-like resin.",
+      "howToSteps": [
+        "Find it: puja shops.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "benzoin",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Puja shops",
+        "Found in families": "Amber, Gourmand"
+      }
+    },
+    {
+      "id": "note_myrrh",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell myrrh",
+      "category": "Myrrh",
+      "filter_group": "Resins & Balms",
+      "difficulty": "beginner",
+      "about": "Bitter, earthy, ancient resin.",
+      "howToSteps": [
+        "Find it: ayurvedic and puja shops.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "myrrh",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Ayurvedic and puja shops",
+        "Found in families": "Amber"
+      }
+    },
+    {
+      "id": "note_labdanum",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell labdanum",
+      "category": "Labdanum",
+      "filter_group": "Resins & Balms",
+      "difficulty": "beginner",
+      "about": "Leathery, warm, sticky resin.",
+      "howToSteps": [
+        "Find it: perfume counters (amber scents).",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "labdanum",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Perfume counters (amber scents)",
+        "Found in families": "Amber, Chypre"
+      }
+    },
+    {
+      "id": "note_vanilla",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell vanilla",
+      "category": "Vanilla",
+      "filter_group": "Edible",
+      "difficulty": "beginner",
+      "about": "Creamy, sweet, comforting.",
+      "howToSteps": [
+        "Find it: vanilla pod or essence.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "vanilla",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Vanilla pod or essence",
+        "Found in families": "Gourmand, Amber"
+      }
+    },
+    {
+      "id": "note_tonka_bean",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell tonka bean",
+      "category": "Tonka bean",
+      "filter_group": "Edible",
+      "difficulty": "beginner",
+      "about": "Almond, hay and vanilla.",
+      "howToSteps": [
+        "Find it: baking shops.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "tonka bean",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Baking shops",
+        "Found in families": "Gourmand, Fougère"
+      }
+    },
+    {
+      "id": "note_cocoa",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell cocoa",
+      "category": "Cocoa",
+      "filter_group": "Edible",
+      "difficulty": "beginner",
+      "about": "Dark, bitter-sweet chocolate.",
+      "howToSteps": [
+        "Find it: cocoa powder.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "cocoa",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Cocoa powder",
+        "Found in families": "Gourmand"
+      }
+    },
+    {
+      "id": "note_coffee",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell coffee",
+      "category": "Coffee",
+      "filter_group": "Edible",
+      "difficulty": "beginner",
+      "about": "Roasted, bitter, energising.",
+      "howToSteps": [
+        "Find it: fresh coffee beans.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "coffee",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Fresh coffee beans",
+        "Found in families": "Gourmand"
+      }
+    },
+    {
+      "id": "note_honey",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell honey",
+      "category": "Honey",
+      "filter_group": "Edible",
+      "difficulty": "beginner",
+      "about": "Sweet, waxy, a little animalic.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "honey",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Gourmand, Floral"
+      }
+    },
+    {
+      "id": "note_almond",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell almond",
+      "category": "Almond",
+      "filter_group": "Edible",
+      "difficulty": "beginner",
+      "about": "Sweet, nutty, marzipan-like.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "almond",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Gourmand"
+      }
+    },
+    {
+      "id": "note_mint_pudina",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell mint (Pudina)",
+      "category": "Mint (Pudina)",
+      "filter_group": "Green & Earthy",
+      "difficulty": "beginner",
+      "about": "Cool, green and sharp.",
+      "howToSteps": [
+        "Find it: kitchen, garden.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "mint (pudina)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen, garden",
+        "Found in families": "Fresh, Fougère"
+      }
+    },
+    {
+      "id": "note_tulsi_holy_basil",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell tulsi (Holy basil)",
+      "category": "Tulsi (Holy basil)",
+      "filter_group": "Green & Earthy",
+      "difficulty": "beginner",
+      "about": "Clove-like, peppery herb.",
+      "howToSteps": [
+        "Find it: home or temple plant.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "tulsi (holy basil)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Home or temple plant",
+        "Found in families": "Fresh"
+      }
+    },
+    {
+      "id": "note_fig_leaf",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell fig leaf",
+      "category": "Fig leaf",
+      "filter_group": "Green & Earthy",
+      "difficulty": "beginner",
+      "about": "Green, milky and coconutty.",
+      "howToSteps": [
+        "Find it: fig tree.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "fig leaf",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Fig tree",
+        "Found in families": "Woody, Fresh"
+      }
+    },
+    {
+      "id": "note_green_tea",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell green tea",
+      "category": "Green tea",
+      "filter_group": "Green & Earthy",
+      "difficulty": "beginner",
+      "about": "Soft, green and calming.",
+      "howToSteps": [
+        "Find it: kitchen.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "green tea",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Kitchen",
+        "Found in families": "Fresh"
+      }
+    },
+    {
+      "id": "note_petrichor_mitti",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell petrichor (Mitti)",
+      "category": "Petrichor (Mitti)",
+      "filter_group": "Green & Earthy",
+      "difficulty": "beginner",
+      "about": "The smell of rain on dry soil.",
+      "howToSteps": [
+        "Find it: first rain on dry earth.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "petrichor (mitti)",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "First rain on dry earth",
+        "Found in families": "Oud & Attar, Woody"
+      }
+    },
+    {
+      "id": "note_oakmoss",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell oakmoss",
+      "category": "Oakmoss",
+      "filter_group": "Green & Earthy",
+      "difficulty": "beginner",
+      "about": "Damp, forest-floor moss.",
+      "howToSteps": [
+        "Find it: perfume counters (chypres).",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "oakmoss",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Perfume counters (chypres)",
+        "Found in families": "Chypre, Fougère"
+      }
+    },
+    {
+      "id": "note_musk",
+      "challenge_id": "explore_scent_notes",
+      "name": "Smell musk",
+      "category": "Musk",
+      "filter_group": "Musk & Clean",
+      "difficulty": "beginner",
+      "about": "Soft, clean, skin-like warmth.",
+      "howToSteps": [
+        "Find it: perfume counters, laundry and soaps.",
+        "Smell it slowly, then again after a short break.",
+        "Try to describe it in three words."
+      ],
+      "tags": [
+        "scent",
+        "note"
+      ],
+      "keywords": [
+        "musk",
+        "note",
+        "ingredient"
+      ],
+      "metadata": {
+        "Find it": "Perfume counters, laundry and soaps",
+        "Found in families": "Fresh, Floral"
+      }
+    }
+  ]
+}

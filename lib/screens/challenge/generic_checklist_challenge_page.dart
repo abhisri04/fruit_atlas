@@ -131,6 +131,7 @@ class _GenericChecklistChallengePageState
       : switch (widget.challenge.progressVerb) {
           'tried' => 'Tried',
           'played' => 'Played',
+          'smelled' => 'Smelled',
           _ => 'Explored',
         };
 
@@ -139,6 +140,7 @@ class _GenericChecklistChallengePageState
       : switch (widget.challenge.progressVerb) {
           'tried' => 'To Try',
           'played' => 'To Play',
+          'smelled' => 'To Smell',
           _ => 'To Explore',
         };
 

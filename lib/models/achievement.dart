@@ -232,6 +232,122 @@ class Achievement {
     ),
   ];
 
+  static const scentFamilyAchievements = [
+    Achievement(
+      id: 'scent_family_first',
+      title: 'First Family',
+      description: 'Get to know your first scent family.',
+      threshold: 1,
+      challengeId: 'explore_scent_families',
+      iconIdentifier: 'perfume',
+    ),
+    Achievement(
+      id: 'scent_family_five',
+      title: 'Nose in Training',
+      description: 'Get to know 5 scent families.',
+      threshold: 5,
+      challengeId: 'explore_scent_families',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'scent_family_all',
+      title: 'Scent Wheel Complete',
+      description: 'Get to know all 9 scent families.',
+      threshold: 9,
+      challengeId: 'explore_scent_families',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
+  static const perfumeAchievements = [
+    Achievement(
+      id: 'perfume_first',
+      title: 'First Spritz',
+      description: 'Smell your first famous perfume.',
+      threshold: 1,
+      challengeId: 'explore_iconic_perfumes',
+      iconIdentifier: 'perfume',
+    ),
+    Achievement(
+      id: 'perfume_ten',
+      title: 'Perfume Explorer',
+      description: 'Smell 10 famous perfumes.',
+      threshold: 10,
+      challengeId: 'explore_iconic_perfumes',
+      iconIdentifier: 'start',
+    ),
+    Achievement(
+      id: 'perfume_twenty_five',
+      title: 'Seasoned Nose',
+      description: 'Smell 25 famous perfumes.',
+      threshold: 25,
+      challengeId: 'explore_iconic_perfumes',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'perfume_all',
+      title: 'Perfume Connoisseur',
+      description: 'Smell all 58 famous perfumes.',
+      threshold: 58,
+      challengeId: 'explore_iconic_perfumes',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
+  static const scentNoteAchievements = [
+    Achievement(
+      id: 'note_first',
+      title: 'First Note',
+      description: 'Smell your first scent note.',
+      threshold: 1,
+      challengeId: 'explore_scent_notes',
+      iconIdentifier: 'perfume',
+    ),
+    Achievement(
+      id: 'note_fifteen',
+      title: 'Note Hunter',
+      description: 'Smell 15 scent notes.',
+      threshold: 15,
+      challengeId: 'explore_scent_notes',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'note_all',
+      title: 'Master Nose',
+      description: 'Smell all 42 scent notes.',
+      threshold: 42,
+      challengeId: 'explore_scent_notes',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
+  static const attarAchievements = [
+    Achievement(
+      id: 'attar_first',
+      title: 'First Attar',
+      description: 'Try your first Indian attar.',
+      threshold: 1,
+      challengeId: 'explore_indian_attars',
+      iconIdentifier: 'perfume',
+    ),
+    Achievement(
+      id: 'attar_five',
+      title: 'Attar Lover',
+      description: 'Try 5 attars.',
+      threshold: 5,
+      challengeId: 'explore_indian_attars',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'attar_all',
+      title: 'Kannauj Connoisseur',
+      description: 'Try all 14 attars.',
+      threshold: 14,
+      challengeId: 'explore_indian_attars',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
   static const indiaStatesChallengeAchievements = [
     Achievement(
       id: 'india_states_first',
@@ -344,6 +460,10 @@ class Achievement {
       'learn_yoga_poses' => yogaChallengeAchievements,
       'try_easy_hobbies' => hobbyChallengeAchievements,
       'play_great_games' => gameChallengeAchievements,
+      'explore_scent_families' => scentFamilyAchievements,
+      'explore_iconic_perfumes' => perfumeAchievements,
+      'explore_scent_notes' => scentNoteAchievements,
+      'explore_indian_attars' => attarAchievements,
       'explore_indian_states' => indiaStatesChallengeAchievements,
       'explore_great_books' => bookAchievements,
       'all_experiences' => experienceAchievements,

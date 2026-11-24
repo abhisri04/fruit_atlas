@@ -57,7 +57,8 @@ Future<void> openDailyDiscoveryItem(
       item: discovery.location!,
     ),
     DailyDiscoveryType.hobby ||
-    DailyDiscoveryType.game => ChecklistItemDetailsPage(
+    DailyDiscoveryType.game ||
+    DailyDiscoveryType.scent => ChecklistItemDetailsPage(
       challenge: discovery.hobbyChallenge!,
       item: discovery.hobby!,
     ),

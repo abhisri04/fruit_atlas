@@ -73,6 +73,10 @@ class GamificationService {
           item.startsWith('district:') ||
           item.startsWith('hobby:') ||
           item.startsWith('game:') ||
+          item.startsWith('scent:') ||
+          item.startsWith('perfume:') ||
+          item.startsWith('note:') ||
+          item.startsWith('attar:') ||
           item.startsWith('jyotirlinga:'),
     );
     final questComplete = foodComplete && worldComplete;

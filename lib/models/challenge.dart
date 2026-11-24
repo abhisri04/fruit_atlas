@@ -85,6 +85,7 @@ class Challenge {
       'collecting' => 'Collecting',
       'life_experiences' => 'Life Experiences',
       'games_play' => 'Games & Play',
+      'scent' => 'Scent & Perfume',
       _ => 'Explore',
     };
   }

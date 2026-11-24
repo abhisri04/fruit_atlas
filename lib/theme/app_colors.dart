@@ -16,6 +16,7 @@ abstract final class AppColors {
     'culture_learning' => Color(0xFFAD6545),
     'life_experiences' => rose,
     'games_play' => Color(0xFF5B6CF0),
+    'scent' => Color(0xFF9C4F96),
     _ => primary,
   };
   static const background = Color(0xFFFAF9F6);

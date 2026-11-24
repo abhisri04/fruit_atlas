@@ -71,6 +71,19 @@ class DailyDiscoveryService {
     final completedGames = gameChallenge == null
         ? <String>{}
         : await ProgressService.getChallengeItemIds(gameChallenge.progressKey);
+    final scentChallenges = loadedChallenges
+        .where((challenge) => challenge.categoryId == 'scent')
+        .toList(growable: false);
+    final scentPools = [
+      for (final challenge in scentChallenges)
+        (
+          challenge: challenge,
+          items: await data.loadChallengeItems(challenge),
+          done: await ProgressService.getChallengeItemIds(
+            challenge.progressKey,
+          ),
+        ),
+    ];
     final jyotirlingas = await data.loadJyotirlingas();
     final dishCatalogue = await const IndianDishesRepository().load();
     final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
@@ -238,6 +251,22 @@ class DailyDiscoveryService {
             categoryId: gameChallenge.categoryId,
             hobby: game,
             hobbyChallenge: gameChallenge,
+          ),
+        );
+      }
+    }
+    for (final pool in scentPools) {
+      for (final scent in pool.items) {
+        if (excludeCompleted && pool.done.contains(scent.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.scent,
+            canonicalId: scent.id,
+            title: scent.name,
+            subtitle: scent.filterGroup ?? 'Scent',
+            categoryId: pool.challenge.categoryId,
+            hobby: scent,
+            hobbyChallenge: pool.challenge,
           ),
         );
       }

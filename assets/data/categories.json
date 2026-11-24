@@ -39,6 +39,11 @@
       "id": "games_play",
       "name": "Games & Play",
       "description": "Card, board, outdoor and party games worth playing."
+    },
+    {
+      "id": "scent",
+      "name": "Scent & Perfume",
+      "description": "Scent families, famous perfumes, notes and Indian attars to smell and collect."
     }
   ]
 }

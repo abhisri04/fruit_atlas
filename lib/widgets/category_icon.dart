@@ -9,5 +9,6 @@ IconData categoryIcon(String categoryId) => switch (categoryId) {
   'collecting' => Icons.collections_bookmark_outlined,
   'life_experiences' => Icons.auto_awesome_outlined,
   'games_play' => Icons.casino_outlined,
+  'scent' => Icons.local_florist_outlined,
   _ => Icons.grid_view_rounded,
 };

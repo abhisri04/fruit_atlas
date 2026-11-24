@@ -1,0 +1,282 @@
+{
+  "challenge_id": "explore_scent_families",
+  "version": 1,
+  "items": [
+    {
+      "id": "family_fresh",
+      "challenge_id": "explore_scent_families",
+      "name": "Get to know Fresh",
+      "category": "Fresh",
+      "filter_group": "Scent families",
+      "difficulty": "beginner",
+      "about": "Clean, sparkling and airy: citrus peel, sea breeze, crisp herbs. Famous examples include CK One · Acqua di Giò · Light Blue · 4711 Eau de Cologne · Eau Sauvage.",
+      "howToSteps": [
+        "At a perfume counter, ask to try a fresh scent, for example CK One.",
+        "Spray a paper strip and smell it now, after 10 minutes and after an hour.",
+        "Write down one word for how it makes you feel."
+      ],
+      "tags": [
+        "scent",
+        "family",
+        "fresh"
+      ],
+      "keywords": [
+        "fresh",
+        "perfume",
+        "fragrance family"
+      ],
+      "metadata": {
+        "Smells like": "Clean, sparkling and airy: citrus peel, sea breeze, crisp herbs.",
+        "Key notes": "Bergamot, lemon, sea notes, green tea, rosemary",
+        "Feels": "Bright and energising; great in heat",
+        "Famous examples": "CK One · Acqua di Giò · Light Blue · 4711 Eau de Cologne · Eau Sauvage",
+        "Indian attars": "Kewra, Ruh Khus"
+      }
+    },
+    {
+      "id": "family_floral",
+      "challenge_id": "explore_scent_families",
+      "name": "Get to know Floral",
+      "category": "Floral",
+      "filter_group": "Scent families",
+      "difficulty": "beginner",
+      "about": "Flowers: a single bloom, a whole bouquet, or rich white flowers. Famous examples include Chanel No. 5 · J'adore · Daisy · Fracas · Miss Dior.",
+      "howToSteps": [
+        "At a perfume counter, ask to try a floral scent, for example Chanel No. 5.",
+        "Spray a paper strip and smell it now, after 10 minutes and after an hour.",
+        "Write down one word for how it makes you feel."
+      ],
+      "tags": [
+        "scent",
+        "family",
+        "floral"
+      ],
+      "keywords": [
+        "floral",
+        "perfume",
+        "fragrance family"
+      ],
+      "metadata": {
+        "Smells like": "Flowers: a single bloom, a whole bouquet, or rich white flowers.",
+        "Key notes": "Rose, jasmine, tuberose, iris, orange blossom",
+        "Feels": "Romantic, soft or lush",
+        "Famous examples": "Chanel No. 5 · J'adore · Daisy · Fracas · Miss Dior",
+        "Indian attars": "Ruh Gulab, Motia, Chameli"
+      }
+    },
+    {
+      "id": "family_amber",
+      "challenge_id": "explore_scent_families",
+      "name": "Get to know Amber (Oriental)",
+      "category": "Amber (Oriental)",
+      "filter_group": "Scent families",
+      "difficulty": "beginner",
+      "about": "Warm and glowing: resins, spices and vanilla. Famous examples include Shalimar · Opium · Obsession · Spicebomb · Poison.",
+      "howToSteps": [
+        "At a perfume counter, ask to try a amber (oriental) scent, for example Shalimar.",
+        "Spray a paper strip and smell it now, after 10 minutes and after an hour.",
+        "Write down one word for how it makes you feel."
+      ],
+      "tags": [
+        "scent",
+        "family",
+        "amber"
+      ],
+      "keywords": [
+        "amber (oriental)",
+        "perfume",
+        "fragrance family"
+      ],
+      "metadata": {
+        "Smells like": "Warm and glowing: resins, spices and vanilla.",
+        "Key notes": "Vanilla, benzoin, labdanum, cinnamon, clove",
+        "Feels": "Cosy, sensual, evening-friendly",
+        "Famous examples": "Shalimar · Opium · Obsession · Spicebomb · Poison",
+        "Indian attars": "Shamama, Hina"
+      }
+    },
+    {
+      "id": "family_woody",
+      "challenge_id": "explore_scent_families",
+      "name": "Get to know Woody",
+      "category": "Woody",
+      "filter_group": "Scent families",
+      "difficulty": "beginner",
+      "about": "Woods and roots: creamy sandalwood, dry cedar, earthy vetiver. Famous examples include Terre d'Hermès · Santal 33 · Bleu de Chanel · Tam Dao · Vetiver.",
+      "howToSteps": [
+        "At a perfume counter, ask to try a woody scent, for example Terre d'Hermès.",
+        "Spray a paper strip and smell it now, after 10 minutes and after an hour.",
+        "Write down one word for how it makes you feel."
+      ],
+      "tags": [
+        "scent",
+        "family",
+        "woody"
+      ],
+      "keywords": [
+        "woody",
+        "perfume",
+        "fragrance family"
+      ],
+      "metadata": {
+        "Smells like": "Woods and roots: creamy sandalwood, dry cedar, earthy vetiver.",
+        "Key notes": "Sandalwood, cedar, vetiver, patchouli",
+        "Feels": "Calm, grounded, quietly confident",
+        "Famous examples": "Terre d'Hermès · Santal 33 · Bleu de Chanel · Tam Dao · Vetiver",
+        "Indian attars": "Chandan, Ruh Khus"
+      }
+    },
+    {
+      "id": "family_chypre",
+      "challenge_id": "explore_scent_families",
+      "name": "Get to know Chypre",
+      "category": "Chypre",
+      "filter_group": "Scent families",
+      "difficulty": "beginner",
+      "about": "A classic accord: bright citrus over a mossy, woody base. Famous examples include Mitsouko · Aromatics Elixir · Coco Mademoiselle · Aventus · Femme.",
+      "howToSteps": [
+        "At a perfume counter, ask to try a chypre scent, for example Mitsouko.",
+        "Spray a paper strip and smell it now, after 10 minutes and after an hour.",
+        "Write down one word for how it makes you feel."
+      ],
+      "tags": [
+        "scent",
+        "family",
+        "chypre"
+      ],
+      "keywords": [
+        "chypre",
+        "perfume",
+        "fragrance family"
+      ],
+      "metadata": {
+        "Smells like": "A classic accord: bright citrus over a mossy, woody base.",
+        "Key notes": "Bergamot, oakmoss, labdanum, patchouli",
+        "Feels": "Elegant, polished, a little vintage",
+        "Famous examples": "Mitsouko · Aromatics Elixir · Coco Mademoiselle · Aventus · Femme"
+      }
+    },
+    {
+      "id": "family_fougere",
+      "challenge_id": "explore_scent_families",
+      "name": "Get to know Fougère",
+      "category": "Fougère",
+      "filter_group": "Scent families",
+      "difficulty": "beginner",
+      "about": "The barbershop classic: lavender, herbs and soft moss. Famous examples include Fougère Royale · Cool Water · Azzaro Pour Homme · Sauvage · Drakkar Noir.",
+      "howToSteps": [
+        "At a perfume counter, ask to try a fougère scent, for example Fougère Royale.",
+        "Spray a paper strip and smell it now, after 10 minutes and after an hour.",
+        "Write down one word for how it makes you feel."
+      ],
+      "tags": [
+        "scent",
+        "family",
+        "fougere"
+      ],
+      "keywords": [
+        "fougère",
+        "perfume",
+        "fragrance family"
+      ],
+      "metadata": {
+        "Smells like": "The barbershop classic: lavender, herbs and soft moss.",
+        "Key notes": "Lavender, geranium, oakmoss, coumarin",
+        "Feels": "Fresh-clean and familiar",
+        "Famous examples": "Fougère Royale · Cool Water · Azzaro Pour Homme · Sauvage · Drakkar Noir"
+      }
+    },
+    {
+      "id": "family_gourmand",
+      "challenge_id": "explore_scent_families",
+      "name": "Get to know Gourmand",
+      "category": "Gourmand",
+      "filter_group": "Scent families",
+      "difficulty": "beginner",
+      "about": "Good enough to eat: dessert-like and sweet. Famous examples include Angel · La Vie Est Belle · Black Opium · Flowerbomb · Candy.",
+      "howToSteps": [
+        "At a perfume counter, ask to try a gourmand scent, for example Angel.",
+        "Spray a paper strip and smell it now, after 10 minutes and after an hour.",
+        "Write down one word for how it makes you feel."
+      ],
+      "tags": [
+        "scent",
+        "family",
+        "gourmand"
+      ],
+      "keywords": [
+        "gourmand",
+        "perfume",
+        "fragrance family"
+      ],
+      "metadata": {
+        "Smells like": "Good enough to eat: dessert-like and sweet.",
+        "Key notes": "Vanilla, caramel, praline, chocolate, coffee",
+        "Feels": "Playful, comforting, sweet",
+        "Famous examples": "Angel · La Vie Est Belle · Black Opium · Flowerbomb · Candy",
+        "Indian attars": "Kesar"
+      }
+    },
+    {
+      "id": "family_leather",
+      "challenge_id": "explore_scent_families",
+      "name": "Get to know Leather & Smoke",
+      "category": "Leather & Smoke",
+      "filter_group": "Scent families",
+      "difficulty": "beginner",
+      "about": "Smoky, leathery and dark, like old books and campfires. Famous examples include Cuir de Russie · Tuscan Leather · Bandit · Fahrenheit · Knize Ten.",
+      "howToSteps": [
+        "At a perfume counter, ask to try a leather & smoke scent, for example Cuir de Russie.",
+        "Spray a paper strip and smell it now, after 10 minutes and after an hour.",
+        "Write down one word for how it makes you feel."
+      ],
+      "tags": [
+        "scent",
+        "family",
+        "leather"
+      ],
+      "keywords": [
+        "leather & smoke",
+        "perfume",
+        "fragrance family"
+      ],
+      "metadata": {
+        "Smells like": "Smoky, leathery and dark, like old books and campfires.",
+        "Key notes": "Leather, birch tar, smoke, tobacco",
+        "Feels": "Bold, moody, unusual",
+        "Famous examples": "Cuir de Russie · Tuscan Leather · Bandit · Fahrenheit · Knize Ten"
+      }
+    },
+    {
+      "id": "family_oud",
+      "challenge_id": "explore_scent_families",
+      "name": "Get to know Oud & Attar",
+      "category": "Oud & Attar",
+      "filter_group": "Scent families",
+      "difficulty": "beginner",
+      "about": "Rich, resinous traditions of India and the Middle East. Famous examples include Oud Wood · Oud Satin Mood.",
+      "howToSteps": [
+        "At a perfume counter, ask to try a oud & attar scent, for example Oud Wood.",
+        "Spray a paper strip and smell it now, after 10 minutes and after an hour.",
+        "Write down one word for how it makes you feel."
+      ],
+      "tags": [
+        "scent",
+        "family",
+        "oud"
+      ],
+      "keywords": [
+        "oud & attar",
+        "perfume",
+        "fragrance family"
+      ],
+      "metadata": {
+        "Smells like": "Rich, resinous traditions of India and the Middle East.",
+        "Key notes": "Oud (agarwood), rose, saffron, sandalwood",
+        "Feels": "Deep, long-lasting, ceremonial",
+        "Famous examples": "Oud Wood · Oud Satin Mood",
+        "Indian attars": "Oud, Shamama, Ruh Gulab, Mitti"
+      }
+    }
+  ]
+}

@@ -12,5 +12,8 @@ IconData challengeIcon(String identifier) => switch (identifier) {
   'perfume' => Icons.local_florist_outlined,
   'hobby' => Icons.palette_outlined,
   'game' => Icons.casino_outlined,
+  'scent_family' => Icons.donut_large_outlined,
+  'scent_note' => Icons.spa_outlined,
+  'attar' => Icons.water_drop_outlined,
   _ => Icons.emoji_events_outlined,
 };

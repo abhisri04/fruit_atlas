@@ -34,6 +34,7 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.book => Icons.menu_book_outlined,
     DailyDiscoveryType.hobby => Icons.palette_outlined,
     DailyDiscoveryType.game => Icons.casino_outlined,
+    DailyDiscoveryType.scent => Icons.local_florist_outlined,
     null => Icons.auto_awesome_outlined,
   };
 
@@ -41,6 +42,10 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.book => 'Read ${discovery!.title}',
     // Hobby titles are already actions, e.g. "Fold a paper crane".
     DailyDiscoveryType.hobby || DailyDiscoveryType.game => discovery!.title,
+    DailyDiscoveryType.scent =>
+      discovery!.title.startsWith(RegExp('(Smell|Try|Get to know) '))
+          ? discovery!.title
+          : 'Smell ${discovery!.title}',
     _ => 'Try ${discovery!.title}',
   };
 
@@ -59,6 +64,7 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.book => 'Open a new chapter in your reading journey.',
     DailyDiscoveryType.hobby => 'A hobby you can start today.',
     DailyDiscoveryType.game => 'A game worth playing. Gather some friends!',
+    DailyDiscoveryType.scent => 'A scent worth getting to know.',
   };
 
   String get compactMetadata => switch (discovery!.type) {
@@ -82,6 +88,10 @@ class DailyDiscoveryCard extends StatelessWidget {
       'Game',
       discovery!.hobby?.filterGroup,
     ].whereType<String>().join(' · '),
+    DailyDiscoveryType.scent => [
+      'Scent',
+      discovery!.hobby?.filterGroup,
+    ].whereType<String>().join(' · '),
   };
 
   String get primaryAction => switch (discovery!.type) {
@@ -95,6 +105,7 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.book => 'Explore this book →',
     DailyDiscoveryType.hobby => 'Try this hobby →',
     DailyDiscoveryType.game => 'Play this game →',
+    DailyDiscoveryType.scent => 'Explore this scent →',
   };
 
   String _yogaSupportingCopy() {

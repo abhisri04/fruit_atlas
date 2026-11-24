@@ -1164,6 +1164,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                                   : switch (widget.challenge.progressVerb) {
                                       'tried' => 'Tried',
                                       'played' => 'Played',
+                                      'smelled' => 'Smelled',
                                       _ => 'Explored',
                                     }
                             : widget.challenge.itemType ==
@@ -1185,7 +1186,9 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                 ],
                 const SizedBox(height: 28),
                 Text(
-                  'About ${widget.item.name}',
+                  // Action-style names ("Fold a paper crane", "Get to know
+                  // Chypre") read better as "About Origami", "About Chypre".
+                  'About ${const {'hobby', 'game', 'scent_family', 'scent_note', 'attar'}.contains(widget.challenge.itemType) ? widget.item.category ?? widget.item.name : widget.item.name}',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
                 const SizedBox(height: 10),

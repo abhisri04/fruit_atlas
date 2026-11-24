@@ -1,0 +1,1688 @@
+{
+  "challenge_id": "explore_iconic_perfumes",
+  "version": 1,
+  "items": [
+    {
+      "id": "perfume_calvin_klein_ck_one",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "CK One",
+      "category": "Calvin Klein",
+      "filter_group": "Fresh",
+      "difficulty": "beginner",
+      "about": "A clean, citrusy scent famous for being made to share by anyone.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out bergamot."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fresh"
+      ],
+      "keywords": [
+        "ck one",
+        "calvin klein",
+        "fresh"
+      ],
+      "metadata": {
+        "Family": "Fresh",
+        "Key notes": "Bergamot, green tea, musk",
+        "Made by": "Calvin Klein"
+      }
+    },
+    {
+      "id": "perfume_giorgio_armani_acqua_di_giò",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Acqua di Giò",
+      "category": "Giorgio Armani",
+      "filter_group": "Fresh",
+      "difficulty": "beginner",
+      "about": "The scent of the Mediterranean: salty air and sunny citrus.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out sea notes."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fresh"
+      ],
+      "keywords": [
+        "acqua di giò",
+        "giorgio armani",
+        "fresh"
+      ],
+      "metadata": {
+        "Family": "Fresh",
+        "Key notes": "Sea notes, citrus, jasmine",
+        "Made by": "Giorgio Armani"
+      }
+    },
+    {
+      "id": "perfume_dolce__gabbana_light_blue",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Light Blue",
+      "category": "Dolce & Gabbana",
+      "filter_group": "Fresh",
+      "difficulty": "beginner",
+      "about": "A crisp, sunny summer classic.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out sicilian lemon."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fresh"
+      ],
+      "keywords": [
+        "light blue",
+        "dolce & gabbana",
+        "fresh"
+      ],
+      "metadata": {
+        "Family": "Fresh",
+        "Key notes": "Sicilian lemon, apple, cedar",
+        "Made by": "Dolce & Gabbana"
+      }
+    },
+    {
+      "id": "perfume_4711_4711_eau_de_cologne",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "4711 Eau de Cologne",
+      "category": "4711",
+      "filter_group": "Fresh",
+      "difficulty": "beginner",
+      "about": "One of the oldest colognes still made, light and refreshing.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out lemon."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fresh"
+      ],
+      "keywords": [
+        "4711 eau de cologne",
+        "4711",
+        "fresh"
+      ],
+      "metadata": {
+        "Family": "Fresh",
+        "Key notes": "Lemon, bergamot, neroli",
+        "Made by": "4711"
+      }
+    },
+    {
+      "id": "perfume_dior_eau_sauvage",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Eau Sauvage",
+      "category": "Dior",
+      "filter_group": "Fresh",
+      "difficulty": "beginner",
+      "about": "A breezy citrus-herb classic.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out lemon."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fresh"
+      ],
+      "keywords": [
+        "eau sauvage",
+        "dior",
+        "fresh"
+      ],
+      "metadata": {
+        "Family": "Fresh",
+        "Key notes": "Lemon, basil, vetiver",
+        "Made by": "Dior"
+      }
+    },
+    {
+      "id": "perfume_issey_miyake_l_eau_d_issey",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "L'Eau d'Issey",
+      "category": "Issey Miyake",
+      "filter_group": "Fresh",
+      "difficulty": "beginner",
+      "about": "A pioneer of airy, watery floral freshness.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out watery notes."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fresh"
+      ],
+      "keywords": [
+        "l'eau d'issey",
+        "issey miyake",
+        "fresh"
+      ],
+      "metadata": {
+        "Family": "Fresh",
+        "Key notes": "Watery notes, lotus, melon",
+        "Made by": "Issey Miyake"
+      }
+    },
+    {
+      "id": "perfume_tom_ford_neroli_portofino",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Neroli Portofino",
+      "category": "Tom Ford",
+      "filter_group": "Fresh",
+      "difficulty": "beginner",
+      "about": "Bright orange blossom and citrus, like a seaside holiday.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out neroli."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fresh"
+      ],
+      "keywords": [
+        "neroli portofino",
+        "tom ford",
+        "fresh"
+      ],
+      "metadata": {
+        "Family": "Fresh",
+        "Key notes": "Neroli, bergamot, lemon",
+        "Made by": "Tom Ford"
+      }
+    },
+    {
+      "id": "perfume_jo_malone_london_wood_sage__sea_salt",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Wood Sage & Sea Salt",
+      "category": "Jo Malone London",
+      "filter_group": "Fresh",
+      "difficulty": "beginner",
+      "about": "A windswept, mineral, beachy freshness.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out sea salt."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fresh"
+      ],
+      "keywords": [
+        "wood sage & sea salt",
+        "jo malone london",
+        "fresh"
+      ],
+      "metadata": {
+        "Family": "Fresh",
+        "Key notes": "Sea salt, sage, ambrette",
+        "Made by": "Jo Malone London"
+      }
+    },
+    {
+      "id": "perfume_chanel_chanel_no_5",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Chanel No. 5",
+      "category": "Chanel",
+      "filter_group": "Floral",
+      "difficulty": "beginner",
+      "about": "Perhaps the most famous perfume ever: a sparkling floral bouquet.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out aldehydes."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "floral"
+      ],
+      "keywords": [
+        "chanel no. 5",
+        "chanel",
+        "floral"
+      ],
+      "metadata": {
+        "Family": "Floral",
+        "Key notes": "Aldehydes, jasmine, rose",
+        "Made by": "Chanel"
+      }
+    },
+    {
+      "id": "perfume_dior_j_adore",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "J'adore",
+      "category": "Dior",
+      "filter_group": "Floral",
+      "difficulty": "beginner",
+      "about": "A golden, luminous bouquet of flowers.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out ylang-ylang."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "floral"
+      ],
+      "keywords": [
+        "j'adore",
+        "dior",
+        "floral"
+      ],
+      "metadata": {
+        "Family": "Floral",
+        "Key notes": "Ylang-ylang, rose, jasmine",
+        "Made by": "Dior"
+      }
+    },
+    {
+      "id": "perfume_marc_jacobs_daisy",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Daisy",
+      "category": "Marc Jacobs",
+      "filter_group": "Floral",
+      "difficulty": "beginner",
+      "about": "Light, fresh and cheerful.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out strawberry."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "floral"
+      ],
+      "keywords": [
+        "daisy",
+        "marc jacobs",
+        "floral"
+      ],
+      "metadata": {
+        "Family": "Floral",
+        "Key notes": "Strawberry, violet, jasmine",
+        "Made by": "Marc Jacobs"
+      }
+    },
+    {
+      "id": "perfume_robert_piguet_fracas",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Fracas",
+      "category": "Robert Piguet",
+      "filter_group": "Floral",
+      "difficulty": "beginner",
+      "about": "The classic rich white-flower tuberose perfume.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out tuberose."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "floral"
+      ],
+      "keywords": [
+        "fracas",
+        "robert piguet",
+        "floral"
+      ],
+      "metadata": {
+        "Family": "Floral",
+        "Key notes": "Tuberose, orange blossom, jasmine",
+        "Made by": "Robert Piguet"
+      }
+    },
+    {
+      "id": "perfume_dior_miss_dior",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Miss Dior",
+      "category": "Dior",
+      "filter_group": "Floral",
+      "difficulty": "beginner",
+      "about": "A soft, romantic rose.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out rose."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "floral"
+      ],
+      "keywords": [
+        "miss dior",
+        "dior",
+        "floral"
+      ],
+      "metadata": {
+        "Family": "Floral",
+        "Key notes": "Rose, peony, musk",
+        "Made by": "Dior"
+      }
+    },
+    {
+      "id": "perfume_jo_malone_london_english_pear__freesia",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "English Pear & Freesia",
+      "category": "Jo Malone London",
+      "filter_group": "Floral",
+      "difficulty": "beginner",
+      "about": "Fresh-cut fruit and soft white flowers.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out pear."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "floral"
+      ],
+      "keywords": [
+        "english pear & freesia",
+        "jo malone london",
+        "floral"
+      ],
+      "metadata": {
+        "Family": "Floral",
+        "Key notes": "Pear, freesia, patchouli",
+        "Made by": "Jo Malone London"
+      }
+    },
+    {
+      "id": "perfume_diptyque_do_son",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Do Son",
+      "category": "Diptyque",
+      "filter_group": "Floral",
+      "difficulty": "beginner",
+      "about": "A lighter, airy take on tuberose by the sea.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out tuberose."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "floral"
+      ],
+      "keywords": [
+        "do son",
+        "diptyque",
+        "floral"
+      ],
+      "metadata": {
+        "Family": "Floral",
+        "Key notes": "Tuberose, orange blossom, rose",
+        "Made by": "Diptyque"
+      }
+    },
+    {
+      "id": "perfume_hermès_un_jardin_sur_le_nil",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Un Jardin sur le Nil",
+      "category": "Hermès",
+      "filter_group": "Floral",
+      "difficulty": "beginner",
+      "about": "A green, watery garden with a fruity twist.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out green mango."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "floral"
+      ],
+      "keywords": [
+        "un jardin sur le nil",
+        "hermès",
+        "floral"
+      ],
+      "metadata": {
+        "Family": "Floral",
+        "Key notes": "Green mango, lotus, grapefruit",
+        "Made by": "Hermès"
+      }
+    },
+    {
+      "id": "perfume_prada_infusion_d_iris",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Infusion d'Iris",
+      "category": "Prada",
+      "filter_group": "Floral",
+      "difficulty": "beginner",
+      "about": "Clean, powdery iris: soft and elegant.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out iris."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "floral"
+      ],
+      "keywords": [
+        "infusion d'iris",
+        "prada",
+        "floral"
+      ],
+      "metadata": {
+        "Family": "Floral",
+        "Key notes": "Iris, orange blossom, cedar",
+        "Made by": "Prada"
+      }
+    },
+    {
+      "id": "perfume_guerlain_shalimar",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Shalimar",
+      "category": "Guerlain",
+      "filter_group": "Amber (Oriental)",
+      "difficulty": "beginner",
+      "about": "A legendary amber: citrus melting into vanilla and resins.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out bergamot."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "amber"
+      ],
+      "keywords": [
+        "shalimar",
+        "guerlain",
+        "amber (oriental)"
+      ],
+      "metadata": {
+        "Family": "Amber (Oriental)",
+        "Key notes": "Bergamot, iris, vanilla",
+        "Made by": "Guerlain"
+      }
+    },
+    {
+      "id": "perfume_yves_saint_laurent_opium",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Opium",
+      "category": "Yves Saint Laurent",
+      "filter_group": "Amber (Oriental)",
+      "difficulty": "beginner",
+      "about": "A bold, spicy, resinous amber.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out spices."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "amber"
+      ],
+      "keywords": [
+        "opium",
+        "yves saint laurent",
+        "amber (oriental)"
+      ],
+      "metadata": {
+        "Family": "Amber (Oriental)",
+        "Key notes": "Spices, myrrh, vanilla",
+        "Made by": "Yves Saint Laurent"
+      }
+    },
+    {
+      "id": "perfume_calvin_klein_obsession",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Obsession",
+      "category": "Calvin Klein",
+      "filter_group": "Amber (Oriental)",
+      "difficulty": "beginner",
+      "about": "A warm, spicy amber classic.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out spices."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "amber"
+      ],
+      "keywords": [
+        "obsession",
+        "calvin klein",
+        "amber (oriental)"
+      ],
+      "metadata": {
+        "Family": "Amber (Oriental)",
+        "Key notes": "Spices, amber, vanilla",
+        "Made by": "Calvin Klein"
+      }
+    },
+    {
+      "id": "perfume_viktor_rolf_spicebomb",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Spicebomb",
+      "category": "Viktor&Rolf",
+      "filter_group": "Amber (Oriental)",
+      "difficulty": "beginner",
+      "about": "Warm spices packed into a grenade-shaped bottle.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out chilli."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "amber"
+      ],
+      "keywords": [
+        "spicebomb",
+        "viktor&rolf",
+        "amber (oriental)"
+      ],
+      "metadata": {
+        "Family": "Amber (Oriental)",
+        "Key notes": "Chilli, cinnamon, tobacco",
+        "Made by": "Viktor&Rolf"
+      }
+    },
+    {
+      "id": "perfume_dior_poison",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Poison",
+      "category": "Dior",
+      "filter_group": "Amber (Oriental)",
+      "difficulty": "beginner",
+      "about": "A dramatic, fruity, spicy amber.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out plum."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "amber"
+      ],
+      "keywords": [
+        "poison",
+        "dior",
+        "amber (oriental)"
+      ],
+      "metadata": {
+        "Family": "Amber (Oriental)",
+        "Key notes": "Plum, tuberose, amber",
+        "Made by": "Dior"
+      }
+    },
+    {
+      "id": "perfume_tom_ford_tobacco_vanille",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Tobacco Vanille",
+      "category": "Tom Ford",
+      "filter_group": "Amber (Oriental)",
+      "difficulty": "beginner",
+      "about": "Sweet tobacco and vanilla, like a cosy library.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out tobacco leaf."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "amber"
+      ],
+      "keywords": [
+        "tobacco vanille",
+        "tom ford",
+        "amber (oriental)"
+      ],
+      "metadata": {
+        "Family": "Amber (Oriental)",
+        "Key notes": "Tobacco leaf, vanilla, tonka",
+        "Made by": "Tom Ford"
+      }
+    },
+    {
+      "id": "perfume_guerlain_habit_rouge",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Habit Rouge",
+      "category": "Guerlain",
+      "filter_group": "Amber (Oriental)",
+      "difficulty": "beginner",
+      "about": "A refined, powdery amber with a citrus opening.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out citrus."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "amber"
+      ],
+      "keywords": [
+        "habit rouge",
+        "guerlain",
+        "amber (oriental)"
+      ],
+      "metadata": {
+        "Family": "Amber (Oriental)",
+        "Key notes": "Citrus, rose, vanilla",
+        "Made by": "Guerlain"
+      }
+    },
+    {
+      "id": "perfume_maison_francis_kurkdjian_baccarat_rouge_540",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Baccarat Rouge 540",
+      "category": "Maison Francis Kurkdjian",
+      "filter_group": "Amber (Oriental)",
+      "difficulty": "beginner",
+      "about": "An airy, glowing amber-woody scent that's become a modern icon.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out saffron."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "amber"
+      ],
+      "keywords": [
+        "baccarat rouge 540",
+        "maison francis kurkdjian",
+        "amber (oriental)"
+      ],
+      "metadata": {
+        "Family": "Amber (Oriental)",
+        "Key notes": "Saffron, ambergris notes, cedar",
+        "Made by": "Maison Francis Kurkdjian"
+      }
+    },
+    {
+      "id": "perfume_hermès_terre_d_hermès",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Terre d'Hermès",
+      "category": "Hermès",
+      "filter_group": "Woody",
+      "difficulty": "beginner",
+      "about": "Earthy citrus and woods, like warm soil and stone.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out orange."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "woody"
+      ],
+      "keywords": [
+        "terre d'hermès",
+        "hermès",
+        "woody"
+      ],
+      "metadata": {
+        "Family": "Woody",
+        "Key notes": "Orange, flint, vetiver",
+        "Made by": "Hermès"
+      }
+    },
+    {
+      "id": "perfume_le_labo_santal_33",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Santal 33",
+      "category": "Le Labo",
+      "filter_group": "Woody",
+      "difficulty": "beginner",
+      "about": "Creamy sandalwood with a leathery edge.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out sandalwood."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "woody"
+      ],
+      "keywords": [
+        "santal 33",
+        "le labo",
+        "woody"
+      ],
+      "metadata": {
+        "Family": "Woody",
+        "Key notes": "Sandalwood, cardamom, leather",
+        "Made by": "Le Labo"
+      }
+    },
+    {
+      "id": "perfume_chanel_bleu_de_chanel",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Bleu de Chanel",
+      "category": "Chanel",
+      "filter_group": "Woody",
+      "difficulty": "beginner",
+      "about": "Fresh citrus over smooth, smoky woods.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out grapefruit."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "woody"
+      ],
+      "keywords": [
+        "bleu de chanel",
+        "chanel",
+        "woody"
+      ],
+      "metadata": {
+        "Family": "Woody",
+        "Key notes": "Grapefruit, incense, cedar",
+        "Made by": "Chanel"
+      }
+    },
+    {
+      "id": "perfume_diptyque_tam_dao",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Tam Dao",
+      "category": "Diptyque",
+      "filter_group": "Woody",
+      "difficulty": "beginner",
+      "about": "A quiet, creamy sandalwood.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out sandalwood."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "woody"
+      ],
+      "keywords": [
+        "tam dao",
+        "diptyque",
+        "woody"
+      ],
+      "metadata": {
+        "Family": "Woody",
+        "Key notes": "Sandalwood, cypress, cedar",
+        "Made by": "Diptyque"
+      }
+    },
+    {
+      "id": "perfume_guerlain_vetiver",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Vetiver",
+      "category": "Guerlain",
+      "filter_group": "Woody",
+      "difficulty": "beginner",
+      "about": "A classic study of earthy vetiver root.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out vetiver."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "woody"
+      ],
+      "keywords": [
+        "vetiver",
+        "guerlain",
+        "woody"
+      ],
+      "metadata": {
+        "Family": "Woody",
+        "Key notes": "Vetiver, tobacco, citrus",
+        "Made by": "Guerlain"
+      }
+    },
+    {
+      "id": "perfume_lalique_encre_noire",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Encre Noire",
+      "category": "Lalique",
+      "filter_group": "Woody",
+      "difficulty": "beginner",
+      "about": "Dark, inky vetiver.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out vetiver."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "woody"
+      ],
+      "keywords": [
+        "encre noire",
+        "lalique",
+        "woody"
+      ],
+      "metadata": {
+        "Family": "Woody",
+        "Key notes": "Vetiver, cypress, musk",
+        "Made by": "Lalique"
+      }
+    },
+    {
+      "id": "perfume_escentric_molecules_molecule_01",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Molecule 01",
+      "category": "Escentric Molecules",
+      "filter_group": "Woody",
+      "difficulty": "beginner",
+      "about": "A single woody aroma molecule that smells different on everyone.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out iso e super."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "woody"
+      ],
+      "keywords": [
+        "molecule 01",
+        "escentric molecules",
+        "woody"
+      ],
+      "metadata": {
+        "Family": "Woody",
+        "Key notes": "Iso E Super",
+        "Made by": "Escentric Molecules"
+      }
+    },
+    {
+      "id": "perfume_diptyque_philosykos",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Philosykos",
+      "category": "Diptyque",
+      "filter_group": "Woody",
+      "difficulty": "beginner",
+      "about": "Green fig leaves and creamy fig wood.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out fig leaf."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "woody"
+      ],
+      "keywords": [
+        "philosykos",
+        "diptyque",
+        "woody"
+      ],
+      "metadata": {
+        "Family": "Woody",
+        "Key notes": "Fig leaf, fig wood, coconut",
+        "Made by": "Diptyque"
+      }
+    },
+    {
+      "id": "perfume_dior_dior_homme",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Dior Homme",
+      "category": "Dior",
+      "filter_group": "Woody",
+      "difficulty": "beginner",
+      "about": "Soft, powdery iris over woods.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out iris."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "woody"
+      ],
+      "keywords": [
+        "dior homme",
+        "dior",
+        "woody"
+      ],
+      "metadata": {
+        "Family": "Woody",
+        "Key notes": "Iris, cacao, vetiver",
+        "Made by": "Dior"
+      }
+    },
+    {
+      "id": "perfume_guerlain_mitsouko",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Mitsouko",
+      "category": "Guerlain",
+      "filter_group": "Chypre",
+      "difficulty": "beginner",
+      "about": "One of the great classic chypres: peachy, mossy and mysterious.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out peach."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "chypre"
+      ],
+      "keywords": [
+        "mitsouko",
+        "guerlain",
+        "chypre"
+      ],
+      "metadata": {
+        "Family": "Chypre",
+        "Key notes": "Peach, oakmoss, spices",
+        "Made by": "Guerlain"
+      }
+    },
+    {
+      "id": "perfume_clinique_aromatics_elixir",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Aromatics Elixir",
+      "category": "Clinique",
+      "filter_group": "Chypre",
+      "difficulty": "beginner",
+      "about": "An intense, herbal, mossy chypre.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out herbs."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "chypre"
+      ],
+      "keywords": [
+        "aromatics elixir",
+        "clinique",
+        "chypre"
+      ],
+      "metadata": {
+        "Family": "Chypre",
+        "Key notes": "Herbs, rose, patchouli",
+        "Made by": "Clinique"
+      }
+    },
+    {
+      "id": "perfume_chanel_coco_mademoiselle",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Coco Mademoiselle",
+      "category": "Chanel",
+      "filter_group": "Chypre",
+      "difficulty": "beginner",
+      "about": "A modern, fresh floral chypre.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out orange."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "chypre"
+      ],
+      "keywords": [
+        "coco mademoiselle",
+        "chanel",
+        "chypre"
+      ],
+      "metadata": {
+        "Family": "Chypre",
+        "Key notes": "Orange, rose, patchouli",
+        "Made by": "Chanel"
+      }
+    },
+    {
+      "id": "perfume_creed_aventus",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Aventus",
+      "category": "Creed",
+      "filter_group": "Chypre",
+      "difficulty": "beginner",
+      "about": "A fruity, smoky modern chypre.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out pineapple."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "chypre"
+      ],
+      "keywords": [
+        "aventus",
+        "creed",
+        "chypre"
+      ],
+      "metadata": {
+        "Family": "Chypre",
+        "Key notes": "Pineapple, birch, musk",
+        "Made by": "Creed"
+      }
+    },
+    {
+      "id": "perfume_rochas_femme",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Femme",
+      "category": "Rochas",
+      "filter_group": "Chypre",
+      "difficulty": "beginner",
+      "about": "A rich, fruity vintage chypre.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out plum."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "chypre"
+      ],
+      "keywords": [
+        "femme",
+        "rochas",
+        "chypre"
+      ],
+      "metadata": {
+        "Family": "Chypre",
+        "Key notes": "Plum, spices, oakmoss",
+        "Made by": "Rochas"
+      }
+    },
+    {
+      "id": "perfume_chanel_pour_monsieur",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Pour Monsieur",
+      "category": "Chanel",
+      "filter_group": "Chypre",
+      "difficulty": "beginner",
+      "about": "A crisp, understated citrus chypre.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out lemon."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "chypre"
+      ],
+      "keywords": [
+        "pour monsieur",
+        "chanel",
+        "chypre"
+      ],
+      "metadata": {
+        "Family": "Chypre",
+        "Key notes": "Lemon, neroli, oakmoss",
+        "Made by": "Chanel"
+      }
+    },
+    {
+      "id": "perfume_houbigant_fougère_royale",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Fougère Royale",
+      "category": "Houbigant",
+      "filter_group": "Fougère",
+      "difficulty": "beginner",
+      "about": "The perfume that gave the fougère family its name.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out lavender."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fougere"
+      ],
+      "keywords": [
+        "fougère royale",
+        "houbigant",
+        "fougère"
+      ],
+      "metadata": {
+        "Family": "Fougère",
+        "Key notes": "Lavender, coumarin, oakmoss",
+        "Made by": "Houbigant"
+      }
+    },
+    {
+      "id": "perfume_davidoff_cool_water",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Cool Water",
+      "category": "Davidoff",
+      "filter_group": "Fougère",
+      "difficulty": "beginner",
+      "about": "A fresh aquatic fougère that defined an era.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out mint."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fougere"
+      ],
+      "keywords": [
+        "cool water",
+        "davidoff",
+        "fougère"
+      ],
+      "metadata": {
+        "Family": "Fougère",
+        "Key notes": "Mint, lavender, sea notes",
+        "Made by": "Davidoff"
+      }
+    },
+    {
+      "id": "perfume_azzaro_azzaro_pour_homme",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Azzaro Pour Homme",
+      "category": "Azzaro",
+      "filter_group": "Fougère",
+      "difficulty": "beginner",
+      "about": "A classic aromatic barbershop fougère.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out lavender."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fougere"
+      ],
+      "keywords": [
+        "azzaro pour homme",
+        "azzaro",
+        "fougère"
+      ],
+      "metadata": {
+        "Family": "Fougère",
+        "Key notes": "Lavender, anise, oakmoss",
+        "Made by": "Azzaro"
+      }
+    },
+    {
+      "id": "perfume_dior_sauvage",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Sauvage",
+      "category": "Dior",
+      "filter_group": "Fougère",
+      "difficulty": "beginner",
+      "about": "A fresh, peppery modern fougère.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out bergamot."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fougere"
+      ],
+      "keywords": [
+        "sauvage",
+        "dior",
+        "fougère"
+      ],
+      "metadata": {
+        "Family": "Fougère",
+        "Key notes": "Bergamot, pepper, ambroxan",
+        "Made by": "Dior"
+      }
+    },
+    {
+      "id": "perfume_guy_laroche_drakkar_noir",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Drakkar Noir",
+      "category": "Guy Laroche",
+      "filter_group": "Fougère",
+      "difficulty": "beginner",
+      "about": "A dark, herbal fougère classic.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out lavender."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fougere"
+      ],
+      "keywords": [
+        "drakkar noir",
+        "guy laroche",
+        "fougère"
+      ],
+      "metadata": {
+        "Family": "Fougère",
+        "Key notes": "Lavender, rosemary, fir",
+        "Made by": "Guy Laroche"
+      }
+    },
+    {
+      "id": "perfume_jean_paul_gaultier_le_male",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Le Male",
+      "category": "Jean Paul Gaultier",
+      "filter_group": "Fougère",
+      "difficulty": "beginner",
+      "about": "A sweet, creamy lavender fougère.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out lavender."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "fougere"
+      ],
+      "keywords": [
+        "le male",
+        "jean paul gaultier",
+        "fougère"
+      ],
+      "metadata": {
+        "Family": "Fougère",
+        "Key notes": "Lavender, mint, vanilla",
+        "Made by": "Jean Paul Gaultier"
+      }
+    },
+    {
+      "id": "perfume_mugler_angel",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Angel",
+      "category": "Mugler",
+      "filter_group": "Gourmand",
+      "difficulty": "beginner",
+      "about": "The perfume that started the gourmand family.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out praline."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "gourmand"
+      ],
+      "keywords": [
+        "angel",
+        "mugler",
+        "gourmand"
+      ],
+      "metadata": {
+        "Family": "Gourmand",
+        "Key notes": "Praline, patchouli, vanilla",
+        "Made by": "Mugler"
+      }
+    },
+    {
+      "id": "perfume_lancôme_la_vie_est_belle",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "La Vie Est Belle",
+      "category": "Lancôme",
+      "filter_group": "Gourmand",
+      "difficulty": "beginner",
+      "about": "Sweet, joyful praline and iris.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out iris."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "gourmand"
+      ],
+      "keywords": [
+        "la vie est belle",
+        "lancôme",
+        "gourmand"
+      ],
+      "metadata": {
+        "Family": "Gourmand",
+        "Key notes": "Iris, praline, vanilla",
+        "Made by": "Lancôme"
+      }
+    },
+    {
+      "id": "perfume_yves_saint_laurent_black_opium",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Black Opium",
+      "category": "Yves Saint Laurent",
+      "filter_group": "Gourmand",
+      "difficulty": "beginner",
+      "about": "Coffee and vanilla with white flowers.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out coffee."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "gourmand"
+      ],
+      "keywords": [
+        "black opium",
+        "yves saint laurent",
+        "gourmand"
+      ],
+      "metadata": {
+        "Family": "Gourmand",
+        "Key notes": "Coffee, vanilla, white flowers",
+        "Made by": "Yves Saint Laurent"
+      }
+    },
+    {
+      "id": "perfume_viktor_rolf_flowerbomb",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Flowerbomb",
+      "category": "Viktor&Rolf",
+      "filter_group": "Gourmand",
+      "difficulty": "beginner",
+      "about": "A sweet explosion of flowers.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out jasmine."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "gourmand"
+      ],
+      "keywords": [
+        "flowerbomb",
+        "viktor&rolf",
+        "gourmand"
+      ],
+      "metadata": {
+        "Family": "Gourmand",
+        "Key notes": "Jasmine, rose, patchouli",
+        "Made by": "Viktor&Rolf"
+      }
+    },
+    {
+      "id": "perfume_prada_candy",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Candy",
+      "category": "Prada",
+      "filter_group": "Gourmand",
+      "difficulty": "beginner",
+      "about": "Smooth caramel and soft resins.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out caramel."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "gourmand"
+      ],
+      "keywords": [
+        "candy",
+        "prada",
+        "gourmand"
+      ],
+      "metadata": {
+        "Family": "Gourmand",
+        "Key notes": "Caramel, benzoin, musk",
+        "Made by": "Prada"
+      }
+    },
+    {
+      "id": "perfume_chanel_cuir_de_russie",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Cuir de Russie",
+      "category": "Chanel",
+      "filter_group": "Leather & Smoke",
+      "difficulty": "beginner",
+      "about": "Elegant, smoky leather.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out birch tar."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "leather"
+      ],
+      "keywords": [
+        "cuir de russie",
+        "chanel",
+        "leather & smoke"
+      ],
+      "metadata": {
+        "Family": "Leather & Smoke",
+        "Key notes": "Birch tar, iris, leather",
+        "Made by": "Chanel"
+      }
+    },
+    {
+      "id": "perfume_tom_ford_tuscan_leather",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Tuscan Leather",
+      "category": "Tom Ford",
+      "filter_group": "Leather & Smoke",
+      "difficulty": "beginner",
+      "about": "Rich, fruity, suede-like leather.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out raspberry."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "leather"
+      ],
+      "keywords": [
+        "tuscan leather",
+        "tom ford",
+        "leather & smoke"
+      ],
+      "metadata": {
+        "Family": "Leather & Smoke",
+        "Key notes": "Raspberry, saffron, leather",
+        "Made by": "Tom Ford"
+      }
+    },
+    {
+      "id": "perfume_robert_piguet_bandit",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Bandit",
+      "category": "Robert Piguet",
+      "filter_group": "Leather & Smoke",
+      "difficulty": "beginner",
+      "about": "A bold, green, leathery classic.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out leather."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "leather"
+      ],
+      "keywords": [
+        "bandit",
+        "robert piguet",
+        "leather & smoke"
+      ],
+      "metadata": {
+        "Family": "Leather & Smoke",
+        "Key notes": "Leather, galbanum, oakmoss",
+        "Made by": "Robert Piguet"
+      }
+    },
+    {
+      "id": "perfume_dior_fahrenheit",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Fahrenheit",
+      "category": "Dior",
+      "filter_group": "Leather & Smoke",
+      "difficulty": "beginner",
+      "about": "An unusual violet-and-leather scent.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out violet leaf."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "leather"
+      ],
+      "keywords": [
+        "fahrenheit",
+        "dior",
+        "leather & smoke"
+      ],
+      "metadata": {
+        "Family": "Leather & Smoke",
+        "Key notes": "Violet leaf, leather, nutmeg",
+        "Made by": "Dior"
+      }
+    },
+    {
+      "id": "perfume_knize_knize_ten",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Knize Ten",
+      "category": "Knize",
+      "filter_group": "Leather & Smoke",
+      "difficulty": "beginner",
+      "about": "One of the classic leather fragrances.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out leather."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "leather"
+      ],
+      "keywords": [
+        "knize ten",
+        "knize",
+        "leather & smoke"
+      ],
+      "metadata": {
+        "Family": "Leather & Smoke",
+        "Key notes": "Leather, citrus, spices",
+        "Made by": "Knize"
+      }
+    },
+    {
+      "id": "perfume_tom_ford_oud_wood",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Oud Wood",
+      "category": "Tom Ford",
+      "filter_group": "Oud & Attar",
+      "difficulty": "beginner",
+      "about": "A smooth, approachable introduction to oud.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out oud."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "oud"
+      ],
+      "keywords": [
+        "oud wood",
+        "tom ford",
+        "oud & attar"
+      ],
+      "metadata": {
+        "Family": "Oud & Attar",
+        "Key notes": "Oud, sandalwood, cardamom",
+        "Made by": "Tom Ford"
+      }
+    },
+    {
+      "id": "perfume_maison_francis_kurkdjian_oud_satin_mood",
+      "challenge_id": "explore_iconic_perfumes",
+      "name": "Oud Satin Mood",
+      "category": "Maison Francis Kurkdjian",
+      "filter_group": "Oud & Attar",
+      "difficulty": "beginner",
+      "about": "Velvety oud wrapped in rose and vanilla.",
+      "howToSteps": [
+        "Find a tester at a perfume counter, or ask a friend who owns it.",
+        "Spray a paper strip first, then your wrist if you like it.",
+        "Notice how it changes: try to pick out oud."
+      ],
+      "tags": [
+        "scent",
+        "perfume",
+        "oud"
+      ],
+      "keywords": [
+        "oud satin mood",
+        "maison francis kurkdjian",
+        "oud & attar"
+      ],
+      "metadata": {
+        "Family": "Oud & Attar",
+        "Key notes": "Oud, rose, vanilla",
+        "Made by": "Maison Francis Kurkdjian"
+      }
+    }
+  ]
+}
