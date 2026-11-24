@@ -7,7 +7,7 @@
     "display": "standalone",
     "background_color": "#FAF9F6",
     "theme_color": "#0F766E",
-    "description": "Experience more. Hobbies, games, food and places to try.",
+    "description": "Experience more.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "categories": ["lifestyle", "education", "entertainment"],
