@@ -60,7 +60,7 @@
     {
       "id": "tripura_fruits",
       "title": "Fruits",
-      "description": "Fruits linked to Tripura in the Fruit Atlas.",
+      "description": "Fruits linked to Tripura in the fruit catalogue.",
       "icon": "fruit",
       "parent_section_id": "food_drink",
       "context_id": "tripura",

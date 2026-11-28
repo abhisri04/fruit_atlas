@@ -20,6 +20,9 @@ class Item {
   final Map<String, String> metadata;
   final List<SubItem> subItems;
 
+  /// Optional skill ladder, from first try to confident (hobbies).
+  final List<LadderStep> ladder;
+
   const Item({
     this.keywords = const [],
     required this.id,
@@ -41,6 +44,7 @@ class Item {
     this.researchStatus,
     this.metadata = const {},
     this.subItems = const [],
+    this.ladder = const [],
   });
 
   bool get hasSubItems => subItems.isNotEmpty;
@@ -97,6 +101,9 @@ class Item {
       subItems: rawSubItems
           .map((subItem) => SubItem.fromJson(subItem as Map<String, dynamic>))
           .toList(),
+      ladder: (json['ladder'] as List<dynamic>? ?? [])
+          .map((step) => LadderStep.fromJson(step as Map<String, dynamic>))
+          .toList(growable: false),
     );
   }
 
@@ -130,4 +137,26 @@ class SubItem {
       description: json['description'] as String?,
     );
   }
+}
+
+/// One rung of a skill ladder, e.g. level "learning" with its milestone.
+class LadderStep {
+  final String level;
+  final String milestone;
+
+  const LadderStep({required this.level, required this.milestone});
+
+  factory LadderStep.fromJson(Map<String, dynamic> json) => LadderStep(
+    level: json['level'] as String,
+    milestone: json['milestone'] as String,
+  );
+
+  String get levelLabel => switch (level) {
+    'tried' => 'Tried',
+    'learning' => 'Learning',
+    'practising' => 'Practising',
+    'confident' => 'Confident',
+    _ =>
+      level.isEmpty ? level : '${level[0].toUpperCase()}${level.substring(1)}',
+  };
 }

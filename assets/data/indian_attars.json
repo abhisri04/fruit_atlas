@@ -1,0 +1,426 @@
+{
+  "challenge_id": "explore_indian_attars",
+  "version": 1,
+  "items": [
+    {
+      "id": "attar_mitti",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Mitti attar",
+      "category": "Mitti",
+      "filter_group": "Monsoon",
+      "difficulty": "beginner",
+      "about": "The smell of the first rain on dry earth, captured from baked clay.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "mitti",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Monsoon",
+        "How it's made": "Baked clay distilled into sandalwood oil in Kannauj.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_ruh_gulab",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Ruh Gulab attar",
+      "category": "Ruh Gulab",
+      "filter_group": "All year",
+      "difficulty": "beginner",
+      "about": "Pure rose attar, linked with weddings and hospitality.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "ruh gulab",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "All year",
+        "How it's made": "Distilled from fresh damask roses.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_ruh_khus",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Ruh Khus attar",
+      "category": "Ruh Khus",
+      "filter_group": "Summer",
+      "difficulty": "beginner",
+      "about": "Green, earthy, cooling vetiver.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "ruh khus",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Summer",
+        "How it's made": "Distilled from wild vetiver roots.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_kewra",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Kewra attar",
+      "category": "Kewra",
+      "filter_group": "Summer",
+      "difficulty": "beginner",
+      "about": "Sweet, green and cool. Also used to flavour food.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "kewra",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Summer",
+        "How it's made": "From fragrant pandanus flowers.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_shamama",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Shamama attar",
+      "category": "Shamama",
+      "filter_group": "Winter",
+      "difficulty": "beginner",
+      "about": "A dense, warming blend of many herbs, spices and resins, aged for months.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "shamama",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Winter",
+        "How it's made": "Many botanicals distilled and aged together.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_motia_bela",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Motia (Bela) attar",
+      "category": "Motia (Bela)",
+      "filter_group": "Summer",
+      "difficulty": "beginner",
+      "about": "Fresh, sweet jasmine.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "motia (bela)",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Summer",
+        "How it's made": "From Arabian jasmine flowers.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_chameli",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Chameli attar",
+      "category": "Chameli",
+      "filter_group": "Summer",
+      "difficulty": "beginner",
+      "about": "Classic, sweet jasmine.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "chameli",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Summer",
+        "How it's made": "From jasmine flowers.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_kesar_zafran",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Kesar (Zafran) attar",
+      "category": "Kesar (Zafran)",
+      "filter_group": "Winter",
+      "difficulty": "beginner",
+      "about": "Warm, honeyed saffron.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "kesar (zafran)",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Winter",
+        "How it's made": "Saffron in a sandalwood base.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_hina",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Hina attar",
+      "category": "Hina",
+      "filter_group": "Winter",
+      "difficulty": "beginner",
+      "about": "Warm, earthy, spicy and slightly smoky blend.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "hina",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Winter",
+        "How it's made": "A traditional blend including henna flowers and spices.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_majmua",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Majmua attar",
+      "category": "Majmua",
+      "filter_group": "Summer",
+      "difficulty": "beginner",
+      "about": "A soft, refreshing blend.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "majmua",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Summer",
+        "How it's made": "A traditional blend that includes kewra and vetiver notes.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_chandan",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Chandan attar",
+      "category": "Chandan",
+      "filter_group": "All year",
+      "difficulty": "beginner",
+      "about": "Creamy, soothing sandalwood: the base of many attars.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "chandan",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "All year",
+        "How it's made": "Sandalwood oil.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_kadam",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Kadam attar",
+      "category": "Kadam",
+      "filter_group": "Monsoon",
+      "difficulty": "beginner",
+      "about": "Sweet, fresh monsoon flower.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "kadam",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Monsoon",
+        "How it's made": "From kadam tree flowers.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_champa",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Champa attar",
+      "category": "Champa",
+      "filter_group": "Summer",
+      "difficulty": "beginner",
+      "about": "Creamy, fruity, temple-flower scent.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "champa",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Summer",
+        "How it's made": "From champak flowers.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    },
+    {
+      "id": "attar_oud",
+      "challenge_id": "explore_indian_attars",
+      "name": "Try Oud attar",
+      "category": "Oud",
+      "filter_group": "Winter",
+      "difficulty": "beginner",
+      "about": "Deep, resinous, prized agarwood.",
+      "howToSteps": [
+        "Visit an attar shop or ask for a sample. Most let you smell first.",
+        "Dab a tiny amount on your wrist with the glass stick; attars are oil and very strong.",
+        "Smell it again after an hour. Attars change slowly on skin."
+      ],
+      "tags": [
+        "scent",
+        "attar",
+        "india"
+      ],
+      "keywords": [
+        "oud",
+        "attar",
+        "ittar",
+        "kannauj"
+      ],
+      "metadata": {
+        "Traditionally worn": "Winter",
+        "How it's made": "Oil distilled from resin-rich agarwood.",
+        "Tradition": "Kannauj, Uttar Pradesh and across India"
+      }
+    }
+  ]
+}

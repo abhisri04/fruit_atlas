@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../models/daily_discovery.dart';
 import '../theme/app_colors.dart';
-import 'fruit_image.dart';
+import 'experience_artwork.dart';
+import 'reward_animations.dart';
 
 class DailyDiscoveryCard extends StatelessWidget {
   final DailyDiscovery? discovery;
@@ -30,10 +31,29 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.indianDrink => Icons.local_cafe_outlined,
     DailyDiscoveryType.indiaLocation => Icons.map_outlined,
     DailyDiscoveryType.jyotirlinga => Icons.temple_hindu_outlined,
+    DailyDiscoveryType.book => Icons.menu_book_outlined,
+    DailyDiscoveryType.hobby => Icons.palette_outlined,
+    DailyDiscoveryType.game => Icons.casino_outlined,
+    DailyDiscoveryType.scent => Icons.local_florist_outlined,
+    DailyDiscoveryType.garden => Icons.yard_outlined,
     null => Icons.auto_awesome_outlined,
   };
 
-  String get presentationTitle => 'Try ${discovery!.title}';
+  String get presentationTitle => switch (discovery!.type) {
+    DailyDiscoveryType.book => 'Read ${discovery!.title}',
+    // Hobby titles are already actions, e.g. "Fold a paper crane".
+    DailyDiscoveryType.hobby || DailyDiscoveryType.game => discovery!.title,
+    DailyDiscoveryType.scent =>
+      discovery!.title.startsWith(RegExp('(Smell|Try|Get to know) '))
+          ? discovery!.title
+          : 'Smell ${discovery!.title}',
+    // Plants are nouns ("Tomato"); ways, skills and visits are actions.
+    DailyDiscoveryType.garden =>
+      discovery!.hobbyChallenge?.itemType == 'plant'
+          ? 'Grow ${discovery!.title}'
+          : discovery!.title,
+    _ => 'Try ${discovery!.title}',
+  };
 
   String get supportingCopy => switch (discovery!.type) {
     DailyDiscoveryType.fruit => 'Add a new fruit to your collection.',
@@ -47,6 +67,11 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.indiaLocation => 'Discover another part of India.',
     DailyDiscoveryType.jyotirlinga =>
       'Discover one of India’s twelve Jyotirlingas.',
+    DailyDiscoveryType.book => 'Open a new chapter in your reading journey.',
+    DailyDiscoveryType.hobby => 'A hobby you can start today.',
+    DailyDiscoveryType.game => 'A game worth playing. Gather some friends!',
+    DailyDiscoveryType.scent => 'A scent worth getting to know.',
+    DailyDiscoveryType.garden => 'Something green to grow, learn or visit.',
   };
 
   String get compactMetadata => switch (discovery!.type) {
@@ -61,16 +86,38 @@ class DailyDiscoveryCard extends StatelessWidget {
     DailyDiscoveryType.indianDrink => 'Indian drink',
     DailyDiscoveryType.indiaLocation => 'State or Union Territory',
     DailyDiscoveryType.jyotirlinga => 'Jyotirlinga',
+    DailyDiscoveryType.book => 'Book',
+    DailyDiscoveryType.hobby => [
+      'Hobby',
+      discovery!.hobby?.category,
+    ].whereType<String>().join(' · '),
+    DailyDiscoveryType.game => [
+      'Game',
+      discovery!.hobby?.filterGroup,
+    ].whereType<String>().join(' · '),
+    DailyDiscoveryType.scent => [
+      'Scent',
+      discovery!.hobby?.filterGroup,
+    ].whereType<String>().join(' · '),
+    DailyDiscoveryType.garden => [
+      'Garden',
+      discovery!.hobby?.filterGroup,
+    ].whereType<String>().join(' · '),
   };
 
   String get primaryAction => switch (discovery!.type) {
-    DailyDiscoveryType.fruit => 'Explore this fruit →',
-    DailyDiscoveryType.variety => 'Explore this variety →',
+    DailyDiscoveryType.fruit => 'See this fruit →',
+    DailyDiscoveryType.variety => 'See this variety →',
     DailyDiscoveryType.yogaPose => 'Try this pose →',
-    DailyDiscoveryType.indianDish => 'Explore this dish →',
-    DailyDiscoveryType.indianDrink => 'Explore this drink →',
-    DailyDiscoveryType.indiaLocation => 'Explore this place →',
-    DailyDiscoveryType.jyotirlinga => 'Explore this Jyotirlinga →',
+    DailyDiscoveryType.indianDish => 'See this dish →',
+    DailyDiscoveryType.indianDrink => 'See this drink →',
+    DailyDiscoveryType.indiaLocation => 'See this place →',
+    DailyDiscoveryType.jyotirlinga => 'See this Jyotirlinga →',
+    DailyDiscoveryType.book => 'See this book →',
+    DailyDiscoveryType.hobby => 'Try this hobby →',
+    DailyDiscoveryType.game => 'Play this game →',
+    DailyDiscoveryType.scent => 'See this scent →',
+    DailyDiscoveryType.garden => 'Start growing →',
   };
 
   String _yogaSupportingCopy() {
@@ -106,114 +153,144 @@ class DailyDiscoveryCard extends StatelessWidget {
             letterSpacing: 1.1,
           ),
         ),
+        const SizedBox(height: 5),
+        const Text(
+          'A fresh experience picked for you',
+          style: TextStyle(color: AppColors.muted, fontSize: 13),
+        ),
         const SizedBox(height: 10),
-        Card(
-          color: AppColors.accentSurface,
-          child: Padding(
-            padding: const EdgeInsets.all(16),
-            child: isLoading
-                ? const SizedBox(
-                    height: 96,
-                    child: Center(child: CircularProgressIndicator()),
-                  )
-                : discovery == null
-                ? const Row(
-                    children: [
-                      Icon(
-                        Icons.check_circle_outline,
-                        color: AppColors.primary,
-                      ),
-                      SizedBox(width: 12),
-                      Expanded(
-                        child: Text(
-                          'You have explored every Daily Discovery currently available.',
-                          style: TextStyle(fontWeight: FontWeight.w600),
-                        ),
-                      ),
-                    ],
-                  )
-                : Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        children: [
-                          if (discovery!.fruit != null)
-                            FruitImage(
-                              fruit: discovery!.fruit!,
-                              width: 42,
-                              height: 42,
-                            )
-                          else
-                            CircleAvatar(
-                              backgroundColor: AppColors.completedSurface,
-                              foregroundColor: AppColors.primary,
-                              child: Icon(icon),
-                            ),
-                          const SizedBox(width: 12),
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  presentationTitle,
-                                  style: const TextStyle(
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.w800,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 10),
-                      Text(
-                        supportingCopy,
-                        style: const TextStyle(height: 1.35),
-                      ),
-                      const SizedBox(height: 5),
-                      Text(
-                        compactMetadata,
-                        style: const TextStyle(
-                          color: AppColors.muted,
-                          fontSize: 13,
-                          fontWeight: FontWeight.w600,
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-                      SizedBox(
-                        width: double.infinity,
-                        child: FilledButton(
-                          onPressed: onDiscover,
-                          child: Text(primaryAction),
-                        ),
-                      ),
-                      Row(
-                        children: [
-                          Expanded(
-                            child: TextButton.icon(
-                              onPressed: onSave,
-                              icon: Icon(
-                                isSaved
-                                    ? Icons.bookmark
-                                    : Icons.bookmark_border,
-                              ),
-                              label: Text(
-                                isSaved ? 'Saved for later' : 'Save for later',
-                              ),
-                            ),
-                          ),
-                          Expanded(
-                            child: TextButton.icon(
-                              onPressed: onAnother,
-                              icon: const Icon(Icons.refresh),
-                              label: const Text('Another'),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ],
+        AnimatedSwitcher(
+          duration: (MediaQuery.maybeOf(context)?.disableAnimations ?? false)
+              ? Duration.zero
+              : const Duration(milliseconds: 340),
+          transitionBuilder: (child, animation) => FadeTransition(
+            opacity: animation,
+            child: SlideTransition(
+              position: Tween(begin: const Offset(.06, 0), end: Offset.zero)
+                  .animate(
+                    CurvedAnimation(parent: animation, curve: Curves.easeOut),
                   ),
+              child: child,
+            ),
+          ),
+          child: Card(
+            key: ValueKey(
+              isLoading ? 'loading' : discovery?.reference ?? 'complete',
+            ),
+            color: AppColors.accentSurface,
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: isLoading
+                  ? const SizedBox(
+                      height: 96,
+                      child: Center(
+                        child: Row(
+                          children: [
+                            Icon(Icons.auto_awesome_outlined),
+                            SizedBox(width: 10),
+                            Flexible(
+                              child: Text('Finding today\'s discoveryâ€¦'),
+                            ),
+                          ],
+                        ),
+                      ),
+                    )
+                  : discovery == null
+                  ? const Row(
+                      children: [
+                        Icon(
+                          Icons.check_circle_outline,
+                          color: AppColors.primary,
+                        ),
+                        SizedBox(width: 12),
+                        Expanded(
+                          child: Text(
+                            'You have explored every Daily Discovery currently available.',
+                            style: TextStyle(fontWeight: FontWeight.w600),
+                          ),
+                        ),
+                      ],
+                    )
+                  : Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        ExperienceArtwork(
+                          discovery: discovery,
+                          icon: icon,
+                          height: 150,
+                        ),
+                        const SizedBox(height: 14),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    presentationTitle,
+                                    style: const TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.w800,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 10),
+                        Text(
+                          supportingCopy,
+                          style: const TextStyle(height: 1.35),
+                        ),
+                        const SizedBox(height: 5),
+                        Text(
+                          compactMetadata,
+                          style: const TextStyle(
+                            color: AppColors.muted,
+                            fontSize: 13,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                        SizedBox(
+                          width: double.infinity,
+                          child: TactileScale(
+                            child: FilledButton(
+                              onPressed: onDiscover,
+                              child: Text(primaryAction),
+                            ),
+                          ),
+                        ),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: TextButton.icon(
+                                onPressed: onSave,
+                                icon: Icon(
+                                  isSaved
+                                      ? Icons.bookmark
+                                      : Icons.bookmark_border,
+                                ),
+                                label: Text(
+                                  isSaved
+                                      ? 'Saved for later'
+                                      : 'Save for later',
+                                ),
+                              ),
+                            ),
+                            Expanded(
+                              child: TextButton.icon(
+                                onPressed: onAnother,
+                                icon: const Icon(Icons.refresh),
+                                label: const Text('Surprise me'),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+            ),
           ),
         ),
       ],

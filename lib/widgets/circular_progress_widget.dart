@@ -16,10 +16,15 @@ enum ProgressSize {
 class CircularProgressWidget extends StatelessWidget {
   final double progress;
   final ProgressSize variant;
+
+  /// Optional content drawn inside the ring in place of the percentage label.
+  final Widget? center;
+
   const CircularProgressWidget({
     super.key,
     required this.progress,
     this.variant = ProgressSize.medium,
+    this.center,
   });
 
   @override
@@ -49,19 +54,22 @@ class CircularProgressWidget extends StatelessWidget {
                     color: AppColors.primary,
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(10),
-                  child: FittedBox(
-                    child: Text(
-                      '${(animated * 100).round()}%',
-                      style: TextStyle(
-                        fontSize: variant == ProgressSize.large ? 28 : 16,
-                        fontWeight: FontWeight.w800,
-                        color: AppColors.ink,
+                if (center != null)
+                  center!
+                else
+                  Padding(
+                    padding: const EdgeInsets.all(10),
+                    child: FittedBox(
+                      child: Text(
+                        '${(animated * 100).round()}%',
+                        style: TextStyle(
+                          fontSize: variant == ProgressSize.large ? 28 : 16,
+                          fontWeight: FontWeight.w800,
+                          color: AppColors.ink,
+                        ),
                       ),
                     ),
                   ),
-                ),
               ],
             ),
           ),

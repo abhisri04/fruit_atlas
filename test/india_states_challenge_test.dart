@@ -9,6 +9,7 @@ import 'package:fruit_atlas/models/challenge.dart';
 import 'package:fruit_atlas/screens/challenge/generic_checklist_challenge_page.dart';
 import 'package:fruit_atlas/screens/my_life/my_life_page.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
+import 'package:fruit_atlas/services/progress_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -56,6 +57,7 @@ void main() {
     );
     expect(Achievement.forChallenge(challenge.id).map((a) => a.threshold), [
       1,
+      5,
       10,
       18,
       25,
@@ -91,14 +93,14 @@ void main() {
     );
     await tester.pump(const Duration(seconds: 1));
 
-    expect(find.text('0 of 36 explored'), findsOneWidget);
+    expect(find.text('0 of 36 visited'), findsOneWidget);
     expect(find.text('28 States · 8 Union Territories'), findsOneWidget);
     for (final filter in [
       'All',
       'States',
       'Union Territories',
-      'Explored',
-      'To Explore',
+      'Visited',
+      'Not Visited',
     ]) {
       expect(find.widgetWithText(ChoiceChip, filter), findsOneWidget);
     }
@@ -115,7 +117,10 @@ void main() {
     );
     await tester.tap(find.descendant(of: row, matching: find.byType(Checkbox)));
     await tester.pumpAndSettle();
-    expect(prefs.getStringList('completed_india_state_ut_ids'), ['rajasthan']);
+    expect(
+      await ProgressService.getChallengeItemIds('completed_india_state_ut_ids'),
+      {'rajasthan'},
+    );
 
     await tester.tap(find.text('Rajasthan'));
     await tester.pumpAndSettle();
@@ -139,19 +144,19 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
-    expect(find.text('1 of 36 explored'), findsOneWidget);
+    expect(find.text('1 of 36 visited'), findsOneWidget);
     await tester.drag(find.byType(CustomScrollView), const Offset(0, -300));
     await tester.pumpAndSettle();
-    await tester.tap(find.widgetWithText(ChoiceChip, 'Explored'));
+    await tester.tap(find.widgetWithText(ChoiceChip, 'Visited'));
     await tester.pumpAndSettle();
     expect(find.text('Rajasthan'), findsOneWidget);
     await tester.tap(find.widgetWithText(ChoiceChip, 'Union Territories'));
     await tester.pumpAndSettle();
     await tester.scrollUntilVisible(
-      find.text('Andaman and Nicobar Islands'),
+      find.text('Andaman & Nicobar Islands'),
       100,
     );
-    expect(find.text('Andaman and Nicobar Islands'), findsOneWidget);
+    expect(find.text('Andaman & Nicobar Islands'), findsOneWidget);
 
     await tester.pumpWidget(
       MaterialApp(theme: AppTheme.light, home: const MyLifePage()),
@@ -160,11 +165,11 @@ void main() {
       () => Future<void>.delayed(const Duration(seconds: 1)),
     );
     await tester.pump();
-    expect(find.text('States & UTs explored'), findsOneWidget);
     await tester.scrollUntilVisible(
-      find.text('1 of 36 states and UTs explored'),
+      find.text('1 of 36 states and UTs visited'),
       250,
+      scrollable: find.byType(Scrollable).first,
     );
-    expect(find.text('1 of 36 states and UTs explored'), findsOneWidget);
+    expect(find.text('1 of 36 states and UTs visited'), findsOneWidget);
   });
 }

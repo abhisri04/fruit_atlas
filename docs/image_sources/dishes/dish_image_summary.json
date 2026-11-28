@@ -1,0 +1,167 @@
+{
+  "totalCanonical": 640,
+  "existingApproved": 0,
+  "searched": 0,
+  "highConfidence": 0,
+  "mediumNeedsReview": 0,
+  "lowCandidateCount": 0,
+  "unresolvedOrPending": 640,
+  "finalImages": 0,
+  "duplicatePhotos": 0,
+  "totalBytes": 0,
+  "averageBytes": 0,
+  "largestFiles": [],
+  "unusuallyLarge": [],
+  "first30Unresolved": [
+    {
+      "dishId": "exp_west_bengal_aam_achar_ilish",
+      "dishName": "Aam Achar Ilish",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_uttar_pradesh_aam_papad",
+      "dishName": "Aam Papad",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_chhattisgarh_aamat",
+      "dishName": "Aamat",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_arunachal_pradesh_aamin",
+      "dishName": "Aamin",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_west_bengal_abar_khabo_sandesh",
+      "dishName": "Abar Khabo Sandesh",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_kerala_ada_pradhaman",
+      "dishName": "Ada Pradhaman",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_uttar_pradesh_agra_petha",
+      "dishName": "Agra Petha",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_nagaland_aikibeye",
+      "dishName": "Aikibeye",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_nagaland_akini_chokibo",
+      "dishName": "Akini Chokibo",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_himachal_pradesh_aktori",
+      "dishName": "Aktori",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_jammu_kashmir_al_yakhni",
+      "dishName": "Al Yakhni",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_uttarakhand_aloo_ke_gutke",
+      "dishName": "Aloo ke Gutke",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_himachal_pradesh_aloo_palda",
+      "dishName": "Aloo Palda",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_chandigarh_aloo_paratha",
+      "dishName": "Aloo Paratha",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_assam_aloo_pitika",
+      "dishName": "Aloo Pitika",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_delhi_aloo_tikki",
+      "dishName": "Aloo Tikki",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_goa_alsandyanche_tonakh",
+      "dishName": "Alsandyanche Tonakh",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_himachal_pradesh_alu_phing_sha",
+      "dishName": "Alu Phing Sha",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_goa_ambadyachi_uddamethi",
+      "dishName": "Ambadyachi Uddamethi",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_jammu_kashmir_ambal",
+      "dishName": "Ambal",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_goa_ambot_tik",
+      "dishName": "Ambot Tik",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_punjab_amritsari_fish",
+      "dishName": "Amritsari Fish",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_punjab_amritsari_kulcha",
+      "dishName": "Amritsari Kulcha",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_chandigarh_amritsari_kulcha_chandigarh_style",
+      "dishName": "Amritsari Kulcha Chandigarh Style",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_nagaland_amrusu",
+      "dishName": "Amrusu",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_andaman_nicobar_andaman_fish_curry",
+      "dishName": "Andaman Fish Curry",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_andaman_nicobar_andaman_prawn_curry",
+      "dishName": "Andaman Prawn Curry",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_andhra_pradesh_andhra_chicken_pakodi",
+      "dishName": "Andhra Chicken Pakodi",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_andhra_pradesh_andhra_kodi_kura",
+      "dishName": "Andhra Kodi Kura",
+      "status": "awaiting_api_key"
+    },
+    {
+      "dishId": "exp_chhattisgarh_angakar_roti",
+      "dishName": "Angakar Roti",
+      "status": "awaiting_api_key"
+    }
+  ]
+}

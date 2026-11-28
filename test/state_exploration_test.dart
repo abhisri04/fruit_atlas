@@ -156,7 +156,12 @@ void main() {
     );
     await tester.pump();
 
-    expect(find.text('Mark as Visited'), findsOneWidget);
+    expect(
+      find.textContaining(
+        'Track State & UT visits separately in India Passport',
+      ),
+      findsOneWidget,
+    );
     expect(find.text('EXPLORE RAJASTHAN'), findsOneWidget);
     expect(find.textContaining(RegExp(r'^1 of \d+$')), findsOneWidget);
     await tester.scrollUntilVisible(
@@ -233,7 +238,7 @@ void main() {
     expect(find.text('Place · Jodhpur, Rajasthan'), findsOneWidget);
     expect(find.text('Location'), findsOneWidget);
     expect(find.text('Part of'), findsOneWidget);
-    expect(find.text('Explore Rajasthan'), findsOneWidget);
+    expect(find.text('More in Rajasthan'), findsOneWidget);
 
     await tester.pageBack();
     await tester.pumpAndSettle();

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../widgets/scent_shelf_buttons.dart';
 import '../../widgets/filter_chip_group.dart';
 import '../../widgets/completion_feedback.dart';
 import '../../widgets/experience_list.dart';
@@ -19,6 +20,10 @@ import '../../widgets/achievement_card.dart';
 import '../../widgets/saved_challenge_button.dart';
 import '../../widgets/exploration_section_card.dart';
 import '../../widgets/yoga_pose_tile.dart';
+import '../../widgets/challenge_icon.dart';
+import '../../widgets/reveal.dart';
+import '../../widgets/hobby_finder_entry.dart';
+import '../../theme/app_spacing.dart';
 import 'checklist_item_details_page.dart';
 
 class GenericChecklistChallengePage extends StatefulWidget {
@@ -120,6 +125,36 @@ class _GenericChecklistChallengePageState
     });
   }
 
+  bool get _isStates => widget.challenge.itemType == 'state_or_union_territory';
+
+  String get _doneLabel => _isStates
+      ? 'Visited'
+      : switch (widget.challenge.progressVerb) {
+          'tried' => 'Tried',
+          'played' => 'Played',
+          'smelled' => 'Smelled',
+          'grown' => 'Grown',
+          'started' => 'Started',
+          'made' => 'Made',
+          'learned' => 'Learned',
+          'visited' => 'Visited',
+          _ => 'Explored',
+        };
+
+  String get _todoLabel => _isStates
+      ? 'Not Visited'
+      : switch (widget.challenge.progressVerb) {
+          'tried' => 'To Try',
+          'played' => 'To Play',
+          'smelled' => 'To Smell',
+          'grown' => 'To Grow',
+          'started' => 'To Start',
+          'made' => 'To Make',
+          'learned' => 'To Learn',
+          'visited' => 'To Visit',
+          _ => 'To Explore',
+        };
+
   @override
   Widget build(BuildContext context) {
     if (widget.challenge.itemType == 'yoga_pose') {
@@ -129,8 +164,12 @@ class _GenericChecklistChallengePageState
         .where(
           (item) => switch (selectedCategory) {
             'All' => true,
-            'Explored' => completedIds.contains(item.id),
-            'To Explore' => !completedIds.contains(item.id),
+            _ when selectedCategory == _doneLabel => completedIds.contains(
+              item.id,
+            ),
+            _ when selectedCategory == _todoLabel => !completedIds.contains(
+              item.id,
+            ),
             _ => (item.filterGroup ?? item.category) == selectedCategory,
           },
         )
@@ -167,18 +206,27 @@ class _GenericChecklistChallengePageState
                 ExplorationHero(
                   title: widget.challenge.name,
                   accent: AppColors.categoryAccent(widget.challenge.categoryId),
-                  icon: widget.challenge.itemType == 'state_or_union_territory'
+                  icon: _isStates
                       ? Icons.map_outlined
-                      : Icons.self_improvement,
+                      : challengeIcon(widget.challenge.iconIdentifier),
                   subtitle: widget.challenge.description,
                 ),
                 ProgressCard(
                   prominent: true,
                   title: 'Your progress',
                   summary:
-                      '$completedCount / ${items.length} ${widget.challenge.completionVerb}',
+                      '$completedCount of ${items.length} ${widget.challenge.progressVerb}',
                   progress: progress,
                 ),
+                if (widget.challenge.categoryId == 'scent') ...[
+                  const SizedBox(height: 12),
+                  const MyCollectionEntry(),
+                ],
+                if (widget.challenge.itemType == 'hobby' ||
+                    widget.challenge.itemType == 'game') ...[
+                  const SizedBox(height: 12),
+                  HobbyFinderEntry(onReturn: loadChallenge),
+                ],
                 if (widget.challenge.itemSummary case final summary?) ...[
                   const SizedBox(height: 10),
                   Center(
@@ -212,8 +260,8 @@ class _GenericChecklistChallengePageState
                       'All',
                       ...categoryFilters,
                       if (widget.challenge.completionFilters) ...[
-                        'Explored',
-                        'To Explore',
+                        _doneLabel,
+                        _todoLabel,
                       ],
                     ],
                     selected: selectedCategory,
@@ -256,38 +304,80 @@ class _GenericChecklistChallengePageState
               itemBuilder: (context, index) {
                 final item = visibleItems[index];
                 final completed = completedIds.contains(item.id);
-                return Card(
-                  color: completed
-                      ? AppColors.completedSurface
-                      : AppColors.surface,
+                final row = AnimatedContainer(
+                  duration: const Duration(milliseconds: 260),
+                  curve: Curves.easeOut,
                   margin: const EdgeInsets.only(bottom: 8),
-                  child: ListTile(
-                    leading: Icon(
-                      widget.challenge.itemType == 'state_or_union_territory'
-                          ? Icons.location_on_outlined
-                          : Icons.self_improvement,
+                  decoration: BoxDecoration(
+                    color: completed
+                        ? AppColors.completedSurface
+                        : AppColors.surface,
+                    borderRadius: BorderRadius.circular(AppSpacing.radius),
+                  ),
+                  // Border as a foreground layer so it adds no padding and
+                  // rows keep the same height as before.
+                  foregroundDecoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(AppSpacing.radius),
+                    border: Border.all(
+                      color: completed
+                          ? AppColors.primary.withValues(alpha: .35)
+                          : AppColors.outline,
                     ),
-                    title: Text(
-                      item.name,
-                      style: TextStyle(
-                        fontWeight: FontWeight.w600,
-                        color: completed ? AppColors.primary : AppColors.ink,
+                  ),
+                  clipBehavior: Clip.antiAlias,
+                  child: Material(
+                    type: MaterialType.transparency,
+                    child: ListTile(
+                      leading: Icon(
+                        _isStates
+                            ? Icons.location_on_outlined
+                            : challengeIcon(widget.challenge.iconIdentifier),
                       ),
-                    ),
-                    subtitle: item.category == null
-                        ? null
-                        : Text(item.category!),
-                    onTap:
-                        widget.challenge.presentationType ==
-                            'checklist_with_details'
-                        ? () => openDetails(item)
-                        : null,
-                    trailing: Checkbox(
-                      value: completed,
-                      onChanged: (value) => setCompleted(item, value ?? false),
+                      title: Text(
+                        item.name,
+                        style: TextStyle(
+                          fontWeight: FontWeight.w600,
+                          color: completed ? AppColors.primary : AppColors.ink,
+                        ),
+                      ),
+                      // Games: players and length say more than the name.
+                      subtitle: switch (item.metadata['Players']) {
+                        final players? => Text(
+                          [
+                            '$players players',
+                            item.metadata['Time'],
+                          ].whereType<String>().join(' · '),
+                        ),
+                        _ =>
+                          item.category == null ? null : Text(item.category!),
+                      },
+                      onTap:
+                          widget.challenge.presentationType ==
+                              'checklist_with_details'
+                          ? () => openDetails(item)
+                          : null,
+                      trailing: AnimatedScale(
+                        scale: completed ? 1.12 : 1,
+                        duration: const Duration(milliseconds: 220),
+                        curve: Curves.easeOutBack,
+                        child: Checkbox(
+                          value: completed,
+                          onChanged: (value) =>
+                              setCompleted(item, value ?? false),
+                        ),
+                      ),
                     ),
                   ),
                 );
+                // Only the first screenful animates in; rows built later by
+                // scrolling appear immediately.
+                return index < Reveal.maxStaggered
+                    ? Reveal(
+                        key: ValueKey('reveal-${item.id}'),
+                        index: index,
+                        child: row,
+                      )
+                    : row;
               },
             ),
     );
@@ -327,7 +417,8 @@ class _GenericChecklistChallengePageState
                       const SizedBox(height: 14),
                       ProgressCard(
                         title: 'Your progress',
-                        summary: '$completedCount / ${items.length} explored',
+                        summary:
+                            '$completedCount of ${items.length} ${widget.challenge.progressVerb}',
                         progress: progress,
                       ),
                       const SizedBox(height: 14),

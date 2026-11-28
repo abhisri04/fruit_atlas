@@ -1246,7 +1246,7 @@ void main() {
 
   final output = {
     'catalogueVersion': 1,
-    'difficultyClassification': 'Fruit Atlas editorial classification',
+    'difficultyClassification': 'Editorial classification',
     'sources': {
       'AYUSH_CYP': 'https://yoga.ayush.gov.in/uploads/assets/cyp/CYP_Book_English_2026.pdf',
       'YCB_YWI': 'https://yogacertificationboard.nic.in/wp-content/uploads/2019/11/Syllabus-YWI-Version0.2.pdf',

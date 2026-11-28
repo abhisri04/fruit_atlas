@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
 import '../../theme/app_colors.dart';
+import '../../widgets/start_make_button.dart';
+import '../../widgets/start_collection_button.dart';
+import '../../widgets/my_garden_buttons.dart';
+import '../../widgets/garden_hub_link.dart';
+import '../../widgets/scent_shelf_buttons.dart';
 import '../../widgets/completion_feedback.dart';
 import '../../widgets/metadata_chip.dart';
+import '../../widgets/reward_animations.dart';
 
 import '../../models/challenge.dart';
 import '../../models/district.dart';
@@ -32,6 +38,9 @@ import '../../widgets/exploration_section_card.dart';
 import '../../widgets/experience_tile.dart';
 import '../../widgets/experience_collection_tile.dart';
 import '../../widgets/yoga_pose_tile.dart';
+import '../../widgets/challenge_icon.dart';
+import '../../widgets/skill_ladder.dart';
+import '../../widgets/hobby_start_button.dart';
 import '../../widgets/fruit_image.dart';
 
 class ChecklistItemDetailsPage extends StatefulWidget {
@@ -1073,10 +1082,20 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
               padding: const EdgeInsets.fromLTRB(20, 10, 20, 16),
               child: SizedBox(
                 width: double.infinity,
-                child: FilledButton.icon(
-                  onPressed: isLoading ? null : toggleCompletion,
-                  icon: Icon(isCompleted ? Icons.check_circle : Icons.check),
-                  label: Text(isCompleted ? 'Completed' : 'Mark as Completed'),
+                child: TactileScale(
+                  child: FilledButton.icon(
+                    onPressed: isLoading ? null : toggleCompletion,
+                    icon: AnimatedSwitcher(
+                      duration: const Duration(milliseconds: 180),
+                      child: Icon(
+                        isCompleted ? Icons.check_circle : Icons.check,
+                        key: ValueKey(isCompleted),
+                      ),
+                    ),
+                    label: Text(
+                      isCompleted ? 'Completed' : 'Mark as Completed',
+                    ),
+                  ),
                 ),
               ),
             ),
@@ -1092,7 +1111,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
       return _buildYogaDetails(context);
     }
     return Scaffold(
-      appBar: AppBar(title: const Text('Details')),
+      appBar: AppBar(title: Text(widget.challenge.compactTitle)),
       body: CustomScrollView(
         slivers: [
           SliverPadding(
@@ -1102,7 +1121,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                 Icon(
                   widget.challenge.itemType == 'state_or_union_territory'
                       ? Icons.location_on_outlined
-                      : Icons.checklist_outlined,
+                      : challengeIcon(widget.challenge.iconIdentifier),
                   size: 72,
                   color: AppColors.primary,
                 ),
@@ -1133,29 +1152,77 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                     ],
                   ),
                 const SizedBox(height: 20),
-                Card(
-                  child: CheckboxListTile(
-                    value: isCompleted,
-                    onChanged: isLoading ? null : (_) => toggleCompletion(),
-                    title: Text(
-                      isCompleted
-                          ? widget.challenge.itemType ==
-                                    'state_or_union_territory'
-                                ? 'Visited'
-                                : 'Explored'
-                          : widget.challenge.itemType ==
-                                'state_or_union_territory'
-                          ? 'Mark as Visited'
-                          : 'Mark as ${widget.challenge.completionVerb}',
-                    ),
-                    subtitle: Text(
-                      isCompleted ? 'This item is included in your progress.' : 'Use the checkbox when you have completed this item.',
+                if (widget.challenge.itemType == 'state_or_union_territory')
+                  const Text(
+                    'Explore the linked experiences below. Track State & UT visits separately in India Passport.',
+                  )
+                // Plants have one action, "Add to my garden", below.
+                else if (widget.challenge.itemType != 'plant' &&
+                    widget.challenge.itemType != 'collection' &&
+                    widget.challenge.itemType != 'make')
+                  Card(
+                    child: CheckboxListTile(
+                      value: isCompleted,
+                      onChanged: isLoading ? null : (_) => toggleCompletion(),
+                      title: Text(
+                        isCompleted
+                            ? widget.challenge.itemType ==
+                                      'state_or_union_territory'
+                                  ? 'Visited'
+                                  : switch (widget.challenge.progressVerb) {
+                                      'tried' => 'Tried',
+                                      'played' => 'Played',
+                                      'smelled' => 'Smelled',
+                                      'grown' => 'Grown',
+                                      'started' => 'Started',
+                                      'made' => 'Made',
+                                      'learned' => 'Learned',
+                                      'visited' => 'Visited',
+                                      _ => 'Explored',
+                                    }
+                            : widget.challenge.itemType ==
+                                  'state_or_union_territory'
+                            ? 'Mark as Visited'
+                            : 'Mark as ${widget.challenge.completionVerb}',
+                      ),
+                      subtitle: Text(
+                        isCompleted
+                            ? 'This item is included in your progress.'
+                            : 'Use the checkbox when you have completed this item.',
+                      ),
                     ),
                   ),
-                ),
+                if (widget.challenge.itemType == 'perfume' ||
+                    widget.challenge.itemType == 'attar') ...[
+                  const SizedBox(height: 12),
+                  ScentShelfButtons(item: widget.item),
+                ],
+                if (widget.challenge.itemType == 'hobby' ||
+                    widget.challenge.itemType == 'game') ...[
+                  const SizedBox(height: 12),
+                  HobbyStartButton(item: widget.item),
+                ],
+                if (widget.challenge.itemType == 'plant') ...[
+                  const SizedBox(height: 12),
+                  GrowThisButton(item: widget.item),
+                ],
+                if (widget.challenge.itemType == 'collection') ...[
+                  const SizedBox(height: 12),
+                  StartCollectionButton(item: widget.item),
+                ],
+                if (widget.challenge.itemType == 'make') ...[
+                  const SizedBox(height: 12),
+                  StartMakeButton(item: widget.item),
+                ],
+                if (gardeningHobbyIds.contains(widget.item.id)) ...[
+                  const SizedBox(height: 12),
+                  const GardenHubLink(),
+                ],
                 const SizedBox(height: 28),
                 Text(
-                  'About ${widget.item.name}',
+                  // Action-style names ("Fold a paper crane", "Get to know
+                  // Chypre") read better as "About Origami", "About Chypre".
+                  'About ${const {'hobby', 'game', 'scent_family', 'scent_note', 'attar', 'garden_visit', 'collection', 'make'}.contains(widget.challenge.itemType) ? widget.item.category ?? widget.item.name : widget.item.name}',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
                 const SizedBox(height: 10),
@@ -1163,6 +1230,49 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                   widget.item.description ?? 'No description is available yet.',
                   style: const TextStyle(fontSize: 16, height: 1.5),
                 ),
+                if (widget.item.howToSteps.isNotEmpty) ...[
+                  const SizedBox(height: 24),
+                  Text(
+                    'How to start',
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
+                  const SizedBox(height: 8),
+                  for (final (index, step) in widget.item.howToSteps.indexed)
+                    ListTile(
+                      dense: true,
+                      contentPadding: EdgeInsets.zero,
+                      leading: CircleAvatar(
+                        radius: 13,
+                        backgroundColor: AppColors.accentSurface,
+                        child: Text(
+                          '${index + 1}',
+                          style: const TextStyle(
+                            fontSize: 12,
+                            fontWeight: FontWeight.w700,
+                            color: AppColors.primary,
+                          ),
+                        ),
+                      ),
+                      title: Text(step, style: const TextStyle(fontSize: 15)),
+                    ),
+                ],
+                if (widget.item.ladder.isNotEmpty) ...[
+                  const SizedBox(height: 24),
+                  Text(
+                    'Your path',
+                    style: Theme.of(context).textTheme.titleMedium,
+                  ),
+                  const SizedBox(height: 4),
+                  const Text(
+                    'Start with the first win, then keep going at your own pace.',
+                    style: TextStyle(color: AppColors.muted),
+                  ),
+                  const SizedBox(height: 12),
+                  SkillLadder(
+                    steps: widget.item.ladder,
+                    reached: isCompleted ? 1 : 0,
+                  ),
+                ],
                 if (widget.item.metadata.isNotEmpty) ...[
                   const SizedBox(height: 24),
                   ...widget.item.metadata.entries.map(

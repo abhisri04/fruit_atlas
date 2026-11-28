@@ -133,6 +133,11 @@ void main() {
       of: mangoChallengeTile.first,
       matching: find.byType(Checkbox),
     );
+    await Scrollable.ensureVisible(
+      tester.element(fruitCheckbox),
+      alignment: .5,
+    );
+    await tester.pumpAndSettle();
     expect(tester.widget<Checkbox>(fruitCheckbox).value, isFalse);
     await tester.tap(fruitCheckbox);
     await tester.pumpAndSettle();

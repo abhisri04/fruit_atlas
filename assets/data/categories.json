@@ -34,6 +34,26 @@
       "id": "life_experiences",
       "name": "Life Experiences",
       "description": "Try meaningful, memorable and unusual experiences."
+    },
+    {
+      "id": "games_play",
+      "name": "Games & Play",
+      "description": "Card, board, outdoor and party games worth playing."
+    },
+    {
+      "id": "scent",
+      "name": "Scent & Perfume",
+      "description": "Scent families, famous perfumes, notes and Indian attars to smell and collect."
+    },
+    {
+      "id": "garden",
+      "name": "Garden & Plants",
+      "description": "Start gardening with easy plants that suit your space, browse flowers and more, and keep your own garden."
+    },
+    {
+      "id": "making",
+      "name": "DIY & Art",
+      "description": "Crochet, embroidery, journaling, painting and Indian folk art projects to make with your hands."
     }
   ]
 }

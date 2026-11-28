@@ -7,4 +7,7 @@ abstract final class AppSpacing {
   static const page = 20.0;
   static const section = 24.0;
   static const radius = 20.0;
+  static const radiusSmall = 14.0;
+  static const radiusLarge = 26.0;
+  static const cardElevation = 2.0;
 }

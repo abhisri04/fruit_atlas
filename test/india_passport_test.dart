@@ -1,0 +1,532 @@
+import 'dart:convert';
+import 'dart:io';
+
+import 'package:flutter/gestures.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:fruit_atlas/models/india_location_registry.dart';
+import 'package:fruit_atlas/models/state_travel_status.dart';
+import 'package:fruit_atlas/services/india_map_repository.dart';
+import 'package:fruit_atlas/services/state_travel_service.dart';
+import 'package:fruit_atlas/services/progress_service.dart';
+import 'package:fruit_atlas/services/state_exploration_repository.dart';
+import 'package:fruit_atlas/services/progress_summary_service.dart';
+import 'package:fruit_atlas/services/gamification_service.dart';
+import 'package:fruit_atlas/screens/travel/explore_india_page.dart';
+import 'package:fruit_atlas/widgets/passport_map_thumbnail.dart';
+import 'package:fruit_atlas/screens/travel/india_passport_page.dart';
+import 'package:fruit_atlas/screens/challenge/checklist_item_details_page.dart';
+import 'package:fruit_atlas/widgets/india_passport_map.dart';
+import 'package:fruit_atlas/theme/app_colors.dart';
+
+void main() {
+  Future<void> mount(WidgetTester tester, Widget home) async {
+    await tester.runAsync(() async {
+      await tester.pumpWidget(MaterialApp(home: home));
+      await Future<void>.delayed(const Duration(milliseconds: 300));
+    });
+    await tester.pumpAndSettle();
+  }
+
+  TestWidgetsFlutterBinding.ensureInitialized();
+  setUp(() => SharedPreferences.setMockInitialValues({}));
+  setUp(StateExplorationRepository.clearCacheForTesting);
+  setUp(() {
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+        .setMockMessageHandler('flutter/assets', (message) async {
+          final name = utf8.decode(message!.buffer.asUint8List());
+          if (name == 'AssetManifest.bin') {
+            return const StandardMessageCodec().encodeMessage(
+              <String, Object>{},
+            );
+          }
+          final file = File(name);
+          return file.existsSync()
+              ? ByteData.sublistView(file.readAsBytesSync())
+              : null;
+        });
+  });
+  test(
+    'statuses, exclusive counts, precedence, clearing, reload and independence',
+    () async {
+      final travel = StateTravelService();
+      await travel.load();
+      expect(travel.statusFor('rajasthan'), TravelStatus.none);
+      await ProgressService.setCompletedExperienceIds({'rajasthan_test'});
+      expect(travel.visitedCount, 0);
+      await travel.setStatus('rajasthan', TravelStatus.wantToVisit);
+      expect(travel.wantToVisitCount, 1);
+      await travel.setStatus('rajasthan', TravelStatus.visited);
+      expect(travel.visitedCount, 1);
+      expect(travel.wantToVisitCount, 0);
+      await travel.setStatus('rajasthan', TravelStatus.wantToVisit);
+      expect(travel.statusFor('rajasthan'), TravelStatus.visited);
+      await travel.setStatus('goa', TravelStatus.wantToVisit);
+      final reloaded = StateTravelService();
+      await reloaded.load();
+      expect(reloaded.visitedCount, 1);
+      expect(reloaded.wantToVisitCount, 1);
+      expect(await ProgressService.getCompletedExperienceIds(), {
+        'rajasthan_test',
+      });
+      expect(
+        await ProgressService.getChallengeItemIds(
+          'completed_india_state_ut_ids',
+        ),
+        {'rajasthan'},
+      );
+      await reloaded.setStatus('rajasthan', TravelStatus.none);
+      expect(reloaded.visitedCount, 0);
+      expect(
+        () => travel.setStatus('unknown', TravelStatus.visited),
+        throwsArgumentError,
+      );
+    },
+  );
+  test('boundary geometry matches all canonical IDs and status tokens', () {
+    final regions = IndiaMapRepository.parse(
+      jsonDecode(
+        File('assets/data/india_passport_boundaries.json').readAsStringSync(),
+      ) as Map<String, dynamic>,
+    );
+    expect(
+      regions.map((r) => r.stateId).toSet(),
+      IndiaLocationRegistry.allLocationIds,
+    );
+    for (final region in regions) {
+      expect(region.path.getBounds().isEmpty, false);
+    }
+    expect(passportColor(TravelStatus.none), AppColors.passportUnmarked);
+    expect(passportColor(TravelStatus.wantToVisit), AppColors.passportWanted);
+    expect(passportColor(TravelStatus.visited), AppColors.passportVisited);
+  });
+  test('legacy visits migrate once, preserve explicit choices and never fabricate activity', () async {
+    SharedPreferences.setMockInitialValues({
+      StateTravelService.legacyKey: ['sikkim', 'goa', 'unknown'],
+      StateTravelService.storageKey: jsonEncode({
+        'goa': {'status': 'none'},
+        'delhi': {'status': 'want_to_visit'},
+      }),
+      'completed_experience_ids': ['sikkim_test'],
+    });
+    final travel = StateTravelService();
+    await travel.load();
+    expect(travel.visitedIds, {'sikkim'});
+    expect(travel.statusFor('goa'), TravelStatus.none);
+    expect(travel.wantToVisitCount, 1);
+    final prefs = await SharedPreferences.getInstance();
+    expect(prefs.getStringList(StateTravelService.legacyKey), [
+      'sikkim',
+      'goa',
+      'unknown',
+    ]);
+    expect(prefs.getBool(StateTravelService.migrationKey), true);
+    expect(
+      await ProgressService.getActivityReferencesForDate(DateTime.now()),
+      isEmpty,
+    );
+    await travel.setStatus('sikkim', TravelStatus.none);
+    final reopened = StateTravelService();
+    await reopened.load();
+    expect(reopened.visitedCount, 0);
+    expect(await ProgressService.getCompletedExperienceIds(), {'sikkim_test'});
+  });
+  test('visited uses canonical reward ledger once; intent has no score, XP or streak', () async {
+    final travel = StateTravelService();
+    await travel.load();
+    await travel.setStatus('sikkim', TravelStatus.wantToVisit);
+    expect(await ProgressService.getRewardedXp(), 0);
+    expect(
+      await ProgressService.getActivityReferencesForDate(DateTime.now()),
+      isEmpty,
+    );
+    final wantedSummary = await const ProgressSummaryService().load();
+    expect(wantedSummary.completedReferences.contains('state:sikkim'), false);
+    final wantedGame = await const GamificationService().load(wantedSummary);
+    expect(wantedGame.totalXp, 0);
+    expect(wantedGame.streakDays, 0);
+    await travel.setStatus('sikkim', TravelStatus.visited);
+    expect(await ProgressService.getRewardedXp(), 10);
+    expect(await ProgressService.getActivityReferencesForDate(DateTime.now()), {
+      'state:sikkim',
+    });
+    final summary = await const ProgressSummaryService().load();
+    expect(summary.completedReferences, contains('state:sikkim'));
+    expect(summary.achievementIds, contains('india_states_first'));
+    await const GamificationService().load(summary);
+    final xp = await ProgressService.getRewardedXp();
+    await travel.setStatus('sikkim', TravelStatus.none);
+    await travel.setStatus('sikkim', TravelStatus.wantToVisit);
+    await travel.setStatus('sikkim', TravelStatus.visited);
+    await const GamificationService().load(
+      await const ProgressSummaryService().load(),
+    );
+    expect(await ProgressService.getRewardedXp(), xp);
+    expect(await ProgressService.getCompletedExperienceIds(), isEmpty);
+  });
+  test(
+    'concurrent service instances preserve separate region updates',
+    () async {
+      final a = StateTravelService();
+      final b = StateTravelService();
+      await a.load();
+      await b.load();
+      await Future.wait([
+        a.setStatus('goa', TravelStatus.visited),
+        b.setStatus('delhi', TravelStatus.wantToVisit),
+      ]);
+      await a.load();
+      expect(a.visitedIds, {'goa'});
+      expect(a.wantToVisitCount, 1);
+      expect(await ProgressService.getRewardedXp(), 10);
+    },
+  );
+  testWidgets(
+    'Sikkim can have seven explored experiences without a visit; list filters share map status',
+    (tester) async {
+      final state = await tester.runAsync(
+        () => const StateExplorationRepository().load('sikkim'),
+      );
+      final ids = state!.experiences.take(7).map((e) => e.id).toSet();
+      expect(ids.length, 7);
+      await ProgressService.setCompletedExperienceIds(ids);
+      await tester.runAsync(IndiaMapRepository.load);
+      await tester.runAsync(
+        () => const StateExplorationRepository().loadProgress(),
+      );
+      final travel = StateTravelService();
+      await mount(tester, IndiaPassportPage(travelService: travel));
+
+      Future<void> openList() async {
+        await tester.tap(find.byKey(const ValueKey('passport-more')));
+        await tester.pumpAndSettle();
+        await tester.tap(find.byKey(const ValueKey('passport-list')));
+        await tester.pumpAndSettle();
+      }
+
+      await openList();
+      await tester.enterText(
+        find.byKey(const ValueKey('passport-list-search')),
+        'Sikkim',
+      );
+      await tester.tap(find.byKey(const ValueKey('passport-filter-none')));
+      await tester.pumpAndSettle();
+      expect(find.text('7 things done'), findsOneWidget);
+      expect(travel.visitedCount, 0);
+      await tester.tap(find.byKey(const ValueKey('passport-state-sikkim')));
+      await tester.pumpAndSettle();
+      // The list closes and the map card shows the state.
+      expect(find.textContaining('7 things done'), findsOneWidget);
+      await tester.tap(find.byKey(const ValueKey('passport-wanted')));
+      await tester.pumpAndSettle();
+      expect(travel.statusFor('sikkim'), TravelStatus.wantToVisit);
+
+      await openList();
+      await tester.tap(find.byKey(const ValueKey('passport-filter-none')));
+      await tester.pumpAndSettle();
+      expect(find.byKey(const ValueKey('passport-state-sikkim')), findsNothing);
+      await tester.tap(
+        find.byKey(const ValueKey('passport-filter-want_to_visit')),
+      );
+      await tester.pumpAndSettle();
+      expect(
+        find.byKey(const ValueKey('passport-state-sikkim')),
+        findsOneWidget,
+      );
+      await tester.tap(find.byKey(const ValueKey('passport-state-sikkim')));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(const ValueKey('passport-visited')));
+      await tester.pumpAndSettle();
+
+      await openList();
+      await tester.tap(find.byKey(const ValueKey('passport-filter-visited')));
+      await tester.pumpAndSettle();
+      expect(
+        find.byKey(const ValueKey('passport-state-sikkim')),
+        findsOneWidget,
+      );
+      expect(
+        tester
+            .widget<IndiaPassportMap>(find.byType(IndiaPassportMap))
+            .travel
+            .statusFor('sikkim'),
+        TravelStatus.visited,
+      );
+      expect(await ProgressService.getCompletedExperienceIds(), ids);
+    },
+  );
+  testWidgets(
+    'all 36 regions select through search and the map flies to them',
+    (tester) async {
+      await tester.runAsync(IndiaMapRepository.load);
+      await tester.runAsync(
+        () => const StateExplorationRepository().loadProgress(),
+      );
+      await mount(tester, const IndiaPassportPage());
+      final map = tester.widget<IndiaPassportMap>(
+        find.byType(IndiaPassportMap),
+      );
+      for (final location in IndiaLocationRegistry.locations) {
+        await tester.enterText(
+          find.byKey(const ValueKey('passport-search')),
+          location.name,
+        );
+        await tester.pumpAndSettle();
+        await tester.tap(
+          find.byKey(ValueKey('passport-result-${location.id}')),
+        );
+        await tester.pumpAndSettle();
+        expect(find.text('Things to do in ${location.name}'), findsOneWidget);
+        expect(
+          find.byKey(ValueKey('passport-card-${location.id}')),
+          findsOneWidget,
+        );
+        // The selected state ends up in view.
+        final bounds = IndiaPassportMap.fittedPath(
+          map.regions.firstWhere((r) => r.stateId == location.id),
+          tester.getSize(find.byKey(const ValueKey('india-map'))),
+        ).getBounds();
+        final onScreen = MatrixUtils.transformRect(
+          map.controller.value,
+          bounds,
+        );
+        final view =
+            Offset.zero & tester.getSize(find.byType(IndiaPassportMap));
+        expect(view.overlaps(onScreen), isTrue, reason: location.id);
+      }
+      expect(tester.takeException(), isNull);
+    },
+  );
+  testWidgets('the journey-card map shows stamped states and stays live', (
+    tester,
+  ) async {
+    final travel = StateTravelService();
+    await travel.load();
+    await travel.setStatus('goa', TravelStatus.visited);
+    await travel.setStatus('delhi', TravelStatus.wantToVisit);
+    await tester.runAsync(IndiaMapRepository.load);
+    await mount(
+      tester,
+      const Scaffold(body: SizedBox(width: 300, child: PassportMapThumbnail())),
+    );
+    for (var i = 0; i < 20; i++) {
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(milliseconds: 20)),
+      );
+      await tester.pump();
+      if (find.text('1 state stamped').evaluate().isNotEmpty) break;
+    }
+    expect(find.text('1 state stamped'), findsOneWidget);
+
+    await tester.runAsync(
+      () => travel.setStatus('kerala', TravelStatus.visited),
+    );
+    for (var i = 0; i < 20; i++) {
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(milliseconds: 20)),
+      );
+      await tester.pump();
+      if (find.text('2 states stamped').evaluate().isNotEmpty) break;
+    }
+    expect(find.text('2 states stamped'), findsOneWidget);
+    travel.dispose();
+  });
+  testWidgets('the passport page opens Explore India', (tester) async {
+    final travel = StateTravelService();
+    await tester.runAsync(IndiaMapRepository.load);
+    await tester.runAsync(
+      () => const StateExplorationRepository().loadProgress(),
+    );
+    await mount(tester, IndiaPassportPage(travelService: travel));
+    await tester.tap(find.byKey(const ValueKey('passport-more')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('passport-explore-india')));
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 1));
+    expect(find.byType(ExploreIndiaPage), findsOneWidget);
+  });
+  testWidgets(
+    'map tap opens Rajasthan, actions update summaries and map colors',
+    (tester) async {
+      final travel = StateTravelService();
+      await tester.runAsync(IndiaMapRepository.load);
+      await tester.runAsync(
+        () => const StateExplorationRepository().loadProgress(),
+      );
+      await mount(tester, IndiaPassportPage(travelService: travel));
+      final mapFinder = find.byKey(const ValueKey('india-map'));
+      final map = tester.widget<IndiaPassportMap>(
+        find.byType(IndiaPassportMap),
+      );
+      final path = IndiaPassportMap.fittedPath(
+        map.regions.firstWhere((r) => r.stateId == 'rajasthan'),
+        tester.getSize(mapFinder),
+      );
+      final center = path.getBounds().center;
+      expect(path.contains(center), true);
+      await tester.tapAt(tester.getTopLeft(mapFinder) + center);
+      // A single tap waits briefly in case it's a double-tap zoom.
+      await tester.pump(kDoubleTapTimeout + const Duration(milliseconds: 50));
+      await tester.pumpAndSettle();
+      expect(find.text('Rajasthan'), findsOneWidget);
+      await tester.tap(find.byKey(const ValueKey('passport-wanted')));
+      await tester.pumpAndSettle();
+      expect(travel.statusFor('rajasthan'), TravelStatus.wantToVisit);
+      await tester.tap(find.byKey(const ValueKey('passport-visited')));
+      await tester.pumpAndSettle();
+      expect(travel.statusFor('rajasthan'), TravelStatus.visited);
+      expect(
+        passportColor(travel.statusFor('rajasthan')),
+        AppColors.passportVisited,
+      );
+      await tester.tap(find.byKey(const ValueKey('passport-close')));
+      await tester.pumpAndSettle();
+      expect(find.text('1 of 36 visited'), findsOneWidget);
+      expect(find.text('0 want to visit'), findsOneWidget);
+
+      await tester.enterText(
+        find.byKey(const ValueKey('passport-search')),
+        'Rajas',
+      );
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(const ValueKey('passport-result-rajasthan')));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(const ValueKey('passport-clear')));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(const ValueKey('passport-close')));
+      await tester.pumpAndSettle();
+      expect(find.text('0 of 36 visited'), findsOneWidget);
+    },
+  );
+  testWidgets(
+    'small UT list selection and Explore CTA resolve canonical page',
+    (tester) async {
+      await tester.runAsync(IndiaMapRepository.load);
+      await tester.runAsync(
+        () => const StateExplorationRepository().loadProgress(),
+      );
+      final travel = StateTravelService();
+      await mount(tester, IndiaPassportPage(travelService: travel));
+      for (final id in [
+        'goa',
+        'chandigarh',
+        'delhi',
+        'lakshadweep',
+        'puducherry',
+      ]) {
+        await tester.tap(find.byKey(const ValueKey('passport-more')));
+        await tester.pumpAndSettle();
+        await tester.tap(find.byKey(const ValueKey('passport-list')));
+        await tester.pumpAndSettle();
+        await tester.enterText(
+          find.byKey(const ValueKey('passport-list-search')),
+          IndiaLocationRegistry.nameFor(id),
+        );
+        await tester.pumpAndSettle();
+        await tester.tap(find.byKey(ValueKey('passport-state-$id')));
+        await tester.pumpAndSettle();
+        expect(find.text(IndiaLocationRegistry.nameFor(id)), findsWidgets);
+        await tester.tap(find.byKey(const ValueKey('passport-visited')));
+        await tester.pumpAndSettle();
+        expect(travel.statusFor(id), TravelStatus.visited);
+      }
+      await tester.runAsync(() async {
+        await tester.tap(find.byKey(const ValueKey('passport-explore')));
+        await Future<void>.delayed(const Duration(milliseconds: 300));
+        await tester.pump();
+        await Future<void>.delayed(const Duration(milliseconds: 300));
+      });
+      await tester.pumpAndSettle();
+      expect(find.byType(ChecklistItemDetailsPage), findsOneWidget);
+      expect(
+        tester
+            .widget<ChecklistItemDetailsPage>(
+              find.byType(ChecklistItemDetailsPage),
+            )
+            .item
+            .id,
+        'puducherry',
+      );
+      expect(tester.takeException(), isNull);
+    },
+  );
+  testWidgets('searching Goa zooms right in so it can be tapped', (
+    tester,
+  ) async {
+    await tester.runAsync(IndiaMapRepository.load);
+    await tester.runAsync(
+      () => const StateExplorationRepository().loadProgress(),
+    );
+    await mount(tester, const IndiaPassportPage());
+    final map = tester.widget<IndiaPassportMap>(find.byType(IndiaPassportMap));
+    expect(map.controller.value.getMaxScaleOnAxis(), 1);
+    await tester.enterText(find.byKey(const ValueKey('passport-search')), 'go');
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('passport-result-goa')), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('passport-result-goa')));
+    await tester.pumpAndSettle();
+    expect(map.controller.value.getMaxScaleOnAxis(), greaterThan(4));
+    expect(find.byKey(const ValueKey('passport-card-goa')), findsOneWidget);
+
+    await tester.tap(find.byKey(const ValueKey('passport-reset')));
+    await tester.pumpAndSettle();
+    expect(map.controller.value.getMaxScaleOnAxis(), 1);
+    expect(find.byKey(const ValueKey('passport-summary')), findsOneWidget);
+  });
+
+  testWidgets('zoom buttons and double-tap zoom smoothly', (tester) async {
+    await tester.runAsync(IndiaMapRepository.load);
+    await tester.runAsync(
+      () => const StateExplorationRepository().loadProgress(),
+    );
+    await mount(tester, const IndiaPassportPage());
+    final map = tester.widget<IndiaPassportMap>(find.byType(IndiaPassportMap));
+    await tester.tap(find.byKey(const ValueKey('passport-zoom-in')));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 200));
+    final midway = map.controller.value.getMaxScaleOnAxis();
+    await tester.pumpAndSettle();
+    final zoomed = map.controller.value.getMaxScaleOnAxis();
+    expect(zoomed, closeTo(2, .01));
+    expect(midway, inExclusiveRange(1, 2));
+    await tester.tap(find.byKey(const ValueKey('passport-zoom-out')));
+    await tester.pumpAndSettle();
+    expect(map.controller.value.getMaxScaleOnAxis(), closeTo(1, .01));
+
+    final mapFinder = find.byKey(const ValueKey('india-map'));
+    final point = tester.getCenter(mapFinder);
+    await tester.tapAt(point);
+    await tester.pump(const Duration(milliseconds: 60));
+    await tester.tapAt(point);
+    await tester.pumpAndSettle();
+    expect(map.controller.value.getMaxScaleOnAxis(), greaterThan(2));
+  });
+
+  test('a near miss next to a small state still picks it', () async {
+    final regions = await IndiaMapRepository.load();
+    const size = Size(390, 700);
+    final paths = {
+      for (final r in regions) r.stateId: IndiaPassportMap.fittedPath(r, size),
+    };
+    final goa = paths['goa']!.getBounds();
+    final justOutside = Offset(goa.left - 3, goa.center.dy);
+    // At the default zoom, Goa is a few pixels wide; a tap just off it
+    // within the tolerance still selects it rather than the sea.
+    expect(
+      IndiaPassportMap.regionAt(paths, goa.center, tolerance: 0),
+      isNotNull,
+    );
+    final picked = IndiaPassportMap.regionAt(
+      paths,
+      justOutside,
+      tolerance: IndiaPassportMap.tapTolerance,
+    );
+    expect(picked, isNotNull);
+    expect(
+      IndiaPassportMap.regionAt(paths, const Offset(2, 2), tolerance: 4),
+      isNull,
+    );
+  });
+}

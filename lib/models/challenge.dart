@@ -20,6 +20,19 @@ class Challenge {
   final String? detailFutureMessage;
   final String? metricLabel;
   final String? collectionUnit;
+  final String shortTitle;
+  final String categoryName;
+  final String primaryAction;
+  final String primaryActionLabel;
+  final String progressVerb;
+  final String startLabel;
+  final String continueLabel;
+  final String? singularNoun;
+  final String? pluralNoun;
+  final String iconIdentifier;
+  final bool showInQuickExplore;
+  final int quickExplorePriority;
+  final String? heroImageAsset;
 
   const Challenge({
     required this.id,
@@ -43,7 +56,41 @@ class Challenge {
     this.detailFutureMessage,
     this.metricLabel,
     this.collectionUnit,
+    this.shortTitle = '',
+    this.categoryName = '',
+    this.primaryAction = 'completed',
+    this.primaryActionLabel = 'Complete',
+    this.progressVerb = 'completed',
+    this.startLabel = 'Start exploring',
+    this.continueLabel = 'Continue your journey',
+    this.singularNoun,
+    this.pluralNoun,
+    this.iconIdentifier = 'challenge',
+    this.showInQuickExplore = false,
+    this.quickExplorePriority = 999,
+    this.heroImageAsset,
   });
+
+  String get title => name;
+  String get compactTitle => shortTitle.isEmpty ? name : shortTitle;
+
+  String get displayCategoryName {
+    if (categoryName.isNotEmpty) return categoryName;
+    return switch (categoryId) {
+      'food_drink' => 'Food & Drink',
+      'fitness_wellness' => 'Fitness & Wellness',
+      'travel_exploration' => 'Travel & Exploration',
+      'culture_learning' => 'Culture & Learning',
+      'faith_pilgrimage' => 'Faith & Pilgrimage',
+      'collecting' => 'Collecting',
+      'making' => 'DIY & Art',
+      'life_experiences' => 'Life Experiences',
+      'games_play' => 'Games & Play',
+      'scent' => 'Scent & Perfume',
+      'garden' => 'Garden & Plants',
+      _ => 'Explore',
+    };
+  }
 
   factory Challenge.fromJson(Map<String, dynamic> json) {
     return Challenge(
@@ -70,6 +117,23 @@ class Challenge {
       detailFutureMessage: json['detail_future_message'] as String?,
       metricLabel: json['metric_label'] as String?,
       collectionUnit: json['collection_unit'] as String?,
+      shortTitle: json['short_title'] as String? ?? '',
+      categoryName: json['category_name'] as String? ?? '',
+      primaryAction: json['primary_action'] as String? ?? 'completed',
+      primaryActionLabel: json['primary_action_label'] as String? ?? 'Complete',
+      progressVerb:
+          json['progress_verb'] as String? ??
+          json['completion_verb'] as String? ??
+          'completed',
+      startLabel: json['start_label'] as String? ?? 'Start exploring',
+      continueLabel:
+          json['continue_label'] as String? ?? 'Continue your journey',
+      singularNoun: json['singular_noun'] as String?,
+      pluralNoun: json['plural_noun'] as String?,
+      iconIdentifier: json['icon_identifier'] as String? ?? 'challenge',
+      showInQuickExplore: json['show_in_quick_explore'] as bool? ?? false,
+      quickExplorePriority: json['quick_explore_priority'] as int? ?? 999,
+      heroImageAsset: json['hero_image_asset'] as String?,
     );
   }
 }

@@ -25,6 +25,12 @@ class AchievementCard extends StatelessWidget {
     'map' => Icons.map_outlined,
     'temple' => Icons.temple_hindu_outlined,
     'yoga' => Icons.self_improvement,
+    'hobby' => Icons.palette_outlined,
+    'game' => Icons.casino_outlined,
+    'perfume' => Icons.local_florist_outlined,
+    'garden' => Icons.yard_outlined,
+    'collecting' => Icons.collections_bookmark_outlined,
+    'making' => Icons.brush_outlined,
     _ => Icons.emoji_events_outlined,
   };
 

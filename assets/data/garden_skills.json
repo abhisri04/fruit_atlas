@@ -1,0 +1,631 @@
+{
+  "challenge_id": "explore_garden_skills",
+  "version": 1,
+  "items": [
+    {
+      "id": "skill_sow_seeds_in_a_tray",
+      "challenge_id": "explore_garden_skills",
+      "name": "Sow seeds in a tray",
+      "category": "Basics",
+      "filter_group": "Basics",
+      "difficulty": "beginner",
+      "about": "Start seeds in a shallow tray before moving them to pots.",
+      "howToSteps": [
+        "Fill a tray with fine, moist soil.",
+        "Sow seeds about twice as deep as their size.",
+        "Keep it moist and in light until they sprout."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "sow seeds in a tray",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Basics"
+      }
+    },
+    {
+      "id": "skill_transplant_a_seedling",
+      "challenge_id": "explore_garden_skills",
+      "name": "Transplant a seedling",
+      "category": "Basics",
+      "filter_group": "Basics",
+      "difficulty": "beginner",
+      "about": "Move a young plant to its own pot without shocking it.",
+      "howToSteps": [
+        "Water the seedling first.",
+        "Lift it with its root ball intact.",
+        "Plant at the same depth and water gently."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "transplant a seedling",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Basics"
+      }
+    },
+    {
+      "id": "skill_pot_a_plant_properly",
+      "challenge_id": "explore_garden_skills",
+      "name": "Pot a plant properly",
+      "category": "Basics",
+      "filter_group": "Basics",
+      "difficulty": "beginner",
+      "about": "The right pot is half the battle.",
+      "howToSteps": [
+        "Pick a pot with drainage holes.",
+        "Add soil, set the plant, and fill around it.",
+        "Leave space at the top for watering."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "pot a plant properly",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Basics"
+      }
+    },
+    {
+      "id": "skill_mix_your_own_potting_soil",
+      "challenge_id": "explore_garden_skills",
+      "name": "Mix your own potting soil",
+      "category": "Basics",
+      "filter_group": "Basics",
+      "difficulty": "beginner",
+      "about": "A simple mix of garden soil, compost and cocopeat.",
+      "howToSteps": [
+        "Mix roughly equal parts soil, compost and cocopeat.",
+        "Add a handful of sand for succulents.",
+        "Moisten before using."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "mix your own potting soil",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Basics"
+      }
+    },
+    {
+      "id": "skill_water_the_right_way",
+      "challenge_id": "explore_garden_skills",
+      "name": "Water the right way",
+      "category": "Basics",
+      "filter_group": "Basics",
+      "difficulty": "beginner",
+      "about": "Most plants die from too much water, not too little.",
+      "howToSteps": [
+        "Push a finger an inch into the soil.",
+        "Water only if it feels dry.",
+        "Water deeply until it drains out the bottom."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "water the right way",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Basics"
+      }
+    },
+    {
+      "id": "skill_read_the_light_in_your_space",
+      "challenge_id": "explore_garden_skills",
+      "name": "Read the light in your space",
+      "category": "Basics",
+      "filter_group": "Basics",
+      "difficulty": "beginner",
+      "about": "Know which spots get full sun, part sun or shade.",
+      "howToSteps": [
+        "Note where sunlight falls at 9 am, 1 pm and 4 pm.",
+        "Count the hours of direct sun.",
+        "Match plants to each spot."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "read the light in your space",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Basics"
+      }
+    },
+    {
+      "id": "skill_make_kitchen_compost",
+      "challenge_id": "explore_garden_skills",
+      "name": "Make kitchen compost",
+      "category": "Care",
+      "filter_group": "Care",
+      "difficulty": "beginner",
+      "about": "Turn peels and leaves into rich soil.",
+      "howToSteps": [
+        "Layer vegetable scraps with dry leaves.",
+        "Turn it weekly and keep it damp.",
+        "Use it when it's dark and crumbly."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "make kitchen compost",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Care"
+      }
+    },
+    {
+      "id": "skill_mulch_your_pots",
+      "challenge_id": "explore_garden_skills",
+      "name": "Mulch your pots",
+      "category": "Care",
+      "filter_group": "Care",
+      "difficulty": "beginner",
+      "about": "A layer on top keeps soil moist and cool.",
+      "howToSteps": [
+        "Spread dry leaves or coco husk on the soil.",
+        "Keep it a little away from the stem.",
+        "Top up as it breaks down."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "mulch your pots",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Care"
+      }
+    },
+    {
+      "id": "skill_pinch_and_prune",
+      "challenge_id": "explore_garden_skills",
+      "name": "Pinch and prune",
+      "category": "Care",
+      "filter_group": "Care",
+      "difficulty": "beginner",
+      "about": "Cutting tips makes plants bushier.",
+      "howToSteps": [
+        "Pinch the top pair of leaves on basil or tulsi.",
+        "Cut just above a leaf node.",
+        "Use clean scissors."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "pinch and prune",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Care"
+      }
+    },
+    {
+      "id": "skill_deadhead_flowers",
+      "challenge_id": "explore_garden_skills",
+      "name": "Deadhead flowers",
+      "category": "Care",
+      "filter_group": "Care",
+      "difficulty": "beginner",
+      "about": "Remove faded flowers for more blooms.",
+      "howToSteps": [
+        "Snip spent flowers below the bloom.",
+        "Do it weekly in the flowering season.",
+        "Watch new buds appear."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "deadhead flowers",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Care"
+      }
+    },
+    {
+      "id": "skill_feed_with_compost_or_vermicompost",
+      "challenge_id": "explore_garden_skills",
+      "name": "Feed with compost or vermicompost",
+      "category": "Care",
+      "filter_group": "Care",
+      "difficulty": "beginner",
+      "about": "Plants in pots need regular food.",
+      "howToSteps": [
+        "Add a handful of compost every few weeks.",
+        "Mix it into the top layer of soil.",
+        "Water well afterwards."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "feed with compost or vermicompost",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Care"
+      }
+    },
+    {
+      "id": "skill_spray_neem_against_pests",
+      "challenge_id": "explore_garden_skills",
+      "name": "Spray neem against pests",
+      "category": "Care",
+      "filter_group": "Care",
+      "difficulty": "beginner",
+      "about": "A gentle natural way to keep pests away.",
+      "howToSteps": [
+        "Mix a little neem oil and soap in water.",
+        "Spray under the leaves in the evening.",
+        "Repeat weekly if pests return."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "spray neem against pests",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Care"
+      }
+    },
+    {
+      "id": "skill_repot_a_root_bound_plant",
+      "challenge_id": "explore_garden_skills",
+      "name": "Repot a root-bound plant",
+      "category": "Care",
+      "filter_group": "Care",
+      "difficulty": "beginner",
+      "about": "Give a cramped plant a bigger home.",
+      "howToSteps": [
+        "Look for roots coming out of the bottom.",
+        "Move it to a pot one size bigger.",
+        "Loosen the roots gently before replanting."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "repot a root-bound plant",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Care"
+      }
+    },
+    {
+      "id": "skill_support_a_climber",
+      "challenge_id": "explore_garden_skills",
+      "name": "Support a climber",
+      "category": "Care",
+      "filter_group": "Care",
+      "difficulty": "beginner",
+      "about": "Help gourds, beans and money plants climb.",
+      "howToSteps": [
+        "Add sticks, a net or a string up a railing.",
+        "Guide the tendrils onto it.",
+        "Tie gently with soft string if needed."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "support a climber",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Care"
+      }
+    },
+    {
+      "id": "skill_make_a_self_watering_bottle",
+      "challenge_id": "explore_garden_skills",
+      "name": "Make a self-watering bottle",
+      "category": "Care",
+      "filter_group": "Care",
+      "difficulty": "beginner",
+      "about": "Reuse a plastic bottle to water slowly.",
+      "howToSteps": [
+        "Poke small holes in a bottle cap.",
+        "Fill it and push it upside down into the soil.",
+        "Refill as it empties."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "make a self-watering bottle",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Care"
+      }
+    },
+    {
+      "id": "skill_take_a_stem_cutting",
+      "challenge_id": "explore_garden_skills",
+      "name": "Take a stem cutting",
+      "category": "Grow more",
+      "filter_group": "Grow more",
+      "difficulty": "beginner",
+      "about": "Make a new plant from a piece of the old one.",
+      "howToSteps": [
+        "Cut 10–15 cm below a leaf node.",
+        "Remove the lower leaves.",
+        "Root it in water or moist soil."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "take a stem cutting",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Grow more"
+      }
+    },
+    {
+      "id": "skill_grow_from_kitchen_scraps",
+      "challenge_id": "explore_garden_skills",
+      "name": "Grow from kitchen scraps",
+      "category": "Grow more",
+      "filter_group": "Grow more",
+      "difficulty": "beginner",
+      "about": "Regrow spring onion, ginger or mint from the kitchen.",
+      "howToSteps": [
+        "Keep the root end of a spring onion.",
+        "Stand it in water for a few days.",
+        "Plant it once new shoots appear."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "grow from kitchen scraps",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Grow more"
+      }
+    },
+    {
+      "id": "skill_divide_a_plant",
+      "challenge_id": "explore_garden_skills",
+      "name": "Divide a plant",
+      "category": "Grow more",
+      "filter_group": "Grow more",
+      "difficulty": "beginner",
+      "about": "Split an overgrown plant into two.",
+      "howToSteps": [
+        "Take the plant out of its pot.",
+        "Gently pull or cut the clump apart.",
+        "Pot each part separately."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "divide a plant",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Grow more"
+      }
+    },
+    {
+      "id": "skill_save_your_own_seeds",
+      "challenge_id": "explore_garden_skills",
+      "name": "Save your own seeds",
+      "category": "Grow more",
+      "filter_group": "Grow more",
+      "difficulty": "beginner",
+      "about": "Keep seeds from this season for the next.",
+      "howToSteps": [
+        "Let a healthy fruit or flower fully ripen.",
+        "Dry the seeds in the shade.",
+        "Store them in a labelled paper packet."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "save your own seeds",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Grow more"
+      }
+    },
+    {
+      "id": "skill_make_seed_balls",
+      "challenge_id": "explore_garden_skills",
+      "name": "Make seed balls",
+      "category": "Grow more",
+      "filter_group": "Grow more",
+      "difficulty": "beginner",
+      "about": "Clay-and-compost balls to scatter seeds.",
+      "howToSteps": [
+        "Mix clay, compost and a few seeds with a little water.",
+        "Roll into small balls and dry them.",
+        "Toss them on bare ground before the monsoon."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "make seed balls",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Grow more"
+      }
+    },
+    {
+      "id": "skill_try_air_layering",
+      "challenge_id": "explore_garden_skills",
+      "name": "Try air layering",
+      "category": "Advanced",
+      "filter_group": "Advanced",
+      "difficulty": "beginner",
+      "about": "Root a branch while it's still on the plant.",
+      "howToSteps": [
+        "Remove a ring of bark on a healthy branch.",
+        "Wrap it in moist moss and plastic.",
+        "Cut and pot it once roots show."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "try air layering",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Advanced"
+      }
+    },
+    {
+      "id": "skill_hand_pollinate_flowers",
+      "challenge_id": "explore_garden_skills",
+      "name": "Hand-pollinate flowers",
+      "category": "Advanced",
+      "filter_group": "Advanced",
+      "difficulty": "beginner",
+      "about": "Help gourds and squash set fruit on a terrace.",
+      "howToSteps": [
+        "Find a male flower (no tiny fruit behind it).",
+        "Brush its pollen onto a female flower.",
+        "Do it in the morning."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "hand-pollinate flowers",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Advanced"
+      }
+    },
+    {
+      "id": "skill_start_vermicomposting",
+      "challenge_id": "explore_garden_skills",
+      "name": "Start vermicomposting",
+      "category": "Advanced",
+      "filter_group": "Advanced",
+      "difficulty": "beginner",
+      "about": "Let earthworms make rich compost.",
+      "howToSteps": [
+        "Set up a bin with moist bedding and worms.",
+        "Feed vegetable scraps, not dairy or oil.",
+        "Harvest the compost after a few months."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "start vermicomposting",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Advanced"
+      }
+    },
+    {
+      "id": "skill_collect_rainwater_for_the_garden",
+      "challenge_id": "explore_garden_skills",
+      "name": "Collect rainwater for the garden",
+      "category": "Advanced",
+      "filter_group": "Advanced",
+      "difficulty": "beginner",
+      "about": "Save monsoon rain for drier days.",
+      "howToSteps": [
+        "Place a bucket or drum under a downpipe.",
+        "Cover it to keep mosquitoes out.",
+        "Use it to water your plants."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "collect rainwater for the garden",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Advanced"
+      }
+    },
+    {
+      "id": "skill_shape_a_bonsai",
+      "challenge_id": "explore_garden_skills",
+      "name": "Shape a bonsai",
+      "category": "Advanced",
+      "filter_group": "Advanced",
+      "difficulty": "beginner",
+      "about": "Prune and wire a small tree into shape.",
+      "howToSteps": [
+        "Choose a branch structure you like.",
+        "Prune unwanted branches gradually.",
+        "Wire lightly and remove before it cuts in."
+      ],
+      "tags": [
+        "garden",
+        "skill"
+      ],
+      "keywords": [
+        "shape a bonsai",
+        "gardening skill"
+      ],
+      "metadata": {
+        "Level": "Advanced"
+      }
+    }
+  ]
+}

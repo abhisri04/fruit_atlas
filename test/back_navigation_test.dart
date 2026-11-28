@@ -11,7 +11,11 @@ void main() {
   testWidgets(
     'System back returns sections home and requires a second exit back',
     (tester) async {
-      SharedPreferences.setMockInitialValues({});
+      SharedPreferences.setMockInitialValues({'welcome_done_v1': true});
+      tester.view.physicalSize = const Size(320, 700);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
       var systemExitRequested = false;
       tester.binding.defaultBinaryMessenger.setMockMethodCallHandler(
         SystemChannels.platform,
@@ -57,7 +61,14 @@ void main() {
       await tester.pump();
 
       final navigation = find.byType(NavigationBar);
-      for (final section in ['Discover', 'Saved', 'My Life']) {
+      expect(
+        find.descendant(
+          of: navigation,
+          matching: find.byType(NavigationDestination),
+        ),
+        findsNWidgets(4),
+      );
+      for (final section in ['Explore', 'Hobbies', 'My Life']) {
         await tester.tap(
           find.descendant(of: navigation, matching: find.text(section)),
         );
@@ -71,14 +82,16 @@ void main() {
         );
 
         await tester.binding.handlePopRoute();
-        await tester.pumpAndSettle();
+        // Home can keep loading Daily Discovery in the background. Pump the
+        // navigation frame without waiting for unrelated loading animations.
+        await tester.pump(const Duration(milliseconds: 300));
         expect(tester.widget<NavigationBar>(navigation).selectedIndex, 0);
-        expect(find.text('Press back again to exit Fruit Atlas'), findsNothing);
+        expect(find.text('Press back again to exit UPLYFA'), findsNothing);
       }
 
       await tester.binding.handlePopRoute();
       await tester.pump();
-      expect(find.text('Press back again to exit Fruit Atlas'), findsOneWidget);
+      expect(find.text('Press back again to exit UPLYFA'), findsOneWidget);
 
       await tester.binding.handlePopRoute();
       await tester.pump();

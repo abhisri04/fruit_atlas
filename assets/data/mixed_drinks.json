@@ -1,0 +1,6953 @@
+{
+  "challenge_id": "mix_drinks",
+  "version": 1,
+  "countries": {
+    "AU": {
+      "name": "Australia",
+      "continent": "Oceania"
+    },
+    "BE": {
+      "name": "Belgium",
+      "continent": "Europe"
+    },
+    "BM": {
+      "name": "Bermuda",
+      "continent": "North America"
+    },
+    "BR": {
+      "name": "Brazil",
+      "continent": "South America"
+    },
+    "CU": {
+      "name": "Cuba",
+      "continent": "North America"
+    },
+    "DE": {
+      "name": "Germany",
+      "continent": "Europe"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "continent": "Africa"
+    },
+    "ES": {
+      "name": "Spain",
+      "continent": "Europe"
+    },
+    "FR": {
+      "name": "France",
+      "continent": "Europe"
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "continent": "Europe"
+    },
+    "GR": {
+      "name": "Greece",
+      "continent": "Europe"
+    },
+    "IE": {
+      "name": "Ireland",
+      "continent": "Europe"
+    },
+    "IL": {
+      "name": "Israel",
+      "continent": "Asia"
+    },
+    "IN": {
+      "name": "India",
+      "continent": "Asia"
+    },
+    "IT": {
+      "name": "Italy",
+      "continent": "Europe"
+    },
+    "JP": {
+      "name": "Japan",
+      "continent": "Asia"
+    },
+    "KE": {
+      "name": "Kenya",
+      "continent": "Africa"
+    },
+    "KR": {
+      "name": "South Korea",
+      "continent": "Asia"
+    },
+    "MA": {
+      "name": "Morocco",
+      "continent": "Africa"
+    },
+    "MX": {
+      "name": "Mexico",
+      "continent": "North America"
+    },
+    "PE": {
+      "name": "Peru",
+      "continent": "South America"
+    },
+    "PR": {
+      "name": "Puerto Rico",
+      "continent": "North America"
+    },
+    "SG": {
+      "name": "Singapore",
+      "continent": "Asia"
+    },
+    "TH": {
+      "name": "Thailand",
+      "continent": "Asia"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "continent": "Asia"
+    },
+    "US": {
+      "name": "United States",
+      "continent": "North America"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "continent": "Asia"
+    }
+  },
+  "ingredient_groups": [
+    "Fruit & juice",
+    "Herbs & spices",
+    "Sweeteners & syrups",
+    "Fizz & mixers",
+    "Milk & cream",
+    "Tea & coffee",
+    "Pantry",
+    "Spirits",
+    "Liqueurs, wine & beer"
+  ],
+  "alcohol_groups": [
+    "Liqueurs, wine & beer",
+    "Spirits"
+  ],
+  "ingredients": {
+    "lime": {
+      "name": "Lime",
+      "group": "Fruit & juice"
+    },
+    "lemon": {
+      "name": "Lemon",
+      "group": "Fruit & juice"
+    },
+    "orange": {
+      "name": "Orange",
+      "group": "Fruit & juice"
+    },
+    "mosambi": {
+      "name": "Sweet lime (mosambi)",
+      "group": "Fruit & juice"
+    },
+    "pineapple_juice": {
+      "name": "Pineapple juice",
+      "group": "Fruit & juice"
+    },
+    "cranberry_juice": {
+      "name": "Cranberry juice",
+      "group": "Fruit & juice"
+    },
+    "grapefruit_juice": {
+      "name": "Grapefruit juice",
+      "group": "Fruit & juice"
+    },
+    "apple_juice": {
+      "name": "Apple juice",
+      "group": "Fruit & juice"
+    },
+    "tomato_juice": {
+      "name": "Tomato juice",
+      "group": "Fruit & juice"
+    },
+    "grape_juice": {
+      "name": "Red grape juice",
+      "group": "Fruit & juice"
+    },
+    "guava_juice": {
+      "name": "Guava juice",
+      "group": "Fruit & juice"
+    },
+    "mango": {
+      "name": "Ripe mango or mango pulp",
+      "group": "Fruit & juice"
+    },
+    "jamun": {
+      "name": "Jamun pulp",
+      "group": "Fruit & juice"
+    },
+    "peach": {
+      "name": "Peach purée or nectar",
+      "group": "Fruit & juice"
+    },
+    "watermelon": {
+      "name": "Watermelon",
+      "group": "Fruit & juice"
+    },
+    "passion_fruit": {
+      "name": "Passion fruit",
+      "group": "Fruit & juice"
+    },
+    "mint": {
+      "name": "Mint",
+      "group": "Herbs & spices"
+    },
+    "cinnamon": {
+      "name": "Cinnamon stick",
+      "group": "Herbs & spices"
+    },
+    "cloves": {
+      "name": "Cloves",
+      "group": "Herbs & spices"
+    },
+    "star_anise": {
+      "name": "Star anise",
+      "group": "Herbs & spices"
+    },
+    "black_salt": {
+      "name": "Black salt (kala namak)",
+      "group": "Herbs & spices"
+    },
+    "salt": {
+      "name": "Salt",
+      "group": "Herbs & spices"
+    },
+    "chaat_masala": {
+      "name": "Chaat masala",
+      "group": "Herbs & spices"
+    },
+    "cumin": {
+      "name": "Roasted cumin powder",
+      "group": "Herbs & spices"
+    },
+    "chilli": {
+      "name": "Red chilli powder",
+      "group": "Herbs & spices"
+    },
+    "green_chilli": {
+      "name": "Green chilli",
+      "group": "Herbs & spices"
+    },
+    "black_pepper": {
+      "name": "Black pepper",
+      "group": "Herbs & spices"
+    },
+    "fennel": {
+      "name": "Fennel seeds (saunf)",
+      "group": "Herbs & spices"
+    },
+    "paan": {
+      "name": "Betel (paan) leaves",
+      "group": "Herbs & spices"
+    },
+    "hibiscus": {
+      "name": "Dried hibiscus flowers",
+      "group": "Herbs & spices"
+    },
+    "tamarind": {
+      "name": "Tamarind (imli) pulp",
+      "group": "Herbs & spices"
+    },
+    "hot_sauce": {
+      "name": "Hot chilli sauce",
+      "group": "Herbs & spices"
+    },
+    "worcestershire": {
+      "name": "Worcestershire sauce",
+      "group": "Herbs & spices"
+    },
+    "sugar": {
+      "name": "Sugar",
+      "group": "Sweeteners & syrups"
+    },
+    "sugar_syrup": {
+      "name": "Sugar syrup",
+      "group": "Sweeteners & syrups"
+    },
+    "brown_sugar": {
+      "name": "Brown sugar",
+      "group": "Sweeteners & syrups"
+    },
+    "jaggery": {
+      "name": "Jaggery (gur)",
+      "group": "Sweeteners & syrups"
+    },
+    "honey": {
+      "name": "Honey",
+      "group": "Sweeteners & syrups"
+    },
+    "grenadine": {
+      "name": "Grenadine (pomegranate syrup)",
+      "group": "Sweeteners & syrups"
+    },
+    "kala_khatta": {
+      "name": "Kala khatta syrup",
+      "group": "Sweeteners & syrups"
+    },
+    "blue_syrup": {
+      "name": "Blue curaçao syrup (alcohol-free)",
+      "group": "Sweeteners & syrups"
+    },
+    "fruit_syrup": {
+      "name": "Any fruit syrup",
+      "group": "Sweeteners & syrups"
+    },
+    "chocolate_syrup": {
+      "name": "Chocolate syrup",
+      "group": "Sweeteners & syrups"
+    },
+    "elderflower": {
+      "name": "Elderflower cordial",
+      "group": "Sweeteners & syrups"
+    },
+    "gulkand": {
+      "name": "Gulkand (rose petal jam)",
+      "group": "Sweeteners & syrups"
+    },
+    "orgeat": {
+      "name": "Almond syrup (orgeat)",
+      "group": "Sweeteners & syrups"
+    },
+    "soda": {
+      "name": "Soda water",
+      "group": "Fizz & mixers"
+    },
+    "tonic": {
+      "name": "Tonic water",
+      "group": "Fizz & mixers"
+    },
+    "ginger_ale": {
+      "name": "Ginger ale",
+      "group": "Fizz & mixers"
+    },
+    "ginger_beer": {
+      "name": "Ginger beer",
+      "group": "Fizz & mixers"
+    },
+    "cola": {
+      "name": "Cola",
+      "group": "Fizz & mixers"
+    },
+    "lemon_soda": {
+      "name": "Lemon-lime soda",
+      "group": "Fizz & mixers"
+    },
+    "milk": {
+      "name": "Milk",
+      "group": "Milk & cream"
+    },
+    "cream": {
+      "name": "Fresh cream",
+      "group": "Milk & cream"
+    },
+    "ice_cream": {
+      "name": "Vanilla ice cream",
+      "group": "Milk & cream"
+    },
+    "coconut_cream": {
+      "name": "Coconut cream",
+      "group": "Milk & cream"
+    },
+    "condensed_milk": {
+      "name": "Condensed milk",
+      "group": "Milk & cream"
+    },
+    "black_tea": {
+      "name": "Black tea",
+      "group": "Tea & coffee"
+    },
+    "green_tea": {
+      "name": "Green tea",
+      "group": "Tea & coffee"
+    },
+    "matcha": {
+      "name": "Matcha powder",
+      "group": "Tea & coffee"
+    },
+    "coffee": {
+      "name": "Instant coffee",
+      "group": "Tea & coffee"
+    },
+    "espresso": {
+      "name": "Strong coffee or espresso",
+      "group": "Tea & coffee"
+    },
+    "tapioca": {
+      "name": "Tapioca pearls",
+      "group": "Pantry"
+    },
+    "rice": {
+      "name": "Raw rice",
+      "group": "Pantry"
+    },
+    "egg": {
+      "name": "Egg",
+      "group": "Pantry"
+    },
+    "white_rum": {
+      "name": "White rum",
+      "group": "Spirits"
+    },
+    "dark_rum": {
+      "name": "Dark rum",
+      "group": "Spirits"
+    },
+    "cachaca": {
+      "name": "Cachaça",
+      "group": "Spirits"
+    },
+    "tequila": {
+      "name": "Tequila",
+      "group": "Spirits"
+    },
+    "vodka": {
+      "name": "Vodka",
+      "group": "Spirits"
+    },
+    "gin": {
+      "name": "Gin",
+      "group": "Spirits"
+    },
+    "whisky": {
+      "name": "Whisky",
+      "group": "Spirits"
+    },
+    "pisco": {
+      "name": "Pisco",
+      "group": "Spirits"
+    },
+    "brandy": {
+      "name": "Brandy",
+      "group": "Spirits"
+    },
+    "feni": {
+      "name": "Cashew feni",
+      "group": "Spirits"
+    },
+    "orange_liqueur": {
+      "name": "Orange liqueur",
+      "group": "Liqueurs, wine & beer"
+    },
+    "coffee_liqueur": {
+      "name": "Coffee liqueur",
+      "group": "Liqueurs, wine & beer"
+    },
+    "cherry_liqueur": {
+      "name": "Cherry liqueur",
+      "group": "Liqueurs, wine & beer"
+    },
+    "red_aperitif": {
+      "name": "Bitter red aperitif",
+      "group": "Liqueurs, wine & beer"
+    },
+    "orange_aperitif": {
+      "name": "Bitter orange aperitif",
+      "group": "Liqueurs, wine & beer"
+    },
+    "sweet_vermouth": {
+      "name": "Sweet vermouth",
+      "group": "Liqueurs, wine & beer"
+    },
+    "dry_vermouth": {
+      "name": "Dry vermouth",
+      "group": "Liqueurs, wine & beer"
+    },
+    "sparkling_wine": {
+      "name": "Sparkling wine",
+      "group": "Liqueurs, wine & beer"
+    },
+    "red_wine": {
+      "name": "Red wine",
+      "group": "Liqueurs, wine & beer"
+    },
+    "cassis": {
+      "name": "Blackcurrant liqueur",
+      "group": "Liqueurs, wine & beer"
+    },
+    "beer": {
+      "name": "Light beer",
+      "group": "Liqueurs, wine & beer"
+    },
+    "bitters": {
+      "name": "Aromatic bitters",
+      "group": "Liqueurs, wine & beer"
+    }
+  },
+  "items": [
+    {
+      "id": "mix_virgin_mojito",
+      "challenge_id": "mix_drinks",
+      "name": "Virgin Mojito",
+      "category": "Mocktail",
+      "filter_group": "Muddle",
+      "about": "All the cool, minty fizz of Havana's famous drink, with no rum. The most ordered mocktail on Indian menus.",
+      "aliases": [
+        "Nojito"
+      ],
+      "howToSteps": [
+        "Press the mint, lime wedges and sugar together in the glass.",
+        "Fill with crushed ice.",
+        "Top up with soda and stir gently."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "virgin mojito",
+        "mocktail",
+        "cuba",
+        "minty",
+        "citrusy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Also called": "Nojito",
+        "Comes from": "Cuba",
+        "Method": "Muddle",
+        "Glass": "Highball",
+        "Takes": "4 min",
+        "You need": "Mint, Lime, Sugar, Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "CU",
+        "spirit": null,
+        "method": "Muddle",
+        "glass": "Highball",
+        "minutes": 4,
+        "flavours": [
+          "Minty",
+          "Citrusy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "mint",
+            "qty": 10,
+            "unit": "leaves",
+            "label": "mint",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 3,
+            "unit": "wedges",
+            "label": "lime",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tsp",
+            "label": "sugar",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Press the mint, lime wedges and sugar together in the glass.",
+          "Fill with crushed ice.",
+          "Top up with soda and stir gently."
+        ],
+        "garnish": "A mint sprig and a lime wheel",
+        "zero_proof": null,
+        "fact": "The mojito's ancestor, El Draque, is said to be named after the explorer Francis Drake.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_shirley_temple",
+      "challenge_id": "mix_drinks",
+      "name": "Shirley Temple",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Ginger ale blushed with grenadine: the original 'kids' cocktail', still loved by grown-ups.",
+      "aliases": [],
+      "howToSteps": [
+        "Fill a glass with ice and pour in the ginger ale.",
+        "Drizzle the grenadine in so it sinks and glows red."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "shirley temple",
+        "mocktail",
+        "united states",
+        "sweet",
+        "fizzy",
+        "fruity"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Ginger ale, Grenadine (pomegranate syrup)"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Sweet",
+          "Fizzy",
+          "Fruity"
+        ],
+        "ingredients": [
+          {
+            "id": "ginger_ale",
+            "qty": 200,
+            "unit": "ml",
+            "label": "ginger ale",
+            "optional": false
+          },
+          {
+            "id": "grenadine",
+            "qty": 15,
+            "unit": "ml",
+            "label": "grenadine (pomegranate syrup)",
+            "optional": false
+          },
+          {
+            "id": "orange",
+            "qty": 1,
+            "unit": "slice",
+            "label": "orange",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Fill a glass with ice and pour in the ginger ale.",
+          "Drizzle the grenadine in so it sinks and glows red."
+        ],
+        "garnish": "A cherry and an orange slice",
+        "zero_proof": null,
+        "fact": "It's named after the 1930s child star Shirley Temple, who said she found it too sweet.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_roy_rogers",
+      "challenge_id": "mix_drinks",
+      "name": "Roy Rogers",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Cola with a cherry-red splash of grenadine. Simple and quietly fun.",
+      "aliases": [],
+      "howToSteps": [
+        "Fill a glass with ice and pour in the cola.",
+        "Add the grenadine and stir once."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "roy rogers",
+        "mocktail",
+        "united states",
+        "sweet",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Cola, Grenadine (pomegranate syrup)"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Sweet",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "cola",
+            "qty": 200,
+            "unit": "ml",
+            "label": "cola",
+            "optional": false
+          },
+          {
+            "id": "grenadine",
+            "qty": 15,
+            "unit": "ml",
+            "label": "grenadine (pomegranate syrup)",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Fill a glass with ice and pour in the cola.",
+          "Add the grenadine and stir once."
+        ],
+        "garnish": "A cherry",
+        "zero_proof": null,
+        "fact": "It's named after Roy Rogers, the 'singing cowboy' of Hollywood westerns.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_arnold_palmer",
+      "challenge_id": "mix_drinks",
+      "name": "Arnold Palmer",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Half iced tea, half lemonade. Refreshing on a hot afternoon.",
+      "aliases": [
+        "Half and half"
+      ],
+      "howToSteps": [
+        "Stir the lemon juice and syrup with 90 ml cold water to make lemonade.",
+        "Fill a glass with ice, pour in the lemonade, then the cold tea."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "arnold palmer",
+        "mocktail",
+        "united states",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Also called": "Half and half",
+        "Comes from": "United States",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "5 min",
+        "You need": "Black tea, Lemon, Sugar syrup"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 5,
+        "flavours": [
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "black_tea",
+            "qty": 120,
+            "unit": "ml",
+            "label": "black tea, brewed and cooled",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 30,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 20,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the lemon juice and syrup with 90 ml cold water to make lemonade.",
+          "Fill a glass with ice, pour in the lemonade, then the cold tea."
+        ],
+        "garnish": "A lemon wheel",
+        "zero_proof": null,
+        "fact": "The golfer Arnold Palmer used to order it after rounds in the 1960s, and it took his name.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_virgin_pi_a_colada",
+      "challenge_id": "mix_drinks",
+      "name": "Virgin Piña Colada",
+      "category": "Mocktail",
+      "filter_group": "Blend",
+      "about": "Pineapple and coconut blended to a beach-holiday slush.",
+      "aliases": [],
+      "howToSteps": [
+        "Blend everything with a cup of ice until smooth.",
+        "Pour into a tall glass."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "virgin piña colada",
+        "mocktail",
+        "puerto rico",
+        "creamy",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Puerto Rico",
+        "Method": "Blend",
+        "Glass": "Hurricane or tall glass",
+        "Takes": "4 min",
+        "You need": "Pineapple juice, Coconut cream"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "PR",
+        "spirit": null,
+        "method": "Blend",
+        "glass": "Hurricane or tall glass",
+        "minutes": 4,
+        "flavours": [
+          "Creamy",
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "pineapple_juice",
+            "qty": 120,
+            "unit": "ml",
+            "label": "pineapple juice",
+            "optional": false
+          },
+          {
+            "id": "coconut_cream",
+            "qty": 60,
+            "unit": "ml",
+            "label": "coconut cream",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 10,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Blend everything with a cup of ice until smooth.",
+          "Pour into a tall glass."
+        ],
+        "garnish": "A pineapple wedge",
+        "zero_proof": null,
+        "fact": "Coconut cream was the secret: tinned coconut cream made the drink possible in the 1950s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_virgin_mary",
+      "challenge_id": "mix_drinks",
+      "name": "Virgin Mary",
+      "category": "Mocktail",
+      "filter_group": "Stir",
+      "about": "A savoury, peppery tomato drink: brunch in a glass, without the vodka.",
+      "aliases": [
+        "Bloody Shame"
+      ],
+      "howToSteps": [
+        "Stir everything with ice in a glass.",
+        "Taste and add more spice if you like it hot."
+      ],
+      "practiceSafety": "Worcestershire sauce usually contains fish (anchovies).",
+      "keywords": [
+        "virgin mary",
+        "mocktail",
+        "france",
+        "spicy",
+        "tangy"
+      ],
+      "metadata": {
+        "Also called": "Bloody Shame",
+        "Comes from": "France",
+        "Method": "Stir",
+        "Glass": "Highball",
+        "Takes": "4 min",
+        "You need": "Tomato juice, Lemon, Worcestershire sauce, Hot chilli sauce, Salt, Black pepper"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "FR",
+        "spirit": null,
+        "method": "Stir",
+        "glass": "Highball",
+        "minutes": 4,
+        "flavours": [
+          "Spicy",
+          "Tangy"
+        ],
+        "ingredients": [
+          {
+            "id": "tomato_juice",
+            "qty": 150,
+            "unit": "ml",
+            "label": "tomato juice",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "worcestershire",
+            "qty": 3,
+            "unit": "dashes",
+            "label": "worcestershire sauce",
+            "optional": false
+          },
+          {
+            "id": "hot_sauce",
+            "qty": 2,
+            "unit": "dashes",
+            "label": "hot chilli sauce",
+            "optional": false
+          },
+          {
+            "id": "salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "salt",
+            "optional": false
+          },
+          {
+            "id": "black_pepper",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "black pepper",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir everything with ice in a glass.",
+          "Taste and add more spice if you like it hot."
+        ],
+        "garnish": "A celery stick or a lemon wedge",
+        "zero_proof": null,
+        "fact": "Worcestershire sauce usually contains anchovies. Skip it for a vegetarian version.",
+        "safety": "Worcestershire sauce usually contains fish (anchovies)."
+      }
+    },
+    {
+      "id": "mix_cinderella",
+      "challenge_id": "mix_drinks",
+      "name": "Cinderella",
+      "category": "Mocktail",
+      "filter_group": "Shake",
+      "about": "Three juices shaken into a sunset-coloured party drink.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake the juices and grenadine with ice.",
+        "Strain into an ice-filled glass and top with a splash of soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "cinderella",
+        "mocktail",
+        "united states",
+        "fruity",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Shake",
+        "Glass": "Highball",
+        "Takes": "4 min",
+        "You need": "Orange, Pineapple juice, Lemon, Grenadine (pomegranate syrup)"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Shake",
+        "glass": "Highball",
+        "minutes": 4,
+        "flavours": [
+          "Fruity",
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "orange",
+            "qty": 60,
+            "unit": "ml",
+            "label": "orange juice",
+            "optional": false
+          },
+          {
+            "id": "pineapple_juice",
+            "qty": 60,
+            "unit": "ml",
+            "label": "pineapple juice",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 30,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "grenadine",
+            "qty": 5,
+            "unit": "ml",
+            "label": "grenadine (pomegranate syrup)",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Shake the juices and grenadine with ice.",
+          "Strain into an ice-filled glass and top with a splash of soda."
+        ],
+        "garnish": "An orange slice",
+        "zero_proof": null,
+        "fact": "Bartenders have served it as the zero-proof choice at parties for nearly a century.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_blue_lagoon_mocktail",
+      "challenge_id": "mix_drinks",
+      "name": "Blue Lagoon Mocktail",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Electric blue and lemony. Looks like a holiday, tastes like lemonade.",
+      "aliases": [],
+      "howToSteps": [
+        "Fill a glass with ice and add the blue syrup and lemon juice.",
+        "Top up with lemon-lime soda and stir."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "blue lagoon mocktail",
+        "mocktail",
+        "france",
+        "citrusy",
+        "fizzy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "France",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Blue curaçao syrup (alcohol-free), Lemon, Lemon-lime soda"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "FR",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Citrusy",
+          "Fizzy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "blue_syrup",
+            "qty": 20,
+            "unit": "ml",
+            "label": "blue curaçao syrup (alcohol-free)",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "lemon_soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "lemon-lime soda",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Fill a glass with ice and add the blue syrup and lemon juice.",
+          "Top up with lemon-lime soda and stir."
+        ],
+        "garnish": "A lemon wheel",
+        "zero_proof": null,
+        "fact": "The original Blue Lagoon cocktail is credited to Harry's New York Bar in Paris in the 1960s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_pink_lemonade",
+      "challenge_id": "mix_drinks",
+      "name": "Pink Lemonade",
+      "category": "Mocktail",
+      "filter_group": "Stir",
+      "about": "Lemonade with a blush of berries.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the lemon, syrup and cranberry with 150 ml cold water.",
+        "Pour over ice. Use soda instead of water for fizz."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "pink lemonade",
+        "mocktail",
+        "united states",
+        "citrusy",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Stir",
+        "Glass": "Mason jar",
+        "Takes": "3 min",
+        "You need": "Lemon, Sugar syrup, Cranberry juice"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Stir",
+        "glass": "Mason jar",
+        "minutes": 3,
+        "flavours": [
+          "Citrusy",
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "lemon",
+            "qty": 45,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 30,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "cranberry_juice",
+            "qty": 30,
+            "unit": "ml",
+            "label": "cranberry juice",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Stir the lemon, syrup and cranberry with 150 ml cold water.",
+          "Pour over ice. Use soda instead of water for fizz."
+        ],
+        "garnish": "Lemon slices and a few berries",
+        "zero_proof": null,
+        "fact": "American travelling circuses sold pink lemonade in the 1800s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_lime_rickey",
+      "challenge_id": "mix_drinks",
+      "name": "Lime Rickey",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Sharp, bubbly and barely sweet. An old American soda-fountain favourite.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the lime juice and syrup over ice.",
+        "Top up with soda and stir."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "lime rickey",
+        "mocktail",
+        "united states",
+        "citrusy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Lime, Sugar syrup, Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Citrusy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "lime",
+            "qty": 30,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 20,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the lime juice and syrup over ice.",
+          "Top up with soda and stir."
+        ],
+        "garnish": "The squeezed lime shell, dropped in",
+        "zero_proof": null,
+        "fact": "The Rickey is named after Joe Rickey, a Washington lobbyist of the 1880s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_egg_cream",
+      "challenge_id": "mix_drinks",
+      "name": "Egg Cream",
+      "category": "Mocktail",
+      "filter_group": "Stir",
+      "about": "A fizzy chocolate milk from old New York delis.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the syrup and cold milk into a glass.",
+        "Add the soda fast and stir hard until a foamy head rises."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "egg cream",
+        "mocktail",
+        "united states",
+        "creamy",
+        "sweet",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Stir",
+        "Glass": "Tall glass",
+        "Takes": "2 min",
+        "You need": "Chocolate syrup, Milk, Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Stir",
+        "glass": "Tall glass",
+        "minutes": 2,
+        "flavours": [
+          "Creamy",
+          "Sweet",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "chocolate_syrup",
+            "qty": 30,
+            "unit": "ml",
+            "label": "chocolate syrup",
+            "optional": false
+          },
+          {
+            "id": "milk",
+            "qty": 60,
+            "unit": "ml",
+            "label": "cold milk",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": 150,
+            "unit": "ml",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the syrup and cold milk into a glass.",
+          "Add the soda fast and stir hard until a foamy head rises."
+        ],
+        "garnish": "None: the foam is the point",
+        "zero_proof": null,
+        "fact": "Despite the name, an egg cream has no egg and no cream.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_italian_soda",
+      "challenge_id": "mix_drinks",
+      "name": "Italian Soda",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Any fruit syrup plus soda: make it with whatever flavour you have.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the syrup over ice and top up with soda.",
+        "Float a spoon of cream on top for a creamy 'cremosa'."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "italian soda",
+        "mocktail",
+        "united states",
+        "fruity",
+        "fizzy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Build",
+        "Glass": "Tall glass",
+        "Takes": "2 min",
+        "You need": "Any fruit syrup, Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Tall glass",
+        "minutes": 2,
+        "flavours": [
+          "Fruity",
+          "Fizzy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "fruit_syrup",
+            "qty": 30,
+            "unit": "ml",
+            "label": "any fruit syrup",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": 200,
+            "unit": "ml",
+            "label": "soda water",
+            "optional": false
+          },
+          {
+            "id": "cream",
+            "qty": 15,
+            "unit": "ml",
+            "label": "fresh cream",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Pour the syrup over ice and top up with soda.",
+          "Float a spoon of cream on top for a creamy 'cremosa'."
+        ],
+        "garnish": "Fresh fruit",
+        "zero_proof": null,
+        "fact": "Despite the name, Italian soda was first made by Italian immigrants in San Francisco in the 1920s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_virgin_mule",
+      "challenge_id": "mix_drinks",
+      "name": "Virgin Mule",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "All the ginger kick of a Moscow Mule, without the vodka.",
+      "aliases": [
+        "Ginger Lime Fizz"
+      ],
+      "howToSteps": [
+        "Fill a mug with ice, add the lime juice and ginger beer.",
+        "Stir and slap a mint sprig on top."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "virgin mule",
+        "mocktail",
+        "united states",
+        "spicy",
+        "citrusy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Also called": "Ginger Lime Fizz",
+        "Comes from": "United States",
+        "Method": "Build",
+        "Glass": "Copper mug or tumbler",
+        "Takes": "2 min",
+        "You need": "Ginger beer, Lime"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Copper mug or tumbler",
+        "minutes": 2,
+        "flavours": [
+          "Spicy",
+          "Citrusy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "ginger_beer",
+            "qty": 150,
+            "unit": "ml",
+            "label": "ginger beer",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "mint",
+            "qty": 4,
+            "unit": "leaves",
+            "label": "mint",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Fill a mug with ice, add the lime juice and ginger beer.",
+          "Stir and slap a mint sprig on top."
+        ],
+        "garnish": "A lime wedge and mint",
+        "zero_proof": null,
+        "fact": "Copper mugs keep the drink icy because copper carries the cold to your hand.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_elderflower_press",
+      "challenge_id": "mix_drinks",
+      "name": "Elderflower Pressé",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "A floral, gently sweet English summer fizz.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the cordial and lemon over ice.",
+        "Top up with soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "elderflower pressé",
+        "mocktail",
+        "united kingdom",
+        "fizzy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United Kingdom",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Elderflower cordial, Lemon, Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "GB",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Fizzy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "elderflower",
+            "qty": 30,
+            "unit": "ml",
+            "label": "elderflower cordial",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 10,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": 200,
+            "unit": "ml",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the cordial and lemon over ice.",
+          "Top up with soda."
+        ],
+        "garnish": "A cucumber ribbon or lemon slice",
+        "zero_proof": null,
+        "fact": "Elderflowers are picked in early summer and steeped with sugar and lemon to make the cordial.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_virgin_sangria",
+      "challenge_id": "mix_drinks",
+      "name": "Virgin Sangria",
+      "category": "Mocktail",
+      "filter_group": "Stir",
+      "about": "Red grape juice and fruit, the party drink of Spain made alcohol-free.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the juices with chopped fruit and the cinnamon.",
+        "Chill for 30 minutes if you can, then pour over ice with a splash of soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "virgin sangria",
+        "mocktail",
+        "spain",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Spain",
+        "Method": "Stir",
+        "Glass": "Wine glass",
+        "Takes": "5 min",
+        "You need": "Red grape juice, Orange"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "ES",
+        "spirit": null,
+        "method": "Stir",
+        "glass": "Wine glass",
+        "minutes": 5,
+        "flavours": [
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "grape_juice",
+            "qty": 150,
+            "unit": "ml",
+            "label": "red grape juice",
+            "optional": false
+          },
+          {
+            "id": "orange",
+            "qty": 60,
+            "unit": "ml",
+            "label": "orange juice",
+            "optional": false
+          },
+          {
+            "id": "orange",
+            "qty": 2,
+            "unit": "slices",
+            "label": "orange slices",
+            "optional": false
+          },
+          {
+            "id": "cinnamon",
+            "qty": 1,
+            "unit": "",
+            "label": "cinnamon stick",
+            "optional": true
+          },
+          {
+            "id": "soda",
+            "qty": 50,
+            "unit": "ml",
+            "label": "soda water",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Stir the juices with chopped fruit and the cinnamon.",
+          "Chill for 30 minutes if you can, then pour over ice with a splash of soda."
+        ],
+        "garnish": "Chopped apple and orange",
+        "zero_proof": null,
+        "fact": "Sangria comes from 'sangre', Spanish for blood, after its deep red colour.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_limonana",
+      "challenge_id": "mix_drinks",
+      "name": "Limonana",
+      "category": "Mocktail",
+      "filter_group": "Blend",
+      "about": "A frosty green blend of lemon and lots of mint, loved across the Middle East.",
+      "aliases": [
+        "Frozen mint lemonade"
+      ],
+      "howToSteps": [
+        "Blend the lemon, mint, syrup and 60 ml water with a cup of ice.",
+        "Pour into a tall glass straight away."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "limonana",
+        "mocktail",
+        "israel",
+        "minty",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Also called": "Frozen mint lemonade",
+        "Comes from": "Israel",
+        "Method": "Blend",
+        "Glass": "Tall glass",
+        "Takes": "4 min",
+        "You need": "Lemon, Mint, Sugar syrup"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IL",
+        "spirit": null,
+        "method": "Blend",
+        "glass": "Tall glass",
+        "minutes": 4,
+        "flavours": [
+          "Minty",
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "lemon",
+            "qty": 60,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "mint",
+            "qty": 12,
+            "unit": "leaves",
+            "label": "mint",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 40,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Blend the lemon, mint, syrup and 60 ml water with a cup of ice.",
+          "Pour into a tall glass straight away."
+        ],
+        "garnish": "A mint sprig",
+        "zero_proof": null,
+        "fact": "The name joins the words for lemon (limon) and mint (nana).",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_watermelon_agua_fresca",
+      "challenge_id": "mix_drinks",
+      "name": "Watermelon Agua Fresca",
+      "category": "Mocktail",
+      "filter_group": "Blend",
+      "about": "'Fresh water': blended fruit, a little lime, poured over ice.",
+      "aliases": [],
+      "howToSteps": [
+        "Blend the watermelon with 120 ml water and the lime.",
+        "Strain, sweeten if needed, and pour over ice."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "watermelon agua fresca",
+        "mocktail",
+        "mexico",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Mexico",
+        "Method": "Blend",
+        "Glass": "Tall glass",
+        "Takes": "5 min",
+        "You need": "Watermelon, Lime"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "MX",
+        "spirit": null,
+        "method": "Blend",
+        "glass": "Tall glass",
+        "minutes": 5,
+        "flavours": [
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "watermelon",
+            "qty": 2,
+            "unit": "cups",
+            "label": "watermelon, cubed",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 15,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Blend the watermelon with 120 ml water and the lime.",
+          "Strain, sweeten if needed, and pour over ice."
+        ],
+        "garnish": "A lime wheel",
+        "zero_proof": null,
+        "fact": "In Mexico agua fresca is sold from giant glass barrels at street stalls.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_agua_de_jamaica",
+      "challenge_id": "mix_drinks",
+      "name": "Agua de Jamaica",
+      "category": "Mocktail",
+      "filter_group": "Heat",
+      "about": "A ruby-red, tart and cooling tea of hibiscus flowers.",
+      "aliases": [
+        "Hibiscus cooler"
+      ],
+      "howToSteps": [
+        "Pour 300 ml boiling water over the hibiscus and steep for 10 minutes.",
+        "Strain, stir in the sugar and cool.",
+        "Serve over ice with a squeeze of lime."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "agua de jamaica",
+        "mocktail",
+        "mexico",
+        "tangy",
+        "fruity"
+      ],
+      "metadata": {
+        "Also called": "Hibiscus cooler",
+        "Comes from": "Mexico",
+        "Method": "Heat",
+        "Glass": "Tall glass",
+        "Takes": "15 min",
+        "You need": "Dried hibiscus flowers, Sugar"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "MX",
+        "spirit": null,
+        "method": "Heat",
+        "glass": "Tall glass",
+        "minutes": 15,
+        "flavours": [
+          "Tangy",
+          "Fruity"
+        ],
+        "ingredients": [
+          {
+            "id": "hibiscus",
+            "qty": 2,
+            "unit": "tbsp",
+            "label": "dried hibiscus flowers",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tbsp",
+            "label": "sugar",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 10,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Pour 300 ml boiling water over the hibiscus and steep for 10 minutes.",
+          "Strain, stir in the sugar and cool.",
+          "Serve over ice with a squeeze of lime."
+        ],
+        "garnish": "A lime wedge",
+        "zero_proof": null,
+        "fact": "It's the same plant as Indian roselle, whose leaves make Andhra's gongura.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_horchata",
+      "challenge_id": "mix_drinks",
+      "name": "Horchata",
+      "category": "Mocktail",
+      "filter_group": "Blend",
+      "about": "A cool, creamy rice-and-cinnamon drink. Soak it the night before.",
+      "aliases": [],
+      "howToSteps": [
+        "Soak the rice and cinnamon in 300 ml water overnight.",
+        "Blend until smooth, then strain through a fine cloth.",
+        "Stir in the milk and sugar and pour over ice."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "horchata",
+        "mocktail",
+        "mexico",
+        "creamy",
+        "sweet",
+        "warming"
+      ],
+      "metadata": {
+        "Comes from": "Mexico",
+        "Method": "Blend",
+        "Glass": "Tall glass",
+        "Takes": "15 min",
+        "You need": "Raw rice, Cinnamon stick, Milk, Sugar"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "MX",
+        "spirit": null,
+        "method": "Blend",
+        "glass": "Tall glass",
+        "minutes": 15,
+        "flavours": [
+          "Creamy",
+          "Sweet",
+          "Warming"
+        ],
+        "ingredients": [
+          {
+            "id": "rice",
+            "qty": 0.25,
+            "unit": "cup",
+            "label": "raw rice",
+            "optional": false
+          },
+          {
+            "id": "cinnamon",
+            "qty": 1,
+            "unit": "",
+            "label": "cinnamon stick",
+            "optional": false
+          },
+          {
+            "id": "milk",
+            "qty": 60,
+            "unit": "ml",
+            "label": "milk",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tbsp",
+            "label": "sugar",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Soak the rice and cinnamon in 300 ml water overnight.",
+          "Blend until smooth, then strain through a fine cloth.",
+          "Stir in the milk and sugar and pour over ice."
+        ],
+        "garnish": "A pinch of ground cinnamon",
+        "zero_proof": null,
+        "fact": "Spain's original horchata is made from tiger nuts, which you'll find in the Nuts section.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_thai_iced_tea",
+      "challenge_id": "mix_drinks",
+      "name": "Thai Iced Tea",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Strong, sweet and creamy, poured over crushed ice.",
+      "aliases": [
+        "Cha yen"
+      ],
+      "howToSteps": [
+        "Stir the condensed milk into the strong tea.",
+        "Pour over ice and float the milk on top."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "thai iced tea",
+        "mocktail",
+        "thailand",
+        "creamy",
+        "sweet"
+      ],
+      "metadata": {
+        "Also called": "Cha yen",
+        "Comes from": "Thailand",
+        "Method": "Build",
+        "Glass": "Tall glass",
+        "Takes": "8 min",
+        "You need": "Black tea, Condensed milk, Milk"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "TH",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Tall glass",
+        "minutes": 8,
+        "flavours": [
+          "Creamy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "black_tea",
+            "qty": 200,
+            "unit": "ml",
+            "label": "strong black tea, cooled",
+            "optional": false
+          },
+          {
+            "id": "condensed_milk",
+            "qty": 30,
+            "unit": "ml",
+            "label": "condensed milk",
+            "optional": false
+          },
+          {
+            "id": "milk",
+            "qty": 30,
+            "unit": "ml",
+            "label": "milk",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the condensed milk into the strong tea.",
+          "Pour over ice and float the milk on top."
+        ],
+        "garnish": "None",
+        "zero_proof": null,
+        "fact": "The bright orange colour of street versions comes from spiced tea mixes.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_vietnamese_iced_coffee",
+      "challenge_id": "mix_drinks",
+      "name": "Vietnamese Iced Coffee",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Bold drip coffee sweetened with condensed milk, over ice.",
+      "aliases": [
+        "Cà phê sữa đá"
+      ],
+      "howToSteps": [
+        "Pour the condensed milk into a glass and add the hot coffee.",
+        "Stir well, then pour over plenty of ice."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "vietnamese iced coffee",
+        "mocktail",
+        "vietnam",
+        "creamy",
+        "sweet"
+      ],
+      "metadata": {
+        "Also called": "Cà phê sữa đá",
+        "Comes from": "Vietnam",
+        "Method": "Build",
+        "Glass": "Rocks glass",
+        "Takes": "6 min",
+        "You need": "Strong coffee or espresso, Condensed milk"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "VN",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Rocks glass",
+        "minutes": 6,
+        "flavours": [
+          "Creamy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "espresso",
+            "qty": 60,
+            "unit": "ml",
+            "label": "strong coffee or espresso",
+            "optional": false
+          },
+          {
+            "id": "condensed_milk",
+            "qty": 30,
+            "unit": "ml",
+            "label": "condensed milk",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the condensed milk into a glass and add the hot coffee.",
+          "Stir well, then pour over plenty of ice."
+        ],
+        "garnish": "None",
+        "zero_proof": null,
+        "fact": "Condensed milk took the place of fresh milk, which was hard to find and keep.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_dalgona_coffee",
+      "challenge_id": "mix_drinks",
+      "name": "Dalgona Coffee",
+      "category": "Mocktail",
+      "filter_group": "Whisk",
+      "about": "Cold milk crowned with a cloud of whipped coffee.",
+      "aliases": [
+        "Phenti hui coffee",
+        "Whipped coffee"
+      ],
+      "howToSteps": [
+        "Whisk the coffee and sugar with 2 tbsp hot water until thick and pale.",
+        "Fill a glass with ice and cold milk.",
+        "Spoon the whipped coffee on top."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "dalgona coffee",
+        "mocktail",
+        "south korea",
+        "creamy",
+        "sweet"
+      ],
+      "metadata": {
+        "Also called": "Phenti hui coffee, Whipped coffee",
+        "Comes from": "South Korea",
+        "Method": "Whisk",
+        "Glass": "Tall glass",
+        "Takes": "6 min",
+        "You need": "Instant coffee, Sugar, Milk"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "KR",
+        "spirit": null,
+        "method": "Whisk",
+        "glass": "Tall glass",
+        "minutes": 6,
+        "flavours": [
+          "Creamy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "coffee",
+            "qty": 2,
+            "unit": "tbsp",
+            "label": "instant coffee",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tbsp",
+            "label": "sugar",
+            "optional": false
+          },
+          {
+            "id": "milk",
+            "qty": 200,
+            "unit": "ml",
+            "label": "milk",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Whisk the coffee and sugar with 2 tbsp hot water until thick and pale.",
+          "Fill a glass with ice and cold milk.",
+          "Spoon the whipped coffee on top."
+        ],
+        "garnish": "A dusting of coffee",
+        "zero_proof": null,
+        "fact": "It went viral from South Korea in 2020, but Indian homes have beaten coffee like this for decades.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_iced_matcha_latte",
+      "challenge_id": "mix_drinks",
+      "name": "Iced Matcha Latte",
+      "category": "Mocktail",
+      "filter_group": "Whisk",
+      "about": "Earthy green tea over cold milk, in two layers.",
+      "aliases": [],
+      "howToSteps": [
+        "Whisk the matcha with 60 ml warm water until frothy.",
+        "Pour the milk over ice, then the matcha."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "iced matcha latte",
+        "mocktail",
+        "japan",
+        "creamy"
+      ],
+      "metadata": {
+        "Comes from": "Japan",
+        "Method": "Whisk",
+        "Glass": "Tall glass",
+        "Takes": "4 min",
+        "You need": "Matcha powder, Milk"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "JP",
+        "spirit": null,
+        "method": "Whisk",
+        "glass": "Tall glass",
+        "minutes": 4,
+        "flavours": [
+          "Creamy"
+        ],
+        "ingredients": [
+          {
+            "id": "matcha",
+            "qty": 1,
+            "unit": "tsp",
+            "label": "matcha powder",
+            "optional": false
+          },
+          {
+            "id": "milk",
+            "qty": 180,
+            "unit": "ml",
+            "label": "milk",
+            "optional": false
+          },
+          {
+            "id": "honey",
+            "qty": 10,
+            "unit": "ml",
+            "label": "honey",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Whisk the matcha with 60 ml warm water until frothy.",
+          "Pour the milk over ice, then the matcha."
+        ],
+        "garnish": "None",
+        "zero_proof": null,
+        "fact": "Matcha is whole tea leaves ground to powder, so you drink the leaf itself.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_brown_sugar_bubble_tea",
+      "challenge_id": "mix_drinks",
+      "name": "Brown Sugar Bubble Tea",
+      "category": "Mocktail",
+      "filter_group": "Heat",
+      "about": "Chewy pearls in brown-sugar syrup, with cold milk tea.",
+      "aliases": [
+        "Boba"
+      ],
+      "howToSteps": [
+        "Boil the tapioca pearls as the pack says, then drain.",
+        "Simmer them with the brown sugar and 2 tbsp water until syrupy.",
+        "Swirl the syrup round a glass, add ice, then milk and tea."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "brown sugar bubble tea",
+        "mocktail",
+        "taiwan",
+        "sweet",
+        "creamy"
+      ],
+      "metadata": {
+        "Also called": "Boba",
+        "Comes from": "Taiwan",
+        "Method": "Heat",
+        "Glass": "Tall glass with a wide straw",
+        "Takes": "30 min",
+        "You need": "Tapioca pearls, Brown sugar, Milk"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "TW",
+        "spirit": null,
+        "method": "Heat",
+        "glass": "Tall glass with a wide straw",
+        "minutes": 30,
+        "flavours": [
+          "Sweet",
+          "Creamy"
+        ],
+        "ingredients": [
+          {
+            "id": "tapioca",
+            "qty": 0.25,
+            "unit": "cup",
+            "label": "tapioca pearls",
+            "optional": false
+          },
+          {
+            "id": "brown_sugar",
+            "qty": 2,
+            "unit": "tbsp",
+            "label": "brown sugar",
+            "optional": false
+          },
+          {
+            "id": "milk",
+            "qty": 200,
+            "unit": "ml",
+            "label": "milk",
+            "optional": false
+          },
+          {
+            "id": "black_tea",
+            "qty": 60,
+            "unit": "ml",
+            "label": "strong black tea",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Boil the tapioca pearls as the pack says, then drain.",
+          "Simmer them with the brown sugar and 2 tbsp water until syrupy.",
+          "Swirl the syrup round a glass, add ice, then milk and tea."
+        ],
+        "garnish": "None",
+        "zero_proof": null,
+        "fact": "Bubble tea began in Taiwanese tea shops in the 1980s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_passion_fruit_soda",
+      "challenge_id": "mix_drinks",
+      "name": "Passion Fruit Soda",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Tart, tropical and full of crunchy seeds.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the pulp and syrup in a glass.",
+        "Add ice and top up with soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "passion fruit soda",
+        "mocktail",
+        "brazil",
+        "fruity",
+        "tangy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "Brazil",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "3 min",
+        "You need": "Passion fruit, Sugar syrup, Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "BR",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 3,
+        "flavours": [
+          "Fruity",
+          "Tangy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "passion_fruit",
+            "qty": 2,
+            "unit": "",
+            "label": "passion fruits, pulp scooped",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 20,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the pulp and syrup in a glass.",
+          "Add ice and top up with soda."
+        ],
+        "garnish": "Half a passion fruit",
+        "zero_proof": null,
+        "fact": "Brazil grows more passion fruit (maracujá) than anywhere else.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_spiced_apple_cider",
+      "challenge_id": "mix_drinks",
+      "name": "Spiced Apple Cider",
+      "category": "Mocktail",
+      "filter_group": "Heat",
+      "about": "Warm apple juice with spices: a cosy drink for a cold evening.",
+      "aliases": [],
+      "howToSteps": [
+        "Warm everything gently in a pan for 10 minutes. Don't boil.",
+        "Strain into a mug."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "spiced apple cider",
+        "mocktail",
+        "united states",
+        "warming",
+        "spicy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Heat",
+        "Glass": "Mug",
+        "Takes": "12 min",
+        "You need": "Apple juice, Cinnamon stick, Cloves, Orange"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Heat",
+        "glass": "Mug",
+        "minutes": 12,
+        "flavours": [
+          "Warming",
+          "Spicy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "apple_juice",
+            "qty": 250,
+            "unit": "ml",
+            "label": "apple juice",
+            "optional": false
+          },
+          {
+            "id": "cinnamon",
+            "qty": 1,
+            "unit": "",
+            "label": "cinnamon stick",
+            "optional": false
+          },
+          {
+            "id": "cloves",
+            "qty": 3,
+            "unit": "",
+            "label": "cloves",
+            "optional": false
+          },
+          {
+            "id": "orange",
+            "qty": 2,
+            "unit": "slices",
+            "label": "orange slices",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Warm everything gently in a pan for 10 minutes. Don't boil.",
+          "Strain into a mug."
+        ],
+        "garnish": "A cinnamon stick",
+        "zero_proof": null,
+        "fact": "In America, 'cider' usually means cloudy apple juice, not the alcoholic kind.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_kala_khatta_fizz",
+      "challenge_id": "mix_drinks",
+      "name": "Kala Khatta Fizz",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "The purple gola-stall flavour, turned into a fizzy cooler.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the syrup, lime and black salt over ice.",
+        "Top up with soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "kala khatta fizz",
+        "mocktail",
+        "india",
+        "tangy",
+        "fruity",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Kala khatta syrup, Lime, Black salt (kala namak), Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Tangy",
+          "Fruity",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "kala_khatta",
+            "qty": 30,
+            "unit": "ml",
+            "label": "kala khatta syrup",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "black_salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "black salt (kala namak)",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the syrup, lime and black salt over ice.",
+          "Top up with soda."
+        ],
+        "garnish": "A lime wheel",
+        "zero_proof": null,
+        "fact": "Kala khatta gets its sweet-sour taste from jamun.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_masala_cola",
+      "challenge_id": "mix_drinks",
+      "name": "Masala Cola",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Cola with a dhaba-style kick of chaat masala.",
+      "aliases": [],
+      "howToSteps": [
+        "Put the lime, chaat masala and black salt in a glass with ice.",
+        "Pour the cola in slowly: the masala makes it foam up."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "masala cola",
+        "mocktail",
+        "india",
+        "spicy",
+        "tangy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Cola, Lime, Chaat masala, Black salt (kala namak)"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Spicy",
+          "Tangy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "cola",
+            "qty": 250,
+            "unit": "ml",
+            "label": "cola",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "chaat_masala",
+            "qty": 0.5,
+            "unit": "tsp",
+            "label": "chaat masala",
+            "optional": false
+          },
+          {
+            "id": "black_salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "black salt (kala namak)",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Put the lime, chaat masala and black salt in a glass with ice.",
+          "Pour the cola in slowly: the masala makes it foam up."
+        ],
+        "garnish": "A lime wedge",
+        "zero_proof": null,
+        "fact": "Spices make cola foam because the grains give the bubbles somewhere to form.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_guava_chilli_cooler",
+      "challenge_id": "mix_drinks",
+      "name": "Guava Chilli Cooler",
+      "category": "Mocktail",
+      "filter_group": "Shake",
+      "about": "Pink guava with a chilli-salt rim, just like the street-side fruit.",
+      "aliases": [],
+      "howToSteps": [
+        "Mix the chilli and salt on a plate and dip the wet rim of the glass in it.",
+        "Shake the guava juice and lime with ice and strain into the glass.",
+        "Add a splash of soda if you like."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "guava chilli cooler",
+        "mocktail",
+        "india",
+        "spicy",
+        "fruity",
+        "tangy"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Shake",
+        "Glass": "Rocks glass",
+        "Takes": "3 min",
+        "You need": "Guava juice, Lime, Red chilli powder, Salt"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Shake",
+        "glass": "Rocks glass",
+        "minutes": 3,
+        "flavours": [
+          "Spicy",
+          "Fruity",
+          "Tangy"
+        ],
+        "ingredients": [
+          {
+            "id": "guava_juice",
+            "qty": 150,
+            "unit": "ml",
+            "label": "guava juice",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "chilli",
+            "qty": 0.5,
+            "unit": "tsp",
+            "label": "red chilli powder",
+            "optional": false
+          },
+          {
+            "id": "salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "salt",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": 50,
+            "unit": "ml",
+            "label": "soda water",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Mix the chilli and salt on a plate and dip the wet rim of the glass in it.",
+          "Shake the guava juice and lime with ice and strain into the glass.",
+          "Add a splash of soda if you like."
+        ],
+        "garnish": "The chilli-salt rim",
+        "zero_proof": null,
+        "fact": "Guava has around four times as much vitamin C as an orange.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_jamun_cooler",
+      "challenge_id": "mix_drinks",
+      "name": "Jamun Cooler",
+      "category": "Mocktail",
+      "filter_group": "Stir",
+      "about": "Deep purple, sweet-sour and a little salty: a monsoon fruit in a glass.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the jamun, lime, salt and cumin over ice.",
+        "Top up with soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "jamun cooler",
+        "mocktail",
+        "india",
+        "fruity",
+        "tangy"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Stir",
+        "Glass": "Highball",
+        "Takes": "3 min",
+        "You need": "Jamun pulp, Lime, Black salt (kala namak), Roasted cumin powder, Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Stir",
+        "glass": "Highball",
+        "minutes": 3,
+        "flavours": [
+          "Fruity",
+          "Tangy"
+        ],
+        "ingredients": [
+          {
+            "id": "jamun",
+            "qty": 90,
+            "unit": "ml",
+            "label": "jamun pulp",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "black_salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "black salt (kala namak)",
+            "optional": false
+          },
+          {
+            "id": "cumin",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "roasted cumin powder",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the jamun, lime, salt and cumin over ice.",
+          "Top up with soda."
+        ],
+        "garnish": "A few mint leaves",
+        "zero_proof": null,
+        "fact": "Jamun season lasts only a few weeks in June and July.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_mango_mint_cooler",
+      "challenge_id": "mix_drinks",
+      "name": "Mango Mint Cooler",
+      "category": "Mocktail",
+      "filter_group": "Muddle",
+      "about": "Ripe mango, fresh mint and bubbles: summer in one glass.",
+      "aliases": [],
+      "howToSteps": [
+        "Press the mint with the lime in the glass.",
+        "Add the mango and ice, then top up with soda and stir."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mango mint cooler",
+        "mocktail",
+        "india",
+        "fruity",
+        "minty",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Muddle",
+        "Glass": "Highball",
+        "Takes": "4 min",
+        "You need": "Ripe mango or mango pulp, Mint, Lime, Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Muddle",
+        "glass": "Highball",
+        "minutes": 4,
+        "flavours": [
+          "Fruity",
+          "Minty",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "mango",
+            "qty": 90,
+            "unit": "ml",
+            "label": "ripe mango or mango pulp",
+            "optional": false
+          },
+          {
+            "id": "mint",
+            "qty": 8,
+            "unit": "leaves",
+            "label": "mint",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Press the mint with the lime in the glass.",
+          "Add the mango and ice, then top up with soda and stir."
+        ],
+        "garnish": "A mint sprig",
+        "zero_proof": null,
+        "fact": "India grows about half of the world's mangoes.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_paan_cooler",
+      "challenge_id": "mix_drinks",
+      "name": "Paan Cooler",
+      "category": "Mocktail",
+      "filter_group": "Blend",
+      "about": "The after-dinner meetha paan, as a cool green drink.",
+      "aliases": [],
+      "howToSteps": [
+        "Blend the paan leaves, gulkand, fennel and a little soda until smooth.",
+        "Pour over ice and top up with the rest of the soda.",
+        "Add a scoop of ice cream for a paan float."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "paan cooler",
+        "mocktail",
+        "india",
+        "sweet",
+        "minty"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Blend",
+        "Glass": "Tall glass",
+        "Takes": "4 min",
+        "You need": "Betel (paan) leaves, Gulkand (rose petal jam), Fennel seeds (saunf), Lemon-lime soda"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Blend",
+        "glass": "Tall glass",
+        "minutes": 4,
+        "flavours": [
+          "Sweet",
+          "Minty"
+        ],
+        "ingredients": [
+          {
+            "id": "paan",
+            "qty": 2,
+            "unit": "leaves",
+            "label": "betel (paan) leaves",
+            "optional": false
+          },
+          {
+            "id": "gulkand",
+            "qty": 1,
+            "unit": "tbsp",
+            "label": "gulkand (rose petal jam)",
+            "optional": false
+          },
+          {
+            "id": "fennel",
+            "qty": 0.5,
+            "unit": "tsp",
+            "label": "fennel seeds (saunf)",
+            "optional": false
+          },
+          {
+            "id": "lemon_soda",
+            "qty": 150,
+            "unit": "ml",
+            "label": "lemon-lime soda",
+            "optional": false
+          },
+          {
+            "id": "ice_cream",
+            "qty": 1,
+            "unit": "scoop",
+            "label": "vanilla ice cream",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Blend the paan leaves, gulkand, fennel and a little soda until smooth.",
+          "Pour over ice and top up with the rest of the soda.",
+          "Add a scoop of ice cream for a paan float."
+        ],
+        "garnish": "A fennel-sugar rim",
+        "zero_proof": null,
+        "fact": "Meetha paan is tobacco-free: just leaf, gulkand, fennel and sweet spices.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_imli_fizz",
+      "challenge_id": "mix_drinks",
+      "name": "Imli Fizz",
+      "category": "Mocktail",
+      "filter_group": "Stir",
+      "about": "Sweet-sour tamarind and jaggery, with a chaat-like finish.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the tamarind, jaggery, cumin and salt with a splash of water until smooth.",
+        "Add ice and top up with soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "imli fizz",
+        "mocktail",
+        "india",
+        "tangy",
+        "spicy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Stir",
+        "Glass": "Highball",
+        "Takes": "3 min",
+        "You need": "Tamarind (imli) pulp, Jaggery (gur), Roasted cumin powder, Black salt (kala namak), Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Stir",
+        "glass": "Highball",
+        "minutes": 3,
+        "flavours": [
+          "Tangy",
+          "Spicy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "tamarind",
+            "qty": 2,
+            "unit": "tbsp",
+            "label": "tamarind (imli) pulp",
+            "optional": false
+          },
+          {
+            "id": "jaggery",
+            "qty": 1,
+            "unit": "tbsp",
+            "label": "jaggery (gur)",
+            "optional": false
+          },
+          {
+            "id": "cumin",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "roasted cumin powder",
+            "optional": false
+          },
+          {
+            "id": "black_salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "black salt (kala namak)",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the tamarind, jaggery, cumin and salt with a splash of water until smooth.",
+          "Add ice and top up with soda."
+        ],
+        "garnish": "A pinch of cumin",
+        "zero_proof": null,
+        "fact": "'Tamarind' comes from Arabic 'tamar hindi': date of India.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_indian_cold_coffee",
+      "challenge_id": "mix_drinks",
+      "name": "Indian Cold Coffee",
+      "category": "Mocktail",
+      "filter_group": "Blend",
+      "about": "The frothy café cold coffee every Indian college canteen made famous.",
+      "aliases": [],
+      "howToSteps": [
+        "Dissolve the coffee and sugar in 2 tbsp warm water.",
+        "Blend with cold milk and ice until frothy.",
+        "Top with ice cream if you like."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "indian cold coffee",
+        "mocktail",
+        "india",
+        "creamy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Blend",
+        "Glass": "Tall glass",
+        "Takes": "3 min",
+        "You need": "Instant coffee, Sugar, Milk"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Blend",
+        "glass": "Tall glass",
+        "minutes": 3,
+        "flavours": [
+          "Creamy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "coffee",
+            "qty": 2,
+            "unit": "tsp",
+            "label": "instant coffee",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tbsp",
+            "label": "sugar",
+            "optional": false
+          },
+          {
+            "id": "milk",
+            "qty": 250,
+            "unit": "ml",
+            "label": "milk",
+            "optional": false
+          },
+          {
+            "id": "ice_cream",
+            "qty": 1,
+            "unit": "scoop",
+            "label": "vanilla ice cream",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Dissolve the coffee and sugar in 2 tbsp warm water.",
+          "Blend with cold milk and ice until frothy.",
+          "Top with ice cream if you like."
+        ],
+        "garnish": "Chocolate syrup on the glass",
+        "zero_proof": null,
+        "fact": "Blending with ice is what makes the thick foam on top.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_mango_mastani",
+      "challenge_id": "mix_drinks",
+      "name": "Mango Mastani",
+      "category": "Mocktail",
+      "filter_group": "Blend",
+      "about": "Pune's thick mango shake crowned with ice cream. Eat it with a spoon.",
+      "aliases": [],
+      "howToSteps": [
+        "Blend the mango, milk and sugar until thick.",
+        "Pour into a tall glass and top with a scoop of ice cream."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mango mastani",
+        "mocktail",
+        "india",
+        "creamy",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Blend",
+        "Glass": "Tall glass",
+        "Takes": "5 min",
+        "You need": "Ripe mango or mango pulp, Milk, Sugar, Vanilla ice cream"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Blend",
+        "glass": "Tall glass",
+        "minutes": 5,
+        "flavours": [
+          "Creamy",
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "mango",
+            "qty": 150,
+            "unit": "ml",
+            "label": "ripe mango or mango pulp",
+            "optional": false
+          },
+          {
+            "id": "milk",
+            "qty": 100,
+            "unit": "ml",
+            "label": "milk",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 1,
+            "unit": "tbsp",
+            "label": "sugar",
+            "optional": false
+          },
+          {
+            "id": "ice_cream",
+            "qty": 1,
+            "unit": "scoop",
+            "label": "vanilla ice cream",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Blend the mango, milk and sugar until thick.",
+          "Pour into a tall glass and top with a scoop of ice cream."
+        ],
+        "garnish": "Chopped nuts and a cherry",
+        "zero_proof": null,
+        "fact": "It's named after Mastani, the wife of the Maratha general Bajirao I.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_peach_iced_tea",
+      "challenge_id": "mix_drinks",
+      "name": "Peach Iced Tea",
+      "category": "Mocktail",
+      "filter_group": "Stir",
+      "about": "Cold tea and ripe peach. The café favourite, made at home.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the cooled tea, peach, syrup and lemon together.",
+        "Pour over ice."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "peach iced tea",
+        "mocktail",
+        "united states",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Stir",
+        "Glass": "Highball",
+        "Takes": "6 min",
+        "You need": "Black tea, Peach purée or nectar, Sugar syrup, Lemon"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "US",
+        "spirit": null,
+        "method": "Stir",
+        "glass": "Highball",
+        "minutes": 6,
+        "flavours": [
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "black_tea",
+            "qty": 200,
+            "unit": "ml",
+            "label": "black tea, cooled",
+            "optional": false
+          },
+          {
+            "id": "peach",
+            "qty": 60,
+            "unit": "ml",
+            "label": "peach purée or nectar",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 15,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 10,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the cooled tea, peach, syrup and lemon together.",
+          "Pour over ice."
+        ],
+        "garnish": "A lemon slice",
+        "zero_proof": null,
+        "fact": "Iced tea became popular at the St. Louis World's Fair in 1904, during a heatwave.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_mosambi_mint_cooler",
+      "challenge_id": "mix_drinks",
+      "name": "Mosambi Mint Cooler",
+      "category": "Mocktail",
+      "filter_group": "Muddle",
+      "about": "Fresh mosambi juice, lightly salted and fizzed up.",
+      "aliases": [],
+      "howToSteps": [
+        "Press the mint in a glass.",
+        "Add ice, the juice and black salt, then top with soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mosambi mint cooler",
+        "mocktail",
+        "india",
+        "citrusy",
+        "minty"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Muddle",
+        "Glass": "Highball",
+        "Takes": "4 min",
+        "You need": "Sweet lime (mosambi), Mint, Black salt (kala namak), Soda water"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "IN",
+        "spirit": null,
+        "method": "Muddle",
+        "glass": "Highball",
+        "minutes": 4,
+        "flavours": [
+          "Citrusy",
+          "Minty"
+        ],
+        "ingredients": [
+          {
+            "id": "mosambi",
+            "qty": 150,
+            "unit": "ml",
+            "label": "sweet lime juice",
+            "optional": false
+          },
+          {
+            "id": "mint",
+            "qty": 6,
+            "unit": "leaves",
+            "label": "mint",
+            "optional": false
+          },
+          {
+            "id": "black_salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "black salt (kala namak)",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": 60,
+            "unit": "ml",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Press the mint in a glass.",
+          "Add ice, the juice and black salt, then top with soda."
+        ],
+        "garnish": "A mint sprig",
+        "zero_proof": null,
+        "fact": "Drink sweet lime juice soon after pressing: it turns bitter within the hour.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_lemon_lime_bitters",
+      "challenge_id": "mix_drinks",
+      "name": "Lemon, Lime & Bitters",
+      "category": "Mocktail",
+      "filter_group": "Build",
+      "about": "Australia's favourite pub mocktail: pink, citrusy and a little bitter.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake the bitters into an ice-filled glass so they coat the ice.",
+        "Add the lime and top up with lemonade."
+      ],
+      "practiceSafety": "Aromatic bitters are made with alcohol. A few dashes leave only a trace, but skip them if you avoid alcohol completely.",
+      "keywords": [
+        "lemon, lime & bitters",
+        "mocktail",
+        "australia",
+        "citrusy",
+        "bitter",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "Australia",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Lime, Aromatic bitters, Lemon-lime soda"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "AU",
+        "spirit": null,
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Citrusy",
+          "Bitter",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "bitters",
+            "qty": 4,
+            "unit": "dashes",
+            "label": "aromatic bitters",
+            "optional": false
+          },
+          {
+            "id": "lemon_soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "lemon-lime soda",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Shake the bitters into an ice-filled glass so they coat the ice.",
+          "Add the lime and top up with lemonade."
+        ],
+        "garnish": "A lemon wedge",
+        "zero_proof": null,
+        "fact": "It's ordered so often in Australian pubs that it's known simply as 'LLB'.",
+        "safety": "Aromatic bitters are made with alcohol. A few dashes leave only a trace, but skip them if you avoid alcohol completely."
+      }
+    },
+    {
+      "id": "mix_mazagran",
+      "challenge_id": "mix_drinks",
+      "name": "Mazagran",
+      "category": "Mocktail",
+      "filter_group": "Stir",
+      "about": "Iced coffee with lemon: odd on paper, bright and refreshing in the glass.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the coffee, lemon and syrup with 60 ml cold water.",
+        "Pour over ice."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mazagran",
+        "mocktail",
+        "algeria",
+        "citrusy",
+        "bitter"
+      ],
+      "metadata": {
+        "Comes from": "Algeria",
+        "Method": "Stir",
+        "Glass": "Tall glass",
+        "Takes": "4 min",
+        "You need": "Strong coffee or espresso, Lemon, Sugar syrup"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "DZ",
+        "spirit": null,
+        "method": "Stir",
+        "glass": "Tall glass",
+        "minutes": 4,
+        "flavours": [
+          "Citrusy",
+          "Bitter"
+        ],
+        "ingredients": [
+          {
+            "id": "espresso",
+            "qty": 60,
+            "unit": "ml",
+            "label": "strong coffee, cooled",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 15,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the coffee, lemon and syrup with 60 ml cold water.",
+          "Pour over ice."
+        ],
+        "garnish": "A lemon slice",
+        "zero_proof": null,
+        "fact": "It's named after the fort of Mazagran in Algeria, where soldiers drank cold coffee in the 1840s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_moroccan_mint_tea",
+      "challenge_id": "mix_drinks",
+      "name": "Moroccan Mint Tea",
+      "category": "Mocktail",
+      "filter_group": "Heat",
+      "about": "Sweet green tea packed with fresh mint, poured from a height.",
+      "aliases": [
+        "Atay"
+      ],
+      "howToSteps": [
+        "Rinse the tea with a splash of boiling water and pour it off.",
+        "Add 300 ml boiling water, the mint and sugar, and steep for 4 minutes.",
+        "Pour from high up so it froths. Drink hot, or cool it over ice."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "moroccan mint tea",
+        "mocktail",
+        "morocco",
+        "minty",
+        "sweet",
+        "warming"
+      ],
+      "metadata": {
+        "Also called": "Atay",
+        "Comes from": "Morocco",
+        "Method": "Heat",
+        "Glass": "Small glass",
+        "Takes": "8 min",
+        "You need": "Green tea, Mint, Sugar"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "MA",
+        "spirit": null,
+        "method": "Heat",
+        "glass": "Small glass",
+        "minutes": 8,
+        "flavours": [
+          "Minty",
+          "Sweet",
+          "Warming"
+        ],
+        "ingredients": [
+          {
+            "id": "green_tea",
+            "qty": 1,
+            "unit": "tbsp",
+            "label": "green tea leaves",
+            "optional": false
+          },
+          {
+            "id": "mint",
+            "qty": 15,
+            "unit": "leaves",
+            "label": "mint",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tbsp",
+            "label": "sugar",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Rinse the tea with a splash of boiling water and pour it off.",
+          "Add 300 ml boiling water, the mint and sugar, and steep for 4 minutes.",
+          "Pour from high up so it froths. Drink hot, or cool it over ice."
+        ],
+        "garnish": "A mint sprig",
+        "zero_proof": null,
+        "fact": "Pouring from high up froths the tea and is a sign of a good host.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_greek_frapp",
+      "challenge_id": "mix_drinks",
+      "name": "Greek Frappé",
+      "category": "Mocktail",
+      "filter_group": "Shake",
+      "about": "Instant coffee shaken into a tall foam: Greece's summer drink.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake the coffee, sugar and 60 ml cold water in a jar until very foamy.",
+        "Pour over ice, add cold water to fill, and milk if you like."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "greek frappé",
+        "mocktail",
+        "greece",
+        "creamy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Greece",
+        "Method": "Shake",
+        "Glass": "Tall glass",
+        "Takes": "3 min",
+        "You need": "Instant coffee, Sugar"
+      },
+      "drink": {
+        "type": "Mocktail",
+        "country": "GR",
+        "spirit": null,
+        "method": "Shake",
+        "glass": "Tall glass",
+        "minutes": 3,
+        "flavours": [
+          "Creamy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "coffee",
+            "qty": 2,
+            "unit": "tsp",
+            "label": "instant coffee",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tsp",
+            "label": "sugar",
+            "optional": false
+          },
+          {
+            "id": "milk",
+            "qty": 50,
+            "unit": "ml",
+            "label": "milk",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Shake the coffee, sugar and 60 ml cold water in a jar until very foamy.",
+          "Pour over ice, add cold water to fill, and milk if you like."
+        ],
+        "garnish": "A straw: it's sipped slowly",
+        "zero_proof": null,
+        "fact": "It was invented by accident at a trade fair in Thessaloniki in 1957.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_mojito",
+      "challenge_id": "mix_drinks",
+      "name": "Mojito",
+      "category": "Cocktail",
+      "filter_group": "Muddle",
+      "about": "Havana's minty, limey highball. Cool, fresh and easy to love.",
+      "aliases": [],
+      "howToSteps": [
+        "Press the mint gently with the sugar and lime.",
+        "Add crushed ice and the rum.",
+        "Top up with soda and stir."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mojito",
+        "cocktail",
+        "cuba",
+        "minty",
+        "citrusy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "Cuba",
+        "Method": "Muddle",
+        "Glass": "Highball",
+        "Takes": "4 min",
+        "You need": "White rum, Lime, Sugar, Mint, Soda water"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "CU",
+        "spirit": "Rum",
+        "method": "Muddle",
+        "glass": "Highball",
+        "minutes": 4,
+        "flavours": [
+          "Minty",
+          "Citrusy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "white_rum",
+            "qty": 45,
+            "unit": "ml",
+            "label": "white rum",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 20,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tsp",
+            "label": "sugar",
+            "optional": false
+          },
+          {
+            "id": "mint",
+            "qty": 6,
+            "unit": "leaves",
+            "label": "mint",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Press the mint gently with the sugar and lime.",
+          "Add crushed ice and the rum.",
+          "Top up with soda and stir."
+        ],
+        "garnish": "A mint sprig",
+        "zero_proof": "Leave out the rum and add a splash of apple juice: that's a Virgin Mojito.",
+        "fact": "Writers in Havana made it famous in the 1930s and 40s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_daiquiri",
+      "challenge_id": "mix_drinks",
+      "name": "Daiquiri",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "Rum, lime and sugar, perfectly balanced. Three ingredients, nothing to hide.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake everything hard with ice.",
+        "Strain into a chilled glass."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "daiquiri",
+        "cocktail",
+        "cuba",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Cuba",
+        "Method": "Shake",
+        "Glass": "Coupe",
+        "Takes": "3 min",
+        "You need": "White rum, Lime, Sugar syrup"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "CU",
+        "spirit": "Rum",
+        "method": "Shake",
+        "glass": "Coupe",
+        "minutes": 3,
+        "flavours": [
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "white_rum",
+            "qty": 60,
+            "unit": "ml",
+            "label": "white rum",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 20,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 15,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Shake everything hard with ice.",
+          "Strain into a chilled glass."
+        ],
+        "garnish": "A lime wheel",
+        "zero_proof": "Shake lime and syrup with 60 ml cold green tea for the same sharp balance.",
+        "fact": "It's named after a beach and iron mine near Santiago de Cuba.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_cuba_libre",
+      "challenge_id": "mix_drinks",
+      "name": "Cuba Libre",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Rum and cola with a squeeze of lime.",
+      "aliases": [
+        "Rum and cola"
+      ],
+      "howToSteps": [
+        "Squeeze the lime into an ice-filled glass.",
+        "Add the rum, then the cola."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "cuba libre",
+        "cocktail",
+        "cuba",
+        "sweet",
+        "fizzy"
+      ],
+      "metadata": {
+        "Also called": "Rum and cola",
+        "Comes from": "Cuba",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "White rum, Cola, Lime"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "CU",
+        "spirit": "Rum",
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Sweet",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "white_rum",
+            "qty": 50,
+            "unit": "ml",
+            "label": "white rum",
+            "optional": false
+          },
+          {
+            "id": "cola",
+            "qty": 120,
+            "unit": "ml",
+            "label": "cola",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 10,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Squeeze the lime into an ice-filled glass.",
+          "Add the rum, then the cola."
+        ],
+        "garnish": "A lime wedge",
+        "zero_proof": "Cola, lots of lime and a dash of vanilla make a lively zero-proof version.",
+        "fact": "The name means 'free Cuba', a toast from around 1900.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_pi_a_colada",
+      "challenge_id": "mix_drinks",
+      "name": "Piña Colada",
+      "category": "Cocktail",
+      "filter_group": "Blend",
+      "about": "Pineapple, coconut and rum, blended to a slush.",
+      "aliases": [],
+      "howToSteps": [
+        "Blend everything with a cup of ice until smooth.",
+        "Pour into a tall glass."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "piña colada",
+        "cocktail",
+        "puerto rico",
+        "creamy",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Puerto Rico",
+        "Method": "Blend",
+        "Glass": "Hurricane or tall glass",
+        "Takes": "4 min",
+        "You need": "White rum, Coconut cream, Pineapple juice"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "PR",
+        "spirit": "Rum",
+        "method": "Blend",
+        "glass": "Hurricane or tall glass",
+        "minutes": 4,
+        "flavours": [
+          "Creamy",
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "white_rum",
+            "qty": 50,
+            "unit": "ml",
+            "label": "white rum",
+            "optional": false
+          },
+          {
+            "id": "coconut_cream",
+            "qty": 30,
+            "unit": "ml",
+            "label": "coconut cream",
+            "optional": false
+          },
+          {
+            "id": "pineapple_juice",
+            "qty": 90,
+            "unit": "ml",
+            "label": "pineapple juice",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Blend everything with a cup of ice until smooth.",
+          "Pour into a tall glass."
+        ],
+        "garnish": "A pineapple wedge and a cherry",
+        "zero_proof": "Skip the rum and add a little more pineapple: Virgin Piña Colada.",
+        "fact": "It has been Puerto Rico's official national drink since 1978.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_mai_tai",
+      "challenge_id": "mix_drinks",
+      "name": "Mai Tai",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "A tiki classic: two rums, almond, orange and lime.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake everything with ice.",
+        "Strain over crushed ice."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mai tai",
+        "cocktail",
+        "united states",
+        "fruity",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Shake",
+        "Glass": "Rocks glass",
+        "Takes": "4 min",
+        "You need": "White rum, Dark rum, Orange liqueur, Almond syrup (orgeat), Lime"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Rum",
+        "method": "Shake",
+        "glass": "Rocks glass",
+        "minutes": 4,
+        "flavours": [
+          "Fruity",
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "white_rum",
+            "qty": 30,
+            "unit": "ml",
+            "label": "white rum",
+            "optional": false
+          },
+          {
+            "id": "dark_rum",
+            "qty": 30,
+            "unit": "ml",
+            "label": "dark rum",
+            "optional": false
+          },
+          {
+            "id": "orange_liqueur",
+            "qty": 15,
+            "unit": "ml",
+            "label": "orange liqueur",
+            "optional": false
+          },
+          {
+            "id": "orgeat",
+            "qty": 15,
+            "unit": "ml",
+            "label": "almond syrup (orgeat)",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 30,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Shake everything with ice.",
+          "Strain over crushed ice."
+        ],
+        "garnish": "A mint sprig and a lime shell",
+        "zero_proof": "Shake lime, orgeat and orange juice with cold black tea.",
+        "fact": "'Mai tai' means 'very good' in Tahitian, said to be the first taster's reaction.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_dark_n_stormy",
+      "challenge_id": "mix_drinks",
+      "name": "Dark 'n' Stormy",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Ginger beer with a dark cloud of rum floating on top.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the ginger beer over ice.",
+        "Float the dark rum on top so it looks like storm clouds."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "dark 'n' stormy",
+        "cocktail",
+        "bermuda",
+        "spicy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "Bermuda",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Dark rum, Ginger beer"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "BM",
+        "spirit": "Rum",
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Spicy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "dark_rum",
+            "qty": 60,
+            "unit": "ml",
+            "label": "dark rum",
+            "optional": false
+          },
+          {
+            "id": "ginger_beer",
+            "qty": 100,
+            "unit": "ml",
+            "label": "ginger beer",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 1,
+            "unit": "wedge",
+            "label": "lime",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Pour the ginger beer over ice.",
+          "Float the dark rum on top so it looks like storm clouds."
+        ],
+        "garnish": "A lime wedge",
+        "zero_proof": "Float cold black tea on spicy ginger beer for the same stormy look.",
+        "fact": "Bermuda's sailors are said to have named it after the colour of storm clouds.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_caipirinha",
+      "challenge_id": "mix_drinks",
+      "name": "Caipirinha",
+      "category": "Cocktail",
+      "filter_group": "Muddle",
+      "about": "Brazil's national cocktail: lime and sugar pressed into sugarcane spirit.",
+      "aliases": [],
+      "howToSteps": [
+        "Press the lime wedges with the sugar in the glass.",
+        "Fill with ice, add the cachaça and stir."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "caipirinha",
+        "cocktail",
+        "brazil",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Brazil",
+        "Method": "Muddle",
+        "Glass": "Rocks glass",
+        "Takes": "3 min",
+        "You need": "Cachaça, Lime, Sugar"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "BR",
+        "spirit": "Rum",
+        "method": "Muddle",
+        "glass": "Rocks glass",
+        "minutes": 3,
+        "flavours": [
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "cachaca",
+            "qty": 50,
+            "unit": "ml",
+            "label": "cachaça",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 4,
+            "unit": "wedges",
+            "label": "lime",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tsp",
+            "label": "sugar",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Press the lime wedges with the sugar in the glass.",
+          "Fill with ice, add the cachaça and stir."
+        ],
+        "garnish": "None: the lime is in the glass",
+        "zero_proof": "Press lime and sugar, then top with soda and a splash of coconut water.",
+        "fact": "Cachaça is made from fresh sugarcane juice, not molasses like most rum.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_pisco_sour",
+      "challenge_id": "mix_drinks",
+      "name": "Pisco Sour",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "Grape brandy, lime and a silky egg-white foam.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake everything without ice first to whip the egg white.",
+        "Shake again with ice and strain.",
+        "Dot the bitters on the foam."
+      ],
+      "practiceSafety": "Contains raw egg white.",
+      "keywords": [
+        "pisco sour",
+        "cocktail",
+        "peru",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Peru",
+        "Method": "Shake",
+        "Glass": "Coupe",
+        "Takes": "4 min",
+        "You need": "Pisco, Lime, Sugar syrup, Egg"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "PE",
+        "spirit": "Brandy",
+        "method": "Shake",
+        "glass": "Coupe",
+        "minutes": 4,
+        "flavours": [
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "pisco",
+            "qty": 60,
+            "unit": "ml",
+            "label": "pisco",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 30,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 20,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "egg",
+            "qty": 1,
+            "unit": "",
+            "label": "egg white",
+            "optional": false
+          },
+          {
+            "id": "bitters",
+            "qty": 3,
+            "unit": "drops",
+            "label": "aromatic bitters",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Shake everything without ice first to whip the egg white.",
+          "Shake again with ice and strain.",
+          "Dot the bitters on the foam."
+        ],
+        "garnish": "Drops of bitters",
+        "zero_proof": "Shake lime, syrup and egg white with cold white grape juice.",
+        "fact": "Peru and Chile both claim pisco, and both celebrate a national Pisco Sour day.",
+        "safety": "Contains raw egg white."
+      }
+    },
+    {
+      "id": "mix_margarita",
+      "challenge_id": "mix_drinks",
+      "name": "Margarita",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "Tequila, orange and lime with a salty rim. Mexico's most famous cocktail.",
+      "aliases": [],
+      "howToSteps": [
+        "Wet the rim of the glass with lime and dip it in salt.",
+        "Shake the tequila, liqueur and lime with ice and strain."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "margarita",
+        "cocktail",
+        "mexico",
+        "citrusy",
+        "tangy"
+      ],
+      "metadata": {
+        "Comes from": "Mexico",
+        "Method": "Shake",
+        "Glass": "Coupe or rocks glass",
+        "Takes": "4 min",
+        "You need": "Tequila, Orange liqueur, Lime, Salt"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "MX",
+        "spirit": "Tequila",
+        "method": "Shake",
+        "glass": "Coupe or rocks glass",
+        "minutes": 4,
+        "flavours": [
+          "Citrusy",
+          "Tangy"
+        ],
+        "ingredients": [
+          {
+            "id": "tequila",
+            "qty": 50,
+            "unit": "ml",
+            "label": "tequila",
+            "optional": false
+          },
+          {
+            "id": "orange_liqueur",
+            "qty": 20,
+            "unit": "ml",
+            "label": "orange liqueur",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "salt",
+            "qty": null,
+            "unit": "for the rim",
+            "label": "salt",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Wet the rim of the glass with lime and dip it in salt.",
+          "Shake the tequila, liqueur and lime with ice and strain."
+        ],
+        "garnish": "A lime wheel and a salt rim",
+        "zero_proof": "Shake lime, orange juice and a little syrup; keep the salty rim.",
+        "fact": "Margarita is Spanish for daisy, and an older drink called a daisy came first.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_paloma",
+      "challenge_id": "mix_drinks",
+      "name": "Paloma",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Grapefruit and tequila: in Mexico it's more popular than the margarita.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir everything except the soda over ice.",
+        "Top up with soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "paloma",
+        "cocktail",
+        "mexico",
+        "citrusy",
+        "bitter",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "Mexico",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "3 min",
+        "You need": "Tequila, Grapefruit juice, Lime, Sugar syrup, Soda water, Salt"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "MX",
+        "spirit": "Tequila",
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 3,
+        "flavours": [
+          "Citrusy",
+          "Bitter",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "tequila",
+            "qty": 50,
+            "unit": "ml",
+            "label": "tequila",
+            "optional": false
+          },
+          {
+            "id": "grapefruit_juice",
+            "qty": 60,
+            "unit": "ml",
+            "label": "grapefruit juice",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 10,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          },
+          {
+            "id": "salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "salt",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir everything except the soda over ice.",
+          "Top up with soda."
+        ],
+        "garnish": "A grapefruit wedge",
+        "zero_proof": "Grapefruit, lime, a pinch of salt and soda: delicious on its own.",
+        "fact": "Paloma means dove in Spanish.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_tequila_sunrise",
+      "challenge_id": "mix_drinks",
+      "name": "Tequila Sunrise",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Orange juice and tequila with a red grenadine sunrise at the bottom.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the tequila and orange juice over ice.",
+        "Slowly pour in the grenadine so it sinks, making a sunrise."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "tequila sunrise",
+        "cocktail",
+        "united states",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Tequila, Orange, Grenadine (pomegranate syrup)"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Tequila",
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "tequila",
+            "qty": 45,
+            "unit": "ml",
+            "label": "tequila",
+            "optional": false
+          },
+          {
+            "id": "orange",
+            "qty": 90,
+            "unit": "ml",
+            "label": "orange juice",
+            "optional": false
+          },
+          {
+            "id": "grenadine",
+            "qty": 15,
+            "unit": "ml",
+            "label": "grenadine (pomegranate syrup)",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the tequila and orange juice over ice.",
+          "Slowly pour in the grenadine so it sinks, making a sunrise."
+        ],
+        "garnish": "An orange slice",
+        "zero_proof": "Orange juice and grenadine alone give the same sunrise.",
+        "fact": "A 1970s rock band tour made this Californian drink famous.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_michelada",
+      "challenge_id": "mix_drinks",
+      "name": "Michelada",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Beer turned into something spicy, salty and sour.",
+      "aliases": [],
+      "howToSteps": [
+        "Rim the glass with chilli and salt.",
+        "Add lime and the sauces, then ice, then pour in the cold beer."
+      ],
+      "practiceSafety": "Worcestershire sauce usually contains fish (anchovies).",
+      "keywords": [
+        "michelada",
+        "cocktail",
+        "mexico",
+        "spicy",
+        "tangy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "Mexico",
+        "Method": "Build",
+        "Glass": "Pint glass",
+        "Takes": "3 min",
+        "You need": "Light beer, Lime, Hot chilli sauce, Worcestershire sauce, Red chilli powder"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "MX",
+        "spirit": "Other",
+        "method": "Build",
+        "glass": "Pint glass",
+        "minutes": 3,
+        "flavours": [
+          "Spicy",
+          "Tangy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "beer",
+            "qty": 330,
+            "unit": "ml",
+            "label": "light beer",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 30,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "hot_sauce",
+            "qty": 3,
+            "unit": "dashes",
+            "label": "hot chilli sauce",
+            "optional": false
+          },
+          {
+            "id": "worcestershire",
+            "qty": 2,
+            "unit": "dashes",
+            "label": "worcestershire sauce",
+            "optional": false
+          },
+          {
+            "id": "chilli",
+            "qty": null,
+            "unit": "with salt, for the rim",
+            "label": "red chilli powder",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Rim the glass with chilli and salt.",
+          "Add lime and the sauces, then ice, then pour in the cold beer."
+        ],
+        "garnish": "A lime wedge",
+        "zero_proof": "Use alcohol-free beer, or soda with a splash of tomato juice.",
+        "fact": "Mexicans often call it a hangover cure.",
+        "safety": "Worcestershire sauce usually contains fish (anchovies)."
+      }
+    },
+    {
+      "id": "mix_negroni",
+      "challenge_id": "mix_drinks",
+      "name": "Negroni",
+      "category": "Cocktail",
+      "filter_group": "Stir",
+      "about": "Equal parts gin, bitter aperitif and vermouth. Bold and bitter-sweet.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir everything with ice for 20 seconds.",
+        "Strain over a large ice cube."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "negroni",
+        "cocktail",
+        "italy",
+        "bitter",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Italy",
+        "Method": "Stir",
+        "Glass": "Rocks glass",
+        "Takes": "2 min",
+        "You need": "Gin, Bitter red aperitif, Sweet vermouth"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "IT",
+        "spirit": "Gin",
+        "method": "Stir",
+        "glass": "Rocks glass",
+        "minutes": 2,
+        "flavours": [
+          "Bitter",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "gin",
+            "qty": 30,
+            "unit": "ml",
+            "label": "gin",
+            "optional": false
+          },
+          {
+            "id": "red_aperitif",
+            "qty": 30,
+            "unit": "ml",
+            "label": "bitter red aperitif",
+            "optional": false
+          },
+          {
+            "id": "sweet_vermouth",
+            "qty": 30,
+            "unit": "ml",
+            "label": "sweet vermouth",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir everything with ice for 20 seconds.",
+          "Strain over a large ice cube."
+        ],
+        "garnish": "An orange peel",
+        "zero_proof": "Stir cold hibiscus tea, orange juice and a drop of bitters for a bitter-sweet sip.",
+        "fact": "Count Camillo Negroni asked for gin instead of soda in his Americano in Florence, around 1919.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_spritz",
+      "challenge_id": "mix_drinks",
+      "name": "Spritz",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Bubbly, bitter-orange and low in alcohol: the Italian early-evening drink.",
+      "aliases": [
+        "Aperitivo spritz"
+      ],
+      "howToSteps": [
+        "Fill a wine glass with ice.",
+        "Pour in the wine, then the aperitif, then the soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "spritz",
+        "cocktail",
+        "italy",
+        "bitter",
+        "fizzy",
+        "citrusy"
+      ],
+      "metadata": {
+        "Also called": "Aperitivo spritz",
+        "Comes from": "Italy",
+        "Method": "Build",
+        "Glass": "Wine glass",
+        "Takes": "2 min",
+        "You need": "Sparkling wine, Bitter orange aperitif, Soda water"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "IT",
+        "spirit": "Wine & bubbly",
+        "method": "Build",
+        "glass": "Wine glass",
+        "minutes": 2,
+        "flavours": [
+          "Bitter",
+          "Fizzy",
+          "Citrusy"
+        ],
+        "ingredients": [
+          {
+            "id": "sparkling_wine",
+            "qty": 90,
+            "unit": "ml",
+            "label": "sparkling wine",
+            "optional": false
+          },
+          {
+            "id": "orange_aperitif",
+            "qty": 60,
+            "unit": "ml",
+            "label": "bitter orange aperitif",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": 30,
+            "unit": "ml",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Fill a wine glass with ice.",
+          "Pour in the wine, then the aperitif, then the soda."
+        ],
+        "garnish": "An orange slice",
+        "zero_proof": "Orange juice, a few drops of bitters and lots of soda.",
+        "fact": "Remember it as 3-2-1: three parts wine, two parts aperitif, one part soda.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_bellini",
+      "challenge_id": "mix_drinks",
+      "name": "Bellini",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "White peach and bubbles, from a famous bar in Venice.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the peach purée into a flute.",
+        "Top up slowly with the wine and stir gently."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "bellini",
+        "cocktail",
+        "italy",
+        "fruity",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "Italy",
+        "Method": "Build",
+        "Glass": "Flute",
+        "Takes": "2 min",
+        "You need": "Peach purée or nectar, Sparkling wine"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "IT",
+        "spirit": "Wine & bubbly",
+        "method": "Build",
+        "glass": "Flute",
+        "minutes": 2,
+        "flavours": [
+          "Fruity",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "peach",
+            "qty": 50,
+            "unit": "ml",
+            "label": "peach purée or nectar",
+            "optional": false
+          },
+          {
+            "id": "sparkling_wine",
+            "qty": 100,
+            "unit": "ml",
+            "label": "sparkling wine",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the peach purée into a flute.",
+          "Top up slowly with the wine and stir gently."
+        ],
+        "garnish": "None",
+        "zero_proof": "Top the peach with sparkling apple juice or soda.",
+        "fact": "It was named after the painter Giovanni Bellini for its glowing pink colour.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_americano",
+      "challenge_id": "mix_drinks",
+      "name": "Americano",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "A light, bitter Italian highball, the Negroni's gentler parent.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the aperitif and vermouth over ice.",
+        "Top up with soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "americano",
+        "cocktail",
+        "italy",
+        "bitter",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "Italy",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Bitter red aperitif, Sweet vermouth, Soda water"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "IT",
+        "spirit": "Other",
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Bitter",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "red_aperitif",
+            "qty": 30,
+            "unit": "ml",
+            "label": "bitter red aperitif",
+            "optional": false
+          },
+          {
+            "id": "sweet_vermouth",
+            "qty": 30,
+            "unit": "ml",
+            "label": "sweet vermouth",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the aperitif and vermouth over ice.",
+          "Top up with soda."
+        ],
+        "garnish": "An orange slice",
+        "zero_proof": "Hibiscus tea, orange juice and soda give the same colour and bite.",
+        "fact": "It's the first drink James Bond orders in the very first Bond novel.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_martini",
+      "challenge_id": "mix_drinks",
+      "name": "Martini",
+      "category": "Cocktail",
+      "filter_group": "Stir",
+      "about": "Gin and a whisper of vermouth, ice-cold. The most famous cocktail of all.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the gin and vermouth with lots of ice until very cold.",
+        "Strain into a chilled glass."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "martini",
+        "cocktail",
+        "united states",
+        "bitter"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Stir",
+        "Glass": "Martini glass",
+        "Takes": "3 min",
+        "You need": "Gin, Dry vermouth"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Gin",
+        "method": "Stir",
+        "glass": "Martini glass",
+        "minutes": 3,
+        "flavours": [
+          "Bitter"
+        ],
+        "ingredients": [
+          {
+            "id": "gin",
+            "qty": 60,
+            "unit": "ml",
+            "label": "gin",
+            "optional": false
+          },
+          {
+            "id": "dry_vermouth",
+            "qty": 10,
+            "unit": "ml",
+            "label": "dry vermouth",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the gin and vermouth with lots of ice until very cold.",
+          "Strain into a chilled glass."
+        ],
+        "garnish": "An olive or a lemon twist",
+        "zero_proof": "Stir chilled tonic, a little olive brine and lemon peel.",
+        "fact": "Bond asked for his 'shaken, not stirred', though stirring keeps it clear.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_gin_and_tonic",
+      "challenge_id": "mix_drinks",
+      "name": "Gin and Tonic",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Gin, tonic and lime: crisp, bitter and very simple.",
+      "aliases": [
+        "G&T"
+      ],
+      "howToSteps": [
+        "Fill a glass with ice and add the gin.",
+        "Pour the tonic down a spoon to keep the bubbles, and add the lime."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "gin and tonic",
+        "cocktail",
+        "india",
+        "bitter",
+        "citrusy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Also called": "G&T",
+        "Comes from": "India",
+        "Method": "Build",
+        "Glass": "Balloon glass",
+        "Takes": "2 min",
+        "You need": "Gin, Tonic water, Lime"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "IN",
+        "spirit": "Gin",
+        "method": "Build",
+        "glass": "Balloon glass",
+        "minutes": 2,
+        "flavours": [
+          "Bitter",
+          "Citrusy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "gin",
+            "qty": 50,
+            "unit": "ml",
+            "label": "gin",
+            "optional": false
+          },
+          {
+            "id": "tonic",
+            "qty": 150,
+            "unit": "ml",
+            "label": "tonic water",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 1,
+            "unit": "wedge",
+            "label": "lime",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Fill a glass with ice and add the gin.",
+          "Pour the tonic down a spoon to keep the bubbles, and add the lime."
+        ],
+        "garnish": "A lime wedge",
+        "zero_proof": "Tonic, lime and a sprig of rosemary or cucumber is a grown-up zero-proof.",
+        "fact": "It began in British India, where quinine-laced tonic was drunk to fight malaria.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_gimlet",
+      "challenge_id": "mix_drinks",
+      "name": "Gimlet",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "Gin and lime, sharp and clean.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake everything with ice.",
+        "Strain into a chilled glass."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "gimlet",
+        "cocktail",
+        "united kingdom",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United Kingdom",
+        "Method": "Shake",
+        "Glass": "Coupe",
+        "Takes": "3 min",
+        "You need": "Gin, Lime, Sugar syrup"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "GB",
+        "spirit": "Gin",
+        "method": "Shake",
+        "glass": "Coupe",
+        "minutes": 3,
+        "flavours": [
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "gin",
+            "qty": 60,
+            "unit": "ml",
+            "label": "gin",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 15,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Shake everything with ice.",
+          "Strain into a chilled glass."
+        ],
+        "garnish": "A lime wheel",
+        "zero_proof": "Shake lime and syrup with cold cucumber water.",
+        "fact": "Royal Navy sailors drank lime with their gin to stop scurvy.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_tom_collins",
+      "challenge_id": "mix_drinks",
+      "name": "Tom Collins",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "A tall, fizzy gin lemonade.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the gin, lemon and syrup over ice.",
+        "Top up with soda."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "tom collins",
+        "cocktail",
+        "united kingdom",
+        "citrusy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "United Kingdom",
+        "Method": "Build",
+        "Glass": "Collins glass",
+        "Takes": "3 min",
+        "You need": "Gin, Lemon, Sugar syrup, Soda water"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "GB",
+        "spirit": "Gin",
+        "method": "Build",
+        "glass": "Collins glass",
+        "minutes": 3,
+        "flavours": [
+          "Citrusy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "gin",
+            "qty": 45,
+            "unit": "ml",
+            "label": "gin",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 30,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 15,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "soda water",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the gin, lemon and syrup over ice.",
+          "Top up with soda."
+        ],
+        "garnish": "A lemon wheel and a cherry",
+        "zero_proof": "It's sparkling lemonade without the gin: add a few juniper berries or cucumber.",
+        "fact": "The tall 'Collins glass' is named after this drink.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_french_75",
+      "challenge_id": "mix_drinks",
+      "name": "French 75",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "Gin, lemon and bubbles. Elegant, and stronger than it tastes.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake the gin, lemon and syrup with ice.",
+        "Strain into a flute and top up with sparkling wine."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "french 75",
+        "cocktail",
+        "france",
+        "citrusy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "France",
+        "Method": "Shake",
+        "Glass": "Flute",
+        "Takes": "3 min",
+        "You need": "Gin, Lemon, Sugar syrup, Sparkling wine"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "FR",
+        "spirit": "Gin",
+        "method": "Shake",
+        "glass": "Flute",
+        "minutes": 3,
+        "flavours": [
+          "Citrusy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "gin",
+            "qty": 30,
+            "unit": "ml",
+            "label": "gin",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 15,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "sparkling_wine",
+            "qty": null,
+            "unit": "to top up",
+            "label": "sparkling wine",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Shake the gin, lemon and syrup with ice.",
+          "Strain into a flute and top up with sparkling wine."
+        ],
+        "garnish": "A lemon twist",
+        "zero_proof": "Shake lemon and syrup, then top with sparkling white grape juice.",
+        "fact": "It's named after a French field gun from the First World War, for its kick.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_sidecar",
+      "challenge_id": "mix_drinks",
+      "name": "Sidecar",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "Brandy, orange and lemon with a sugared rim.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake everything with ice.",
+        "Strain into a glass with a sugared rim."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "sidecar",
+        "cocktail",
+        "france",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "France",
+        "Method": "Shake",
+        "Glass": "Coupe",
+        "Takes": "3 min",
+        "You need": "Brandy, Orange liqueur, Lemon"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "FR",
+        "spirit": "Brandy",
+        "method": "Shake",
+        "glass": "Coupe",
+        "minutes": 3,
+        "flavours": [
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "brandy",
+            "qty": 50,
+            "unit": "ml",
+            "label": "brandy",
+            "optional": false
+          },
+          {
+            "id": "orange_liqueur",
+            "qty": 20,
+            "unit": "ml",
+            "label": "orange liqueur",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 20,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": null,
+            "unit": "for the rim",
+            "label": "sugar",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Shake everything with ice.",
+          "Strain into a glass with a sugared rim."
+        ],
+        "garnish": "A sugar rim and orange peel",
+        "zero_proof": "Shake lemon and orange juice with cold black tea and a little honey.",
+        "fact": "It's said to be named after a soldier who rode to his Paris bar in a motorcycle sidecar.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_kir_royale",
+      "challenge_id": "mix_drinks",
+      "name": "Kir Royale",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Sparkling wine blushed with blackcurrant.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the blackcurrant liqueur into a flute.",
+        "Top up with sparkling wine."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "kir royale",
+        "cocktail",
+        "france",
+        "fruity",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "France",
+        "Method": "Build",
+        "Glass": "Flute",
+        "Takes": "1 min",
+        "You need": "Blackcurrant liqueur, Sparkling wine"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "FR",
+        "spirit": "Wine & bubbly",
+        "method": "Build",
+        "glass": "Flute",
+        "minutes": 1,
+        "flavours": [
+          "Fruity",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "cassis",
+            "qty": 15,
+            "unit": "ml",
+            "label": "blackcurrant liqueur",
+            "optional": false
+          },
+          {
+            "id": "sparkling_wine",
+            "qty": 120,
+            "unit": "ml",
+            "label": "sparkling wine",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the blackcurrant liqueur into a flute.",
+          "Top up with sparkling wine."
+        ],
+        "garnish": "None",
+        "zero_proof": "A splash of blackcurrant cordial topped with soda or sparkling grape juice.",
+        "fact": "It's named after Félix Kir, a priest and mayor of Dijon who served it to guests.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_mimosa",
+      "challenge_id": "mix_drinks",
+      "name": "Mimosa",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Orange juice and bubbles: the brunch drink.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the orange juice into a flute.",
+        "Top up gently with sparkling wine."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mimosa",
+        "cocktail",
+        "france",
+        "fruity",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "France",
+        "Method": "Build",
+        "Glass": "Flute",
+        "Takes": "1 min",
+        "You need": "Sparkling wine, Orange"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "FR",
+        "spirit": "Wine & bubbly",
+        "method": "Build",
+        "glass": "Flute",
+        "minutes": 1,
+        "flavours": [
+          "Fruity",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "sparkling_wine",
+            "qty": 75,
+            "unit": "ml",
+            "label": "sparkling wine",
+            "optional": false
+          },
+          {
+            "id": "orange",
+            "qty": 75,
+            "unit": "ml",
+            "label": "orange juice",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the orange juice into a flute.",
+          "Top up gently with sparkling wine."
+        ],
+        "garnish": "None",
+        "zero_proof": "Orange juice with chilled soda or sparkling grape juice.",
+        "fact": "It's named after the yellow mimosa flower.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_bloody_mary",
+      "challenge_id": "mix_drinks",
+      "name": "Bloody Mary",
+      "category": "Cocktail",
+      "filter_group": "Stir",
+      "about": "Spicy tomato and vodka: the brunch classic.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir everything with ice.",
+        "Taste, add more spice, and pour."
+      ],
+      "practiceSafety": "Worcestershire sauce usually contains fish (anchovies).",
+      "keywords": [
+        "bloody mary",
+        "cocktail",
+        "france",
+        "spicy",
+        "tangy"
+      ],
+      "metadata": {
+        "Comes from": "France",
+        "Method": "Stir",
+        "Glass": "Highball",
+        "Takes": "4 min",
+        "You need": "Vodka, Tomato juice, Lemon, Worcestershire sauce, Hot chilli sauce, Salt, Black pepper"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "FR",
+        "spirit": "Vodka",
+        "method": "Stir",
+        "glass": "Highball",
+        "minutes": 4,
+        "flavours": [
+          "Spicy",
+          "Tangy"
+        ],
+        "ingredients": [
+          {
+            "id": "vodka",
+            "qty": 45,
+            "unit": "ml",
+            "label": "vodka",
+            "optional": false
+          },
+          {
+            "id": "tomato_juice",
+            "qty": 90,
+            "unit": "ml",
+            "label": "tomato juice",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "worcestershire",
+            "qty": 3,
+            "unit": "dashes",
+            "label": "worcestershire sauce",
+            "optional": false
+          },
+          {
+            "id": "hot_sauce",
+            "qty": 2,
+            "unit": "dashes",
+            "label": "hot chilli sauce",
+            "optional": false
+          },
+          {
+            "id": "salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "salt",
+            "optional": false
+          },
+          {
+            "id": "black_pepper",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "black pepper",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir everything with ice.",
+          "Taste, add more spice, and pour."
+        ],
+        "garnish": "A celery stick and a lemon wedge",
+        "zero_proof": "Leave out the vodka: that's a Virgin Mary.",
+        "fact": "It was first mixed at Harry's New York Bar in Paris in the 1920s.",
+        "safety": "Worcestershire sauce usually contains fish (anchovies)."
+      }
+    },
+    {
+      "id": "mix_singapore_sling",
+      "challenge_id": "mix_drinks",
+      "name": "Singapore Sling",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "A pink, fruity gin drink from Singapore's grandest hotel.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake everything with ice.",
+        "Strain into an ice-filled glass."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "singapore sling",
+        "cocktail",
+        "singapore",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Singapore",
+        "Method": "Shake",
+        "Glass": "Hurricane or tall glass",
+        "Takes": "4 min",
+        "You need": "Gin, Cherry liqueur, Pineapple juice, Lime, Grenadine (pomegranate syrup)"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "SG",
+        "spirit": "Gin",
+        "method": "Shake",
+        "glass": "Hurricane or tall glass",
+        "minutes": 4,
+        "flavours": [
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "gin",
+            "qty": 30,
+            "unit": "ml",
+            "label": "gin",
+            "optional": false
+          },
+          {
+            "id": "cherry_liqueur",
+            "qty": 15,
+            "unit": "ml",
+            "label": "cherry liqueur",
+            "optional": false
+          },
+          {
+            "id": "pineapple_juice",
+            "qty": 120,
+            "unit": "ml",
+            "label": "pineapple juice",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "grenadine",
+            "qty": 10,
+            "unit": "ml",
+            "label": "grenadine (pomegranate syrup)",
+            "optional": false
+          },
+          {
+            "id": "bitters",
+            "qty": 1,
+            "unit": "dash",
+            "label": "aromatic bitters",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Shake everything with ice.",
+          "Strain into an ice-filled glass."
+        ],
+        "garnish": "A pineapple wedge and a cherry",
+        "zero_proof": "Shake pineapple, lime, grenadine and cherry juice.",
+        "fact": "At the hotel's Long Bar you're encouraged to drop peanut shells on the floor.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_old_fashioned",
+      "challenge_id": "mix_drinks",
+      "name": "Old Fashioned",
+      "category": "Cocktail",
+      "filter_group": "Stir",
+      "about": "Whisky, sugar and bitters: the 'old-fashioned' way to drink a cocktail.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir everything with ice for 20 seconds.",
+        "Strain over a large ice cube."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "old fashioned",
+        "cocktail",
+        "united states",
+        "bitter",
+        "sweet",
+        "warming"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Stir",
+        "Glass": "Rocks glass",
+        "Takes": "3 min",
+        "You need": "Whisky, Sugar syrup, Aromatic bitters"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Whisky",
+        "method": "Stir",
+        "glass": "Rocks glass",
+        "minutes": 3,
+        "flavours": [
+          "Bitter",
+          "Sweet",
+          "Warming"
+        ],
+        "ingredients": [
+          {
+            "id": "whisky",
+            "qty": 45,
+            "unit": "ml",
+            "label": "whisky",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 5,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "bitters",
+            "qty": 2,
+            "unit": "dashes",
+            "label": "aromatic bitters",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir everything with ice for 20 seconds.",
+          "Strain over a large ice cube."
+        ],
+        "garnish": "An orange peel",
+        "zero_proof": "Stir cold black tea with a little syrup, orange peel and a pinch of salt.",
+        "fact": "Drinkers in the 1880s asked for cocktails made the old-fashioned way, and the name stuck.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_manhattan",
+      "challenge_id": "mix_drinks",
+      "name": "Manhattan",
+      "category": "Cocktail",
+      "filter_group": "Stir",
+      "about": "Whisky and sweet vermouth, smooth and deep red.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir with ice until very cold.",
+        "Strain into a chilled glass."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "manhattan",
+        "cocktail",
+        "united states",
+        "sweet",
+        "bitter",
+        "warming"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Stir",
+        "Glass": "Coupe",
+        "Takes": "3 min",
+        "You need": "Whisky, Sweet vermouth, Aromatic bitters"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Whisky",
+        "method": "Stir",
+        "glass": "Coupe",
+        "minutes": 3,
+        "flavours": [
+          "Sweet",
+          "Bitter",
+          "Warming"
+        ],
+        "ingredients": [
+          {
+            "id": "whisky",
+            "qty": 50,
+            "unit": "ml",
+            "label": "whisky",
+            "optional": false
+          },
+          {
+            "id": "sweet_vermouth",
+            "qty": 20,
+            "unit": "ml",
+            "label": "sweet vermouth",
+            "optional": false
+          },
+          {
+            "id": "bitters",
+            "qty": 1,
+            "unit": "dash",
+            "label": "aromatic bitters",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir with ice until very cold.",
+          "Strain into a chilled glass."
+        ],
+        "garnish": "A cherry",
+        "zero_proof": "Stir cold black tea, a splash of red grape juice and a dash of cherry syrup.",
+        "fact": "It's said to have first been poured at the Manhattan Club in New York in the 1870s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_whiskey_sour",
+      "challenge_id": "mix_drinks",
+      "name": "Whiskey Sour",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "Whisky, lemon and sugar, with an optional silky foam.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake without ice to whip the egg white, if using.",
+        "Shake again with ice and strain over ice."
+      ],
+      "practiceSafety": "The egg white version contains raw egg.",
+      "keywords": [
+        "whiskey sour",
+        "cocktail",
+        "united states",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Shake",
+        "Glass": "Rocks glass",
+        "Takes": "4 min",
+        "You need": "Whisky, Lemon, Sugar syrup"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Whisky",
+        "method": "Shake",
+        "glass": "Rocks glass",
+        "minutes": 4,
+        "flavours": [
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "whisky",
+            "qty": 45,
+            "unit": "ml",
+            "label": "whisky",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 25,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 20,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "egg",
+            "qty": 1,
+            "unit": "",
+            "label": "egg white",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Shake without ice to whip the egg white, if using.",
+          "Shake again with ice and strain over ice."
+        ],
+        "garnish": "A cherry and an orange slice",
+        "zero_proof": "Shake lemon, syrup and egg white with cold black tea.",
+        "fact": "Sailors drank sours on long voyages for the vitamin C in citrus.",
+        "safety": "The egg white version contains raw egg."
+      }
+    },
+    {
+      "id": "mix_mint_julep",
+      "challenge_id": "mix_drinks",
+      "name": "Mint Julep",
+      "category": "Cocktail",
+      "filter_group": "Muddle",
+      "about": "Whisky, mint and crushed ice, served in a frosty cup.",
+      "aliases": [],
+      "howToSteps": [
+        "Press the mint gently with the syrup.",
+        "Fill with crushed ice, add the whisky and stir until the cup frosts."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mint julep",
+        "cocktail",
+        "united states",
+        "minty",
+        "sweet",
+        "warming"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Muddle",
+        "Glass": "Metal cup or rocks glass",
+        "Takes": "4 min",
+        "You need": "Whisky, Sugar syrup, Mint"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Whisky",
+        "method": "Muddle",
+        "glass": "Metal cup or rocks glass",
+        "minutes": 4,
+        "flavours": [
+          "Minty",
+          "Sweet",
+          "Warming"
+        ],
+        "ingredients": [
+          {
+            "id": "whisky",
+            "qty": 60,
+            "unit": "ml",
+            "label": "whisky",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 10,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "mint",
+            "qty": 8,
+            "unit": "leaves",
+            "label": "mint",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Press the mint gently with the syrup.",
+          "Fill with crushed ice, add the whisky and stir until the cup frosts."
+        ],
+        "garnish": "A big mint bouquet",
+        "zero_proof": "Press mint and syrup, then add cold iced tea over crushed ice.",
+        "fact": "It's the traditional drink of the Kentucky Derby horse race.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_irish_coffee",
+      "challenge_id": "mix_drinks",
+      "name": "Irish Coffee",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Hot coffee, whiskey and sugar under a cool layer of cream.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the sugar into hot coffee and whiskey.",
+        "Pour the lightly whipped cream over the back of a spoon so it floats."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "irish coffee",
+        "cocktail",
+        "ireland",
+        "creamy",
+        "warming",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Ireland",
+        "Method": "Build",
+        "Glass": "Glass mug",
+        "Takes": "4 min",
+        "You need": "Whisky, Strong coffee or espresso, Brown sugar, Fresh cream"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "IE",
+        "spirit": "Whisky",
+        "method": "Build",
+        "glass": "Glass mug",
+        "minutes": 4,
+        "flavours": [
+          "Creamy",
+          "Warming",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "whisky",
+            "qty": 40,
+            "unit": "ml",
+            "label": "Irish whiskey",
+            "optional": false
+          },
+          {
+            "id": "espresso",
+            "qty": 80,
+            "unit": "ml",
+            "label": "hot coffee",
+            "optional": false
+          },
+          {
+            "id": "brown_sugar",
+            "qty": 1,
+            "unit": "tsp",
+            "label": "brown sugar",
+            "optional": false
+          },
+          {
+            "id": "cream",
+            "qty": 30,
+            "unit": "ml",
+            "label": "lightly whipped cream",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Stir the sugar into hot coffee and whiskey.",
+          "Pour the lightly whipped cream over the back of a spoon so it floats."
+        ],
+        "garnish": "The cream on top",
+        "zero_proof": "Make it with coffee, brown sugar and floated cream: still lovely.",
+        "fact": "It was invented in 1943 at an Irish airport to warm up cold passengers.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_hot_toddy",
+      "challenge_id": "mix_drinks",
+      "name": "Hot Toddy",
+      "category": "Cocktail",
+      "filter_group": "Heat",
+      "about": "Whisky, honey and lemon in hot water. Cosy on a cold night.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir the honey and lemon into 100 ml hot water.",
+        "Add the whisky and the spices."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "hot toddy",
+        "cocktail",
+        "united kingdom",
+        "warming",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United Kingdom",
+        "Method": "Heat",
+        "Glass": "Mug",
+        "Takes": "4 min",
+        "You need": "Whisky, Honey, Lemon"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "GB",
+        "spirit": "Whisky",
+        "method": "Heat",
+        "glass": "Mug",
+        "minutes": 4,
+        "flavours": [
+          "Warming",
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "whisky",
+            "qty": 45,
+            "unit": "ml",
+            "label": "whisky",
+            "optional": false
+          },
+          {
+            "id": "honey",
+            "qty": 15,
+            "unit": "ml",
+            "label": "honey",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "cinnamon",
+            "qty": 1,
+            "unit": "",
+            "label": "cinnamon stick",
+            "optional": true
+          },
+          {
+            "id": "cloves",
+            "qty": 2,
+            "unit": "",
+            "label": "cloves",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Stir the honey and lemon into 100 ml hot water.",
+          "Add the whisky and the spices."
+        ],
+        "garnish": "A lemon slice",
+        "zero_proof": "Hot water, honey, lemon, ginger and cinnamon: a classic cold-night drink.",
+        "fact": "'Toddy' comes from the Hindi 'tari', the palm drink British traders met in India.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_moscow_mule",
+      "challenge_id": "mix_drinks",
+      "name": "Moscow Mule",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Vodka, ginger beer and lime in a frosty copper mug.",
+      "aliases": [],
+      "howToSteps": [
+        "Fill a mug with ice, add the vodka and lime.",
+        "Top up with ginger beer."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "moscow mule",
+        "cocktail",
+        "united states",
+        "spicy",
+        "citrusy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Build",
+        "Glass": "Copper mug",
+        "Takes": "2 min",
+        "You need": "Vodka, Ginger beer, Lime"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Vodka",
+        "method": "Build",
+        "glass": "Copper mug",
+        "minutes": 2,
+        "flavours": [
+          "Spicy",
+          "Citrusy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "vodka",
+            "qty": 45,
+            "unit": "ml",
+            "label": "vodka",
+            "optional": false
+          },
+          {
+            "id": "ginger_beer",
+            "qty": 120,
+            "unit": "ml",
+            "label": "ginger beer",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 10,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Fill a mug with ice, add the vodka and lime.",
+          "Top up with ginger beer."
+        ],
+        "garnish": "A lime wedge",
+        "zero_proof": "Leave out the vodka: that's a Virgin Mule.",
+        "fact": "Despite the name, it was created in Los Angeles in the 1940s.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_cosmopolitan",
+      "challenge_id": "mix_drinks",
+      "name": "Cosmopolitan",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "Pink, tart and fruity: cranberry, lime and vodka.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake everything with ice.",
+        "Strain into a chilled glass."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "cosmopolitan",
+        "cocktail",
+        "united states",
+        "fruity",
+        "citrusy"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Shake",
+        "Glass": "Martini glass",
+        "Takes": "3 min",
+        "You need": "Vodka, Orange liqueur, Lime, Cranberry juice"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Vodka",
+        "method": "Shake",
+        "glass": "Martini glass",
+        "minutes": 3,
+        "flavours": [
+          "Fruity",
+          "Citrusy"
+        ],
+        "ingredients": [
+          {
+            "id": "vodka",
+            "qty": 40,
+            "unit": "ml",
+            "label": "vodka",
+            "optional": false
+          },
+          {
+            "id": "orange_liqueur",
+            "qty": 15,
+            "unit": "ml",
+            "label": "orange liqueur",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "cranberry_juice",
+            "qty": 30,
+            "unit": "ml",
+            "label": "cranberry juice",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Shake everything with ice.",
+          "Strain into a chilled glass."
+        ],
+        "garnish": "An orange twist",
+        "zero_proof": "Shake cranberry, lime and orange juice: the 'Cosmo-not'.",
+        "fact": "A 1990s TV series made it the most fashionable drink of the decade.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_espresso_martini",
+      "challenge_id": "mix_drinks",
+      "name": "Espresso Martini",
+      "category": "Cocktail",
+      "filter_group": "Shake",
+      "about": "Coffee and vodka shaken to a creamy foam.",
+      "aliases": [],
+      "howToSteps": [
+        "Shake everything very hard with ice to build a foam.",
+        "Strain into a chilled glass."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "espresso martini",
+        "cocktail",
+        "united kingdom",
+        "creamy",
+        "bitter",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United Kingdom",
+        "Method": "Shake",
+        "Glass": "Martini glass",
+        "Takes": "4 min",
+        "You need": "Vodka, Coffee liqueur, Strong coffee or espresso, Sugar syrup"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "GB",
+        "spirit": "Vodka",
+        "method": "Shake",
+        "glass": "Martini glass",
+        "minutes": 4,
+        "flavours": [
+          "Creamy",
+          "Bitter",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "vodka",
+            "qty": 50,
+            "unit": "ml",
+            "label": "vodka",
+            "optional": false
+          },
+          {
+            "id": "coffee_liqueur",
+            "qty": 30,
+            "unit": "ml",
+            "label": "coffee liqueur",
+            "optional": false
+          },
+          {
+            "id": "espresso",
+            "qty": 30,
+            "unit": "ml",
+            "label": "fresh espresso",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 10,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Shake everything very hard with ice to build a foam.",
+          "Strain into a chilled glass."
+        ],
+        "garnish": "Three coffee beans",
+        "zero_proof": "Shake fresh espresso, syrup and a splash of milk hard for the same foam.",
+        "fact": "A London bartender created it in the 1980s for a guest who wanted a drink to wake her up.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_white_russian",
+      "challenge_id": "mix_drinks",
+      "name": "White Russian",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Vodka, coffee liqueur and cream. A dessert in a glass.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour the vodka and coffee liqueur over ice.",
+        "Float the cream on top and stir if you like."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "white russian",
+        "cocktail",
+        "belgium",
+        "creamy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Belgium",
+        "Method": "Build",
+        "Glass": "Rocks glass",
+        "Takes": "2 min",
+        "You need": "Vodka, Coffee liqueur, Fresh cream"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "BE",
+        "spirit": "Vodka",
+        "method": "Build",
+        "glass": "Rocks glass",
+        "minutes": 2,
+        "flavours": [
+          "Creamy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "vodka",
+            "qty": 50,
+            "unit": "ml",
+            "label": "vodka",
+            "optional": false
+          },
+          {
+            "id": "coffee_liqueur",
+            "qty": 20,
+            "unit": "ml",
+            "label": "coffee liqueur",
+            "optional": false
+          },
+          {
+            "id": "cream",
+            "qty": 30,
+            "unit": "ml",
+            "label": "fresh cream",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour the vodka and coffee liqueur over ice.",
+          "Float the cream on top and stir if you like."
+        ],
+        "garnish": "None",
+        "zero_proof": "Cold coffee, a little syrup and cream over ice.",
+        "fact": "It grew out of the Black Russian, first mixed in Brussels in 1949.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_long_island_iced_tea",
+      "challenge_id": "mix_drinks",
+      "name": "Long Island Iced Tea",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Five spirits that together taste like iced tea, with no tea at all.",
+      "aliases": [],
+      "howToSteps": [
+        "Pour everything except the cola over ice and stir.",
+        "Top with a splash of cola."
+      ],
+      "practiceSafety": "Very strong: five spirits in one glass.",
+      "keywords": [
+        "long island iced tea",
+        "cocktail",
+        "united states",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "United States",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "4 min",
+        "You need": "Vodka, Gin, White rum, Tequila, Orange liqueur, Lemon, Sugar syrup, Cola"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "US",
+        "spirit": "Vodka",
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 4,
+        "flavours": [
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "vodka",
+            "qty": 15,
+            "unit": "ml",
+            "label": "vodka",
+            "optional": false
+          },
+          {
+            "id": "gin",
+            "qty": 15,
+            "unit": "ml",
+            "label": "gin",
+            "optional": false
+          },
+          {
+            "id": "white_rum",
+            "qty": 15,
+            "unit": "ml",
+            "label": "white rum",
+            "optional": false
+          },
+          {
+            "id": "tequila",
+            "qty": 15,
+            "unit": "ml",
+            "label": "tequila",
+            "optional": false
+          },
+          {
+            "id": "orange_liqueur",
+            "qty": 15,
+            "unit": "ml",
+            "label": "orange liqueur",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 25,
+            "unit": "ml",
+            "label": "lemon juice",
+            "optional": false
+          },
+          {
+            "id": "sugar_syrup",
+            "qty": 15,
+            "unit": "ml",
+            "label": "sugar syrup",
+            "optional": false
+          },
+          {
+            "id": "cola",
+            "qty": null,
+            "unit": "to top up",
+            "label": "cola",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Pour everything except the cola over ice and stir.",
+          "Top with a splash of cola."
+        ],
+        "garnish": "A lemon wedge",
+        "zero_proof": "Real iced tea with lemon, syrup and a splash of cola.",
+        "fact": "It's one of the strongest cocktails on any menu. Sip slowly.",
+        "safety": "Very strong: five spirits in one glass."
+      }
+    },
+    {
+      "id": "mix_sangria",
+      "challenge_id": "mix_drinks",
+      "name": "Sangria",
+      "category": "Cocktail",
+      "filter_group": "Stir",
+      "about": "Red wine, fruit and a splash of brandy: Spain's sharing jug.",
+      "aliases": [],
+      "howToSteps": [
+        "Stir everything with chopped fruit.",
+        "Chill for an hour if you can, then pour over ice."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "sangria",
+        "cocktail",
+        "spain",
+        "fruity",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Spain",
+        "Method": "Stir",
+        "Glass": "Wine glass",
+        "Takes": "5 min",
+        "You need": "Red wine, Brandy, Orange, Sugar"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "ES",
+        "spirit": "Wine & bubbly",
+        "method": "Stir",
+        "glass": "Wine glass",
+        "minutes": 5,
+        "flavours": [
+          "Fruity",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "red_wine",
+            "qty": 120,
+            "unit": "ml",
+            "label": "red wine",
+            "optional": false
+          },
+          {
+            "id": "brandy",
+            "qty": 15,
+            "unit": "ml",
+            "label": "brandy",
+            "optional": false
+          },
+          {
+            "id": "orange",
+            "qty": 30,
+            "unit": "ml",
+            "label": "orange juice",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 1,
+            "unit": "tsp",
+            "label": "sugar",
+            "optional": false
+          },
+          {
+            "id": "orange",
+            "qty": 2,
+            "unit": "slices",
+            "label": "orange slices",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": 30,
+            "unit": "ml",
+            "label": "soda water",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Stir everything with chopped fruit.",
+          "Chill for an hour if you can, then pour over ice."
+        ],
+        "garnish": "Chopped apple and orange",
+        "zero_proof": "Make it with red grape juice: Virgin Sangria.",
+        "fact": "It's usually made by the jug, so multiply the glass amounts for friends.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_mulled_wine",
+      "challenge_id": "mix_drinks",
+      "name": "Mulled Wine",
+      "category": "Cocktail",
+      "filter_group": "Heat",
+      "about": "Warm spiced red wine, the smell of European Christmas markets.",
+      "aliases": [
+        "Glühwein"
+      ],
+      "howToSteps": [
+        "Warm everything gently for 10 to 15 minutes. Don't let it boil.",
+        "Strain into mugs."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mulled wine",
+        "cocktail",
+        "germany",
+        "warming",
+        "spicy",
+        "fruity"
+      ],
+      "metadata": {
+        "Also called": "Glühwein",
+        "Comes from": "Germany",
+        "Method": "Heat",
+        "Glass": "Mug",
+        "Takes": "15 min",
+        "You need": "Red wine, Orange, Cinnamon stick, Cloves, Honey"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "DE",
+        "spirit": "Wine & bubbly",
+        "method": "Heat",
+        "glass": "Mug",
+        "minutes": 15,
+        "flavours": [
+          "Warming",
+          "Spicy",
+          "Fruity"
+        ],
+        "ingredients": [
+          {
+            "id": "red_wine",
+            "qty": 150,
+            "unit": "ml",
+            "label": "red wine",
+            "optional": false
+          },
+          {
+            "id": "orange",
+            "qty": 2,
+            "unit": "slices",
+            "label": "orange slices",
+            "optional": false
+          },
+          {
+            "id": "cinnamon",
+            "qty": 1,
+            "unit": "",
+            "label": "cinnamon stick",
+            "optional": false
+          },
+          {
+            "id": "cloves",
+            "qty": 3,
+            "unit": "",
+            "label": "cloves",
+            "optional": false
+          },
+          {
+            "id": "honey",
+            "qty": 15,
+            "unit": "ml",
+            "label": "honey",
+            "optional": false
+          },
+          {
+            "id": "star_anise",
+            "qty": 1,
+            "unit": "",
+            "label": "star anise",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Warm everything gently for 10 to 15 minutes. Don't let it boil.",
+          "Strain into mugs."
+        ],
+        "garnish": "An orange slice and cinnamon",
+        "zero_proof": "Warm red grape juice with the same spices.",
+        "fact": "Germany's Christmas markets serve it in mugs you can keep as a souvenir.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_japanese_highball",
+      "challenge_id": "mix_drinks",
+      "name": "Japanese Highball",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Whisky and soda, made with great care. Light and crisp.",
+      "aliases": [],
+      "howToSteps": [
+        "Fill a glass to the top with ice and add the whisky.",
+        "Pour in very cold soda, stir once, and add the lemon peel."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "japanese highball",
+        "cocktail",
+        "japan",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "Japan",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Whisky, Soda water"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "JP",
+        "spirit": "Whisky",
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "whisky",
+            "qty": 45,
+            "unit": "ml",
+            "label": "whisky",
+            "optional": false
+          },
+          {
+            "id": "soda",
+            "qty": 135,
+            "unit": "ml",
+            "label": "soda water",
+            "optional": false
+          },
+          {
+            "id": "lemon",
+            "qty": 1,
+            "unit": "twist",
+            "label": "lemon peel",
+            "optional": true
+          }
+        ],
+        "steps": [
+          "Fill a glass to the top with ice and add the whisky.",
+          "Pour in very cold soda, stir once, and add the lemon peel."
+        ],
+        "garnish": "A lemon twist",
+        "zero_proof": "Cold roasted barley tea with soda and lemon peel.",
+        "fact": "In Japan, highballs are served on tap and even sold in cans.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_dawa",
+      "challenge_id": "mix_drinks",
+      "name": "Dawa",
+      "category": "Cocktail",
+      "filter_group": "Muddle",
+      "about": "Kenya's lime, honey and vodka drink, stirred with a honey stick.",
+      "aliases": [],
+      "howToSteps": [
+        "Press the lime and sugar in the glass.",
+        "Add crushed ice and the vodka.",
+        "Stir with a spoon of honey and leave it in."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "dawa",
+        "cocktail",
+        "kenya",
+        "citrusy",
+        "sweet"
+      ],
+      "metadata": {
+        "Comes from": "Kenya",
+        "Method": "Muddle",
+        "Glass": "Rocks glass",
+        "Takes": "3 min",
+        "You need": "Vodka, Lime, Sugar, Honey"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "KE",
+        "spirit": "Vodka",
+        "method": "Muddle",
+        "glass": "Rocks glass",
+        "minutes": 3,
+        "flavours": [
+          "Citrusy",
+          "Sweet"
+        ],
+        "ingredients": [
+          {
+            "id": "vodka",
+            "qty": 60,
+            "unit": "ml",
+            "label": "vodka",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 4,
+            "unit": "wedges",
+            "label": "lime",
+            "optional": false
+          },
+          {
+            "id": "sugar",
+            "qty": 2,
+            "unit": "tsp",
+            "label": "sugar",
+            "optional": false
+          },
+          {
+            "id": "honey",
+            "qty": 1,
+            "unit": "tbsp",
+            "label": "honey",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Press the lime and sugar in the glass.",
+          "Add crushed ice and the vodka.",
+          "Stir with a spoon of honey and leave it in."
+        ],
+        "garnish": "The honey spoon",
+        "zero_proof": "Press lime and sugar, add soda and stir in the honey.",
+        "fact": "Dawa means 'medicine' in Swahili.",
+        "safety": null
+      }
+    },
+    {
+      "id": "mix_feni_cooler",
+      "challenge_id": "mix_drinks",
+      "name": "Feni Cooler",
+      "category": "Cocktail",
+      "filter_group": "Build",
+      "about": "Goa's cashew spirit with lime, salt and a chilli kick, the way beach shacks serve it.",
+      "aliases": [],
+      "howToSteps": [
+        "Add the feni, lime and salt to an ice-filled glass.",
+        "Top up with lemon-lime soda and drop in the slit chilli."
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "feni cooler",
+        "cocktail",
+        "india",
+        "citrusy",
+        "spicy",
+        "fizzy"
+      ],
+      "metadata": {
+        "Comes from": "India",
+        "Method": "Build",
+        "Glass": "Highball",
+        "Takes": "2 min",
+        "You need": "Cashew feni, Lime, Salt, Lemon-lime soda"
+      },
+      "drink": {
+        "type": "Cocktail",
+        "country": "IN",
+        "spirit": "Other",
+        "method": "Build",
+        "glass": "Highball",
+        "minutes": 2,
+        "flavours": [
+          "Citrusy",
+          "Spicy",
+          "Fizzy"
+        ],
+        "ingredients": [
+          {
+            "id": "feni",
+            "qty": 45,
+            "unit": "ml",
+            "label": "cashew feni",
+            "optional": false
+          },
+          {
+            "id": "lime",
+            "qty": 15,
+            "unit": "ml",
+            "label": "lime juice",
+            "optional": false
+          },
+          {
+            "id": "salt",
+            "qty": 1,
+            "unit": "pinch",
+            "label": "salt",
+            "optional": false
+          },
+          {
+            "id": "green_chilli",
+            "qty": 1,
+            "unit": "slit",
+            "label": "green chilli",
+            "optional": true
+          },
+          {
+            "id": "lemon_soda",
+            "qty": null,
+            "unit": "to top up",
+            "label": "lemon-lime soda",
+            "optional": false
+          }
+        ],
+        "steps": [
+          "Add the feni, lime and salt to an ice-filled glass.",
+          "Top up with lemon-lime soda and drop in the slit chilli."
+        ],
+        "garnish": "A slit green chilli",
+        "zero_proof": "Lime, salt, green chilli and lemon soda with a splash of cashew-apple or guava juice.",
+        "fact": "Goan feni has a GI tag, so only feni made in Goa can use the name.",
+        "safety": null
+      }
+    }
+  ]
+}

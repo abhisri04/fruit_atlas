@@ -10,16 +10,20 @@ import '../models/jyotirlinga.dart';
 import '../models/indian_dish.dart';
 import '../models/indian_drink.dart';
 import '../models/search_result.dart';
+import '../models/book.dart';
 import '../services/global_search_service.dart';
 import '../screens/discover/category_details_page.dart';
 import '../screens/district/district_details_page.dart';
 import '../screens/fruit/fruit_details_page.dart';
+import '../screens/mixed_drinks/mixed_drink_detail_page.dart';
+import '../screens/nuts/nut_detail_page.dart';
 import '../screens/fruit/variety_details_page.dart';
 import '../screens/experience/experience_details_page.dart';
 import '../screens/jyotirlinga/jyotirlinga_details_page.dart';
 import '../screens/challenge/checklist_item_details_page.dart';
 import '../screens/dishes/indian_dishes_page.dart';
 import '../screens/drinks/indian_drinks_page.dart';
+import '../screens/books/book_detail_page.dart';
 import 'challenge_navigation.dart';
 
 Future<void> openSearchResult(
@@ -67,10 +71,20 @@ Future<void> openSearchResult(
       catalogue: search.drinksCatalogue!,
       drink: drink,
     ),
+    Book book => BookDetailPage(book: book),
+    Item item when challenge?.presentationType == 'nut_atlas' => NutDetailPage(
+      nutId: item.id,
+    ),
+    Item item when challenge?.presentationType == 'drink_maker' =>
+      MixedDrinkDetailPage(drinkId: item.id),
     Item item when challenge != null => ChecklistItemDetailsPage(
       challenge: challenge,
       item: item,
     ),
+    SubItem _
+        when challenge?.presentationType == 'nut_atlas' &&
+            result.parent is Item =>
+      NutDetailPage(nutId: (result.parent as Item).id),
     SubItem _ when challenge != null && result.parent is Item =>
       ChecklistItemDetailsPage(
         challenge: challenge,

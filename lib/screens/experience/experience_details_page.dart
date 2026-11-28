@@ -99,7 +99,7 @@ class _ExperienceDetailsPageState extends State<ExperienceDetailsPage> {
                 const Divider(height: 1),
                 ListTile(
                   title: const Text('Part of'),
-                  subtitle: Text('Explore ${experience.stateName}'),
+                  subtitle: Text('More in ${experience.stateName}'),
                 ),
               ],
             ),

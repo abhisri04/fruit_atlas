@@ -10,6 +10,7 @@ import 'package:fruit_atlas/screens/home/home_page.dart';
 import 'package:fruit_atlas/screens/my_life/my_life_page.dart';
 import 'package:fruit_atlas/screens/saved/saved_page.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
+import 'package:fruit_atlas/widgets/gamification_header.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -70,10 +71,17 @@ void main() {
 
   Future<void> show(WidgetTester tester, Widget page) async {
     await tester.pumpWidget(MaterialApp(theme: AppTheme.light, home: page));
-    await tester.runAsync(
-      () => Future<void>.delayed(const Duration(seconds: 1)),
-    );
-    await tester.pump();
+    for (
+      var attempt = 0;
+      attempt < 40 &&
+          find.byType(CircularProgressIndicator).evaluate().isNotEmpty;
+      attempt++
+    ) {
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(milliseconds: 500)),
+      );
+      await tester.pump();
+    }
   }
 
   testWidgets('Home and My Life include canonical dish and drink progress', (
@@ -86,15 +94,34 @@ void main() {
     addTearDown(tester.view.resetDevicePixelRatio);
 
     await show(tester, const HomePage());
-    expect(find.text('2 experiences explored'), findsOneWidget);
+    final homeSummary = tester
+        .widget<GamificationHeader>(find.byType(GamificationHeader))
+        .summary;
+    expect(homeSummary.experienceCount, 2);
+    final food = homeSummary.categories.firstWhere(
+      (category) => category.categoryId == 'food_drink',
+    );
+    expect((food.completed, food.total), (2, 959));
     await show(tester, const MyLifePage());
+    expect(find.byKey(const ValueKey('my-life-saved-entry')), findsOneWidget);
+    expect(find.text('Overview'), findsOneWidget);
+    expect(find.text('Stats'), findsWidgets);
+    expect(find.text('Achievements'), findsOneWidget);
     expect(find.text('Indian dishes tried'), findsOneWidget);
     expect(find.text('Indian dishes cooked'), findsOneWidget);
     expect(find.text('Indian drinks tried'), findsOneWidget);
-    await tester.scrollUntilVisible(find.text('Indian Dishes'), 300);
+    await tester.scrollUntilVisible(
+      find.text('1 of 640 dishes tried'),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.pump();
     expect(find.text('1 of 640 dishes tried'), findsOneWidget);
-    await tester.scrollUntilVisible(find.text('Indian Drinks'), 300);
+    await tester.scrollUntilVisible(
+      find.text('1 of 68 drinks tried'),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
     await tester.pump();
     expect(find.text('1 of 68 drinks tried'), findsOneWidget);
   });

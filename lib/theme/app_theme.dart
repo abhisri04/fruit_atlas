@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'app_colors.dart';
@@ -22,6 +23,18 @@ abstract final class AppTheme {
     );
     return base.copyWith(
       scaffoldBackgroundColor: AppColors.background,
+      // Native transitions on phones; a gentle fade-and-slide on web and
+      // desktop, where the default route change is abrupt.
+      pageTransitionsTheme: PageTransitionsTheme(
+        builders: {
+          TargetPlatform.android: PredictiveBackPageTransitionsBuilder(),
+          TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
+          TargetPlatform.macOS: FadeForwardsPageTransitionsBuilder(),
+          TargetPlatform.windows: FadeForwardsPageTransitionsBuilder(),
+          TargetPlatform.linux: FadeForwardsPageTransitionsBuilder(),
+          TargetPlatform.fuchsia: FadeForwardsPageTransitionsBuilder(),
+        },
+      ),
       textTheme: base.textTheme
           .copyWith(
             headlineSmall: const TextStyle(
@@ -91,7 +104,7 @@ abstract final class AppTheme {
         height: 68,
         elevation: 0,
         backgroundColor: AppColors.surface,
-        indicatorColor: Colors.transparent,
+        indicatorColor: AppColors.accentSurface,
         iconTheme: WidgetStateProperty.resolveWith(
           (states) => IconThemeData(
             color: states.contains(WidgetState.selected)

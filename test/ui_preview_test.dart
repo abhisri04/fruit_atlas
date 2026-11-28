@@ -13,10 +13,11 @@ import 'package:fruit_atlas/screens/challenge/fruit_challenge_page.dart';
 import 'package:fruit_atlas/screens/my_life/my_life_page.dart';
 import 'package:fruit_atlas/services/asset_data_service.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
+import 'package:fruit_atlas/screens/travel/india_passport_page.dart';
 
 void main() {
   testWidgets('Render local phone previews', (tester) async {
-    SharedPreferences.setMockInitialValues({});
+    SharedPreferences.setMockInitialValues({'welcome_done_v1': true});
     tester.binding.defaultBinaryMessenger.setMockMessageHandler(
       'flutter/assets',
       (message) async {
@@ -79,6 +80,25 @@ void main() {
     }
 
     await capture('home', const FruitAtlasApp());
+    final passport = MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme.light,
+      home: const IndiaPassportPage(),
+    );
+    await capture('india_passport', passport);
+    await tester.tap(find.byKey(const ValueKey('passport-more')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('passport-list')));
+    await tester.pumpAndSettle();
+    await capture('india_passport_list', passport);
+    await tester.enterText(
+      find.byKey(const ValueKey('passport-list-search')),
+      'Sikkim',
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('passport-state-sikkim')));
+    await tester.pumpAndSettle();
+    await capture('india_passport_state_sheet', passport);
     final challenges = await const AssetDataService().loadChallenges();
     await capture(
       'fruit_challenge',

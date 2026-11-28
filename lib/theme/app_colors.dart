@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
 abstract final class AppColors {
+  static const passportUnmarked = outline;
+  static const passportWanted = orange;
+  static const passportVisited = primary;
+  static const passportSelected = gold;
   static const ringTrack = Color(0xFFB7CBC0);
   static const orange = Color(0xFFF59E0B);
   static const purple = Color(0xFF8B5CF6);
@@ -10,6 +14,11 @@ abstract final class AppColors {
     'fitness_wellness' || 'collecting' => purple,
     'travel_exploration' => blue,
     'culture_learning' => Color(0xFFAD6545),
+    'life_experiences' => rose,
+    'games_play' => Color(0xFF5B6CF0),
+    'scent' => Color(0xFF9C4F96),
+    'garden' => Color(0xFF3E8E4F),
+    'making' => Color(0xFFD9467A),
     _ => primary,
   };
   static const background = Color(0xFFFAF9F6);
@@ -22,4 +31,10 @@ abstract final class AppColors {
   static const outline = Color(0xFFDEE5DF);
   static const information = Color(0xFFEDF3F8);
   static const caution = Color(0xFFFFF4DF);
+  static const navy = Color(0xFF101A33);
+  static const navyRaised = Color(0xFF182746);
+  static const warm = Color(0xFFFFF4E8);
+  static const gold = Color(0xFFF6B94A);
+  static const rose = Color(0xFFEB6F7A);
+  static const success = Color(0xFF2F9E78);
 }

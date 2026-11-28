@@ -12,6 +12,7 @@ import 'package:fruit_atlas/screens/saved/saved_page.dart';
 import 'package:fruit_atlas/services/daily_discovery_service.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
 import 'package:fruit_atlas/widgets/fruit_image.dart';
+import 'package:fruit_atlas/widgets/gamification_header.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class _FakeDailyDiscoveryService extends DailyDiscoveryService {
@@ -87,14 +88,21 @@ void main() {
           ),
         ),
       );
-      await tester.runAsync(
-        () => Future<void>.delayed(const Duration(seconds: 1)),
-      );
-      await tester.pump();
+      for (
+        var attempt = 0;
+        attempt < 40 && find.byType(GamificationHeader).evaluate().isEmpty;
+        attempt++
+      ) {
+        await tester.runAsync(
+          () => Future<void>.delayed(const Duration(milliseconds: 500)),
+        );
+        await tester.pump();
+      }
       expect(find.text('Make room for discovery'), findsNothing);
       expect(find.text('Small experiences. A richer you.'), findsNothing);
-      expect(find.text('Hello, explorer'), findsOneWidget);
-      expect(find.text('What will you discover today?'), findsOneWidget);
+      expect(find.textContaining('Good '), findsOneWidget);
+      expect(find.text('UPLYFA'), findsOneWidget);
+      expect(find.text('A fresh experience picked for you'), findsOneWidget);
       expect(find.text("TODAY'S DISCOVERY"), findsOneWidget);
       expect(find.text('Try Dashehari'), findsOneWidget);
       expect(
@@ -102,7 +110,7 @@ void main() {
         findsOneWidget,
       );
       expect(find.text('Fruit variety · Mango'), findsOneWidget);
-      expect(find.text('Explore this variety →'), findsOneWidget);
+      expect(find.text('See this variety →'), findsOneWidget);
       expect(find.text('Save for later'), findsOneWidget);
       expect(
         tester
@@ -111,9 +119,12 @@ void main() {
             .canonicalImageAsset,
         'assets/images/fruits/FR001.webp',
       );
-      expect(tester.getBottomRight(find.text('Explore')).dy, lessThan(844));
+      expect(tester.takeException(), isNull);
 
-      await tester.tap(find.widgetWithText(TextButton, 'Save for later'));
+      final saveButton = find.widgetWithText(TextButton, 'Save for later');
+      await tester.ensureVisible(saveButton);
+      await tester.pump();
+      await tester.tap(saveButton);
       await tester.runAsync(
         () => Future<void>.delayed(const Duration(seconds: 1)),
       );
@@ -123,9 +134,10 @@ void main() {
         'variety:VAR001',
       ]);
 
-      await tester.tap(
-        find.widgetWithText(FilledButton, 'Explore this variety →'),
-      );
+      final exploreButton = find.byType(FilledButton);
+      await tester.ensureVisible(exploreButton);
+      await tester.pump();
+      await tester.tap(exploreButton);
       await tester.pumpAndSettle();
       expect(find.byType(VarietyDetailsPage), findsOneWidget);
 

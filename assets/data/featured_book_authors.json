@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "authors": [
+    {"author_id": "AU021", "rank": 1, "group": "international"},
+    {"author_id": "AU001", "rank": 2, "group": "hindi"},
+    {"author_id": "AU018", "rank": 3, "group": "international"},
+    {"author_id": "AU008", "rank": 4, "group": "indian_english"},
+    {"author_id": "AU017", "rank": 5, "group": "international"},
+    {"author_id": "AU014", "rank": 6, "group": "indian_english"},
+    {"author_id": "AUTH0038", "rank": 7, "group": "international"},
+    {"author_id": "AUTH0077", "rank": 8, "group": "indian_english"},
+    {"author_id": "AUTH0423", "rank": 9, "group": "international"},
+    {"author_id": "AUTH0224", "rank": 10, "group": "indian_english"},
+    {"author_id": "AUTH0506", "rank": 11, "group": "international"},
+    {"author_id": "AU002", "rank": 12, "group": "hindi"}
+  ]
+}

@@ -6,10 +6,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:fruit_atlas/screens/home/home_page.dart';
-import 'package:fruit_atlas/screens/search/discovery_search_page.dart';
-import 'package:fruit_atlas/screens/fruit/fruit_details_page.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
-import 'package:fruit_atlas/widgets/challenge_card.dart';
+import 'package:fruit_atlas/widgets/gamification_header.dart';
+import 'package:fruit_atlas/widgets/journey_card.dart';
 
 void main() {
   testWidgets(
@@ -43,67 +42,73 @@ void main() {
       await tester.pumpWidget(
         MaterialApp(theme: AppTheme.light, home: const HomePage()),
       );
-      await tester.runAsync(
-        () => Future<void>.delayed(const Duration(seconds: 1)),
-      );
-      await tester.pump();
-      expect(find.text('3 experiences explored'), findsOneWidget);
-      final cards = tester.widgetList<ChallengeCard>(
-        find.byType(ChallengeCard),
-      );
-      expect(cards.length, 6);
-      expect(
-        cards.map((card) => card.completedCount),
-        containsAll(<int>[1, 1, 1, 0]),
-      );
-      await tester.runAsync(
-        () => Future<void>.delayed(const Duration(seconds: 1)),
-      );
-      await tester.pump();
-      await tester.tap(find.byTooltip('Search discovery'));
-      await tester.pump();
-      await tester.pump(const Duration(seconds: 1));
-      expect(find.byType(DiscoverySearchPage), findsOneWidget);
-      for (final query in ['Mango', 'Dashehari', 'Mangifera indica']) {
-        await tester.enterText(find.byType(TextField), query);
-        await tester.pump(const Duration(milliseconds: 300));
-        await tester.scrollUntilVisible(
-          find.widgetWithText(ListTile, 'Mango'),
-          200,
-          scrollable: find
-              .descendant(
-                of: find.byType(ListView),
-                matching: find.byType(Scrollable),
-              )
-              .first,
+      for (
+        var attempt = 0;
+        attempt < 40 && find.byType(GamificationHeader).evaluate().isEmpty;
+        attempt++
+      ) {
+        await tester.runAsync(
+          () => Future<void>.delayed(const Duration(milliseconds: 500)),
         );
-        expect(find.widgetWithText(ListTile, 'Mango'), findsOneWidget);
+        await tester.pump();
       }
-      await Scrollable.ensureVisible(
-        tester.element(find.text('Mango')),
-        alignment: .5,
+      // Keep this assertion diagnostic meaningful when asynchronous loading fails.
+      expect(find.byType(CircularProgressIndicator), findsNothing);
+      final header = tester.widget<GamificationHeader>(
+        find.byType(GamificationHeader),
       );
-      await tester.pump(const Duration(milliseconds: 300));
-      await tester.tap(find.text('Mango'));
+      expect(header.summary.experienceCount, 3);
+      expect(header.title, 'UPLYFA');
+      expect(find.text('UPLYFA'), findsOneWidget);
+      expect(find.textContaining('Fruit Atlas'), findsNothing);
+      final cards = tester
+          .widgetList<JourneyCard>(find.byType(JourneyCard))
+          .toList();
+      expect(cards.length, greaterThanOrEqualTo(2));
+      expect(cards.map((card) => card.completed), everyElement(1));
+      expect(cards.take(2).map((card) => card.challenge.id), [
+        'taste_fruits_of_india',
+        'visit_12_jyotirlingas',
+      ]);
+      // Only started collections are journeys; the rest are suggestions.
+      expect(
+        cards.every((card) => card.completed > 0),
+        isTrue,
+        reason: 'only started collections are journeys',
+      );
+      await tester.scrollUntilVisible(
+        find.text('Try something new').first,
+        300,
+        scrollable: find.byType(Scrollable).first,
+      );
       await tester.pump();
-      await tester.pump(const Duration(seconds: 1));
-      expect(find.byType(FruitDetailsPage), findsOneWidget);
-      await tester.pageBack();
-      await tester.pump();
-      await tester.pump(const Duration(seconds: 1));
-      await tester.enterText(find.byType(TextField), 'not-a-fruit');
-      await tester.pump(const Duration(milliseconds: 300));
-      expect(find.text('No results found'), findsOneWidget);
-      await tester.tap(find.byTooltip('Clear search'));
-      await tester.pump(const Duration(milliseconds: 300));
-      expect(find.text('Explore categories and challenges'), findsOneWidget);
-      await tester.pageBack();
-      await tester.pump();
-      await tester.pump(const Duration(seconds: 1));
-      await tester.ensureVisible(find.byType(TextField));
-      await tester.enterText(find.byType(TextField), 'Dashehari');
-      await tester.pump(const Duration(milliseconds: 300));
-      expect(find.text('Mango'), findsOneWidget);
+      final quickExploreTiles = find.byWidgetPredicate(
+        (widget) =>
+            widget.key is ValueKey<String> &&
+            (widget.key! as ValueKey<String>).value.startsWith(
+              'quick-explore-',
+            ),
+      );
+      expect(quickExploreTiles, findsNWidgets(6));
+      // Suggestions start from the default interests (hobbies, travel, food)
+      // and skip anything already started.
+      expect(
+        find.byKey(const ValueKey('quick-explore-try_easy_hobbies')),
+        findsOneWidget,
+      );
+      expect(
+        find.byKey(const ValueKey('quick-explore-explore_indian_states')),
+        findsOneWidget,
+      );
+      expect(
+        find.byKey(const ValueKey('quick-explore-taste_fruits_of_india')),
+        findsNothing,
+      );
+      expect(find.text('Find your next hobby'), findsNothing);
+      // The old travel block and Browse fruits card are gone from Home.
+      expect(find.text('Browse fruits'), findsNothing);
+      expect(find.text('Travel & Exploration'), findsNothing);
+      expect(find.byKey(const ValueKey('india-passport-entry')), findsNothing);
       expect(tester.takeException(), isNull);
     },
   );

@@ -261,7 +261,7 @@ void main() {
     await tester.pumpAndSettle();
     await tester.drag(find.byType(CustomScrollView), const Offset(0, 1000));
     await tester.pumpAndSettle();
-    expect(find.text('1 of 132 explored'), findsOneWidget);
+    expect(find.text('1 of 132 learned'), findsOneWidget);
 
     await tester.scrollUntilVisible(
       find.text('Mountain Pose'),

@@ -7,7 +7,10 @@ import '../screens/discover/discover_page.dart';
 import '../theme/app_theme.dart';
 import '../screens/home/home_page.dart';
 import '../screens/my_life/my_life_page.dart';
-import '../screens/saved/saved_page.dart';
+import '../screens/hobbies/my_hobbies_page.dart';
+import '../widgets/reward_feedback_host.dart';
+import '../models/app_branding.dart';
+import '../screens/welcome/welcome_page.dart';
 
 // APP
 // ================================================================
@@ -18,10 +21,12 @@ class FruitAtlasApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Fruit Atlas',
+      title: AppBranding.appName,
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: const MainNavigationPage(),
+      builder: (context, child) =>
+          RewardFeedbackHost(child: child ?? const SizedBox.shrink()),
+      home: const WelcomeGate(child: MainNavigationPage()),
     );
   }
 }
@@ -37,19 +42,32 @@ class MainNavigationPage extends StatefulWidget {
   State<MainNavigationPage> createState() => _MainNavigationPageState();
 }
 
-class _MainNavigationPageState extends State<MainNavigationPage> {
+class _MainNavigationPageState extends State<MainNavigationPage>
+    with SingleTickerProviderStateMixin {
   int selectedIndex = 0;
+  // Fades the newly selected tab in. Tabs stay mounted in the IndexedStack,
+  // so switching never loses scroll position or loaded state.
+  late final AnimationController _tabFade = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 220),
+    value: 1,
+  );
   bool _exitArmed = false;
   Timer? _exitTimer;
 
   @override
   void dispose() {
     _exitTimer?.cancel();
+    _tabFade.dispose();
     super.dispose();
   }
 
   void _selectDestination(int index) {
     _exitTimer?.cancel();
+    if (index != selectedIndex) {
+      final reduced = MediaQuery.maybeOf(context)?.disableAnimations ?? false;
+      reduced ? _tabFade.value = 1 : _tabFade.forward(from: 0);
+    }
     setState(() {
       selectedIndex = index;
       _exitArmed = false;
@@ -78,7 +96,7 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
     messenger.hideCurrentSnackBar();
     messenger.showSnackBar(
       const SnackBar(
-        content: Text('Press back again to exit Fruit Atlas'),
+        content: Text('Press back again to exit ${AppBranding.appName}'),
         duration: Duration(seconds: 2),
         behavior: SnackBarBehavior.floating,
       ),
@@ -96,14 +114,17 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
       canPop: false,
       onPopInvokedWithResult: _handleBack,
       child: Scaffold(
-        body: IndexedStack(
-          index: selectedIndex,
-          children: [
-            HomePage(isActive: selectedIndex == 0),
-            const DiscoverPage(),
-            selectedIndex == 2 ? const SavedPage() : const SizedBox.shrink(),
-            selectedIndex == 3 ? const MyLifePage() : const SizedBox.shrink(),
-          ],
+        body: FadeTransition(
+          opacity: CurvedAnimation(parent: _tabFade, curve: Curves.easeOut),
+          child: IndexedStack(
+            index: selectedIndex,
+            children: [
+              HomePage(isActive: selectedIndex == 0),
+              const DiscoverPage(),
+              const MyHobbiesPage(),
+              selectedIndex == 3 ? const MyLifePage() : const SizedBox.shrink(),
+            ],
+          ),
         ),
         bottomNavigationBar: NavigationBar(
           selectedIndex: selectedIndex,
@@ -117,12 +138,12 @@ class _MainNavigationPageState extends State<MainNavigationPage> {
             NavigationDestination(
               icon: Icon(Icons.explore_outlined),
               selectedIcon: Icon(Icons.explore),
-              label: 'Discover',
+              label: 'Explore',
             ),
             NavigationDestination(
-              icon: Icon(Icons.bookmark_border),
-              selectedIcon: Icon(Icons.bookmark),
-              label: 'Saved',
+              icon: Icon(Icons.palette_outlined),
+              selectedIcon: Icon(Icons.palette),
+              label: 'Hobbies',
             ),
             NavigationDestination(
               icon: Icon(Icons.person_outline),

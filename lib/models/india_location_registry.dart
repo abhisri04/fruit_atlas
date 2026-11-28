@@ -48,7 +48,7 @@ abstract final class IndiaLocationRegistry {
     IndiaLocation('west_bengal', 'West Bengal', IndiaLocationKind.state),
     IndiaLocation(
       'andaman_nicobar',
-      'Andaman and Nicobar Islands',
+      'Andaman & Nicobar Islands',
       IndiaLocationKind.unionTerritory,
     ),
     IndiaLocation('chandigarh', 'Chandigarh', IndiaLocationKind.unionTerritory),

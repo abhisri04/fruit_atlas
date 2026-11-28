@@ -1,0 +1,4229 @@
+{
+  "challenge_id": "taste_world_nuts",
+  "version": 1,
+  "countries": {
+    "AF": {
+      "name": "Afghanistan",
+      "continent": "Asia"
+    },
+    "AR": {
+      "name": "Argentina",
+      "continent": "South America"
+    },
+    "AU": {
+      "name": "Australia",
+      "continent": "Oceania"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "continent": "Asia"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "continent": "Africa"
+    },
+    "BJ": {
+      "name": "Benin",
+      "continent": "Africa"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "continent": "South America"
+    },
+    "BR": {
+      "name": "Brazil",
+      "continent": "South America"
+    },
+    "BW": {
+      "name": "Botswana",
+      "continent": "Africa"
+    },
+    "BZ": {
+      "name": "Belize",
+      "continent": "North America"
+    },
+    "CA": {
+      "name": "Canada",
+      "continent": "North America"
+    },
+    "CI": {
+      "name": "Côte d'Ivoire",
+      "continent": "Africa"
+    },
+    "CL": {
+      "name": "Chile",
+      "continent": "South America"
+    },
+    "CM": {
+      "name": "Cameroon",
+      "continent": "Africa"
+    },
+    "CN": {
+      "name": "China",
+      "continent": "Asia"
+    },
+    "DE": {
+      "name": "Germany",
+      "continent": "Europe"
+    },
+    "ES": {
+      "name": "Spain",
+      "continent": "Europe"
+    },
+    "FR": {
+      "name": "France",
+      "continent": "Europe"
+    },
+    "GA": {
+      "name": "Gabon",
+      "continent": "Africa"
+    },
+    "GD": {
+      "name": "Grenada",
+      "continent": "North America"
+    },
+    "GE": {
+      "name": "Georgia",
+      "continent": "Asia"
+    },
+    "GH": {
+      "name": "Ghana",
+      "continent": "Africa"
+    },
+    "GR": {
+      "name": "Greece",
+      "continent": "Europe"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "continent": "North America"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "continent": "Asia"
+    },
+    "IN": {
+      "name": "India",
+      "continent": "Asia"
+    },
+    "IR": {
+      "name": "Iran",
+      "continent": "Asia"
+    },
+    "IT": {
+      "name": "Italy",
+      "continent": "Europe"
+    },
+    "JP": {
+      "name": "Japan",
+      "continent": "Asia"
+    },
+    "KE": {
+      "name": "Kenya",
+      "continent": "Africa"
+    },
+    "KH": {
+      "name": "Cambodia",
+      "continent": "Asia"
+    },
+    "KR": {
+      "name": "South Korea",
+      "continent": "Asia"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "continent": "Asia"
+    },
+    "ML": {
+      "name": "Mali",
+      "continent": "Africa"
+    },
+    "MX": {
+      "name": "Mexico",
+      "continent": "North America"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "continent": "Asia"
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "continent": "Africa"
+    },
+    "NA": {
+      "name": "Namibia",
+      "continent": "Africa"
+    },
+    "NE": {
+      "name": "Niger",
+      "continent": "Africa"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "continent": "Africa"
+    },
+    "PE": {
+      "name": "Peru",
+      "continent": "South America"
+    },
+    "PG": {
+      "name": "Papua New Guinea",
+      "continent": "Oceania"
+    },
+    "PH": {
+      "name": "Philippines",
+      "continent": "Asia"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "continent": "Asia"
+    },
+    "PT": {
+      "name": "Portugal",
+      "continent": "Europe"
+    },
+    "RU": {
+      "name": "Russia",
+      "continent": "Europe"
+    },
+    "SB": {
+      "name": "Solomon Islands",
+      "continent": "Oceania"
+    },
+    "SN": {
+      "name": "Senegal",
+      "continent": "Africa"
+    },
+    "SY": {
+      "name": "Syria",
+      "continent": "Asia"
+    },
+    "TR": {
+      "name": "Turkey",
+      "continent": "Asia"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "continent": "Africa"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "continent": "Europe"
+    },
+    "US": {
+      "name": "United States",
+      "continent": "North America"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "continent": "Asia"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "continent": "Asia"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "continent": "Oceania"
+    },
+    "ZA": {
+      "name": "South Africa",
+      "continent": "Africa"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "continent": "Africa"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "continent": "Africa"
+    }
+  },
+  "items": [
+    {
+      "id": "nut_almond",
+      "challenge_id": "taste_world_nuts",
+      "name": "Almond",
+      "category": "Drupe seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Prunus dulcis",
+      "about": "India's favourite dry fruit came from Persia and Central Asia. Today most almonds in the world grow in California.",
+      "aliases": [
+        "Badam"
+      ],
+      "howToSteps": [
+        "Soaked overnight and peeled",
+        "In badam milk or halwa",
+        "Roasted with a pinch of salt"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "almond",
+        "nut",
+        "united states",
+        "spain",
+        "australia",
+        "iran",
+        "turkey",
+        "afghanistan",
+        "india"
+      ],
+      "metadata": {
+        "Also called": "Badam",
+        "Native to": "Iran, Afghanistan, Turkey",
+        "Grown in": "United States, Spain, Australia, Iran, Turkey, Afghanistan, India",
+        "Botanically": "Drupe seed",
+        "Taste": "Mild, sweet and crunchy",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_almond__mamra",
+          "name": "Mamra almond",
+          "description": "Small, curved and very rich: the most prized almond in Indian shops."
+        },
+        {
+          "id": "nut_almond__gurbandi",
+          "name": "Gurbandi almond",
+          "description": "Small Afghan almonds, bold and a little bitter-sweet."
+        },
+        {
+          "id": "nut_almond__californian",
+          "name": "Californian almond",
+          "description": "Big, flat and mild: the everyday almond in Indian shops."
+        },
+        {
+          "id": "nut_almond__kashmiri_kagzi",
+          "name": "Kashmiri kagzi almond",
+          "description": "A paper-thin shell you can crack by hand, with a sweet kernel."
+        },
+        {
+          "id": "nut_almond__marcona",
+          "name": "Marcona almond",
+          "description": "Round, soft and buttery. Spain fries and salts them."
+        }
+      ],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "IR",
+          "AF",
+          "TR"
+        ],
+        "grown": [
+          "US",
+          "ES",
+          "AU",
+          "IR",
+          "TR",
+          "AF",
+          "IN"
+        ],
+        "india_states": [
+          "Jammu & Kashmir",
+          "Himachal Pradesh"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Sweet",
+          "Buttery"
+        ],
+        "taste": "Mild, sweet and crunchy",
+        "ways": [
+          "Soaked overnight and peeled",
+          "In badam milk or halwa",
+          "Roasted with a pinch of salt"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_almond__mamra",
+            "name": "Mamra",
+            "from": "IR",
+            "from_name": "Iran",
+            "description": "Small, curved and very rich: the most prized almond in Indian shops."
+          },
+          {
+            "id": "nut_almond__gurbandi",
+            "name": "Gurbandi",
+            "from": "AF",
+            "from_name": "Afghanistan",
+            "description": "Small Afghan almonds, bold and a little bitter-sweet."
+          },
+          {
+            "id": "nut_almond__californian",
+            "name": "Californian",
+            "from": "US",
+            "from_name": "United States",
+            "description": "Big, flat and mild: the everyday almond in Indian shops."
+          },
+          {
+            "id": "nut_almond__kashmiri_kagzi",
+            "name": "Kashmiri kagzi",
+            "from": "IN",
+            "from_name": "India",
+            "description": "A paper-thin shell you can crack by hand, with a sweet kernel."
+          },
+          {
+            "id": "nut_almond__marcona",
+            "name": "Marcona",
+            "from": "ES",
+            "from_name": "Spain",
+            "description": "Round, soft and buttery. Spain fries and salts them."
+          }
+        ],
+        "fact": "An almond is the seed of a fruit related to the peach and the plum.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_cashew",
+      "challenge_id": "taste_world_nuts",
+      "name": "Cashew",
+      "category": "Drupe seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Anacardium occidentale",
+      "about": "Portuguese sailors brought the cashew from Brazil to Goa in the 1500s. Now India is one of the biggest growers and processors.",
+      "aliases": [
+        "Kaju"
+      ],
+      "howToSteps": [
+        "Roasted with pepper",
+        "In kaju katli",
+        "Ground into a creamy curry"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "cashew",
+        "nut",
+        "côte d'ivoire",
+        "india",
+        "vietnam",
+        "tanzania",
+        "benin",
+        "cambodia",
+        "brazil"
+      ],
+      "metadata": {
+        "Also called": "Kaju",
+        "Native to": "Brazil",
+        "Grown in": "Côte d'Ivoire, India, Vietnam, Tanzania, Benin, Cambodia, Brazil",
+        "Botanically": "Drupe seed",
+        "Taste": "Creamy, sweet and soft-crunchy",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_cashew__w180",
+          "name": "W180 cashew",
+          "description": "The biggest whole cashews, often called king cashews."
+        },
+        {
+          "id": "nut_cashew__w240",
+          "name": "W240 cashew",
+          "description": "Large whole cashews, a favourite for snacking."
+        },
+        {
+          "id": "nut_cashew__w320",
+          "name": "W320 cashew",
+          "description": "The most common size in shops and kitchens."
+        },
+        {
+          "id": "nut_cashew__splits_and_pieces",
+          "name": "Splits and pieces cashew",
+          "description": "Broken cashews, perfect for curries, sweets and baking."
+        }
+      ],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "BR"
+        ],
+        "grown": [
+          "CI",
+          "IN",
+          "VN",
+          "TZ",
+          "BJ",
+          "KH",
+          "BR"
+        ],
+        "india_states": [
+          "Maharashtra",
+          "Andhra Pradesh",
+          "Odisha",
+          "Karnataka",
+          "Kerala",
+          "Goa",
+          "Tamil Nadu"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Sweet",
+          "Buttery"
+        ],
+        "taste": "Creamy, sweet and soft-crunchy",
+        "ways": [
+          "Roasted with pepper",
+          "In kaju katli",
+          "Ground into a creamy curry"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_cashew__w180",
+            "name": "W180",
+            "from": null,
+            "from_name": null,
+            "description": "The biggest whole cashews, often called king cashews."
+          },
+          {
+            "id": "nut_cashew__w240",
+            "name": "W240",
+            "from": null,
+            "from_name": null,
+            "description": "Large whole cashews, a favourite for snacking."
+          },
+          {
+            "id": "nut_cashew__w320",
+            "name": "W320",
+            "from": null,
+            "from_name": null,
+            "description": "The most common size in shops and kitchens."
+          },
+          {
+            "id": "nut_cashew__splits_and_pieces",
+            "name": "Splits and pieces",
+            "from": null,
+            "from_name": null,
+            "description": "Broken cashews, perfect for curries, sweets and baking."
+          }
+        ],
+        "fact": "Each cashew hangs below a juicy 'cashew apple'. In Goa that fruit becomes feni.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_walnut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Walnut",
+      "category": "Drupe seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Juglans regia",
+      "about": "The Persian walnut spread along the Silk Road. Kashmir grows most of India's walnuts.",
+      "aliases": [
+        "Akhrot"
+      ],
+      "howToSteps": [
+        "Cracked fresh from the shell",
+        "In brownies or akhrot halwa",
+        "With honey and curd"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "walnut",
+        "nut",
+        "china",
+        "united states",
+        "iran",
+        "turkey",
+        "chile",
+        "ukraine",
+        "india"
+      ],
+      "metadata": {
+        "Also called": "Akhrot",
+        "Native to": "Iran, Uzbekistan",
+        "Grown in": "China, United States, Iran, Turkey, Chile, Ukraine, India",
+        "Botanically": "Drupe seed",
+        "Taste": "Rich, slightly bitter skin, soft crunch",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_walnut__kashmiri_kagzi",
+          "name": "Kashmiri kagzi walnut",
+          "description": "Paper-thin shells and light kernels from Kashmir."
+        },
+        {
+          "id": "nut_walnut__californian",
+          "name": "Californian walnut",
+          "description": "Large light halves, the most common walnut kernels."
+        },
+        {
+          "id": "nut_walnut__chilean",
+          "name": "Chilean walnut",
+          "description": "Light, mild halves from Chile's Central Valley."
+        }
+      ],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "IR",
+          "UZ"
+        ],
+        "grown": [
+          "CN",
+          "US",
+          "IR",
+          "TR",
+          "CL",
+          "UA",
+          "IN"
+        ],
+        "india_states": [
+          "Jammu & Kashmir",
+          "Himachal Pradesh",
+          "Uttarakhand",
+          "Arunachal Pradesh"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Rich",
+          "Earthy"
+        ],
+        "taste": "Rich, slightly bitter skin, soft crunch",
+        "ways": [
+          "Cracked fresh from the shell",
+          "In brownies or akhrot halwa",
+          "With honey and curd"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_walnut__kashmiri_kagzi",
+            "name": "Kashmiri kagzi",
+            "from": "IN",
+            "from_name": "India",
+            "description": "Paper-thin shells and light kernels from Kashmir."
+          },
+          {
+            "id": "nut_walnut__californian",
+            "name": "Californian",
+            "from": "US",
+            "from_name": "United States",
+            "description": "Large light halves, the most common walnut kernels."
+          },
+          {
+            "id": "nut_walnut__chilean",
+            "name": "Chilean",
+            "from": "CL",
+            "from_name": "Chile",
+            "description": "Light, mild halves from Chile's Central Valley."
+          }
+        ],
+        "fact": "The kernel's two halves look a little like a brain.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_pistachio",
+      "challenge_id": "taste_world_nuts",
+      "name": "Pistachio",
+      "category": "Drupe seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Pistacia vera",
+      "about": "Pistachios come from the dry hills of Iran and Central Asia. India buys almost all of its pistachios from abroad.",
+      "aliases": [
+        "Pista"
+      ],
+      "howToSteps": [
+        "Salted, straight from the shell",
+        "On kulfi and barfi",
+        "In baklava"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "pistachio",
+        "nut",
+        "united states",
+        "iran",
+        "turkey",
+        "syria",
+        "china"
+      ],
+      "metadata": {
+        "Also called": "Pista",
+        "Native to": "Iran, Uzbekistan",
+        "Grown in": "United States, Iran, Turkey, Syria, China",
+        "Botanically": "Drupe seed",
+        "Taste": "Sweet, buttery and a little green",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_pistachio__akbari",
+          "name": "Akbari pistachio",
+          "description": "Long, large Iranian pistachios."
+        },
+        {
+          "id": "nut_pistachio__fandoghi",
+          "name": "Fandoghi pistachio",
+          "description": "Small, round Iranian pistachios, the most common kind."
+        },
+        {
+          "id": "nut_pistachio__californian",
+          "name": "Californian pistachio",
+          "description": "Big, evenly split, usually roasted and salted."
+        },
+        {
+          "id": "nut_pistachio__antep",
+          "name": "Antep pistachio",
+          "description": "Small, deep green and full of flavour: the baklava pistachio."
+        },
+        {
+          "id": "nut_pistachio__bronte",
+          "name": "Bronte pistachio",
+          "description": "Bright green pistachios from the slopes of Mount Etna in Sicily."
+        }
+      ],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "IR",
+          "UZ"
+        ],
+        "grown": [
+          "US",
+          "IR",
+          "TR",
+          "SY",
+          "CN"
+        ],
+        "india_states": [],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Sweet",
+          "Buttery"
+        ],
+        "taste": "Sweet, buttery and a little green",
+        "ways": [
+          "Salted, straight from the shell",
+          "On kulfi and barfi",
+          "In baklava"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_pistachio__akbari",
+            "name": "Akbari",
+            "from": "IR",
+            "from_name": "Iran",
+            "description": "Long, large Iranian pistachios."
+          },
+          {
+            "id": "nut_pistachio__fandoghi",
+            "name": "Fandoghi",
+            "from": "IR",
+            "from_name": "Iran",
+            "description": "Small, round Iranian pistachios, the most common kind."
+          },
+          {
+            "id": "nut_pistachio__californian",
+            "name": "Californian",
+            "from": "US",
+            "from_name": "United States",
+            "description": "Big, evenly split, usually roasted and salted."
+          },
+          {
+            "id": "nut_pistachio__antep",
+            "name": "Antep",
+            "from": "TR",
+            "from_name": "Turkey",
+            "description": "Small, deep green and full of flavour: the baklava pistachio."
+          },
+          {
+            "id": "nut_pistachio__bronte",
+            "name": "Bronte",
+            "from": "IT",
+            "from_name": "Italy",
+            "description": "Bright green pistachios from the slopes of Mount Etna in Sicily."
+          }
+        ],
+        "fact": "Ripe pistachio shells split open on their own. In Iran this is called the 'smiling nut'.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_peanut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Peanut",
+      "category": "Legume",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Arachis hypogaea",
+      "about": "Not a nut at all: a legume like peas, from South America. India is one of the biggest growers in the world.",
+      "aliases": [
+        "Moongphali",
+        "Groundnut"
+      ],
+      "howToSteps": [
+        "Roasted in sand on a winter street",
+        "In chikki",
+        "Crushed over poha"
+      ],
+      "practiceSafety": "One of the most common food allergies.",
+      "keywords": [
+        "peanut",
+        "nut",
+        "china",
+        "india",
+        "nigeria",
+        "united states",
+        "senegal"
+      ],
+      "metadata": {
+        "Also called": "Moongphali, Groundnut",
+        "Native to": "Bolivia, Argentina",
+        "Grown in": "China, India, Nigeria, United States, Senegal",
+        "Botanically": "Legume",
+        "Taste": "Toasty, earthy and salty-sweet",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_peanut__bold",
+          "name": "Bold peanut",
+          "description": "Big oval peanuts from Gujarat, made for roasting."
+        },
+        {
+          "id": "nut_peanut__java",
+          "name": "Java peanut",
+          "description": "Small, round, pinkish peanuts for namkeen and oil."
+        },
+        {
+          "id": "nut_peanut__virginia",
+          "name": "Virginia peanut",
+          "description": "Large peanuts, often sold roasted in the shell."
+        },
+        {
+          "id": "nut_peanut__spanish",
+          "name": "Spanish peanut",
+          "description": "Small with red skins, great for brittle and chikki."
+        },
+        {
+          "id": "nut_peanut__valencia",
+          "name": "Valencia peanut",
+          "description": "Sweet peanuts, often three or more in a pod."
+        }
+      ],
+      "nut": {
+        "kind": "Legume",
+        "native": [
+          "BO",
+          "AR"
+        ],
+        "grown": [
+          "CN",
+          "IN",
+          "NG",
+          "US",
+          "SN"
+        ],
+        "india_states": [
+          "Gujarat",
+          "Rajasthan",
+          "Tamil Nadu",
+          "Andhra Pradesh",
+          "Karnataka"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Earthy",
+          "Buttery"
+        ],
+        "taste": "Toasty, earthy and salty-sweet",
+        "ways": [
+          "Roasted in sand on a winter street",
+          "In chikki",
+          "Crushed over poha"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_peanut__bold",
+            "name": "Bold",
+            "from": "IN",
+            "from_name": "India",
+            "description": "Big oval peanuts from Gujarat, made for roasting."
+          },
+          {
+            "id": "nut_peanut__java",
+            "name": "Java",
+            "from": "IN",
+            "from_name": "India",
+            "description": "Small, round, pinkish peanuts for namkeen and oil."
+          },
+          {
+            "id": "nut_peanut__virginia",
+            "name": "Virginia",
+            "from": "US",
+            "from_name": "United States",
+            "description": "Large peanuts, often sold roasted in the shell."
+          },
+          {
+            "id": "nut_peanut__spanish",
+            "name": "Spanish",
+            "from": null,
+            "from_name": null,
+            "description": "Small with red skins, great for brittle and chikki."
+          },
+          {
+            "id": "nut_peanut__valencia",
+            "name": "Valencia",
+            "from": null,
+            "from_name": null,
+            "description": "Sweet peanuts, often three or more in a pod."
+          }
+        ],
+        "fact": "Peanuts flower above the ground, then push their pods into the soil to grow.",
+        "safety": "One of the most common food allergies."
+      }
+    },
+    {
+      "id": "nut_hazelnut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Hazelnut",
+      "category": "True nut",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Corylus avellana",
+      "about": "A true nut in the botanical sense, from the Black Sea region and Europe.",
+      "aliases": [
+        "Filbert",
+        "Findak"
+      ],
+      "howToSteps": [
+        "Toasted and skinned",
+        "In chocolate spread",
+        "With coffee"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "hazelnut",
+        "nut",
+        "turkey",
+        "italy",
+        "azerbaijan",
+        "united states",
+        "chile",
+        "georgia"
+      ],
+      "metadata": {
+        "Also called": "Filbert, Findak",
+        "Native to": "Turkey, Georgia",
+        "Grown in": "Turkey, Italy, Azerbaijan, United States, Chile, Georgia",
+        "Botanically": "True nut",
+        "Taste": "Sweet, toasty and chocolate-friendly",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [
+        {
+          "id": "nut_hazelnut__giresun",
+          "name": "Giresun hazelnut",
+          "description": "Turkey's finest, from the Black Sea coast."
+        },
+        {
+          "id": "nut_hazelnut__tonda_gentile",
+          "name": "Tonda Gentile hazelnut",
+          "description": "Round Piedmont hazelnuts used in gianduja chocolate."
+        },
+        {
+          "id": "nut_hazelnut__oregon",
+          "name": "Oregon hazelnut",
+          "description": "Large hazelnuts from Oregon's Willamette Valley."
+        },
+        {
+          "id": "nut_hazelnut__kentish_cobnut",
+          "name": "Kentish cobnut hazelnut",
+          "description": "Fresh hazelnuts from Kent, eaten green in late summer."
+        }
+      ],
+      "nut": {
+        "kind": "True nut",
+        "native": [
+          "TR",
+          "GE"
+        ],
+        "grown": [
+          "TR",
+          "IT",
+          "AZ",
+          "US",
+          "CL",
+          "GE"
+        ],
+        "india_states": [],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Sweet",
+          "Rich"
+        ],
+        "taste": "Sweet, toasty and chocolate-friendly",
+        "ways": [
+          "Toasted and skinned",
+          "In chocolate spread",
+          "With coffee"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_hazelnut__giresun",
+            "name": "Giresun",
+            "from": "TR",
+            "from_name": "Turkey",
+            "description": "Turkey's finest, from the Black Sea coast."
+          },
+          {
+            "id": "nut_hazelnut__tonda_gentile",
+            "name": "Tonda Gentile",
+            "from": "IT",
+            "from_name": "Italy",
+            "description": "Round Piedmont hazelnuts used in gianduja chocolate."
+          },
+          {
+            "id": "nut_hazelnut__oregon",
+            "name": "Oregon",
+            "from": "US",
+            "from_name": "United States",
+            "description": "Large hazelnuts from Oregon's Willamette Valley."
+          },
+          {
+            "id": "nut_hazelnut__kentish_cobnut",
+            "name": "Kentish cobnut",
+            "from": "GB",
+            "from_name": "United Kingdom",
+            "description": "Fresh hazelnuts from Kent, eaten green in late summer."
+          }
+        ],
+        "fact": "Turkey's Black Sea coast grows about two thirds of the world's hazelnuts.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_pecan",
+      "challenge_id": "taste_world_nuts",
+      "name": "Pecan",
+      "category": "Drupe seed",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Carya illinoinensis",
+      "about": "The famous tree nut native to North America, along rivers of the US and Mexico.",
+      "aliases": [],
+      "howToSteps": [
+        "Toasted on porridge",
+        "In pecan pie",
+        "Candied with jaggery"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "pecan",
+        "nut",
+        "united states",
+        "mexico",
+        "south africa",
+        "australia"
+      ],
+      "metadata": {
+        "Native to": "United States, Mexico",
+        "Grown in": "United States, Mexico, South Africa, Australia",
+        "Botanically": "Drupe seed",
+        "Taste": "Buttery, mapley and soft",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "US",
+          "MX"
+        ],
+        "grown": [
+          "US",
+          "MX",
+          "ZA",
+          "AU"
+        ],
+        "india_states": [],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Sweet",
+          "Buttery"
+        ],
+        "taste": "Buttery, mapley and soft",
+        "ways": [
+          "Toasted on porridge",
+          "In pecan pie",
+          "Candied with jaggery"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Pecans are cousins of hickory nuts, from the walnut family.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_macadamia",
+      "challenge_id": "taste_world_nuts",
+      "name": "Macadamia",
+      "category": "Seed",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Macadamia integrifolia",
+      "about": "An Australian rainforest nut that now grows most in South Africa and Kenya.",
+      "aliases": [],
+      "howToSteps": [
+        "Lightly salted",
+        "In white-chocolate cookies",
+        "Chopped over fruit"
+      ],
+      "practiceSafety": "Keep away from dogs: macadamias make them ill.",
+      "keywords": [
+        "macadamia",
+        "nut",
+        "south africa",
+        "australia",
+        "kenya",
+        "china",
+        "united states"
+      ],
+      "metadata": {
+        "Native to": "Australia",
+        "Grown in": "South Africa, Australia, Kenya, China, United States",
+        "Botanically": "Seed",
+        "Taste": "Very buttery and creamy",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "AU"
+        ],
+        "grown": [
+          "ZA",
+          "AU",
+          "KE",
+          "CN",
+          "US"
+        ],
+        "india_states": [],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Buttery",
+          "Rich"
+        ],
+        "taste": "Very buttery and creamy",
+        "ways": [
+          "Lightly salted",
+          "In white-chocolate cookies",
+          "Chopped over fruit"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Its shell is one of the hardest of any nut. Factories crack it with heavy rollers.",
+        "safety": "Keep away from dogs: macadamias make them ill."
+      }
+    },
+    {
+      "id": "nut_brazil_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Brazil nut",
+      "category": "Seed",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Bertholletia excelsa",
+      "about": "Harvested mostly from wild trees in the Amazon rainforest.",
+      "aliases": [],
+      "howToSteps": [
+        "One or two as they are",
+        "Chopped into muesli",
+        "Blended into nut milk"
+      ],
+      "practiceSafety": "Very rich in selenium: one or two a day is plenty.",
+      "keywords": [
+        "brazil nut",
+        "nut",
+        "bolivia",
+        "brazil",
+        "peru"
+      ],
+      "metadata": {
+        "Native to": "Brazil, Bolivia, Peru",
+        "Grown in": "Bolivia, Brazil, Peru",
+        "Botanically": "Seed",
+        "Taste": "Big, creamy and earthy",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "BR",
+          "BO",
+          "PE"
+        ],
+        "grown": [
+          "BO",
+          "BR",
+          "PE"
+        ],
+        "india_states": [],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Rich",
+          "Earthy"
+        ],
+        "taste": "Big, creamy and earthy",
+        "ways": [
+          "One or two as they are",
+          "Chopped into muesli",
+          "Blended into nut milk"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Ten to twenty-five nuts grow packed like orange segments inside one hard pod the size of a coconut.",
+        "safety": "Very rich in selenium: one or two a day is plenty."
+      }
+    },
+    {
+      "id": "nut_pine_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Pine nut",
+      "category": "Seed",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Pinus pinea / Pinus koraiensis",
+      "about": "Pine nuts come from several pines: stone pine in the Mediterranean, Korean pine in East Asia.",
+      "aliases": [
+        "Pinoli"
+      ],
+      "howToSteps": [
+        "Toasted in a dry pan",
+        "In pesto",
+        "Over salads and rice"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "pine nut",
+        "nut",
+        "china",
+        "russia",
+        "south korea",
+        "pakistan",
+        "afghanistan",
+        "italy",
+        "spain",
+        "turkey"
+      ],
+      "metadata": {
+        "Also called": "Pinoli",
+        "Native to": "Italy, Spain, South Korea, China",
+        "Grown in": "China, Russia, South Korea, Pakistan, Afghanistan, Italy, Spain, Turkey",
+        "Botanically": "Seed",
+        "Taste": "Soft, buttery and resin-sweet",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [
+        {
+          "id": "nut_pine_nut__mediterranean",
+          "name": "Mediterranean pine nut",
+          "description": "Long, slim stone-pine nuts, the pesto classic."
+        },
+        {
+          "id": "nut_pine_nut__korean",
+          "name": "Korean pine nut",
+          "description": "Short and round, the most common pine nut in shops."
+        }
+      ],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "IT",
+          "ES",
+          "KR",
+          "CN"
+        ],
+        "grown": [
+          "CN",
+          "RU",
+          "KR",
+          "PK",
+          "AF",
+          "IT",
+          "ES",
+          "TR"
+        ],
+        "india_states": [],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Buttery",
+          "Sweet"
+        ],
+        "taste": "Soft, buttery and resin-sweet",
+        "ways": [
+          "Toasted in a dry pan",
+          "In pesto",
+          "Over salads and rice"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_pine_nut__mediterranean",
+            "name": "Mediterranean",
+            "from": "IT",
+            "from_name": "Italy",
+            "description": "Long, slim stone-pine nuts, the pesto classic."
+          },
+          {
+            "id": "nut_pine_nut__korean",
+            "name": "Korean",
+            "from": "KR",
+            "from_name": "South Korea",
+            "description": "Short and round, the most common pine nut in shops."
+          }
+        ],
+        "fact": "Each one is a seed that waits two or three years inside a pine cone.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_chilgoza",
+      "challenge_id": "taste_world_nuts",
+      "name": "Chilgoza",
+      "category": "Seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Pinus gerardiana",
+      "about": "The Himalayan pine nut, from Afghanistan, Pakistan and Kinnaur in Himachal.",
+      "aliases": [
+        "Neoza",
+        "Chilgoza pine nut"
+      ],
+      "howToSteps": [
+        "Shelled one by one in winter",
+        "Roasted lightly",
+        "In dry-fruit mixes"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "chilgoza",
+        "nut",
+        "afghanistan",
+        "pakistan",
+        "india"
+      ],
+      "metadata": {
+        "Also called": "Neoza, Chilgoza pine nut",
+        "Native to": "Afghanistan, Pakistan, India",
+        "Grown in": "Afghanistan, Pakistan, India",
+        "Botanically": "Seed",
+        "Taste": "Long, buttery and smoky",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "AF",
+          "PK",
+          "IN"
+        ],
+        "grown": [
+          "AF",
+          "PK",
+          "IN"
+        ],
+        "india_states": [
+          "Himachal Pradesh",
+          "Jammu & Kashmir"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Buttery",
+          "Rich"
+        ],
+        "taste": "Long, buttery and smoky",
+        "ways": [
+          "Shelled one by one in winter",
+          "Roasted lightly",
+          "In dry-fruit mixes"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Kinnaur's chilgoza pines grow on steep Himalayan slopes, and cones are picked by hand.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_siberian_pine_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Siberian pine nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Pinus sibirica",
+      "about": "From the Siberian pine of the Russian taiga.",
+      "aliases": [
+        "Cedar nut"
+      ],
+      "howToSteps": [
+        "Cracked from the cone as a snack",
+        "In porridge",
+        "Pressed into oil"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "siberian pine nut",
+        "nut",
+        "russia"
+      ],
+      "metadata": {
+        "Also called": "Cedar nut",
+        "Native to": "Russia",
+        "Grown in": "Russia",
+        "Botanically": "Seed",
+        "Taste": "Small, sweet and oily",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "RU"
+        ],
+        "grown": [
+          "RU"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Buttery",
+          "Sweet"
+        ],
+        "taste": "Small, sweet and oily",
+        "ways": [
+          "Cracked from the cone as a snack",
+          "In porridge",
+          "Pressed into oil"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "In Siberia, cracking 'cedar nuts' from a cone is a winter pastime, like peanuts in India.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_pinyon_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Pinyon nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Pinus edulis",
+      "about": "From small pines of the US Southwest and northern Mexico.",
+      "aliases": [
+        "Piñón"
+      ],
+      "howToSteps": [
+        "Roasted in the shell",
+        "In stews",
+        "Ground into flour"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "pinyon nut",
+        "nut",
+        "united states",
+        "mexico"
+      ],
+      "metadata": {
+        "Also called": "Piñón",
+        "Native to": "United States, Mexico",
+        "Grown in": "United States, Mexico",
+        "Botanically": "Seed",
+        "Taste": "Sweet and buttery",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "US",
+          "MX"
+        ],
+        "grown": [
+          "US",
+          "MX"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Sweet",
+          "Buttery"
+        ],
+        "taste": "Sweet and buttery",
+        "ways": [
+          "Roasted in the shell",
+          "In stews",
+          "Ground into flour"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Native American families have gathered pinyon nuts for thousands of years.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_chestnut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Chestnut",
+      "category": "True nut",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Castanea sativa / Castanea mollissima",
+      "about": "A winter street snack across Europe and East Asia. China grows the most.",
+      "aliases": [
+        "Shahbalut"
+      ],
+      "howToSteps": [
+        "Roasted hot from a street cart",
+        "Boiled and peeled",
+        "In stuffing or soups"
+      ],
+      "practiceSafety": "Horse chestnuts (conkers) look similar but are poisonous.",
+      "keywords": [
+        "chestnut",
+        "nut",
+        "china",
+        "turkey",
+        "south korea",
+        "italy",
+        "greece",
+        "japan",
+        "portugal",
+        "spain"
+      ],
+      "metadata": {
+        "Also called": "Shahbalut",
+        "Native to": "Turkey, Greece, China, Japan",
+        "Grown in": "China, Turkey, South Korea, Italy, Greece, Japan, Portugal, Spain",
+        "Botanically": "True nut",
+        "Taste": "Sweet, soft and floury like a sweet potato",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [
+        {
+          "id": "nut_chestnut__european",
+          "name": "European chestnut",
+          "description": "Big, sweet chestnuts for roasting and marrons glacés."
+        },
+        {
+          "id": "nut_chestnut__chinese",
+          "name": "Chinese chestnut",
+          "description": "Sweet, easy to peel, roasted in hot sand."
+        },
+        {
+          "id": "nut_chestnut__japanese",
+          "name": "Japanese chestnut",
+          "description": "Very large chestnuts, cooked into kuri gohan rice."
+        }
+      ],
+      "nut": {
+        "kind": "True nut",
+        "native": [
+          "TR",
+          "GR",
+          "CN",
+          "JP"
+        ],
+        "grown": [
+          "CN",
+          "TR",
+          "KR",
+          "IT",
+          "GR",
+          "JP",
+          "PT",
+          "ES"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Sweet",
+          "Starchy"
+        ],
+        "taste": "Sweet, soft and floury like a sweet potato",
+        "ways": [
+          "Roasted hot from a street cart",
+          "Boiled and peeled",
+          "In stuffing or soups"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_chestnut__european",
+            "name": "European",
+            "from": "IT",
+            "from_name": "Italy",
+            "description": "Big, sweet chestnuts for roasting and marrons glacés."
+          },
+          {
+            "id": "nut_chestnut__chinese",
+            "name": "Chinese",
+            "from": "CN",
+            "from_name": "China",
+            "description": "Sweet, easy to peel, roasted in hot sand."
+          },
+          {
+            "id": "nut_chestnut__japanese",
+            "name": "Japanese",
+            "from": "JP",
+            "from_name": "Japan",
+            "description": "Very large chestnuts, cooked into kuri gohan rice."
+          }
+        ],
+        "fact": "Chestnuts are low in fat and high in starch, more like a grain than other nuts.",
+        "safety": "Horse chestnuts (conkers) look similar but are poisonous."
+      }
+    },
+    {
+      "id": "nut_heartnut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Heartnut",
+      "category": "Drupe seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Juglans ailantifolia var. cordiformis",
+      "about": "A Japanese walnut with a heart-shaped shell.",
+      "aliases": [
+        "Japanese walnut"
+      ],
+      "howToSteps": [
+        "Cracked whole",
+        "In baking",
+        "Roasted"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "heartnut",
+        "nut",
+        "japan",
+        "canada",
+        "united states"
+      ],
+      "metadata": {
+        "Also called": "Japanese walnut",
+        "Native to": "Japan",
+        "Grown in": "Japan, Canada, United States",
+        "Botanically": "Drupe seed",
+        "Taste": "Mild, sweet walnut flavour",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "JP"
+        ],
+        "grown": [
+          "JP",
+          "CA",
+          "US"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Sweet",
+          "Buttery"
+        ],
+        "taste": "Mild, sweet walnut flavour",
+        "ways": [
+          "Cracked whole",
+          "In baking",
+          "Roasted"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Crack the shell along its seam and the nut comes out shaped like a heart.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_coconut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Coconut",
+      "category": "Drupe seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Cocos nucifera",
+      "about": "Born in tropical Asia and the Pacific, and part of daily life in South India.",
+      "aliases": [
+        "Nariyal",
+        "Copra"
+      ],
+      "howToSteps": [
+        "Fresh tender coconut water",
+        "Grated in chutney",
+        "Dried as copra in laddoos"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "coconut",
+        "nut",
+        "indonesia",
+        "philippines",
+        "india",
+        "sri lanka",
+        "brazil"
+      ],
+      "metadata": {
+        "Also called": "Nariyal, Copra",
+        "Native to": "Indonesia, Philippines",
+        "Grown in": "Indonesia, Philippines, India, Sri Lanka, Brazil",
+        "Botanically": "Drupe seed",
+        "Taste": "Sweet, milky and fresh",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_coconut__tender_coconut",
+          "name": "Tender coconut coconut",
+          "description": "Green coconut with sweet water and soft malai."
+        },
+        {
+          "id": "nut_coconut__mature_coconut",
+          "name": "Mature coconut coconut",
+          "description": "Brown coconut with thick flesh for chutney and curry."
+        },
+        {
+          "id": "nut_coconut__copra_gola",
+          "name": "Copra (gola) coconut",
+          "description": "Dried whole coconut for laddoos and sweets."
+        },
+        {
+          "id": "nut_coconut__desiccated_coconut",
+          "name": "Desiccated coconut coconut",
+          "description": "Fine dried coconut for baking and barfi."
+        }
+      ],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "ID",
+          "PH"
+        ],
+        "grown": [
+          "ID",
+          "PH",
+          "IN",
+          "LK",
+          "BR"
+        ],
+        "india_states": [
+          "Kerala",
+          "Tamil Nadu",
+          "Karnataka",
+          "Andhra Pradesh"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Sweet",
+          "Rich"
+        ],
+        "taste": "Sweet, milky and fresh",
+        "ways": [
+          "Fresh tender coconut water",
+          "Grated in chutney",
+          "Dried as copra in laddoos"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_coconut__tender_coconut",
+            "name": "Tender coconut",
+            "from": null,
+            "from_name": null,
+            "description": "Green coconut with sweet water and soft malai."
+          },
+          {
+            "id": "nut_coconut__mature_coconut",
+            "name": "Mature coconut",
+            "from": null,
+            "from_name": null,
+            "description": "Brown coconut with thick flesh for chutney and curry."
+          },
+          {
+            "id": "nut_coconut__copra_gola",
+            "name": "Copra (gola)",
+            "from": null,
+            "from_name": null,
+            "description": "Dried whole coconut for laddoos and sweets."
+          },
+          {
+            "id": "nut_coconut__desiccated_coconut",
+            "name": "Desiccated coconut",
+            "from": null,
+            "from_name": null,
+            "description": "Fine dried coconut for baking and barfi."
+          }
+        ],
+        "fact": "A coconut is a drupe like a mango, just with a fibrous husk instead of soft pulp.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_makhana",
+      "challenge_id": "taste_world_nuts",
+      "name": "Makhana",
+      "category": "Seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Euryale ferox",
+      "about": "The seed of a prickly water lily. Bihar grows most of the world's makhana.",
+      "aliases": [
+        "Phool makhana",
+        "Fox nut",
+        "Gorgon nut"
+      ],
+      "howToSteps": [
+        "Roasted in ghee with salt",
+        "In kheer",
+        "In a makhana curry"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "makhana",
+        "nut",
+        "india",
+        "china"
+      ],
+      "metadata": {
+        "Also called": "Phool makhana, Fox nut, Gorgon nut",
+        "Native to": "India, China",
+        "Grown in": "India, China",
+        "Botanically": "Seed",
+        "Taste": "Light, crunchy and neutral",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_makhana__mithila_makhana",
+          "name": "Mithila makhana makhana",
+          "description": "From Bihar's Mithila region, with a GI tag."
+        },
+        {
+          "id": "nut_makhana__flavoured_makhana",
+          "name": "Flavoured makhana makhana",
+          "description": "Roasted with ghee and spices: peri-peri, pudina, cheese."
+        }
+      ],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "IN",
+          "CN"
+        ],
+        "grown": [
+          "IN",
+          "CN"
+        ],
+        "india_states": [
+          "Bihar",
+          "West Bengal",
+          "Assam",
+          "Manipur"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Starchy"
+        ],
+        "taste": "Light, crunchy and neutral",
+        "ways": [
+          "Roasted in ghee with salt",
+          "In kheer",
+          "In a makhana curry"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_makhana__mithila_makhana",
+            "name": "Mithila makhana",
+            "from": "IN",
+            "from_name": "India",
+            "description": "From Bihar's Mithila region, with a GI tag."
+          },
+          {
+            "id": "nut_makhana__flavoured_makhana",
+            "name": "Flavoured makhana",
+            "from": null,
+            "from_name": null,
+            "description": "Roasted with ghee and spices: peri-peri, pudina, cheese."
+          }
+        ],
+        "fact": "The seeds are roasted and then popped like popcorn. Mithila makhana has a GI tag.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_chironji",
+      "challenge_id": "taste_world_nuts",
+      "name": "Chironji",
+      "category": "Drupe seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Buchanania lanzan",
+      "about": "An Indian forest nut that makes Indian sweets special.",
+      "aliases": [
+        "Charoli",
+        "Cuddapah almond"
+      ],
+      "howToSteps": [
+        "Sprinkled on kheer",
+        "In shrikhand",
+        "In halwa and laddoos"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "chironji",
+        "nut",
+        "india"
+      ],
+      "metadata": {
+        "Also called": "Charoli, Cuddapah almond",
+        "Native to": "India",
+        "Grown in": "India",
+        "Botanically": "Drupe seed",
+        "Taste": "Like a tiny, softer almond",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "IN"
+        ],
+        "grown": [
+          "IN"
+        ],
+        "india_states": [
+          "Madhya Pradesh",
+          "Chhattisgarh",
+          "Jharkhand",
+          "Odisha"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Sweet",
+          "Buttery"
+        ],
+        "taste": "Like a tiny, softer almond",
+        "ways": [
+          "Sprinkled on kheer",
+          "In shrikhand",
+          "In halwa and laddoos"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Tribal families collect chironji from forests, and the seeds are only about the size of a lentil.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_water_chestnut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Water chestnut",
+      "category": "Seed",
+      "filter_group": "Seasonal in India",
+      "scientific_name": "Trapa natans",
+      "about": "Grows in ponds and lakes in India and China, and is eaten during vrat.",
+      "aliases": [
+        "Singhara"
+      ],
+      "howToSteps": [
+        "Boiled and peeled in winter",
+        "Raw when tender",
+        "As singhara atta for fasts"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "water chestnut",
+        "nut",
+        "india",
+        "china"
+      ],
+      "metadata": {
+        "Also called": "Singhara",
+        "Native to": "India, China",
+        "Grown in": "India, China",
+        "Botanically": "Seed",
+        "Taste": "Crisp, juicy and mildly sweet",
+        "Where to find": "Seasonal in India"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "IN",
+          "CN"
+        ],
+        "grown": [
+          "IN",
+          "CN"
+        ],
+        "india_states": [
+          "Uttar Pradesh",
+          "Bihar",
+          "Madhya Pradesh"
+        ],
+        "find": "Seasonal in India",
+        "tastes": [
+          "Starchy",
+          "Sweet"
+        ],
+        "taste": "Crisp, juicy and mildly sweet",
+        "ways": [
+          "Boiled and peeled in winter",
+          "Raw when tender",
+          "As singhara atta for fasts"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "It grows underwater in ponds, inside a horned shell shaped like a buffalo head.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_indian_almond",
+      "challenge_id": "taste_world_nuts",
+      "name": "Indian almond",
+      "category": "Drupe seed",
+      "filter_group": "Seasonal in India",
+      "scientific_name": "Terminalia catappa",
+      "about": "A seaside tree all over tropical Asia, often planted on Indian coasts.",
+      "aliases": [
+        "Desi badam",
+        "Jangli badam",
+        "Tropical almond"
+      ],
+      "howToSteps": [
+        "Cracked fresh from fallen fruit",
+        "Eaten raw",
+        "Toasted"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "indian almond",
+        "nut",
+        "india",
+        "sri lanka",
+        "malaysia",
+        "indonesia",
+        "philippines"
+      ],
+      "metadata": {
+        "Also called": "Desi badam, Jangli badam, Tropical almond",
+        "Native to": "India, Malaysia, Indonesia",
+        "Grown in": "India, Sri Lanka, Malaysia, Indonesia, Philippines",
+        "Botanically": "Drupe seed",
+        "Taste": "Like a small, delicate almond",
+        "Where to find": "Seasonal in India"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "IN",
+          "MY",
+          "ID"
+        ],
+        "grown": [
+          "IN",
+          "LK",
+          "MY",
+          "ID",
+          "PH"
+        ],
+        "india_states": [
+          "Kerala",
+          "Goa",
+          "Tamil Nadu",
+          "West Bengal"
+        ],
+        "find": "Seasonal in India",
+        "tastes": [
+          "Sweet"
+        ],
+        "taste": "Like a small, delicate almond",
+        "ways": [
+          "Cracked fresh from fallen fruit",
+          "Eaten raw",
+          "Toasted"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "The big leaves turn red before they fall, and the tree grows along beaches.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_apricot_kernel",
+      "challenge_id": "taste_world_nuts",
+      "name": "Apricot kernel",
+      "category": "Drupe seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Prunus armeniaca",
+      "about": "The seed inside the apricot stone, loved in the high Himalayas.",
+      "aliases": [
+        "Khubani ki giri"
+      ],
+      "howToSteps": [
+        "A few with dried apricots",
+        "In Ladakhi sweets",
+        "Pressed for oil"
+      ],
+      "practiceSafety": "Only eat sweet kernels, and only a few. Bitter ones contain a natural toxin.",
+      "keywords": [
+        "apricot kernel",
+        "nut",
+        "turkey",
+        "uzbekistan",
+        "iran",
+        "pakistan",
+        "india"
+      ],
+      "metadata": {
+        "Also called": "Khubani ki giri",
+        "Native to": "China, Uzbekistan",
+        "Grown in": "Turkey, Uzbekistan, Iran, Pakistan, India",
+        "Botanically": "Drupe seed",
+        "Taste": "Sweet and almond-like",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "CN",
+          "UZ"
+        ],
+        "grown": [
+          "TR",
+          "UZ",
+          "IR",
+          "PK",
+          "IN"
+        ],
+        "india_states": [
+          "Ladakh",
+          "Himachal Pradesh"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Sweet"
+        ],
+        "taste": "Sweet and almond-like",
+        "ways": [
+          "A few with dried apricots",
+          "In Ladakhi sweets",
+          "Pressed for oil"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "In Ladakh and Hunza, families crack apricot stones to get these kernels.",
+        "safety": "Only eat sweet kernels, and only a few. Bitter ones contain a natural toxin."
+      }
+    },
+    {
+      "id": "nut_kola_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Kola nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Cola nitida / Cola acuminata",
+      "about": "A West African seed of welcome and celebration.",
+      "aliases": [],
+      "howToSteps": [
+        "Chewed slowly",
+        "Shared at a welcome",
+        "As a natural caffeine drink"
+      ],
+      "practiceSafety": "Contains caffeine.",
+      "keywords": [
+        "kola nut",
+        "nut",
+        "nigeria",
+        "côte d'ivoire",
+        "ghana",
+        "cameroon"
+      ],
+      "metadata": {
+        "Native to": "Côte d'Ivoire, Ghana, Nigeria",
+        "Grown in": "Nigeria, Côte d'Ivoire, Ghana, Cameroon",
+        "Botanically": "Seed",
+        "Taste": "Bitter, then a little sweet",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "CI",
+          "GH",
+          "NG"
+        ],
+        "grown": [
+          "NG",
+          "CI",
+          "GH",
+          "CM"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Bold"
+        ],
+        "taste": "Bitter, then a little sweet",
+        "ways": [
+          "Chewed slowly",
+          "Shared at a welcome",
+          "As a natural caffeine drink"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Offering kola nuts is a sign of welcome and respect in West Africa, and cola drinks were named after it.",
+        "safety": "Contains caffeine."
+      }
+    },
+    {
+      "id": "nut_tiger_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Tiger nut",
+      "category": "Not a nut",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Cyperus esculentus",
+      "about": "Valencia in Spain makes its famous horchata from it. West Africa eats it as a snack.",
+      "aliases": [
+        "Chufa"
+      ],
+      "howToSteps": [
+        "Soaked and chewed",
+        "In horchata de chufa",
+        "Ground into flour"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "tiger nut",
+        "nut",
+        "spain",
+        "nigeria",
+        "ghana",
+        "burkina faso",
+        "mali",
+        "niger"
+      ],
+      "metadata": {
+        "Also called": "Chufa",
+        "Native to": "Nigeria, Ghana",
+        "Grown in": "Spain, Nigeria, Ghana, Burkina Faso, Mali, Niger",
+        "Botanically": "Not a nut",
+        "Taste": "Sweet, chewy and earthy like coconut",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Not a nut",
+        "native": [
+          "NG",
+          "GH"
+        ],
+        "grown": [
+          "ES",
+          "NG",
+          "GH",
+          "BF",
+          "ML",
+          "NE"
+        ],
+        "india_states": [],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Sweet",
+          "Earthy"
+        ],
+        "taste": "Sweet, chewy and earthy like coconut",
+        "ways": [
+          "Soaked and chewed",
+          "In horchata de chufa",
+          "Ground into flour"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Not a nut at all: a small tuber growing on the roots of a grass-like sedge.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_candlenut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Candlenut",
+      "category": "Drupe seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Aleurites moluccanus",
+      "about": "A key thickener in Indonesian and Malaysian cooking.",
+      "aliases": [
+        "Kemiri",
+        "Kukui"
+      ],
+      "howToSteps": [
+        "Ground into curry pastes",
+        "In Indonesian sambal",
+        "Toasted and crushed"
+      ],
+      "practiceSafety": "Mildly toxic raw. Always eaten cooked.",
+      "keywords": [
+        "candlenut",
+        "nut",
+        "indonesia",
+        "malaysia",
+        "philippines",
+        "united states"
+      ],
+      "metadata": {
+        "Also called": "Kemiri, Kukui",
+        "Native to": "Indonesia, Malaysia",
+        "Grown in": "Indonesia, Malaysia, Philippines, United States",
+        "Botanically": "Drupe seed",
+        "Taste": "Waxy and rich when cooked",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "ID",
+          "MY"
+        ],
+        "grown": [
+          "ID",
+          "MY",
+          "PH",
+          "US"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Rich"
+        ],
+        "taste": "Waxy and rich when cooked",
+        "ways": [
+          "Ground into curry pastes",
+          "In Indonesian sambal",
+          "Toasted and crushed"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "It's so oily that people once lit it like a candle.",
+        "safety": "Mildly toxic raw. Always eaten cooked."
+      }
+    },
+    {
+      "id": "nut_pili_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Pili nut",
+      "category": "Drupe seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Canarium ovatum",
+      "about": "One of the richest, most buttery nuts in the world, from the Philippines.",
+      "aliases": [],
+      "howToSteps": [
+        "Roasted and salted",
+        "Candied",
+        "In Filipino pastries"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "pili nut",
+        "nut",
+        "philippines"
+      ],
+      "metadata": {
+        "Native to": "Philippines",
+        "Grown in": "Philippines",
+        "Botanically": "Drupe seed",
+        "Taste": "Extra buttery and soft",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "PH"
+        ],
+        "grown": [
+          "PH"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Buttery",
+          "Rich"
+        ],
+        "taste": "Extra buttery and soft",
+        "ways": [
+          "Roasted and salted",
+          "Candied",
+          "In Filipino pastries"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "It comes from volcanic soil in the Bicol region of the Philippines.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_kenari_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Kenari nut",
+      "category": "Drupe seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Canarium indicum",
+      "about": "A Pacific island nut from Indonesia, Papua New Guinea and Vanuatu.",
+      "aliases": [
+        "Canarium nut",
+        "Ngali nut",
+        "Nangai"
+      ],
+      "howToSteps": [
+        "Fresh from the shell",
+        "Roasted",
+        "In island desserts"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "kenari nut",
+        "nut",
+        "indonesia",
+        "papua new guinea",
+        "vanuatu",
+        "solomon islands"
+      ],
+      "metadata": {
+        "Also called": "Canarium nut, Ngali nut, Nangai",
+        "Native to": "Indonesia, Papua New Guinea",
+        "Grown in": "Indonesia, Papua New Guinea, Vanuatu, Solomon Islands",
+        "Botanically": "Drupe seed",
+        "Taste": "Soft, creamy and mild",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "ID",
+          "PG"
+        ],
+        "grown": [
+          "ID",
+          "PG",
+          "VU",
+          "SB"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Buttery"
+        ],
+        "taste": "Soft, creamy and mild",
+        "ways": [
+          "Fresh from the shell",
+          "Roasted",
+          "In island desserts"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "In Vanuatu, nangai nuts are shared at feasts and celebrations.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_karuka_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Karuka nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Pandanus julianettii",
+      "about": "A highland staple from Papua New Guinea's mountain forests.",
+      "aliases": [],
+      "howToSteps": [
+        "Roasted in the fire",
+        "Eaten fresh",
+        "Smoked for keeping"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "karuka nut",
+        "nut",
+        "papua new guinea"
+      ],
+      "metadata": {
+        "Native to": "Papua New Guinea",
+        "Grown in": "Papua New Guinea",
+        "Botanically": "Seed",
+        "Taste": "Coconut-like and sweet",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "PG"
+        ],
+        "grown": [
+          "PG"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Sweet"
+        ],
+        "taste": "Coconut-like and sweet",
+        "ways": [
+          "Roasted in the fire",
+          "Eaten fresh",
+          "Smoked for keeping"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "One karuka head can weigh as much as a small child and holds hundreds of nuts.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_bunya_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Bunya nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Araucaria bidwillii",
+      "about": "From the bunya pine of Queensland in Australia.",
+      "aliases": [],
+      "howToSteps": [
+        "Boiled and peeled",
+        "Roasted in coals",
+        "Ground into flour"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "bunya nut",
+        "nut",
+        "australia"
+      ],
+      "metadata": {
+        "Native to": "Australia",
+        "Grown in": "Australia",
+        "Botanically": "Seed",
+        "Taste": "Like a chestnut",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "AU"
+        ],
+        "grown": [
+          "AU"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Starchy",
+          "Sweet"
+        ],
+        "taste": "Like a chestnut",
+        "ways": [
+          "Boiled and peeled",
+          "Roasted in coals",
+          "Ground into flour"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Bunya cones can be as heavy as a bowling ball. Aboriginal nations gathered for bunya feasts.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_monkey_puzzle_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Monkey puzzle nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Araucaria araucana",
+      "about": "Seeds from the monkey puzzle tree in the Andes of Chile and Argentina.",
+      "aliases": [
+        "Piñón",
+        "Pehuén"
+      ],
+      "howToSteps": [
+        "Boiled",
+        "Roasted",
+        "Ground into flour"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "monkey puzzle nut",
+        "nut",
+        "chile",
+        "argentina"
+      ],
+      "metadata": {
+        "Also called": "Piñón, Pehuén",
+        "Native to": "Chile, Argentina",
+        "Grown in": "Chile, Argentina",
+        "Botanically": "Seed",
+        "Taste": "Starchy like a chestnut",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "CL",
+          "AR"
+        ],
+        "grown": [
+          "CL",
+          "AR"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Starchy"
+        ],
+        "taste": "Starchy like a chestnut",
+        "ways": [
+          "Boiled",
+          "Roasted",
+          "Ground into flour"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "The Pehuenche people of the Andes are named after this tree.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_ginkgo_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Ginkgo nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Ginkgo biloba",
+      "about": "From the ancient ginkgo tree, eaten in China, Japan and Korea.",
+      "aliases": [
+        "Ginnan",
+        "Bai guo"
+      ],
+      "howToSteps": [
+        "A few roasted on a skewer",
+        "In congee",
+        "In chawanmushi"
+      ],
+      "practiceSafety": "Never raw, and only a few at a time: too many are toxic.",
+      "keywords": [
+        "ginkgo nut",
+        "nut",
+        "china",
+        "japan",
+        "south korea"
+      ],
+      "metadata": {
+        "Also called": "Ginnan, Bai guo",
+        "Native to": "China",
+        "Grown in": "China, Japan, South Korea",
+        "Botanically": "Seed",
+        "Taste": "Soft, chewy and slightly bitter",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "CN"
+        ],
+        "grown": [
+          "CN",
+          "JP",
+          "KR"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Bold",
+          "Starchy"
+        ],
+        "taste": "Soft, chewy and slightly bitter",
+        "ways": [
+          "A few roasted on a skewer",
+          "In congee",
+          "In chawanmushi"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "The ginkgo tree has barely changed since the time of the dinosaurs.",
+        "safety": "Never raw, and only a few at a time: too many are toxic."
+      }
+    },
+    {
+      "id": "nut_torreya_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Torreya nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Torreya grandis",
+      "about": "A prized Chinese nut from Zhejiang province.",
+      "aliases": [
+        "Xiangfei"
+      ],
+      "howToSteps": [
+        "Roasted in the shell",
+        "As a festival snack",
+        "With tea"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "torreya nut",
+        "nut",
+        "china"
+      ],
+      "metadata": {
+        "Also called": "Xiangfei",
+        "Native to": "China",
+        "Grown in": "China",
+        "Botanically": "Seed",
+        "Taste": "Fragrant, crisp and buttery",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "CN"
+        ],
+        "grown": [
+          "CN"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Buttery",
+          "Rich"
+        ],
+        "taste": "Fragrant, crisp and buttery",
+        "ways": [
+          "Roasted in the shell",
+          "As a festival snack",
+          "With tea"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Some Torreya trees in Zhejiang are over a thousand years old and still fruiting.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_beechnut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Beechnut",
+      "category": "True nut",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Fagus sylvatica / Fagus grandifolia",
+      "about": "Tiny triangular nuts from beech forests of Europe and North America.",
+      "aliases": [],
+      "howToSteps": [
+        "Roasted in a pan",
+        "Foraged on autumn walks",
+        "Pressed for oil"
+      ],
+      "practiceSafety": "Eat a few, ideally roasted: lots of raw beechnuts can upset the stomach.",
+      "keywords": [
+        "beechnut",
+        "nut",
+        "germany",
+        "france",
+        "united states",
+        "canada"
+      ],
+      "metadata": {
+        "Native to": "Germany, France, United States, Canada",
+        "Grown in": "Germany, France, United States, Canada",
+        "Botanically": "True nut",
+        "Taste": "Small, sweet and nutty",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "True nut",
+        "native": [
+          "DE",
+          "FR",
+          "US",
+          "CA"
+        ],
+        "grown": [
+          "DE",
+          "FR",
+          "US",
+          "CA"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Sweet"
+        ],
+        "taste": "Small, sweet and nutty",
+        "ways": [
+          "Roasted in a pan",
+          "Foraged on autumn walks",
+          "Pressed for oil"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Beech trees drop huge crops only every few years, called 'mast years'.",
+        "safety": "Eat a few, ideally roasted: lots of raw beechnuts can upset the stomach."
+      }
+    },
+    {
+      "id": "nut_acorn",
+      "challenge_id": "taste_world_nuts",
+      "name": "Acorn",
+      "category": "True nut",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Quercus",
+      "about": "Oak nuts, eaten for thousands of years in Korea and by Native Americans.",
+      "aliases": [
+        "Dotori"
+      ],
+      "howToSteps": [
+        "As Korean dotorimuk jelly",
+        "Ground into flour",
+        "In acorn noodles"
+      ],
+      "practiceSafety": "Never eat raw: tannins must be soaked out first.",
+      "keywords": [
+        "acorn",
+        "nut",
+        "south korea",
+        "united states",
+        "spain",
+        "portugal"
+      ],
+      "metadata": {
+        "Also called": "Dotori",
+        "Native to": "South Korea, United States, Spain, Portugal",
+        "Grown in": "South Korea, United States, Spain, Portugal",
+        "Botanically": "True nut",
+        "Taste": "Earthy and a little bitter",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "True nut",
+        "native": [
+          "KR",
+          "US",
+          "ES",
+          "PT"
+        ],
+        "grown": [
+          "KR",
+          "US",
+          "ES",
+          "PT"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Earthy",
+          "Starchy"
+        ],
+        "taste": "Earthy and a little bitter",
+        "ways": [
+          "As Korean dotorimuk jelly",
+          "Ground into flour",
+          "In acorn noodles"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Acorns are full of tannins, so they are soaked in water for days before eating.",
+        "safety": "Never eat raw: tannins must be soaked out first."
+      }
+    },
+    {
+      "id": "nut_black_walnut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Black walnut",
+      "category": "Drupe seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Juglans nigra",
+      "about": "A bold wild walnut of the eastern United States.",
+      "aliases": [],
+      "howToSteps": [
+        "In ice cream",
+        "In cakes",
+        "In cookies"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "black walnut",
+        "nut",
+        "united states"
+      ],
+      "metadata": {
+        "Native to": "United States, Canada",
+        "Grown in": "United States",
+        "Botanically": "Drupe seed",
+        "Taste": "Strong, wild and winey",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "US",
+          "CA"
+        ],
+        "grown": [
+          "US"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Bold",
+          "Earthy"
+        ],
+        "taste": "Strong, wild and winey",
+        "ways": [
+          "In ice cream",
+          "In cakes",
+          "In cookies"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Its shell is so tough that people sometimes run it over with a car to crack it.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_butternut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Butternut",
+      "category": "Drupe seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Juglans cinerea",
+      "about": "A North American walnut, now a rare treat.",
+      "aliases": [
+        "White walnut"
+      ],
+      "howToSteps": [
+        "Cracked fresh",
+        "In maple sweets",
+        "In baking"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "butternut",
+        "nut",
+        "united states",
+        "canada"
+      ],
+      "metadata": {
+        "Also called": "White walnut",
+        "Native to": "United States, Canada",
+        "Grown in": "United States, Canada",
+        "Botanically": "Drupe seed",
+        "Taste": "Buttery and oily",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "US",
+          "CA"
+        ],
+        "grown": [
+          "US",
+          "CA"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Buttery",
+          "Rich"
+        ],
+        "taste": "Buttery and oily",
+        "ways": [
+          "Cracked fresh",
+          "In maple sweets",
+          "In baking"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Wild butternut trees are now rare because of a tree disease.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_hickory_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Hickory nut",
+      "category": "Drupe seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Carya ovata",
+      "about": "A pecan cousin from North American forests.",
+      "aliases": [],
+      "howToSteps": [
+        "Cracked from the shell",
+        "In pies",
+        "As hickory milk"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "hickory nut",
+        "nut",
+        "united states",
+        "canada"
+      ],
+      "metadata": {
+        "Native to": "United States, Canada",
+        "Grown in": "United States, Canada",
+        "Botanically": "Drupe seed",
+        "Taste": "Sweet, like a richer pecan",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "US",
+          "CA"
+        ],
+        "grown": [
+          "US",
+          "CA"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Sweet",
+          "Rich"
+        ],
+        "taste": "Sweet, like a richer pecan",
+        "ways": [
+          "Cracked from the shell",
+          "In pies",
+          "As hickory milk"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Shagbark hickory trees have bark that peels off in long strips.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_maya_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Maya nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Brosimum alicastrum",
+      "about": "A rainforest seed from Mexico and Central America.",
+      "aliases": [
+        "Ramón",
+        "Breadnut"
+      ],
+      "howToSteps": [
+        "Boiled like potatoes",
+        "Roasted and brewed",
+        "Ground into flour"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "maya nut",
+        "nut",
+        "mexico",
+        "guatemala",
+        "belize"
+      ],
+      "metadata": {
+        "Also called": "Ramón, Breadnut",
+        "Native to": "Mexico, Guatemala, Belize",
+        "Grown in": "Mexico, Guatemala, Belize",
+        "Botanically": "Seed",
+        "Taste": "Like chocolate or coffee when roasted",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "MX",
+          "GT",
+          "BZ"
+        ],
+        "grown": [
+          "MX",
+          "GT",
+          "BZ"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Earthy"
+        ],
+        "taste": "Like chocolate or coffee when roasted",
+        "ways": [
+          "Boiled like potatoes",
+          "Roasted and brewed",
+          "Ground into flour"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "The ancient Maya are thought to have planted these trees around their cities.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_sacha_inchi",
+      "challenge_id": "taste_world_nuts",
+      "name": "Sacha inchi",
+      "category": "Seed",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Plukenetia volubilis",
+      "about": "An Amazon seed from Peru, eaten since Inca times.",
+      "aliases": [
+        "Inca peanut"
+      ],
+      "howToSteps": [
+        "Roasted and salted",
+        "As a protein powder",
+        "Pressed for oil"
+      ],
+      "practiceSafety": "Eat roasted, not raw.",
+      "keywords": [
+        "sacha inchi",
+        "nut",
+        "peru"
+      ],
+      "metadata": {
+        "Also called": "Inca peanut",
+        "Native to": "Peru",
+        "Grown in": "Peru",
+        "Botanically": "Seed",
+        "Taste": "Earthy, like a peanut with a green note",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "PE"
+        ],
+        "grown": [
+          "PE"
+        ],
+        "india_states": [],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Earthy"
+        ],
+        "taste": "Earthy, like a peanut with a green note",
+        "ways": [
+          "Roasted and salted",
+          "As a protein powder",
+          "Pressed for oil"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "It grows in star-shaped pods with four to seven points.",
+        "safety": "Eat roasted, not raw."
+      }
+    },
+    {
+      "id": "nut_baru_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Baru nut",
+      "category": "Drupe seed",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Dipteryx alata",
+      "about": "From the Cerrado savanna of central Brazil.",
+      "aliases": [],
+      "howToSteps": [
+        "Roasted as a snack",
+        "On granola",
+        "In baking"
+      ],
+      "practiceSafety": "Eat roasted, not raw.",
+      "keywords": [
+        "baru nut",
+        "nut",
+        "brazil"
+      ],
+      "metadata": {
+        "Native to": "Brazil",
+        "Grown in": "Brazil",
+        "Botanically": "Drupe seed",
+        "Taste": "Between a peanut and a cashew",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "BR"
+        ],
+        "grown": [
+          "BR"
+        ],
+        "india_states": [],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Earthy",
+          "Sweet"
+        ],
+        "taste": "Between a peanut and a cashew",
+        "ways": [
+          "Roasted as a snack",
+          "On granola",
+          "In baking"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Collecting baru helps keep Brazil's Cerrado savanna standing.",
+        "safety": "Eat roasted, not raw."
+      }
+    },
+    {
+      "id": "nut_paradise_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Paradise nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Lecythis zabucajo",
+      "about": "A rare Amazon cousin of the Brazil nut.",
+      "aliases": [
+        "Sapucaia"
+      ],
+      "howToSteps": [
+        "Raw",
+        "Lightly toasted",
+        "In desserts"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "paradise nut",
+        "nut",
+        "brazil"
+      ],
+      "metadata": {
+        "Also called": "Sapucaia",
+        "Native to": "Brazil",
+        "Grown in": "Brazil",
+        "Botanically": "Seed",
+        "Taste": "Like a sweeter Brazil nut",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "BR"
+        ],
+        "grown": [
+          "BR"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Sweet",
+          "Rich"
+        ],
+        "taste": "Like a sweeter Brazil nut",
+        "ways": [
+          "Raw",
+          "Lightly toasted",
+          "In desserts"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Its woody pod opens with a lid. Monkeys reach inside, which gives it the name 'monkey pot'.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_marula_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Marula nut",
+      "category": "Drupe seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Sclerocarya birrea",
+      "about": "From the marula tree of southern Africa.",
+      "aliases": [],
+      "howToSteps": [
+        "Cracked from the stone",
+        "Roasted",
+        "Pressed for oil"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "marula nut",
+        "nut",
+        "south africa",
+        "botswana",
+        "namibia",
+        "zimbabwe",
+        "mozambique"
+      ],
+      "metadata": {
+        "Native to": "South Africa, Botswana, Mozambique",
+        "Grown in": "South Africa, Botswana, Namibia, Zimbabwe, Mozambique",
+        "Botanically": "Drupe seed",
+        "Taste": "Rich, like a peanut",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "ZA",
+          "BW",
+          "MZ"
+        ],
+        "grown": [
+          "ZA",
+          "BW",
+          "NA",
+          "ZW",
+          "MZ"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Rich"
+        ],
+        "taste": "Rich, like a peanut",
+        "ways": [
+          "Cracked from the stone",
+          "Roasted",
+          "Pressed for oil"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "The fruit flavours the Amarula cream liqueur, and elephants love the fruit too.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_mongongo_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Mongongo nut",
+      "category": "Drupe seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Schinziophyton rautanenii",
+      "about": "A Kalahari staple from Namibia, Botswana and Zambia.",
+      "aliases": [
+        "Manketti"
+      ],
+      "howToSteps": [
+        "Roasted",
+        "Cracked in the field",
+        "Pressed for oil"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "mongongo nut",
+        "nut",
+        "namibia",
+        "botswana",
+        "zambia"
+      ],
+      "metadata": {
+        "Also called": "Manketti",
+        "Native to": "Namibia, Botswana, Zambia",
+        "Grown in": "Namibia, Botswana, Zambia",
+        "Botanically": "Drupe seed",
+        "Taste": "Like roasted cashew",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Drupe seed",
+        "native": [
+          "NA",
+          "BW",
+          "ZM"
+        ],
+        "grown": [
+          "NA",
+          "BW",
+          "ZM"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Rich"
+        ],
+        "taste": "Like roasted cashew",
+        "ways": [
+          "Roasted",
+          "Cracked in the field",
+          "Pressed for oil"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "For the San people of the Kalahari it has been an everyday food for thousands of years.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_dika_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Dika nut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Irvingia gabonensis",
+      "about": "The seed of the African bush mango, central to Nigerian cooking.",
+      "aliases": [
+        "Ogbono",
+        "Bush mango seed"
+      ],
+      "howToSteps": [
+        "Ground into ogbono soup",
+        "As a thickener",
+        "Toasted"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "dika nut",
+        "nut",
+        "nigeria",
+        "cameroon",
+        "gabon"
+      ],
+      "metadata": {
+        "Also called": "Ogbono, Bush mango seed",
+        "Native to": "Nigeria, Cameroon, Gabon",
+        "Grown in": "Nigeria, Cameroon, Gabon",
+        "Botanically": "Seed",
+        "Taste": "Earthy, and makes soups silky",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "NG",
+          "CM",
+          "GA"
+        ],
+        "grown": [
+          "NG",
+          "CM",
+          "GA"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Earthy"
+        ],
+        "taste": "Earthy, and makes soups silky",
+        "ways": [
+          "Ground into ogbono soup",
+          "As a thickener",
+          "Toasted"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Ground ogbono makes soup slightly stretchy, a texture many West Africans love.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_bambara_groundnut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Bambara groundnut",
+      "category": "Legume",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Vigna subterranea",
+      "about": "Africa's own 'groundnut', grown across West Africa.",
+      "aliases": [],
+      "howToSteps": [
+        "Boiled with salt",
+        "Roasted",
+        "Ground into flour"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "bambara groundnut",
+        "nut",
+        "burkina faso",
+        "niger",
+        "cameroon",
+        "nigeria",
+        "ghana"
+      ],
+      "metadata": {
+        "Native to": "Nigeria, Cameroon",
+        "Grown in": "Burkina Faso, Niger, Cameroon, Nigeria, Ghana",
+        "Botanically": "Legume",
+        "Taste": "Beany and earthy",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Legume",
+        "native": [
+          "NG",
+          "CM"
+        ],
+        "grown": [
+          "BF",
+          "NE",
+          "CM",
+          "NG",
+          "GH"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Earthy",
+          "Starchy"
+        ],
+        "taste": "Beany and earthy",
+        "ways": [
+          "Boiled with salt",
+          "Roasted",
+          "Ground into flour"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Like the peanut, its pods ripen underground.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_jackfruit_seed",
+      "challenge_id": "taste_world_nuts",
+      "name": "Jackfruit seed",
+      "category": "Seed",
+      "filter_group": "Seasonal in India",
+      "scientific_name": "Artocarpus heterophyllus",
+      "about": "Most people throw them away, but South India and Bengal cook them like chestnuts.",
+      "aliases": [
+        "Kathal ke beej",
+        "Chakkakuru"
+      ],
+      "howToSteps": [
+        "Boiled and peeled",
+        "Roasted on a tawa",
+        "In a Kerala curry"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "jackfruit seed",
+        "nut",
+        "india",
+        "sri lanka",
+        "indonesia",
+        "vietnam"
+      ],
+      "metadata": {
+        "Also called": "Kathal ke beej, Chakkakuru",
+        "Native to": "India",
+        "Grown in": "India, Sri Lanka, Indonesia, Vietnam",
+        "Botanically": "Seed",
+        "Taste": "Like a chestnut",
+        "Where to find": "Seasonal in India"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "IN"
+        ],
+        "grown": [
+          "IN",
+          "LK",
+          "ID",
+          "VN"
+        ],
+        "india_states": [
+          "Kerala",
+          "Karnataka",
+          "West Bengal",
+          "Assam"
+        ],
+        "find": "Seasonal in India",
+        "tastes": [
+          "Starchy",
+          "Sweet"
+        ],
+        "taste": "Like a chestnut",
+        "ways": [
+          "Boiled and peeled",
+          "Roasted on a tawa",
+          "In a Kerala curry"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "One jackfruit can hold hundreds of seeds.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_pumpkin_seed",
+      "challenge_id": "taste_world_nuts",
+      "name": "Pumpkin seed",
+      "category": "Seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Cucurbita",
+      "about": "Pumpkins came from the Americas. Their seeds are now a snack everywhere.",
+      "aliases": [
+        "Kaddu ke beej",
+        "Pepitas"
+      ],
+      "howToSteps": [
+        "Roasted with salt",
+        "On salads",
+        "In Mexican pipián sauce"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "pumpkin seed",
+        "nut",
+        "china",
+        "india",
+        "mexico",
+        "united states"
+      ],
+      "metadata": {
+        "Also called": "Kaddu ke beej, Pepitas",
+        "Native to": "Mexico",
+        "Grown in": "China, India, Mexico, United States",
+        "Botanically": "Seed",
+        "Taste": "Green, nutty and crunchy",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_pumpkin_seed__pepitas",
+          "name": "Pepitas pumpkin seed",
+          "description": "Green, hull-less seeds."
+        },
+        {
+          "id": "nut_pumpkin_seed__in_shell",
+          "name": "In-shell pumpkin seed",
+          "description": "White seeds roasted in their shell."
+        }
+      ],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "MX"
+        ],
+        "grown": [
+          "CN",
+          "IN",
+          "MX",
+          "US"
+        ],
+        "india_states": [
+          "Across India"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Earthy"
+        ],
+        "taste": "Green, nutty and crunchy",
+        "ways": [
+          "Roasted with salt",
+          "On salads",
+          "In Mexican pipián sauce"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_pumpkin_seed__pepitas",
+            "name": "Pepitas",
+            "from": "MX",
+            "from_name": "Mexico",
+            "description": "Green, hull-less seeds."
+          },
+          {
+            "id": "nut_pumpkin_seed__in_shell",
+            "name": "In-shell",
+            "from": null,
+            "from_name": null,
+            "description": "White seeds roasted in their shell."
+          }
+        ],
+        "fact": "Some pumpkins grow 'naked' seeds without a shell.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_sunflower_seed",
+      "challenge_id": "taste_world_nuts",
+      "name": "Sunflower seed",
+      "category": "Seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Helianthus annuus",
+      "about": "Native to North America. Russia and Ukraine grow the most today.",
+      "aliases": [
+        "Surajmukhi ke beej"
+      ],
+      "howToSteps": [
+        "Cracked in the shell",
+        "On bread",
+        "In trail mix"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "sunflower seed",
+        "nut",
+        "russia",
+        "ukraine",
+        "argentina",
+        "china",
+        "india"
+      ],
+      "metadata": {
+        "Also called": "Surajmukhi ke beej",
+        "Native to": "United States, Mexico",
+        "Grown in": "Russia, Ukraine, Argentina, China, India",
+        "Botanically": "Seed",
+        "Taste": "Mild and nutty",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_sunflower_seed__in_shell",
+          "name": "In shell sunflower seed",
+          "description": "Striped seeds you crack with your teeth."
+        },
+        {
+          "id": "nut_sunflower_seed__kernels",
+          "name": "Kernels sunflower seed",
+          "description": "Shelled seeds for salads and bread."
+        }
+      ],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "US",
+          "MX"
+        ],
+        "grown": [
+          "RU",
+          "UA",
+          "AR",
+          "CN",
+          "IN"
+        ],
+        "india_states": [
+          "Karnataka",
+          "Maharashtra",
+          "Andhra Pradesh"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Earthy"
+        ],
+        "taste": "Mild and nutty",
+        "ways": [
+          "Cracked in the shell",
+          "On bread",
+          "In trail mix"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_sunflower_seed__in_shell",
+            "name": "In shell",
+            "from": null,
+            "from_name": null,
+            "description": "Striped seeds you crack with your teeth."
+          },
+          {
+            "id": "nut_sunflower_seed__kernels",
+            "name": "Kernels",
+            "from": null,
+            "from_name": null,
+            "description": "Shelled seeds for salads and bread."
+          }
+        ],
+        "fact": "Young sunflowers turn to follow the sun across the sky.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_melon_seeds",
+      "challenge_id": "taste_world_nuts",
+      "name": "Melon seeds",
+      "category": "Seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Citrullus lanatus / Cucumis melo",
+      "about": "Small seeds used in Indian sweets, and in West African soups.",
+      "aliases": [
+        "Magaz",
+        "Char magaz",
+        "Egusi"
+      ],
+      "howToSteps": [
+        "In thandai",
+        "On laddoos and barfi",
+        "In Nigerian egusi soup"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "melon seeds",
+        "nut",
+        "india",
+        "china",
+        "nigeria",
+        "cameroon"
+      ],
+      "metadata": {
+        "Also called": "Magaz, Char magaz, Egusi",
+        "Native to": "Nigeria, India",
+        "Grown in": "India, China, Nigeria, Cameroon",
+        "Botanically": "Seed",
+        "Taste": "Mild and sweet",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_melon_seeds__watermelon_magaz",
+          "name": "Watermelon (magaz) melon seeds",
+          "description": "Peeled white seeds for sweets and thandai."
+        },
+        {
+          "id": "nut_melon_seeds__muskmelon_kharbuja",
+          "name": "Muskmelon (kharbuja) melon seeds",
+          "description": "Small seeds, part of char magaz."
+        },
+        {
+          "id": "nut_melon_seeds__egusi",
+          "name": "Egusi melon seeds",
+          "description": "West African melon seeds ground into soup."
+        },
+        {
+          "id": "nut_melon_seeds__char_magaz",
+          "name": "Char magaz melon seeds",
+          "description": "Four seeds mixed: melon, watermelon, pumpkin and cucumber."
+        }
+      ],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "NG",
+          "IN"
+        ],
+        "grown": [
+          "IN",
+          "CN",
+          "NG",
+          "CM"
+        ],
+        "india_states": [
+          "Uttar Pradesh",
+          "Rajasthan"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Sweet"
+        ],
+        "taste": "Mild and sweet",
+        "ways": [
+          "In thandai",
+          "On laddoos and barfi",
+          "In Nigerian egusi soup"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_melon_seeds__watermelon_magaz",
+            "name": "Watermelon (magaz)",
+            "from": null,
+            "from_name": null,
+            "description": "Peeled white seeds for sweets and thandai."
+          },
+          {
+            "id": "nut_melon_seeds__muskmelon_kharbuja",
+            "name": "Muskmelon (kharbuja)",
+            "from": null,
+            "from_name": null,
+            "description": "Small seeds, part of char magaz."
+          },
+          {
+            "id": "nut_melon_seeds__egusi",
+            "name": "Egusi",
+            "from": "NG",
+            "from_name": "Nigeria",
+            "description": "West African melon seeds ground into soup."
+          },
+          {
+            "id": "nut_melon_seeds__char_magaz",
+            "name": "Char magaz",
+            "from": "IN",
+            "from_name": "India",
+            "description": "Four seeds mixed: melon, watermelon, pumpkin and cucumber."
+          }
+        ],
+        "fact": "'Char magaz' means four seeds: melon, watermelon, pumpkin and cucumber.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_lotus_seed",
+      "challenge_id": "taste_world_nuts",
+      "name": "Lotus seed",
+      "category": "Seed",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Nelumbo nucifera",
+      "about": "Seeds of the sacred lotus, not to be confused with makhana.",
+      "aliases": [
+        "Kamal gatta"
+      ],
+      "howToSteps": [
+        "In lotus-seed paste in mooncakes",
+        "Boiled in soups",
+        "In kheer"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "lotus seed",
+        "nut",
+        "china",
+        "india",
+        "vietnam"
+      ],
+      "metadata": {
+        "Also called": "Kamal gatta",
+        "Native to": "India, China",
+        "Grown in": "China, India, Vietnam",
+        "Botanically": "Seed",
+        "Taste": "Soft and mildly sweet",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [
+        {
+          "id": "nut_lotus_seed__white_lotus_seed",
+          "name": "White lotus seed lotus seed",
+          "description": "Peeled seeds for soups and mooncakes."
+        },
+        {
+          "id": "nut_lotus_seed__kamal_gatta",
+          "name": "Kamal gatta lotus seed",
+          "description": "Dark seeds still in their hard shell."
+        }
+      ],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "IN",
+          "CN"
+        ],
+        "grown": [
+          "CN",
+          "IN",
+          "VN"
+        ],
+        "india_states": [
+          "Across India"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Starchy",
+          "Sweet"
+        ],
+        "taste": "Soft and mildly sweet",
+        "ways": [
+          "In lotus-seed paste in mooncakes",
+          "Boiled in soups",
+          "In kheer"
+        ],
+        "shop_kinds": null,
+        "kinds": [
+          {
+            "id": "nut_lotus_seed__white_lotus_seed",
+            "name": "White lotus seed",
+            "from": null,
+            "from_name": null,
+            "description": "Peeled seeds for soups and mooncakes."
+          },
+          {
+            "id": "nut_lotus_seed__kamal_gatta",
+            "name": "Kamal gatta",
+            "from": "IN",
+            "from_name": "India",
+            "description": "Dark seeds still in their hard shell."
+          }
+        ],
+        "fact": "Lotus seeds can still sprout after more than a thousand years.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_nutmeg",
+      "challenge_id": "taste_world_nuts",
+      "name": "Nutmeg",
+      "category": "Not a nut",
+      "filter_group": "Dry-fruit shop",
+      "scientific_name": "Myristica fragrans",
+      "about": "A seed used as a spice. It came from Indonesia's tiny Banda Islands, and wars were fought over it.",
+      "aliases": [
+        "Jaiphal"
+      ],
+      "howToSteps": [
+        "A pinch grated into kheer",
+        "In garam masala",
+        "On eggnog or chai"
+      ],
+      "practiceSafety": "A spice, not a snack: large amounts are harmful.",
+      "keywords": [
+        "nutmeg",
+        "nut",
+        "indonesia",
+        "india",
+        "grenada",
+        "sri lanka"
+      ],
+      "metadata": {
+        "Also called": "Jaiphal",
+        "Native to": "Indonesia",
+        "Grown in": "Indonesia, India, Grenada, Sri Lanka",
+        "Botanically": "Not a nut",
+        "Taste": "Warm, sweet and spicy",
+        "Where to find": "Dry-fruit shop"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Not a nut",
+        "native": [
+          "ID"
+        ],
+        "grown": [
+          "ID",
+          "IN",
+          "GD",
+          "LK"
+        ],
+        "india_states": [
+          "Kerala",
+          "Karnataka",
+          "Tamil Nadu"
+        ],
+        "find": "Dry-fruit shop",
+        "tastes": [
+          "Bold"
+        ],
+        "taste": "Warm, sweet and spicy",
+        "ways": [
+          "A pinch grated into kheer",
+          "In garam masala",
+          "On eggnog or chai"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Mace, another spice, is the red lace around the nutmeg seed. Grenada even has a nutmeg on its flag.",
+        "safety": "A spice, not a snack: large amounts are harmful."
+      }
+    },
+    {
+      "id": "nut_soy_nut",
+      "challenge_id": "taste_world_nuts",
+      "name": "Soy nut",
+      "category": "Legume",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Glycine max",
+      "about": "A crunchy snack made from soybeans, a legume that came from China.",
+      "aliases": [
+        "Roasted soybean"
+      ],
+      "howToSteps": [
+        "Roasted and salted as a snack",
+        "Tossed with chaat masala",
+        "In trail mix"
+      ],
+      "practiceSafety": "Soy is a common allergy.",
+      "keywords": [
+        "soy nut",
+        "nut",
+        "united states",
+        "brazil",
+        "argentina",
+        "china",
+        "india"
+      ],
+      "metadata": {
+        "Also called": "Roasted soybean",
+        "Native to": "China",
+        "Grown in": "United States, Brazil, Argentina, China, India",
+        "Botanically": "Legume",
+        "Taste": "Crunchy, toasty and mild",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Legume",
+        "native": [
+          "CN"
+        ],
+        "grown": [
+          "US",
+          "BR",
+          "AR",
+          "CN",
+          "IN"
+        ],
+        "india_states": [
+          "Madhya Pradesh",
+          "Maharashtra",
+          "Rajasthan"
+        ],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Earthy"
+        ],
+        "taste": "Crunchy, toasty and mild",
+        "ways": [
+          "Roasted and salted as a snack",
+          "Tossed with chaat masala",
+          "In trail mix"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Soy nuts are soybeans soaked in water and then roasted until crunchy.",
+        "safety": "Soy is a common allergy."
+      }
+    },
+    {
+      "id": "nut_hemp_seed",
+      "challenge_id": "taste_world_nuts",
+      "name": "Hemp seed",
+      "category": "Seed",
+      "filter_group": "Supermarket or online",
+      "scientific_name": "Cannabis sativa",
+      "about": "Uttarakhand's hill kitchens used hemp seeds long before they became a health food.",
+      "aliases": [
+        "Hemp hearts",
+        "Bhang ke beej"
+      ],
+      "howToSteps": [
+        "Sprinkled on salads and smoothies",
+        "In Kumaoni bhang ki chutney",
+        "Over curd or porridge"
+      ],
+      "practiceSafety": null,
+      "keywords": [
+        "hemp seed",
+        "nut",
+        "china",
+        "canada",
+        "france",
+        "india"
+      ],
+      "metadata": {
+        "Also called": "Hemp hearts, Bhang ke beej",
+        "Native to": "China",
+        "Grown in": "China, Canada, France, India",
+        "Botanically": "Seed",
+        "Taste": "Soft, nutty, like a pine nut",
+        "Where to find": "Supermarket or online"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "CN"
+        ],
+        "grown": [
+          "CN",
+          "CA",
+          "FR",
+          "IN"
+        ],
+        "india_states": [
+          "Uttarakhand"
+        ],
+        "find": "Supermarket or online",
+        "tastes": [
+          "Earthy",
+          "Buttery"
+        ],
+        "taste": "Soft, nutty, like a pine nut",
+        "ways": [
+          "Sprinkled on salads and smoothies",
+          "In Kumaoni bhang ki chutney",
+          "Over curd or porridge"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Hemp seeds don't make you high: the seeds carry almost none of the plant's active compounds.",
+        "safety": null
+      }
+    },
+    {
+      "id": "nut_african_walnut",
+      "challenge_id": "taste_world_nuts",
+      "name": "African walnut",
+      "category": "Seed",
+      "filter_group": "Try on your travels",
+      "scientific_name": "Plukenetia conophora",
+      "about": "A favourite snack across southern Nigeria and Cameroon.",
+      "aliases": [
+        "Conophor nut",
+        "Ukpa"
+      ],
+      "howToSteps": [
+        "Boiled and cracked from the shell",
+        "With roasted corn",
+        "As a street snack in Nigeria"
+      ],
+      "practiceSafety": "Eaten boiled, not raw.",
+      "keywords": [
+        "african walnut",
+        "nut",
+        "nigeria",
+        "cameroon",
+        "ghana"
+      ],
+      "metadata": {
+        "Also called": "Conophor nut, Ukpa",
+        "Native to": "Nigeria, Cameroon",
+        "Grown in": "Nigeria, Cameroon, Ghana",
+        "Botanically": "Seed",
+        "Taste": "Firm, then bitter-sweet",
+        "Where to find": "Try on your travels"
+      },
+      "sub_items": [],
+      "nut": {
+        "kind": "Seed",
+        "native": [
+          "NG",
+          "CM"
+        ],
+        "grown": [
+          "NG",
+          "CM",
+          "GH"
+        ],
+        "india_states": [],
+        "find": "Try on your travels",
+        "tastes": [
+          "Earthy",
+          "Bold"
+        ],
+        "taste": "Firm, then bitter-sweet",
+        "ways": [
+          "Boiled and cracked from the shell",
+          "With roasted corn",
+          "As a street snack in Nigeria"
+        ],
+        "shop_kinds": null,
+        "kinds": [],
+        "fact": "Despite the name, it isn't related to walnuts. It grows on a climbing vine.",
+        "safety": "Eaten boiled, not raw."
+      }
+    }
+  ]
+}

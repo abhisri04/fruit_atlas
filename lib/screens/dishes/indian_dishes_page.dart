@@ -9,7 +9,7 @@ import '../../services/progress_service.dart';
 import '../../theme/app_colors.dart';
 import '../../widgets/achievement_card.dart';
 import '../../widgets/circular_progress_widget.dart';
-import '../../widgets/dish_image.dart';
+import '../../widgets/dish_artwork.dart';
 import '../../widgets/dish_dietary_indicator.dart';
 import '../../widgets/empty_state.dart';
 
@@ -604,55 +604,26 @@ class DishQuickActionCard extends StatelessWidget {
           InkWell(
             borderRadius: BorderRadius.circular(12),
             onTap: onTap,
-            child: Row(
+            child: Stack(
               children: [
-                DishImage(
-                  assetPath: dish.imageAsset,
-                  width: 72,
-                  height: 72,
-                  borderRadius: BorderRadius.circular(12),
+                DishArtwork(
+                  dish: dish,
+                  variant: DishArtworkVariant.list,
+                  width: double.infinity,
+                  height:
+                      150 *
+                      MediaQuery.textScalerOf(context).scale(1).clamp(1, 2),
                 ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        children: [
-                          Expanded(
-                            child: Text(
-                              dish.name,
-                              style: const TextStyle(
-                                color: AppColors.ink,
-                                fontWeight: FontWeight.w700,
-                              ),
-                            ),
-                          ),
-                          if (DishDietaryIndicator.identityFor(
-                                dish.dietaryType,
-                              ) !=
-                              null) ...[
-                            const SizedBox(width: 8),
-                            DishDietaryIndicator(
-                              key: Key('dish-dietary-marker-${dish.id}'),
-                              dietaryType: dish.dietaryType,
-                              compact: true,
-                            ),
-                          ],
-                        ],
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        '${dish.primaryState} | ${_label(dish.dietaryType)} | ${_label(dish.dishType)}',
-                        style: const TextStyle(
-                          color: AppColors.muted,
-                          fontSize: 12,
-                        ),
-                      ),
-                    ],
+                if (DishDietaryIndicator.identityFor(dish.dietaryType) != null)
+                  Positioned(
+                    right: 10,
+                    top: 10,
+                    child: DishDietaryIndicator(
+                      key: Key('dish-dietary-marker-${dish.id}'),
+                      dietaryType: dish.dietaryType,
+                      compact: true,
+                    ),
                   ),
-                ),
-                const Icon(Icons.chevron_right),
               ],
             ),
           ),
@@ -755,8 +726,9 @@ class _DishDetailPageState extends State<DishDetailPage> {
         return ListView(
           padding: const EdgeInsets.only(bottom: 28),
           children: [
-            DishImage(
-              assetPath: dish.imageAsset,
+            DishArtwork(
+              dish: dish,
+              variant: DishArtworkVariant.hero,
               width: double.infinity,
               height: 260,
             ),

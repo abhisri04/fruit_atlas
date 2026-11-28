@@ -1,11 +1,14 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../models/challenge.dart';
 import '../models/daily_discovery.dart';
+import '../models/item.dart';
 import 'asset_data_service.dart';
 import 'challenge_repository.dart';
 import 'progress_service.dart';
 import 'indian_dishes_repository.dart';
 import 'indian_drinks_repository.dart';
+import 'books_repository.dart';
 
 class DailyDiscoveryService {
   static const _dateKey = 'daily_discovery_date';
@@ -33,6 +36,9 @@ class DailyDiscoveryService {
   }) async {
     final fruitData = await data.loadFruitData();
     final loadedChallenges = await challenges.loadChallenges();
+    final fruitChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'fruit')
+        .firstOrNull;
     final yogaChallenge = loadedChallenges
         .where((challenge) => challenge.itemType == 'yoga_pose')
         .firstOrNull;
@@ -42,9 +48,49 @@ class DailyDiscoveryService {
     final locationChallenge = loadedChallenges
         .where((challenge) => challenge.itemType == 'state_or_union_territory')
         .firstOrNull;
+    final jyotirlingaChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'jyotirlinga')
+        .firstOrNull;
     final locationItems = locationChallenge == null
         ? const []
         : await data.loadChallengeItems(locationChallenge);
+    final hobbyChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'hobby')
+        .firstOrNull;
+    final hobbyItems = hobbyChallenge == null
+        ? const <Item>[]
+        : await data.loadChallengeItems(hobbyChallenge);
+    final completedHobbies = hobbyChallenge == null
+        ? <String>{}
+        : await ProgressService.getChallengeItemIds(hobbyChallenge.progressKey);
+    final gameChallenge = loadedChallenges
+        .where((challenge) => challenge.itemType == 'game')
+        .firstOrNull;
+    final gameItems = gameChallenge == null
+        ? const <Item>[]
+        : await data.loadChallengeItems(gameChallenge);
+    final completedGames = gameChallenge == null
+        ? <String>{}
+        : await ProgressService.getChallengeItemIds(gameChallenge.progressKey);
+    Future<List<({Challenge challenge, List<Item> items, Set<String> done})>>
+    poolsFor(String categoryId) async => [
+      for (final challenge in loadedChallenges.where(
+        (challenge) => challenge.categoryId == categoryId,
+      ))
+        (
+          challenge: challenge,
+          items: await data.loadChallengeItems(challenge),
+          done: await ProgressService.getChallengeItemIds(
+            challenge.progressKey,
+          ),
+        ),
+    ];
+    final scentPools = await poolsFor('scent');
+    final gardenPools = await poolsFor('garden');
+    final collectingPools = [
+      ...await poolsFor('collecting'),
+      ...await poolsFor('making'),
+    ];
     final jyotirlingas = await data.loadJyotirlingas();
     final dishCatalogue = await const IndianDishesRepository().load();
     final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
@@ -62,6 +108,8 @@ class DailyDiscoveryService {
           );
     final completedJyotirlingas =
         await ProgressService.getCompletedJyotirlingaIds();
+    final bookCatalogue = await const BooksRepository().load();
+    final bookProgress = await ProgressService.getBookProgress();
     final recommendations = <DailyDiscovery>[];
 
     for (final fruit in fruitData.fruits) {
@@ -75,11 +123,16 @@ class DailyDiscoveryService {
             subtitle: fruit.scientificName.isEmpty
                 ? 'Fruit to discover'
                 : fruit.scientificName,
+            categoryId: fruitChallenge?.categoryId ?? 'food_drink',
             fruit: fruit,
           ),
         );
       }
+      // Varieties are for people already on that fruit's journey; for
+      // everyone else a rare cultivar is just a confusing name.
+      final varietiesWelcome = completedFruits.contains(fruitId);
       for (final variety in fruit.varieties) {
+        if (!varietiesWelcome) continue;
         final varietyId = variety.id;
         if (varietyId == null ||
             varietyId.isEmpty ||
@@ -92,6 +145,7 @@ class DailyDiscoveryService {
             canonicalId: varietyId,
             title: variety.name,
             subtitle: 'Variety of ${fruit.name}',
+            categoryId: fruitChallenge?.categoryId ?? 'food_drink',
             fruit: fruit,
             variety: variety,
           ),
@@ -113,6 +167,7 @@ class DailyDiscoveryService {
               pose.category,
               pose.difficulty,
             ].whereType<String>().join(' · '),
+            categoryId: yogaChallenge.categoryId,
             yogaPose: pose,
             yogaChallenge: yogaChallenge,
           ),
@@ -128,6 +183,7 @@ class DailyDiscoveryService {
           canonicalId: dish.id,
           title: dish.name,
           subtitle: '${dish.primaryState} · Indian dish',
+          categoryId: 'food_drink',
           dish: dish,
         ),
       );
@@ -142,6 +198,7 @@ class DailyDiscoveryService {
           canonicalId: drink.id,
           title: drink.name,
           subtitle: '${drink.primaryState} · Indian drink',
+          categoryId: 'food_drink',
           drink: drink,
         ),
       );
@@ -157,6 +214,7 @@ class DailyDiscoveryService {
             canonicalId: location.id,
             title: location.name,
             subtitle: location.category ?? 'State or Union Territory',
+            categoryId: locationChallenge.categoryId,
             location: location,
             locationChallenge: locationChallenge,
           ),
@@ -171,7 +229,103 @@ class DailyDiscoveryService {
           canonicalId: site.id,
           title: site.name,
           subtitle: site.location,
+          categoryId: jyotirlingaChallenge?.categoryId ?? 'faith_pilgrimage',
           jyotirlinga: site,
+        ),
+      );
+    }
+    if (hobbyChallenge != null) {
+      for (final hobby in hobbyItems) {
+        if (excludeCompleted && completedHobbies.contains(hobby.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.hobby,
+            canonicalId: hobby.id,
+            title: hobby.name,
+            subtitle: hobby.category ?? 'Hobby',
+            categoryId: hobbyChallenge.categoryId,
+            hobby: hobby,
+            hobbyChallenge: hobbyChallenge,
+          ),
+        );
+      }
+    }
+    if (gameChallenge != null) {
+      for (final game in gameItems) {
+        if (excludeCompleted && completedGames.contains(game.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.game,
+            canonicalId: game.id,
+            title: game.name,
+            subtitle: game.category ?? 'Game',
+            categoryId: gameChallenge.categoryId,
+            hobby: game,
+            hobbyChallenge: gameChallenge,
+          ),
+        );
+      }
+    }
+    for (final pool in scentPools) {
+      for (final scent in pool.items) {
+        if (excludeCompleted && pool.done.contains(scent.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.scent,
+            canonicalId: scent.id,
+            title: scent.name,
+            subtitle: scent.filterGroup ?? 'Scent',
+            categoryId: pool.challenge.categoryId,
+            hobby: scent,
+            hobbyChallenge: pool.challenge,
+          ),
+        );
+      }
+    }
+    for (final pool in collectingPools) {
+      for (final item in pool.items) {
+        if (excludeCompleted && pool.done.contains(item.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.hobby,
+            canonicalId: item.id,
+            title: item.name,
+            subtitle: item.filterGroup ?? 'Collecting',
+            categoryId: pool.challenge.categoryId,
+            hobby: item,
+            hobbyChallenge: pool.challenge,
+          ),
+        );
+      }
+    }
+    for (final pool in gardenPools) {
+      for (final item in pool.items) {
+        if (excludeCompleted && pool.done.contains(item.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.garden,
+            canonicalId: item.id,
+            title: item.name,
+            subtitle: item.filterGroup ?? 'Garden',
+            categoryId: pool.challenge.categoryId,
+            hobby: item,
+            hobbyChallenge: pool.challenge,
+          ),
+        );
+      }
+    }
+    for (final book in bookCatalogue.books) {
+      if (excludeCompleted && (bookProgress[book.id]?.isRead ?? false)) {
+        continue;
+      }
+      recommendations.add(
+        DailyDiscovery(
+          type: DailyDiscoveryType.book,
+          canonicalId: book.id,
+          title: book.canonicalTitle,
+          subtitle: '${book.primaryAuthorDisplay} · ${book.primaryGenre}',
+          categoryId: 'culture_learning',
+          book: book,
         ),
       );
     }
@@ -183,6 +337,14 @@ class DailyDiscoveryService {
     final result = unique.values.toList()
       ..sort((a, b) => a.reference.compareTo(b.reference));
     return result;
+  }
+
+  /// Today's Home pick, if one has been chosen today (without choosing).
+  Future<String?> todaysReference() async {
+    final preferences = await SharedPreferences.getInstance();
+    return preferences.getString(_dateKey) == _localDate(now())
+        ? preferences.getString(_currentKey)
+        : null;
   }
 
   Future<DailyDiscovery?> getToday() async {
@@ -211,7 +373,7 @@ class DailyDiscoveryService {
               .where((item) => item.reference != yesterdayReference)
               .toList()
         : eligible;
-    final selected = candidates[_dayNumber(now()) % candidates.length];
+    final selected = _pick(candidates, _dayNumber(now()));
     await _persist(preferences, today, selected.reference, [
       selected.reference,
     ]);
@@ -240,8 +402,7 @@ class DailyDiscoveryService {
         ..clear()
         ..add(current.reference);
     }
-    final selected =
-        candidates[(_dayNumber(now()) + shown.length) % candidates.length];
+    final selected = _pick(candidates, _dayNumber(now()) + shown.length);
     shown.add(selected.reference);
     await _persist(
       preferences,
@@ -250,6 +411,19 @@ class DailyDiscoveryService {
       shown.toList()..sort(),
     );
     return selected;
+  }
+
+  /// Takes turns across kinds (hobby, dish, place, book…) so one big
+  /// collection doesn't fill every day, then picks within the kind.
+  DailyDiscovery _pick(List<DailyDiscovery> candidates, int n) {
+    final byType = <DailyDiscoveryType, List<DailyDiscovery>>{};
+    for (final c in candidates) {
+      byType.putIfAbsent(c.type, () => []).add(c);
+    }
+    final types = byType.keys.toList()
+      ..sort((a, b) => a.index.compareTo(b.index));
+    final items = byType[types[n % types.length]]!;
+    return items[(n ~/ types.length) % items.length];
   }
 
   Future<void> _persist(

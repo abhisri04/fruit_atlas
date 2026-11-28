@@ -6,6 +6,14 @@ import '../models/fruit_identity.dart';
 import '../models/indian_dish.dart';
 import '../models/indian_drink.dart';
 import '../models/item_action_progress.dart';
+import '../models/book.dart';
+import '../models/celebration_event.dart';
+import 'celebration_service.dart';
+import 'indian_dishes_repository.dart';
+import 'indian_drinks_repository.dart';
+import 'state_travel_service.dart';
+import '../models/state_travel_status.dart';
+import '../models/india_location_registry.dart';
 
 class ProgressService {
   static const String _categoryProgressPrefix = 'category_item_progress_v1_';
@@ -17,6 +25,79 @@ class ProgressService {
   static const String _completedYogaPoseIdsKey = 'completed_yoga_pose_ids';
   static const String _completedExperienceIdsKey = 'completed_experience_ids';
   static const String _completedDistrictIdsKey = 'completed_district_ids';
+  static const String _rewardedEventIdsKey = 'rewarded_event_ids_v1';
+  static const String _activityDatesKey = 'meaningful_activity_dates_v1';
+  static const String _activityEventsKey = 'meaningful_activity_events_v1';
+  static const String _bookProgressKey = 'book_progress_v1';
+
+  static Future<Map<String, BookProgress>> getBookProgress() async {
+    final prefs = await SharedPreferences.getInstance();
+    final encoded = prefs.getString(_bookProgressKey);
+    if (encoded == null || encoded.isEmpty) return {};
+    final data = jsonDecode(encoded) as Map<String, dynamic>;
+    return data.map(
+      (id, value) =>
+          MapEntry(id, BookProgress.fromJson(value as Map<String, dynamic>)),
+    );
+  }
+
+  static Future<BookProgress> setBookStatus({
+    required Book book,
+    required BookStatus status,
+    BookLanguage? language,
+    DateTime? now,
+  }) async {
+    final all = await getBookProgress();
+    final previous = all[book.id] ?? BookProgress(bookId: book.id);
+    final timestamp = (now ?? DateTime.now()).toLocal();
+    final languages = {...previous.readLanguages};
+    var selected = language;
+    if (status == BookStatus.read) {
+      selected ??= book.availableLanguages.length == 1
+          ? book.availableLanguages.single
+          : null;
+      if (selected != null) languages.add(selected);
+    }
+    final updated = BookProgress(
+      bookId: book.id,
+      status: status,
+      readLanguages: languages,
+      currentLanguage: status == BookStatus.currentlyReading ? selected : null,
+      firstReadAt:
+          previous.firstReadAt ??
+          (status == BookStatus.read ? timestamp : null),
+      lastUpdatedAt: timestamp,
+    );
+    all[book.id] = updated;
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(
+      _bookProgressKey,
+      jsonEncode(all.map((id, value) => MapEntry(id, value.toJson()))),
+    );
+    final saved = await getSavedEntityReferences();
+    final reference = 'book:${book.id}';
+    if (status == BookStatus.wantToRead) {
+      saved.add(reference);
+    } else {
+      saved.remove(reference);
+    }
+    await _setCompletedIds(_savedEntityReferencesKey, saved);
+    if (!previous.isRead && updated.isRead) {
+      await recordMeaningfulCompletion('book:${book.id}', now: timestamp);
+    }
+    return updated;
+  }
+
+  static Future<BookProgress> addReadLanguage(
+    Book book,
+    BookLanguage language, {
+    DateTime? now,
+  }) => setBookStatus(
+    book: book,
+    status: BookStatus.read,
+    language: language,
+    now: now,
+  );
 
   static Future<Set<String>> getCompletedFruitIds() async {
     final saved = await _getCompletedIds(_completedFruitIdsKey);
@@ -67,16 +148,15 @@ class ProgressService {
   }
 
   static Future<void> setCompletedYogaPoseIds(Set<String> ids) {
-    return _setCompletedIds(_completedYogaPoseIdsKey, ids);
+    return setChallengeItemIds(_completedYogaPoseIdsKey, ids);
   }
 
   static Future<Set<String>> getCompletedExperienceIds() {
     return _getCompletedIds(_completedExperienceIdsKey);
   }
 
-  static Future<void> setCompletedExperienceIds(Set<String> ids) {
-    return _setCompletedIds(_completedExperienceIdsKey, ids);
-  }
+  static Future<void> setCompletedExperienceIds(Set<String> ids) =>
+      _setCompletedIdsAndRecord(_completedExperienceIdsKey, ids, 'experience');
 
   static Future<bool> toggleExperience(String experienceId) async {
     final completedIds = await getCompletedExperienceIds();
@@ -89,9 +169,8 @@ class ProgressService {
     return _getCompletedIds(_completedDistrictIdsKey);
   }
 
-  static Future<void> setCompletedDistrictIds(Set<String> ids) {
-    return _setCompletedIds(_completedDistrictIdsKey, ids);
-  }
+  static Future<void> setCompletedDistrictIds(Set<String> ids) =>
+      _setCompletedIdsAndRecord(_completedDistrictIdsKey, ids, 'district');
 
   static Future<bool> toggleDistrict(String districtId) async {
     final completedIds = await getCompletedDistrictIds();
@@ -100,8 +179,17 @@ class ProgressService {
     return completedIds.contains(districtId);
   }
 
-  static Future<Set<String>> getChallengeItemIds(String? progressKey) {
+  static Future<Set<String>> getChallengeItemIds(String? progressKey) async {
     if (progressKey == null || progressKey.isEmpty) return Future.value({});
+    if (progressKey == StateTravelService.legacyKey) {
+      final travel = StateTravelService();
+      try {
+        await travel.load();
+        return travel.visitedIds;
+      } finally {
+        travel.dispose();
+      }
+    }
     return _getCompletedIds(progressKey);
   }
 
@@ -110,7 +198,66 @@ class ProgressService {
     Set<String> ids,
   ) async {
     if (progressKey == null || progressKey.isEmpty) return;
+    if (progressKey == StateTravelService.legacyKey) {
+      final travel = StateTravelService();
+      try {
+        await travel.load();
+        final valid = ids.intersection(IndiaLocationRegistry.allLocationIds);
+        for (final id in travel.visitedIds.difference(valid)) {
+          await travel.setStatus(id, TravelStatus.none);
+        }
+        for (final id in valid) {
+          await travel.setStatus(id, TravelStatus.visited);
+        }
+      } finally {
+        travel.dispose();
+      }
+      return;
+    }
+    final previous = await _getCompletedIds(progressKey);
     await _setCompletedIds(progressKey, ids);
+    final prefix = _completionPrefixForProgressKey(progressKey);
+    if (prefix != null) {
+      for (final id in ids.difference(previous)) {
+        await recordMeaningfulCompletion('$prefix:$id');
+      }
+    }
+    if (progressKey == gardenVisitProgressKey) {
+      await _stampPassportForGardenVisits(ids.difference(previous));
+    }
+  }
+
+  static const gardenVisitProgressKey = 'completed_garden_visit_ids';
+
+  /// The state a garden visit id (`visit_<stateId>_<garden>`) belongs to.
+  static String? stateForGardenVisit(String visitId) {
+    if (!visitId.startsWith('visit_')) return null;
+    final rest = visitId.substring('visit_'.length);
+    String? best;
+    for (final id in IndiaLocationRegistry.allLocationIds) {
+      if (rest.startsWith('${id}_') && id.length > (best?.length ?? 0)) {
+        best = id;
+      }
+    }
+    return best;
+  }
+
+  /// Visiting a garden stamps its state. Unmarking a garden leaves the stamp:
+  /// the user was still there, and the passport is theirs to edit.
+  static Future<void> _stampPassportForGardenVisits(Set<String> added) async {
+    final states = added.map(stateForGardenVisit).whereType<String>().toSet();
+    if (states.isEmpty) return;
+    final travel = StateTravelService();
+    try {
+      await travel.load();
+      for (final id in states) {
+        if (travel.statusFor(id) != TravelStatus.visited) {
+          await travel.setStatus(id, TravelStatus.visited);
+        }
+      }
+    } finally {
+      travel.dispose();
+    }
   }
 
   static Future<bool> toggleChallengeItem(
@@ -118,7 +265,7 @@ class ProgressService {
     String itemId,
   ) async {
     if (progressKey == null || progressKey.isEmpty) return false;
-    final completedIds = await _getCompletedIds(progressKey);
+    final completedIds = await getChallengeItemIds(progressKey);
     if (!completedIds.remove(itemId)) completedIds.add(itemId);
     await setChallengeItemIds(progressKey, completedIds);
     return (await getChallengeItemIds(progressKey)).contains(itemId);
@@ -245,31 +392,45 @@ class ProgressService {
     required String action,
   }) async {
     final progress = await getCategoryItemProgress(categoryId);
-    final updated = (progress[itemId] ?? const ItemActionProgress()).toggle(
-      action,
-    );
+    final previous = progress[itemId] ?? const ItemActionProgress();
+    final updated = previous.toggle(action);
     progress[itemId] = updated;
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(
       '$_categoryProgressPrefix$categoryId',
       jsonEncode(progress.map((id, value) => MapEntry(id, value.toJson()))),
     );
+    if (!previous.tried && updated.tried) {
+      final prefix = switch (categoryId) {
+        IndianDishesRepository.categoryId => 'dish',
+        IndianDrinksRepository.categoryId => 'drink',
+        _ => null,
+      };
+      if (prefix != null) {
+        await recordMeaningfulCompletion('$prefix:$itemId');
+      }
+    }
     return updated;
   }
 
-  static Future<void> setCompletedFruitIds(Set<String> ids) {
-    return _setCompletedIds(
-      _completedFruitIdsKey,
-      ids.map(FruitIdentity.canonicalId).toSet(),
-    );
+  static Future<void> setCompletedFruitIds(Set<String> ids) async {
+    final previous = await getCompletedFruitIds();
+    final canonical = ids.map(FruitIdentity.canonicalId).toSet();
+    await _setCompletedIds(_completedFruitIdsKey, canonical);
+    for (final id in canonical.difference(previous)) {
+      await recordMeaningfulCompletion('fruit:$id');
+    }
   }
 
-  static Future<void> setCompletedVarietyIds(Set<String> ids) {
-    return _setCompletedIds(_completedVarietyIdsKey, ids);
-  }
+  static Future<void> setCompletedVarietyIds(Set<String> ids) =>
+      _setCompletedIdsAndRecord(_completedVarietyIdsKey, ids, 'variety');
 
-  static Future<void> setCompletedJyotirlingaIds(Set<String> ids) {
-    return _setCompletedIds(_completedJyotirlingaIdsKey, ids);
+  static Future<void> setCompletedJyotirlingaIds(Set<String> ids) async {
+    final previous = await getCompletedJyotirlingaIds();
+    await _setCompletedIds(_completedJyotirlingaIdsKey, ids);
+    for (final id in ids.difference(previous)) {
+      await recordMeaningfulCompletion('jyotirlinga:$id');
+    }
   }
 
   static Future<bool> isVarietyCompleted(String varietyId) async {
@@ -290,9 +451,297 @@ class ProgressService {
     return completedIds.contains(varietyId);
   }
 
+  static Future<Set<String>> getRewardedEventIds() =>
+      _getCompletedIds(_rewardedEventIdsKey);
+
+  static Future<Set<String>> ensureRewardEvents(
+    Iterable<String> eventIds,
+  ) async {
+    final rewarded = await getRewardedEventIds();
+    final added = eventIds.where(rewarded.add).toSet();
+    if (added.isNotEmpty) {
+      await _setCompletedIds(_rewardedEventIdsKey, rewarded);
+    }
+    return added;
+  }
+
+  static Future<bool> claimReward(String eventId) async =>
+      (await ensureRewardEvents([eventId])).isNotEmpty;
+
+  static Future<int> getRewardedXp() async {
+    final rewarded = await getRewardedEventIds();
+    return rewarded.fold<int>(0, (sum, event) {
+      if (event.startsWith('completion:')) return sum + 10;
+      if (event.startsWith('achievement:')) return sum + 25;
+      if (event.startsWith('dailyQuest:')) return sum + 50;
+      if (event.startsWith('practice:')) return sum + practiceXp;
+      if (event.startsWith('milestone:')) return sum + milestoneXp;
+      if (event.startsWith('collection:')) return sum + milestoneXp;
+      return sum;
+    });
+  }
+
+  static const practiceXp = 5;
+  static const milestoneXp = 25;
+
+  /// Records a logged hobby session: up to [practiceXp] once per hobby per
+  /// day, plus activity for streaks and the daily quest.
+  static Future<bool> recordHobbyPractice(
+    String hobbyId,
+    String hobbyName, {
+    DateTime? now,
+  }) async {
+    final localNow = (now ?? DateTime.now()).toLocal();
+    final date = _dateKey(localNow);
+    final rewardId = 'practice:$hobbyId:$date';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.canonicalCompletion,
+          intensity: CelebrationIntensity.small,
+          title: 'Practice logged',
+          message: 'Another session of $hobbyName.',
+          xp: practiceXp,
+        ),
+      );
+    }
+    await _recordActivity(localNow, 'hobby:$hobbyId');
+    return added.isNotEmpty;
+  }
+
+  /// Records reaching a rung of a hobby's skill ladder, once per rung.
+  static Future<bool> recordHobbyMilestone(
+    String hobbyId,
+    String levelLabel,
+    String hobbyName, {
+    DateTime? now,
+  }) async {
+    final rewardId = 'milestone:$hobbyId:$levelLabel';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.milestone,
+          intensity: CelebrationIntensity.medium,
+          title: '$levelLabel!',
+          message: 'You levelled up in $hobbyName.',
+          xp: milestoneXp,
+        ),
+      );
+      await _recordActivity(
+        (now ?? DateTime.now()).toLocal(),
+        'hobby:$hobbyId',
+      );
+    }
+    return added.isNotEmpty;
+  }
+
+  /// Records wearing a perfume from My Collection: up to [practiceXp] once
+  /// per day, plus activity for streaks and the daily quest.
+  static Future<bool> recordScentWear(
+    String perfumeName, {
+    DateTime? now,
+  }) async {
+    final localNow = (now ?? DateTime.now()).toLocal();
+    final rewardId = 'practice:perfume_collection:${_dateKey(localNow)}';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.canonicalCompletion,
+          intensity: CelebrationIntensity.small,
+          title: 'Scent of the day',
+          message: 'You wore $perfumeName today.',
+          xp: practiceXp,
+        ),
+      );
+    }
+    await _recordActivity(localNow, 'hobby:perfume_collection');
+    return added.isNotEmpty;
+  }
+
+  /// Any gardening logged today earns practice XP once a day and counts
+  /// towards the day's activity.
+  static Future<bool> recordGardenCare(
+    String plantName, {
+    DateTime? now,
+  }) async {
+    final localNow = (now ?? DateTime.now()).toLocal();
+    final rewardId = 'practice:my_garden:${_dateKey(localNow)}';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.canonicalCompletion,
+          intensity: CelebrationIntensity.small,
+          title: 'Garden time',
+          message: 'You spent time with your $plantName today.',
+          xp: practiceXp,
+        ),
+      );
+    }
+    await _recordActivity(localNow, 'hobby:my_garden');
+    return added.isNotEmpty;
+  }
+
+  /// Rewards a collection milestone (perfume or garden) once.
+  static Future<bool> recordCollectionMilestone(
+    String milestoneId,
+    String title,
+    String message,
+  ) async {
+    final rewardId = 'collection:$milestoneId';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.milestone,
+          intensity: CelebrationIntensity.medium,
+          title: title,
+          message: message,
+          xp: milestoneXp,
+        ),
+      );
+    }
+    return added.isNotEmpty;
+  }
+
+  /// Counts a day as active (for streaks and the activity calendar).
+  static Future<void> recordActivity(DateTime at, String ref) =>
+      _recordActivity(at.toLocal(), ref);
+
+  static Future<void> _recordActivity(DateTime localNow, String ref) async {
+    final date = _dateKey(localNow);
+    final dates = await _getCompletedIds(_activityDatesKey);
+    if (dates.add(date)) await _setCompletedIds(_activityDatesKey, dates);
+    final events = await _getCompletedIds(_activityEventsKey);
+    if (events.add('$date|$ref')) {
+      await _setCompletedIds(_activityEventsKey, events);
+    }
+  }
+
+  static Future<void> recordMeaningfulCompletion(
+    String typedReference, {
+    DateTime? now,
+  }) async {
+    final localNow = (now ?? DateTime.now()).toLocal();
+    final date = _dateKey(localNow);
+    final rewardId = 'completion:$typedReference';
+    final added = await ensureRewardEvents([rewardId]);
+    if (added.isNotEmpty) {
+      CelebrationService.instance.emit(
+        CelebrationEvent(
+          id: rewardId,
+          kind: CelebrationKind.canonicalCompletion,
+          intensity: CelebrationIntensity.small,
+          title: 'Experience complete',
+          message: 'Another experience added to your Life.',
+          xp: 10,
+        ),
+      );
+    }
+    final dates = await _getCompletedIds(_activityDatesKey);
+    if (dates.add(date)) await _setCompletedIds(_activityDatesKey, dates);
+    final events = await _getCompletedIds(_activityEventsKey);
+    if (events.add('$date|$typedReference')) {
+      await _setCompletedIds(_activityEventsKey, events);
+    }
+  }
+
+  static Future<Set<String>> getActivityReferencesForDate(DateTime date) async {
+    final key = _dateKey(date.toLocal());
+    return (await _getCompletedIds(_activityEventsKey))
+        .where((event) => event.startsWith('$key|'))
+        .map((event) => event.substring(key.length + 1))
+        .toSet();
+  }
+
+  /// Days with any activity, ever. Only grows, so it never feels like a loss.
+  static Future<int> getActiveDayCount() async =>
+      (await _getCompletedIds(_activityDatesKey)).length;
+
+  static Future<({int current, int longest})> getStreak({DateTime? now}) async {
+    final dates = (await _getCompletedIds(_activityDatesKey))
+        .map(DateTime.tryParse)
+        .whereType<DateTime>()
+        .map((date) => DateTime(date.year, date.month, date.day))
+        .toSet();
+    if (dates.isEmpty) return (current: 0, longest: 0);
+    final ordered = dates.toList()..sort();
+    var longest = 1;
+    var run = 1;
+    for (var index = 1; index < ordered.length; index++) {
+      if (ordered[index].difference(ordered[index - 1]).inDays == 1) {
+        run++;
+        if (run > longest) longest = run;
+      } else {
+        run = 1;
+      }
+    }
+    final localNow = (now ?? DateTime.now()).toLocal();
+    final today = DateTime(localNow.year, localNow.month, localNow.day);
+    var cursor = dates.contains(today)
+        ? today
+        : dates.contains(today.subtract(const Duration(days: 1)))
+        ? today.subtract(const Duration(days: 1))
+        : null;
+    var current = 0;
+    while (cursor != null && dates.contains(cursor)) {
+      current++;
+      cursor = cursor.subtract(const Duration(days: 1));
+    }
+    return (current: current, longest: longest);
+  }
+
+  static String _dateKey(DateTime date) =>
+      '${date.year.toString().padLeft(4, '0')}-'
+      '${date.month.toString().padLeft(2, '0')}-'
+      '${date.day.toString().padLeft(2, '0')}';
+
+  static String? _completionPrefixForProgressKey(String progressKey) =>
+      switch (progressKey) {
+        _completedYogaPoseIdsKey => 'yoga',
+        'completed_india_state_ut_ids' => 'state',
+        'completed_hobby_ids' => 'hobby',
+        'completed_game_ids' => 'game',
+        'completed_scent_family_ids' => 'scent',
+        'completed_perfume_ids' => 'perfume',
+        'completed_scent_note_ids' => 'note',
+        'completed_attar_ids' => 'attar',
+        'completed_garden_plant_ids' => 'plant',
+        'completed_collection_type_ids' => 'collecting',
+        'completed_make_ids' => 'make',
+        'completed_nut_ids' => 'nut',
+        'completed_nut_kind_ids' => 'nutkind',
+        'completed_mixed_drink_ids' => 'mix',
+        'completed_garden_skill_ids' => 'gardenskill',
+        'completed_garden_visit_ids' => 'gardenvisit',
+        _ => null,
+      };
+
   static Future<Set<String>> _getCompletedIds(String key) async {
     final prefs = await SharedPreferences.getInstance();
     return (prefs.getStringList(key) ?? []).toSet();
+  }
+
+  /// Persists [ids] and records a meaningful completion (XP, streak and quest
+  /// activity) for every newly added id. Removals never revoke rewards.
+  static Future<void> _setCompletedIdsAndRecord(
+    String key,
+    Set<String> ids,
+    String referencePrefix,
+  ) async {
+    final previous = await _getCompletedIds(key);
+    await _setCompletedIds(key, ids);
+    for (final id in ids.difference(previous)) {
+      await recordMeaningfulCompletion('$referencePrefix:$id');
+    }
   }
 
   static Future<void> _setCompletedIds(String key, Set<String> ids) async {

@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:fruit_atlas/models/daily_discovery.dart';
+import 'package:fruit_atlas/models/book.dart';
 import 'package:fruit_atlas/services/daily_discovery_service.dart';
 import 'package:fruit_atlas/services/progress_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -49,6 +50,11 @@ void main() {
       DailyDiscoveryType.indianDrink,
       DailyDiscoveryType.indiaLocation,
       DailyDiscoveryType.jyotirlinga,
+      DailyDiscoveryType.book,
+      DailyDiscoveryType.hobby,
+      DailyDiscoveryType.game,
+      DailyDiscoveryType.scent,
+      DailyDiscoveryType.garden,
     });
     expect(pool.every((item) => !item.locationRequired), isTrue);
     expect(pool.map((item) => item.reference), isNot(contains('fruit:FR001')));
@@ -129,6 +135,25 @@ void main() {
         ]);
       case DailyDiscoveryType.jyotirlinga:
         await preferences.setStringList('completed_jyotirlinga_ids', [
+          nextDay.canonicalId,
+        ]);
+      case DailyDiscoveryType.book:
+        await ProgressService.setBookStatus(
+          book: nextDay.book!,
+          status: BookStatus.read,
+          language: nextDay.book!.availableLanguages.first,
+        );
+      case DailyDiscoveryType.hobby:
+        await preferences.setStringList('completed_hobby_ids', [
+          nextDay.canonicalId,
+        ]);
+      case DailyDiscoveryType.game:
+        await preferences.setStringList('completed_game_ids', [
+          nextDay.canonicalId,
+        ]);
+      case DailyDiscoveryType.scent:
+      case DailyDiscoveryType.garden:
+        await preferences.setStringList(nextDay.hobbyChallenge!.progressKey!, [
           nextDay.canonicalId,
         ]);
     }
