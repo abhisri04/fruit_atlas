@@ -66,6 +66,7 @@ const _suggestionOrder = [
   'scent_hub',
   'taste_fruits_of_india',
   'taste_world_nuts',
+  'mix_drinks',
   'visit_12_jyotirlingas',
   'explore_indian_drinks',
 ];

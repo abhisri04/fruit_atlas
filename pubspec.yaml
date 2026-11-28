@@ -185,6 +185,7 @@ flutter:
     - assets/data/collecting.json
     - assets/data/making.json
     - assets/data/nuts.json
+    - assets/data/mixed_drinks.json
     - assets/data/garden_plants.json
     - assets/data/garden_skills.json
     - assets/data/garden_visits.json

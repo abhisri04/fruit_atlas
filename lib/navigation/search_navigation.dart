@@ -15,6 +15,7 @@ import '../services/global_search_service.dart';
 import '../screens/discover/category_details_page.dart';
 import '../screens/district/district_details_page.dart';
 import '../screens/fruit/fruit_details_page.dart';
+import '../screens/mixed_drinks/mixed_drink_detail_page.dart';
 import '../screens/nuts/nut_detail_page.dart';
 import '../screens/fruit/variety_details_page.dart';
 import '../screens/experience/experience_details_page.dart';
@@ -74,6 +75,8 @@ Future<void> openSearchResult(
     Item item when challenge?.presentationType == 'nut_atlas' => NutDetailPage(
       nutId: item.id,
     ),
+    Item item when challenge?.presentationType == 'drink_maker' =>
+      MixedDrinkDetailPage(drinkId: item.id),
     Item item when challenge != null => ChecklistItemDetailsPage(
       challenge: challenge,
       item: item,

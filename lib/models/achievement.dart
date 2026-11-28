@@ -410,6 +410,41 @@ class Achievement {
     ),
   ];
 
+  static const mixAchievements = [
+    Achievement(
+      id: 'mix_first',
+      title: 'First Pour',
+      description: 'Make your first drink.',
+      threshold: 1,
+      challengeId: 'mix_drinks',
+      iconIdentifier: 'mix',
+    ),
+    Achievement(
+      id: 'mix_five',
+      title: 'Home Mixer',
+      description: 'Make 5 drinks.',
+      threshold: 5,
+      challengeId: 'mix_drinks',
+      iconIdentifier: 'mix',
+    ),
+    Achievement(
+      id: 'mix_fifteen',
+      title: 'Mix Maestro',
+      description: 'Make 15 drinks.',
+      threshold: 15,
+      challengeId: 'mix_drinks',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'mix_thirty',
+      title: 'Master of the Mix',
+      description: 'Make 30 drinks.',
+      threshold: 30,
+      challengeId: 'mix_drinks',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
   static const collectingAchievements = [
     Achievement(
       id: 'collecting_first',
@@ -638,6 +673,7 @@ class Achievement {
       'start_a_collection' => collectingAchievements,
       'make_something' => makingAchievements,
       'taste_world_nuts' => nutAchievements,
+      'mix_drinks' => mixAchievements,
       'explore_garden_skills' => gardenSkillAchievements,
       'explore_garden_visits' => gardenVisitAchievements,
       'explore_indian_states' => indiaStatesChallengeAchievements,

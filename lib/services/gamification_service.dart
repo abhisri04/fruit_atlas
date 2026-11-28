@@ -65,7 +65,8 @@ class GamificationService {
           item.startsWith('dish:') ||
           item.startsWith('drink:') ||
           item.startsWith('nut:') ||
-          item.startsWith('nutkind:'),
+          item.startsWith('nutkind:') ||
+          item.startsWith('mix:'),
     );
     final worldComplete = todayActivity.any(
       (item) =>

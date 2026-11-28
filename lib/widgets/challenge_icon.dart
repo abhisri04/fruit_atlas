@@ -7,6 +7,7 @@ IconData challengeIcon(String identifier) => switch (identifier) {
   'jyotirlinga' => Icons.temple_hindu_outlined,
   'yoga' => Icons.self_improvement,
   'nut' => Icons.spa_outlined,
+  'mix' => Icons.local_bar_outlined,
   'state' => Icons.map_outlined,
   'book' => Icons.menu_book_outlined,
   'perfume' => Icons.local_florist_outlined,

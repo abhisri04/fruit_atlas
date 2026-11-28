@@ -719,6 +719,7 @@ class ProgressService {
         'completed_make_ids' => 'make',
         'completed_nut_ids' => 'nut',
         'completed_nut_kind_ids' => 'nutkind',
+        'completed_mixed_drink_ids' => 'mix',
         'completed_garden_skill_ids' => 'gardenskill',
         'completed_garden_visit_ids' => 'gardenvisit',
         _ => null,

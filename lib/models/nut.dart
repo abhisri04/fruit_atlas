@@ -1,15 +1,9 @@
-/// A country in the nut atlas.
-class NutCountry {
-  final String code;
-  final String name;
-  final String continent;
-  const NutCountry(this.code, this.name, this.continent);
+import 'world_country.dart';
 
-  /// The flag emoji for an ISO country code ("IN" -> 🇮🇳).
-  String get flag => String.fromCharCodes(
-    code.toUpperCase().codeUnits.map((c) => 0x1F1E6 + c - 0x41),
-  );
-}
+export 'world_country.dart';
+
+/// A country in the nut atlas.
+typedef NutCountry = WorldCountry;
 
 /// A kind of a nut you can buy: Mamra almonds, W180 cashews, Antep pistachios.
 class NutKind {

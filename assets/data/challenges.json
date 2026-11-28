@@ -164,6 +164,32 @@
       "status": "active"
     },
     {
+      "id": "mix_drinks",
+      "category_id": "food_drink",
+      "name": "Cocktails & Mocktails",
+      "description": "83 drinks to make at home from 27 countries: 41 mocktails and 42 classic cocktails, each with a zero-proof way to make it. Tick what's in your kitchen and see what you can make tonight.",
+      "item_type": "mixed_drink",
+      "geography": "World",
+      "total_items": 83,
+      "has_sub_items": false,
+      "sub_item_type": null,
+      "presentation_type": "drink_maker",
+      "data_asset": "assets/data/mixed_drinks.json",
+      "progress_key": "completed_mixed_drink_ids",
+      "item_summary": "Mocktails · Cocktails · What can I make?",
+      "short_title": "Mix Drinks",
+      "category_name": "Food & Drink",
+      "primary_action": "made",
+      "primary_action_label": "Made",
+      "progress_verb": "made",
+      "start_label": "Start mixing",
+      "continue_label": "Mix another",
+      "singular_noun": "drink",
+      "plural_noun": "drinks",
+      "icon_identifier": "mix",
+      "status": "active"
+    },
+    {
       "id": "explore_indian_states",
       "category_id": "travel_exploration",
       "name": "India Passport",
@@ -176,7 +202,11 @@
       "presentation_type": "checklist_with_details",
       "data_asset": "assets/data/india_states_uts.json",
       "progress_key": "completed_india_state_ut_ids",
-      "sections": ["List", "Achievements", "About"],
+      "sections": [
+        "List",
+        "Achievements",
+        "About"
+      ],
       "completion_filters": true,
       "item_summary": "28 States · 8 Union Territories",
       "completion_verb": "visited",
@@ -211,7 +241,11 @@
       "presentation_type": "book_catalogue",
       "data_asset": "assets/data/books.json",
       "progress_key": "book_progress_v1",
-      "sections": ["Books", "Collections", "Achievements"],
+      "sections": [
+        "Books",
+        "Collections",
+        "Achievements"
+      ],
       "completion_filters": true,
       "item_summary": "English and Hindi books",
       "completion_verb": "read",
