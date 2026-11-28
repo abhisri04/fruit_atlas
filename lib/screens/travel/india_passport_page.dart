@@ -10,6 +10,13 @@ import '../../widgets/india_passport_map.dart';
 import '../../widgets/india_passport_ring.dart';
 import '../share/india_passport_share_page.dart';
 import 'explore_india_page.dart';
+import 'passport_stats_page.dart';
+import 'state_places_sheet.dart';
+import '../../services/district_repository.dart';
+import '../../services/progress_service.dart';
+import 'trip_edit_page.dart';
+import 'trips_page.dart';
+import '../../services/travel_extras.dart';
 
 /// India Passport: a full-screen map of the states and UTs you've been to.
 /// Pinch to zoom, search to fly to any state, tap to mark it.
@@ -36,6 +43,8 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
   String? selectedId;
   Size mapSize = Size.zero;
   IndiaExplorationSummary? exploration;
+  Map<String, Set<String>> placesByState = {};
+  Set<String> placesDone = {};
 
   @override
   void initState() {
@@ -46,6 +55,7 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
     search.addListener(() => setState(() {}));
     searchFocus.addListener(() => setState(() {}));
     _load();
+    _loadPlaces();
   }
 
   Future<void> _load() async {
@@ -65,6 +75,19 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
         setState(() => error = 'Unable to load your passport. Please retry.');
       }
     }
+  }
+
+  Future<void> _loadPlaces() async {
+    final districts = await const DistrictRepository().loadDistricts();
+    final done = await ProgressService.getCompletedDistrictIds();
+    if (!mounted) return;
+    setState(() {
+      placesByState = {};
+      for (final d in districts) {
+        placesByState.putIfAbsent(d.stateId, () => {}).add(d.id);
+      }
+      placesDone = done;
+    });
   }
 
   @override
@@ -193,6 +216,17 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
     if (picked != null && mounted) _select(picked);
   }
 
+  void _openTrips() =>
+      Navigator.of(context)
+          .push(MaterialPageRoute<void>(builder: (_) => const TripsPage()));
+
+  void _openStats() => Navigator.of(context).push(
+    MaterialPageRoute<void>(
+      builder: (_) =>
+          PassportStatsPage(travel: travel, extras: loadPassportExtras),
+    ),
+  );
+
   // ---------------------------------------------------------------- build
 
   @override
@@ -201,33 +235,68 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
       title: const Text('India Passport'),
       actions: [
         IconButton(
-          key: const ValueKey('passport-list'),
-          tooltip: 'All states & UTs',
-          icon: const Icon(Icons.format_list_bulleted),
-          onPressed: regions == null ? null : _openList,
+          key: const ValueKey('passport-trips'),
+          tooltip: 'My trips',
+          icon: const Icon(Icons.luggage_outlined),
+          onPressed: _openTrips,
         ),
         IconButton(
-          key: const ValueKey('passport-explore-india'),
-          tooltip: 'Explore India by state',
-          icon: const Icon(Icons.explore_outlined),
-          onPressed: () => Navigator.of(context).push(
-            MaterialPageRoute<void>(builder: (_) => const ExploreIndiaPage()),
-          ),
+          key: const ValueKey('passport-stats'),
+          tooltip: 'My India in numbers',
+          icon: const Icon(Icons.insights_outlined),
+          onPressed: _openStats,
         ),
-        IconButton(
-          key: const ValueKey('passport-share'),
-          tooltip: 'Share India Passport',
-          icon: const Icon(Icons.ios_share),
-          onPressed: regions == null
-              ? null
-              : () => Navigator.of(context).push(
+        PopupMenuButton<String>(
+          key: const ValueKey('passport-more'),
+          tooltip: 'More',
+          enabled: regions != null,
+          onSelected: (value) {
+            switch (value) {
+              case 'list':
+                _openList();
+              case 'explore':
+                Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (_) => const ExploreIndiaPage(),
+                  ),
+                );
+              case 'share':
+                Navigator.of(context).push(
                   MaterialPageRoute<void>(
                     builder: (_) => IndiaPassportSharePage(
                       travel: travel,
                       regions: regions!,
                     ),
                   ),
-                ),
+                );
+            }
+          },
+          itemBuilder: (_) => const [
+            PopupMenuItem(
+              key: ValueKey('passport-list'),
+              value: 'list',
+              child: ListTile(
+                leading: Icon(Icons.format_list_bulleted),
+                title: Text('All states & UTs'),
+              ),
+            ),
+            PopupMenuItem(
+              key: ValueKey('passport-explore-india'),
+              value: 'explore',
+              child: ListTile(
+                leading: Icon(Icons.explore_outlined),
+                title: Text('Explore India by state'),
+              ),
+            ),
+            PopupMenuItem(
+              key: ValueKey('passport-share'),
+              value: 'share',
+              child: ListTile(
+                leading: Icon(Icons.ios_share),
+                title: Text('Share my passport'),
+              ),
+            ),
+          ],
         ),
       ],
     ),
@@ -410,11 +479,16 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
       padding: const EdgeInsets.fromLTRB(14, 12, 10, 12),
       child: Row(
         children: [
-          IndiaPassportRing(
-            ratio:
-                travel.visitedCount /
-                IndiaLocationRegistry.allLocationIds.length,
-            size: 54,
+          InkWell(
+            key: const ValueKey('passport-ring'),
+            customBorder: const CircleBorder(),
+            onTap: _openStats,
+            child: IndiaPassportRing(
+              ratio:
+                  travel.visitedCount /
+                  IndiaLocationRegistry.allLocationIds.length,
+              size: 54,
+            ),
           ),
           const SizedBox(width: 14),
           Expanded(
@@ -483,6 +557,9 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
                               ? 'Union Territory'
                               : 'State',
                           '${exploration?.counts[id] ?? 0} experiences explored',
+                          if (placesByState[id] case final places?)
+                            '${places.where(placesDone.contains).length} of '
+                                '${places.length} places',
                         ].join(' · '),
                         style: const TextStyle(color: AppColors.muted),
                       ),
@@ -541,6 +618,30 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
                     onPressed: () => _update(id, TravelStatus.none),
                     child: const Text('Unmark'),
                   ),
+                if (placesByState[id]?.isNotEmpty ?? false)
+                  TextButton.icon(
+                    key: const ValueKey('passport-places'),
+                    icon: const Icon(Icons.place_outlined),
+                    label: Text('Places in $name'),
+                    onPressed: () async {
+                      await showStatePlacesSheet(
+                        context,
+                        stateId: id,
+                        travel: travel,
+                      );
+                      await _loadPlaces();
+                    },
+                  ),
+                TextButton.icon(
+                  key: const ValueKey('passport-log-trip'),
+                  icon: const Icon(Icons.luggage_outlined),
+                  label: const Text('Log a trip'),
+                  onPressed: () => Navigator.of(context).push(
+                    MaterialPageRoute<void>(
+                      builder: (_) => TripEditPage(initialStates: [id]),
+                    ),
+                  ),
+                ),
                 TextButton.icon(
                   key: const ValueKey('passport-explore'),
                   icon: const Icon(Icons.arrow_forward),

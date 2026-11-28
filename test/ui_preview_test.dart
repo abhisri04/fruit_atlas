@@ -86,6 +86,8 @@ void main() {
       home: const IndiaPassportPage(),
     );
     await capture('india_passport', passport);
+    await tester.tap(find.byKey(const ValueKey('passport-more')));
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('passport-list')));
     await tester.pumpAndSettle();
     await capture('india_passport_list', passport);

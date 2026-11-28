@@ -1,3 +1,5 @@
+import '../travel/travel_theme_page.dart';
+
 import 'package:flutter/material.dart';
 
 import '../../models/category.dart';
@@ -207,6 +209,12 @@ class _DiscoverPageState extends State<DiscoverPage> {
                     ),
                   ),
                   const SizedBox(height: 22),
+                  if (selectedCategoryId == 'travel_exploration') ...[
+                    _sectionTitle('Travel by theme'),
+                    const SizedBox(height: 12),
+                    const TravelThemeGrid(),
+                    const SizedBox(height: 22),
+                  ],
                   _sectionTitle('Recommended for you'),
                   const SizedBox(height: 12),
                   AnimatedSwitcher(

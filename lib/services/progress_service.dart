@@ -612,6 +612,10 @@ class ProgressService {
     return added.isNotEmpty;
   }
 
+  /// Counts a day as active (for streaks and the activity calendar).
+  static Future<void> recordActivity(DateTime at, String ref) =>
+      _recordActivity(at.toLocal(), ref);
+
   static Future<void> _recordActivity(DateTime localNow, String ref) async {
     final date = _dateKey(localNow);
     final dates = await _getCompletedIds(_activityDatesKey);

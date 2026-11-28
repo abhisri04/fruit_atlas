@@ -5,6 +5,7 @@ import '../../services/asset_data_service.dart';
 import '../../services/challenge_repository.dart';
 import '../../services/state_exploration_repository.dart';
 import '../challenge/checklist_item_details_page.dart';
+import 'travel_theme_page.dart';
 
 Future<void> openStateExploration(BuildContext context, String id) async {
   final challenge = await const ChallengeRepository().getChallengeById(
@@ -73,6 +74,24 @@ class _ExploreIndiaPageState extends State<ExploreIndiaPage> {
                 padding: const EdgeInsets.all(20),
                 child: Text(
                   '${completed.length} experiences explored\nDiscover deeper experiences in every State & UT.',
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 0, 16, 4),
+                child: Text(
+                  'Explore by travel theme',
+                  style: Theme.of(context).textTheme.titleMedium,
+                ),
+              ),
+              const Padding(
+                padding: EdgeInsets.fromLTRB(16, 6, 16, 8),
+                child: TravelThemeGrid(),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 12, 16, 0),
+                child: Text(
+                  'By state',
+                  style: Theme.of(context).textTheme.titleMedium,
                 ),
               ),
               for (final location in IndiaLocationRegistry.locations)

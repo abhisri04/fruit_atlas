@@ -200,6 +200,8 @@ void main() {
       await mount(tester, IndiaPassportPage(travelService: travel));
 
       Future<void> openList() async {
+        await tester.tap(find.byKey(const ValueKey('passport-more')));
+        await tester.pumpAndSettle();
         await tester.tap(find.byKey(const ValueKey('passport-list')));
         await tester.pumpAndSettle();
       }
@@ -338,6 +340,8 @@ void main() {
       () => const StateExplorationRepository().loadProgress(),
     );
     await mount(tester, IndiaPassportPage(travelService: travel));
+    await tester.tap(find.byKey(const ValueKey('passport-more')));
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('passport-explore-india')));
     await tester.pump();
     await tester.pump(const Duration(seconds: 1));
@@ -412,6 +416,8 @@ void main() {
         'lakshadweep',
         'puducherry',
       ]) {
+        await tester.tap(find.byKey(const ValueKey('passport-more')));
+        await tester.pumpAndSettle();
         await tester.tap(find.byKey(const ValueKey('passport-list')));
         await tester.pumpAndSettle();
         await tester.enterText(

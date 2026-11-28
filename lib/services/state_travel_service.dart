@@ -22,6 +22,14 @@ class StateTravelService extends ChangeNotifier {
       if (s.status == TravelStatus.visited) s.stateId,
   };
   int get visitedCount => visitedIds.length;
+  Set<String> get wantToVisitIds => {
+    for (final s in _states.values)
+      if (s.status == TravelStatus.wantToVisit) s.stateId,
+  };
+
+  /// When a state's status was last set (for visited states, when it was
+  /// stamped), if known.
+  DateTime? markedAt(String id) => _states[id]?.updatedAt;
   int get wantToVisitCount =>
       _states.values.where((s) => s.status == TravelStatus.wantToVisit).length;
 
@@ -70,7 +78,7 @@ class StateTravelService extends ChangeNotifier {
             states[entry.key as String] = StateTravelStatus(
               stateId: entry.key as String,
               status: TravelStatus.parse(value['status']),
-              updatedAt: DateTime.tryParse('${value['updatedAt']}'),
+              updatedAt: DateTime.tryParse('${value['updatedAt']}')?.toLocal(),
             );
           }
         }
@@ -122,7 +130,8 @@ class StateTravelService extends ChangeNotifier {
     _notify();
   });
 
-  Future<void> setStatus(String id, TravelStatus status) {
+  /// [at] backdates the change, e.g. to a trip's start date.
+  Future<void> setStatus(String id, TravelStatus status, {DateTime? at}) {
     if (!IndiaLocationRegistry.allLocationIds.contains(id)) {
       throw ArgumentError.value(id, 'stateId');
     }
@@ -133,7 +142,7 @@ class StateTravelService extends ChangeNotifier {
     _states[id] = StateTravelStatus(
       stateId: id,
       status: status,
-      updatedAt: DateTime.now(),
+      updatedAt: at ?? DateTime.now(),
     );
     _notify();
     return _enqueue(() async {
@@ -145,7 +154,7 @@ class StateTravelService extends ChangeNotifier {
         states[id] = StateTravelStatus(
           stateId: id,
           status: status,
-          updatedAt: DateTime.now(),
+          updatedAt: at ?? DateTime.now(),
         );
         await _save(prefs, states);
         if (status == TravelStatus.visited &&
