@@ -59,7 +59,7 @@ class HobbyFinderEntry extends StatelessWidget {
                       ),
                       SizedBox(height: 2),
                       Text(
-                        '266 hobbies, games and puzzles. Get matches or let us pick.',
+                        '300+ hobbies, sports, games and puzzles. Get matches or let us pick.',
                         style: TextStyle(color: AppColors.muted),
                       ),
                     ],

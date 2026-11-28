@@ -225,8 +225,8 @@ class Achievement {
     Achievement(
       id: 'game_complete',
       title: 'Played Them All',
-      description: 'Play all 116 games.',
-      threshold: 116,
+      description: 'Play all 154 games.',
+      threshold: 154,
       challengeId: 'play_great_games',
       iconIdentifier: 'trophy',
     ),

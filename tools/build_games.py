@@ -18,6 +18,7 @@ GROUPS = {
     "outdoor": "Outdoor Games",
     "party": "Party & Indoor Games",
     "puzzle": "Puzzles & Brainteasers",
+    "sports": "Sports",
 }
 WHERE = {"home": "At home", "out": "Outdoors", "local": "In your neighbourhood"}
 SETTING = {"home": "indoor", "out": "outdoor", "local": "either"}
@@ -28,6 +29,7 @@ LADDERS = {
     "outdoor": ["Learn the rules well", "Play with a new group", "Organise a game yourself"],
     "party": ["Play at a gathering", "Host a round yourself", "Invent your own twist"],
     "puzzle": ["Finish one start to end", "Finish a harder one", "Do one without hints"],
+    "sports": ["Learn the rules and positions", "Play a full match", "Join a regular game or club"],
 }
 STEPS = {
     "card": "Get a standard deck (or the game's own cards) and a few players.",
@@ -36,6 +38,7 @@ STEPS = {
     "outdoor": "Find an open, safe space and enough players.",
     "party": "Gather a group and pick someone to explain the rules.",
     "puzzle": "Pick a beginner-level puzzle and a quiet spot.",
+    "sports": "Find a ground or court, the gear, and enough players (or a coaching session).",
 }
 
 G = []
@@ -248,13 +251,60 @@ g("chhupan_chhupai", "indian", "Chhupan Chhupai (Hide & Seek)", "3+", 30, "30 mi
 g("frisbee_catch", "outdoor", "Frisbee", "2+", 30, "30 min", "out", "active", "social", "active relax",
   "Throw and catch a flying disc in a park. Simple, sunny fun.",
   "Learn the backhand throw first.", win="Play frisbee catch for 30 minutes", ladder=["Catch 10 throws in a row", "Throw a forehand", "Play a game of Ultimate"], tags="park")
-g("ultimate", "outdoor", "Ultimate Frisbee", "8–14", 60, "1 hr", "out", "active", "social", "active connect",
+# ------------------------------------------------------------------ Sports
+g("cricket", "sports", "Cricket", "6–22", 180, "2–3 hours", "out", "active", "social", "active connect",
+  "India's favourite game: bat, bowl and field. A full match or a few overs with friends.",
+  "Agree on the number of overs before you start.", win="Play a cricket match", tags="india team")
+g("gully_cricket", "sports", "Gully cricket", "4–12", 60, "1 hour", "local", "active", "social", "active connect",
+  "Cricket in a lane or a terrace with a tennis ball and house rules: one tip one hand, no running behind.",
+  "Agree on the house rules before the first ball.", win="Play gully cricket", tags="india street")
+g("box_cricket", "sports", "Box cricket", "6–16", 60, "1 hour", "local", "active", "social", "active connect",
+  "Short, fast cricket in a netted box, with walls that count as runs.",
+  "Book a slot at a box-cricket arena with friends.", win="Play box cricket", tags="india team")
+g("football", "sports", "Football", "10–22", 90, "1–2 hours", "out", "active", "social", "active connect",
+  "Kick, pass and score: the world's most played game, on a ground or a park.",
+  "Use jumpers or bags as goalposts if there are none.", win="Play a football match", tags="team")
+g("five_a_side", "sports", "5-a-side football (Futsal)", "10", 60, "1 hour", "local", "active", "social", "active connect",
+  "Small-sided football on a turf court: more touches, more goals, less running.",
+  "Book a turf slot for 10 people.", win="Play 5-a-side football", tags="team turf")
+g("badminton", "sports", "Badminton", "2–4", 45, "45 min", "local", "active", "social", "active connect",
+  "Rally a shuttle over the net, in a court or in your colony lane.",
+  "Learn the high serve and the clear first.", win="Play a game of badminton", tags="racket india")
+g("basketball", "sports", "Basketball", "2–10", 60, "1 hour", "out", "active", "social", "active connect",
+  "Dribble, pass and shoot. Even a game of one-on-one or 'HORSE' counts.",
+  "Practise layups before trying a full game.", win="Play a game of basketball", tags="team")
+g("table_tennis", "sports", "Table tennis", "2–4", 30, "30 min", "local", "active", "social", "active connect",
+  "Fast rallies across a small table; great in a club, office or community hall.",
+  "Learn to keep the ball low over the net.", win="Play a game of table tennis", tags="racket")
+g("hockey", "sports", "Hockey", "10–22", 70, "1 hour+", "out", "active", "social", "active connect",
+  "India's Olympic legacy sport: stick, ball and teamwork.",
+  "Try a coaching session first to learn safe stick use.", win="Play a game of hockey", tags="india team")
+g("squash", "sports", "Squash", "2", 45, "45 min", "local", "active", "social", "active",
+  "Hit the ball against the front wall in an enclosed court. A fast workout.",
+  "Wear eye protection and start with gentle rallies.", win="Play a game of squash", tags="racket")
+g("handball", "sports", "Handball", "8–14", 60, "1 hour", "out", "active", "social", "active connect",
+  "Pass, run and throw the ball into the goal. Fast and easy to learn.",
+  "Remember: three steps with the ball, then pass.", win="Play a game of handball", tags="team")
+g("netball", "sports", "Netball", "10–14", 60, "1 hour", "out", "active", "social", "active connect",
+  "Pass and shoot with no dribbling; each player has a zone.",
+  "Learn which zone your position can enter.", win="Play a game of netball", tags="team")
+g("softball", "sports", "Softball", "10–18", 90, "1–2 hours", "out", "active", "social", "active connect",
+  "Bat, run the bases and catch: a gentler cousin of baseball.",
+  "Use a soft ball if beginners are playing.", win="Play a game of softball", tags="team")
+g("touch_rugby", "sports", "Touch rugby", "8–14", 45, "45 min", "out", "active", "social", "active connect",
+  "Rugby with a touch instead of a tackle: pass backwards, run forwards.",
+  "Only backward passes are allowed.", win="Play a game of touch rugby", tags="team")
+g("relay_race", "sports", "a relay race", "8+", 20, "20 min", "out", "active", "social", "active connect",
+  "Four runners, one baton, one team: run your leg and hand over cleanly.",
+  "Practise the baton handover before racing.", win="Run a relay race", tags="team track")
+
+g("ultimate", "sports", "Ultimate Frisbee", "8–14", 60, "1 hr", "out", "active", "social", "active connect",
   "A fast team sport: pass the disc into the end zone without running while holding it.",
   "Self-refereed, so agree on 'spirit of the game' first.", tags="team sport")
-g("volleyball", "outdoor", "Volleyball", "6–12", 60, "1 hr", "out", "active", "social", "active connect",
+g("volleyball", "sports", "Volleyball", "6–12", 60, "1 hr", "out", "active", "social", "active connect",
   "Keep the ball off the ground on your side with three touches to get it over the net.",
   "A rope works if you don't have a net.", tags="team sport")
-g("throwball", "outdoor", "Throwball", "8–14", 45, "45 min", "out", "active", "social", "active connect",
+g("throwball", "sports", "Throwball", "8–14", 45, "45 min", "out", "active", "social", "active connect",
   "Like volleyball but you catch and throw. Popular in Indian schools and colleges.",
   "Catch with both hands and throw within three seconds.", tags="india team sport")
 g("tug_of_war", "outdoor", "Tug of War", "6+", 15, "15 min", "out", "active", "social", "active connect",
@@ -281,10 +331,10 @@ g("sack_race", "outdoor", "Sack Race", "4+", 15, "15 min", "out", "active", "soc
 g("lemon_spoon", "outdoor", "Lemon and Spoon Race", "4+", 15, "15 min", "out", "moderate", "social", "connect relax",
   "Race with a lemon balanced on a spoon held in your mouth. An Indian sports-day essential.",
   "Mark a start and finish line.", tags="india sports-day")
-g("pickleball", "outdoor", "Pickleball", "2–4", 60, "1 hr", "local", "active", "social", "active connect",
+g("pickleball", "sports", "Pickleball", "2–4", 60, "1 hr", "local", "active", "social", "active connect",
   "A paddle sport mixing tennis, badminton and table tennis, and the fastest-growing game around.",
   "Many courts lend paddles to beginners.", tags="sport paddle")
-g("tennis", "outdoor", "Tennis", "2–4", 60, "1 hr", "local", "active", "social", "active learn",
+g("tennis", "sports", "Tennis", "2–4", 60, "1 hr", "local", "active", "social", "active learn",
   "Rally a ball over the net with racquets. Book a public court and try a few games.",
   "Practise rallying before keeping score.", win="Play a set of tennis", tags="sport racquet")
 g("mini_golf", "outdoor", "Mini Golf", "1–6", 60, "1 hr", "local", "calm", "social", "relax connect",
@@ -416,6 +466,84 @@ g("board_game_cafe", "board", "a board-game café", "2–8", 120, "2 hours", "lo
   "Spend an evening at a board-game café, where staff teach you games you've never played.",
   "Ask the staff to suggest a game for your group size.",
   win="Spend an evening at a board-game café", ladder=["Learn a new game there", "Play three different games", "Teach one to friends"], tags="social cafe")
+
+
+# ------------------------------------------------------------------ More Indian games
+g("kabaddi", "indian", "Kabaddi", "14", 40, "40 min", "out", "active", "social", "active connect",
+  "Raid the other side on one breath, chanting 'kabaddi', tag and get back. A true Indian sport.",
+  "Play on soft ground and warm up first.", win="Play a game of Kabaddi", tags="india team")
+g("kho_kho", "indian", "Kho-kho", "12–18", 30, "30 min", "out", "active", "social", "active connect",
+  "Chasers sit in a line; one runs, taps a sitter with 'kho!' and they take over the chase.",
+  "Learn which way chasers may run around the poles.", win="Play a game of Kho-kho", tags="india team")
+g("lagori", "indian", "Lagori (Pithoo / Satoliya)", "6–14", 30, "30 min", "out", "active", "social", "active connect",
+  "Knock down a pile of seven flat stones with a ball, then rebuild it before you're hit.",
+  "Use a soft ball and flat stones or tiles.", win="Play a game of Lagori", tags="india street")
+g("atya_patya", "indian", "Atya-patya", "18", 30, "30 min", "out", "active", "social", "active connect",
+  "Runners cross a court of trenches while defenders try to tag them. An old Maharashtra game.",
+  "Draw the court with chalk or lines in the soil.", win="Play a game of Atya-patya", tags="india team")
+g("pakdam_pakdai", "indian", "Pakdam Pakdai (Tag)", "3+", 20, "20 min", "out", "active", "social", "active connect",
+  "One chases, everyone runs; whoever is caught becomes the chaser.",
+  "Agree on the boundaries and a safe 'den'.", win="Play a game of Pakdam Pakdai", tags="india kids")
+g("chor_police", "indian", "Chor Police", "6+", 30, "30 min", "out", "active", "social", "active connect",
+  "Split into thieves and police: the police chase, catch and 'jail' the thieves.",
+  "Pick a jail spot that freed thieves can be tagged out of.", win="Play a game of Chor Police", tags="india kids")
+g("oonch_neech", "indian", "Oonch Neech", "4+", 20, "20 min", "out", "active", "social", "active",
+  "High ground is safe, low ground is not: the chaser can only catch you when you're down.",
+  "Choose safe, low 'high' spots like steps or kerbs.", win="Play a game of Oonch Neech", tags="india kids")
+g("rumal_jhapatta", "indian", "Rumal Jhapatta (Dog and the Bone)", "8–20", 20, "20 min", "out", "active", "social", "active connect",
+  "Two teams race to snatch a handkerchief from the middle and get home without being tagged.",
+  "Give each player a number to call out.", win="Play a game of Rumal Jhapatta", tags="india team")
+g("kite_flying", "indian", "Kite flying (Patang)", "1+", 60, "1 hour", "out", "moderate", "either", "relax connect",
+  "Fly a patang from a terrace or open ground, especially at Makar Sankranti and Uttarayan.",
+  "Use cotton thread, never glass-coated manja, which hurts birds and people.", win="Fly a kite", tags="india festival")
+g("carrom", "indian", "Carrom", "2–4", 30, "30 min", "home", "calm", "social", "connect relax",
+  "Flick the striker to pocket your coins and the queen: a fixture of Indian homes and clubs.",
+  "A little powder on the board makes the striker glide.", win="Play a game of Carrom", tags="india family")
+
+# ------------------------------------------------------------------ More board games
+g("chess", "board", "Chess", "2", 30, "30 min", "home", "calm", "social", "learn",
+  "The game born in India as chaturanga: plan, attack and checkmate the king.",
+  "Learn how each piece moves, then play slow games.", win="Play a game of Chess", tags="india strategy")
+g("scrabble", "board", "Scrabble", "2–4", 60, "1 hour", "home", "calm", "social", "learn connect",
+  "Build words on the board from your letter tiles and score with the bonus squares.",
+  "Learn a few two-letter words; they win games.", win="Play a game of Scrabble", tags="words")
+g("boggle", "board", "Boggle", "2+", 15, "15 min", "home", "calm", "social", "learn",
+  "Shake the letter cubes and find as many words as you can before the timer runs out.",
+  "Look for common endings like -ing and -ed.", win="Play a game of Boggle", tags="words")
+g("taboo", "board", "Taboo", "4+", 30, "30 min", "home", "calm", "social", "connect",
+  "Describe a word to your team without saying the 'taboo' words on the card.",
+  "Talk around the word; examples help.", win="Play a game of Taboo", tags="party words")
+g("trivia", "board", "a trivia quiz game", "2+", 45, "45 min", "home", "calm", "social", "learn connect",
+  "Questions on history, sport, films and science: a board game or a quiz night.",
+  "Mix teams so everyone has a strong subject.", win="Play a trivia quiz game", tags="quiz")
+g("mahjong", "board", "Mahjong", "4", 60, "1 hour", "home", "calm", "social", "learn connect",
+  "A tile game of sets and sequences, played with four players around a table.",
+  "Start with simplified rules for beginners.", win="Play a game of Mahjong", tags="tiles")
+g("dominoes", "board", "Dominoes", "2–4", 20, "20 min", "home", "calm", "social", "relax connect",
+  "Match tile ends to build a line; first to play all their tiles wins.",
+  "Start with the simple 'block' version.", win="Play a game of Dominoes", tags="tiles family")
+
+# ------------------------------------------------------------------ More card games
+g("badam_saat", "card", "Badam Saat (Sevens)", "3–8", 20, "20 min", "home", "calm", "social", "connect relax",
+  "Start from the seven of hearts and build each suit up and down. Easy for all ages.",
+  "Hold back sevens to block others.", win="Play a game of Badam Saat", tags="india family")
+g("kachuful", "card", "Kachuful (Judgement)", "3–7", 45, "45 min", "home", "calm", "social", "connect",
+  "Predict exactly how many tricks you'll win each round; the trump changes every hand.",
+  "Bid low until you know the trump rotation.", win="Play a game of Kachuful", tags="india strategy")
+
+# ------------------------------------------------------------------ More party games
+g("tambola", "party", "Tambola (Housie)", "4+", 45, "45 min", "home", "calm", "social", "connect relax",
+  "Numbers are called and you strike them off your ticket. Shout for a line, corners or full house.",
+  "Learn the classic number calls for extra fun.", win="Play a game of Tambola", tags="india family")
+g("antakshari", "party", "Antakshari", "4+", 30, "30 min", "home", "calm", "social", "connect",
+  "Sing a song that starts with the last letter of the previous one. Bollywood gold.",
+  "Split into two teams and keep a song list handy.", win="Play a game of Antakshari", tags="india music")
+g("truth_or_dare", "party", "Truth or Dare", "3+", 30, "30 min", "home", "calm", "social", "connect",
+  "Answer a question truthfully or take on a dare. Keep it kind and fun for everyone.",
+  "Agree on what's off-limits before you start.", win="Play a game of Truth or Dare", tags="party")
+g("chinese_whispers", "party", "Chinese Whispers (Telephone)", "6+", 15, "15 min", "home", "calm", "social", "connect",
+  "Whisper a sentence down the line and laugh at what comes out the other end.",
+  "Start with a slightly tricky sentence.", win="Play a game of Chinese Whispers", tags="kids party")
 
 
 def build():

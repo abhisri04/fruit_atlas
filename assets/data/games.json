@@ -3458,15 +3458,831 @@
       ]
     },
     {
+      "id": "game_cricket",
+      "challenge_id": "play_great_games",
+      "name": "Play a cricket match",
+      "category": "Cricket",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "India's favourite game: bat, bowl and field. A full match or a few overs with friends.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Agree on the number of overs before you start.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "cricket"
+      ],
+      "metadata": {
+        "Players": "6–22",
+        "Time": "2–3 hours",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 180,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a cricket match"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_gully_cricket",
+      "challenge_id": "play_great_games",
+      "name": "Play gully cricket",
+      "category": "Gully cricket",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Cricket in a lane or a terrace with a tennis ball and house rules: one tip one hand, no running behind.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Agree on the house rules before the first ball.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "street",
+        "game"
+      ],
+      "keywords": [
+        "gully cricket"
+      ],
+      "metadata": {
+        "Players": "4–12",
+        "Time": "1 hour",
+        "Where": "In your neighbourhood"
+      },
+      "attributes": {
+        "setting": "either",
+        "session_minutes": 60,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play gully cricket"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_box_cricket",
+      "challenge_id": "play_great_games",
+      "name": "Play box cricket",
+      "category": "Box cricket",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Short, fast cricket in a netted box, with walls that count as runs.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Book a slot at a box-cricket arena with friends.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "box cricket"
+      ],
+      "metadata": {
+        "Players": "6–16",
+        "Time": "1 hour",
+        "Where": "In your neighbourhood"
+      },
+      "attributes": {
+        "setting": "either",
+        "session_minutes": 60,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play box cricket"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_football",
+      "challenge_id": "play_great_games",
+      "name": "Play a football match",
+      "category": "Football",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Kick, pass and score: the world's most played game, on a ground or a park.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Use jumpers or bags as goalposts if there are none.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "football"
+      ],
+      "metadata": {
+        "Players": "10–22",
+        "Time": "1–2 hours",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 90,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a football match"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_five_a_side",
+      "challenge_id": "play_great_games",
+      "name": "Play 5-a-side football",
+      "category": "5-a-side football (Futsal)",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Small-sided football on a turf court: more touches, more goals, less running.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Book a turf slot for 10 people.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "team",
+        "turf",
+        "game"
+      ],
+      "keywords": [
+        "5-a-side football (futsal)"
+      ],
+      "metadata": {
+        "Players": "10",
+        "Time": "1 hour",
+        "Where": "In your neighbourhood"
+      },
+      "attributes": {
+        "setting": "either",
+        "session_minutes": 60,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play 5-a-side football"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_badminton",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of badminton",
+      "category": "Badminton",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Rally a shuttle over the net, in a court or in your colony lane.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Learn the high serve and the clear first.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "racket",
+        "india",
+        "game"
+      ],
+      "keywords": [
+        "badminton"
+      ],
+      "metadata": {
+        "Players": "2–4",
+        "Time": "45 min",
+        "Where": "In your neighbourhood"
+      },
+      "attributes": {
+        "setting": "either",
+        "session_minutes": 45,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of badminton"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_basketball",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of basketball",
+      "category": "Basketball",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Dribble, pass and shoot. Even a game of one-on-one or 'HORSE' counts.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Practise layups before trying a full game.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "basketball"
+      ],
+      "metadata": {
+        "Players": "2–10",
+        "Time": "1 hour",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 60,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of basketball"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_table_tennis",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of table tennis",
+      "category": "Table tennis",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Fast rallies across a small table; great in a club, office or community hall.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Learn to keep the ball low over the net.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "racket",
+        "game"
+      ],
+      "keywords": [
+        "table tennis"
+      ],
+      "metadata": {
+        "Players": "2–4",
+        "Time": "30 min",
+        "Where": "In your neighbourhood"
+      },
+      "attributes": {
+        "setting": "either",
+        "session_minutes": 30,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of table tennis"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_hockey",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of hockey",
+      "category": "Hockey",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "India's Olympic legacy sport: stick, ball and teamwork.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Try a coaching session first to learn safe stick use.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "hockey"
+      ],
+      "metadata": {
+        "Players": "10–22",
+        "Time": "1 hour+",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 70,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of hockey"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_squash",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of squash",
+      "category": "Squash",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Hit the ball against the front wall in an enclosed court. A fast workout.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Wear eye protection and start with gentle rallies.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "racket",
+        "game"
+      ],
+      "keywords": [
+        "squash"
+      ],
+      "metadata": {
+        "Players": "2",
+        "Time": "45 min",
+        "Where": "In your neighbourhood"
+      },
+      "attributes": {
+        "setting": "either",
+        "session_minutes": 45,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of squash"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_handball",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of handball",
+      "category": "Handball",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Pass, run and throw the ball into the goal. Fast and easy to learn.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Remember: three steps with the ball, then pass.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "handball"
+      ],
+      "metadata": {
+        "Players": "8–14",
+        "Time": "1 hour",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 60,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of handball"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_netball",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of netball",
+      "category": "Netball",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Pass and shoot with no dribbling; each player has a zone.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Learn which zone your position can enter.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "netball"
+      ],
+      "metadata": {
+        "Players": "10–14",
+        "Time": "1 hour",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 60,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of netball"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_softball",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of softball",
+      "category": "Softball",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Bat, run the bases and catch: a gentler cousin of baseball.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Use a soft ball if beginners are playing.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "softball"
+      ],
+      "metadata": {
+        "Players": "10–18",
+        "Time": "1–2 hours",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 90,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of softball"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_touch_rugby",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of touch rugby",
+      "category": "Touch rugby",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Rugby with a touch instead of a tackle: pass backwards, run forwards.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Only backward passes are allowed.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "touch rugby"
+      ],
+      "metadata": {
+        "Players": "8–14",
+        "Time": "45 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 45,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of touch rugby"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
+      "id": "game_relay_race",
+      "challenge_id": "play_great_games",
+      "name": "Run a relay race",
+      "category": "a relay race",
+      "filter_group": "Sports",
+      "difficulty": "beginner",
+      "about": "Four runners, one baton, one team: run your leg and hand over cleanly.",
+      "howToSteps": [
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
+        "Practise the baton handover before racing.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "team",
+        "track",
+        "game"
+      ],
+      "keywords": [
+        "a relay race"
+      ],
+      "metadata": {
+        "Players": "8+",
+        "Time": "20 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 20,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Run a relay race"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules and positions"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play a full match"
+        },
+        {
+          "level": "confident",
+          "milestone": "Join a regular game or club"
+        }
+      ]
+    },
+    {
       "id": "game_ultimate",
       "challenge_id": "play_great_games",
       "name": "Play a game of Ultimate Frisbee",
       "category": "Ultimate Frisbee",
-      "filter_group": "Outdoor Games",
+      "filter_group": "Sports",
       "difficulty": "beginner",
       "about": "A fast team sport: pass the disc into the end zone without running while holding it.",
       "howToSteps": [
-        "Find an open, safe space and enough players.",
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
         "Self-refereed, so agree on 'spirit of the game' first.",
         "Play one full game, start to finish."
       ],
@@ -3500,15 +4316,15 @@
         },
         {
           "level": "learning",
-          "milestone": "Learn the rules well"
+          "milestone": "Learn the rules and positions"
         },
         {
           "level": "practising",
-          "milestone": "Play with a new group"
+          "milestone": "Play a full match"
         },
         {
           "level": "confident",
-          "milestone": "Organise a game yourself"
+          "milestone": "Join a regular game or club"
         }
       ]
     },
@@ -3517,11 +4333,11 @@
       "challenge_id": "play_great_games",
       "name": "Play a game of Volleyball",
       "category": "Volleyball",
-      "filter_group": "Outdoor Games",
+      "filter_group": "Sports",
       "difficulty": "beginner",
       "about": "Keep the ball off the ground on your side with three touches to get it over the net.",
       "howToSteps": [
-        "Find an open, safe space and enough players.",
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
         "A rope works if you don't have a net.",
         "Play one full game, start to finish."
       ],
@@ -3555,15 +4371,15 @@
         },
         {
           "level": "learning",
-          "milestone": "Learn the rules well"
+          "milestone": "Learn the rules and positions"
         },
         {
           "level": "practising",
-          "milestone": "Play with a new group"
+          "milestone": "Play a full match"
         },
         {
           "level": "confident",
-          "milestone": "Organise a game yourself"
+          "milestone": "Join a regular game or club"
         }
       ]
     },
@@ -3572,11 +4388,11 @@
       "challenge_id": "play_great_games",
       "name": "Play a game of Throwball",
       "category": "Throwball",
-      "filter_group": "Outdoor Games",
+      "filter_group": "Sports",
       "difficulty": "beginner",
       "about": "Like volleyball but you catch and throw. Popular in Indian schools and colleges.",
       "howToSteps": [
-        "Find an open, safe space and enough players.",
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
         "Catch with both hands and throw within three seconds.",
         "Play one full game, start to finish."
       ],
@@ -3611,15 +4427,15 @@
         },
         {
           "level": "learning",
-          "milestone": "Learn the rules well"
+          "milestone": "Learn the rules and positions"
         },
         {
           "level": "practising",
-          "milestone": "Play with a new group"
+          "milestone": "Play a full match"
         },
         {
           "level": "confident",
-          "milestone": "Organise a game yourself"
+          "milestone": "Join a regular game or club"
         }
       ]
     },
@@ -4064,11 +4880,11 @@
       "challenge_id": "play_great_games",
       "name": "Play a game of Pickleball",
       "category": "Pickleball",
-      "filter_group": "Outdoor Games",
+      "filter_group": "Sports",
       "difficulty": "beginner",
       "about": "A paddle sport mixing tennis, badminton and table tennis, and the fastest-growing game around.",
       "howToSteps": [
-        "Find an open, safe space and enough players.",
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
         "Many courts lend paddles to beginners.",
         "Play one full game, start to finish."
       ],
@@ -4102,15 +4918,15 @@
         },
         {
           "level": "learning",
-          "milestone": "Learn the rules well"
+          "milestone": "Learn the rules and positions"
         },
         {
           "level": "practising",
-          "milestone": "Play with a new group"
+          "milestone": "Play a full match"
         },
         {
           "level": "confident",
-          "milestone": "Organise a game yourself"
+          "milestone": "Join a regular game or club"
         }
       ]
     },
@@ -4119,11 +4935,11 @@
       "challenge_id": "play_great_games",
       "name": "Play a set of tennis",
       "category": "Tennis",
-      "filter_group": "Outdoor Games",
+      "filter_group": "Sports",
       "difficulty": "beginner",
       "about": "Rally a ball over the net with racquets. Book a public court and try a few games.",
       "howToSteps": [
-        "Find an open, safe space and enough players.",
+        "Find a ground or court, the gear, and enough players (or a coaching session).",
         "Practise rallying before keeping score.",
         "Play one full game, start to finish."
       ],
@@ -4157,15 +4973,15 @@
         },
         {
           "level": "learning",
-          "milestone": "Learn the rules well"
+          "milestone": "Learn the rules and positions"
         },
         {
           "level": "practising",
-          "milestone": "Play with a new group"
+          "milestone": "Play a full match"
         },
         {
           "level": "confident",
-          "milestone": "Organise a game yourself"
+          "milestone": "Join a regular game or club"
         }
       ]
     },
@@ -6339,6 +7155,1258 @@
         {
           "level": "confident",
           "milestone": "Teach one to friends"
+        }
+      ]
+    },
+    {
+      "id": "game_kabaddi",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Kabaddi",
+      "category": "Kabaddi",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "Raid the other side on one breath, chanting 'kabaddi', tag and get back. A true Indian sport.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "Play on soft ground and warm up first.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "kabaddi"
+      ],
+      "metadata": {
+        "Players": "14",
+        "Time": "40 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 40,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Kabaddi"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_kho_kho",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Kho-kho",
+      "category": "Kho-kho",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "Chasers sit in a line; one runs, taps a sitter with 'kho!' and they take over the chase.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "Learn which way chasers may run around the poles.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "kho-kho"
+      ],
+      "metadata": {
+        "Players": "12–18",
+        "Time": "30 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 30,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Kho-kho"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_lagori",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Lagori",
+      "category": "Lagori (Pithoo / Satoliya)",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "Knock down a pile of seven flat stones with a ball, then rebuild it before you're hit.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "Use a soft ball and flat stones or tiles.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "street",
+        "game"
+      ],
+      "keywords": [
+        "lagori (pithoo / satoliya)"
+      ],
+      "metadata": {
+        "Players": "6–14",
+        "Time": "30 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 30,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Lagori"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_atya_patya",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Atya-patya",
+      "category": "Atya-patya",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "Runners cross a court of trenches while defenders try to tag them. An old Maharashtra game.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "Draw the court with chalk or lines in the soil.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "atya-patya"
+      ],
+      "metadata": {
+        "Players": "18",
+        "Time": "30 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 30,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Atya-patya"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_pakdam_pakdai",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Pakdam Pakdai",
+      "category": "Pakdam Pakdai (Tag)",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "One chases, everyone runs; whoever is caught becomes the chaser.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "Agree on the boundaries and a safe 'den'.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "kids",
+        "game"
+      ],
+      "keywords": [
+        "pakdam pakdai (tag)"
+      ],
+      "metadata": {
+        "Players": "3+",
+        "Time": "20 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 20,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Pakdam Pakdai"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_chor_police",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Chor Police",
+      "category": "Chor Police",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "Split into thieves and police: the police chase, catch and 'jail' the thieves.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "Pick a jail spot that freed thieves can be tagged out of.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "kids",
+        "game"
+      ],
+      "keywords": [
+        "chor police"
+      ],
+      "metadata": {
+        "Players": "6+",
+        "Time": "30 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 30,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Chor Police"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_oonch_neech",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Oonch Neech",
+      "category": "Oonch Neech",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "High ground is safe, low ground is not: the chaser can only catch you when you're down.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "Choose safe, low 'high' spots like steps or kerbs.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "kids",
+        "game"
+      ],
+      "keywords": [
+        "oonch neech"
+      ],
+      "metadata": {
+        "Players": "4+",
+        "Time": "20 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 20,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Oonch Neech"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_rumal_jhapatta",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Rumal Jhapatta",
+      "category": "Rumal Jhapatta (Dog and the Bone)",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "Two teams race to snatch a handkerchief from the middle and get home without being tagged.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "Give each player a number to call out.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "team",
+        "game"
+      ],
+      "keywords": [
+        "rumal jhapatta (dog and the bone)"
+      ],
+      "metadata": {
+        "Players": "8–20",
+        "Time": "20 min",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 20,
+        "energy": "active",
+        "social": "social",
+        "goals": [
+          "active",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Rumal Jhapatta"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_kite_flying",
+      "challenge_id": "play_great_games",
+      "name": "Fly a kite",
+      "category": "Kite flying (Patang)",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "Fly a patang from a terrace or open ground, especially at Makar Sankranti and Uttarayan.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "Use cotton thread, never glass-coated manja, which hurts birds and people.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "festival",
+        "game"
+      ],
+      "keywords": [
+        "kite flying (patang)"
+      ],
+      "metadata": {
+        "Players": "1+",
+        "Time": "1 hour",
+        "Where": "Outdoors"
+      },
+      "attributes": {
+        "setting": "outdoor",
+        "session_minutes": 60,
+        "energy": "moderate",
+        "social": "either",
+        "goals": [
+          "relax",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Fly a kite"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_carrom",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Carrom",
+      "category": "Carrom",
+      "filter_group": "Traditional Indian Games",
+      "difficulty": "beginner",
+      "about": "Flick the striker to pocket your coins and the queen: a fixture of Indian homes and clubs.",
+      "howToSteps": [
+        "Gather players and any simple materials needed.",
+        "A little powder on the board makes the striker glide.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "family",
+        "game"
+      ],
+      "keywords": [
+        "carrom"
+      ],
+      "metadata": {
+        "Players": "2–4",
+        "Time": "30 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 30,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect",
+          "relax"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Carrom"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn the rules well"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play with a new group"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to children"
+        }
+      ]
+    },
+    {
+      "id": "game_chess",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Chess",
+      "category": "Chess",
+      "filter_group": "Board Games",
+      "difficulty": "beginner",
+      "about": "The game born in India as chaturanga: plan, attack and checkmate the king.",
+      "howToSteps": [
+        "Borrow, buy or find the game at a board-game café.",
+        "Learn how each piece moves, then play slow games.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "strategy",
+        "game"
+      ],
+      "keywords": [
+        "chess"
+      ],
+      "metadata": {
+        "Players": "2",
+        "Time": "30 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 30,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Chess"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_scrabble",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Scrabble",
+      "category": "Scrabble",
+      "filter_group": "Board Games",
+      "difficulty": "beginner",
+      "about": "Build words on the board from your letter tiles and score with the bonus squares.",
+      "howToSteps": [
+        "Borrow, buy or find the game at a board-game café.",
+        "Learn a few two-letter words; they win games.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "words",
+        "game"
+      ],
+      "keywords": [
+        "scrabble"
+      ],
+      "metadata": {
+        "Players": "2–4",
+        "Time": "1 hour",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 60,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "learn",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Scrabble"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_boggle",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Boggle",
+      "category": "Boggle",
+      "filter_group": "Board Games",
+      "difficulty": "beginner",
+      "about": "Shake the letter cubes and find as many words as you can before the timer runs out.",
+      "howToSteps": [
+        "Borrow, buy or find the game at a board-game café.",
+        "Look for common endings like -ing and -ed.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "words",
+        "game"
+      ],
+      "keywords": [
+        "boggle"
+      ],
+      "metadata": {
+        "Players": "2+",
+        "Time": "15 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 15,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Boggle"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_taboo",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Taboo",
+      "category": "Taboo",
+      "filter_group": "Board Games",
+      "difficulty": "beginner",
+      "about": "Describe a word to your team without saying the 'taboo' words on the card.",
+      "howToSteps": [
+        "Borrow, buy or find the game at a board-game café.",
+        "Talk around the word; examples help.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "party",
+        "words",
+        "game"
+      ],
+      "keywords": [
+        "taboo"
+      ],
+      "metadata": {
+        "Players": "4+",
+        "Time": "30 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 30,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Taboo"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_trivia",
+      "challenge_id": "play_great_games",
+      "name": "Play a trivia quiz game",
+      "category": "a trivia quiz game",
+      "filter_group": "Board Games",
+      "difficulty": "beginner",
+      "about": "Questions on history, sport, films and science: a board game or a quiz night.",
+      "howToSteps": [
+        "Borrow, buy or find the game at a board-game café.",
+        "Mix teams so everyone has a strong subject.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "quiz",
+        "game"
+      ],
+      "keywords": [
+        "a trivia quiz game"
+      ],
+      "metadata": {
+        "Players": "2+",
+        "Time": "45 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 45,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "learn",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a trivia quiz game"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_mahjong",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Mahjong",
+      "category": "Mahjong",
+      "filter_group": "Board Games",
+      "difficulty": "beginner",
+      "about": "A tile game of sets and sequences, played with four players around a table.",
+      "howToSteps": [
+        "Borrow, buy or find the game at a board-game café.",
+        "Start with simplified rules for beginners.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "tiles",
+        "game"
+      ],
+      "keywords": [
+        "mahjong"
+      ],
+      "metadata": {
+        "Players": "4",
+        "Time": "1 hour",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 60,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "learn",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Mahjong"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_dominoes",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Dominoes",
+      "category": "Dominoes",
+      "filter_group": "Board Games",
+      "difficulty": "beginner",
+      "about": "Match tile ends to build a line; first to play all their tiles wins.",
+      "howToSteps": [
+        "Borrow, buy or find the game at a board-game café.",
+        "Start with the simple 'block' version.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "tiles",
+        "family",
+        "game"
+      ],
+      "keywords": [
+        "dominoes"
+      ],
+      "metadata": {
+        "Players": "2–4",
+        "Time": "20 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 20,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "relax",
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Dominoes"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_badam_saat",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Badam Saat",
+      "category": "Badam Saat (Sevens)",
+      "filter_group": "Card Games",
+      "difficulty": "beginner",
+      "about": "Start from the seven of hearts and build each suit up and down. Easy for all ages.",
+      "howToSteps": [
+        "Get a standard deck (or the game's own cards) and a few players.",
+        "Hold back sevens to block others.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "family",
+        "game"
+      ],
+      "keywords": [
+        "badam saat (sevens)"
+      ],
+      "metadata": {
+        "Players": "3–8",
+        "Time": "20 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 20,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect",
+          "relax"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Badam Saat"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_kachuful",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Kachuful",
+      "category": "Kachuful (Judgement)",
+      "filter_group": "Card Games",
+      "difficulty": "beginner",
+      "about": "Predict exactly how many tricks you'll win each round; the trump changes every hand.",
+      "howToSteps": [
+        "Get a standard deck (or the game's own cards) and a few players.",
+        "Bid low until you know the trump rotation.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "strategy",
+        "game"
+      ],
+      "keywords": [
+        "kachuful (judgement)"
+      ],
+      "metadata": {
+        "Players": "3–7",
+        "Time": "45 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 45,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Kachuful"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_tambola",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Tambola",
+      "category": "Tambola (Housie)",
+      "filter_group": "Party & Indoor Games",
+      "difficulty": "beginner",
+      "about": "Numbers are called and you strike them off your ticket. Shout for a line, corners or full house.",
+      "howToSteps": [
+        "Gather a group and pick someone to explain the rules.",
+        "Learn the classic number calls for extra fun.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "family",
+        "game"
+      ],
+      "keywords": [
+        "tambola (housie)"
+      ],
+      "metadata": {
+        "Players": "4+",
+        "Time": "45 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 45,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect",
+          "relax"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Tambola"
+        },
+        {
+          "level": "learning",
+          "milestone": "Play at a gathering"
+        },
+        {
+          "level": "practising",
+          "milestone": "Host a round yourself"
+        },
+        {
+          "level": "confident",
+          "milestone": "Invent your own twist"
+        }
+      ]
+    },
+    {
+      "id": "game_antakshari",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Antakshari",
+      "category": "Antakshari",
+      "filter_group": "Party & Indoor Games",
+      "difficulty": "beginner",
+      "about": "Sing a song that starts with the last letter of the previous one. Bollywood gold.",
+      "howToSteps": [
+        "Gather a group and pick someone to explain the rules.",
+        "Split into two teams and keep a song list handy.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "music",
+        "game"
+      ],
+      "keywords": [
+        "antakshari"
+      ],
+      "metadata": {
+        "Players": "4+",
+        "Time": "30 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 30,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Antakshari"
+        },
+        {
+          "level": "learning",
+          "milestone": "Play at a gathering"
+        },
+        {
+          "level": "practising",
+          "milestone": "Host a round yourself"
+        },
+        {
+          "level": "confident",
+          "milestone": "Invent your own twist"
+        }
+      ]
+    },
+    {
+      "id": "game_truth_or_dare",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Truth or Dare",
+      "category": "Truth or Dare",
+      "filter_group": "Party & Indoor Games",
+      "difficulty": "beginner",
+      "about": "Answer a question truthfully or take on a dare. Keep it kind and fun for everyone.",
+      "howToSteps": [
+        "Gather a group and pick someone to explain the rules.",
+        "Agree on what's off-limits before you start.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "party",
+        "game"
+      ],
+      "keywords": [
+        "truth or dare"
+      ],
+      "metadata": {
+        "Players": "3+",
+        "Time": "30 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 30,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Truth or Dare"
+        },
+        {
+          "level": "learning",
+          "milestone": "Play at a gathering"
+        },
+        {
+          "level": "practising",
+          "milestone": "Host a round yourself"
+        },
+        {
+          "level": "confident",
+          "milestone": "Invent your own twist"
+        }
+      ]
+    },
+    {
+      "id": "game_chinese_whispers",
+      "challenge_id": "play_great_games",
+      "name": "Play a game of Chinese Whispers",
+      "category": "Chinese Whispers (Telephone)",
+      "filter_group": "Party & Indoor Games",
+      "difficulty": "beginner",
+      "about": "Whisper a sentence down the line and laugh at what comes out the other end.",
+      "howToSteps": [
+        "Gather a group and pick someone to explain the rules.",
+        "Start with a slightly tricky sentence.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "kids",
+        "party",
+        "game"
+      ],
+      "keywords": [
+        "chinese whispers (telephone)"
+      ],
+      "metadata": {
+        "Players": "6+",
+        "Time": "15 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 15,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play a game of Chinese Whispers"
+        },
+        {
+          "level": "learning",
+          "milestone": "Play at a gathering"
+        },
+        {
+          "level": "practising",
+          "milestone": "Host a round yourself"
+        },
+        {
+          "level": "confident",
+          "milestone": "Invent your own twist"
         }
       ]
     }

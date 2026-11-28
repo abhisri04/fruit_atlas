@@ -29,10 +29,10 @@ void main() {
 
   setUp(() => SharedPreferences.setMockInitialValues({}));
 
-  test('games catalogue has 116 complete, unique games in six groups', () {
-    expect(items, hasLength(116));
-    expect(items.map((item) => item.id).toSet(), hasLength(116));
-    expect(items.map((item) => item.name).toSet(), hasLength(116));
+  test('games catalogue has 154 complete, unique games in seven groups', () {
+    expect(items, hasLength(154));
+    expect(items.map((item) => item.id).toSet(), hasLength(154));
+    expect(items.map((item) => item.name).toSet(), hasLength(154));
     expect(items.map((item) => item.filterGroup).toSet(), {
       'Card Games',
       'Board Games',
@@ -40,6 +40,7 @@ void main() {
       'Outdoor Games',
       'Party & Indoor Games',
       'Puzzles & Brainteasers',
+      'Sports',
     });
     for (final item in items) {
       expect(item.id, startsWith('game_'));
@@ -78,7 +79,7 @@ void main() {
       File('pubspec.yaml').readAsStringSync(),
       contains('- ${challenge.dataAsset}'),
     );
-    expect(await data.loadChallengeItems(challenge), hasLength(116));
+    expect(await data.loadChallengeItems(challenge), hasLength(154));
   });
 
   test('playing a game earns XP, a badge and quest credit', () async {
@@ -109,21 +110,21 @@ void main() {
     final games = (await DailyDiscoveryService().buildEligiblePool())
         .where((d) => d.type == DailyDiscoveryType.game)
         .toList();
-    expect(games, hasLength(115));
+    expect(games, hasLength(153));
     expect(games.every((d) => d.categoryId == 'games_play'), isTrue);
     expect(games.every((d) => d.hobbyChallenge?.id == challengeId), isTrue);
   });
 
   test('the finder includes games and can filter to them', () async {
     final all = await const HobbyRepository().loadAll();
-    expect(all, hasLength(266));
+    expect(all, hasLength(304));
     const matcher = HobbyMatcher();
     final gamesOnly = matcher.rank(
       all,
       null,
       filters: const HobbyFilters(gamesOnly: true),
     );
-    expect(gamesOnly, hasLength(116));
+    expect(gamesOnly, hasLength(154));
     expect(
       matcher.rank(all, null, filters: const HobbyFilters(gamesOnly: false)),
       hasLength(150),
