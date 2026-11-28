@@ -18,6 +18,7 @@ abstract final class AppColors {
     'games_play' => Color(0xFF5B6CF0),
     'scent' => Color(0xFF9C4F96),
     'garden' => Color(0xFF3E8E4F),
+    'making' => Color(0xFFD9467A),
     _ => primary,
   };
   static const background = Color(0xFFFAF9F6);

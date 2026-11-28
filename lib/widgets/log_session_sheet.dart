@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../models/hobby_journal.dart';
+import '../screens/hobbies/phone_down_timer_page.dart';
 import '../services/hobby_journal_service.dart';
 import '../theme/app_colors.dart';
 
@@ -46,6 +47,19 @@ class _LogSessionSheetState extends State<_LogSessionSheet> {
     if (mounted) Navigator.pop(context, updated);
   }
 
+  /// Time the session for real, phone down; then log what it took.
+  Future<void> _timer() async {
+    final spent = await Navigator.push<int>(
+      context,
+      MaterialPageRoute(
+        builder: (_) => PhoneDownTimerPage(hobbyName: widget.record.name),
+      ),
+    );
+    if (spent == null || !mounted) return;
+    setState(() => minutes = spent);
+    await _log();
+  }
+
   @override
   Widget build(BuildContext context) => Padding(
     padding: EdgeInsets.fromLTRB(
@@ -89,7 +103,14 @@ class _LogSessionSheetState extends State<_LogSessionSheet> {
             ),
           ],
         ),
-        const SizedBox(height: 16),
+        const SizedBox(height: 8),
+        TextButton.icon(
+          key: const ValueKey('log-session-timer'),
+          onPressed: _timer,
+          icon: const Icon(Icons.timer_outlined),
+          label: const Text('Use a phone-down timer instead'),
+        ),
+        const SizedBox(height: 8),
         TextField(
           controller: note,
           maxLines: 2,

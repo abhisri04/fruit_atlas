@@ -721,6 +721,336 @@
         "Care": "Keep in airtight tins away from light and smells",
         "Display idea": "A row of tins with a tasting note on each"
       }
+    },
+    {
+      "id": "collect_building_sets",
+      "challenge_id": "start_a_collection",
+      "name": "Collect building sets",
+      "category": "Building sets",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Brick sets you build, display and rebuild. Many adults collect them as calm, hands-on projects.",
+      "howToSteps": [
+        "Pick a theme you love: cities, space, cars, botanicals.",
+        "Build it slowly over a few evenings.",
+        "Photograph each finished build.",
+        "Keep the instructions so you can rebuild it."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "building sets",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with one set you'd love to build",
+        "Where to find": "Toy stores, brand stores, second-hand sellers, gifts",
+        "Care": "Keep instructions in a folder; bag loose pieces by colour",
+        "Display idea": "A shelf of finished builds, rotated every few months"
+      }
+    },
+    {
+      "id": "collect_action_figures",
+      "challenge_id": "start_a_collection",
+      "name": "Collect action figures",
+      "category": "Action figures",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Superheroes, film and game characters, posed and displayed.",
+      "howToSteps": [
+        "Choose a universe or a character.",
+        "Decide: in the box or out of it.",
+        "Note where and when you got each one.",
+        "Pose a small scene and photograph it."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "action figures",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with a character that means something to you",
+        "Where to find": "Collectible stores, comic cons, toy collector groups",
+        "Care": "Keep out of direct sun; dust gently with a soft brush",
+        "Display idea": "A glass shelf with a few figures posed in a scene"
+      }
+    },
+    {
+      "id": "collect_anime_figures",
+      "challenge_id": "start_a_collection",
+      "name": "Collect anime figures",
+      "category": "Anime figures",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Figures of anime and manga characters, from small chibis to detailed scale figures.",
+      "howToSteps": [
+        "Pick a favourite series.",
+        "Learn to spot authentic figures.",
+        "Start small: a chibi or a prize figure.",
+        "Note the series and character for each."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "anime figures",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with a favourite character from a series you love",
+        "Where to find": "Collectible stores, anime cons, online stores with authentic stock",
+        "Care": "Keep the boxes; avoid sun, which fades paint",
+        "Display idea": "A shelf per series with the boxes stored flat"
+      }
+    },
+    {
+      "id": "collect_scale_model_kits",
+      "challenge_id": "start_a_collection",
+      "name": "Collect scale model kits",
+      "category": "Scale model kits",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Build and paint model cars, planes, ships and robots from kits.",
+      "howToSteps": [
+        "Start with a snap-fit beginner kit.",
+        "Read the steps before you cut a part.",
+        "Paint small parts before you assemble.",
+        "Photograph it finished."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "scale model kits",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with a snap-fit kit that needs no glue",
+        "Where to find": "Hobby stores, model shops, online hobby sellers",
+        "Care": "Keep finished models in cases away from dust",
+        "Display idea": "A shelf or case with a small label for each model"
+      }
+    },
+    {
+      "id": "collect_miniatures",
+      "challenge_id": "start_a_collection",
+      "name": "Collect miniatures",
+      "category": "Miniatures",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Tiny worlds: dollhouse furniture, miniature food, little scenes in a box.",
+      "howToSteps": [
+        "Pick a scale and stay with it.",
+        "Start a tiny scene in a box.",
+        "Add one piece at a time.",
+        "Photograph it from eye level."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "miniatures",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with a small scene in a shoebox",
+        "Where to find": "Hobby stores, craft stores, miniature makers online",
+        "Care": "Keep in a closed case; tiny pieces get lost easily",
+        "Display idea": "A shadow box that becomes a little room"
+      }
+    },
+    {
+      "id": "collect_plush_toys",
+      "challenge_id": "start_a_collection",
+      "name": "Collect plush toys",
+      "category": "Plush toys",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Soft toys from childhood, trips and gifts, each with a story.",
+      "howToSteps": [
+        "Gather the ones you already have.",
+        "Note who gave each one.",
+        "Add one from special trips.",
+        "Give them a home where you see them."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "plush toys",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with the ones you already keep",
+        "Where to find": "Toy stores, trips, gifts, handmade sellers",
+        "Care": "Wash gently by hand; dry in shade",
+        "Display idea": "A basket or a shelf where they can sit together"
+      }
+    },
+    {
+      "id": "collect_trading_card_games",
+      "challenge_id": "start_a_collection",
+      "name": "Collect trading card games",
+      "category": "Trading card games",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Cards from games like Pokemon and Magic: collected for play, art and rarity.",
+      "howToSteps": [
+        "Learn to play with a starter deck.",
+        "Join a local game night.",
+        "Sleeve the cards you care about.",
+        "Track which cards you have and want."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "trading card games",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with a beginner deck you can actually play",
+        "Where to find": "Card and game stores, local game nights, trusted sellers",
+        "Care": "Sleeve every good card; keep binders upright and dry",
+        "Display idea": "A binder page per set, rarest cards in the middle"
+      }
+    },
+    {
+      "id": "collect_finished_jigsaws",
+      "challenge_id": "start_a_collection",
+      "name": "Collect finished jigsaws",
+      "category": "Finished jigsaws",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Puzzles you've completed, kept as photos or glued and framed.",
+      "howToSteps": [
+        "Finish one puzzle.",
+        "Photograph it complete.",
+        "Note the pieces and how long it took.",
+        "Swap finished puzzles with friends."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "finished jigsaws",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with a 500-piece puzzle of a picture you love",
+        "Where to find": "Puzzle and game stores, friends swapping puzzles",
+        "Care": "Store unfinished puzzles in bags inside the box",
+        "Display idea": "Frame your favourite finished puzzle"
+      }
+    },
+    {
+      "id": "collect_notebooks_journals",
+      "challenge_id": "start_a_collection",
+      "name": "Collect notebooks & journals",
+      "category": "Notebooks & journals",
+      "filter_group": "Writing & craft",
+      "difficulty": "beginner",
+      "about": "Notebooks and journals you love to write in, and the ones you've filled.",
+      "howToSteps": [
+        "Keep every notebook you fill.",
+        "Date the first page.",
+        "Try one paper type you've never used.",
+        "Look back at an old one each year."
+      ],
+      "tags": [
+        "collecting",
+        "writing_craft"
+      ],
+      "keywords": [
+        "notebooks & journals",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with the notebook you're using now",
+        "Where to find": "Stationery stores, Indian stationery brands, gifts",
+        "Care": "Keep filled notebooks upright on a shelf",
+        "Display idea": "A shelf of filled notebooks, oldest to newest"
+      }
+    },
+    {
+      "id": "collect_stickers_washi_tape",
+      "challenge_id": "start_a_collection",
+      "name": "Collect stickers & washi tape",
+      "category": "Stickers & washi tape",
+      "filter_group": "Writing & craft",
+      "difficulty": "beginner",
+      "about": "Rolls of washi tape and sticker sheets for journals, letters and planners.",
+      "howToSteps": [
+        "Pick a colour palette.",
+        "Use them in a journal or on letters.",
+        "Note where each set came from.",
+        "Trade stickers with friends."
+      ],
+      "tags": [
+        "collecting",
+        "writing_craft"
+      ],
+      "keywords": [
+        "stickers & washi tape",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with a few rolls you'll actually use",
+        "Where to find": "Stationery stores, art stores, small Indian sticker makers",
+        "Care": "Store in a flat box away from heat so the glue stays good",
+        "Display idea": "A pegboard or a jar of rolls by colour"
+      }
+    },
+    {
+      "id": "collect_art_supplies",
+      "challenge_id": "start_a_collection",
+      "name": "Collect art supplies",
+      "category": "Art supplies",
+      "filter_group": "Writing & craft",
+      "difficulty": "beginner",
+      "about": "Paints, pencils, brushes and inks: the tools you love to make with.",
+      "howToSteps": [
+        "List what you already have.",
+        "Try one new medium.",
+        "Make a swatch card for each set.",
+        "Keep a sketchbook of what you made with them."
+      ],
+      "tags": [
+        "collecting",
+        "writing_craft"
+      ],
+      "keywords": [
+        "art supplies",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with the colours and tools you use most",
+        "Where to find": "Art supply stores, stationers, Indian art-supply brands",
+        "Care": "Close paints tightly; wash and dry brushes flat",
+        "Display idea": "A tray or caddy on your desk"
+      }
     }
   ]
 }

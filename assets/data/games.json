@@ -5479,6 +5479,868 @@
           "milestone": "Invent your own twist"
         }
       ]
+    },
+    {
+      "id": "game_jigsaw_500",
+      "challenge_id": "play_great_games",
+      "name": "Finish a 500-piece jigsaw",
+      "category": "a 500-piece jigsaw",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Sort the edges, then the colours, and watch a picture come together piece by piece.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Start with the border; sort the rest into trays by colour.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "screen-free",
+        "calm",
+        "game"
+      ],
+      "keywords": [
+        "a 500-piece jigsaw"
+      ],
+      "metadata": {
+        "Players": "1+",
+        "Time": "A few evenings",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 240,
+        "energy": "calm",
+        "social": "either",
+        "goals": [
+          "relax"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Finish a 500-piece jigsaw"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_jigsaw_1000",
+      "challenge_id": "play_great_games",
+      "name": "Finish a 1000-piece jigsaw",
+      "category": "a 1000-piece jigsaw",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "The classic big puzzle: a slow, satisfying project for a table you can leave it on.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Use a board or mat so you can move it.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "screen-free",
+        "calm",
+        "game"
+      ],
+      "keywords": [
+        "a 1000-piece jigsaw"
+      ],
+      "metadata": {
+        "Players": "1+",
+        "Time": "A week or two",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 600,
+        "energy": "calm",
+        "social": "either",
+        "goals": [
+          "relax"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Finish a 1000-piece jigsaw"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_rubiks_cube",
+      "challenge_id": "play_great_games",
+      "name": "Solve a Rubik's Cube",
+      "category": "a Rubik's Cube",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Learn the beginner's method, one layer at a time, and solve the cube on your own.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Learn the white cross first, then one layer at a time.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "brain",
+        "game"
+      ],
+      "keywords": [
+        "a rubik's cube"
+      ],
+      "metadata": {
+        "Players": "1",
+        "Time": "30 min a day",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 30,
+        "energy": "calm",
+        "social": "solo",
+        "goals": [
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Solve a Rubik's Cube"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_sudoku",
+      "challenge_id": "play_great_games",
+      "name": "Finish a Sudoku",
+      "category": "Sudoku",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Fill the grid so every row, column and box holds 1 to 9 exactly once.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Start with easy grids from a newspaper or book.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "brain",
+        "pen-and-paper",
+        "game"
+      ],
+      "keywords": [
+        "sudoku"
+      ],
+      "metadata": {
+        "Players": "1",
+        "Time": "15 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 15,
+        "energy": "calm",
+        "social": "solo",
+        "goals": [
+          "relax",
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Finish a Sudoku"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_crossword",
+      "challenge_id": "play_great_games",
+      "name": "Finish a crossword",
+      "category": "a crossword",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Solve a newspaper crossword, alone or with someone over chai.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Fill in the short answers first; they unlock the long ones.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "words",
+        "pen-and-paper",
+        "game"
+      ],
+      "keywords": [
+        "a crossword"
+      ],
+      "metadata": {
+        "Players": "1–2",
+        "Time": "20 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 20,
+        "energy": "calm",
+        "social": "either",
+        "goals": [
+          "learn",
+          "relax"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Finish a crossword"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_cryptic_crossword",
+      "challenge_id": "play_great_games",
+      "name": "Finish a cryptic crossword",
+      "category": "a cryptic crossword",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Every clue hides a wordplay trick. Hard at first, deeply satisfying once it clicks.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Learn the common tricks: anagrams, hidden words, double meanings.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "words",
+        "game"
+      ],
+      "keywords": [
+        "a cryptic crossword"
+      ],
+      "metadata": {
+        "Players": "1–2",
+        "Time": "45 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 45,
+        "energy": "calm",
+        "social": "either",
+        "goals": [
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Finish a cryptic crossword"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_tangram",
+      "challenge_id": "play_great_games",
+      "name": "Make 10 Tangram shapes",
+      "category": "Tangram",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Seven flat pieces make hundreds of shapes. Recreate a cat, a boat, a person.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Cut your own set from cardboard if you don't have one.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "kids",
+        "shapes",
+        "game"
+      ],
+      "keywords": [
+        "tangram"
+      ],
+      "metadata": {
+        "Players": "1",
+        "Time": "15 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 15,
+        "energy": "calm",
+        "social": "solo",
+        "goals": [
+          "relax",
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Make 10 Tangram shapes"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_nonogram",
+      "challenge_id": "play_great_games",
+      "name": "Solve a Nonogram",
+      "category": "a Nonogram",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Use number clues to shade a grid and reveal a hidden picture.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Start with small 10 by 10 grids.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "brain",
+        "game"
+      ],
+      "keywords": [
+        "a nonogram"
+      ],
+      "metadata": {
+        "Players": "1",
+        "Time": "20 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 20,
+        "energy": "calm",
+        "social": "solo",
+        "goals": [
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Solve a Nonogram"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_logic_grid",
+      "challenge_id": "play_great_games",
+      "name": "Solve a logic grid puzzle",
+      "category": "a logic grid puzzle",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Who lives in the blue house? Work it out from clues with a simple grid.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Mark every 'no' you can find; the 'yes' answers follow.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "brain",
+        "game"
+      ],
+      "keywords": [
+        "a logic grid puzzle"
+      ],
+      "metadata": {
+        "Players": "1",
+        "Time": "30 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 30,
+        "energy": "calm",
+        "social": "solo",
+        "goals": [
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Solve a logic grid puzzle"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_wooden_3d",
+      "challenge_id": "play_great_games",
+      "name": "Solve a 3D wooden puzzle",
+      "category": "a 3D wooden puzzle",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Interlocking wooden puzzles and burr puzzles: take apart, then put back together.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Note the first few moves so you can undo them.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "screen-free",
+        "game"
+      ],
+      "keywords": [
+        "a 3d wooden puzzle"
+      ],
+      "metadata": {
+        "Players": "1",
+        "Time": "30 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 30,
+        "energy": "calm",
+        "social": "solo",
+        "goals": [
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Solve a 3D wooden puzzle"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_puzzle_hunt",
+      "challenge_id": "play_great_games",
+      "name": "Solve an escape-room-in-a-box",
+      "category": "an escape-room-in-a-box",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "A boxed mystery with clues, locks and codes to crack together at home.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Read every card twice before you start.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "party",
+        "game"
+      ],
+      "keywords": [
+        "an escape-room-in-a-box"
+      ],
+      "metadata": {
+        "Players": "2–6",
+        "Time": "1–2 hours",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 90,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect",
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Solve an escape-room-in-a-box"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_chess_puzzles",
+      "challenge_id": "play_great_games",
+      "name": "Solve 10 chess puzzles",
+      "category": "chess puzzles",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Find the winning move: 'mate in two' puzzles sharpen your eye fast.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Start with 'mate in one' and work up.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "brain",
+        "game"
+      ],
+      "keywords": [
+        "chess puzzles"
+      ],
+      "metadata": {
+        "Players": "1",
+        "Time": "15 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 15,
+        "energy": "calm",
+        "social": "solo",
+        "goals": [
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Solve 10 chess puzzles"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_kakuro",
+      "challenge_id": "play_great_games",
+      "name": "Solve a Kakuro",
+      "category": "Kakuro",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Number crossword: fill digits so each run adds up to its clue.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Learn the common sums, like 3 in two cells is always 1 and 2.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "brain",
+        "game"
+      ],
+      "keywords": [
+        "kakuro"
+      ],
+      "metadata": {
+        "Players": "1",
+        "Time": "20 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 20,
+        "energy": "calm",
+        "social": "solo",
+        "goals": [
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Solve a Kakuro"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_riddles",
+      "challenge_id": "play_great_games",
+      "name": "Solve 10 riddles and paheliyan",
+      "category": "riddles and paheliyan",
+      "filter_group": "Puzzles & Brainteasers",
+      "difficulty": "beginner",
+      "about": "Swap riddles and paheliyan with family, and make up a few of your own.",
+      "howToSteps": [
+        "Pick a beginner-level puzzle and a quiet spot.",
+        "Ask grandparents for the ones they grew up with.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "family",
+        "words",
+        "india",
+        "game"
+      ],
+      "keywords": [
+        "riddles and paheliyan"
+      ],
+      "metadata": {
+        "Players": "2+",
+        "Time": "15 min",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 15,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Solve 10 riddles and paheliyan"
+        },
+        {
+          "level": "learning",
+          "milestone": "Finish one start to end"
+        },
+        {
+          "level": "practising",
+          "milestone": "Finish a harder one"
+        },
+        {
+          "level": "confident",
+          "milestone": "Do one without hints"
+        }
+      ]
+    },
+    {
+      "id": "game_indian_designed",
+      "challenge_id": "play_great_games",
+      "name": "Play an Indian-designed board game",
+      "category": "an Indian-designed board game",
+      "filter_group": "Board Games",
+      "difficulty": "beginner",
+      "about": "Indian studios now design modern board games about Indian history, politics and travel, such as SHASN and Bharata 600.",
+      "howToSteps": [
+        "Borrow, buy or find the game at a board-game café.",
+        "Look for them at board-game cafés or game stores that stock Indian publishers.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "india",
+        "modern",
+        "game"
+      ],
+      "keywords": [
+        "an indian-designed board game"
+      ],
+      "metadata": {
+        "Players": "2–6",
+        "Time": "1 hour",
+        "Where": "At home"
+      },
+      "attributes": {
+        "setting": "indoor",
+        "session_minutes": 60,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect",
+          "learn"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Play an Indian-designed board game"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn all the rules"
+        },
+        {
+          "level": "practising",
+          "milestone": "Win a game"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach it to a new player"
+        }
+      ]
+    },
+    {
+      "id": "game_board_game_cafe",
+      "challenge_id": "play_great_games",
+      "name": "Spend an evening at a board-game café",
+      "category": "a board-game café",
+      "filter_group": "Board Games",
+      "difficulty": "beginner",
+      "about": "Spend an evening at a board-game café, where staff teach you games you've never played.",
+      "howToSteps": [
+        "Borrow, buy or find the game at a board-game café.",
+        "Ask the staff to suggest a game for your group size.",
+        "Play one full game, start to finish."
+      ],
+      "tags": [
+        "social",
+        "cafe",
+        "game"
+      ],
+      "keywords": [
+        "a board-game café"
+      ],
+      "metadata": {
+        "Players": "2–8",
+        "Time": "2 hours",
+        "Where": "In your neighbourhood"
+      },
+      "attributes": {
+        "setting": "either",
+        "session_minutes": 120,
+        "energy": "calm",
+        "social": "social",
+        "goals": [
+          "connect"
+        ]
+      },
+      "ladder": [
+        {
+          "level": "tried",
+          "milestone": "Spend an evening at a board-game café"
+        },
+        {
+          "level": "learning",
+          "milestone": "Learn a new game there"
+        },
+        {
+          "level": "practising",
+          "milestone": "Play three different games"
+        },
+        {
+          "level": "confident",
+          "milestone": "Teach one to friends"
+        }
+      ]
     }
   ]
 }

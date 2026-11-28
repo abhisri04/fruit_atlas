@@ -86,8 +86,8 @@ class _StartCollectionButtonState extends State<StartCollectionButton> {
                   ? 'Keep your perfumes on shelves in My Perfume Collection.'
                   : c == null
                   ? 'Keep track of your ${thing.toLowerCase()}, with photos.'
-                  : 'My ${thing.toLowerCase()} · ${c.things.length} '
-                        '${c.things.length == 1 ? 'piece' : 'pieces'}',
+                  : 'My ${thing.toLowerCase()} · ${c.owned.length} '
+                        '${c.owned.length == 1 ? 'piece' : 'pieces'}',
               style: const TextStyle(fontWeight: FontWeight.w700),
             ),
           ),

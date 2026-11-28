@@ -79,6 +79,7 @@ class GamificationService {
           item.startsWith('attar:') ||
           item.startsWith('plant:') ||
           item.startsWith('collecting:') ||
+          item.startsWith('make:') ||
           item.startsWith('gardenskill:') ||
           item.startsWith('gardenvisit:') ||
           item.startsWith('jyotirlinga:'),

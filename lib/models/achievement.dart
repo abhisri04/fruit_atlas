@@ -225,8 +225,8 @@ class Achievement {
     Achievement(
       id: 'game_complete',
       title: 'Played Them All',
-      description: 'Play all 100 games.',
-      threshold: 100,
+      description: 'Play all 116 games.',
+      threshold: 116,
       challengeId: 'play_great_games',
       iconIdentifier: 'trophy',
     ),
@@ -344,6 +344,33 @@ class Achievement {
       description: 'Try all 14 attars.',
       threshold: 14,
       challengeId: 'explore_indian_attars',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
+  static const makingAchievements = [
+    Achievement(
+      id: 'make_first',
+      title: 'Maker',
+      description: 'Finish your first project.',
+      threshold: 1,
+      challengeId: 'make_something',
+      iconIdentifier: 'making',
+    ),
+    Achievement(
+      id: 'make_five',
+      title: 'Crafter',
+      description: 'Finish 5 projects.',
+      threshold: 5,
+      challengeId: 'make_something',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'make_all',
+      title: 'Master Maker',
+      description: 'Finish all 26 projects.',
+      threshold: 26,
+      challengeId: 'make_something',
       iconIdentifier: 'trophy',
     ),
   ];
@@ -574,6 +601,7 @@ class Achievement {
       'explore_indian_attars' => attarAchievements,
       'explore_garden_plants' => gardenPlantAchievements,
       'start_a_collection' => collectingAchievements,
+      'make_something' => makingAchievements,
       'explore_garden_skills' => gardenSkillAchievements,
       'explore_garden_visits' => gardenVisitAchievements,
       'explore_indian_states' => indiaStatesChallengeAchievements,

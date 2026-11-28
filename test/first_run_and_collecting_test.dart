@@ -97,8 +97,8 @@ void main() {
     final items = _raw('collecting.json');
 
     test('the catalogue is complete and money-free', () async {
-      expect(items, hasLength(24));
-      expect(items.map((i) => i['id']).toSet(), hasLength(24));
+      expect(items, hasLength(35));
+      expect(items.map((i) => i['id']).toSet(), hasLength(35));
       for (final item in items) {
         expect(item['about'], isNotEmpty);
         expect((item['howToSteps'] as List), hasLength(greaterThan(2)));

@@ -23,6 +23,7 @@ abstract final class Interests {
     Interest('reading', 'Reading', ['explore_great_books']),
     Interest('games', 'Games', ['play_great_games']),
     Interest('collecting', 'Collecting', ['start_a_collection', 'scent_hub']),
+    Interest('making', 'DIY, art & journaling', ['make_something']),
     Interest('faith', 'Pilgrimage', ['visit_12_jyotirlingas']),
   ];
 

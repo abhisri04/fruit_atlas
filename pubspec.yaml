@@ -183,6 +183,7 @@ flutter:
     - assets/data/indian_attars.json
     - assets/data/garden_ways.json
     - assets/data/collecting.json
+    - assets/data/making.json
     - assets/data/garden_plants.json
     - assets/data/garden_skills.json
     - assets/data/garden_visits.json

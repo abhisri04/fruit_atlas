@@ -87,7 +87,10 @@ class DailyDiscoveryService {
     ];
     final scentPools = await poolsFor('scent');
     final gardenPools = await poolsFor('garden');
-    final collectingPools = await poolsFor('collecting');
+    final collectingPools = [
+      ...await poolsFor('collecting'),
+      ...await poolsFor('making'),
+    ];
     final jyotirlingas = await data.loadJyotirlingas();
     final dishCatalogue = await const IndianDishesRepository().load();
     final dishProgress = await ProgressService.getDishProgress(dishCatalogue);

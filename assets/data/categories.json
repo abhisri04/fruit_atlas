@@ -49,6 +49,11 @@
       "id": "garden",
       "name": "Garden & Plants",
       "description": "Start gardening with easy plants that suit your space, browse flowers and more, and keep your own garden."
+    },
+    {
+      "id": "making",
+      "name": "DIY & Art",
+      "description": "Crochet, embroidery, journaling, painting and Indian folk art projects to make with your hands."
     }
   ]
 }

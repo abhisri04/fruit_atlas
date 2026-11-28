@@ -17,6 +17,7 @@ GROUPS = {
     "indian": "Traditional Indian Games",
     "outdoor": "Outdoor Games",
     "party": "Party & Indoor Games",
+    "puzzle": "Puzzles & Brainteasers",
 }
 WHERE = {"home": "At home", "out": "Outdoors", "local": "In your neighbourhood"}
 SETTING = {"home": "indoor", "out": "outdoor", "local": "either"}
@@ -26,6 +27,7 @@ LADDERS = {
     "indian": ["Learn the rules well", "Play with a new group", "Teach it to children"],
     "outdoor": ["Learn the rules well", "Play with a new group", "Organise a game yourself"],
     "party": ["Play at a gathering", "Host a round yourself", "Invent your own twist"],
+    "puzzle": ["Finish one start to end", "Finish a harder one", "Do one without hints"],
 }
 STEPS = {
     "card": "Get a standard deck (or the game's own cards) and a few players.",
@@ -33,6 +35,7 @@ STEPS = {
     "indian": "Gather players and any simple materials needed.",
     "outdoor": "Find an open, safe space and enough players.",
     "party": "Gather a group and pick someone to explain the rules.",
+    "puzzle": "Pick a beginner-level puzzle and a quiet spot.",
 }
 
 G = []
@@ -358,6 +361,61 @@ g("heads_up", "party", "Heads Up (Forehead guessing)", "3+", 15, "15 min", "home
 g("air_hockey", "party", "Air Hockey", "2", 10, "10 min", "local", "active", "social", "connect active",
   "Slam the puck into your opponent's goal on a cushion of air.",
   "Find a table at an arcade or games café.", tags="arcade")
+
+
+# ------------------------------------------------------------------ Puzzles
+g("jigsaw_500", "puzzle", "a 500-piece jigsaw", "1+", 240, "A few evenings", "home", "calm", "either", "relax",
+  "Sort the edges, then the colours, and watch a picture come together piece by piece.",
+  "Start with the border; sort the rest into trays by colour.", win="Finish a 500-piece jigsaw", tags="screen-free calm")
+g("jigsaw_1000", "puzzle", "a 1000-piece jigsaw", "1+", 600, "A week or two", "home", "calm", "either", "relax",
+  "The classic big puzzle: a slow, satisfying project for a table you can leave it on.",
+  "Use a board or mat so you can move it.", win="Finish a 1000-piece jigsaw", tags="screen-free calm")
+g("rubiks_cube", "puzzle", "a Rubik's Cube", "1", 30, "30 min a day", "home", "calm", "solo", "learn",
+  "Learn the beginner's method, one layer at a time, and solve the cube on your own.",
+  "Learn the white cross first, then one layer at a time.", win="Solve a Rubik's Cube", tags="brain")
+g("sudoku", "puzzle", "Sudoku", "1", 15, "15 min", "home", "calm", "solo", "relax learn",
+  "Fill the grid so every row, column and box holds 1 to 9 exactly once.",
+  "Start with easy grids from a newspaper or book.", win="Finish a Sudoku", tags="brain pen-and-paper")
+g("crossword", "puzzle", "a crossword", "1–2", 20, "20 min", "home", "calm", "either", "learn relax",
+  "Solve a newspaper crossword, alone or with someone over chai.",
+  "Fill in the short answers first; they unlock the long ones.", win="Finish a crossword", tags="words pen-and-paper")
+g("cryptic_crossword", "puzzle", "a cryptic crossword", "1–2", 45, "45 min", "home", "calm", "either", "learn",
+  "Every clue hides a wordplay trick. Hard at first, deeply satisfying once it clicks.",
+  "Learn the common tricks: anagrams, hidden words, double meanings.", win="Finish a cryptic crossword", tags="words")
+g("tangram", "puzzle", "Tangram", "1", 15, "15 min", "home", "calm", "solo", "relax learn",
+  "Seven flat pieces make hundreds of shapes. Recreate a cat, a boat, a person.",
+  "Cut your own set from cardboard if you don't have one.", win="Make 10 Tangram shapes", tags="kids shapes")
+g("nonogram", "puzzle", "a Nonogram", "1", 20, "20 min", "home", "calm", "solo", "learn",
+  "Use number clues to shade a grid and reveal a hidden picture.",
+  "Start with small 10 by 10 grids.", win="Solve a Nonogram", tags="brain")
+g("logic_grid", "puzzle", "a logic grid puzzle", "1", 30, "30 min", "home", "calm", "solo", "learn",
+  "Who lives in the blue house? Work it out from clues with a simple grid.",
+  "Mark every 'no' you can find; the 'yes' answers follow.", win="Solve a logic grid puzzle", tags="brain")
+g("wooden_3d", "puzzle", "a 3D wooden puzzle", "1", 30, "30 min", "home", "calm", "solo", "learn",
+  "Interlocking wooden puzzles and burr puzzles: take apart, then put back together.",
+  "Note the first few moves so you can undo them.", win="Solve a 3D wooden puzzle", tags="screen-free")
+g("puzzle_hunt", "puzzle", "an escape-room-in-a-box", "2–6", 90, "1–2 hours", "home", "calm", "social", "connect learn",
+  "A boxed mystery with clues, locks and codes to crack together at home.",
+  "Read every card twice before you start.", win="Solve an escape-room-in-a-box", tags="party")
+g("chess_puzzles", "puzzle", "chess puzzles", "1", 15, "15 min", "home", "calm", "solo", "learn",
+  "Find the winning move: 'mate in two' puzzles sharpen your eye fast.",
+  "Start with 'mate in one' and work up.", win="Solve 10 chess puzzles", tags="brain")
+g("kakuro", "puzzle", "Kakuro", "1", 20, "20 min", "home", "calm", "solo", "learn",
+  "Number crossword: fill digits so each run adds up to its clue.",
+  "Learn the common sums, like 3 in two cells is always 1 and 2.", win="Solve a Kakuro", tags="brain")
+g("riddles", "puzzle", "riddles and paheliyan", "2+", 15, "15 min", "home", "calm", "social", "connect",
+  "Swap riddles and paheliyan with family, and make up a few of your own.",
+  "Ask grandparents for the ones they grew up with.", win="Solve 10 riddles and paheliyan", tags="family words india")
+
+# ------------------------------------------------------------------ Made in India board games
+g("indian_designed", "board", "an Indian-designed board game", "2–6", 60, "1 hour", "home", "calm", "social", "connect learn",
+  "Indian studios now design modern board games about Indian history, politics and travel, such as SHASN and Bharata 600.",
+  "Look for them at board-game cafés or game stores that stock Indian publishers.",
+  win="Play an Indian-designed board game", tags="india modern")
+g("board_game_cafe", "board", "a board-game café", "2–8", 120, "2 hours", "local", "calm", "social", "connect",
+  "Spend an evening at a board-game café, where staff teach you games you've never played.",
+  "Ask the staff to suggest a game for your group size.",
+  win="Spend an evening at a board-game café", ladder=["Learn a new game there", "Play three different games", "Teach one to friends"], tags="social cafe")
 
 
 def build():

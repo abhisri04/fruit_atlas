@@ -249,6 +249,12 @@ class _DiscoverPageState extends State<DiscoverPage> {
                     ),
                   ),
                   const SizedBox(height: 22),
+                  if (selectedCategoryId == 'making') ...[
+                    _sectionTitle('Make something'),
+                    const SizedBox(height: 12),
+                    MakingShortcuts(challenges: challenges),
+                    const SizedBox(height: 22),
+                  ],
                   if (selectedCategoryId == 'collecting') ...[
                     _sectionTitle('Start collecting'),
                     const SizedBox(height: 12),
@@ -450,6 +456,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
     'games_play' => 'Games',
     'scent' => 'Scent',
     'garden' => 'Garden',
+    'making' => 'DIY & Art',
     _ => category.name.split(' & ').first,
   };
   Widget _sectionTitle(String value) => Text(

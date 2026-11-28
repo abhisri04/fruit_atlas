@@ -62,6 +62,7 @@ const _suggestionOrder = [
   'explore_great_books',
   'play_great_games',
   'start_a_collection',
+  'make_something',
   'scent_hub',
   'taste_fruits_of_india',
   'visit_12_jyotirlingas',

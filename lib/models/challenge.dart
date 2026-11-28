@@ -83,6 +83,7 @@ class Challenge {
       'culture_learning' => 'Culture & Learning',
       'faith_pilgrimage' => 'Faith & Pilgrimage',
       'collecting' => 'Collecting',
+      'making' => 'DIY & Art',
       'life_experiences' => 'Life Experiences',
       'games_play' => 'Games & Play',
       'scent' => 'Scent & Perfume',

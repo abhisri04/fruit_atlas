@@ -1,0 +1,812 @@
+{
+  "challenge_id": "make_something",
+  "version": 1,
+  "items": [
+    {
+      "id": "make_crochet_a_coaster",
+      "challenge_id": "make_something",
+      "name": "Crochet a coaster",
+      "category": "Crochet",
+      "filter_group": "Crochet & knitting",
+      "difficulty": "beginner",
+      "about": "The classic first crochet project: one small circle teaches the basic stitches.",
+      "howToSteps": [
+        "Learn the slip knot and chain.",
+        "Make a magic ring and work single crochet into it.",
+        "Increase each round until it lies flat.",
+        "Fasten off and weave in the ends."
+      ],
+      "tags": [
+        "making",
+        "crochet_knitting"
+      ],
+      "keywords": [
+        "crochet",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "1–2 evenings",
+        "You'll need": "Cotton yarn, a 4 mm hook, scissors",
+        "First win": "A round coaster on your table"
+      }
+    },
+    {
+      "id": "make_crochet_a_small_amigurumi",
+      "challenge_id": "make_something",
+      "name": "Crochet a small amigurumi",
+      "category": "Amigurumi",
+      "filter_group": "Crochet & knitting",
+      "difficulty": "beginner",
+      "about": "Small crocheted toys worked in spirals; a little ball or a whale is a great start.",
+      "howToSteps": [
+        "Pick a beginner pattern: a ball, a whale or a cactus.",
+        "Work in a spiral and mark the first stitch.",
+        "Stuff it firmly as you close it.",
+        "Sew on the face last."
+      ],
+      "tags": [
+        "making",
+        "crochet_knitting"
+      ],
+      "keywords": [
+        "amigurumi",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Easy",
+        "Time": "A weekend",
+        "You'll need": "Yarn, a 3.5 mm hook, stuffing, safety eyes or thread",
+        "First win": "A tiny crocheted animal"
+      }
+    },
+    {
+      "id": "make_knit_a_scarf",
+      "challenge_id": "make_something",
+      "name": "Knit a scarf",
+      "category": "Knitting",
+      "filter_group": "Crochet & knitting",
+      "difficulty": "beginner",
+      "about": "Garter stitch all the way: the gentlest way to learn knitting and end with something wearable.",
+      "howToSteps": [
+        "Cast on about 20 stitches.",
+        "Knit every row (garter stitch).",
+        "Count stitches every few rows.",
+        "Cast off and weave in the ends."
+      ],
+      "tags": [
+        "making",
+        "crochet_knitting"
+      ],
+      "keywords": [
+        "knitting",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "2–3 weeks of evenings",
+        "You'll need": "Chunky yarn, two 8 mm needles",
+        "First win": "A scarf you can wear"
+      }
+    },
+    {
+      "id": "make_make_granny_squares",
+      "challenge_id": "make_something",
+      "name": "Make granny squares",
+      "category": "Crochet",
+      "filter_group": "Crochet & knitting",
+      "difficulty": "beginner",
+      "about": "Colourful squares that join into cushions, bags and blankets.",
+      "howToSteps": [
+        "Learn one granny square pattern.",
+        "Make four in different colours.",
+        "Join them with slip stitches.",
+        "Decide what they'll become."
+      ],
+      "tags": [
+        "making",
+        "crochet_knitting"
+      ],
+      "keywords": [
+        "crochet",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Easy",
+        "Time": "A few evenings",
+        "You'll need": "Two or three yarn colours, a 4 mm hook",
+        "First win": "Four squares joined into a bigger one"
+      }
+    },
+    {
+      "id": "make_embroider_a_hoop",
+      "challenge_id": "make_something",
+      "name": "Embroider a hoop",
+      "category": "Embroidery",
+      "filter_group": "Needlework",
+      "difficulty": "beginner",
+      "about": "Back stitch, satin stitch and French knots in a little design you can hang up.",
+      "howToSteps": [
+        "Draw a simple design on the fabric.",
+        "Learn back stitch for outlines.",
+        "Fill shapes with satin stitch.",
+        "Trim the back and display it in the hoop."
+      ],
+      "tags": [
+        "making",
+        "needlework"
+      ],
+      "keywords": [
+        "embroidery",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "A weekend",
+        "You'll need": "A hoop, cotton fabric, embroidery thread, a needle",
+        "First win": "A small framed embroidery"
+      }
+    },
+    {
+      "id": "make_try_punch_needle",
+      "challenge_id": "make_something",
+      "name": "Try punch needle",
+      "category": "Punch needle",
+      "filter_group": "Needlework",
+      "difficulty": "beginner",
+      "about": "Loops punched through cloth make soft, rug-like pictures quickly.",
+      "howToSteps": [
+        "Stretch the cloth tight in the hoop.",
+        "Draw a simple shape.",
+        "Punch in rows, keeping the needle low.",
+        "Fill the shape, then the background."
+      ],
+      "tags": [
+        "making",
+        "needlework"
+      ],
+      "keywords": [
+        "punch needle",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "1–2 evenings",
+        "You'll need": "A punch needle, monk's cloth, a hoop, yarn",
+        "First win": "A small textured patch"
+      }
+    },
+    {
+      "id": "make_cross_stitch_a_bookmark",
+      "challenge_id": "make_something",
+      "name": "Cross-stitch a bookmark",
+      "category": "Cross-stitch",
+      "filter_group": "Needlework",
+      "difficulty": "beginner",
+      "about": "Counted crosses on a grid make neat little pictures and patterns.",
+      "howToSteps": [
+        "Pick a small chart.",
+        "Start from the centre of the cloth.",
+        "Make every cross lean the same way.",
+        "Back it with felt."
+      ],
+      "tags": [
+        "making",
+        "needlework"
+      ],
+      "keywords": [
+        "cross-stitch",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "A few evenings",
+        "You'll need": "Aida cloth, thread, a tapestry needle, a chart",
+        "First win": "A bookmark you made"
+      }
+    },
+    {
+      "id": "make_set_up_a_bullet_journal",
+      "challenge_id": "make_something",
+      "name": "Set up a bullet journal",
+      "category": "Bullet journal",
+      "filter_group": "Journaling",
+      "difficulty": "beginner",
+      "about": "A notebook that is planner, diary and to-do list at once, made by you.",
+      "howToSteps": [
+        "Make an index page.",
+        "Draw this month's calendar.",
+        "Add a simple habit or mood tracker.",
+        "Use it daily for a week, then adjust."
+      ],
+      "tags": [
+        "making",
+        "journaling"
+      ],
+      "keywords": [
+        "bullet journal",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "An evening to start",
+        "You'll need": "A dotted notebook, a pen, a ruler",
+        "First win": "A month's layout you use"
+      }
+    },
+    {
+      "id": "make_keep_a_gratitude_journal_for_7_days",
+      "challenge_id": "make_something",
+      "name": "Keep a gratitude journal for 7 days",
+      "category": "Gratitude journal",
+      "filter_group": "Journaling",
+      "difficulty": "beginner",
+      "about": "Three good things a day: a tiny habit that changes how a week feels.",
+      "howToSteps": [
+        "Write three good things each night.",
+        "Be specific: who, what, when.",
+        "Read them back on day seven.",
+        "Keep going if you like it."
+      ],
+      "tags": [
+        "making",
+        "journaling"
+      ],
+      "keywords": [
+        "gratitude journal",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "5 minutes a day",
+        "You'll need": "Any notebook and pen",
+        "First win": "Seven days of small good things"
+      }
+    },
+    {
+      "id": "make_make_a_travel_journal_of_a_trip",
+      "challenge_id": "make_something",
+      "name": "Make a travel journal of a trip",
+      "category": "Travel journal",
+      "filter_group": "Journaling",
+      "difficulty": "beginner",
+      "about": "Tickets, notes, maps and drawings from a trip, glued into a book of memories.",
+      "howToSteps": [
+        "Gather tickets, receipts and photos.",
+        "Give each day a page.",
+        "Write the best moment of each day.",
+        "Add a little drawing or map."
+      ],
+      "tags": [
+        "making",
+        "journaling"
+      ],
+      "keywords": [
+        "travel journal",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Easy",
+        "Time": "A few evenings",
+        "You'll need": "A notebook, glue, tickets and photos from the trip",
+        "First win": "A journal of one trip"
+      }
+    },
+    {
+      "id": "make_start_a_scrapbook_of_your_year",
+      "challenge_id": "make_something",
+      "name": "Start a scrapbook of your year",
+      "category": "Scrapbook",
+      "filter_group": "Journaling",
+      "difficulty": "beginner",
+      "about": "A page a month of photos, tickets and notes: the year in your hands.",
+      "howToSteps": [
+        "Print a few photos each month.",
+        "Add one ticket or note per page.",
+        "Write the month's highlight.",
+        "Look back in December."
+      ],
+      "tags": [
+        "making",
+        "journaling"
+      ],
+      "keywords": [
+        "scrapbook",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Easy",
+        "Time": "An hour a month",
+        "You'll need": "A scrapbook, glue, photos, washi tape",
+        "First win": "A page for every month"
+      }
+    },
+    {
+      "id": "make_paint_5_watercolour_postcards",
+      "challenge_id": "make_something",
+      "name": "Paint 5 watercolour postcards",
+      "category": "Watercolour",
+      "filter_group": "Painting & drawing",
+      "difficulty": "beginner",
+      "about": "Small paintings are less scary than big ones, and you can post them to friends.",
+      "howToSteps": [
+        "Practise washes and gradients.",
+        "Paint a simple sky or landscape.",
+        "Let each layer dry before the next.",
+        "Send one to someone."
+      ],
+      "tags": [
+        "making",
+        "painting_drawing"
+      ],
+      "keywords": [
+        "watercolour",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "A weekend",
+        "You'll need": "Watercolour paper postcards, a small paint set, two brushes",
+        "First win": "Five postcards to send"
+      }
+    },
+    {
+      "id": "make_fill_a_30_day_sketchbook",
+      "challenge_id": "make_something",
+      "name": "Fill a 30-day sketchbook",
+      "category": "Sketching",
+      "filter_group": "Painting & drawing",
+      "difficulty": "beginner",
+      "about": "One small drawing a day of whatever is in front of you: a cup, a shoe, a window.",
+      "howToSteps": [
+        "Pick a small sketchbook.",
+        "Draw one thing a day.",
+        "Don't erase; keep going.",
+        "Compare day 1 with day 30."
+      ],
+      "tags": [
+        "making",
+        "painting_drawing"
+      ],
+      "keywords": [
+        "sketching",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "15 minutes a day",
+        "You'll need": "A small sketchbook, a pencil, a pen",
+        "First win": "Thirty drawings in a month"
+      }
+    },
+    {
+      "id": "make_learn_brush_lettering",
+      "challenge_id": "make_something",
+      "name": "Learn brush lettering",
+      "category": "Brush lettering",
+      "filter_group": "Painting & drawing",
+      "difficulty": "beginner",
+      "about": "Thick downstrokes and thin upstrokes turn handwriting into lettering.",
+      "howToSteps": [
+        "Practise the basic strokes.",
+        "Letter the alphabet slowly.",
+        "Join letters into words.",
+        "Letter a quote you like."
+      ],
+      "tags": [
+        "making",
+        "painting_drawing"
+      ],
+      "keywords": [
+        "brush lettering",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "A few evenings",
+        "You'll need": "Brush pens, practice sheets",
+        "First win": "A quote lettered by hand"
+      }
+    },
+    {
+      "id": "make_make_dot_mandala_art",
+      "challenge_id": "make_something",
+      "name": "Make dot mandala art",
+      "category": "Dot mandala",
+      "filter_group": "Painting & drawing",
+      "difficulty": "beginner",
+      "about": "Rings of painted dots grow into a calm, symmetrical pattern.",
+      "howToSteps": [
+        "Mark the centre.",
+        "Dot rings outward, evenly spaced.",
+        "Change colour each ring.",
+        "Seal it if it's on a stone."
+      ],
+      "tags": [
+        "making",
+        "painting_drawing"
+      ],
+      "keywords": [
+        "dot mandala",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "An evening",
+        "You'll need": "Acrylic paint, dotting tools or cotton buds, a stone or card",
+        "First win": "A dotted mandala"
+      }
+    },
+    {
+      "id": "make_paint_a_madhubani_motif",
+      "challenge_id": "make_something",
+      "name": "Paint a Madhubani motif",
+      "category": "Madhubani",
+      "filter_group": "Indian folk art",
+      "difficulty": "beginner",
+      "about": "Bihar's folk art: bold outlines, double lines and every space filled with pattern.",
+      "howToSteps": [
+        "Draw a fish or peacock outline.",
+        "Double every line.",
+        "Fill spaces with lines, dots and petals.",
+        "Colour in bright, flat colours."
+      ],
+      "tags": [
+        "making",
+        "indian_folk_art"
+      ],
+      "keywords": [
+        "madhubani",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Easy",
+        "Time": "A weekend",
+        "You'll need": "Paper, a black pen, colours",
+        "First win": "A Madhubani fish or peacock"
+      }
+    },
+    {
+      "id": "make_paint_a_warli_scene",
+      "challenge_id": "make_something",
+      "name": "Paint a Warli scene",
+      "category": "Warli",
+      "filter_group": "Indian folk art",
+      "difficulty": "beginner",
+      "about": "Maharashtra's Warli art: circles, triangles and lines that become people and villages.",
+      "howToSteps": [
+        "Paint the background earthy brown.",
+        "Draw people from two triangles.",
+        "Add a dance circle or a tree.",
+        "Keep everything white and simple."
+      ],
+      "tags": [
+        "making",
+        "indian_folk_art"
+      ],
+      "keywords": [
+        "warli",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "An evening",
+        "You'll need": "Brown paper or card, white paint, a fine brush",
+        "First win": "A Warli village scene"
+      }
+    },
+    {
+      "id": "make_try_block_printing_on_fabric",
+      "challenge_id": "make_something",
+      "name": "Try block printing on fabric",
+      "category": "Block printing",
+      "filter_group": "Indian folk art",
+      "difficulty": "beginner",
+      "about": "Rajasthan's craft of stamping patterns onto cloth with carved wooden blocks.",
+      "howToSteps": [
+        "Wash and iron the cloth.",
+        "Spread paint thinly on a tray.",
+        "Press the block firmly, then lift straight up.",
+        "Heat-set the paint once dry."
+      ],
+      "tags": [
+        "making",
+        "indian_folk_art"
+      ],
+      "keywords": [
+        "block printing",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Easy",
+        "Time": "An afternoon",
+        "You'll need": "A wooden block, fabric paint, a cotton cloth, a tray",
+        "First win": "A printed napkin or tote"
+      }
+    },
+    {
+      "id": "make_tie_dye_a_bandhani_cloth",
+      "challenge_id": "make_something",
+      "name": "Tie-dye a bandhani cloth",
+      "category": "Bandhani",
+      "filter_group": "Indian folk art",
+      "difficulty": "beginner",
+      "about": "Gujarat and Rajasthan's tie-dye: tiny tied points make patterns of dots.",
+      "howToSteps": [
+        "Pinch and tie small points of cloth.",
+        "Dye it following the dye's instructions.",
+        "Rinse until the water runs clear.",
+        "Untie the knots to reveal the dots."
+      ],
+      "tags": [
+        "making",
+        "indian_folk_art"
+      ],
+      "keywords": [
+        "bandhani",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Easy",
+        "Time": "An afternoon",
+        "You'll need": "A white cotton cloth, thread, fabric dye, gloves",
+        "First win": "A dotted bandhani dupatta or napkin"
+      }
+    },
+    {
+      "id": "make_draw_a_rangoli_design",
+      "challenge_id": "make_something",
+      "name": "Draw a rangoli design",
+      "category": "Rangoli",
+      "filter_group": "Indian folk art",
+      "difficulty": "beginner",
+      "about": "Patterns of coloured powder at the doorstep, made for festivals and everyday welcome.",
+      "howToSteps": [
+        "Mark a grid of dots.",
+        "Join dots into a simple pattern.",
+        "Fill with colours from the centre out.",
+        "Take a photo before it's swept away."
+      ],
+      "tags": [
+        "making",
+        "indian_folk_art"
+      ],
+      "keywords": [
+        "rangoli",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "An hour",
+        "You'll need": "Rangoli colours or chalk, a clean floor space",
+        "First win": "A rangoli at your door"
+      }
+    },
+    {
+      "id": "make_make_air_dry_clay_earrings",
+      "challenge_id": "make_something",
+      "name": "Make air-dry clay earrings",
+      "category": "Clay",
+      "filter_group": "Paper & clay",
+      "difficulty": "beginner",
+      "about": "Shape, dry, paint and seal: wearable art in a weekend.",
+      "howToSteps": [
+        "Roll clay to an even thickness.",
+        "Cut shapes and poke the holes.",
+        "Dry for a day, then sand and paint.",
+        "Seal and attach the hooks."
+      ],
+      "tags": [
+        "making",
+        "paper_clay"
+      ],
+      "keywords": [
+        "clay",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "A weekend",
+        "You'll need": "Air-dry clay, a cutter, earring hooks, paint, varnish",
+        "First win": "A pair of earrings"
+      }
+    },
+    {
+      "id": "make_fold_10_origami_models",
+      "challenge_id": "make_something",
+      "name": "Fold 10 origami models",
+      "category": "Origami",
+      "filter_group": "Paper & clay",
+      "difficulty": "beginner",
+      "about": "From a crane to a jumping frog, one square of paper becomes something new.",
+      "howToSteps": [
+        "Learn the basic folds.",
+        "Start with a boat and a cup.",
+        "Fold a crane.",
+        "Make ten and display them."
+      ],
+      "tags": [
+        "making",
+        "paper_clay"
+      ],
+      "keywords": [
+        "origami",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "A few evenings",
+        "You'll need": "Square paper",
+        "First win": "Ten folded models"
+      }
+    },
+    {
+      "id": "make_paint_a_clay_diya",
+      "challenge_id": "make_something",
+      "name": "Paint a clay diya",
+      "category": "Diya painting",
+      "filter_group": "Paper & clay",
+      "difficulty": "beginner",
+      "about": "Plain clay lamps become festive with dots, lines and colour.",
+      "howToSteps": [
+        "Wipe the diyas clean.",
+        "Paint a base colour.",
+        "Add dots and lines in contrasting colours.",
+        "Light them on a festival evening."
+      ],
+      "tags": [
+        "making",
+        "paper_clay"
+      ],
+      "keywords": [
+        "diya painting",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "An hour",
+        "You'll need": "Plain clay diyas, acrylic paint, a fine brush",
+        "First win": "Diyas you painted"
+      }
+    },
+    {
+      "id": "make_knot_a_macram_plant_hanger",
+      "challenge_id": "make_something",
+      "name": "Knot a macramé plant hanger",
+      "category": "Macramé",
+      "filter_group": "Home & gifts",
+      "difficulty": "beginner",
+      "about": "A few knots, repeated, turn cord into a hanger for your plants.",
+      "howToSteps": [
+        "Cut eight long cords and loop them on the ring.",
+        "Learn the square knot.",
+        "Tie rows of knots, then gather at the base.",
+        "Hang it with a plant inside."
+      ],
+      "tags": [
+        "making",
+        "home_gifts"
+      ],
+      "keywords": [
+        "macramé",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Easy",
+        "Time": "An afternoon",
+        "You'll need": "Cotton cord, a wooden ring, a pot",
+        "First win": "A hanging plant"
+      }
+    },
+    {
+      "id": "make_make_a_soy_candle",
+      "challenge_id": "make_something",
+      "name": "Make a soy candle",
+      "category": "Candle making",
+      "filter_group": "Home & gifts",
+      "difficulty": "beginner",
+      "about": "Melt, pour and wait: a simple project with a cosy result.",
+      "howToSteps": [
+        "Fix the wick to the jar's base.",
+        "Melt the wax gently in a double boiler.",
+        "Pour slowly and keep the wick centred.",
+        "Let it set for a day before lighting."
+      ],
+      "tags": [
+        "making",
+        "home_gifts"
+      ],
+      "keywords": [
+        "candle making",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Easy",
+        "Time": "An afternoon",
+        "You'll need": "Soy wax, a wick, a heatproof jar, a double boiler",
+        "First win": "A candle you made"
+      }
+    },
+    {
+      "id": "make_make_a_handmade_card",
+      "challenge_id": "make_something",
+      "name": "Make a handmade card",
+      "category": "Card making",
+      "filter_group": "Home & gifts",
+      "difficulty": "beginner",
+      "about": "A card made by hand means more than any bought one.",
+      "howToSteps": [
+        "Fold the card neatly.",
+        "Cut and layer paper shapes.",
+        "Letter a short message.",
+        "Give it to someone."
+      ],
+      "tags": [
+        "making",
+        "home_gifts"
+      ],
+      "keywords": [
+        "card making",
+        "diy",
+        "craft",
+        "art"
+      ],
+      "metadata": {
+        "Level": "Beginner",
+        "Time": "An hour",
+        "You'll need": "Card, paper scraps, glue, pens",
+        "First win": "A card for someone you love"
+      }
+    }
+  ]
+}

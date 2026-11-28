@@ -13,13 +13,37 @@ class CollectedThing {
   final DateTime addedAt;
   final String? photoId;
 
+  /// On the wishlist, not owned yet.
+  final bool wanted;
+  final bool favourite;
+
+  /// How it came: one of [CollectedThing.sources], optional.
+  final String? source;
+
+  static const sources = ['Bought', 'Gift', 'Swap', 'Found', 'Made'];
+
   const CollectedThing({
     required this.id,
     required this.name,
     required this.addedAt,
     this.note,
     this.photoId,
+    this.wanted = false,
+    this.favourite = false,
+    this.source,
   });
+
+  CollectedThing copyWith({bool? wanted, bool? favourite, DateTime? addedAt}) =>
+      CollectedThing(
+        id: id,
+        name: name,
+        addedAt: addedAt ?? this.addedAt,
+        note: note,
+        photoId: photoId,
+        wanted: wanted ?? this.wanted,
+        favourite: favourite ?? this.favourite,
+        source: source,
+      );
 
   Map<String, dynamic> toJson() => {
     'id': id,
@@ -27,6 +51,9 @@ class CollectedThing {
     if (note != null && note!.isNotEmpty) 'note': note,
     'added_at': addedAt.toUtc().toIso8601String(),
     if (photoId != null) 'photo_id': photoId,
+    if (wanted) 'wanted': true,
+    if (favourite) 'favourite': true,
+    if (source != null) 'source': source,
   };
 
   factory CollectedThing.fromJson(Map<String, dynamic> json) => CollectedThing(
@@ -35,6 +62,9 @@ class CollectedThing {
     note: json['note'] as String?,
     addedAt: DateTime.parse(json['added_at'] as String).toLocal(),
     photoId: json['photo_id'] as String?,
+    wanted: json['wanted'] == true,
+    favourite: json['favourite'] == true,
+    source: json['source'] as String?,
   );
 }
 
@@ -48,18 +78,45 @@ class MyCollection {
   final DateTime startedAt;
   final List<CollectedThing> things;
 
+  /// A set to complete, e.g. 50 coins. Optional.
+  final int? goal;
+
   const MyCollection({
     required this.typeId,
     required this.name,
     required this.startedAt,
     this.things = const [],
+    this.goal,
   });
+
+  List<CollectedThing> get owned => [
+    for (final t in things)
+      if (!t.wanted) t,
+  ];
+
+  List<CollectedThing> get wishlist => [
+    for (final t in things)
+      if (t.wanted) t,
+  ];
+
+  MyCollection copyWith({
+    List<CollectedThing>? things,
+    int? goal,
+    bool clearGoal = false,
+  }) => MyCollection(
+    typeId: typeId,
+    name: name,
+    startedAt: startedAt,
+    things: things ?? this.things,
+    goal: clearGoal ? null : (goal ?? this.goal),
+  );
 
   Map<String, dynamic> toJson() => {
     'type_id': typeId,
     'name': name,
     'started_at': startedAt.toUtc().toIso8601String(),
     'things': [for (final t in things) t.toJson()],
+    if (goal != null) 'goal': goal,
   };
 
   factory MyCollection.fromJson(Map<String, dynamic> json) => MyCollection(
@@ -70,6 +127,7 @@ class MyCollection {
       for (final t in json['things'] as List<dynamic>? ?? [])
         CollectedThing.fromJson(t as Map<String, dynamic>),
     ],
+    goal: (json['goal'] as num?)?.toInt(),
   );
 }
 
@@ -135,6 +193,8 @@ abstract final class MyCollectionsService {
     required String name,
     String? note,
     Uint8List? photo,
+    bool wanted = false,
+    String? source,
     DateTime? now,
   }) async {
     final all = await load();
@@ -159,18 +219,16 @@ abstract final class MyCollectionsService {
       note: note?.trim(),
       addedAt: at,
       photoId: photoId,
+      wanted: wanted,
+      source: source,
     );
     await _save({
       ...all,
-      typeId: MyCollection(
-        typeId: typeId,
-        name: collection.name,
-        startedAt: collection.startedAt,
-        things: [...collection.things, thing],
-      ),
+      typeId: collection.copyWith(things: [...collection.things, thing]),
     });
+    if (wanted) return;
     await ProgressService.recordActivity(at, 'collect:$typeId');
-    if (collection.things.isEmpty) {
+    if (collection.owned.isEmpty) {
       await ProgressService.recordCollectionMilestone(
         'collect_first_$typeId',
         'Your collection has begun',
@@ -186,10 +244,7 @@ abstract final class MyCollectionsService {
     final thing = collection.things.where((t) => t.id == thingId).firstOrNull;
     await _save({
       ...all,
-      typeId: MyCollection(
-        typeId: typeId,
-        name: collection.name,
-        startedAt: collection.startedAt,
+      typeId: collection.copyWith(
         things: [
           for (final t in collection.things)
             if (t.id != thingId) t,
@@ -200,6 +255,68 @@ abstract final class MyCollectionsService {
       _photoCache.remove(photo);
       await (await SharedPreferences.getInstance()).remove(
         '$_photoPrefix$photo',
+      );
+    }
+  }
+
+  static Future<void> _change(
+    String typeId,
+    String thingId,
+    CollectedThing Function(CollectedThing) change,
+  ) async {
+    final all = await load();
+    final collection = all[typeId];
+    if (collection == null) return;
+    await _save({
+      ...all,
+      typeId: collection.copyWith(
+        things: [
+          for (final t in collection.things) t.id == thingId ? change(t) : t,
+        ],
+      ),
+    });
+  }
+
+  static Future<void> toggleFavourite(String typeId, String thingId) =>
+      _change(typeId, thingId, (t) => t.copyWith(favourite: !t.favourite));
+
+  /// A wishlist piece arrived: it joins the collection today.
+  static Future<void> gotIt(
+    String typeId,
+    String thingId, {
+    DateTime? now,
+  }) async {
+    final at = (now ?? DateTime.now()).toLocal();
+    await _change(
+      typeId,
+      thingId,
+      (t) => t.copyWith(wanted: false, addedAt: at),
+    );
+    await ProgressService.recordActivity(at, 'collect:$typeId');
+    await ProgressService.recordCollectionMilestone(
+      'collect_wish_$thingId',
+      'Off the wishlist!',
+      'A piece you wanted is now in your collection.',
+    );
+  }
+
+  /// A set to complete; null clears it.
+  static Future<void> setGoal(String typeId, int? goal) async {
+    final all = await load();
+    final collection = all[typeId];
+    if (collection == null) return;
+    await _save({
+      ...all,
+      typeId: goal == null || goal <= 0
+          ? collection.copyWith(clearGoal: true)
+          : collection.copyWith(goal: goal),
+    });
+    final c = (await load())[typeId]!;
+    if (c.goal != null && c.owned.length >= c.goal!) {
+      await ProgressService.recordCollectionMilestone(
+        'collect_goal_${typeId}_${c.goal}',
+        'Set complete!',
+        'You reached your goal of ${c.goal} ${c.name.toLowerCase()}.',
       );
     }
   }
