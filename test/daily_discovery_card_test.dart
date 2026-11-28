@@ -39,7 +39,7 @@ void main() {
       expect(find.text('Add a new fruit to your collection.'), findsOneWidget);
       expect(find.text('Fruit'), findsOneWidget);
       expect(find.text('Mangifera indica'), findsNothing);
-      expect(find.text('Explore this fruit →'), findsOneWidget);
+      expect(find.text('See this fruit →'), findsOneWidget);
       expect(find.text('Save for later'), findsOneWidget);
       expect(find.text('Surprise me'), findsOneWidget);
       expect(

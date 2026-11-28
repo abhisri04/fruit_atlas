@@ -62,6 +62,9 @@ class GamificationSummary {
   final int nextLevelXp;
   final int streakDays;
   final int longestStreakDays;
+
+  /// Days with any activity, ever.
+  final int activeDays;
   final int achievementCount;
   final int experienceCount;
   final List<CategoryProgressSummary> categories;
@@ -75,6 +78,7 @@ class GamificationSummary {
     required this.nextLevelXp,
     required this.streakDays,
     this.longestStreakDays = 0,
+    this.activeDays = 0,
     required this.achievementCount,
     required this.experienceCount,
     required this.categories,

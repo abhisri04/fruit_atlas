@@ -351,17 +351,6 @@ class _MyLifePageState extends State<MyLifePage> {
       ),
       Card(
         child: ListTile(
-          key: const ValueKey('my-life-travel-summary'),
-          leading: const Icon(Icons.travel_explore),
-          title: const Text('Travel & Exploration'),
-          subtitle: Text(
-            '$statesVisited States & UTs visited\n$statesWanted want to visit\n$indiaExplored India experiences explored',
-          ),
-        ),
-      ),
-      const SizedBox(height: 20),
-      Card(
-        child: ListTile(
           key: const ValueKey('my-life-share-studio-entry'),
           leading: const Icon(Icons.auto_awesome_outlined),
           title: const Text('Share Studio'),
@@ -390,6 +379,18 @@ class _MyLifePageState extends State<MyLifePage> {
           },
         ),
       ),
+      const SizedBox(height: 12),
+      const Card(
+        key: ValueKey('my-life-friends-soon'),
+        child: ListTile(
+          leading: Icon(Icons.people_outline),
+          title: Text('Friends are coming'),
+          subtitle: Text(
+            'Soon you can cheer each other on, plan trips together and share '
+            'challenges. Your record stays private until you choose.',
+          ),
+        ),
+      ),
       const SizedBox(height: 20),
       const Text(
         'Weekly progress',
@@ -414,22 +415,30 @@ class _MyLifePageState extends State<MyLifePage> {
         style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
       ),
       const SizedBox(height: 12),
-      ProgressCard(
-        title: 'Taste All Fruits of India',
-        summary: '$fruitCount / $fruitTotal fruits tried',
-        progress: ratio(fruitCount, fruitTotal),
-      ),
-      ProgressCard(
-        title: 'Fruit varieties',
-        summary: '$varietyCount / $varietyTotal varieties tried',
-        progress: ratio(varietyCount, varietyTotal),
-      ),
-      ProgressCard(
-        title: 'Visit 12 Jyotirlingas',
-        summary: '$jyotirlingaCount / $jyotirlingaTotal visited',
-        progress: ratio(jyotirlingaCount, jyotirlingaTotal),
-      ),
-      for (final progress in checklistProgress)
+      if (fruitCount == 0 &&
+          varietyCount == 0 &&
+          jyotirlingaCount == 0 &&
+          checklistProgress.every((progress) => progress.count == 0))
+        const Text(
+          'Collections you start will show here.',
+          key: ValueKey('my-life-no-collections'),
+          style: TextStyle(color: AppColors.muted),
+        ),
+      if (fruitCount > 0 || varietyCount > 0)
+        ProgressCard(
+          title: 'Fruits of India',
+          summary:
+              '$fruitCount of $fruitTotal fruits tried'
+              '${varietyCount > 0 ? ' · $varietyCount varieties' : ''}',
+          progress: ratio(fruitCount, fruitTotal),
+        ),
+      if (jyotirlingaCount > 0)
+        ProgressCard(
+          title: '12 Jyotirlingas',
+          summary: '$jyotirlingaCount of $jyotirlingaTotal visited',
+          progress: ratio(jyotirlingaCount, jyotirlingaTotal),
+        ),
+      for (final progress in checklistProgress.where((p) => p.count > 0))
         ProgressCard(
           title: progress.challenge.name,
           summary:
@@ -486,55 +495,24 @@ class _MyLifePageState extends State<MyLifePage> {
               accent: AppColors.blue,
             ),
             _MetricCard(
-              label: 'Challenges started',
+              label: 'Collections started',
               value: '$started',
               icon: Icons.shield_outlined,
               accent: AppColors.blue,
             ),
             _MetricCard(
-              label: 'Challenges completed',
+              label: 'Collections completed',
               value: '$completed',
               icon: Icons.verified_outlined,
             ),
             _MetricCard(
-              label: 'Fruits tried',
-              value: '$fruitCount',
-              icon: Icons.eco_outlined,
-              accent: AppColors.purple,
-            ),
-            _MetricCard(
-              label: 'Varieties tried',
-              value: '$varietyCount',
-              icon: Icons.local_florist_outlined,
-              accent: AppColors.orange,
-            ),
-            _MetricCard(
-              label: 'Jyotirlingas visited',
-              value: '$jyotirlingaCount',
-              icon: Icons.temple_hindu_outlined,
-              accent: AppColors.blue,
-            ),
-            for (final progress in checklistProgress.where(
-              (progress) =>
-                  progress.challenge.itemType != 'indian_dish' &&
-                  progress.challenge.itemType != 'indian_drink',
-            ))
-              _MetricCard(
-                label:
-                    progress.challenge.metricLabel ??
-                    '${progress.challenge.compactTitle} ${progress.challenge.progressVerb}',
-                value: '${progress.count}',
-                icon: categoryIcon(progress.challenge.categoryId),
-                accent: AppColors.categoryAccent(progress.challenge.categoryId),
-              ),
-            _MetricCard(
-              label: 'Experiences completed',
+              label: 'Things done in India',
               value: '${gamification?.experienceCount ?? 0}',
               icon: Icons.explore_outlined,
               accent: AppColors.primary,
             ),
             _MetricCard(
-              label: 'Districts explored',
+              label: 'Places visited',
               value: '$districtCount',
               icon: Icons.location_city_outlined,
               accent: AppColors.blue,

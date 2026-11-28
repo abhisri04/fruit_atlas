@@ -662,6 +662,10 @@ class ProgressService {
         .toSet();
   }
 
+  /// Days with any activity, ever. Only grows, so it never feels like a loss.
+  static Future<int> getActiveDayCount() async =>
+      (await _getCompletedIds(_activityDatesKey)).length;
+
   static Future<({int current, int longest})> getStreak({DateTime? now}) async {
     final dates = (await _getCompletedIds(_activityDatesKey))
         .map(DateTime.tryParse)
@@ -711,6 +715,7 @@ class ProgressService {
         'completed_scent_note_ids' => 'note',
         'completed_attar_ids' => 'attar',
         'completed_garden_plant_ids' => 'plant',
+        'completed_collection_type_ids' => 'collecting',
         'completed_garden_skill_ids' => 'gardenskill',
         'completed_garden_visit_ids' => 'gardenvisit',
         _ => null,

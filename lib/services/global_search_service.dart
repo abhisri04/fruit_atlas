@@ -223,6 +223,7 @@ class GlobalSearchService {
           }
         }
       }
+      if (challenge.status != 'active') continue;
       results.add(
         SearchResult(
           id: 'challenge:${challenge.id}',

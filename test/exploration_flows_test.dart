@@ -120,7 +120,7 @@ void main() {
       ),
       findsNothing,
     );
-    expect(find.text('Challenges started'), findsOneWidget);
+    expect(find.text('Collections started'), findsOneWidget);
     expect(find.text('2'), findsWidgets);
     await tester.scrollUntilVisible(
       find.text('1 of 12 visited'),

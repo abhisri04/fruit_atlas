@@ -106,17 +106,17 @@ class DailyDiscoveryCard extends StatelessWidget {
   };
 
   String get primaryAction => switch (discovery!.type) {
-    DailyDiscoveryType.fruit => 'Explore this fruit →',
-    DailyDiscoveryType.variety => 'Explore this variety →',
+    DailyDiscoveryType.fruit => 'See this fruit →',
+    DailyDiscoveryType.variety => 'See this variety →',
     DailyDiscoveryType.yogaPose => 'Try this pose →',
-    DailyDiscoveryType.indianDish => 'Explore this dish →',
-    DailyDiscoveryType.indianDrink => 'Explore this drink →',
-    DailyDiscoveryType.indiaLocation => 'Explore this place →',
-    DailyDiscoveryType.jyotirlinga => 'Explore this Jyotirlinga →',
-    DailyDiscoveryType.book => 'Explore this book →',
+    DailyDiscoveryType.indianDish => 'See this dish →',
+    DailyDiscoveryType.indianDrink => 'See this drink →',
+    DailyDiscoveryType.indiaLocation => 'See this place →',
+    DailyDiscoveryType.jyotirlinga => 'See this Jyotirlinga →',
+    DailyDiscoveryType.book => 'See this book →',
     DailyDiscoveryType.hobby => 'Try this hobby →',
     DailyDiscoveryType.game => 'Play this game →',
-    DailyDiscoveryType.scent => 'Explore this scent →',
+    DailyDiscoveryType.scent => 'See this scent →',
     DailyDiscoveryType.garden => 'Start growing →',
   };
 

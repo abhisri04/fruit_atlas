@@ -30,7 +30,6 @@ class JourneyCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final progress = total <= 0 ? 0.0 : completed / total;
     final accent = AppColors.categoryAccent(challenge.categoryId);
     Achievement? nextMilestone;
     for (final achievement in Achievement.forChallenge(challenge.id)) {
@@ -39,6 +38,10 @@ class JourneyCard extends StatelessWidget {
         break;
       }
     }
+    // Show the next step, not the whole mountain: "3 of 10 to your next
+    // badge" reads better than "3 of 1000".
+    final goal = nextMilestone?.threshold ?? total;
+    final progress = goal <= 0 ? 0.0 : (completed / goal).clamp(0.0, 1.0);
     return SizedBox(
       width:
           width ?? (MediaQuery.sizeOf(context).width * .78).clamp(232.0, 520.0),
@@ -83,16 +86,24 @@ class JourneyCard extends StatelessWidget {
                       const SizedBox(height: 7),
                       Row(
                         children: [
-                          AnimatedCount(
-                            value: completed,
-                            suffix: ' of $total ${challenge.progressVerb}',
-                            style: const TextStyle(
-                              color: AppColors.muted,
-                              fontSize: 11,
-                              fontWeight: FontWeight.w600,
+                          Expanded(
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              alignment: Alignment.centerLeft,
+                              child: AnimatedCount(
+                                value: completed,
+                                suffix: nextMilestone == null
+                                    ? ' of $total ${challenge.progressVerb}'
+                                    : ' of $goal to next badge',
+                                style: const TextStyle(
+                                  color: AppColors.muted,
+                                  fontSize: 11,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
                             ),
                           ),
-                          const Spacer(),
+                          const SizedBox(width: 6),
                           Text(
                             '${(progress * 100).round()}%',
                             style: TextStyle(
@@ -106,7 +117,7 @@ class JourneyCard extends StatelessWidget {
                       if (nextMilestone != null) ...[
                         const SizedBox(height: 5),
                         Text(
-                          'Next milestone · ${nextMilestone.threshold} ${challenge.progressVerb}',
+                          '$completed ${challenge.progressVerb} · $total in all',
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: const TextStyle(

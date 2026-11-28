@@ -196,25 +196,36 @@ class _GamificationHeaderState extends State<GamificationHeader>
               const SizedBox(height: 18),
               Row(
                 children: [
-                  _HeaderStat(
-                    icon: Icons.local_fire_department,
-                    value: summary.streakDays,
-                    label: 'day streak',
-                    accent: AppColors.rose,
-                    emphasize: true,
-                  ),
+                  if (summary.streakDays >= 2)
+                    _HeaderStat(
+                      icon: Icons.local_fire_department,
+                      value: summary.streakDays,
+                      label: 'days in a row',
+                      accent: AppColors.rose,
+                      emphasize: true,
+                    )
+                  else
+                    _HeaderStat(
+                      icon: Icons.wb_sunny_outlined,
+                      value: summary.activeDays,
+                      label: summary.activeDays == 1
+                          ? 'day active'
+                          : 'days active',
+                      accent: AppColors.rose,
+                      emphasize: true,
+                    ),
                   const SizedBox(width: 8),
                   _HeaderStat(
                     icon: Icons.emoji_events,
                     value: summary.achievementCount,
-                    label: 'achievements',
+                    label: 'badges',
                     accent: AppColors.gold,
                   ),
                   const SizedBox(width: 8),
                   _HeaderStat(
                     icon: Icons.auto_awesome,
                     value: summary.experienceCount,
-                    label: 'experiences',
+                    label: 'things tried',
                     accent: Colors.white,
                   ),
                 ],

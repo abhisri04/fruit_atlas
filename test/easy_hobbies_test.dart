@@ -133,8 +133,13 @@ void main() {
       progressKey: [first],
     });
     final pool = await DailyDiscoveryService().buildEligiblePool();
+    // Collecting ideas are hobbies too; count the easy hobbies only.
     final hobbies = pool
-        .where((item) => item.type == DailyDiscoveryType.hobby)
+        .where(
+          (item) =>
+              item.type == DailyDiscoveryType.hobby &&
+              item.categoryId == 'life_experiences',
+        )
         .toList();
     expect(hobbies, hasLength(149));
     expect(hobbies.map((item) => item.canonicalId), isNot(contains(first)));

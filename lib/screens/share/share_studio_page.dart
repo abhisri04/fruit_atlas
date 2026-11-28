@@ -1,3 +1,8 @@
+import '../../services/india_map_repository.dart';
+import '../../services/state_travel_service.dart';
+import '../garden/my_garden_share_page.dart';
+import '../travel/trips_page.dart';
+import 'india_passport_share_page.dart';
 import '../../widgets/dish_artwork.dart';
 
 import 'package:flutter/material.dart';
@@ -276,6 +281,54 @@ class _ShareStudioPageState extends State<ShareStudioPage> {
           onPressed: value.previewItems.isEmpty ? null : () => _share(value),
           icon: const Icon(Icons.ios_share_outlined),
           label: const Text('Share my journey'),
+        ),
+        const SizedBox(height: 28),
+        _SectionLabel(label: 'More cards to share'),
+        const SizedBox(height: 8),
+        Wrap(
+          spacing: 8,
+          runSpacing: 8,
+          children: [
+            ActionChip(
+              key: const ValueKey('share-more-passport'),
+              avatar: const Icon(Icons.map_outlined, size: 18),
+              label: const Text('India Passport'),
+              onPressed: () async {
+                final travel = StateTravelService();
+                await travel.load();
+                final regions = await IndiaMapRepository.load();
+                if (!mounted) return;
+                await Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => IndiaPassportSharePage(
+                      travel: travel,
+                      regions: regions,
+                    ),
+                  ),
+                );
+                travel.dispose();
+              },
+            ),
+            ActionChip(
+              key: const ValueKey('share-more-trips'),
+              avatar: const Icon(Icons.luggage_outlined, size: 18),
+              label: const Text('A trip'),
+              onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const TripsPage()),
+              ),
+            ),
+            ActionChip(
+              key: const ValueKey('share-more-garden'),
+              avatar: const Icon(Icons.yard_outlined, size: 18),
+              label: const Text('My Garden'),
+              onPressed: () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const MyGardenSharePage()),
+              ),
+            ),
+          ],
         ),
       ],
     );

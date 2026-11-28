@@ -17,7 +17,7 @@ import 'package:fruit_atlas/screens/travel/india_passport_page.dart';
 
 void main() {
   testWidgets('Render local phone previews', (tester) async {
-    SharedPreferences.setMockInitialValues({});
+    SharedPreferences.setMockInitialValues({'welcome_done_v1': true});
     tester.binding.defaultBinaryMessenger.setMockMessageHandler(
       'flutter/assets',
       (message) async {

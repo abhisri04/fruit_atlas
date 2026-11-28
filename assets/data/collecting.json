@@ -1,0 +1,726 @@
+{
+  "challenge_id": "start_a_collection",
+  "version": 1,
+  "items": [
+    {
+      "id": "collect_sneakers",
+      "challenge_id": "start_a_collection",
+      "name": "Collect sneakers",
+      "category": "Sneakers",
+      "filter_group": "Style",
+      "difficulty": "beginner",
+      "about": "Shoes as design, culture and memory. Every pair tells you where you were.",
+      "howToSteps": [
+        "List the pairs you already own.",
+        "Pick a theme: a colour, a decade, or a sport.",
+        "Photograph each pair and note where it came from.",
+        "Wear them: a collection can be lived in."
+      ],
+      "tags": [
+        "collecting",
+        "style"
+      ],
+      "keywords": [
+        "sneakers",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with pairs you already love and wear",
+        "Where to find": "Your own wardrobe, friends, sneaker meet-ups and resale groups",
+        "Care": "Keep them out of direct sun; stuff with paper to hold the shape",
+        "Display idea": "A clear shelf or boxes with a photo of the pair on the front"
+      }
+    },
+    {
+      "id": "collect_watches",
+      "challenge_id": "start_a_collection",
+      "name": "Collect watches",
+      "category": "Watches",
+      "filter_group": "Style",
+      "difficulty": "beginner",
+      "about": "From your first school watch to a family heirloom, watches carry time in two ways.",
+      "howToSteps": [
+        "Gather the watches you and your family already have.",
+        "Ask a repairer about any old ones.",
+        "Note who wore each one and when.",
+        "Choose a theme: hand-wound, Indian-made, or one per decade."
+      ],
+      "tags": [
+        "collecting",
+        "style"
+      ],
+      "keywords": [
+        "watches",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with watches already in the family",
+        "Where to find": "Family drawers, local watch repairers, vintage fairs",
+        "Care": "Wind or service mechanical watches; keep away from magnets and damp",
+        "Display idea": "A watch roll or a tray by the window"
+      }
+    },
+    {
+      "id": "collect_perfumes",
+      "challenge_id": "start_a_collection",
+      "name": "Collect perfumes",
+      "category": "Perfumes",
+      "filter_group": "Style",
+      "difficulty": "beginner",
+      "about": "Scents you love, samples and attars. Smelling is half the fun of collecting them.",
+      "howToSteps": [
+        "Put the perfumes you own on your shelf in Scent & Perfume.",
+        "Learn the nine scent families.",
+        "Try samples before full bottles.",
+        "Log what you wear and see your favourites."
+      ],
+      "tags": [
+        "collecting",
+        "style"
+      ],
+      "keywords": [
+        "perfumes",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with what's already on your shelf",
+        "Where to find": "Samples, decants, attar shops in old markets",
+        "Care": "Keep bottles cool and out of sunlight; close caps tightly",
+        "Display idea": "A shelf away from the window, grouped by scent family"
+      }
+    },
+    {
+      "id": "collect_coins",
+      "challenge_id": "start_a_collection",
+      "name": "Collect coins",
+      "category": "Coins",
+      "filter_group": "Coins & paper",
+      "difficulty": "beginner",
+      "about": "India's coins change with every series. Your change jar may hold history.",
+      "howToSteps": [
+        "Sort today's change by year and design.",
+        "Look for commemorative coins.",
+        "Ask elders for old coins they kept.",
+        "Note the year, mint mark and where you found it."
+      ],
+      "tags": [
+        "collecting",
+        "coins_paper"
+      ],
+      "keywords": [
+        "coins",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with the coins in your wallet and change jar",
+        "Where to find": "Change jars, family boxes, numismatic fairs and clubs",
+        "Care": "Hold by the edges; store in coin flips or albums, never clean them",
+        "Display idea": "A coin album page per decade or per series"
+      }
+    },
+    {
+      "id": "collect_banknotes",
+      "challenge_id": "start_a_collection",
+      "name": "Collect banknotes",
+      "category": "Banknotes",
+      "filter_group": "Coins & paper",
+      "difficulty": "beginner",
+      "about": "Notes show a country's art, languages and changes over time.",
+      "howToSteps": [
+        "Gather leftover foreign notes from trips.",
+        "Find older Indian series at home.",
+        "Sleeve each note flat.",
+        "Note where and when each one came to you."
+      ],
+      "tags": [
+        "collecting",
+        "coins_paper"
+      ],
+      "keywords": [
+        "banknotes",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with notes from family drawers and trips abroad",
+        "Where to find": "Family keepsakes, travel leftovers, collector fairs",
+        "Care": "Keep flat in sleeves; don't fold, iron or tape them",
+        "Display idea": "Album pages grouped by country or series"
+      }
+    },
+    {
+      "id": "collect_stamps",
+      "challenge_id": "start_a_collection",
+      "name": "Collect stamps",
+      "category": "Stamps",
+      "filter_group": "Coins & paper",
+      "difficulty": "beginner",
+      "about": "Tiny artworks with a stamp of history. India Post issues beautiful commemoratives.",
+      "howToSteps": [
+        "Save stamps from mail you receive.",
+        "Visit a post office philately counter.",
+        "Pick a theme so it stays manageable.",
+        "Mount them in a stockbook."
+      ],
+      "tags": [
+        "collecting",
+        "coins_paper"
+      ],
+      "keywords": [
+        "stamps",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with stamps from letters and parcels",
+        "Where to find": "Old letters, India Post philately counters, stamp clubs",
+        "Care": "Use tongs; soak off paper gently; store in a stockbook",
+        "Display idea": "A stockbook page per theme: birds, trains, festivals"
+      }
+    },
+    {
+      "id": "collect_postcards",
+      "challenge_id": "start_a_collection",
+      "name": "Collect postcards",
+      "category": "Postcards",
+      "filter_group": "Coins & paper",
+      "difficulty": "beginner",
+      "about": "A postcard from every place you go, and maybe one to send back home.",
+      "howToSteps": [
+        "Buy one postcard per new place.",
+        "Write the date and a memory on the back.",
+        "Send one to yourself or a friend.",
+        "Sort them by state as your passport grows."
+      ],
+      "tags": [
+        "collecting",
+        "coins_paper"
+      ],
+      "keywords": [
+        "postcards",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with a postcard from your next trip",
+        "Where to find": "Museum shops, post offices, local markets, trips",
+        "Care": "Keep in an album or box away from damp",
+        "Display idea": "A wall grid or a travel map with postcards around it"
+      }
+    },
+    {
+      "id": "collect_fridge_magnets",
+      "challenge_id": "start_a_collection",
+      "name": "Collect fridge magnets",
+      "category": "Fridge magnets",
+      "filter_group": "Travel souvenirs",
+      "difficulty": "beginner",
+      "about": "The easiest travel collection: small, cheap to carry and joyful on the fridge.",
+      "howToSteps": [
+        "Pick one magnet per place you visit.",
+        "Prefer local crafts over generic prints.",
+        "Note the trip and date.",
+        "Arrange them by region."
+      ],
+      "tags": [
+        "collecting",
+        "travel_souvenirs"
+      ],
+      "keywords": [
+        "fridge magnets",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with a magnet from your next trip",
+        "Where to find": "Souvenir stalls at forts, beaches, hill stations and airports",
+        "Care": "Wipe gently; keep away from screens and cards",
+        "Display idea": "A fridge door, or a metal board arranged like a map"
+      }
+    },
+    {
+      "id": "collect_keychains",
+      "challenge_id": "start_a_collection",
+      "name": "Collect keychains",
+      "category": "Keychains",
+      "filter_group": "Travel souvenirs",
+      "difficulty": "beginner",
+      "about": "Small, personal and from everywhere you've been.",
+      "howToSteps": [
+        "Gather the ones lying around at home.",
+        "Add one from each trip or event.",
+        "Note who gave each one.",
+        "Hang them where you see them daily."
+      ],
+      "tags": [
+        "collecting",
+        "travel_souvenirs"
+      ],
+      "keywords": [
+        "keychains",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with the keychains you already have",
+        "Where to find": "Souvenir shops, events, friends' trips",
+        "Care": "Keep metal ones dry to avoid rust",
+        "Display idea": "Hooks on a board or a jar on your desk"
+      }
+    },
+    {
+      "id": "collect_crafts_from_every_state",
+      "challenge_id": "start_a_collection",
+      "name": "Collect crafts from every state",
+      "category": "Crafts from every state",
+      "filter_group": "Travel souvenirs",
+      "difficulty": "beginner",
+      "about": "A small handmade piece from each state: Channapatna toys, Madhubani, Dhokra, Pashmina and more.",
+      "howToSteps": [
+        "Find your own state's signature craft.",
+        "Buy directly from artisans when you travel.",
+        "Note the craft name, maker and village.",
+        "Aim for one from every state you stamp."
+      ],
+      "tags": [
+        "collecting",
+        "travel_souvenirs"
+      ],
+      "keywords": [
+        "crafts from every state",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with something handmade from your own state",
+        "Where to find": "State emporiums, crafts melas, artisans on your travels",
+        "Care": "Keep textiles folded with neem leaves; dust wooden pieces",
+        "Display idea": "A shelf that becomes a map of India in crafts"
+      }
+    },
+    {
+      "id": "collect_tickets_passes",
+      "challenge_id": "start_a_collection",
+      "name": "Collect tickets & passes",
+      "category": "Tickets & passes",
+      "filter_group": "Travel souvenirs",
+      "difficulty": "beginner",
+      "about": "Train tickets, museum passes, gig wristbands: the paper trail of a life well lived.",
+      "howToSteps": [
+        "Keep every ticket for a month.",
+        "Photograph thermal ones before they fade.",
+        "Stick them in a notebook with a memory.",
+        "Look back at the end of the year."
+      ],
+      "tags": [
+        "collecting",
+        "travel_souvenirs"
+      ],
+      "keywords": [
+        "tickets & passes",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start by keeping the next ticket you get",
+        "Where to find": "Trains, concerts, museums, matches, films",
+        "Care": "Keep thermal paper out of light; photocopy or photograph faded ones",
+        "Display idea": "A scrapbook with a line about each day"
+      }
+    },
+    {
+      "id": "collect_vinyl_records",
+      "challenge_id": "start_a_collection",
+      "name": "Collect vinyl records",
+      "category": "Vinyl records",
+      "filter_group": "Music & stories",
+      "difficulty": "beginner",
+      "about": "Music you can hold. Old Bollywood and classical pressings turn up in surprising places.",
+      "howToSteps": [
+        "Ask family about old records.",
+        "Find a working turntable.",
+        "Collect what you'll actually listen to.",
+        "Clean records gently before playing."
+      ],
+      "tags": [
+        "collecting",
+        "music_stories"
+      ],
+      "keywords": [
+        "vinyl records",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with albums you'd listen to again and again",
+        "Where to find": "Family collections, old record shops, record fairs",
+        "Care": "Store upright, away from heat; hold by the edges",
+        "Display idea": "Display the cover of what you're playing now"
+      }
+    },
+    {
+      "id": "collect_comics",
+      "challenge_id": "start_a_collection",
+      "name": "Collect comics",
+      "category": "Comics",
+      "filter_group": "Music & stories",
+      "difficulty": "beginner",
+      "about": "From Amar Chitra Katha and Tinkle to graphic novels.",
+      "howToSteps": [
+        "List the comics you remember loving.",
+        "Find them in second-hand shops.",
+        "Pick a series to complete.",
+        "Read them: that's the point."
+      ],
+      "tags": [
+        "collecting",
+        "music_stories"
+      ],
+      "keywords": [
+        "comics",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with the comics you grew up reading",
+        "Where to find": "Old bookshops, comic cons, family shelves",
+        "Care": "Bag and board them; keep away from sun and damp",
+        "Display idea": "A shelf with favourite covers facing out"
+      }
+    },
+    {
+      "id": "collect_film_posters",
+      "challenge_id": "start_a_collection",
+      "name": "Collect film posters",
+      "category": "Film posters",
+      "filter_group": "Music & stories",
+      "difficulty": "beginner",
+      "about": "Hand-painted and printed posters are art from Indian cinema history.",
+      "howToSteps": [
+        "Choose a theme: a star, a decade, or a genre.",
+        "Look for reprints first.",
+        "Learn to spot hand-painted originals.",
+        "Frame a favourite."
+      ],
+      "tags": [
+        "collecting",
+        "music_stories"
+      ],
+      "keywords": [
+        "film posters",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with posters of films you love",
+        "Where to find": "Poster shops, film festivals, old cinema halls",
+        "Care": "Store flat or rolled in a tube; frame behind UV glass",
+        "Display idea": "Rotate one framed poster on a wall"
+      }
+    },
+    {
+      "id": "collect_signed_books",
+      "challenge_id": "start_a_collection",
+      "name": "Collect signed books",
+      "category": "Signed books",
+      "filter_group": "Music & stories",
+      "difficulty": "beginner",
+      "about": "Books signed by the authors you've met at festivals and readings.",
+      "howToSteps": [
+        "Find an author event near you.",
+        "Bring a book you love to be signed.",
+        "Note the date and what they said.",
+        "Keep a photo of the moment."
+      ],
+      "tags": [
+        "collecting",
+        "music_stories"
+      ],
+      "keywords": [
+        "signed books",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with your next book festival or reading",
+        "Where to find": "Literature festivals, book launches, author readings",
+        "Care": "Keep spines out of sun; don't stack heavy books on top",
+        "Display idea": "A special shelf for signed copies"
+      }
+    },
+    {
+      "id": "collect_rocks_minerals",
+      "challenge_id": "start_a_collection",
+      "name": "Collect rocks & minerals",
+      "category": "Rocks & minerals",
+      "filter_group": "Nature",
+      "difficulty": "beginner",
+      "about": "India's landscapes in your hand: agate, quartz, basalt and more.",
+      "howToSteps": [
+        "Pick up a stone that catches your eye.",
+        "Look up what it might be.",
+        "Label where and when you found it.",
+        "Never take from parks or protected areas."
+      ],
+      "tags": [
+        "collecting",
+        "nature"
+      ],
+      "keywords": [
+        "rocks & minerals",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with interesting stones from your walks",
+        "Where to find": "Riverbeds, hill walks, geology museums, mineral fairs",
+        "Care": "Never collect in protected areas; label each stone",
+        "Display idea": "Egg trays or a shadow box with labels"
+      }
+    },
+    {
+      "id": "collect_seashells",
+      "challenge_id": "start_a_collection",
+      "name": "Collect seashells",
+      "category": "Seashells",
+      "filter_group": "Nature",
+      "difficulty": "beginner",
+      "about": "Shells from the beaches you've walked. Take only empty shells, and only a few.",
+      "howToSteps": [
+        "Take only empty shells.",
+        "Take one or two, not handfuls.",
+        "Label the beach and date.",
+        "Check local rules first."
+      ],
+      "tags": [
+        "collecting",
+        "nature"
+      ],
+      "keywords": [
+        "seashells",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with one shell from your next beach",
+        "Where to find": "Beach walks (only empty shells, where allowed)",
+        "Care": "Rinse in fresh water and dry; never take living shells",
+        "Display idea": "A jar per beach with a little label"
+      }
+    },
+    {
+      "id": "collect_heirloom_seeds",
+      "challenge_id": "start_a_collection",
+      "name": "Collect heirloom seeds",
+      "category": "Heirloom seeds",
+      "filter_group": "Nature",
+      "difficulty": "beginner",
+      "about": "Old local varieties of vegetables and flowers, saved and shared.",
+      "howToSteps": [
+        "Save seeds from a tomato or chilli you loved.",
+        "Dry them on paper.",
+        "Label variety, date and source.",
+        "Share some with a friend."
+      ],
+      "tags": [
+        "collecting",
+        "nature"
+      ],
+      "keywords": [
+        "heirloom seeds",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start by saving seeds from what you grow",
+        "Where to find": "Your own garden, seed festivals, seed-saving groups",
+        "Care": "Dry fully; store in paper envelopes in a cool, dark place",
+        "Display idea": "Labelled envelopes in a tin"
+      }
+    },
+    {
+      "id": "collect_die_cast_model_cars",
+      "challenge_id": "start_a_collection",
+      "name": "Collect die-cast model cars",
+      "category": "Die-cast model cars",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Small cars, big memories. Plenty of people still have their childhood ones.",
+      "howToSteps": [
+        "Find your old cars.",
+        "Pick a theme: Indian cars, race cars, or one colour.",
+        "Note where each one came from.",
+        "Display your favourite five."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "die-cast model cars",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with the cars from your childhood",
+        "Where to find": "Toy shops, family boxes, collector meet-ups",
+        "Care": "Dust gently; keep in cases away from sun",
+        "Display idea": "A wall shelf with a little road"
+      }
+    },
+    {
+      "id": "collect_trading_cards",
+      "challenge_id": "start_a_collection",
+      "name": "Collect trading cards",
+      "category": "Trading cards",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Cricket, football and game cards, swapped and treasured.",
+      "howToSteps": [
+        "Choose a set or a team.",
+        "Swap duplicates with friends.",
+        "Sleeve your favourites.",
+        "Track which ones you're missing."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "trading cards",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with cards you have or can swap with friends",
+        "Where to find": "Friends, card shops, swap meets",
+        "Care": "Use sleeves and a binder; keep flat and dry",
+        "Display idea": "A binder page per team or set"
+      }
+    },
+    {
+      "id": "collect_board_games",
+      "challenge_id": "start_a_collection",
+      "name": "Collect board games",
+      "category": "Board games",
+      "filter_group": "Toys & games",
+      "difficulty": "beginner",
+      "about": "Games you play with people you love. A shelf of them is a shelf of evenings.",
+      "howToSteps": [
+        "Play a few at a board game café.",
+        "Get the one everyone enjoyed.",
+        "Note who you played with.",
+        "Add a new one for special occasions."
+      ],
+      "tags": [
+        "collecting",
+        "toys_games"
+      ],
+      "keywords": [
+        "board games",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with one game your friends will play",
+        "Where to find": "Game cafés, gifts, board game groups",
+        "Care": "Keep boxes flat and sealed; bag the small pieces",
+        "Display idea": "A shelf with the most-played games at eye level"
+      }
+    },
+    {
+      "id": "collect_fountain_pens",
+      "challenge_id": "start_a_collection",
+      "name": "Collect fountain pens",
+      "category": "Fountain pens",
+      "filter_group": "Writing & craft",
+      "difficulty": "beginner",
+      "about": "Pens that make writing slower and nicer. India has its own pen makers too.",
+      "howToSteps": [
+        "Buy or inherit one pen.",
+        "Learn to fill and clean it.",
+        "Try a few ink colours.",
+        "Write a letter with it."
+      ],
+      "tags": [
+        "collecting",
+        "writing_craft"
+      ],
+      "keywords": [
+        "fountain pens",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with one pen and a bottle of ink",
+        "Where to find": "Old stationers, pen shows, Indian pen makers",
+        "Care": "Flush with water every few weeks; keep capped",
+        "Display idea": "A pen tray on your desk"
+      }
+    },
+    {
+      "id": "collect_matchbox_labels",
+      "challenge_id": "start_a_collection",
+      "name": "Collect matchbox labels",
+      "category": "Matchbox labels",
+      "filter_group": "Writing & craft",
+      "difficulty": "beginner",
+      "about": "Indian matchbox art is colourful and quirky. Collectors call it phillumeny.",
+      "howToSteps": [
+        "Save every new matchbox design.",
+        "Flatten and sleeve the labels.",
+        "Group by brand or theme.",
+        "Note the town where you found it."
+      ],
+      "tags": [
+        "collecting",
+        "writing_craft"
+      ],
+      "keywords": [
+        "matchbox labels",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with matchboxes from around the house",
+        "Where to find": "Local shops, old stock, collector groups",
+        "Care": "Keep flat in an album; boxes can be flattened carefully",
+        "Display idea": "Album pages by theme: animals, gods, film"
+      }
+    },
+    {
+      "id": "collect_teas_of_india",
+      "challenge_id": "start_a_collection",
+      "name": "Collect teas of India",
+      "category": "Teas of India",
+      "filter_group": "Writing & craft",
+      "difficulty": "beginner",
+      "about": "A tin from each region: Darjeeling, Assam, Nilgiri, Kangra and more.",
+      "howToSteps": [
+        "Note the tea you already drink.",
+        "Buy a small pack from each region.",
+        "Taste them side by side.",
+        "Write a line about each."
+      ],
+      "tags": [
+        "collecting",
+        "writing_craft"
+      ],
+      "keywords": [
+        "teas of india",
+        "collecting",
+        "collection"
+      ],
+      "metadata": {
+        "Start with": "Start with the tea you drink every day",
+        "Where to find": "Tea estates, local tea shops, travel",
+        "Care": "Keep in airtight tins away from light and smells",
+        "Display idea": "A row of tins with a tasting note on each"
+      }
+    }
+  ]
+}

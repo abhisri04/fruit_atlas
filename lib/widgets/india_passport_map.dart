@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/semantics.dart';
 
@@ -30,6 +31,8 @@ class IndiaPassportMap extends StatelessWidget {
   final VoidCallback? onTapEmpty;
 
   static const maxZoom = 14.0;
+
+  static (DateTime, Offset)? _lastTap;
 
   /// How far (in screen pixels) a tap may miss a state and still pick it.
   static const tapTolerance = 16.0;
@@ -116,7 +119,6 @@ class IndiaPassportMap extends StatelessWidget {
       final anchors = {
         for (final e in paths.entries) e.key: labelBounds(e.value),
       };
-      Offset? doubleTapAt;
       return ColoredBox(
         color: AppColors.navy,
         child: InteractiveViewer(
@@ -127,25 +129,29 @@ class IndiaPassportMap extends StatelessWidget {
           child: GestureDetector(
             key: const ValueKey('india-map'),
             behavior: HitTestBehavior.opaque,
+            // Taps select straight away (no waiting to rule out a double
+            // tap); a second tap close by, soon after, zooms in.
             onTapUp: (details) {
+              final at = details.localPosition;
+              final now = DateTime.now();
+              final last = _lastTap;
+              _lastTap = (now, at);
+              if (onDoubleTapAt != null &&
+                  last != null &&
+                  now.difference(last.$1) < kDoubleTapTimeout &&
+                  (at - last.$2).distance < 40) {
+                _lastTap = null;
+                onDoubleTapAt!(at);
+                return;
+              }
               final zoom = controller.value.getMaxScaleOnAxis();
-              final id = regionAt(
-                paths,
-                details.localPosition,
-                tolerance: tapTolerance / zoom,
-              );
+              final id = regionAt(paths, at, tolerance: tapTolerance / zoom);
               if (id != null) {
                 onSelect(id);
               } else {
                 onTapEmpty?.call();
               }
             },
-            onDoubleTapDown: (details) => doubleTapAt = details.localPosition,
-            onDoubleTap: onDoubleTapAt == null
-                ? null
-                : () {
-                    if (doubleTapAt case final at?) onDoubleTapAt!(at);
-                  },
             child: SizedBox.fromSize(
               size: size,
               child: TweenAnimationBuilder<Map<String, Color>>(

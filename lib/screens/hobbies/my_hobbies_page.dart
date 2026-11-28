@@ -4,8 +4,7 @@ import '../../models/hobby_journal.dart';
 import '../../services/hobby_journal_service.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/app_gradients.dart';
-import '../../widgets/my_garden_buttons.dart';
-import '../../widgets/scent_shelf_buttons.dart';
+import '../../widgets/active_collections.dart';
 import '../../widgets/hobby_icon.dart';
 import '../../widgets/log_session_sheet.dart';
 import '../../widgets/reveal.dart';
@@ -125,10 +124,7 @@ class _MyHobbiesPageState extends State<MyHobbiesPage> {
                     minutes: weekMinutes,
                   ),
                 ),
-                const SizedBox(height: 12),
-                const MyCollectionEntry(),
-                const SizedBox(height: 12),
-                const MyGardenEntry(),
+                const ActiveCollections(),
                 for (final record in decisions) ...[
                   const SizedBox(height: 12),
                   _StarterDecision(record: record),
@@ -227,8 +223,8 @@ class _EmptyHobbies extends StatelessWidget {
       const Reveal(
         index: 2,
         child: Text(
-          'Track the hobbies you love, log practice in one tap, keep streaks '
-          'and climb from Tried to Confident.',
+          'Track the hobbies you love, log practice in one tap, and grow '
+          'from Tried to Confident at your own pace.',
           textAlign: TextAlign.center,
           style: TextStyle(color: AppColors.muted, fontSize: 15),
         ),
@@ -254,10 +250,8 @@ class _EmptyHobbies extends StatelessWidget {
           label: const Text('Add one I already do'),
         ),
       ),
-      const SizedBox(height: 24),
-      const Reveal(index: 5, child: MyCollectionEntry()),
       const SizedBox(height: 12),
-      const Reveal(index: 6, child: MyGardenEntry()),
+      const Reveal(index: 5, child: ActiveCollections()),
     ],
   );
 }

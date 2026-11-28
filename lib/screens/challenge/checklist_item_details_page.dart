@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../theme/app_colors.dart';
+import '../../widgets/start_collection_button.dart';
 import '../../widgets/my_garden_buttons.dart';
 import '../../widgets/garden_hub_link.dart';
 import '../../widgets/scent_shelf_buttons.dart';
@@ -1155,7 +1156,8 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                     'Explore the linked experiences below. Track State & UT visits separately in India Passport.',
                   )
                 // Plants have one action, "Add to my garden", below.
-                else if (widget.challenge.itemType != 'plant')
+                else if (widget.challenge.itemType != 'plant' &&
+                    widget.challenge.itemType != 'collection')
                   Card(
                     child: CheckboxListTile(
                       value: isCompleted,
@@ -1170,6 +1172,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                                       'played' => 'Played',
                                       'smelled' => 'Smelled',
                                       'grown' => 'Grown',
+                                      'started' => 'Started',
                                       'learned' => 'Learned',
                                       'visited' => 'Visited',
                                       _ => 'Explored',
@@ -1200,6 +1203,10 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                   const SizedBox(height: 12),
                   GrowThisButton(item: widget.item),
                 ],
+                if (widget.challenge.itemType == 'collection') ...[
+                  const SizedBox(height: 12),
+                  StartCollectionButton(item: widget.item),
+                ],
                 if (gardeningHobbyIds.contains(widget.item.id)) ...[
                   const SizedBox(height: 12),
                   const GardenHubLink(),
@@ -1208,7 +1215,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                 Text(
                   // Action-style names ("Fold a paper crane", "Get to know
                   // Chypre") read better as "About Origami", "About Chypre".
-                  'About ${const {'hobby', 'game', 'scent_family', 'scent_note', 'attar', 'garden_visit'}.contains(widget.challenge.itemType) ? widget.item.category ?? widget.item.name : widget.item.name}',
+                  'About ${const {'hobby', 'game', 'scent_family', 'scent_note', 'attar', 'garden_visit', 'collection'}.contains(widget.challenge.itemType) ? widget.item.category ?? widget.item.name : widget.item.name}',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
                 const SizedBox(height: 10),

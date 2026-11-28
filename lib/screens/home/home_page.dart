@@ -9,7 +9,7 @@ import '../../models/app_branding.dart';
 import '../../services/challenge_groups.dart';
 import '../../theme/app_spacing.dart';
 import '../../widgets/passport_map_thumbnail.dart';
-import '../../widgets/hobby_finder_entry.dart';
+import '../../services/user_profile_service.dart';
 import '../../widgets/reward_animations.dart';
 import '../../widgets/reveal.dart';
 import '../../widgets/empty_state.dart';
@@ -53,7 +53,23 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
+const _suggestionOrder = [
+  'try_easy_hobbies',
+  'explore_indian_states',
+  'garden_hub',
+  'explore_indian_dishes',
+  'learn_yoga_poses',
+  'explore_great_books',
+  'play_great_games',
+  'start_a_collection',
+  'scent_hub',
+  'taste_fruits_of_india',
+  'visit_12_jyotirlingas',
+  'explore_indian_drinks',
+];
+
 class _HomePageState extends State<HomePage> {
+  List<String> interests = Interests.defaults;
   static const assetDataService = AssetDataService();
   static const challengeRepository = ChallengeRepository();
   DailyDiscoveryService get dailyDiscoveryService =>
@@ -102,6 +118,8 @@ class _HomePageState extends State<HomePage> {
   // ------------------------------------------------
 
   Future<void> loadFruitAtlasData() async {
+    final saved = await UserProfileService.interests();
+    if (mounted) setState(() => interests = saved);
     try {
       final fruitData = await assetDataService.loadFruitData();
       final loadedChallenges = await challengeRepository.loadChallenges();
@@ -309,7 +327,7 @@ class _HomePageState extends State<HomePage> {
         body: EmptyState(
           icon: Icons.cloud_off_outlined,
           title: 'Unable to load',
-          message: 'Could not load fruit data.\n\n$errorMessage',
+          message: 'Could not load your app data.\n\n$errorMessage',
         ),
       );
     }
@@ -327,22 +345,20 @@ class _HomePageState extends State<HomePage> {
     );
     int doneFor(Challenge c) =>
         groupedProgress(c, (id) => challengeProgress[id], challenges).completed;
-    activeChallenges.sort((a, b) {
-      final aStarted = doneFor(a) > 0;
-      final bStarted = doneFor(b) > 0;
-      if (aStarted != bStarted) return aStarted ? -1 : 1;
-      return challenges.indexOf(a).compareTo(challenges.indexOf(b));
-    });
-    final quickExplore =
-        challenges
-            .where(
-              (challenge) =>
-                  challenge.status == 'active' && challenge.showInQuickExplore,
-            )
-            .toList()
-          ..sort(
-            (a, b) => a.quickExplorePriority.compareTo(b.quickExplorePriority),
-          );
+    // Your journeys: only what you've started, most recent order.
+    final started = [
+      for (final c in activeChallenges)
+        if (doneFor(c) > 0) c,
+    ];
+    // Something new: from what you said you're into, then a mix of areas.
+    final byId = {for (final c in activeChallenges) c.id: c};
+    final suggestions = <Challenge>[
+      for (final id in {
+        ...Interests.challengeIdsFor(interests),
+        ..._suggestionOrder,
+      })
+        if (byId[id] case final c? when doneFor(c) == 0) c,
+    ].take(6).toList();
     final hour = DateTime.now().hour;
     final greeting = hour < 12
         ? 'Good morning'
@@ -381,48 +397,38 @@ class _HomePageState extends State<HomePage> {
                   onAnother: showAnotherDiscovery,
                 ),
               ),
-              const SizedBox(height: 16),
-              Reveal(
-                index: 4,
-                child: HobbyFinderEntry(onReturn: loadFruitAtlasData),
-              ),
-              const SizedBox(height: 24),
-              Row(
-                children: [
-                  const Expanded(
-                    child: Text(
-                      'Continue Your Journeys',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w800,
+              if (started.isNotEmpty) ...[
+                const SizedBox(height: 24),
+                Row(
+                  children: [
+                    const Expanded(
+                      child: Text(
+                        'Your journeys',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w800,
+                        ),
                       ),
                     ),
-                  ),
-                  TextButton(
-                    onPressed: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (_) => const DiscoverPage()),
+                    TextButton(
+                      onPressed: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (_) => const DiscoverPage()),
+                      ),
+                      child: const Text('See all'),
                     ),
-                    child: const Text('See all'),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 10),
-              if (activeChallenges.isEmpty)
-                const Text(
-                  'No active journeys are available yet.',
-                  style: TextStyle(color: AppColors.muted),
-                )
-              else
+                  ],
+                ),
+                const SizedBox(height: 10),
                 SizedBox(
                   height: 235,
                   child: ListView.separated(
                     key: const ValueKey('continue-journeys'),
                     scrollDirection: Axis.horizontal,
-                    itemCount: activeChallenges.length,
+                    itemCount: started.length,
                     separatorBuilder: (_, _) => const SizedBox(width: 12),
                     itemBuilder: (context, index) {
-                      final challenge = activeChallenges[index];
+                      final challenge = started[index];
                       final progress = groupedProgress(
                         challenge,
                         (id) => challengeProgress[id],
@@ -452,10 +458,21 @@ class _HomePageState extends State<HomePage> {
                     },
                   ),
                 ),
+              ],
               const SizedBox(height: 24),
-              const Text(
-                'Quick Explore',
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
+              Text(
+                started.isEmpty ? 'Start here' : 'Try something new',
+                style: const TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                started.isEmpty
+                    ? 'Picked from what you are into. Tap one to begin.'
+                    : 'Something you haven\'t started yet.',
+                style: const TextStyle(color: AppColors.muted),
               ),
               const SizedBox(height: 10),
               LayoutBuilder(
@@ -466,7 +483,7 @@ class _HomePageState extends State<HomePage> {
                   return Wrap(
                     spacing: 10,
                     runSpacing: 10,
-                    children: quickExplore.take(6).map((challenge) {
+                    children: suggestions.map((challenge) {
                       final accent = AppColors.categoryAccent(
                         challenge.categoryId,
                       );

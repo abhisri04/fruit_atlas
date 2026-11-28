@@ -11,7 +11,7 @@ void main() {
   testWidgets(
     'System back returns sections home and requires a second exit back',
     (tester) async {
-      SharedPreferences.setMockInitialValues({});
+      SharedPreferences.setMockInitialValues({'welcome_done_v1': true});
       tester.view.physicalSize = const Size(320, 700);
       tester.view.devicePixelRatio = 1;
       addTearDown(tester.view.resetPhysicalSize);

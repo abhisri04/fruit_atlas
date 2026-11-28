@@ -1,3 +1,5 @@
+import '../../widgets/collecting_shortcuts.dart';
+import '../saved/saved_page.dart';
 import '../travel/travel_theme_page.dart';
 
 import 'package:flutter/material.dart';
@@ -19,7 +21,6 @@ import '../../widgets/category_icon.dart';
 import '../../widgets/challenge_icon.dart';
 import '../../widgets/empty_state.dart';
 import '../../widgets/experience_artwork.dart';
-import '../../widgets/journey_card.dart';
 import '../../widgets/reveal.dart';
 import '../../widgets/reward_animations.dart';
 import '../search/discovery_search_page.dart';
@@ -56,7 +57,12 @@ class _DiscoverPageState extends State<DiscoverPage> {
     try {
       final loadedCategories = await _repository.loadCategories();
       final loadedChallenges = await _repository.loadChallenges();
-      final pool = await _daily.buildEligiblePool();
+      // Home already shows today's pick; Explore offers different ones.
+      final homePick = await _daily.todaysReference();
+      final pool = [
+        for (final item in await _daily.buildEligiblePool())
+          if (item.reference != homePick) item,
+      ];
       final progress = await const ProgressSummaryService().load(
         challenges: loadedChallenges,
       );
@@ -98,7 +104,13 @@ class _DiscoverPageState extends State<DiscoverPage> {
   List<DailyDiscovery> get _filtered => selectedCategoryId == 'all'
       ? recommendations
       : _pool
-            .where((item) => item.categoryId == selectedCategoryId)
+            .where(
+              (item) =>
+                  item.categoryId == selectedCategoryId ||
+                  // Perfume is a kind of collecting.
+                  (selectedCategoryId == 'collecting' &&
+                      item.categoryId == 'scent'),
+            )
             .take(12)
             .toList(growable: false);
 
@@ -116,7 +128,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
   Widget build(BuildContext context) {
     if (isLoading) {
       return const Scaffold(
-        backgroundColor: AppColors.navy,
+        backgroundColor: AppColors.background,
         body: Center(child: CircularProgressIndicator()),
       );
     }
@@ -134,10 +146,15 @@ class _DiscoverPageState extends State<DiscoverPage> {
     }
     // Scent's four collections appear as one Scent & Perfume tile.
     final active = groupHubChallenges(
-      challenges.where((challenge) => challenge.status == 'active'),
+      challenges.where(
+        (challenge) =>
+            challenge.status == 'active' &&
+            // Reached from India Passport and Garden & Plants.
+            challenge.id != 'explore_garden_visits',
+      ),
     );
     return Scaffold(
-      backgroundColor: AppColors.navy,
+      backgroundColor: AppColors.background,
       body: SafeArea(
         child: CustomScrollView(
           slivers: [
@@ -145,14 +162,34 @@ class _DiscoverPageState extends State<DiscoverPage> {
               padding: const EdgeInsets.fromLTRB(18, 20, 18, 8),
               sliver: SliverList.list(
                 children: [
-                  const Text(
-                    'Explore',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: 'Georgia',
-                      fontSize: 28,
-                      fontWeight: FontWeight.w800,
-                    ),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Text(
+                          'Explore',
+                          style: TextStyle(
+                            color: AppColors.ink,
+                            fontFamily: 'Georgia',
+                            fontSize: 28,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                      ),
+                      IconButton(
+                        key: const ValueKey('explore-saved'),
+                        tooltip: 'Saved for later',
+                        icon: const Icon(Icons.bookmarks_outlined),
+                        onPressed: () async {
+                          await Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => const SavedPage(),
+                            ),
+                          );
+                          if (mounted) await _load();
+                        },
+                      ),
+                    ],
                   ),
                   const SizedBox(height: 14),
                   InkWell(
@@ -169,6 +206,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(18),
+                        border: Border.all(color: AppColors.outline),
                       ),
                       child: const Row(
                         children: [
@@ -197,7 +235,9 @@ class _DiscoverPageState extends State<DiscoverPage> {
                           selected: selectedCategoryId == 'all',
                           onTap: _selectCategory,
                         ),
-                        for (final category in categories)
+                        for (final category in categories.where(
+                          (c) => c.id != 'scent',
+                        ))
                           _CategoryShortcut(
                             id: category.id,
                             label: _shortCategoryName(category),
@@ -209,6 +249,12 @@ class _DiscoverPageState extends State<DiscoverPage> {
                     ),
                   ),
                   const SizedBox(height: 22),
+                  if (selectedCategoryId == 'collecting') ...[
+                    _sectionTitle('Start collecting'),
+                    const SizedBox(height: 12),
+                    CollectingShortcuts(challenges: challenges),
+                    const SizedBox(height: 22),
+                  ],
                   if (selectedCategoryId == 'travel_exploration') ...[
                     _sectionTitle('Travel by theme'),
                     const SizedBox(height: 12),
@@ -258,31 +304,6 @@ class _DiscoverPageState extends State<DiscoverPage> {
                   ),
                   const SizedBox(height: 24),
                   HobbyFinderEntry(onReturn: _load),
-                  const SizedBox(height: 24),
-                  _sectionTitle('Collections'),
-                  const SizedBox(height: 12),
-                  SizedBox(
-                    height: 235,
-                    child: ListView.separated(
-                      scrollDirection: Axis.horizontal,
-                      itemCount: active.length,
-                      separatorBuilder: (_, _) => const SizedBox(width: 12),
-                      itemBuilder: (_, index) => JourneyCard(
-                        challenge: active[index],
-                        completed: groupedProgress(
-                          active[index],
-                          summaryLookup(challengeProgress),
-                          challenges,
-                        ).completed,
-                        total: groupedProgress(
-                          active[index],
-                          summaryLookup(challengeProgress),
-                          challenges,
-                        ).total,
-                        onTap: () => openChallenge(context, active[index]),
-                      ),
-                    ),
-                  ),
                   const SizedBox(height: 24),
                   _sectionTitle('Explore by category'),
                   const SizedBox(height: 12),
@@ -434,7 +455,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
   Widget _sectionTitle(String value) => Text(
     value,
     style: const TextStyle(
-      color: Colors.white,
+      color: AppColors.ink,
       fontSize: 20,
       fontWeight: FontWeight.w800,
     ),
@@ -468,11 +489,13 @@ class _CategoryShortcut extends StatelessWidget {
             width: 48,
             height: 48,
             decoration: BoxDecoration(
-              color: selected ? AppColors.gold : AppColors.navyRaised,
+              color: selected ? AppColors.primary : AppColors.surface,
               shape: BoxShape.circle,
-              border: Border.all(color: Colors.white24),
+              border: Border.all(
+                color: selected ? AppColors.primary : AppColors.outline,
+              ),
             ),
-            child: Icon(icon, color: selected ? AppColors.navy : Colors.white),
+            child: Icon(icon, color: selected ? Colors.white : AppColors.ink),
           ),
           const SizedBox(height: 6),
           Text(
@@ -480,7 +503,7 @@ class _CategoryShortcut extends StatelessWidget {
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
-              color: selected ? AppColors.gold : Colors.white70,
+              color: selected ? AppColors.primary : AppColors.muted,
               fontSize: 11,
               fontWeight: FontWeight.w700,
             ),
@@ -507,7 +530,10 @@ class _RecommendationCard extends StatelessWidget {
     width: 232,
     child: Material(
       color: Colors.white,
-      borderRadius: BorderRadius.circular(20),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+        side: const BorderSide(color: AppColors.outline),
+      ),
       clipBehavior: Clip.antiAlias,
       child: InkWell(
         onTap: onTap,
@@ -582,12 +608,13 @@ class _DarkEmpty extends StatelessWidget {
     height: 130,
     padding: const EdgeInsets.all(18),
     decoration: BoxDecoration(
-      color: AppColors.navyRaised,
+      color: AppColors.surface,
       borderRadius: BorderRadius.circular(20),
+      border: Border.all(color: AppColors.outline),
     ),
     child: const Text(
       'More recommendations will appear as this collection grows.',
-      style: TextStyle(color: Colors.white70),
+      style: TextStyle(color: AppColors.muted),
     ),
   );
 }

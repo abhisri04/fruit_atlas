@@ -238,7 +238,7 @@ void main() {
     expect(find.text('Place · Jodhpur, Rajasthan'), findsOneWidget);
     expect(find.text('Location'), findsOneWidget);
     expect(find.text('Part of'), findsOneWidget);
-    expect(find.text('Explore Rajasthan'), findsOneWidget);
+    expect(find.text('More in Rajasthan'), findsOneWidget);
 
     await tester.pageBack();
     await tester.pumpAndSettle();

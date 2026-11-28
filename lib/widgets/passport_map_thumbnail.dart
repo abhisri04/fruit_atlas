@@ -4,6 +4,7 @@ import '../models/india_passport_share_data.dart';
 import '../services/india_map_repository.dart';
 import '../services/state_travel_service.dart';
 import '../theme/app_colors.dart';
+import 'india_passport_map.dart';
 import 'india_passport_share_card.dart';
 
 /// A small live map of India Passport for the top of a journey card:
@@ -76,6 +77,10 @@ class _PassportMapThumbnailState extends State<PassportMapThumbnail> {
                             regions!,
                             IndiaPassportShareData(travel),
                           ),
+                          foregroundPainter: _SmallStampDots(
+                            regions!,
+                            travel.visitedIds,
+                          ),
                         ),
                       ),
                     ),
@@ -109,4 +114,30 @@ class _PassportMapThumbnailState extends State<PassportMapThumbnail> {
       ),
     );
   }
+}
+
+/// Tiny stamped places would be invisible at this size; give them a dot.
+class _SmallStampDots extends CustomPainter {
+  final List<IndiaMapRegion> regions;
+  final Set<String> visited;
+  _SmallStampDots(this.regions, this.visited);
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()..color = AppColors.passportVisited;
+    final ring = Paint()
+      ..color = Colors.white
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 1;
+    for (final region in regions) {
+      if (!visited.contains(region.stateId)) continue;
+      final bounds = IndiaPassportMap.fittedPath(region, size).getBounds();
+      if (bounds.width > 5 && bounds.height > 5) continue;
+      canvas.drawCircle(bounds.center, 3, paint);
+      canvas.drawCircle(bounds.center, 3, ring);
+    }
+  }
+
+  @override
+  bool shouldRepaint(_SmallStampDots old) => old.visited != visited;
 }

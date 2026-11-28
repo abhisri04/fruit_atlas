@@ -348,6 +348,25 @@ class Achievement {
     ),
   ];
 
+  static const collectingAchievements = [
+    Achievement(
+      id: 'collecting_first',
+      title: 'Collector',
+      description: 'Start your first collection.',
+      threshold: 1,
+      challengeId: 'start_a_collection',
+      iconIdentifier: 'collecting',
+    ),
+    Achievement(
+      id: 'collecting_three',
+      title: 'Curator',
+      description: 'Start 3 collections.',
+      threshold: 3,
+      challengeId: 'start_a_collection',
+      iconIdentifier: 'explore',
+    ),
+  ];
+
   static const gardenPlantAchievements = [
     Achievement(
       id: 'plant_first',
@@ -554,6 +573,7 @@ class Achievement {
       'explore_scent_notes' => scentNoteAchievements,
       'explore_indian_attars' => attarAchievements,
       'explore_garden_plants' => gardenPlantAchievements,
+      'start_a_collection' => collectingAchievements,
       'explore_garden_skills' => gardenSkillAchievements,
       'explore_garden_visits' => gardenVisitAchievements,
       'explore_indian_states' => indiaStatesChallengeAchievements,

@@ -70,8 +70,14 @@ void main() {
         'taste_fruits_of_india',
         'visit_12_jyotirlingas',
       ]);
+      // Only started collections are journeys; the rest are suggestions.
+      expect(
+        cards.every((card) => card.completed > 0),
+        isTrue,
+        reason: 'only started collections are journeys',
+      );
       await tester.scrollUntilVisible(
-        find.text('Quick Explore').first,
+        find.text('Try something new').first,
         300,
         scrollable: find.byType(Scrollable).first,
       );
@@ -84,13 +90,21 @@ void main() {
             ),
       );
       expect(quickExploreTiles, findsNWidgets(6));
+      // Suggestions start from the default interests (hobbies, travel, food)
+      // and skip anything already started.
       expect(
-        find.descendant(
-          of: find.byKey(const ValueKey('quick-explore-taste_fruits_of_india')),
-          matching: find.text('Fruits of India'),
-        ),
+        find.byKey(const ValueKey('quick-explore-try_easy_hobbies')),
         findsOneWidget,
       );
+      expect(
+        find.byKey(const ValueKey('quick-explore-explore_indian_states')),
+        findsOneWidget,
+      );
+      expect(
+        find.byKey(const ValueKey('quick-explore-taste_fruits_of_india')),
+        findsNothing,
+      );
+      expect(find.text('Find your next hobby'), findsNothing);
       // The old travel block and Browse fruits card are gone from Home.
       expect(find.text('Browse fruits'), findsNothing);
       expect(find.text('Travel & Exploration'), findsNothing);

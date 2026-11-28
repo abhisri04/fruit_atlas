@@ -10,6 +10,7 @@ import '../screens/my_life/my_life_page.dart';
 import '../screens/hobbies/my_hobbies_page.dart';
 import '../widgets/reward_feedback_host.dart';
 import '../models/app_branding.dart';
+import '../screens/welcome/welcome_page.dart';
 
 // APP
 // ================================================================
@@ -25,7 +26,7 @@ class FruitAtlasApp extends StatelessWidget {
       theme: AppTheme.light,
       builder: (context, child) =>
           RewardFeedbackHost(child: child ?? const SizedBox.shrink()),
-      home: const MainNavigationPage(),
+      home: const WelcomeGate(child: MainNavigationPage()),
     );
   }
 }

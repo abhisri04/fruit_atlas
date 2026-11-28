@@ -14,7 +14,7 @@ Build in this order. Every feature must work at the earlier stages before it dep
 
 1. **Solo (core):** tracking, India Passport, streaks, milestones, and share cards for Instagram and WhatsApp.
 2. **Light social:** add friends, see their milestones ("Riya tried pottery"), react with a cheer. No comments, no open feed.
-3. **Together:** shared challenges (e.g. "Try 60 Hobbies with 3 friends"), group trips that stamp everyone's passport, "do this together" invites. This is where Uplyfa should stand out.
+3. **Together:** shared challenges (e.g. "Try 150 Easy Hobbies with 3 friends"), group trips that stamp everyone's passport, "do this together" invites. This is where Uplyfa should stand out.
 4. **Community (later):** public profiles, local hobby groups, discovering like-minded people.
 
 ## Rules for every feature
@@ -30,7 +30,7 @@ Build in this order. Every feature must work at the earlier stages before it dep
 
 ## When reworking older features
 
-Check each existing feature (Explore India, Daily Discovery, fruit catalogue, Yoga Atlas, Books, India Passport, Hobbies, Try 60 Easy Hobbies, My Hobbies, Games) against the rules above:
+Check each existing feature (Explore India, Daily Discovery, fruit catalogue, Yoga Atlas, Books, India Passport, Hobbies, Try 150 Easy Hobbies, My Hobbies, Games, Scent & Perfume, Garden & Plants, Collecting, Trips) against the rules above:
 
 - Does it feed into the user's personal life record?
 - Can its progress be turned into a shareable card or milestone?

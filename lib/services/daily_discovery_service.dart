@@ -87,6 +87,7 @@ class DailyDiscoveryService {
     ];
     final scentPools = await poolsFor('scent');
     final gardenPools = await poolsFor('garden');
+    final collectingPools = await poolsFor('collecting');
     final jyotirlingas = await data.loadJyotirlingas();
     final dishCatalogue = await const IndianDishesRepository().load();
     final dishProgress = await ProgressService.getDishProgress(dishCatalogue);
@@ -124,7 +125,11 @@ class DailyDiscoveryService {
           ),
         );
       }
+      // Varieties are for people already on that fruit's journey; for
+      // everyone else a rare cultivar is just a confusing name.
+      final varietiesWelcome = completedFruits.contains(fruitId);
       for (final variety in fruit.varieties) {
+        if (!varietiesWelcome) continue;
         final varietyId = variety.id;
         if (varietyId == null ||
             varietyId.isEmpty ||
@@ -274,6 +279,22 @@ class DailyDiscoveryService {
         );
       }
     }
+    for (final pool in collectingPools) {
+      for (final item in pool.items) {
+        if (excludeCompleted && pool.done.contains(item.id)) continue;
+        recommendations.add(
+          DailyDiscovery(
+            type: DailyDiscoveryType.hobby,
+            canonicalId: item.id,
+            title: item.name,
+            subtitle: item.filterGroup ?? 'Collecting',
+            categoryId: pool.challenge.categoryId,
+            hobby: item,
+            hobbyChallenge: pool.challenge,
+          ),
+        );
+      }
+    }
     for (final pool in gardenPools) {
       for (final item in pool.items) {
         if (excludeCompleted && pool.done.contains(item.id)) continue;
@@ -315,6 +336,14 @@ class DailyDiscoveryService {
     return result;
   }
 
+  /// Today's Home pick, if one has been chosen today (without choosing).
+  Future<String?> todaysReference() async {
+    final preferences = await SharedPreferences.getInstance();
+    return preferences.getString(_dateKey) == _localDate(now())
+        ? preferences.getString(_currentKey)
+        : null;
+  }
+
   Future<DailyDiscovery?> getToday() async {
     final preferences = await SharedPreferences.getInstance();
     final today = _localDate(now());
@@ -341,7 +370,7 @@ class DailyDiscoveryService {
               .where((item) => item.reference != yesterdayReference)
               .toList()
         : eligible;
-    final selected = candidates[_dayNumber(now()) % candidates.length];
+    final selected = _pick(candidates, _dayNumber(now()));
     await _persist(preferences, today, selected.reference, [
       selected.reference,
     ]);
@@ -370,8 +399,7 @@ class DailyDiscoveryService {
         ..clear()
         ..add(current.reference);
     }
-    final selected =
-        candidates[(_dayNumber(now()) + shown.length) % candidates.length];
+    final selected = _pick(candidates, _dayNumber(now()) + shown.length);
     shown.add(selected.reference);
     await _persist(
       preferences,
@@ -380,6 +408,19 @@ class DailyDiscoveryService {
       shown.toList()..sort(),
     );
     return selected;
+  }
+
+  /// Takes turns across kinds (hobby, dish, place, book…) so one big
+  /// collection doesn't fill every day, then picks within the kind.
+  DailyDiscovery _pick(List<DailyDiscovery> candidates, int n) {
+    final byType = <DailyDiscoveryType, List<DailyDiscovery>>{};
+    for (final c in candidates) {
+      byType.putIfAbsent(c.type, () => []).add(c);
+    }
+    final types = byType.keys.toList()
+      ..sort((a, b) => a.index.compareTo(b.index));
+    final items = byType[types[n % types.length]]!;
+    return items[(n ~/ types.length) % items.length];
   }
 
   Future<void> _persist(

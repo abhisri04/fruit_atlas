@@ -10,6 +10,8 @@ import '../../widgets/india_passport_map.dart';
 import '../../widgets/india_passport_ring.dart';
 import '../share/india_passport_share_page.dart';
 import 'explore_india_page.dart';
+import '../../navigation/challenge_navigation.dart';
+import '../../services/asset_data_service.dart';
 import 'passport_stats_page.dart';
 import 'state_places_sheet.dart';
 import '../../services/district_repository.dart';
@@ -167,6 +169,16 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
     }
   }
 
+  void _tapSelect(String id) {
+    final region = regions?.where((r) => r.stateId == id).firstOrNull;
+    final small =
+        region != null &&
+        IndiaPassportMap.fittedPath(region, mapSize).getBounds().width *
+                controller.value.getMaxScaleOnAxis() <
+            48;
+    _select(id, flyTo: small);
+  }
+
   void _deselect() => setState(() => selectedId = null);
 
   Future<void> _update(String id, TravelStatus status) async {
@@ -220,6 +232,16 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
       Navigator.of(context)
           .push(MaterialPageRoute<void>(builder: (_) => const TripsPage()));
 
+  void _openExploreIndia() => Navigator.of(context)
+      .push(MaterialPageRoute<void>(builder: (_) => const ExploreIndiaPage()));
+
+  Future<void> _openGardens() async {
+    final visits = (await const AssetDataService().loadChallenges())
+        .where((c) => c.id == 'explore_garden_visits')
+        .firstOrNull;
+    if (visits != null && mounted) await openChallenge(context, visits);
+  }
+
   void _openStats() => Navigator.of(context).push(
     MaterialPageRoute<void>(
       builder: (_) =>
@@ -234,18 +256,6 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
     appBar: AppBar(
       title: const Text('India Passport'),
       actions: [
-        IconButton(
-          key: const ValueKey('passport-trips'),
-          tooltip: 'My trips',
-          icon: const Icon(Icons.luggage_outlined),
-          onPressed: _openTrips,
-        ),
-        IconButton(
-          key: const ValueKey('passport-stats'),
-          tooltip: 'My India in numbers',
-          icon: const Icon(Icons.insights_outlined),
-          onPressed: _openStats,
-        ),
         PopupMenuButton<String>(
           key: const ValueKey('passport-more'),
           tooltip: 'More',
@@ -255,11 +265,7 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
               case 'list':
                 _openList();
               case 'explore':
-                Navigator.of(context).push(
-                  MaterialPageRoute<void>(
-                    builder: (_) => const ExploreIndiaPage(),
-                  ),
-                );
+                _openExploreIndia();
               case 'share':
                 Navigator.of(context).push(
                   MaterialPageRoute<void>(
@@ -285,7 +291,7 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
               value: 'explore',
               child: ListTile(
                 leading: Icon(Icons.explore_outlined),
-                title: Text('Explore India by state'),
+                title: Text('Things to do, by state'),
               ),
             ),
             PopupMenuItem(
@@ -324,7 +330,7 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
                         regions: regions!,
                         travel: travel,
                         selectedId: selectedId,
-                        onSelect: _select,
+                        onSelect: _tapSelect,
                         controller: controller,
                         onDoubleTapAt: _doubleTap,
                         onTapEmpty: () {
@@ -476,51 +482,99 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
     borderRadius: BorderRadius.circular(22),
     color: AppColors.surface,
     child: Padding(
-      padding: const EdgeInsets.fromLTRB(14, 12, 10, 12),
-      child: Row(
+      padding: const EdgeInsets.fromLTRB(14, 12, 10, 10),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
         children: [
-          InkWell(
-            key: const ValueKey('passport-ring'),
-            customBorder: const CircleBorder(),
-            onTap: _openStats,
-            child: IndiaPassportRing(
-              ratio:
-                  travel.visitedCount /
-                  IndiaLocationRegistry.allLocationIds.length,
-              size: 54,
-            ),
+          Row(
+            children: [
+              InkWell(
+                key: const ValueKey('passport-ring'),
+                customBorder: const CircleBorder(),
+                onTap: _openStats,
+                child: IndiaPassportRing(
+                  ratio:
+                      travel.visitedCount /
+                      IndiaLocationRegistry.allLocationIds.length,
+                  size: 54,
+                ),
+              ),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '${travel.visitedCount} of 36 visited',
+                      key: const ValueKey('passport-visited-count'),
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w800,
+                        fontSize: 16,
+                      ),
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      '${travel.wantToVisitCount} want to visit',
+                      key: const ValueKey('passport-wanted-count'),
+                      style: const TextStyle(color: AppColors.muted),
+                    ),
+                    const SizedBox(height: 2),
+                    const Text(
+                      'Tap a state, or search, to mark it',
+                      style: TextStyle(color: AppColors.muted, fontSize: 12),
+                    ),
+                  ],
+                ),
+              ),
+              TextButton(
+                key: const ValueKey('passport-all'),
+                onPressed: _openList,
+                child: const Text('All'),
+              ),
+            ],
           ),
-          const SizedBox(width: 14),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+          const SizedBox(height: 8),
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
               children: [
-                Text(
-                  '${travel.visitedCount} of 36 visited',
-                  key: const ValueKey('passport-visited-count'),
-                  style: const TextStyle(
-                    fontWeight: FontWeight.w800,
-                    fontSize: 16,
+                for (final (key, icon, label, onTap) in [
+                  (
+                    'passport-trips',
+                    Icons.luggage_outlined,
+                    'Trips',
+                    _openTrips,
                   ),
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  '${travel.wantToVisitCount} want to visit',
-                  key: const ValueKey('passport-wanted-count'),
-                  style: const TextStyle(color: AppColors.muted),
-                ),
-                const SizedBox(height: 2),
-                const Text(
-                  'Tap a state, or search, to mark it',
-                  style: TextStyle(color: AppColors.muted, fontSize: 12),
-                ),
+                  (
+                    'passport-stats',
+                    Icons.insights_outlined,
+                    'My numbers',
+                    _openStats,
+                  ),
+                  (
+                    'passport-explore-states',
+                    Icons.explore_outlined,
+                    'Things to do',
+                    _openExploreIndia,
+                  ),
+                  (
+                    'passport-gardens',
+                    Icons.park_outlined,
+                    'Famous gardens',
+                    _openGardens,
+                  ),
+                ])
+                  Padding(
+                    padding: const EdgeInsets.only(right: 8),
+                    child: ActionChip(
+                      key: ValueKey(key),
+                      avatar: Icon(icon, size: 18, color: AppColors.primary),
+                      label: Text(label),
+                      onPressed: onTap,
+                    ),
+                  ),
               ],
             ),
-          ),
-          TextButton(
-            key: const ValueKey('passport-all'),
-            onPressed: _openList,
-            child: const Text('All'),
           ),
         ],
       ),
@@ -556,7 +610,7 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
                           IndiaLocationRegistry.isUnionTerritory(id)
                               ? 'Union Territory'
                               : 'State',
-                          '${exploration?.counts[id] ?? 0} experiences explored',
+                          '${exploration?.counts[id] ?? 0} things done',
                           if (placesByState[id] case final places?)
                             '${places.where(placesDone.contains).length} of '
                                 '${places.length} places',
@@ -645,7 +699,7 @@ class _IndiaPassportPageState extends State<IndiaPassportPage>
                 TextButton.icon(
                   key: const ValueKey('passport-explore'),
                   icon: const Icon(Icons.arrow_forward),
-                  label: Text('Explore $name'),
+                  label: Text('Things to do in $name'),
                   onPressed: () async {
                     await openStateExploration(context, id);
                     final summary = await const StateExplorationRepository()
@@ -793,7 +847,7 @@ class _StateListSheetState extends State<_StateListSheet> {
                 ),
                 title: Text(l.name),
                 subtitle: Text(
-                  '${widget.exploration?.counts[l.id] ?? 0} experiences explored',
+                  '${widget.exploration?.counts[l.id] ?? 0} things done',
                 ),
                 trailing: IconButton(
                   key: ValueKey('passport-toggle-${l.id}'),

@@ -184,7 +184,13 @@ class _HobbyJournalPageState extends State<HobbyJournalPage> {
                   children: [
                     _HeroStat(value: r.sessions.length, label: 'sessions'),
                     _HeroStat(value: r.totalMinutes, label: 'minutes'),
-                    _HeroStat(value: r.currentStreak(now), label: 'day streak'),
+                    _HeroStat(
+                      value: {
+                        for (final s in r.sessions)
+                          DateTime(s.at.year, s.at.month, s.at.day),
+                      }.length,
+                      label: 'days practised',
+                    ),
                   ],
                 ),
               ],

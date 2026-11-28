@@ -110,7 +110,7 @@ void main() {
         findsOneWidget,
       );
       expect(find.text('Fruit variety · Mango'), findsOneWidget);
-      expect(find.text('Explore this variety →'), findsOneWidget);
+      expect(find.text('See this variety →'), findsOneWidget);
       expect(find.text('Save for later'), findsOneWidget);
       expect(
         tester

@@ -61,7 +61,7 @@ class _ExploreIndiaPageState extends State<ExploreIndiaPage> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('Explore India')),
+    appBar: AppBar(title: const Text('Things to do in India')),
     body: counts == null
         ? Center(
             child: error == null
@@ -73,7 +73,7 @@ class _ExploreIndiaPageState extends State<ExploreIndiaPage> {
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Text(
-                  '${completed.length} experiences explored\nDiscover deeper experiences in every State & UT.',
+                  '${completed.length} things done so far\nPlaces to see, activities and local culture in every State & UT.',
                 ),
               ),
               Padding(
@@ -98,7 +98,7 @@ class _ExploreIndiaPageState extends State<ExploreIndiaPage> {
                 ListTile(
                   title: Text(location.name),
                   subtitle: Text(
-                    '${counts![location.id]} / ${totals[location.id]} experiences explored',
+                    '${counts![location.id]} of ${totals[location.id]} things done',
                   ),
                   trailing: const Icon(Icons.chevron_right),
                   onTap: () async {

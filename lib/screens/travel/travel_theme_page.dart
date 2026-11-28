@@ -25,7 +25,7 @@ extension on ThemeScope {
   };
 }
 
-/// The eight theme tiles, for Explore India.
+/// The eight theme tiles, for Things to do.
 class TravelThemeGrid extends StatelessWidget {
   const TravelThemeGrid({super.key});
 

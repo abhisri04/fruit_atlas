@@ -213,12 +213,12 @@ void main() {
       );
       await tester.tap(find.byKey(const ValueKey('passport-filter-none')));
       await tester.pumpAndSettle();
-      expect(find.text('7 experiences explored'), findsOneWidget);
+      expect(find.text('7 things done'), findsOneWidget);
       expect(travel.visitedCount, 0);
       await tester.tap(find.byKey(const ValueKey('passport-state-sikkim')));
       await tester.pumpAndSettle();
       // The list closes and the map card shows the state.
-      expect(find.textContaining('7 experiences explored'), findsOneWidget);
+      expect(find.textContaining('7 things done'), findsOneWidget);
       await tester.tap(find.byKey(const ValueKey('passport-wanted')));
       await tester.pumpAndSettle();
       expect(travel.statusFor('sikkim'), TravelStatus.wantToVisit);
@@ -278,7 +278,7 @@ void main() {
           find.byKey(ValueKey('passport-result-${location.id}')),
         );
         await tester.pumpAndSettle();
-        expect(find.text('Explore ${location.name}'), findsOneWidget);
+        expect(find.text('Things to do in ${location.name}'), findsOneWidget);
         expect(
           find.byKey(ValueKey('passport-card-${location.id}')),
           findsOneWidget,

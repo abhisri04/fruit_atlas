@@ -78,6 +78,7 @@ class GamificationService {
           item.startsWith('note:') ||
           item.startsWith('attar:') ||
           item.startsWith('plant:') ||
+          item.startsWith('collecting:') ||
           item.startsWith('gardenskill:') ||
           item.startsWith('gardenvisit:') ||
           item.startsWith('jyotirlinga:'),
@@ -94,7 +95,7 @@ class GamificationService {
             kind: CelebrationKind.quest,
             intensity: CelebrationIntensity.large,
             title: 'Quest complete',
-            message: 'You explored two different paths today.',
+            message: 'You tried two different kinds of things today.',
             xp: questCompletionXp,
           ),
         );
@@ -104,6 +105,7 @@ class GamificationService {
     final rewardClaimed = rewarded.contains(questRewardId);
     final totalXp = await ProgressService.getRewardedXp();
     final streak = await ProgressService.getStreak(now: localNow);
+    final activeDays = await ProgressService.getActiveDayCount();
     final level = totalXp ~/ xpPerLevel + 1;
 
     return GamificationSummary(
@@ -113,14 +115,17 @@ class GamificationService {
       nextLevelXp: xpPerLevel,
       streakDays: streak.current,
       longestStreakDays: streak.longest,
+      activeDays: activeDays,
       achievementCount: progress.achievementCount,
       experienceCount: progress.experiencesExplored,
       categories: categories,
       quest: DailyQuestSummary(
         id: dailyQuestId,
         date: date,
-        title: 'Expand Your World',
-        description: 'Complete experiences from two different paths today.',
+        title: 'Try two kinds of things',
+        description:
+            'Taste something, and do one other thing: visit, read, play or '
+            'try a hobby.',
         tasks: [
           QuestTask(
             id: 'food',
