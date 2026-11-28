@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -197,10 +198,15 @@ void main() {
       );
       final travel = StateTravelService();
       await mount(tester, IndiaPassportPage(travelService: travel));
-      await tester.tap(find.text('List'));
-      await tester.pumpAndSettle();
+
+      Future<void> openList() async {
+        await tester.tap(find.byKey(const ValueKey('passport-list')));
+        await tester.pumpAndSettle();
+      }
+
+      await openList();
       await tester.enterText(
-        find.byKey(const ValueKey('passport-search')),
+        find.byKey(const ValueKey('passport-list-search')),
         'Sikkim',
       );
       await tester.tap(find.byKey(const ValueKey('passport-filter-none')));
@@ -209,12 +215,14 @@ void main() {
       expect(travel.visitedCount, 0);
       await tester.tap(find.byKey(const ValueKey('passport-state-sikkim')));
       await tester.pumpAndSettle();
-      expect(find.text('7 experiences explored'), findsNWidgets(2));
+      // The list closes and the map card shows the state.
+      expect(find.textContaining('7 experiences explored'), findsOneWidget);
       await tester.tap(find.byKey(const ValueKey('passport-wanted')));
       await tester.pumpAndSettle();
-      Navigator.of(
-        tester.element(find.byKey(const ValueKey('passport-wanted'))),
-      ).pop();
+      expect(travel.statusFor('sikkim'), TravelStatus.wantToVisit);
+
+      await openList();
+      await tester.tap(find.byKey(const ValueKey('passport-filter-none')));
       await tester.pumpAndSettle();
       expect(find.byKey(const ValueKey('passport-state-sikkim')), findsNothing);
       await tester.tap(
@@ -229,18 +237,14 @@ void main() {
       await tester.pumpAndSettle();
       await tester.tap(find.byKey(const ValueKey('passport-visited')));
       await tester.pumpAndSettle();
-      Navigator.of(
-        tester.element(find.byKey(const ValueKey('passport-visited'))),
-      ).pop();
-      await tester.pumpAndSettle();
+
+      await openList();
       await tester.tap(find.byKey(const ValueKey('passport-filter-visited')));
       await tester.pumpAndSettle();
       expect(
         find.byKey(const ValueKey('passport-state-sikkim')),
         findsOneWidget,
       );
-      await tester.tap(find.text('Map'));
-      await tester.pumpAndSettle();
       expect(
         tester
             .widget<IndiaPassportMap>(find.byType(IndiaPassportMap))
@@ -252,28 +256,43 @@ void main() {
     },
   );
   testWidgets(
-    'all 36 regions select through search without changing geometry',
+    'all 36 regions select through search and the map flies to them',
     (tester) async {
       await tester.runAsync(IndiaMapRepository.load);
       await tester.runAsync(
         () => const StateExplorationRepository().loadProgress(),
       );
       await mount(tester, const IndiaPassportPage());
-      await tester.tap(find.text('List'));
-      await tester.pumpAndSettle();
+      final map = tester.widget<IndiaPassportMap>(
+        find.byType(IndiaPassportMap),
+      );
       for (final location in IndiaLocationRegistry.locations) {
         await tester.enterText(
           find.byKey(const ValueKey('passport-search')),
           location.name,
         );
         await tester.pumpAndSettle();
-        await tester.tap(find.byKey(ValueKey('passport-state-${location.id}')));
+        await tester.tap(
+          find.byKey(ValueKey('passport-result-${location.id}')),
+        );
         await tester.pumpAndSettle();
         expect(find.text('Explore ${location.name}'), findsOneWidget);
-        Navigator.of(
-          tester.element(find.byKey(const ValueKey('passport-visited'))),
-        ).pop();
-        await tester.pumpAndSettle();
+        expect(
+          find.byKey(ValueKey('passport-card-${location.id}')),
+          findsOneWidget,
+        );
+        // The selected state ends up in view.
+        final bounds = IndiaPassportMap.fittedPath(
+          map.regions.firstWhere((r) => r.stateId == location.id),
+          tester.getSize(find.byKey(const ValueKey('india-map'))),
+        ).getBounds();
+        final onScreen = MatrixUtils.transformRect(
+          map.controller.value,
+          bounds,
+        );
+        final view =
+            Offset.zero & tester.getSize(find.byType(IndiaPassportMap));
+        expect(view.overlaps(onScreen), isTrue, reason: location.id);
       }
       expect(tester.takeException(), isNull);
     },
@@ -344,21 +363,35 @@ void main() {
       final center = path.getBounds().center;
       expect(path.contains(center), true);
       await tester.tapAt(tester.getTopLeft(mapFinder) + center);
+      // A single tap waits briefly in case it's a double-tap zoom.
+      await tester.pump(kDoubleTapTimeout + const Duration(milliseconds: 50));
       await tester.pumpAndSettle();
       expect(find.text('Rajasthan'), findsOneWidget);
       await tester.tap(find.byKey(const ValueKey('passport-wanted')));
       await tester.pumpAndSettle();
-      expect(find.text('1 want to visit'), findsOneWidget);
       expect(travel.statusFor('rajasthan'), TravelStatus.wantToVisit);
       await tester.tap(find.byKey(const ValueKey('passport-visited')));
       await tester.pumpAndSettle();
-      expect(find.text('1 of 36 visited'), findsOneWidget);
-      expect(find.text('0 want to visit'), findsOneWidget);
+      expect(travel.statusFor('rajasthan'), TravelStatus.visited);
       expect(
         passportColor(travel.statusFor('rajasthan')),
         AppColors.passportVisited,
       );
+      await tester.tap(find.byKey(const ValueKey('passport-close')));
+      await tester.pumpAndSettle();
+      expect(find.text('1 of 36 visited'), findsOneWidget);
+      expect(find.text('0 want to visit'), findsOneWidget);
+
+      await tester.enterText(
+        find.byKey(const ValueKey('passport-search')),
+        'Rajas',
+      );
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(const ValueKey('passport-result-rajasthan')));
+      await tester.pumpAndSettle();
       await tester.tap(find.byKey(const ValueKey('passport-clear')));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byKey(const ValueKey('passport-close')));
       await tester.pumpAndSettle();
       expect(find.text('0 of 36 visited'), findsOneWidget);
     },
@@ -370,9 +403,8 @@ void main() {
       await tester.runAsync(
         () => const StateExplorationRepository().loadProgress(),
       );
-      await mount(tester, const IndiaPassportPage());
-      await tester.tap(find.text('List'));
-      await tester.pumpAndSettle();
+      final travel = StateTravelService();
+      await mount(tester, IndiaPassportPage(travelService: travel));
       for (final id in [
         'goa',
         'chandigarh',
@@ -380,25 +412,20 @@ void main() {
         'lakshadweep',
         'puducherry',
       ]) {
+        await tester.tap(find.byKey(const ValueKey('passport-list')));
+        await tester.pumpAndSettle();
         await tester.enterText(
-          find.byKey(const ValueKey('passport-search')),
+          find.byKey(const ValueKey('passport-list-search')),
           IndiaLocationRegistry.nameFor(id),
         );
         await tester.pumpAndSettle();
-        final row = find.byKey(ValueKey('passport-state-$id'));
-        await tester.tap(row);
+        await tester.tap(find.byKey(ValueKey('passport-state-$id')));
         await tester.pumpAndSettle();
         expect(find.text(IndiaLocationRegistry.nameFor(id)), findsWidgets);
         await tester.tap(find.byKey(const ValueKey('passport-visited')));
         await tester.pumpAndSettle();
-        Navigator.of(
-          tester.element(find.byKey(const ValueKey('passport-visited'))),
-        ).pop();
-        await tester.pumpAndSettle();
+        expect(travel.statusFor(id), TravelStatus.visited);
       }
-      final row = find.byKey(const ValueKey('passport-state-puducherry'));
-      await tester.tap(row);
-      await tester.pumpAndSettle();
       await tester.runAsync(() async {
         await tester.tap(find.byKey(const ValueKey('passport-explore')));
         await Future<void>.delayed(const Duration(milliseconds: 300));
@@ -419,4 +446,81 @@ void main() {
       expect(tester.takeException(), isNull);
     },
   );
+  testWidgets('searching Goa zooms right in so it can be tapped', (
+    tester,
+  ) async {
+    await tester.runAsync(IndiaMapRepository.load);
+    await tester.runAsync(
+      () => const StateExplorationRepository().loadProgress(),
+    );
+    await mount(tester, const IndiaPassportPage());
+    final map = tester.widget<IndiaPassportMap>(find.byType(IndiaPassportMap));
+    expect(map.controller.value.getMaxScaleOnAxis(), 1);
+    await tester.enterText(find.byKey(const ValueKey('passport-search')), 'go');
+    await tester.pumpAndSettle();
+    expect(find.byKey(const ValueKey('passport-result-goa')), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('passport-result-goa')));
+    await tester.pumpAndSettle();
+    expect(map.controller.value.getMaxScaleOnAxis(), greaterThan(4));
+    expect(find.byKey(const ValueKey('passport-card-goa')), findsOneWidget);
+
+    await tester.tap(find.byKey(const ValueKey('passport-reset')));
+    await tester.pumpAndSettle();
+    expect(map.controller.value.getMaxScaleOnAxis(), 1);
+    expect(find.byKey(const ValueKey('passport-summary')), findsOneWidget);
+  });
+
+  testWidgets('zoom buttons and double-tap zoom smoothly', (tester) async {
+    await tester.runAsync(IndiaMapRepository.load);
+    await tester.runAsync(
+      () => const StateExplorationRepository().loadProgress(),
+    );
+    await mount(tester, const IndiaPassportPage());
+    final map = tester.widget<IndiaPassportMap>(find.byType(IndiaPassportMap));
+    await tester.tap(find.byKey(const ValueKey('passport-zoom-in')));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 200));
+    final midway = map.controller.value.getMaxScaleOnAxis();
+    await tester.pumpAndSettle();
+    final zoomed = map.controller.value.getMaxScaleOnAxis();
+    expect(zoomed, closeTo(2, .01));
+    expect(midway, inExclusiveRange(1, 2));
+    await tester.tap(find.byKey(const ValueKey('passport-zoom-out')));
+    await tester.pumpAndSettle();
+    expect(map.controller.value.getMaxScaleOnAxis(), closeTo(1, .01));
+
+    final mapFinder = find.byKey(const ValueKey('india-map'));
+    final point = tester.getCenter(mapFinder);
+    await tester.tapAt(point);
+    await tester.pump(const Duration(milliseconds: 60));
+    await tester.tapAt(point);
+    await tester.pumpAndSettle();
+    expect(map.controller.value.getMaxScaleOnAxis(), greaterThan(2));
+  });
+
+  test('a near miss next to a small state still picks it', () async {
+    final regions = await IndiaMapRepository.load();
+    const size = Size(390, 700);
+    final paths = {
+      for (final r in regions) r.stateId: IndiaPassportMap.fittedPath(r, size),
+    };
+    final goa = paths['goa']!.getBounds();
+    final justOutside = Offset(goa.left - 3, goa.center.dy);
+    // At the default zoom, Goa is a few pixels wide; a tap just off it
+    // within the tolerance still selects it rather than the sea.
+    expect(
+      IndiaPassportMap.regionAt(paths, goa.center, tolerance: 0),
+      isNotNull,
+    );
+    final picked = IndiaPassportMap.regionAt(
+      paths,
+      justOutside,
+      tolerance: IndiaPassportMap.tapTolerance,
+    );
+    expect(picked, isNotNull);
+    expect(
+      IndiaPassportMap.regionAt(paths, const Offset(2, 2), tolerance: 4),
+      isNull,
+    );
+  });
 }

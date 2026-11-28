@@ -37,31 +37,38 @@ class _IndiaPassportRingState extends State<IndiaPassportRing> {
               color: AppColors.primary,
             ),
           ),
-          Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                '${(value * 100).round()}%',
-                style: const TextStyle(
-                  inherit: false,
-                  fontFamily: 'Roboto',
-                  height: 1.2,
-                  fontSize: 25,
-                  fontWeight: FontWeight.w800,
-                  color: AppColors.navy,
-                ),
+          Padding(
+            // Text scales down to fit smaller rings.
+            padding: EdgeInsets.all(widget.size * .16),
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    '${(value * 100).round()}%',
+                    style: const TextStyle(
+                      inherit: false,
+                      fontFamily: 'Roboto',
+                      height: 1.2,
+                      fontSize: 25,
+                      fontWeight: FontWeight.w800,
+                      color: AppColors.navy,
+                    ),
+                  ),
+                  const Text(
+                    'of India',
+                    style: TextStyle(
+                      inherit: false,
+                      fontFamily: 'Roboto',
+                      height: 1.2,
+                      fontSize: 12,
+                      color: AppColors.navy,
+                    ),
+                  ),
+                ],
               ),
-              const Text(
-                'of India',
-                style: TextStyle(
-                  inherit: false,
-                  fontFamily: 'Roboto',
-                  height: 1.2,
-                  fontSize: 12,
-                  color: AppColors.navy,
-                ),
-              ),
-            ],
+            ),
           ),
         ],
       ),

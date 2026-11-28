@@ -86,20 +86,17 @@ void main() {
       home: const IndiaPassportPage(),
     );
     await capture('india_passport', passport);
-    await tester.tap(find.text('List'));
+    await tester.tap(find.byKey(const ValueKey('passport-list')));
     await tester.pumpAndSettle();
     await capture('india_passport_list', passport);
     await tester.enterText(
-      find.byKey(const ValueKey('passport-search')),
+      find.byKey(const ValueKey('passport-list-search')),
       'Sikkim',
     );
     await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('passport-state-sikkim')));
     await tester.pumpAndSettle();
     await capture('india_passport_state_sheet', passport);
-    Navigator.of(tester.element(find.byKey(const ValueKey('passport-visited'))))
-        .pop();
-    await tester.pumpAndSettle();
     final challenges = await const AssetDataService().loadChallenges();
     await capture(
       'fruit_challenge',
