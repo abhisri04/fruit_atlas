@@ -375,6 +375,41 @@ class Achievement {
     ),
   ];
 
+  static const nutAchievements = [
+    Achievement(
+      id: 'nut_first',
+      title: 'First Crack',
+      description: 'Taste your first nut.',
+      threshold: 1,
+      challengeId: 'taste_world_nuts',
+      iconIdentifier: 'nut',
+    ),
+    Achievement(
+      id: 'nut_ten',
+      title: 'Dry-Fruit Explorer',
+      description: 'Taste 10 nuts.',
+      threshold: 10,
+      challengeId: 'taste_world_nuts',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'nut_twenty_five',
+      title: 'Nut Globetrotter',
+      description: 'Taste 25 nuts.',
+      threshold: 25,
+      challengeId: 'taste_world_nuts',
+      iconIdentifier: 'explore',
+    ),
+    Achievement(
+      id: 'nut_all',
+      title: 'Nuts About the World',
+      description: 'Taste all 53 nuts.',
+      threshold: 53,
+      challengeId: 'taste_world_nuts',
+      iconIdentifier: 'trophy',
+    ),
+  ];
+
   static const collectingAchievements = [
     Achievement(
       id: 'collecting_first',
@@ -602,6 +637,7 @@ class Achievement {
       'explore_garden_plants' => gardenPlantAchievements,
       'start_a_collection' => collectingAchievements,
       'make_something' => makingAchievements,
+      'taste_world_nuts' => nutAchievements,
       'explore_garden_skills' => gardenSkillAchievements,
       'explore_garden_visits' => gardenVisitAchievements,
       'explore_indian_states' => indiaStatesChallengeAchievements,

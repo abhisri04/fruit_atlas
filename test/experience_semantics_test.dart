@@ -127,6 +127,12 @@ void main() {
         start: 'Start smelling',
         continueLabel: 'Smell another',
       ),
+      'taste_world_nuts': (
+        shortTitle: 'Nuts',
+        verb: 'tried',
+        start: 'Start tasting',
+        continueLabel: 'Continue tasting',
+      ),
       'make_something': (
         shortTitle: 'DIY & Art',
         verb: 'made',

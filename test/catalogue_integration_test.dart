@@ -101,7 +101,7 @@ void main() {
     final food = homeSummary.categories.firstWhere(
       (category) => category.categoryId == 'food_drink',
     );
-    expect((food.completed, food.total), (2, 823));
+    expect((food.completed, food.total), (2, 876));
     await show(tester, const MyLifePage());
     expect(find.byKey(const ValueKey('my-life-saved-entry')), findsOneWidget);
     expect(find.text('Overview'), findsOneWidget);

@@ -140,15 +140,18 @@
     {
       "id": "taste_world_nuts",
       "category_id": "food_drink",
-      "name": "Taste Nuts from Around the World",
-      "description": "Discover different nuts from around the world.",
+      "name": "Nuts of the World",
+      "description": "53 nuts from 59 countries: dry-fruit shop classics, Indian favourites and wild nuts from every continent. See where each one comes from and tick off what you taste, kind by kind.",
       "item_type": "nut",
       "geography": "World",
-      "total_items": 50,
+      "total_items": 53,
       "has_sub_items": false,
       "sub_item_type": null,
-      "presentation_type": "checklist_with_details",
-      "short_title": "World Nuts",
+      "presentation_type": "nut_atlas",
+      "data_asset": "assets/data/nuts.json",
+      "progress_key": "completed_nut_ids",
+      "item_summary": "Classics · Indian favourites · Every continent",
+      "short_title": "Nuts",
       "category_name": "Food & Drink",
       "primary_action": "tried",
       "primary_action_label": "Tried",
@@ -158,7 +161,7 @@
       "singular_noun": "nut",
       "plural_noun": "nuts",
       "icon_identifier": "nut",
-      "status": "planned"
+      "status": "active"
     },
     {
       "id": "explore_indian_states",

@@ -8,6 +8,7 @@ import '../screens/dishes/indian_dishes_page.dart';
 import '../screens/drinks/indian_drinks_page.dart';
 import '../screens/books/books_page.dart';
 import '../screens/hubs/category_hub_page.dart';
+import '../screens/nuts/nuts_page.dart';
 import '../services/challenge_groups.dart';
 import '../screens/travel/india_passport_page.dart';
 
@@ -26,6 +27,7 @@ Future<void> openChallenge(BuildContext context, Challenge challenge) async {
             const BooksPage(),
           'checklist_with_subitems' => FruitChallengePage(challenge: challenge),
           'map_checklist' => JyotirlingaChallengePage(challenge: challenge),
+          'nut_atlas' => NutsPage(challenge: challenge),
           'checklist' || 'checklist_with_details' =>
             GenericChecklistChallengePage(challenge: challenge),
           _ => null,

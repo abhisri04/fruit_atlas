@@ -16,6 +16,7 @@ abstract final class Interests {
     Interest('food', 'Food & drinks', [
       'explore_indian_dishes',
       'taste_fruits_of_india',
+      'taste_world_nuts',
       'explore_indian_drinks',
     ]),
     Interest('garden', 'Plants & gardening', ['garden_hub']),

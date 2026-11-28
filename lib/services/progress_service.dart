@@ -717,6 +717,8 @@ class ProgressService {
         'completed_garden_plant_ids' => 'plant',
         'completed_collection_type_ids' => 'collecting',
         'completed_make_ids' => 'make',
+        'completed_nut_ids' => 'nut',
+        'completed_nut_kind_ids' => 'nutkind',
         'completed_garden_skill_ids' => 'gardenskill',
         'completed_garden_visit_ids' => 'gardenvisit',
         _ => null,

@@ -63,7 +63,9 @@ class GamificationService {
           item.startsWith('fruit:') ||
           item.startsWith('variety:') ||
           item.startsWith('dish:') ||
-          item.startsWith('drink:'),
+          item.startsWith('drink:') ||
+          item.startsWith('nut:') ||
+          item.startsWith('nutkind:'),
     );
     final worldComplete = todayActivity.any(
       (item) =>
@@ -130,7 +132,7 @@ class GamificationService {
         tasks: [
           QuestTask(
             id: 'food',
-            label: 'Try a fruit, dish or drink',
+            label: 'Try a fruit, nut, dish or drink',
             conditionGroup: 'food_drink',
             completed: foodComplete,
           ),
