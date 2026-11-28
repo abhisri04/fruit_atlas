@@ -127,12 +127,6 @@ void main() {
         start: 'Start smelling',
         continueLabel: 'Smell another',
       ),
-      'explore_garden_ways': (
-        shortTitle: 'Ways to Garden',
-        verb: 'tried',
-        start: 'Start gardening',
-        continueLabel: 'Try another way',
-      ),
       'explore_garden_plants': (
         shortTitle: 'Plants to Grow',
         verb: 'grown',

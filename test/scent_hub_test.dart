@@ -23,8 +23,8 @@ void main() {
 
       final grouped = groupScentChallenges(active);
       expect(grouped.where((c) => c.categoryId == 'scent'), hasLength(1));
-      // Scent's four and Garden's four each collapse into one tile.
-      expect(grouped, hasLength(active.length - 3 - 3));
+      // Scent's four and Garden's two each collapse into one tile.
+      expect(grouped, hasLength(active.length - 3 - 1));
       final hub = grouped.singleWhere((c) => c.id == scentHubId);
       expect(hub.compactTitle, 'Scent & Perfume');
       expect(hub.totalItems, scent.fold(0, (sum, c) => sum + c.totalItems));

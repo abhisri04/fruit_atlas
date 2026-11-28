@@ -1154,7 +1154,8 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                   const Text(
                     'Explore the linked experiences below. Track State & UT visits separately in India Passport.',
                   )
-                else
+                // Plants have one action, "Add to my garden", below.
+                else if (widget.challenge.itemType != 'plant')
                   Card(
                     child: CheckboxListTile(
                       value: isCompleted,
@@ -1207,7 +1208,7 @@ class _ChecklistItemDetailsPageState extends State<ChecklistItemDetailsPage> {
                 Text(
                   // Action-style names ("Fold a paper crane", "Get to know
                   // Chypre") read better as "About Origami", "About Chypre".
-                  'About ${const {'hobby', 'game', 'scent_family', 'scent_note', 'attar', 'garden_way', 'garden_visit'}.contains(widget.challenge.itemType) ? widget.item.category ?? widget.item.name : widget.item.name}',
+                  'About ${const {'hobby', 'game', 'scent_family', 'scent_note', 'attar', 'garden_visit'}.contains(widget.challenge.itemType) ? widget.item.category ?? widget.item.name : widget.item.name}',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
                 const SizedBox(height: 10),

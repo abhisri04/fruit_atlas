@@ -77,7 +77,6 @@ class GamificationService {
           item.startsWith('perfume:') ||
           item.startsWith('note:') ||
           item.startsWith('attar:') ||
-          item.startsWith('gardenway:') ||
           item.startsWith('plant:') ||
           item.startsWith('gardenskill:') ||
           item.startsWith('gardenvisit:') ||

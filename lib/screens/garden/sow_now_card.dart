@@ -37,6 +37,37 @@ List<Map<String, dynamic>> plantsForMonth(
       plant,
 ];
 
+/// Up to [count] in-season plants, taking turns across kinds (flowers,
+/// vegetables, herbs…) so one kind doesn't fill the list.
+List<Map<String, dynamic>> seasonalMix(
+  List<Map<String, dynamic>> plants,
+  int month, {
+  int count = 8,
+}) {
+  final byKind = <String, List<Map<String, dynamic>>>{};
+  for (final plant in plantsForMonth(plants, month)) {
+    byKind.putIfAbsent('${plant['filter_group']}', () => []).add(plant);
+  }
+  // Flowers first: the kind most people picture when they start.
+  final kinds = byKind.keys.toList()
+    ..sort(
+      (a, b) => (a == 'Flowers' ? 0 : 1).compareTo(b == 'Flowers' ? 0 : 1),
+    );
+  final mixed = <Map<String, dynamic>>[];
+  for (var round = 0; mixed.length < count; round++) {
+    var added = false;
+    for (final kind in kinds) {
+      final list = byKind[kind]!;
+      if (round < list.length && mixed.length < count) {
+        mixed.add(list[round]);
+        added = true;
+      }
+    }
+    if (!added) break;
+  }
+  return mixed;
+}
+
 /// "What to sow this month": a gentle, seasonal nudge on the Garden hub.
 class SowNowCard extends StatefulWidget {
   final DateTime Function()? clock;
@@ -76,7 +107,7 @@ class _SowNowCardState extends State<SowNowCard> {
   Widget build(BuildContext context) {
     final accent = AppColors.categoryAccent('garden');
     final now = this.now;
-    final suggestions = plantsForMonth(plants, now.month).take(8).toList();
+    final suggestions = seasonalMix(plants, now.month);
     return Container(
       key: const ValueKey('sow-now-card'),
       padding: const EdgeInsets.all(16),

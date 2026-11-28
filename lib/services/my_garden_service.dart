@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../models/garden_starter.dart';
 import '../models/item.dart';
 import '../models/my_garden.dart';
 import 'progress_service.dart';
@@ -32,6 +33,25 @@ abstract final class MyGardenService {
     } on FormatException {
       return const MyGarden();
     }
+  }
+
+  static const _starterKey = 'garden_starter_answers_v1';
+
+  /// The "Start gardening" answers, if they've answered.
+  static Future<StarterAnswers?> starterAnswers() async {
+    final raw = (await SharedPreferences.getInstance()).getString(_starterKey);
+    if (raw == null) return null;
+    try {
+      return StarterAnswers.fromJson(jsonDecode(raw) as Map<String, dynamic>);
+    } on FormatException {
+      return null;
+    }
+  }
+
+  static Future<void> saveStarterAnswers(StarterAnswers answers) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString(_starterKey, jsonEncode(answers.toJson()));
+    changes.value++;
   }
 
   static Future<void> _save(MyGarden garden) async {

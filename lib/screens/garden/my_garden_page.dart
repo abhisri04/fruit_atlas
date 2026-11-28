@@ -10,6 +10,7 @@ import '../../widgets/reward_animations.dart';
 import '../../widgets/skill_ladder.dart';
 import 'garden_plant_page.dart';
 import 'garden_sheets.dart';
+import 'garden_starter_page.dart';
 import 'my_garden_share_page.dart';
 import 'sow_now_card.dart';
 
@@ -581,7 +582,20 @@ class _Empty extends StatelessWidget {
           label: const Text('Add your first plant'),
         ),
       ),
-      const SizedBox(height: 24),
+      const SizedBox(height: 8),
+      Center(
+        child: TextButton(
+          key: const ValueKey('garden-empty-starter'),
+          onPressed: () => Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => GardenStarterQuizPage(clock: clock),
+            ),
+          ),
+          child: const Text('Not sure what to grow? Find easy starter plants'),
+        ),
+      ),
+      const SizedBox(height: 16),
       SowNowCard(clock: clock),
     ],
   );

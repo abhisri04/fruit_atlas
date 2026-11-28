@@ -86,7 +86,7 @@ class _GrowThisButtonState extends State<GrowThisButton> {
           Expanded(
             child: Text(
               plant == null
-                  ? 'Growing this? Keep its story in My Garden.'
+                  ? 'Want to grow it? Add it to My Garden to track it.'
                   : 'Growing in My Garden',
               style: const TextStyle(fontWeight: FontWeight.w700),
             ),
@@ -97,7 +97,7 @@ class _GrowThisButtonState extends State<GrowThisButton> {
                 ? FilledButton(
                     key: const ValueKey('grow-this'),
                     onPressed: _add,
-                    child: const Text("I'm growing this"),
+                    child: const Text('Add to my garden'),
                   )
                 : OutlinedButton(
                     key: const ValueKey('grow-this-open'),
@@ -176,4 +176,88 @@ class MyGardenEntry extends StatelessWidget {
       ),
     ),
   );
+}
+
+/// A compact "Add" for plant lists; shows "Growing" once it's in My Garden.
+class AddPlantButton extends StatefulWidget {
+  final Item item;
+  const AddPlantButton({super.key, required this.item});
+
+  @override
+  State<AddPlantButton> createState() => _AddPlantButtonState();
+}
+
+class _AddPlantButtonState extends State<AddPlantButton> {
+  GardenPlant? growing;
+  bool busy = false;
+
+  @override
+  void initState() {
+    super.initState();
+    MyGardenService.changes.addListener(_load);
+    _load();
+  }
+
+  @override
+  void dispose() {
+    MyGardenService.changes.removeListener(_load);
+    super.dispose();
+  }
+
+  Future<void> _load() async {
+    final garden = await MyGardenService.load();
+    if (!mounted) return;
+    setState(
+      () => growing = garden.growing
+          .where((p) => p.catalogueId == widget.item.id)
+          .firstOrNull,
+    );
+  }
+
+  Future<void> _add() async {
+    setState(() => busy = true);
+    final plant = await MyGardenService.addCatalogue(widget.item);
+    if (!mounted) return;
+    setState(() => busy = false);
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(
+        SnackBar(
+          content: Text('${plant.name} is in My Garden'),
+          action: SnackBarAction(
+            label: 'Open',
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (_) => GardenPlantPage(plantId: plant.id),
+              ),
+            ),
+          ),
+        ),
+      );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final plant = growing;
+    if (plant != null) {
+      return TextButton.icon(
+        key: ValueKey('add-plant-growing-${widget.item.id}'),
+        onPressed: () => Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => GardenPlantPage(plantId: plant.id)),
+        ),
+        icon: Icon(Icons.check_circle, color: _accent, size: 18),
+        label: const Text('Growing'),
+      );
+    }
+    return TactileScale(
+      child: FilledButton.tonalIcon(
+        key: ValueKey('add-plant-${widget.item.id}'),
+        onPressed: busy ? null : _add,
+        icon: const Icon(Icons.add, size: 18),
+        label: const Text('Add'),
+      ),
+    );
+  }
 }

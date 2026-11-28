@@ -4,8 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 
+import '../../models/challenge.dart';
 import '../../models/item.dart';
 import '../../models/my_garden.dart';
+import '../../services/asset_data_service.dart';
 import '../../services/my_garden_service.dart';
 import '../../theme/app_colors.dart';
 
@@ -21,6 +23,32 @@ abstract final class GardenCatalogue {
         _cache = null;
         throw error;
       });
+
+  static Future<Challenge>? _plantsChallenge;
+  static Future<Challenge>? _skillsChallenge;
+
+  /// The Plants to Grow collection, for opening plant pages.
+  static Future<Challenge> plantsChallenge() =>
+      _plantsChallenge ??= _challenge('explore_garden_plants');
+
+  /// The Garden Skills collection, for the basics guide.
+  static Future<Challenge> skillsChallenge() =>
+      _skillsChallenge ??= _challenge('explore_garden_skills');
+
+  static Future<Challenge> _challenge(String id) async =>
+      (await const AssetDataService().loadChallenges()).firstWhere(
+        (c) => c.id == id,
+      );
+
+  static Future<List<Map<String, dynamic>>>? _ways;
+
+  /// Ideas for other ways to garden (not tracked).
+  static Future<List<Map<String, dynamic>>> ways() => _ways ??= () async {
+    final json = jsonDecode(
+      await rootBundle.loadString('assets/data/garden_ways.json'),
+    ) as Map<String, dynamic>;
+    return (json['items'] as List<dynamic>).cast<Map<String, dynamic>>();
+  }();
 
   static Future<List<Item>> plants() async =>
       (await raw()).map(Item.fromJson).toList(growable: false);
@@ -415,3 +443,85 @@ class _AddGardenPlantPageState extends State<AddGardenPlantPage> {
     );
   }
 }
+
+/// Icon for a plant type.
+IconData plantTypeIcon(String? type) => switch (type) {
+  'Flowers' => Icons.local_florist_outlined,
+  'Vegetables' => Icons.restaurant_outlined,
+  'Herbs' => Icons.spa_outlined,
+  'Houseplants' => Icons.chair_outlined,
+  'Succulents & Cacti' => Icons.filter_vintage_outlined,
+  'Fruit' => Icons.apple_outlined,
+  'Trees' => Icons.park_outlined,
+  _ => Icons.eco_outlined,
+};
+
+/// The browse tiles: what people want, not botanical groups.
+class PlantShelf {
+  final String id;
+  final String title;
+  final String subtitle;
+  final IconData icon;
+  final Color color;
+  final List<String> types;
+
+  const PlantShelf({
+    required this.id,
+    required this.title,
+    required this.subtitle,
+    required this.icon,
+    required this.color,
+    required this.types,
+  });
+}
+
+const plantShelves = [
+  PlantShelf(
+    id: 'flowers',
+    title: 'Flowers',
+    subtitle: 'Colour and scent',
+    icon: Icons.local_florist_outlined,
+    color: Color(0xFFD9467A),
+    types: ['Flowers'],
+  ),
+  PlantShelf(
+    id: 'food',
+    title: 'Grow your food',
+    subtitle: 'Vegetables to pick',
+    icon: Icons.restaurant_outlined,
+    color: Color(0xFFE07A1F),
+    types: ['Vegetables'],
+  ),
+  PlantShelf(
+    id: 'herbs',
+    title: 'Herbs',
+    subtitle: 'For tea and tadka',
+    icon: Icons.spa_outlined,
+    color: Color(0xFF3E8E4F),
+    types: ['Herbs'],
+  ),
+  PlantShelf(
+    id: 'indoor',
+    title: 'Indoor plants',
+    subtitle: 'Green for any room',
+    icon: Icons.chair_outlined,
+    color: Color(0xFF2F7D7A),
+    types: ['Houseplants'],
+  ),
+  PlantShelf(
+    id: 'succulents',
+    title: 'Succulents & cacti',
+    subtitle: 'Hard to kill',
+    icon: Icons.filter_vintage_outlined,
+    color: Color(0xFF7A8F3A),
+    types: ['Succulents & Cacti'],
+  ),
+  PlantShelf(
+    id: 'fruit_trees',
+    title: 'Fruit & trees',
+    subtitle: 'Grow something big',
+    icon: Icons.park_outlined,
+    color: Color(0xFF6B5B3E),
+    types: ['Fruit', 'Trees'],
+  ),
+];

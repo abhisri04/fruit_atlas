@@ -35,7 +35,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_chilli",
@@ -72,7 +82,17 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_brinjal",
@@ -109,7 +129,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_okra",
@@ -146,7 +176,17 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_spinach",
@@ -181,7 +221,19 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_fenugreek",
@@ -216,7 +268,18 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_radish",
@@ -251,7 +314,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_carrot",
@@ -286,7 +359,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_bottle_gourd",
@@ -323,7 +406,17 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_french_beans",
@@ -360,7 +453,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_peas",
@@ -395,7 +498,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_lettuce",
@@ -430,7 +543,19 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_cucumber",
@@ -465,7 +590,17 @@
         2,
         3,
         4
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_spring_onion",
@@ -509,7 +644,18 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_tulsi",
@@ -546,7 +692,17 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_mint",
@@ -590,7 +746,18 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_coriander",
@@ -625,7 +792,19 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_curry_leaf",
@@ -662,7 +841,17 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_lemongrass",
@@ -699,7 +888,17 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_ajwain_leaf",
@@ -743,7 +942,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_sweet_basil",
@@ -778,7 +989,18 @@
         2,
         3,
         4
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_ginger",
@@ -815,7 +1037,18 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_turmeric",
@@ -852,7 +1085,18 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_garlic",
@@ -887,7 +1131,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_marigold",
@@ -924,7 +1178,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_hibiscus",
@@ -968,7 +1232,17 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_rose",
@@ -1003,7 +1277,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_jasmine",
@@ -1038,7 +1322,17 @@
         2,
         3,
         4
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_sunflower",
@@ -1073,7 +1367,17 @@
         2,
         3,
         4
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_zinnia",
@@ -1110,7 +1414,17 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_petunia",
@@ -1145,7 +1459,18 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_periwinkle",
@@ -1189,7 +1514,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_portulaca",
@@ -1224,7 +1561,18 @@
         2,
         3,
         4
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_bougainvillea",
@@ -1268,7 +1616,17 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_chrysanthemum",
@@ -1302,7 +1660,17 @@
       "sow_months": [
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_cosmos",
@@ -1339,7 +1707,500 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
+    },
+    {
+      "id": "plant_balsam",
+      "challenge_id": "explore_garden_plants",
+      "name": "Balsam (Gul mehendi)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Old-fashioned monsoon flowers in pink, red and white.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun to partial and a small pot.",
+        "Sow straight in the pot; it grows fast."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "balsam (gul mehendi)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun to partial",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Flowers in 40–50 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
+    },
+    {
+      "id": "plant_celosia",
+      "challenge_id": "explore_garden_plants",
+      "name": "Celosia (Cockscomb)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Velvety, flame-like flowers that last for weeks.",
+      "howToSteps": [
+        "Best started: summer · monsoon (approximate; check locally).",
+        "Give it full sun and a small pot.",
+        "Let the soil dry a little between waterings."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "celosia (cockscomb)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Summer · Monsoon",
+        "Light": "Full sun",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Flowers in 50–60 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
+    },
+    {
+      "id": "plant_gaillardia",
+      "challenge_id": "explore_garden_plants",
+      "name": "Gaillardia (Blanket flower)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Red-and-yellow daisies that love heat and dry spells.",
+      "howToSteps": [
+        "Best started: winter · summer (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Hardly needs feeding; too much food means fewer flowers."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "gaillardia (blanket flower)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Winter · Summer",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Flowers in 60–70 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4,
+        9,
+        10,
+        11
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
+    },
+    {
+      "id": "plant_nasturtium",
+      "challenge_id": "explore_garden_plants",
+      "name": "Nasturtium",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Bright trailing flowers you can eat in salads.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun to partial and a small pot.",
+        "Poor soil gives more flowers and fewer leaves."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "nasturtium",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun to partial",
+        "Pot": "Small",
+        "Ease": "Easy",
+        "First reward": "Flowers in 45–60 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
+    },
+    {
+      "id": "plant_pansy",
+      "challenge_id": "explore_garden_plants",
+      "name": "Pansy",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Little faces in every colour for the cool season.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it partial sun and a small pot.",
+        "Start from nursery seedlings for an easy win."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "pansy",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Partial sun",
+        "Pot": "Small",
+        "Ease": "Moderate",
+        "First reward": "Flowers in 70–90 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
+    },
+    {
+      "id": "plant_dahlia",
+      "challenge_id": "explore_garden_plants",
+      "name": "Dahlia",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Big, showy blooms that steal winter shows.",
+      "howToSteps": [
+        "Best started: winter (approximate; check locally).",
+        "Give it full sun and a large pot.",
+        "Stake tall varieties; pinch for more buds."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "dahlia",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Winter",
+        "Light": "Full sun",
+        "Pot": "Large",
+        "Ease": "Moderate",
+        "First reward": "Flowers in about 90 days"
+      },
+      "sow_months": [
+        9,
+        10,
+        11
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
+    },
+    {
+      "id": "plant_ixora",
+      "challenge_id": "explore_garden_plants",
+      "name": "Ixora (Rugmini)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Round clusters of red, orange or pink flowers.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it full sun to partial and a medium pot.",
+        "Feed lightly every month in summer."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "ixora (rugmini)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Full sun to partial",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Flowers most of the year"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
+    },
+    {
+      "id": "plant_desert_rose",
+      "challenge_id": "explore_garden_plants",
+      "name": "Desert rose (Adenium)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "A chunky-stemmed plant with rose-like flowers.",
+      "howToSteps": [
+        "Best started: any time (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Water sparingly; it hates wet feet."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "desert rose (adenium)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Any time",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Flowers in summer"
+      },
+      "sow_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
+    },
+    {
+      "id": "plant_tuberose",
+      "challenge_id": "explore_garden_plants",
+      "name": "Tuberose (Rajnigandha)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Tall stems of deeply fragrant white flowers.",
+      "howToSteps": [
+        "Best started: summer (approximate; check locally).",
+        "Give it full sun and a medium pot.",
+        "Plant the bulbs about 5 cm deep."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "tuberose (rajnigandha)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Summer",
+        "Light": "Full sun",
+        "Pot": "Medium",
+        "Ease": "Easy",
+        "First reward": "Flowers in 90–120 days"
+      },
+      "sow_months": [
+        2,
+        3,
+        4
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
+    },
+    {
+      "id": "plant_night_jasmine",
+      "challenge_id": "explore_garden_plants",
+      "name": "Night jasmine (Raat ki rani)",
+      "category": "Flowers",
+      "filter_group": "Flowers",
+      "difficulty": "beginner",
+      "about": "Tiny flowers that fill the night air with scent.",
+      "howToSteps": [
+        "Best started: monsoon (approximate; check locally).",
+        "Give it full sun to partial and a large pot.",
+        "Prune after flowering to keep it tidy."
+      ],
+      "tags": [
+        "garden",
+        "plant",
+        "flowers"
+      ],
+      "keywords": [
+        "night jasmine (raat ki rani)",
+        "flowers"
+      ],
+      "metadata": {
+        "Plant in": "Monsoon",
+        "Light": "Full sun to partial",
+        "Pot": "Large",
+        "Ease": "Easy",
+        "First reward": "Flowers in a year"
+      },
+      "sow_months": [
+        6,
+        7
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_money_plant",
@@ -1383,7 +2244,20 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "low",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_snake_plant",
@@ -1427,7 +2301,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "low",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_zz_plant",
@@ -1471,7 +2357,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "low",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_spider_plant",
@@ -1515,7 +2413,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_peace_lily",
@@ -1559,7 +2469,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "low",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_areca_palm",
@@ -1603,7 +2525,18 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_rubber_plant",
@@ -1647,7 +2580,18 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_syngonium",
@@ -1691,7 +2635,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_aglaonema",
@@ -1735,7 +2691,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "low",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_lucky_bamboo",
@@ -1779,7 +2747,17 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "low",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_aloe_vera",
@@ -1823,7 +2801,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_jade_plant",
@@ -1867,7 +2857,20 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_echeveria",
@@ -1911,7 +2914,20 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_haworthia",
@@ -1955,7 +2971,19 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_kalanchoe",
@@ -1999,7 +3027,20 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun",
+        "some"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground",
+        "indoors"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_bunny_ears_cactus",
@@ -2043,7 +3084,18 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "windowsill",
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_lemon",
@@ -2087,7 +3139,17 @@
         10,
         11,
         12
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_papaya",
@@ -2124,7 +3186,16 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_strawberry",
@@ -2159,7 +3230,17 @@
         9,
         10,
         11
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_guava",
@@ -2193,7 +3274,16 @@
       "sow_months": [
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_pomegranate",
@@ -2227,7 +3317,17 @@
       "sow_months": [
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "balcony",
+        "terrace",
+        "ground"
+      ],
+      "beginner": false,
+      "low_care": false
     },
     {
       "id": "plant_neem",
@@ -2261,7 +3361,15 @@
       "sow_months": [
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_moringa",
@@ -2295,7 +3403,16 @@
       "sow_months": [
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": true
     },
     {
       "id": "plant_jamun",
@@ -2329,7 +3446,15 @@
       "sow_months": [
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_gulmohar",
@@ -2363,7 +3488,15 @@
       "sow_months": [
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     },
     {
       "id": "plant_champa",
@@ -2400,7 +3533,16 @@
         4,
         6,
         7
-      ]
+      ],
+      "light_levels": [
+        "sun"
+      ],
+      "spaces": [
+        "terrace",
+        "ground"
+      ],
+      "beginner": true,
+      "low_care": false
     }
   ]
 }

@@ -45,9 +45,9 @@ const categoryHubs = <String, CategoryHub>{
     categoryId: gardenCategoryId,
     name: 'Garden & Plants',
     description:
-        'Find a way to garden that fits your space, grow plants through the '
-        'Indian seasons, learn the skills and visit famous gardens.',
-    intro: 'New to gardening? Start with Ways to Garden.',
+        'Start with easy plants that suit your space, browse flowers, food, '
+        'herbs and indoor plants, and keep your own garden.',
+    intro: 'New to gardening? Start with three quick questions.',
     iconIdentifier: 'garden',
     progressVerb: 'done',
   ),

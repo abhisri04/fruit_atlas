@@ -114,6 +114,16 @@ PLANTS = [
     ("Flowers", "Bougainvillea", ["Any time"], "Full sun", "Large", "Easy", "Flowers in a season", "A riot of colour that thrives in heat.", "Flowers best when slightly under-watered."),
     ("Flowers", "Chrysanthemum (Guldaudi)", ["Monsoon"], "Full sun", "Medium", "Moderate", "Flowers in winter", "The star of winter flower shows.", "Pinch tips until late monsoon for more buds."),
     ("Flowers", "Cosmos", ["Summer", "Monsoon"], "Full sun", "Medium", "Easy", "Flowers in 50–60 days", "Airy, daisy-like flowers that self-seed.", "Poor soil gives more flowers."),
+    ("Flowers", "Balsam (Gul mehendi)", ["Summer", "Monsoon"], "Full sun to partial", "Small", "Easy", "Flowers in 40–50 days", "Old-fashioned monsoon flowers in pink, red and white.", "Sow straight in the pot; it grows fast."),
+    ("Flowers", "Celosia (Cockscomb)", ["Summer", "Monsoon"], "Full sun", "Small", "Easy", "Flowers in 50–60 days", "Velvety, flame-like flowers that last for weeks.", "Let the soil dry a little between waterings."),
+    ("Flowers", "Gaillardia (Blanket flower)", ["Winter", "Summer"], "Full sun", "Medium", "Easy", "Flowers in 60–70 days", "Red-and-yellow daisies that love heat and dry spells.", "Hardly needs feeding; too much food means fewer flowers."),
+    ("Flowers", "Nasturtium", ["Winter"], "Full sun to partial", "Small", "Easy", "Flowers in 45–60 days", "Bright trailing flowers you can eat in salads.", "Poor soil gives more flowers and fewer leaves."),
+    ("Flowers", "Pansy", ["Winter"], "Partial sun", "Small", "Moderate", "Flowers in 70–90 days", "Little faces in every colour for the cool season.", "Start from nursery seedlings for an easy win."),
+    ("Flowers", "Dahlia", ["Winter"], "Full sun", "Large", "Moderate", "Flowers in about 90 days", "Big, showy blooms that steal winter shows.", "Stake tall varieties; pinch for more buds."),
+    ("Flowers", "Ixora (Rugmini)", ["Any time"], "Full sun to partial", "Medium", "Easy", "Flowers most of the year", "Round clusters of red, orange or pink flowers.", "Feed lightly every month in summer."),
+    ("Flowers", "Desert rose (Adenium)", ["Any time"], "Full sun", "Medium", "Easy", "Flowers in summer", "A chunky-stemmed plant with rose-like flowers.", "Water sparingly; it hates wet feet."),
+    ("Flowers", "Tuberose (Rajnigandha)", ["Summer"], "Full sun", "Medium", "Easy", "Flowers in 90–120 days", "Tall stems of deeply fragrant white flowers.", "Plant the bulbs about 5 cm deep."),
+    ("Flowers", "Night jasmine (Raat ki rani)", ["Monsoon"], "Full sun to partial", "Large", "Easy", "Flowers in a year", "Tiny flowers that fill the night air with scent.", "Prune after flowering to keep it tidy."),
     ("Houseplants", "Money plant (Pothos)", ["Any time"], "Low to bright indirect", "Small", "Easy", "Settles in 2–3 weeks", "The classic Indian houseplant: grows in water or soil.", "Root a cutting in a bottle of water."),
     ("Houseplants", "Snake plant", ["Any time"], "Low to bright indirect", "Medium", "Easy", "Slow and steady", "Nearly indestructible upright leaves.", "Water only when completely dry."),
     ("Houseplants", "ZZ plant", ["Any time"], "Low light", "Medium", "Easy", "Slow and steady", "Glossy leaves that handle neglect.", "Water every few weeks."),
@@ -219,6 +229,49 @@ def ways():
     ]
 
 
+# Which light answers suit a plant: sun (4+ hours), some (part sun or bright
+# shade), low (indoors, away from windows).
+LIGHT_LEVELS = {
+    "Full sun": ["sun"],
+    "Full sun to partial": ["sun", "some"],
+    "Partial sun": ["sun", "some"],
+    "Bright light": ["sun", "some"],
+    "Bright indirect": ["some"],
+    "Low to medium light": ["low", "some"],
+    "Low to bright indirect": ["low", "some"],
+    "Low light": ["low", "some"],
+}
+
+POT_SPACES = {
+    "Small": ["windowsill", "balcony", "terrace", "ground"],
+    "Shallow": ["windowsill", "balcony", "terrace", "ground"],
+    "Wide, shallow": ["windowsill", "balcony", "terrace", "ground"],
+    "Vase of water": ["windowsill"],
+    "Medium": ["balcony", "terrace", "ground"],
+    "Deep": ["balcony", "terrace", "ground"],
+    "Wide": ["balcony", "terrace", "ground"],
+    "Large": ["balcony", "terrace", "ground"],
+    "Large (15+ litres)": ["balcony", "terrace", "ground"],
+    "Large or ground": ["terrace", "ground"],
+    "In the ground": ["ground"],
+}
+
+INDOOR_LIGHT = {"Bright indirect", "Bright light", "Low to medium light", "Low to bright indirect", "Low light"}
+
+LOW_CARE = {
+    "Periwinkle (Sadabahar)", "Portulaca (9 o'clock flower)", "Bougainvillea", "Lemongrass",
+    "Curry leaf (Kadi patta)", "Gaillardia (Blanket flower)", "Desert rose (Adenium)", "Ixora (Rugmini)",
+    "Neem", "Moringa (Drumstick)", "Mint (Pudina)",
+}
+
+
+def spaces_for(pot, light):
+    spaces = list(POT_SPACES[pot])
+    if light in INDOOR_LIGHT:
+        spaces.append("indoors")
+    return spaces
+
+
 def plants():
     out = []
     for group, name, seasons, light, pot, ease, first, about, tip in PLANTS:
@@ -234,6 +287,11 @@ def plants():
                    ["garden", "plant", slug(group)], [name.lower(), group.lower()],
                    {"Plant in": sow, "Light": light, "Pot": pot, "Ease": ease, "First reward": first}),
             "sow_months": months,
+            # Tags for the "Start gardening" matcher.
+            "light_levels": LIGHT_LEVELS[light],
+            "spaces": spaces_for(pot, light),
+            "beginner": ease == "Easy",
+            "low_care": ease == "Easy" and (group in ("Succulents & Cacti", "Houseplants") or name in LOW_CARE),
         })
     return out
 

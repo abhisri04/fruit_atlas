@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../screens/hubs/category_hub_page.dart';
+import '../screens/garden/garden_home_page.dart';
 import '../services/challenge_groups.dart';
 import '../theme/app_colors.dart';
 import 'reward_animations.dart';
@@ -45,10 +45,7 @@ class GardenHubLink extends StatelessWidget {
           trailing: const Icon(Icons.chevron_right),
           onTap: () => Navigator.push(
             context,
-            MaterialPageRoute(
-              builder: (_) =>
-                  const CategoryHubPage(categoryId: gardenCategoryId),
-            ),
+            MaterialPageRoute(builder: (_) => const GardenHomePage()),
           ),
         ),
       ),

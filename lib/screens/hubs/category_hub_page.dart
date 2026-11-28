@@ -7,13 +7,12 @@ import '../../services/challenge_groups.dart';
 import '../../services/progress_summary_service.dart';
 import '../../theme/app_colors.dart';
 import '../../theme/app_gradients.dart';
-import '../../widgets/my_garden_buttons.dart';
 import '../../widgets/challenge_icon.dart';
 import '../../widgets/empty_state.dart';
 import '../../widgets/reveal.dart';
 import '../../widgets/reward_animations.dart';
 import '../../widgets/scent_shelf_buttons.dart';
-import '../garden/sow_now_card.dart';
+import '../garden/garden_home_page.dart';
 
 /// One home for a hub category (Scent & Perfume, Garden & Plants): its
 /// collections plus a category-specific card at the top.
@@ -39,13 +38,6 @@ class _CategoryHubPageState extends State<CategoryHubPage> {
   /// The card shown above the collections.
   Widget? get topCard => switch (widget.categoryId) {
     scentCategoryId => const MyCollectionEntry(),
-    gardenCategoryId => Column(
-      children: [
-        const MyGardenEntry(),
-        const SizedBox(height: 12),
-        SowNowCard(clock: widget.clock),
-      ],
-    ),
     _ => null,
   };
 
@@ -90,46 +82,56 @@ class _CategoryHubPageState extends State<CategoryHubPage> {
   }
 
   @override
-  Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: Text(hub.name)),
-    body: loading
-        ? const Center(child: CircularProgressIndicator())
-        : error != null
-        ? EmptyState(
-            icon: Icons.cloud_off_outlined,
-            title: 'Unable to load',
-            message: 'Could not load ${hub.name}.\n\n$error',
-          )
-        : ListView(
-            padding: const EdgeInsets.fromLTRB(16, 4, 16, 32),
-            children: [
-              Reveal(child: _hero(context)),
-              if (topCard case final card?) ...[
-                const SizedBox(height: 14),
-                Reveal(index: 1, child: card),
-              ],
-              const SizedBox(height: 22),
-              Text('Explore', style: Theme.of(context).textTheme.titleLarge),
-              const SizedBox(height: 4),
-              Text(hub.intro, style: const TextStyle(color: AppColors.muted)),
-              const SizedBox(height: 12),
-              for (final (index, challenge) in collections.indexed)
-                Reveal(
-                  index: index + 2,
-                  child: _CollectionCard(
-                    challenge: challenge,
-                    progress: groupedProgress(
-                      challenge,
-                      summaryLookup(progress),
-                      collections,
+  Widget build(BuildContext context) =>
+      // Garden & Plants has its own beginner-first home.
+      widget.categoryId == gardenCategoryId
+      ? GardenHomePage(clock: widget.clock)
+      : Scaffold(
+          appBar: AppBar(title: Text(hub.name)),
+          body: loading
+              ? const Center(child: CircularProgressIndicator())
+              : error != null
+              ? EmptyState(
+                  icon: Icons.cloud_off_outlined,
+                  title: 'Unable to load',
+                  message: 'Could not load ${hub.name}.\n\n$error',
+                )
+              : ListView(
+                  padding: const EdgeInsets.fromLTRB(16, 4, 16, 32),
+                  children: [
+                    Reveal(child: _hero(context)),
+                    if (topCard case final card?) ...[
+                      const SizedBox(height: 14),
+                      Reveal(index: 1, child: card),
+                    ],
+                    const SizedBox(height: 22),
+                    Text(
+                      'Explore',
+                      style: Theme.of(context).textTheme.titleLarge,
                     ),
-                    accent: accent,
-                    onTap: () => _open(challenge),
-                  ),
+                    const SizedBox(height: 4),
+                    Text(
+                      hub.intro,
+                      style: const TextStyle(color: AppColors.muted),
+                    ),
+                    const SizedBox(height: 12),
+                    for (final (index, challenge) in collections.indexed)
+                      Reveal(
+                        index: index + 2,
+                        child: _CollectionCard(
+                          challenge: challenge,
+                          progress: groupedProgress(
+                            challenge,
+                            summaryLookup(progress),
+                            collections,
+                          ),
+                          accent: accent,
+                          onTap: () => _open(challenge),
+                        ),
+                      ),
+                  ],
                 ),
-            ],
-          ),
-  );
+        );
 
   Widget _hero(BuildContext context) {
     final total = groupedProgress(

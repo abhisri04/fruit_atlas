@@ -348,33 +348,6 @@ class Achievement {
     ),
   ];
 
-  static const gardenWayAchievements = [
-    Achievement(
-      id: 'garden_way_first',
-      title: 'Green Start',
-      description: 'Try your first way to garden.',
-      threshold: 1,
-      challengeId: 'explore_garden_ways',
-      iconIdentifier: 'garden',
-    ),
-    Achievement(
-      id: 'garden_way_four',
-      title: 'Garden Explorer',
-      description: 'Try 4 ways to garden.',
-      threshold: 4,
-      challengeId: 'explore_garden_ways',
-      iconIdentifier: 'explore',
-    ),
-    Achievement(
-      id: 'garden_way_all',
-      title: 'Every Kind of Garden',
-      description: 'Try all 12 ways to garden.',
-      threshold: 12,
-      challengeId: 'explore_garden_ways',
-      iconIdentifier: 'trophy',
-    ),
-  ];
-
   static const gardenPlantAchievements = [
     Achievement(
       id: 'plant_first',
@@ -403,8 +376,8 @@ class Achievement {
     Achievement(
       id: 'plant_all',
       title: 'Master Gardener',
-      description: 'Grow all 62 plants.',
-      threshold: 62,
+      description: 'Grow all 72 plants.',
+      threshold: 72,
       challengeId: 'explore_garden_plants',
       iconIdentifier: 'trophy',
     ),
@@ -580,7 +553,6 @@ class Achievement {
       'explore_iconic_perfumes' => perfumeAchievements,
       'explore_scent_notes' => scentNoteAchievements,
       'explore_indian_attars' => attarAchievements,
-      'explore_garden_ways' => gardenWayAchievements,
       'explore_garden_plants' => gardenPlantAchievements,
       'explore_garden_skills' => gardenSkillAchievements,
       'explore_garden_visits' => gardenVisitAchievements,

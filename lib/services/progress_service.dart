@@ -706,7 +706,6 @@ class ProgressService {
         'completed_perfume_ids' => 'perfume',
         'completed_scent_note_ids' => 'note',
         'completed_attar_ids' => 'attar',
-        'completed_garden_way_ids' => 'gardenway',
         'completed_garden_plant_ids' => 'plant',
         'completed_garden_skill_ids' => 'gardenskill',
         'completed_garden_visit_ids' => 'gardenvisit',
