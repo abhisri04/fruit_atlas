@@ -15,6 +15,9 @@ class JourneyCard extends StatelessWidget {
   final VoidCallback onTap;
   final double? width;
 
+  /// Replaces the default artwork header, e.g. a live map.
+  final Widget? artwork;
+
   const JourneyCard({
     super.key,
     required this.challenge,
@@ -22,6 +25,7 @@ class JourneyCard extends StatelessWidget {
     required this.total,
     required this.onTap,
     this.width,
+    this.artwork,
   });
 
   @override
@@ -46,15 +50,16 @@ class JourneyCard extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                ExperienceArtwork(
-                  assetPath: challenge.heroImageAsset,
-                  icon: challengeIcon(challenge.iconIdentifier),
-                  accent: accent,
-                  height: 106,
-                  borderRadius: const BorderRadius.vertical(
-                    top: Radius.circular(AppSpacing.radius),
-                  ),
-                ),
+                artwork ??
+                    ExperienceArtwork(
+                      assetPath: challenge.heroImageAsset,
+                      icon: challengeIcon(challenge.iconIdentifier),
+                      accent: accent,
+                      height: 106,
+                      borderRadius: const BorderRadius.vertical(
+                        top: Radius.circular(AppSpacing.radius),
+                      ),
+                    ),
                 Padding(
                   padding: const EdgeInsets.all(14),
                   child: Column(

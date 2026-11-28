@@ -210,6 +210,14 @@ class _IndiaPassportPageState extends State<IndiaPassportPage> {
       title: const Text('India Passport'),
       actions: [
         IconButton(
+          key: const ValueKey('passport-explore-india'),
+          tooltip: 'Explore India by state',
+          icon: const Icon(Icons.explore_outlined),
+          onPressed: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(builder: (_) => const ExploreIndiaPage()),
+          ),
+        ),
+        IconButton(
           key: const ValueKey('passport-share'),
           tooltip: 'Share India Passport',
           icon: const Icon(Icons.ios_share),

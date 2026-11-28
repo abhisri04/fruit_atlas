@@ -13,7 +13,8 @@ import 'package:fruit_atlas/services/progress_service.dart';
 import 'package:fruit_atlas/services/state_exploration_repository.dart';
 import 'package:fruit_atlas/services/progress_summary_service.dart';
 import 'package:fruit_atlas/services/gamification_service.dart';
-import 'package:fruit_atlas/widgets/travel_journeys.dart';
+import 'package:fruit_atlas/screens/travel/explore_india_page.dart';
+import 'package:fruit_atlas/widgets/passport_map_thumbnail.dart';
 import 'package:fruit_atlas/screens/travel/india_passport_page.dart';
 import 'package:fruit_atlas/screens/challenge/checklist_item_details_page.dart';
 import 'package:fruit_atlas/widgets/india_passport_map.dart';
@@ -277,33 +278,52 @@ void main() {
       expect(tester.takeException(), isNull);
     },
   );
-  testWidgets(
-    'entry cards display runtime visits, intent and independent exploration',
-    (tester) async {
-      final state = await tester.runAsync(
-        () => const StateExplorationRepository().load('sikkim'),
-      );
-      await ProgressService.setCompletedExperienceIds(
-        state!.experiences.take(7).map((e) => e.id).toSet(),
-      );
-      final travel = StateTravelService();
-      await travel.load();
-      await travel.setStatus('goa', TravelStatus.visited);
-      await travel.setStatus('delhi', TravelStatus.wantToVisit);
+  testWidgets('the journey-card map shows stamped states and stays live', (
+    tester,
+  ) async {
+    final travel = StateTravelService();
+    await travel.load();
+    await travel.setStatus('goa', TravelStatus.visited);
+    await travel.setStatus('delhi', TravelStatus.wantToVisit);
+    await tester.runAsync(IndiaMapRepository.load);
+    await mount(
+      tester,
+      const Scaffold(body: SizedBox(width: 300, child: PassportMapThumbnail())),
+    );
+    for (var i = 0; i < 20; i++) {
       await tester.runAsync(
-        () => const StateExplorationRepository().loadProgress(),
+        () => Future<void>.delayed(const Duration(milliseconds: 20)),
       );
-      await mount(tester, const Scaffold(body: TravelJourneys()));
-      expect(
-        find.text('1 of 36 visited\n1 want to visit\nView your map →'),
-        findsOneWidget,
+      await tester.pump();
+      if (find.text('1 state stamped').evaluate().isNotEmpty) break;
+    }
+    expect(find.text('1 state stamped'), findsOneWidget);
+
+    await tester.runAsync(
+      () => travel.setStatus('kerala', TravelStatus.visited),
+    );
+    for (var i = 0; i < 20; i++) {
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(milliseconds: 20)),
       );
-      expect(
-        find.text('7 experiences explored\nExplore by state →'),
-        findsOneWidget,
-      );
-    },
-  );
+      await tester.pump();
+      if (find.text('2 states stamped').evaluate().isNotEmpty) break;
+    }
+    expect(find.text('2 states stamped'), findsOneWidget);
+    travel.dispose();
+  });
+  testWidgets('the passport page opens Explore India', (tester) async {
+    final travel = StateTravelService();
+    await tester.runAsync(IndiaMapRepository.load);
+    await tester.runAsync(
+      () => const StateExplorationRepository().loadProgress(),
+    );
+    await mount(tester, IndiaPassportPage(travelService: travel));
+    await tester.tap(find.byKey(const ValueKey('passport-explore-india')));
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 1));
+    expect(find.byType(ExploreIndiaPage), findsOneWidget);
+  });
   testWidgets(
     'map tap opens Rajasthan, actions update summaries and map colors',
     (tester) async {

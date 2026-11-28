@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:fruit_atlas/screens/home/home_page.dart';
-import 'package:fruit_atlas/screens/fruit/fruit_details_page.dart';
 import 'package:fruit_atlas/theme/app_theme.dart';
 import 'package:fruit_atlas/widgets/gamification_header.dart';
 import 'package:fruit_atlas/widgets/journey_card.dart';
@@ -92,22 +91,10 @@ void main() {
         ),
         findsOneWidget,
       );
-      await tester.scrollUntilVisible(
-        find.text('Browse fruits'),
-        300,
-        scrollable: find.byType(Scrollable).first,
-      );
-      await tester.tap(find.text('Browse fruits'));
-      await tester.pump();
-      await tester.ensureVisible(find.byType(TextField));
-      await tester.enterText(find.byType(TextField), 'Dashehari');
-      await tester.pump(const Duration(milliseconds: 300));
-      expect(find.text('Mango'), findsOneWidget);
-      await tester.ensureVisible(find.text('Mango'));
-      await tester.pump();
-      await tester.tap(find.text('Mango'));
-      await tester.pumpAndSettle();
-      expect(find.byType(FruitDetailsPage), findsOneWidget);
+      // The old travel block and Browse fruits card are gone from Home.
+      expect(find.text('Browse fruits'), findsNothing);
+      expect(find.text('Travel & Exploration'), findsNothing);
+      expect(find.byKey(const ValueKey('india-passport-entry')), findsNothing);
       expect(tester.takeException(), isNull);
     },
   );
